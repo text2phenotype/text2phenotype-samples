@@ -1,0 +1,177 @@
+{
+    "file": "id-buttock-abscess.txt-clean.txt",
+    "text2summary": {
+        "Medication": [],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "Buttock abscess",
+                "range": [
+                    23,
+                    38
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "ICD",
+                "range": [
+                    40,
+                    43
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "70199000",
+                "cui": "C0020725",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Type II Mucolipidosis"
+            },
+            {
+                "text": "abscess",
+                "range": [
+                    761,
+                    768
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "44132006",
+                "cui": "C0000833",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Abscess"
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.01,
+        "uncertain_count": 1,
+        "narrow_band_ratio": 0.006,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.686,
+                    "basis",
+                    [
+                        592,
+                        597
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "Buttock",
+                    [
+                        23,
+                        30
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "abscess",
+                    [
+                        31,
+                        38
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "ICD",
+                    [
+                        40,
+                        43
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "abscess",
+                    [
+                        761,
+                        768
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.852,
+                    "Buttock",
+                    [
+                        23,
+                        30
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.927,
+                    "abscess",
+                    [
+                        31,
+                        38
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.597,
+                    "ICD",
+                    [
+                        40,
+                        43
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.49,
+                    "abscess",
+                    [
+                        761,
+                        768
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.09,
+        "uncertain_token_count": 2,
+        "narrow_band_ratio": 0.011,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.521,
+                    "loss",
+                    [
+                        660,
+                        664
+                    ]
+                ]
+            ],
+            "DIAGNOSIS": [
+                [
+                    0.49,
+                    "abscess",
+                    [
+                        761,
+                        768
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

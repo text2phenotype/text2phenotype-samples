@@ -1,0 +1,305 @@
+{
+    "file": "colonoscopy-4.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "Versed",
+                "code": "11177",
+                "cui": "C0042553",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Versed",
+                "range": [
+                    126,
+                    132
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.997
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [
+                    "5",
+                    133,
+                    134
+                ],
+                "medStrengthUnit": [
+                    "mg",
+                    135,
+                    137
+                ]
+            },
+            {
+                "text": "Versed",
+                "code": "11177",
+                "cui": "C0042553",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Versed",
+                "range": [
+                    126,
+                    132
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.997
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [
+                    "5",
+                    133,
+                    134
+                ],
+                "medStrengthUnit": [
+                    "mg",
+                    135,
+                    137
+                ]
+            }
+        ],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "neoplasm",
+                "range": [
+                    706,
+                    714
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "irritable bowel",
+                "range": [
+                    761,
+                    776
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "10743008",
+                "cui": "C0022104",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Irritable Bowel Syndrome"
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.005,
+        "uncertain_count": 1,
+        "narrow_band_ratio": 0.007,
+        "uncertain_tokens": {
+            "MED": [
+                [
+                    0.631,
+                    "Demerol",
+                    [
+                        139,
+                        146
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "PROBLEM": [
+                    "Diarrhea",
+                    [
+                        26,
+                        34
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "neoplasm",
+                    [
+                        706,
+                        714
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "findings",
+                    [
+                        722,
+                        730
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "irritable",
+                    [
+                        761,
+                        770
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "bowel",
+                    [
+                        771,
+                        776
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "syndrome",
+                    [
+                        777,
+                        785
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    ".",
+                    [
+                        785,
+                        786
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "PROBLEM": [
+                    0.467,
+                    "Diarrhea",
+                    [
+                        26,
+                        34
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.704,
+                    "neoplasm",
+                    [
+                        706,
+                        714
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.5,
+                    "findings",
+                    [
+                        722,
+                        730
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.895,
+                    "irritable",
+                    [
+                        761,
+                        770
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.94,
+                    "bowel",
+                    [
+                        771,
+                        776
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.959,
+                    "syndrome",
+                    [
+                        777,
+                        785
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.576,
+                    ".",
+                    [
+                        785,
+                        786
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.102,
+        "uncertain_token_count": 5,
+        "narrow_band_ratio": 0.037,
+        "uncertain_tokens": {
+            "PROBLEM": [
+                [
+                    0.467,
+                    "Diarrhea",
+                    [
+                        26,
+                        34
+                    ]
+                ]
+            ],
+            "NA": [
+                [
+                    0.52,
+                    "colonoscopy",
+                    [
+                        96,
+                        107
+                    ]
+                ],
+                [
+                    0.426,
+                    "polyp",
+                    [
+                        690,
+                        695
+                    ]
+                ],
+                [
+                    0.44,
+                    "other",
+                    [
+                        700,
+                        705
+                    ]
+                ]
+            ],
+            "DIAGNOSIS": [
+                [
+                    0.5,
+                    "findings",
+                    [
+                        722,
+                        730
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

@@ -1,0 +1,878 @@
+{
+    "file": "arthroscopic-slap-lesion.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "Marcaine",
+                "code": "1012397",
+                "cui": "C2945665",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Marcaine",
+                "range": [
+                    4663,
+                    4671
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.965
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            }
+        ],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "Rotator cuff tear",
+                "range": [
+                    26,
+                    43
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "4106009",
+                "cui": "C0263912",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Rotator cuff syndrome"
+            },
+            {
+                "text": "right",
+                "range": [
+                    45,
+                    50
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "Superior labrum anterior and posterior",
+                "range": [
+                    87,
+                    125
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "right shoulder",
+                "range": [
+                    146,
+                    160
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "increasing",
+                "range": [
+                    643,
+                    653
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "cuff tear",
+                "range": [
+                    837,
+                    846
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "SLAP",
+                "range": [
+                    892,
+                    896
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "mechanism",
+                "range": [
+                    1042,
+                    1051
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "into",
+                "range": [
+                    1070,
+                    1074
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "tear",
+                "range": [
+                    4151,
+                    4155
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "35933005",
+                "cui": "C0043246",
+                "tui": "T037",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Laceration"
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.009,
+        "uncertain_count": 3,
+        "narrow_band_ratio": 0.003,
+        "uncertain_tokens": {
+            "MED": [
+                [
+                    0.513,
+                    "general",
+                    [
+                        510,
+                        517
+                    ]
+                ],
+                [
+                    0.586,
+                    "anesthetic",
+                    [
+                        518,
+                        528
+                    ]
+                ],
+                [
+                    0.561,
+                    "tear",
+                    [
+                        3872,
+                        3876
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "Rotator",
+                    [
+                        26,
+                        33
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "cuff",
+                    [
+                        34,
+                        38
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "tear",
+                    [
+                        39,
+                        43
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "right",
+                    [
+                        45,
+                        50
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Superior",
+                    [
+                        87,
+                        95
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "labrum",
+                    [
+                        96,
+                        102
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "anterior",
+                    [
+                        103,
+                        111
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "and",
+                    [
+                        112,
+                        115
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "posterior",
+                    [
+                        116,
+                        125
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "lesion",
+                    [
+                        126,
+                        132
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "(",
+                    [
+                        133,
+                        134
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "peel-back",
+                    [
+                        134,
+                        143
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    ")",
+                    [
+                        143,
+                        144
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    ",",
+                    [
+                        144,
+                        145
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "right",
+                    [
+                        146,
+                        151
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "shoulder",
+                    [
+                        152,
+                        160
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "increasing",
+                    [
+                        643,
+                        653
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "right",
+                    [
+                        654,
+                        659
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "shoulder",
+                    [
+                        660,
+                        668
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "pain",
+                    [
+                        669,
+                        673
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "cuff",
+                    [
+                        837,
+                        841
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "tear",
+                    [
+                        842,
+                        846
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "SLAP",
+                    [
+                        892,
+                        896
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "lesion",
+                    [
+                        897,
+                        903
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "mechanism",
+                    [
+                        1042,
+                        1051
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "into",
+                    [
+                        1070,
+                        1074
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "CA",
+                    [
+                        1682,
+                        1684
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "tear",
+                    [
+                        4151,
+                        4155
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.99,
+                    "Rotator",
+                    [
+                        26,
+                        33
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.988,
+                    "cuff",
+                    [
+                        34,
+                        38
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.986,
+                    "tear",
+                    [
+                        39,
+                        43
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.53,
+                    "right",
+                    [
+                        45,
+                        50
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.914,
+                    "Superior",
+                    [
+                        87,
+                        95
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.98,
+                    "labrum",
+                    [
+                        96,
+                        102
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.981,
+                    "anterior",
+                    [
+                        103,
+                        111
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.604,
+                    "and",
+                    [
+                        112,
+                        115
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.979,
+                    "posterior",
+                    [
+                        116,
+                        125
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.975,
+                    "lesion",
+                    [
+                        126,
+                        132
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.675,
+                    "(",
+                    [
+                        133,
+                        134
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.968,
+                    "peel-back",
+                    [
+                        134,
+                        143
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.832,
+                    ")",
+                    [
+                        143,
+                        144
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.546,
+                    ",",
+                    [
+                        144,
+                        145
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.758,
+                    "right",
+                    [
+                        146,
+                        151
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.632,
+                    "shoulder",
+                    [
+                        152,
+                        160
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.424,
+                    "increasing",
+                    [
+                        643,
+                        653
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.812,
+                    "right",
+                    [
+                        654,
+                        659
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.809,
+                    "shoulder",
+                    [
+                        660,
+                        668
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.787,
+                    "pain",
+                    [
+                        669,
+                        673
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.482,
+                    "rotated",
+                    [
+                        829,
+                        836
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.735,
+                    "cuff",
+                    [
+                        837,
+                        841
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.796,
+                    "tear",
+                    [
+                        842,
+                        846
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.484,
+                    "SLAP",
+                    [
+                        892,
+                        896
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.469,
+                    "lesion",
+                    [
+                        897,
+                        903
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.48,
+                    "mechanism",
+                    [
+                        1042,
+                        1051
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.462,
+                    "displaced",
+                    [
+                        1060,
+                        1069
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.574,
+                    "into",
+                    [
+                        1070,
+                        1074
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.849,
+                    "CA",
+                    [
+                        1682,
+                        1684
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.495,
+                    "tear",
+                    [
+                        4151,
+                        4155
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.133,
+        "uncertain_token_count": 14,
+        "narrow_band_ratio": 0.016,
+        "uncertain_tokens": {
+            "DIAGNOSIS": [
+                [
+                    0.53,
+                    "right",
+                    [
+                        45,
+                        50
+                    ]
+                ],
+                [
+                    0.424,
+                    "increasing",
+                    [
+                        643,
+                        653
+                    ]
+                ],
+                [
+                    0.482,
+                    "rotated",
+                    [
+                        829,
+                        836
+                    ]
+                ],
+                [
+                    0.484,
+                    "SLAP",
+                    [
+                        892,
+                        896
+                    ]
+                ],
+                [
+                    0.469,
+                    "lesion",
+                    [
+                        897,
+                        903
+                    ]
+                ],
+                [
+                    0.48,
+                    "mechanism",
+                    [
+                        1042,
+                        1051
+                    ]
+                ],
+                [
+                    0.462,
+                    "displaced",
+                    [
+                        1060,
+                        1069
+                    ]
+                ],
+                [
+                    0.495,
+                    "tear",
+                    [
+                        4151,
+                        4155
+                    ]
+                ]
+            ],
+            "NA": [
+                [
+                    0.469,
+                    "surgical",
+                    [
+                        700,
+                        708
+                    ]
+                ],
+                [
+                    0.429,
+                    "intervention",
+                    [
+                        709,
+                        721
+                    ]
+                ],
+                [
+                    0.53,
+                    "injury",
+                    [
+                        734,
+                        740
+                    ]
+                ],
+                [
+                    0.523,
+                    "shoulder",
+                    [
+                        754,
+                        762
+                    ]
+                ],
+                [
+                    0.488,
+                    "the",
+                    [
+                        1075,
+                        1078
+                    ]
+                ],
+                [
+                    0.476,
+                    "glenoid",
+                    [
+                        1116,
+                        1123
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

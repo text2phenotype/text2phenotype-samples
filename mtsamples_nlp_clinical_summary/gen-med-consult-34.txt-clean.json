@@ -1,0 +1,520 @@
+{
+    "file": "gen-med-consult-34.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "Omeprazole",
+                "code": "7646",
+                "cui": "C0028978",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Omeprazole",
+                "range": [
+                    1508,
+                    1518
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.991
+                },
+                "medFrequencyNumber": [
+                    "1",
+                    1525,
+                    1529
+                ],
+                "medFrequencyUnit": [
+                    "day",
+                    1532,
+                    1535
+                ],
+                "medStrengthNum": [
+                    "40",
+                    1519,
+                    1521
+                ],
+                "medStrengthUnit": [
+                    "mg",
+                    1522,
+                    1524
+                ]
+            },
+            {
+                "text": "Omeprazole",
+                "code": "7646",
+                "cui": "C0028978",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Omeprazole",
+                "range": [
+                    1508,
+                    1518
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.991
+                },
+                "medFrequencyNumber": [
+                    "1",
+                    1525,
+                    1529
+                ],
+                "medFrequencyUnit": [
+                    "day",
+                    1532,
+                    1535
+                ],
+                "medStrengthNum": [
+                    "40",
+                    1519,
+                    1521
+                ],
+                "medStrengthUnit": [
+                    "mg",
+                    1522,
+                    1524
+                ]
+            }
+        ],
+        "Allergy": [],
+        "Lab": [
+            {
+                "code": "6071",
+                "cui": "C0489786",
+                "tui": "T034",
+                "vocab": "MEDCIN",
+                "polarity": "positive",
+                "text": "height",
+                "preferredText": "HEIGHT (PHYSICAL FINDING)",
+                "range": [
+                    2162,
+                    2168
+                ]
+            }
+        ],
+        "DiseaseDisorder": [
+            {
+                "text": "tail",
+                "range": [
+                    3762,
+                    3766
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.007,
+        "uncertain_count": 4,
+        "narrow_band_ratio": 0.005,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.539,
+                    "over",
+                    [
+                        491,
+                        495
+                    ]
+                ],
+                [
+                    0.556,
+                    "counter",
+                    [
+                        500,
+                        507
+                    ]
+                ],
+                [
+                    0.679,
+                    "herbal",
+                    [
+                        1544,
+                        1550
+                    ]
+                ]
+            ],
+            "MED": [
+                [
+                    0.592,
+                    "antacids",
+                    [
+                        509,
+                        517
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "Chronic",
+                    [
+                        19,
+                        26
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "abdominal",
+                    [
+                        27,
+                        36
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "pain",
+                    [
+                        37,
+                        41
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "chronic",
+                    [
+                        130,
+                        137
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "abdominal",
+                    [
+                        138,
+                        147
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "pain",
+                    [
+                        148,
+                        152
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "epigastric",
+                    [
+                        320,
+                        330
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "pain",
+                    [
+                        331,
+                        335
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "pain",
+                    [
+                        661,
+                        665
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "nausea",
+                    [
+                        688,
+                        694
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "vomiting",
+                    [
+                        699,
+                        707
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "loss",
+                    [
+                        946,
+                        950
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "appetite",
+                    [
+                        1005,
+                        1013
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "tail",
+                    [
+                        3762,
+                        3766
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.674,
+                    "Chronic",
+                    [
+                        19,
+                        26
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.616,
+                    "abdominal",
+                    [
+                        27,
+                        36
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.482,
+                    "pain",
+                    [
+                        37,
+                        41
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.963,
+                    "chronic",
+                    [
+                        130,
+                        137
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.967,
+                    "abdominal",
+                    [
+                        138,
+                        147
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.927,
+                    "pain",
+                    [
+                        148,
+                        152
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.631,
+                    "epigastric",
+                    [
+                        320,
+                        330
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.605,
+                    "pain",
+                    [
+                        331,
+                        335
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.451,
+                    "pain",
+                    [
+                        661,
+                        665
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.556,
+                    "nausea",
+                    [
+                        688,
+                        694
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.569,
+                    "vomiting",
+                    [
+                        699,
+                        707
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.567,
+                    "loss",
+                    [
+                        946,
+                        950
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.416,
+                    "appetite",
+                    [
+                        1005,
+                        1013
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.549,
+                    "tail",
+                    [
+                        3762,
+                        3766
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.09,
+        "uncertain_token_count": 10,
+        "narrow_band_ratio": 0.013,
+        "uncertain_tokens": {
+            "DIAGNOSIS": [
+                [
+                    0.482,
+                    "pain",
+                    [
+                        37,
+                        41
+                    ]
+                ],
+                [
+                    0.451,
+                    "pain",
+                    [
+                        661,
+                        665
+                    ]
+                ]
+            ],
+            "NA": [
+                [
+                    0.416,
+                    "occasional",
+                    [
+                        677,
+                        687
+                    ]
+                ],
+                [
+                    0.518,
+                    "and",
+                    [
+                        695,
+                        698
+                    ]
+                ],
+                [
+                    0.506,
+                    "serology",
+                    [
+                        772,
+                        780
+                    ]
+                ],
+                [
+                    0.424,
+                    "poor",
+                    [
+                        1000,
+                        1004
+                    ]
+                ],
+                [
+                    0.513,
+                    "peripancreatic",
+                    [
+                        3768,
+                        3782
+                    ]
+                ],
+                [
+                    0.457,
+                    "region",
+                    [
+                        3783,
+                        3789
+                    ]
+                ],
+                [
+                    0.517,
+                    "of",
+                    [
+                        3823,
+                        3825
+                    ]
+                ]
+            ],
+            "PROBLEM": [
+                [
+                    0.416,
+                    "appetite",
+                    [
+                        1005,
+                        1013
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

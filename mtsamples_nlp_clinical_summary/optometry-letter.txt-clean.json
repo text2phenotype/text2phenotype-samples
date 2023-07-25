@@ -1,0 +1,155 @@
+{
+    "file": "optometry-letter.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "glasses",
+                "code": null,
+                "cui": null,
+                "tui": null,
+                "vocab": null,
+                "polarity": "positive",
+                "preferredText": null,
+                "range": [
+                    1027,
+                    1034
+                ],
+                "prob": {
+                    "MED": 0.998
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            }
+        ],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "DD",
+                "range": [
+                    133,
+                    135
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "48611009",
+                "cui": "C0022595",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Keratosis Follicularis"
+            },
+            {
+                "text": "macular degeneration",
+                "range": [
+                    189,
+                    209
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "422338006",
+                "cui": "C0024437",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Macular degeneration"
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.01,
+        "uncertain_count": 2,
+        "narrow_band_ratio": 0.008,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.697,
+                    "glasses",
+                    [
+                        837,
+                        844
+                    ]
+                ]
+            ],
+            "MED": [
+                [
+                    0.649,
+                    "reading",
+                    [
+                        1019,
+                        1026
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "DD",
+                    [
+                        133,
+                        135
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "macular",
+                    [
+                        189,
+                        196
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "degeneration",
+                    [
+                        197,
+                        209
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.671,
+                    "DD",
+                    [
+                        133,
+                        135
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.945,
+                    "macular",
+                    [
+                        189,
+                        196
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.964,
+                    "degeneration",
+                    [
+                        197,
+                        209
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.081,
+        "uncertain_token_count": 0,
+        "narrow_band_ratio": 0.0,
+        "uncertain_tokens": {},
+        "narrow_band_width": 0.2
+    }
+}

@@ -1,0 +1,721 @@
+{
+    "file": "speech-therapy-evaluation.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "cocaine",
+                "code": "2653",
+                "cui": "C0009170",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Cocaine",
+                "range": [
+                    860,
+                    867
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.982
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "methamphetamine",
+                "code": "6816",
+                "cui": "C0025611",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Methamphetamine",
+                "range": [
+                    877,
+                    892
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.997
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "marijuana",
+                "code": null,
+                "cui": null,
+                "tui": null,
+                "vocab": null,
+                "polarity": "positive",
+                "preferredText": null,
+                "range": [
+                    898,
+                    907
+                ],
+                "prob": {
+                    "MED": 0.993
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            }
+        ],
+        "Allergy": [
+            {
+                "code": "2653",
+                "cui": "C0009170",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "text": "cocaine",
+                "preferredText": "Cocaine",
+                "range": [
+                    860,
+                    867
+                ]
+            },
+            {
+                "code": "2653",
+                "cui": "C0009170",
+                "tui": "T131",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "text": "cocaine",
+                "preferredText": "Cocaine",
+                "range": [
+                    860,
+                    867
+                ]
+            },
+            {
+                "code": "6816",
+                "cui": "C0025611",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "text": "methamphetamine",
+                "preferredText": "Methamphetamine",
+                "range": [
+                    877,
+                    892
+                ]
+            },
+            {
+                "code": "6816",
+                "cui": "C0025611",
+                "tui": "T131",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "text": "methamphetamine",
+                "preferredText": "Methamphetamine",
+                "range": [
+                    877,
+                    892
+                ]
+            }
+        ],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "Strokes",
+                "range": [
+                    21,
+                    28
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "230690007",
+                "cui": "C0038454",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Cerebrovascular accident"
+            },
+            {
+                "text": "post stroke",
+                "range": [
+                    243,
+                    254
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "illegal drug",
+                "range": [
+                    832,
+                    844
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "cocaine",
+                "range": [
+                    860,
+                    867
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "methamphetamine",
+                "range": [
+                    877,
+                    892
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "difficulty",
+                "range": [
+                    1546,
+                    1556
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "emotional state",
+                "range": [
+                    1561,
+                    1576
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "battery",
+                "range": [
+                    1732,
+                    1739
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "50084004",
+                "cui": "C0542351",
+                "tui": "T037",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Battery (assault)"
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.008,
+        "uncertain_count": 2,
+        "narrow_band_ratio": 0.002,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.639,
+                    "illegal",
+                    [
+                        832,
+                        839
+                    ]
+                ],
+                [
+                    0.694,
+                    "crystal",
+                    [
+                        869,
+                        876
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "Strokes",
+                    [
+                        21,
+                        28
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Global",
+                    [
+                        70,
+                        76
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "aphasia",
+                    [
+                        77,
+                        84
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "post",
+                    [
+                        243,
+                        247
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "stroke",
+                    [
+                        248,
+                        254
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "illegal",
+                    [
+                        832,
+                        839
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "drug",
+                    [
+                        840,
+                        844
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "cocaine",
+                    [
+                        860,
+                        867
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "methamphetamine",
+                    [
+                        877,
+                        892
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "difficulty",
+                    [
+                        1546,
+                        1556
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "emotional",
+                    [
+                        1561,
+                        1570
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "state",
+                    [
+                        1571,
+                        1576
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "aphasia",
+                    [
+                        1724,
+                        1731
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "battery",
+                    [
+                        1732,
+                        1739
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "global",
+                    [
+                        1787,
+                        1793
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "aphasia",
+                    [
+                        1794,
+                        1801
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "able",
+                    [
+                        2569,
+                        2573
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.553,
+                    "Strokes",
+                    [
+                        21,
+                        28
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.855,
+                    "Global",
+                    [
+                        70,
+                        76
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.892,
+                    "aphasia",
+                    [
+                        77,
+                        84
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.699,
+                    "post",
+                    [
+                        243,
+                        247
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.914,
+                    "stroke",
+                    [
+                        248,
+                        254
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.454,
+                    "drug",
+                    [
+                        840,
+                        844
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.474,
+                    "cocaine",
+                    [
+                        860,
+                        867
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.519,
+                    "Aphasia",
+                    [
+                        1442,
+                        1449
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.592,
+                    "difficulty",
+                    [
+                        1546,
+                        1556
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.489,
+                    "emotional",
+                    [
+                        1561,
+                        1570
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.456,
+                    "state",
+                    [
+                        1571,
+                        1576
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.606,
+                    "aphasia",
+                    [
+                        1724,
+                        1731
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.576,
+                    "battery",
+                    [
+                        1732,
+                        1739
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.558,
+                    "global",
+                    [
+                        1787,
+                        1793
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.765,
+                    "aphasia",
+                    [
+                        1794,
+                        1801
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.513,
+                    "able",
+                    [
+                        2569,
+                        2573
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.45,
+                    "global",
+                    [
+                        3539,
+                        3545
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.459,
+                    "aphasia",
+                    [
+                        3546,
+                        3553
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.121,
+        "uncertain_token_count": 14,
+        "narrow_band_ratio": 0.016,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.521,
+                    "status",
+                    [
+                        236,
+                        242
+                    ]
+                ],
+                [
+                    0.512,
+                    "stroke",
+                    [
+                        435,
+                        441
+                    ]
+                ],
+                [
+                    0.485,
+                    "methamphetamine",
+                    [
+                        877,
+                        892
+                    ]
+                ],
+                [
+                    0.519,
+                    "visual",
+                    [
+                        2268,
+                        2274
+                    ]
+                ],
+                [
+                    0.519,
+                    "to",
+                    [
+                        2574,
+                        2576
+                    ]
+                ],
+                [
+                    0.491,
+                    "paraphasias",
+                    [
+                        2909,
+                        2920
+                    ]
+                ]
+            ],
+            "DIAGNOSIS": [
+                [
+                    0.454,
+                    "drug",
+                    [
+                        840,
+                        844
+                    ]
+                ],
+                [
+                    0.474,
+                    "cocaine",
+                    [
+                        860,
+                        867
+                    ]
+                ],
+                [
+                    0.519,
+                    "Aphasia",
+                    [
+                        1442,
+                        1449
+                    ]
+                ],
+                [
+                    0.489,
+                    "emotional",
+                    [
+                        1561,
+                        1570
+                    ]
+                ],
+                [
+                    0.456,
+                    "state",
+                    [
+                        1571,
+                        1576
+                    ]
+                ],
+                [
+                    0.45,
+                    "global",
+                    [
+                        3539,
+                        3545
+                    ]
+                ],
+                [
+                    0.459,
+                    "aphasia",
+                    [
+                        3546,
+                        3553
+                    ]
+                ]
+            ],
+            "PROBLEM": [
+                [
+                    0.513,
+                    "able",
+                    [
+                        2569,
+                        2573
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

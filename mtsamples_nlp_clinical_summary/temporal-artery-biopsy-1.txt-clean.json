@@ -1,0 +1,234 @@
+{
+    "file": "temporal-artery-biopsy-1.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "Xylocaine",
+                "code": "202398",
+                "cui": "C0699094",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Xylocaine",
+                "range": [
+                    922,
+                    931
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.993
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "Xylocaine",
+                "code": "202398",
+                "cui": "C0699094",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Xylocaine",
+                "range": [
+                    922,
+                    931
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.993
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            }
+        ],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "temporal arteritis",
+                "range": [
+                    49,
+                    67
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "400130008",
+                "cui": "C1956391",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Temporal Arteritis"
+            },
+            {
+                "text": "temporal arteritis",
+                "range": [
+                    118,
+                    136
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "400130008",
+                "cui": "C1956391",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Temporal Arteritis"
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.012,
+        "uncertain_count": 2,
+        "narrow_band_ratio": 0.008,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.524,
+                    "Prolene",
+                    [
+                        607,
+                        614
+                    ]
+                ]
+            ],
+            "MED": [
+                [
+                    0.57,
+                    "Prolene",
+                    [
+                        1066,
+                        1073
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "Headaches",
+                    [
+                        26,
+                        35
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "temporal",
+                    [
+                        49,
+                        57
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "arteritis",
+                    [
+                        58,
+                        67
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Headaches",
+                    [
+                        95,
+                        104
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "temporal",
+                    [
+                        118,
+                        126
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "arteritis",
+                    [
+                        127,
+                        136
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.835,
+                    "Headaches",
+                    [
+                        26,
+                        35
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.702,
+                    "temporal",
+                    [
+                        49,
+                        57
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.676,
+                    "arteritis",
+                    [
+                        58,
+                        67
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.743,
+                    "Headaches",
+                    [
+                        95,
+                        104
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.782,
+                    "temporal",
+                    [
+                        118,
+                        126
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.808,
+                    "arteritis",
+                    [
+                        127,
+                        136
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.078,
+        "uncertain_token_count": 0,
+        "narrow_band_ratio": 0.0,
+        "uncertain_tokens": {},
+        "narrow_band_width": 0.2
+    }
+}

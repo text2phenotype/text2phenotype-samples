@@ -1,0 +1,882 @@
+{
+    "file": "discharge-summary-hemodialysis.txt-clean.txt",
+    "text2summary": {
+        "Medication": [],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "End-stage renal disease",
+                "range": [
+                    99,
+                    122
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "433146000",
+                "cui": "C2316810",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Chronic kidney disease stage 5"
+            },
+            {
+                "text": "vertebral fracture",
+                "range": [
+                    160,
+                    178
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "50448004",
+                "cui": "C0080179",
+                "tui": "T037",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Spinal Fractures"
+            },
+            {
+                "text": "Diskitis",
+                "range": [
+                    185,
+                    193
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "2304001",
+                "cui": "C0012624",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Discitis"
+            },
+            {
+                "text": "Thrombocytopenia",
+                "range": [
+                    200,
+                    216
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "302215000",
+                "cui": "C0040034",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Thrombocytopenia"
+            },
+            {
+                "text": "Congestive heart failure",
+                "range": [
+                    223,
+                    247
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "Diabetes",
+                "range": [
+                    298,
+                    306
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "73211009",
+                "cui": "C0011849",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Diabetes Mellitus"
+            },
+            {
+                "text": "type 2",
+                "range": [
+                    308,
+                    314
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "Protein malnourishment",
+                "range": [
+                    321,
+                    343
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "diskitis",
+                "range": [
+                    532,
+                    540
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "2304001",
+                "cui": "C0012624",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Discitis"
+            },
+            {
+                "text": "aggressive",
+                "range": [
+                    1002,
+                    1012
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "episodic",
+                "range": [
+                    1094,
+                    1102
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "trouble with",
+                "range": [
+                    1386,
+                    1398
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "at night",
+                "range": [
+                    1405,
+                    1413
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.007,
+        "uncertain_count": 3,
+        "narrow_band_ratio": 0.007,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.662,
+                    "antibiotic",
+                    [
+                        576,
+                        586
+                    ]
+                ]
+            ],
+            "MED": [
+                [
+                    0.611,
+                    "medication",
+                    [
+                        767,
+                        777
+                    ]
+                ],
+                [
+                    0.524,
+                    "PPD",
+                    [
+                        1720,
+                        1723
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "End-stage",
+                    [
+                        99,
+                        108
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "renal",
+                    [
+                        109,
+                        114
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "disease",
+                    [
+                        115,
+                        122
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "T9",
+                    [
+                        157,
+                        159
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "vertebral",
+                    [
+                        160,
+                        169
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "fracture",
+                    [
+                        170,
+                        178
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Diskitis",
+                    [
+                        185,
+                        193
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Thrombocytopenia",
+                    [
+                        200,
+                        216
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Congestive",
+                    [
+                        223,
+                        233
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "heart",
+                    [
+                        234,
+                        239
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "failure",
+                    [
+                        240,
+                        247
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Diabetes",
+                    [
+                        298,
+                        306
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    ",",
+                    [
+                        306,
+                        307
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "type",
+                    [
+                        308,
+                        312
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "2",
+                    [
+                        313,
+                        314
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Protein",
+                    [
+                        321,
+                        328
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "malnourishment",
+                    [
+                        329,
+                        343
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "anemia",
+                    [
+                        361,
+                        367
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "diskitis",
+                    [
+                        532,
+                        540
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "constipation",
+                    [
+                        898,
+                        910
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "aggressive",
+                    [
+                        1002,
+                        1012
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "management",
+                    [
+                        1013,
+                        1023
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "episodic",
+                    [
+                        1094,
+                        1102
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "confusion",
+                    [
+                        1103,
+                        1112
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "problems",
+                    [
+                        1113,
+                        1121
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "trouble",
+                    [
+                        1386,
+                        1393
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "with",
+                    [
+                        1394,
+                        1398
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "sleep",
+                    [
+                        1399,
+                        1404
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "at",
+                    [
+                        1405,
+                        1407
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "night",
+                    [
+                        1408,
+                        1413
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "eating",
+                    [
+                        1565,
+                        1571
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.981,
+                    "End-stage",
+                    [
+                        99,
+                        108
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.991,
+                    "renal",
+                    [
+                        109,
+                        114
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.987,
+                    "disease",
+                    [
+                        115,
+                        122
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.942,
+                    "T9",
+                    [
+                        157,
+                        159
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.973,
+                    "vertebral",
+                    [
+                        160,
+                        169
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.969,
+                    "fracture",
+                    [
+                        170,
+                        178
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.815,
+                    "Diskitis",
+                    [
+                        185,
+                        193
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.911,
+                    "Thrombocytopenia",
+                    [
+                        200,
+                        216
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.771,
+                    "Congestive",
+                    [
+                        223,
+                        233
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.862,
+                    "heart",
+                    [
+                        234,
+                        239
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.837,
+                    "failure",
+                    [
+                        240,
+                        247
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.992,
+                    "Diabetes",
+                    [
+                        298,
+                        306
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.584,
+                    ",",
+                    [
+                        306,
+                        307
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.985,
+                    "type",
+                    [
+                        308,
+                        312
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.905,
+                    "2",
+                    [
+                        313,
+                        314
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.88,
+                    "Protein",
+                    [
+                        321,
+                        328
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.884,
+                    "malnourishment",
+                    [
+                        329,
+                        343
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.778,
+                    "anemia",
+                    [
+                        361,
+                        367
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.714,
+                    "diskitis",
+                    [
+                        532,
+                        540
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.376,
+                    "constipation",
+                    [
+                        898,
+                        910
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.543,
+                    "aggressive",
+                    [
+                        1002,
+                        1012
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.639,
+                    "management",
+                    [
+                        1013,
+                        1023
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.43,
+                    "episodic",
+                    [
+                        1094,
+                        1102
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.557,
+                    "confusion",
+                    [
+                        1103,
+                        1112
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.59,
+                    "problems",
+                    [
+                        1113,
+                        1121
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.463,
+                    "trouble",
+                    [
+                        1386,
+                        1393
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.497,
+                    "with",
+                    [
+                        1394,
+                        1398
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.732,
+                    "sleep",
+                    [
+                        1399,
+                        1404
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.485,
+                    "at",
+                    [
+                        1405,
+                        1407
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.492,
+                    "eating",
+                    [
+                        1565,
+                        1571
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.135,
+        "uncertain_token_count": 8,
+        "narrow_band_ratio": 0.018,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.358,
+                    "ejection",
+                    [
+                        253,
+                        261
+                    ]
+                ],
+                [
+                    0.432,
+                    "night",
+                    [
+                        1408,
+                        1413
+                    ]
+                ]
+            ],
+            "DIAGNOSIS": [
+                [
+                    0.376,
+                    "constipation",
+                    [
+                        898,
+                        910
+                    ]
+                ]
+            ],
+            "PROBLEM": [
+                [
+                    0.43,
+                    "episodic",
+                    [
+                        1094,
+                        1102
+                    ]
+                ],
+                [
+                    0.463,
+                    "trouble",
+                    [
+                        1386,
+                        1393
+                    ]
+                ],
+                [
+                    0.497,
+                    "with",
+                    [
+                        1394,
+                        1398
+                    ]
+                ],
+                [
+                    0.485,
+                    "at",
+                    [
+                        1405,
+                        1407
+                    ]
+                ],
+                [
+                    0.492,
+                    "eating",
+                    [
+                        1565,
+                        1571
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

@@ -1,0 +1,646 @@
+{
+    "file": "gangrene-surgery.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "antibiotics",
+                "code": null,
+                "cui": null,
+                "tui": null,
+                "vocab": null,
+                "polarity": "positive",
+                "preferredText": null,
+                "range": [
+                    599,
+                    610
+                ],
+                "prob": {
+                    "MED": 0.995
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "Vicoprofen",
+                "code": "220826",
+                "cui": "C0724280",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Vicoprofen",
+                "range": [
+                    4335,
+                    4345
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.999
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "Vicoprofen",
+                "code": "220826",
+                "cui": "C0724280",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Vicoprofen",
+                "range": [
+                    4335,
+                    4345
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.999
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            }
+        ],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "Gangrene osteomyelitis",
+                "range": [
+                    26,
+                    48
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "36024000",
+                "cui": "C0017086",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Gangrene"
+            },
+            {
+                "text": "right second toe",
+                "range": [
+                    50,
+                    66
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "Gangrene osteomyelitis",
+                "range": [
+                    94,
+                    116
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "36024000",
+                "cui": "C0017086",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Gangrene"
+            },
+            {
+                "text": "diabetes",
+                "range": [
+                    214,
+                    222
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "73211009",
+                "cui": "C0011849",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Diabetes Mellitus"
+            },
+            {
+                "text": "lower extremity lymphedema",
+                "range": [
+                    235,
+                    261
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "403385000",
+                "cui": "C1275454",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Lymphedema of lower extremity"
+            },
+            {
+                "text": "foot",
+                "range": [
+                    305,
+                    309
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "299990002",
+                "cui": "C0555973",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Infection of foot"
+            },
+            {
+                "text": "ulcerations",
+                "range": [
+                    367,
+                    378
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "255321001",
+                "cui": "C0041582",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Ulcer"
+            },
+            {
+                "text": "osteomyelitis in the",
+                "range": [
+                    539,
+                    559
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "60168000",
+                "cui": "C0029443",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Osteomyelitis"
+            },
+            {
+                "text": "infection",
+                "range": [
+                    4610,
+                    4619
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "189822004",
+                "cui": "C0009450",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Communicable Diseases"
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.007,
+        "uncertain_count": 2,
+        "narrow_band_ratio": 0.002,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.548,
+                    "blade",
+                    [
+                        1959,
+                        1964
+                    ]
+                ]
+            ],
+            "MED": [
+                [
+                    0.571,
+                    "medications",
+                    [
+                        4242,
+                        4253
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "Gangrene",
+                    [
+                        26,
+                        34
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "osteomyelitis",
+                    [
+                        35,
+                        48
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    ",",
+                    [
+                        48,
+                        49
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "right",
+                    [
+                        50,
+                        55
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "second",
+                    [
+                        56,
+                        62
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "toe",
+                    [
+                        63,
+                        66
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Gangrene",
+                    [
+                        94,
+                        102
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "osteomyelitis",
+                    [
+                        103,
+                        116
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "diabetes",
+                    [
+                        214,
+                        222
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "lower",
+                    [
+                        235,
+                        240
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "extremity",
+                    [
+                        241,
+                        250
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "lymphedema",
+                    [
+                        251,
+                        261
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "foot",
+                    [
+                        305,
+                        309
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "ulcerations",
+                    [
+                        367,
+                        378
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "osteomyelitis",
+                    [
+                        539,
+                        552
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "in",
+                    [
+                        553,
+                        555
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "the",
+                    [
+                        556,
+                        559
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "infection",
+                    [
+                        4610,
+                        4619
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.852,
+                    "Gangrene",
+                    [
+                        26,
+                        34
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.722,
+                    "osteomyelitis",
+                    [
+                        35,
+                        48
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.482,
+                    ",",
+                    [
+                        48,
+                        49
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.61,
+                    "right",
+                    [
+                        50,
+                        55
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.762,
+                    "second",
+                    [
+                        56,
+                        62
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.558,
+                    "toe",
+                    [
+                        63,
+                        66
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.752,
+                    "Gangrene",
+                    [
+                        94,
+                        102
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.703,
+                    "osteomyelitis",
+                    [
+                        103,
+                        116
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.497,
+                    "diabetes",
+                    [
+                        214,
+                        222
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.581,
+                    "lower",
+                    [
+                        235,
+                        240
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.656,
+                    "extremity",
+                    [
+                        241,
+                        250
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.696,
+                    "lymphedema",
+                    [
+                        251,
+                        261
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.575,
+                    "foot",
+                    [
+                        305,
+                        309
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.522,
+                    "osteomyelitis",
+                    [
+                        539,
+                        552
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.506,
+                    "in",
+                    [
+                        553,
+                        555
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.478,
+                    "the",
+                    [
+                        556,
+                        559
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.564,
+                    "infection",
+                    [
+                        4610,
+                        4619
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.11,
+        "uncertain_token_count": 9,
+        "narrow_band_ratio": 0.011,
+        "uncertain_tokens": {
+            "DIAGNOSIS": [
+                [
+                    0.482,
+                    ",",
+                    [
+                        48,
+                        49
+                    ]
+                ],
+                [
+                    0.497,
+                    "diabetes",
+                    [
+                        214,
+                        222
+                    ]
+                ],
+                [
+                    0.522,
+                    "osteomyelitis",
+                    [
+                        539,
+                        552
+                    ]
+                ],
+                [
+                    0.506,
+                    "in",
+                    [
+                        553,
+                        555
+                    ]
+                ],
+                [
+                    0.478,
+                    "the",
+                    [
+                        556,
+                        559
+                    ]
+                ]
+            ],
+            "NA": [
+                [
+                    0.503,
+                    "right",
+                    [
+                        299,
+                        304
+                    ]
+                ],
+                [
+                    0.508,
+                    "ulcerations",
+                    [
+                        367,
+                        378
+                    ]
+                ],
+                [
+                    0.53,
+                    "toe",
+                    [
+                        395,
+                        398
+                    ]
+                ],
+                [
+                    0.511,
+                    "lymphedema",
+                    [
+                        2775,
+                        2785
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

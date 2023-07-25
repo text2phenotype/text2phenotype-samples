@@ -1,0 +1,293 @@
+{
+    "file": "ultrasound-ob-8.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "hCG",
+                "code": "340705",
+                "cui": "C1141639",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Human Chorionic Gonadotropin",
+                "range": [
+                    889,
+                    892
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.911
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            }
+        ],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "double decidual sac",
+                "range": [
+                    158,
+                    177
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.002,
+        "uncertain_count": 0,
+        "narrow_band_ratio": 0.0,
+        "uncertain_tokens": {},
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "nausea",
+                    [
+                        40,
+                        46
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "vomiting",
+                    [
+                        48,
+                        56
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "diarrhea",
+                    [
+                        62,
+                        70
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "double",
+                    [
+                        158,
+                        164
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "decidual",
+                    [
+                        165,
+                        173
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "sac",
+                    [
+                        174,
+                        177
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "sign",
+                    [
+                        178,
+                        182
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "intrauterine",
+                    [
+                        619,
+                        631
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "pregnancy",
+                    [
+                        632,
+                        641
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "intrauterine",
+                    [
+                        715,
+                        727
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "pregnancy",
+                    [
+                        728,
+                        737
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.406,
+                    "nausea",
+                    [
+                        40,
+                        46
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.496,
+                    "vomiting",
+                    [
+                        48,
+                        56
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.574,
+                    "diarrhea",
+                    [
+                        62,
+                        70
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.56,
+                    "double",
+                    [
+                        158,
+                        164
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.612,
+                    "decidual",
+                    [
+                        165,
+                        173
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.716,
+                    "sac",
+                    [
+                        174,
+                        177
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.609,
+                    "sign",
+                    [
+                        178,
+                        182
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.595,
+                    "intrauterine",
+                    [
+                        619,
+                        631
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.75,
+                    "pregnancy",
+                    [
+                        632,
+                        641
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.534,
+                    "intrauterine",
+                    [
+                        715,
+                        727
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.556,
+                    "pregnancy",
+                    [
+                        728,
+                        737
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.199,
+        "uncertain_token_count": 2,
+        "narrow_band_ratio": 0.011,
+        "uncertain_tokens": {
+            "DIAGNOSIS": [
+                [
+                    0.406,
+                    "nausea",
+                    [
+                        40,
+                        46
+                    ]
+                ]
+            ],
+            "PROBLEM": [
+                [
+                    0.496,
+                    "vomiting",
+                    [
+                        48,
+                        56
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

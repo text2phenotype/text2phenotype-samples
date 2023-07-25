@@ -1,0 +1,184 @@
+{
+    "file": "barium-enema.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "barium",
+                "code": "1311067",
+                "cui": "C0004749",
+                "tui": "T196",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Barium",
+                "range": [
+                    266,
+                    272
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.959
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            }
+        ],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "encopresis",
+                "range": [
+                    77,
+                    87
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "302690004",
+                "cui": "C2945606",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Encopresis (finding)"
+            },
+            {
+                "text": "gastrointestinal pattern",
+                "range": [
+                    455,
+                    479
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.008,
+        "uncertain_count": 0,
+        "narrow_band_ratio": 0.0,
+        "uncertain_tokens": {},
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "encopresis",
+                    [
+                        77,
+                        87
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "constipation",
+                    [
+                        92,
+                        104
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "gastrointestinal",
+                    [
+                        455,
+                        471
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "pattern",
+                    [
+                        472,
+                        479
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.894,
+                    "encopresis",
+                    [
+                        77,
+                        87
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.658,
+                    "constipation",
+                    [
+                        92,
+                        104
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.664,
+                    "gastrointestinal",
+                    [
+                        455,
+                        471
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.627,
+                    "pattern",
+                    [
+                        472,
+                        479
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.427,
+                    "enema",
+                    [
+                        1021,
+                        1026
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.142,
+        "uncertain_token_count": 2,
+        "narrow_band_ratio": 0.012,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.497,
+                    "nonobstructive",
+                    [
+                        440,
+                        454
+                    ]
+                ]
+            ],
+            "DIAGNOSIS": [
+                [
+                    0.427,
+                    "enema",
+                    [
+                        1021,
+                        1026
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

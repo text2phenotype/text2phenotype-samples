@@ -1,0 +1,539 @@
+{
+    "file": "vitrectomy-1.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "Marcaine",
+                "code": "1012397",
+                "cui": "C2945665",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Marcaine",
+                "range": [
+                    394,
+                    402
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.998
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [
+                    "0.5",
+                    403,
+                    406
+                ],
+                "medStrengthUnit": [
+                    "%",
+                    406,
+                    407
+                ]
+            },
+            {
+                "text": "lidocaine",
+                "code": "6387",
+                "cui": "C0023660",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Lidocaine",
+                "range": [
+                    412,
+                    421
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.998
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [
+                    "2",
+                    422,
+                    423
+                ],
+                "medStrengthUnit": [
+                    "%",
+                    423,
+                    424
+                ]
+            },
+            {
+                "text": "lidocaine",
+                "code": "6387",
+                "cui": "C0023660",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Lidocaine",
+                "range": [
+                    412,
+                    421
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.998
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [
+                    "2",
+                    422,
+                    423
+                ],
+                "medStrengthUnit": [
+                    "%",
+                    423,
+                    424
+                ]
+            },
+            {
+                "text": "Tobrex",
+                "code": "220333",
+                "cui": "C0723768",
+                "tui": "T195",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Tobrex",
+                "range": [
+                    2161,
+                    2167
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.963
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "Tobrex",
+                "code": "220333",
+                "cui": "C0723768",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Tobrex",
+                "range": [
+                    2161,
+                    2167
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.963
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            }
+        ],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "retinal detachment",
+                "range": [
+                    50,
+                    68
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "42059000",
+                "cui": "C0035305",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Retinal Detachment"
+            },
+            {
+                "text": "right",
+                "range": [
+                    70,
+                    75
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "and retinal detachment",
+                "range": [
+                    127,
+                    149
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "right\neye",
+                "range": [
+                    151,
+                    160
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "retinal tears",
+                "range": [
+                    1302,
+                    1315
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "95690009",
+                "cui": "C0035321",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Retinal Perforations"
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.01,
+        "uncertain_count": 0,
+        "narrow_band_ratio": 0.0,
+        "uncertain_tokens": {},
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "Vitreous",
+                    [
+                        26,
+                        34
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "hemorrhage",
+                    [
+                        35,
+                        45
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "retinal",
+                    [
+                        50,
+                        57
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "detachment",
+                    [
+                        58,
+                        68
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "right",
+                    [
+                        70,
+                        75
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Vitreous",
+                    [
+                        107,
+                        115
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "hemorrhage",
+                    [
+                        116,
+                        126
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "and",
+                    [
+                        127,
+                        130
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "retinal",
+                    [
+                        131,
+                        138
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "detachment",
+                    [
+                        139,
+                        149
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    ",",
+                    [
+                        149,
+                        150
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "right",
+                    [
+                        151,
+                        156
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "eye",
+                    [
+                        157,
+                        160
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "retinal",
+                    [
+                        1302,
+                        1309
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "tears",
+                    [
+                        1310,
+                        1315
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.893,
+                    "Vitreous",
+                    [
+                        26,
+                        34
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.947,
+                    "hemorrhage",
+                    [
+                        35,
+                        45
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.549,
+                    "and",
+                    [
+                        46,
+                        49
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.913,
+                    "retinal",
+                    [
+                        50,
+                        57
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.918,
+                    "detachment",
+                    [
+                        58,
+                        68
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.486,
+                    "right",
+                    [
+                        70,
+                        75
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.861,
+                    "Vitreous",
+                    [
+                        107,
+                        115
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.88,
+                    "hemorrhage",
+                    [
+                        116,
+                        126
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.662,
+                    "and",
+                    [
+                        127,
+                        130
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.802,
+                    "retinal",
+                    [
+                        131,
+                        138
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.795,
+                    "detachment",
+                    [
+                        139,
+                        149
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.587,
+                    ",",
+                    [
+                        149,
+                        150
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.586,
+                    "right",
+                    [
+                        151,
+                        156
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.572,
+                    "eye",
+                    [
+                        157,
+                        160
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.523,
+                    "retinal",
+                    [
+                        1302,
+                        1309
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.076,
+        "uncertain_token_count": 3,
+        "narrow_band_ratio": 0.007,
+        "uncertain_tokens": {
+            "DIAGNOSIS": [
+                [
+                    0.486,
+                    "right",
+                    [
+                        70,
+                        75
+                    ]
+                ],
+                [
+                    0.523,
+                    "retinal",
+                    [
+                        1302,
+                        1309
+                    ]
+                ]
+            ],
+            "NA": [
+                [
+                    0.413,
+                    "tears",
+                    [
+                        1310,
+                        1315
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

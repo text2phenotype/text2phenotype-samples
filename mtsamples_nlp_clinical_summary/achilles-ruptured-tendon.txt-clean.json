@@ -1,0 +1,389 @@
+{
+    "file": "achilles-ruptured-tendon.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "Lovenox",
+                "code": "225036",
+                "cui": "C0728963",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Lovenox",
+                "range": [
+                    2452,
+                    2459
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.999
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "Lovenox",
+                "code": "225036",
+                "cui": "C0728963",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Lovenox",
+                "range": [
+                    2452,
+                    2459
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.999
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            }
+        ],
+        "Allergy": [
+            {
+                "code": "1191",
+                "cui": "C0004057",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "text": "aspirin",
+                "preferredText": "Aspirin",
+                "range": [
+                    2500,
+                    2507
+                ]
+            }
+        ],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "Achilles ruptured tendon",
+                "range": [
+                    19,
+                    43
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "429513001",
+                "cui": "C0263970",
+                "tui": "T037",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Rupture of Achilles tendon"
+            },
+            {
+                "text": "DD",
+                "range": [
+                    189,
+                    191
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "48611009",
+                "cui": "C0022595",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Keratosis Follicularis"
+            },
+            {
+                "text": "Achilles tendon rupture",
+                "range": [
+                    316,
+                    339
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "429513001",
+                "cui": "C0263970",
+                "tui": "T037",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Rupture of Achilles tendon"
+            },
+            {
+                "text": "Right Achilles tendon rupture",
+                "range": [
+                    1642,
+                    1671
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.007,
+        "uncertain_count": 2,
+        "narrow_band_ratio": 0.004,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.681,
+                    "nonoperative",
+                    [
+                        1808,
+                        1820
+                    ]
+                ]
+            ],
+            "MED": [
+                [
+                    0.678,
+                    "aspirin",
+                    [
+                        2500,
+                        2507
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "Achilles",
+                    [
+                        19,
+                        27
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "ruptured",
+                    [
+                        28,
+                        36
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "tendon",
+                    [
+                        37,
+                        43
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "DD",
+                    [
+                        189,
+                        191
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Achilles",
+                    [
+                        316,
+                        324
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "tendon",
+                    [
+                        325,
+                        331
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "rupture",
+                    [
+                        332,
+                        339
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Right",
+                    [
+                        1642,
+                        1647
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Achilles",
+                    [
+                        1648,
+                        1656
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "tendon",
+                    [
+                        1657,
+                        1663
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "rupture",
+                    [
+                        1664,
+                        1671
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.905,
+                    "Achilles",
+                    [
+                        19,
+                        27
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.948,
+                    "ruptured",
+                    [
+                        28,
+                        36
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.895,
+                    "tendon",
+                    [
+                        37,
+                        43
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.656,
+                    "DD",
+                    [
+                        189,
+                        191
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.867,
+                    "Achilles",
+                    [
+                        316,
+                        324
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.893,
+                    "tendon",
+                    [
+                        325,
+                        331
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.788,
+                    "rupture",
+                    [
+                        332,
+                        339
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.842,
+                    "Right",
+                    [
+                        1642,
+                        1647
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.978,
+                    "Achilles",
+                    [
+                        1648,
+                        1656
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.978,
+                    "tendon",
+                    [
+                        1657,
+                        1663
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.921,
+                    "rupture",
+                    [
+                        1664,
+                        1671
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.081,
+        "uncertain_token_count": 2,
+        "narrow_band_ratio": 0.004,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.438,
+                    "basketball",
+                    [
+                        141,
+                        151
+                    ]
+                ],
+                [
+                    0.486,
+                    "Pain",
+                    [
+                        548,
+                        552
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

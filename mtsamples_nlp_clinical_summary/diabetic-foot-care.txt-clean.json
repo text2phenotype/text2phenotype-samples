@@ -1,0 +1,296 @@
+{
+    "file": "diabetic-foot-care.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "Neosporin ointment",
+                "code": "93450",
+                "cui": "C0306959",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Neosporin Ointment",
+                "range": [
+                    769,
+                    787
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 1.0
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "Neosporin ointment",
+                "code": "93450",
+                "cui": "C0306959",
+                "tui": "T195",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Neosporin Ointment",
+                "range": [
+                    769,
+                    787
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 1.0
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            }
+        ],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "Onychomycosis",
+                "range": [
+                    487,
+                    500
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "414941008",
+                "cui": "C0040261",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Onychomycosis"
+            },
+            {
+                "text": "toenails required manual",
+                "range": [
+                    826,
+                    850
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.006,
+        "uncertain_count": 0,
+        "narrow_band_ratio": 0.0,
+        "uncertain_tokens": {},
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "PROBLEM": [
+                    "discolored",
+                    [
+                        445,
+                        455
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Onychocryptosis",
+                    [
+                        465,
+                        480
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Onychomycosis",
+                    [
+                        487,
+                        500
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Difficulty",
+                    [
+                        507,
+                        517
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "in",
+                    [
+                        518,
+                        520
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "walking",
+                    [
+                        521,
+                        528
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "toenails",
+                    [
+                        826,
+                        834
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "required",
+                    [
+                        835,
+                        843
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "manual",
+                    [
+                        844,
+                        850
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.898,
+                    "Onychocryptosis",
+                    [
+                        465,
+                        480
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.968,
+                    "Onychomycosis",
+                    [
+                        487,
+                        500
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.535,
+                    "Difficulty",
+                    [
+                        507,
+                        517
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.514,
+                    "in",
+                    [
+                        518,
+                        520
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.63,
+                    "walking",
+                    [
+                        521,
+                        528
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.503,
+                    "toenails",
+                    [
+                        826,
+                        834
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.614,
+                    "required",
+                    [
+                        835,
+                        843
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.6,
+                    "manual",
+                    [
+                        844,
+                        850
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.21,
+        "uncertain_token_count": 4,
+        "narrow_band_ratio": 0.022,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.497,
+                    "hypertrophic",
+                    [
+                        409,
+                        421
+                    ]
+                ],
+                [
+                    0.508,
+                    "discolored",
+                    [
+                        445,
+                        455
+                    ]
+                ]
+            ],
+            "DIAGNOSIS": [
+                [
+                    0.514,
+                    "in",
+                    [
+                        518,
+                        520
+                    ]
+                ],
+                [
+                    0.503,
+                    "toenails",
+                    [
+                        826,
+                        834
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

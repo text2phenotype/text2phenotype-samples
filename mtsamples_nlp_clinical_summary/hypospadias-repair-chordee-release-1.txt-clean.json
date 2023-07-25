@@ -1,0 +1,434 @@
+{
+    "file": "hypospadias-repair-chordee-release-1.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "antibiotics",
+                "code": null,
+                "cui": null,
+                "tui": null,
+                "vocab": null,
+                "polarity": "positive",
+                "preferredText": null,
+                "range": [
+                    749,
+                    760
+                ],
+                "prob": {
+                    "MED": 0.944
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "blade",
+                "code": "1043245",
+                "cui": "C2948008",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Blade",
+                "range": [
+                    1178,
+                    1183
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.927
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "blade",
+                "code": "1043245",
+                "cui": "C2948008",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Blade",
+                "range": [
+                    2083,
+                    2088
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.993
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "Toradol",
+                "code": "57309",
+                "cui": "C0146226",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Toradol",
+                "range": [
+                    3656,
+                    3663
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 1.0
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "Toradol",
+                "code": "57309",
+                "cui": "C0146226",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Toradol",
+                "range": [
+                    3656,
+                    3663
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 1.0
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            }
+        ],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "chordee",
+                "range": [
+                    51,
+                    58
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "4287008",
+                "cui": "C0221182",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Chordee"
+            },
+            {
+                "text": "asthma",
+                "range": [
+                    63,
+                    69
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "195967001",
+                "cui": "C0004096",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Asthma"
+            },
+            {
+                "text": "with chordee and asthma",
+                "range": [
+                    117,
+                    140
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "abnormality",
+                "range": [
+                    502,
+                    513
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.01,
+        "uncertain_count": 2,
+        "narrow_band_ratio": 0.003,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.672,
+                    "Prolene",
+                    [
+                        920,
+                        927
+                    ]
+                ],
+                [
+                    0.699,
+                    "transfer",
+                    [
+                        3768,
+                        3776
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "Coronal",
+                    [
+                        26,
+                        33
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "hypospadias",
+                    [
+                        34,
+                        45
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "chordee",
+                    [
+                        51,
+                        58
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "asthma",
+                    [
+                        63,
+                        69
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Coronal",
+                    [
+                        97,
+                        104
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "hypospadias",
+                    [
+                        105,
+                        116
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "with",
+                    [
+                        117,
+                        121
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "chordee",
+                    [
+                        122,
+                        129
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "and",
+                    [
+                        130,
+                        133
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "asthma",
+                    [
+                        134,
+                        140
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "hypospadias",
+                    [
+                        490,
+                        501
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "abnormality",
+                    [
+                        502,
+                        513
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.746,
+                    "Coronal",
+                    [
+                        26,
+                        33
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.859,
+                    "hypospadias",
+                    [
+                        34,
+                        45
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.7,
+                    "chordee",
+                    [
+                        51,
+                        58
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.594,
+                    "asthma",
+                    [
+                        63,
+                        69
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.876,
+                    "Coronal",
+                    [
+                        97,
+                        104
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.918,
+                    "hypospadias",
+                    [
+                        105,
+                        116
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.749,
+                    "with",
+                    [
+                        117,
+                        121
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.887,
+                    "chordee",
+                    [
+                        122,
+                        129
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.689,
+                    "and",
+                    [
+                        130,
+                        133
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.919,
+                    "asthma",
+                    [
+                        134,
+                        140
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.555,
+                    "hypospadias",
+                    [
+                        490,
+                        501
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.626,
+                    "abnormality",
+                    [
+                        502,
+                        513
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.085,
+        "uncertain_token_count": 0,
+        "narrow_band_ratio": 0.0,
+        "uncertain_tokens": {},
+        "narrow_band_width": 0.2
+    }
+}

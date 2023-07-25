@@ -1,0 +1,348 @@
+{
+    "file": "arthroscopic-debridement-shoulder.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "gentamicin",
+                "code": "142438",
+                "cui": "C0546866",
+                "tui": "T195",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Gentamicin Sulfate (USP)",
+                "range": [
+                    4109,
+                    4119
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.999
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "gentamicin",
+                "code": "142438",
+                "cui": "C0546866",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Gentamicin Sulfate (USP)",
+                "range": [
+                    4109,
+                    4119
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.999
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "Marcaine",
+                "code": "1012397",
+                "cui": "C2945665",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Marcaine",
+                "range": [
+                    4583,
+                    4591
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.989
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            }
+        ],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "anterior dislocating left",
+                "range": [
+                    36,
+                    61
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "51742006",
+                "cui": "C0751437",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Adenohypophyseal Diseases"
+            },
+            {
+                "text": "Recurrent anterior dislocating left shoulder",
+                "range": [
+                    98,
+                    142
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.011,
+        "uncertain_count": 4,
+        "narrow_band_ratio": 0.005,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.525,
+                    "anesthetic",
+                    [
+                        380,
+                        390
+                    ]
+                ],
+                [
+                    0.539,
+                    "capsule",
+                    [
+                        3265,
+                        3272
+                    ]
+                ],
+                [
+                    0.504,
+                    "capsule",
+                    [
+                        3941,
+                        3948
+                    ]
+                ]
+            ],
+            "MED": [
+                [
+                    0.508,
+                    "solution",
+                    [
+                        3909,
+                        3917
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "anterior",
+                    [
+                        36,
+                        44
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "dislocating",
+                    [
+                        45,
+                        56
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "left",
+                    [
+                        57,
+                        61
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Recurrent",
+                    [
+                        98,
+                        107
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "anterior",
+                    [
+                        108,
+                        116
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "dislocating",
+                    [
+                        117,
+                        128
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "left",
+                    [
+                        129,
+                        133
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "shoulder",
+                    [
+                        134,
+                        142
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "condition",
+                    [
+                        4831,
+                        4840
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.602,
+                    "Recurrent",
+                    [
+                        26,
+                        35
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.853,
+                    "anterior",
+                    [
+                        36,
+                        44
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.807,
+                    "dislocating",
+                    [
+                        45,
+                        56
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.769,
+                    "left",
+                    [
+                        57,
+                        61
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.787,
+                    "Recurrent",
+                    [
+                        98,
+                        107
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.876,
+                    "anterior",
+                    [
+                        108,
+                        116
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.856,
+                    "dislocating",
+                    [
+                        117,
+                        128
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.818,
+                    "left",
+                    [
+                        129,
+                        133
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.674,
+                    "shoulder",
+                    [
+                        134,
+                        142
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.543,
+                    "condition",
+                    [
+                        4831,
+                        4840
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.058,
+        "uncertain_token_count": 1,
+        "narrow_band_ratio": 0.001,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.515,
+                    "shoulder",
+                    [
+                        62,
+                        70
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

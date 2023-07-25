@@ -1,0 +1,577 @@
+{
+    "file": "frontotemporoparietal-craniotomy.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "activated factor VII",
+                "code": "4256",
+                "cui": "C0015505",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Factor VIIa",
+                "range": [
+                    710,
+                    730
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.925
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            }
+        ],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "Acute",
+                "range": [
+                    26,
+                    31
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "right",
+                "range": [
+                    51,
+                    56
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "herniation",
+                "range": [
+                    63,
+                    73
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "414403008",
+                "cui": "C0019270",
+                "tui": "T190",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Hernia"
+            },
+            {
+                "text": "Acute",
+                "range": [
+                    110,
+                    115
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "right",
+                "range": [
+                    135,
+                    140
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "herniation",
+                "range": [
+                    147,
+                    157
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "414403008",
+                "cui": "C0019270",
+                "tui": "T190",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Hernia"
+            },
+            {
+                "text": "herniation",
+                "range": [
+                    374,
+                    384
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "414403008",
+                "cui": "C0019270",
+                "tui": "T190",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Hernia"
+            },
+            {
+                "text": "with\nlarge",
+                "range": [
+                    394,
+                    404
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.011,
+        "uncertain_count": 3,
+        "narrow_band_ratio": 0.006,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.677,
+                    "Povidone",
+                    [
+                        318,
+                        326
+                    ]
+                ],
+                [
+                    0.621,
+                    "Vicryl",
+                    [
+                        2173,
+                        2179
+                    ]
+                ]
+            ],
+            "MED": [
+                [
+                    0.661,
+                    "sponge",
+                    [
+                        2578,
+                        2584
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "Acute",
+                    [
+                        26,
+                        31
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "subdural",
+                    [
+                        32,
+                        40
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "hematoma",
+                    [
+                        41,
+                        49
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "right",
+                    [
+                        51,
+                        56
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "herniation",
+                    [
+                        63,
+                        73
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "syndrome",
+                    [
+                        74,
+                        82
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Acute",
+                    [
+                        110,
+                        115
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "subdural",
+                    [
+                        116,
+                        124
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "hematoma",
+                    [
+                        125,
+                        133
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    ",",
+                    [
+                        133,
+                        134
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "right",
+                    [
+                        135,
+                        140
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "herniation",
+                    [
+                        147,
+                        157
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "syndrome",
+                    [
+                        158,
+                        166
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "herniation",
+                    [
+                        374,
+                        384
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "syndrome",
+                    [
+                        385,
+                        393
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "with",
+                    [
+                        394,
+                        398
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "large",
+                    [
+                        399,
+                        404
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "subdural",
+                    [
+                        405,
+                        413
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "hematoma",
+                    [
+                        414,
+                        422
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "%",
+                    [
+                        426,
+                        427
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.988,
+                    "Acute",
+                    [
+                        26,
+                        31
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.967,
+                    "subdural",
+                    [
+                        32,
+                        40
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.955,
+                    "hematoma",
+                    [
+                        41,
+                        49
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.782,
+                    "right",
+                    [
+                        51,
+                        56
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.893,
+                    "herniation",
+                    [
+                        63,
+                        73
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.92,
+                    "syndrome",
+                    [
+                        74,
+                        82
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.984,
+                    "Acute",
+                    [
+                        110,
+                        115
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.946,
+                    "subdural",
+                    [
+                        116,
+                        124
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.936,
+                    "hematoma",
+                    [
+                        125,
+                        133
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.55,
+                    ",",
+                    [
+                        133,
+                        134
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.857,
+                    "right",
+                    [
+                        135,
+                        140
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.955,
+                    "herniation",
+                    [
+                        147,
+                        157
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.967,
+                    "syndrome",
+                    [
+                        158,
+                        166
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.965,
+                    "herniation",
+                    [
+                        374,
+                        384
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.977,
+                    "syndrome",
+                    [
+                        385,
+                        393
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.804,
+                    "with",
+                    [
+                        394,
+                        398
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.921,
+                    "large",
+                    [
+                        399,
+                        404
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.846,
+                    "subdural",
+                    [
+                        405,
+                        413
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.754,
+                    "hematoma",
+                    [
+                        414,
+                        422
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.633,
+                    "%",
+                    [
+                        426,
+                        427
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.073,
+        "uncertain_token_count": 1,
+        "narrow_band_ratio": 0.002,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.501,
+                    ",",
+                    [
+                        49,
+                        50
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

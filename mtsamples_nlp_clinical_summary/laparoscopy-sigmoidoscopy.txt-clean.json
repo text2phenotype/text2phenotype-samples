@@ -1,0 +1,508 @@
+{
+    "file": "laparoscopy-sigmoidoscopy.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "Marcaine",
+                "code": "1012397",
+                "cui": "C2945665",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Marcaine",
+                "range": [
+                    3286,
+                    3294
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.914
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "antibiotics",
+                "code": null,
+                "cui": null,
+                "tui": null,
+                "vocab": null,
+                "polarity": "positive",
+                "preferredText": null,
+                "range": [
+                    3787,
+                    3798
+                ],
+                "prob": {
+                    "MED": 0.999
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            }
+        ],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "Hemostatic uterine perforation",
+                "range": [
+                    147,
+                    177
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "vaginal bleeding",
+                "range": [
+                    783,
+                    799
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "289530006",
+                "cui": "C2979982",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Vaginal Hemorrhage"
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.011,
+        "uncertain_count": 4,
+        "narrow_band_ratio": 0.006,
+        "uncertain_tokens": {
+            "MED": [
+                [
+                    0.505,
+                    "general",
+                    [
+                        1536,
+                        1543
+                    ]
+                ],
+                [
+                    0.592,
+                    "Gloves",
+                    [
+                        1942,
+                        1948
+                    ]
+                ],
+                [
+                    0.505,
+                    "gas",
+                    [
+                        2133,
+                        2136
+                    ]
+                ]
+            ],
+            "NA": [
+                [
+                    0.518,
+                    "gas",
+                    [
+                        2207,
+                        2210
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "Acute",
+                    [
+                        31,
+                        36
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "pain",
+                    [
+                        37,
+                        41
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Fever",
+                    [
+                        48,
+                        53
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Acute",
+                    [
+                        102,
+                        107
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "pain",
+                    [
+                        108,
+                        112
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Fever",
+                    [
+                        119,
+                        124
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Hemostatic",
+                    [
+                        147,
+                        157
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "uterine",
+                    [
+                        158,
+                        165
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "perforation",
+                    [
+                        166,
+                        177
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "abdominal",
+                    [
+                        607,
+                        616
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "pain",
+                    [
+                        617,
+                        621
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "fever",
+                    [
+                        623,
+                        628
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "chills",
+                    [
+                        633,
+                        639
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "vaginal",
+                    [
+                        783,
+                        790
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "bleeding",
+                    [
+                        791,
+                        799
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.95,
+                    "Acute",
+                    [
+                        31,
+                        36
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.899,
+                    "pain",
+                    [
+                        37,
+                        41
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.711,
+                    "Fever",
+                    [
+                        48,
+                        53
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.863,
+                    "Acute",
+                    [
+                        102,
+                        107
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.837,
+                    "pain",
+                    [
+                        108,
+                        112
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.844,
+                    "Fever",
+                    [
+                        119,
+                        124
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.454,
+                    "Hemostatic",
+                    [
+                        147,
+                        157
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.491,
+                    "uterine",
+                    [
+                        158,
+                        165
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.474,
+                    "perforation",
+                    [
+                        166,
+                        177
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.473,
+                    "gravida-1",
+                    [
+                        464,
+                        473
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.614,
+                    "abdominal",
+                    [
+                        607,
+                        616
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.594,
+                    "pain",
+                    [
+                        617,
+                        621
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.843,
+                    "fever",
+                    [
+                        623,
+                        628
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.871,
+                    "chills",
+                    [
+                        633,
+                        639
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.444,
+                    "vaginal",
+                    [
+                        783,
+                        790
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.407,
+                    "bleeding",
+                    [
+                        791,
+                        799
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.098,
+        "uncertain_token_count": 9,
+        "narrow_band_ratio": 0.013,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.528,
+                    "postoperatively",
+                    [
+                        125,
+                        140
+                    ]
+                ],
+                [
+                    0.445,
+                    "para-1",
+                    [
+                        475,
+                        481
+                    ]
+                ],
+                [
+                    0.435,
+                    "urination",
+                    [
+                        768,
+                        777
+                    ]
+                ]
+            ],
+            "DIAGNOSIS": [
+                [
+                    0.454,
+                    "Hemostatic",
+                    [
+                        147,
+                        157
+                    ]
+                ],
+                [
+                    0.491,
+                    "uterine",
+                    [
+                        158,
+                        165
+                    ]
+                ],
+                [
+                    0.444,
+                    "vaginal",
+                    [
+                        783,
+                        790
+                    ]
+                ],
+                [
+                    0.407,
+                    "bleeding",
+                    [
+                        791,
+                        799
+                    ]
+                ]
+            ],
+            "PROBLEM": [
+                [
+                    0.474,
+                    "perforation",
+                    [
+                        166,
+                        177
+                    ]
+                ],
+                [
+                    0.473,
+                    "gravida-1",
+                    [
+                        464,
+                        473
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

@@ -1,0 +1,963 @@
+{
+    "file": "low-transverse-c-section-7.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "Astramorph",
+                "code": "885779",
+                "cui": "C2726988",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Astramorph",
+                "range": [
+                    1871,
+                    1881
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.998
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "Astramorph",
+                "code": "885779",
+                "cui": "C2726988",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Astramorph",
+                "range": [
+                    1871,
+                    1881
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.998
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "clots",
+                "code": null,
+                "cui": null,
+                "tui": null,
+                "vocab": null,
+                "polarity": "positive",
+                "preferredText": null,
+                "range": [
+                    3959,
+                    3964
+                ],
+                "prob": {
+                    "MED": 0.909
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            }
+        ],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "fetal heart tones",
+                "range": [
+                    195,
+                    212
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "Nonreassuring fetal heart tones",
+                "range": [
+                    395,
+                    426
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "Placenta",
+                "range": [
+                    697,
+                    705
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "cord blood",
+                "range": [
+                    722,
+                    732
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "28835009",
+                "cui": "C0035334",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Retinitis Pigmentosa"
+            },
+            {
+                "text": "cesarean section",
+                "range": [
+                    837,
+                    853
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "failure to progress",
+                "range": [
+                    858,
+                    877
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "mm",
+                "range": [
+                    1120,
+                    1122
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "large anterior",
+                "range": [
+                    1240,
+                    1254
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "large varicosities",
+                "range": [
+                    1268,
+                    1286
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "anterior",
+                "range": [
+                    4358,
+                    4366
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "51742006",
+                "cui": "C0751437",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Adenohypophyseal Diseases"
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.011,
+        "uncertain_count": 4,
+        "narrow_band_ratio": 0.004,
+        "uncertain_tokens": {
+            "MED": [
+                [
+                    0.5,
+                    "anesthetic",
+                    [
+                        1855,
+                        1865
+                    ]
+                ],
+                [
+                    0.581,
+                    "blade",
+                    [
+                        3163,
+                        3168
+                    ]
+                ],
+                [
+                    0.589,
+                    "gases",
+                    [
+                        3829,
+                        3834
+                    ]
+                ]
+            ],
+            "NA": [
+                [
+                    0.56,
+                    "anesthetic",
+                    [
+                        2039,
+                        2049
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "Fibroid",
+                    [
+                        138,
+                        145
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "uterus",
+                    [
+                        146,
+                        152
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Oligohydramnios",
+                    [
+                        159,
+                        174
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "fetal",
+                    [
+                        195,
+                        200
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "heart",
+                    [
+                        201,
+                        206
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "tones",
+                    [
+                        207,
+                        212
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "pregnancy",
+                    [
+                        258,
+                        267
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Fibroid",
+                    [
+                        352,
+                        359
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "uterus",
+                    [
+                        360,
+                        366
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Oligohydramnios",
+                    [
+                        373,
+                        388
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "Nonreassuring",
+                    [
+                        395,
+                        408
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "fetal",
+                    [
+                        409,
+                        414
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "heart",
+                    [
+                        415,
+                        420
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "tones",
+                    [
+                        421,
+                        426
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Placenta",
+                    [
+                        697,
+                        705
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "cord",
+                    [
+                        722,
+                        726
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "blood",
+                    [
+                        727,
+                        732
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "cesarean",
+                    [
+                        837,
+                        845
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "section",
+                    [
+                        846,
+                        853
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "failure",
+                    [
+                        858,
+                        865
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "to",
+                    [
+                        866,
+                        868
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "progress",
+                    [
+                        869,
+                        877
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "contractions",
+                    [
+                        976,
+                        988
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "mm",
+                    [
+                        1120,
+                        1122
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "uterus",
+                    [
+                        1226,
+                        1232
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "large",
+                    [
+                        1240,
+                        1245
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "anterior",
+                    [
+                        1246,
+                        1254
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "fibroid",
+                    [
+                        1255,
+                        1262
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "large",
+                    [
+                        1268,
+                        1273
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "varicosities",
+                    [
+                        1274,
+                        1286
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "anterior",
+                    [
+                        4358,
+                        4366
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "fibroid",
+                    [
+                        4367,
+                        4374
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.601,
+                    "Fibroid",
+                    [
+                        138,
+                        145
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.528,
+                    "uterus",
+                    [
+                        146,
+                        152
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.931,
+                    "Oligohydramnios",
+                    [
+                        159,
+                        174
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.485,
+                    "heart",
+                    [
+                        201,
+                        206
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.38,
+                    "pregnancy",
+                    [
+                        258,
+                        267
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.551,
+                    "Fibroid",
+                    [
+                        352,
+                        359
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.428,
+                    "uterus",
+                    [
+                        360,
+                        366
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.764,
+                    "Oligohydramnios",
+                    [
+                        373,
+                        388
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.467,
+                    "Nonreassuring",
+                    [
+                        395,
+                        408
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.649,
+                    "fetal",
+                    [
+                        409,
+                        414
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.674,
+                    "heart",
+                    [
+                        415,
+                        420
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.58,
+                    "tones",
+                    [
+                        421,
+                        426
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.553,
+                    "Placenta",
+                    [
+                        697,
+                        705
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.609,
+                    "cord",
+                    [
+                        722,
+                        726
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.602,
+                    "cesarean",
+                    [
+                        837,
+                        845
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.678,
+                    "section",
+                    [
+                        846,
+                        853
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.55,
+                    "failure",
+                    [
+                        858,
+                        865
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.576,
+                    "progress",
+                    [
+                        869,
+                        877
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.377,
+                    "contractions",
+                    [
+                        976,
+                        988
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.46,
+                    "mm",
+                    [
+                        1120,
+                        1122
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.666,
+                    "uterus",
+                    [
+                        1226,
+                        1232
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.611,
+                    "large",
+                    [
+                        1240,
+                        1245
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.599,
+                    "anterior",
+                    [
+                        1246,
+                        1254
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.633,
+                    "fibroid",
+                    [
+                        1255,
+                        1262
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.465,
+                    "large",
+                    [
+                        1268,
+                        1273
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.503,
+                    "varicosities",
+                    [
+                        1274,
+                        1286
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.547,
+                    "anterior",
+                    [
+                        4358,
+                        4366
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.641,
+                    "fibroid",
+                    [
+                        4367,
+                        4374
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.104,
+        "uncertain_token_count": 16,
+        "narrow_band_ratio": 0.017,
+        "uncertain_tokens": {
+            "DIAGNOSIS": [
+                [
+                    0.528,
+                    "uterus",
+                    [
+                        146,
+                        152
+                    ]
+                ],
+                [
+                    0.428,
+                    "uterus",
+                    [
+                        360,
+                        366
+                    ]
+                ],
+                [
+                    0.377,
+                    "contractions",
+                    [
+                        976,
+                        988
+                    ]
+                ],
+                [
+                    0.46,
+                    "mm",
+                    [
+                        1120,
+                        1122
+                    ]
+                ],
+                [
+                    0.465,
+                    "large",
+                    [
+                        1268,
+                        1273
+                    ]
+                ],
+                [
+                    0.503,
+                    "varicosities",
+                    [
+                        1274,
+                        1286
+                    ]
+                ]
+            ],
+            "NA": [
+                [
+                    0.399,
+                    "fetal",
+                    [
+                        195,
+                        200
+                    ]
+                ],
+                [
+                    0.451,
+                    "tones",
+                    [
+                        207,
+                        212
+                    ]
+                ],
+                [
+                    0.506,
+                    "Intrauterine",
+                    [
+                        245,
+                        257
+                    ]
+                ],
+                [
+                    0.496,
+                    "to",
+                    [
+                        866,
+                        868
+                    ]
+                ],
+                [
+                    0.517,
+                    "fibroid",
+                    [
+                        1218,
+                        1225
+                    ]
+                ],
+                [
+                    0.529,
+                    "ovaries",
+                    [
+                        1315,
+                        1322
+                    ]
+                ],
+                [
+                    0.516,
+                    "hematoma",
+                    [
+                        4418,
+                        4426
+                    ]
+                ]
+            ],
+            "PROBLEM": [
+                [
+                    0.485,
+                    "heart",
+                    [
+                        201,
+                        206
+                    ]
+                ],
+                [
+                    0.38,
+                    "pregnancy",
+                    [
+                        258,
+                        267
+                    ]
+                ],
+                [
+                    0.467,
+                    "Nonreassuring",
+                    [
+                        395,
+                        408
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

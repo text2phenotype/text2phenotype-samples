@@ -1,0 +1,752 @@
+{
+    "file": "craniotomy-frontotemporal.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "Betadine",
+                "code": "202750",
+                "cui": "C0699524",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Betadine",
+                "range": [
+                    1484,
+                    1492
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.976
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "Betadine",
+                "code": "202750",
+                "cui": "C0699524",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Betadine",
+                "range": [
+                    1484,
+                    1492
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.976
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            }
+        ],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "Right frontotemporal chronic subacute",
+                "range": [
+                    26,
+                    63
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "head injury",
+                "range": [
+                    399,
+                    410
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "head\ninjury",
+                "range": [
+                    447,
+                    458
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "82271004",
+                "cui": "C0018674",
+                "tui": "T037",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Craniocerebral Trauma"
+            },
+            {
+                "text": "membranes",
+                "range": [
+                    949,
+                    958
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "of the blood",
+                "range": [
+                    1024,
+                    1036
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "the cavity",
+                "range": [
+                    1044,
+                    1054
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "Chronic",
+                "range": [
+                    3407,
+                    3414
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.01,
+        "uncertain_count": 2,
+        "narrow_band_ratio": 0.003,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.627,
+                    "thin",
+                    [
+                        2275,
+                        2279
+                    ]
+                ]
+            ],
+            "MED": [
+                [
+                    0.547,
+                    "Sponge",
+                    [
+                        3357,
+                        3363
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "Right",
+                    [
+                        26,
+                        31
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "frontotemporal",
+                    [
+                        32,
+                        46
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "chronic",
+                    [
+                        47,
+                        54
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "subacute",
+                    [
+                        55,
+                        63
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "subdural",
+                    [
+                        64,
+                        72
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "hematoma",
+                    [
+                        73,
+                        81
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "hematoma",
+                    [
+                        156,
+                        164
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "head",
+                    [
+                        399,
+                        403
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "injury",
+                    [
+                        404,
+                        410
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "head",
+                    [
+                        447,
+                        451
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "injury",
+                    [
+                        452,
+                        458
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "subdural",
+                    [
+                        710,
+                        718
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "hematoma",
+                    [
+                        719,
+                        727
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "tumors",
+                    [
+                        764,
+                        770
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "membranes",
+                    [
+                        949,
+                        958
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "bladder",
+                    [
+                        980,
+                        987
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "tumor",
+                    [
+                        988,
+                        993
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "of",
+                    [
+                        1024,
+                        1026
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "the",
+                    [
+                        1027,
+                        1030
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "blood",
+                    [
+                        1031,
+                        1036
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "the",
+                    [
+                        1044,
+                        1047
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "cavity",
+                    [
+                        1048,
+                        1054
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Chronic",
+                    [
+                        3407,
+                        3414
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "subdural",
+                    [
+                        3415,
+                        3423
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "hematoma",
+                    [
+                        3424,
+                        3432
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.685,
+                    "Right",
+                    [
+                        26,
+                        31
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.555,
+                    "frontotemporal",
+                    [
+                        32,
+                        46
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.527,
+                    "chronic",
+                    [
+                        47,
+                        54
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.795,
+                    "subacute",
+                    [
+                        55,
+                        63
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.929,
+                    "subdural",
+                    [
+                        64,
+                        72
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.917,
+                    "hematoma",
+                    [
+                        73,
+                        81
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.464,
+                    "head",
+                    [
+                        399,
+                        403
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.596,
+                    "injury",
+                    [
+                        404,
+                        410
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.603,
+                    "head",
+                    [
+                        447,
+                        451
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.627,
+                    "injury",
+                    [
+                        452,
+                        458
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.417,
+                    "subdural",
+                    [
+                        710,
+                        718
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.501,
+                    "hematoma",
+                    [
+                        719,
+                        727
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.601,
+                    "tumors",
+                    [
+                        764,
+                        770
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.607,
+                    "membranes",
+                    [
+                        949,
+                        958
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.826,
+                    "bladder",
+                    [
+                        980,
+                        987
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.849,
+                    "tumor",
+                    [
+                        988,
+                        993
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.511,
+                    "of",
+                    [
+                        1024,
+                        1026
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.582,
+                    "the",
+                    [
+                        1027,
+                        1030
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.517,
+                    "blood",
+                    [
+                        1031,
+                        1036
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.52,
+                    "the",
+                    [
+                        1044,
+                        1047
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.598,
+                    "cavity",
+                    [
+                        1048,
+                        1054
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.934,
+                    "Chronic",
+                    [
+                        3407,
+                        3414
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.939,
+                    "subdural",
+                    [
+                        3415,
+                        3423
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.896,
+                    "hematoma",
+                    [
+                        3424,
+                        3432
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.127,
+        "uncertain_token_count": 12,
+        "narrow_band_ratio": 0.018,
+        "uncertain_tokens": {
+            "PROBLEM": [
+                [
+                    0.527,
+                    "chronic",
+                    [
+                        47,
+                        54
+                    ]
+                ]
+            ],
+            "NA": [
+                [
+                    0.525,
+                    "subacute",
+                    [
+                        138,
+                        146
+                    ]
+                ],
+                [
+                    0.512,
+                    "hematoma",
+                    [
+                        156,
+                        164
+                    ]
+                ],
+                [
+                    0.459,
+                    "bladder",
+                    [
+                        756,
+                        763
+                    ]
+                ],
+                [
+                    0.5,
+                    "subdural",
+                    [
+                        3472,
+                        3480
+                    ]
+                ],
+                [
+                    0.498,
+                    "membrane",
+                    [
+                        3481,
+                        3489
+                    ]
+                ]
+            ],
+            "DIAGNOSIS": [
+                [
+                    0.464,
+                    "head",
+                    [
+                        399,
+                        403
+                    ]
+                ],
+                [
+                    0.417,
+                    "subdural",
+                    [
+                        710,
+                        718
+                    ]
+                ],
+                [
+                    0.501,
+                    "hematoma",
+                    [
+                        719,
+                        727
+                    ]
+                ],
+                [
+                    0.511,
+                    "of",
+                    [
+                        1024,
+                        1026
+                    ]
+                ],
+                [
+                    0.517,
+                    "blood",
+                    [
+                        1031,
+                        1036
+                    ]
+                ],
+                [
+                    0.52,
+                    "the",
+                    [
+                        1044,
+                        1047
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

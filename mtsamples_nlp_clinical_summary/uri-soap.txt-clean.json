@@ -1,0 +1,371 @@
+{
+    "file": "uri-soap.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "ibuprofen",
+                "code": "5640",
+                "cui": "C0020740",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Ibuprofen",
+                "range": [
+                    1618,
+                    1627
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.997
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "ibuprofen",
+                "code": "5640",
+                "cui": "C0020740",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Ibuprofen",
+                "range": [
+                    1618,
+                    1627
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.997
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            }
+        ],
+        "Allergy": [
+            {
+                "code": "5640",
+                "cui": "C0020740",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "text": "ibuprofen",
+                "preferredText": "Ibuprofen",
+                "range": [
+                    1618,
+                    1627
+                ]
+            },
+            {
+                "code": "202433",
+                "cui": "C0699142",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "text": "Tylenol",
+                "preferredText": "Tylenol",
+                "range": [
+                    1631,
+                    1638
+                ]
+            }
+        ],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "voice",
+                "range": [
+                    340,
+                    345
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "Upper respiratory infection",
+                "range": [
+                    1434,
+                    1461
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "54150009",
+                "cui": "C0041912",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Upper Respiratory Infections"
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.003,
+        "uncertain_count": 0,
+        "narrow_band_ratio": 0.0,
+        "uncertain_tokens": {},
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "PROBLEM": [
+                    "sore",
+                    [
+                        53,
+                        57
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "throat",
+                    [
+                        58,
+                        64
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "congestion",
+                    [
+                        157,
+                        167
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "fever",
+                    [
+                        237,
+                        242
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "eating",
+                    [
+                        306,
+                        312
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "drinking",
+                    [
+                        317,
+                        325
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "voice",
+                    [
+                        340,
+                        345
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "hoarse",
+                    [
+                        355,
+                        361
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Upper",
+                    [
+                        1434,
+                        1439
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "respiratory",
+                    [
+                        1440,
+                        1451
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "infection",
+                    [
+                        1452,
+                        1461
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "PROBLEM": [
+                    0.642,
+                    "sore",
+                    [
+                        53,
+                        57
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.652,
+                    "throat",
+                    [
+                        58,
+                        64
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.457,
+                    "congestion",
+                    [
+                        157,
+                        167
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.569,
+                    "fever",
+                    [
+                        237,
+                        242
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.354,
+                    "eating",
+                    [
+                        306,
+                        312
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.409,
+                    "drinking",
+                    [
+                        317,
+                        325
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.425,
+                    "hoarse",
+                    [
+                        355,
+                        361
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.985,
+                    "Upper",
+                    [
+                        1434,
+                        1439
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.982,
+                    "respiratory",
+                    [
+                        1440,
+                        1451
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.964,
+                    "infection",
+                    [
+                        1452,
+                        1461
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.089,
+        "uncertain_token_count": 5,
+        "narrow_band_ratio": 0.015,
+        "uncertain_tokens": {
+            "DIAGNOSIS": [
+                [
+                    0.457,
+                    "congestion",
+                    [
+                        157,
+                        167
+                    ]
+                ]
+            ],
+            "PROBLEM": [
+                [
+                    0.354,
+                    "eating",
+                    [
+                        306,
+                        312
+                    ]
+                ],
+                [
+                    0.409,
+                    "drinking",
+                    [
+                        317,
+                        325
+                    ]
+                ],
+                [
+                    0.425,
+                    "hoarse",
+                    [
+                        355,
+                        361
+                    ]
+                ]
+            ],
+            "NA": [
+                [
+                    0.448,
+                    "voice",
+                    [
+                        340,
+                        345
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

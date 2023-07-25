@@ -1,0 +1,433 @@
+{
+    "file": "bilateral-upper-lid-blepharoplasty.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "Lidocaine",
+                "code": "6387",
+                "cui": "C0023660",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Lidocaine",
+                "range": [
+                    1423,
+                    1432
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.976
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "Lidocaine",
+                "code": "6387",
+                "cui": "C0023660",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Lidocaine",
+                "range": [
+                    1423,
+                    1432
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.976
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            }
+        ],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "Bilateral upper eyelid",
+                "range": [
+                    26,
+                    48
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "skin of the right upper\neyelid",
+                "range": [
+                    1795,
+                    1825
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.008,
+        "uncertain_count": 0,
+        "narrow_band_ratio": 0.0,
+        "uncertain_tokens": {},
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "Bilateral",
+                    [
+                        26,
+                        35
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "upper",
+                    [
+                        36,
+                        41
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "eyelid",
+                    [
+                        42,
+                        48
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "dermatochalasis",
+                    [
+                        49,
+                        64
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "redundant",
+                    [
+                        315,
+                        324
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "eyelid",
+                    [
+                        325,
+                        331
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "skin",
+                    [
+                        332,
+                        336
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "skin",
+                    [
+                        1795,
+                        1799
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "of",
+                    [
+                        1800,
+                        1802
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "the",
+                    [
+                        1803,
+                        1806
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "right",
+                    [
+                        1807,
+                        1812
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "upper",
+                    [
+                        1813,
+                        1818
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "eyelid",
+                    [
+                        1819,
+                        1825
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.972,
+                    "Bilateral",
+                    [
+                        26,
+                        35
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.926,
+                    "upper",
+                    [
+                        36,
+                        41
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.888,
+                    "eyelid",
+                    [
+                        42,
+                        48
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.692,
+                    "dermatochalasis",
+                    [
+                        49,
+                        64
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.414,
+                    "redundant",
+                    [
+                        315,
+                        324
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.436,
+                    "skin",
+                    [
+                        332,
+                        336
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.621,
+                    "of",
+                    [
+                        1800,
+                        1802
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.608,
+                    "the",
+                    [
+                        1803,
+                        1806
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.518,
+                    "right",
+                    [
+                        1807,
+                        1812
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.528,
+                    "upper",
+                    [
+                        1813,
+                        1818
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.152,
+        "uncertain_token_count": 14,
+        "narrow_band_ratio": 0.025,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.478,
+                    "conditions",
+                    [
+                        274,
+                        284
+                    ]
+                ],
+                [
+                    0.43,
+                    "excess",
+                    [
+                        304,
+                        310
+                    ]
+                ],
+                [
+                    0.482,
+                    "eyelid",
+                    [
+                        325,
+                        331
+                    ]
+                ],
+                [
+                    0.521,
+                    "with",
+                    [
+                        337,
+                        341
+                    ]
+                ],
+                [
+                    0.427,
+                    "puffiness",
+                    [
+                        342,
+                        351
+                    ]
+                ],
+                [
+                    0.491,
+                    "impairment",
+                    [
+                        1097,
+                        1107
+                    ]
+                ],
+                [
+                    0.517,
+                    "lateral",
+                    [
+                        1111,
+                        1118
+                    ]
+                ],
+                [
+                    0.506,
+                    "vision",
+                    [
+                        1119,
+                        1125
+                    ]
+                ],
+                [
+                    0.488,
+                    "skin",
+                    [
+                        1795,
+                        1799
+                    ]
+                ],
+                [
+                    0.49,
+                    "eyelid",
+                    [
+                        1819,
+                        1825
+                    ]
+                ]
+            ],
+            "PROBLEM": [
+                [
+                    0.414,
+                    "redundant",
+                    [
+                        315,
+                        324
+                    ]
+                ],
+                [
+                    0.436,
+                    "skin",
+                    [
+                        332,
+                        336
+                    ]
+                ]
+            ],
+            "DIAGNOSIS": [
+                [
+                    0.518,
+                    "right",
+                    [
+                        1807,
+                        1812
+                    ]
+                ],
+                [
+                    0.528,
+                    "upper",
+                    [
+                        1813,
+                        1818
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

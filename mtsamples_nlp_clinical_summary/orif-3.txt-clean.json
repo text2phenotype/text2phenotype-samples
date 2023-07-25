@@ -1,0 +1,355 @@
+{
+    "file": "orif-3.txt-clean.txt",
+    "text2summary": {
+        "Medication": [],
+        "Allergy": [],
+        "Lab": [
+            {
+                "code": "",
+                "cui": "C0002059",
+                "tui": "T034",
+                "vocab": "LNC",
+                "polarity": "positive",
+                "text": "AP",
+                "preferredText": "ALP - ALKALINE PHOSPHATASE",
+                "range": [
+                    3031,
+                    3033
+                ]
+            }
+        ],
+        "DiseaseDisorder": [
+            {
+                "text": "supracondylar",
+                "range": [
+                    124,
+                    137
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "intercondylar distal\nfemur fracture",
+                "range": [
+                    139,
+                    174
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "bed",
+                "range": [
+                    1294,
+                    1297
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "femur fracture",
+                "range": [
+                    1663,
+                    1677
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "71620000",
+                "cui": "C0015802",
+                "tui": "T037",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Femoral Fractures"
+            },
+            {
+                "text": "fracture",
+                "range": [
+                    3093,
+                    3101
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "125605004",
+                "cui": "C0016658",
+                "tui": "T037",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Fracture"
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.007,
+        "uncertain_count": 1,
+        "narrow_band_ratio": 0.001,
+        "uncertain_tokens": {
+            "MED": [
+                [
+                    0.576,
+                    "antibiotics",
+                    [
+                        1191,
+                        1202
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "ES",
+                    [
+                        114,
+                        116
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "supracondylar",
+                    [
+                        124,
+                        137
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "intercondylar",
+                    [
+                        139,
+                        152
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "distal",
+                    [
+                        153,
+                        159
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "femur",
+                    [
+                        160,
+                        165
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "fracture",
+                    [
+                        166,
+                        174
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "bed",
+                    [
+                        1294,
+                        1297
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "femur",
+                    [
+                        1663,
+                        1668
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "fracture",
+                    [
+                        1669,
+                        1677
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "fracture",
+                    [
+                        3093,
+                        3101
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.63,
+                    "ES",
+                    [
+                        26,
+                        28
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.929,
+                    "ES",
+                    [
+                        114,
+                        116
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.787,
+                    "supracondylar",
+                    [
+                        124,
+                        137
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.811,
+                    "intercondylar",
+                    [
+                        139,
+                        152
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.901,
+                    "distal",
+                    [
+                        153,
+                        159
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.897,
+                    "femur",
+                    [
+                        160,
+                        165
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.943,
+                    "fracture",
+                    [
+                        166,
+                        174
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.565,
+                    "femur",
+                    [
+                        1663,
+                        1668
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.507,
+                    "fracture",
+                    [
+                        1669,
+                        1677
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.504,
+                    "fracture",
+                    [
+                        3093,
+                        3101
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.074,
+        "uncertain_token_count": 5,
+        "narrow_band_ratio": 0.006,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.51,
+                    "supracondylar",
+                    [
+                        36,
+                        49
+                    ]
+                ],
+                [
+                    0.5,
+                    "injury",
+                    [
+                        815,
+                        821
+                    ]
+                ],
+                [
+                    0.519,
+                    "bed",
+                    [
+                        1294,
+                        1297
+                    ]
+                ]
+            ],
+            "DIAGNOSIS": [
+                [
+                    0.507,
+                    "fracture",
+                    [
+                        1669,
+                        1677
+                    ]
+                ],
+                [
+                    0.504,
+                    "fracture",
+                    [
+                        3093,
+                        3101
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

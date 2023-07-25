@@ -1,0 +1,592 @@
+{
+    "file": "anterior-cervical-discectomy-2.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "Flexeril",
+                "code": "224954",
+                "cui": "C0728797",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Flexeril",
+                "range": [
+                    1284,
+                    1292
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 1.0
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [
+                    "10",
+                    1293,
+                    1295
+                ],
+                "medStrengthUnit": [
+                    "mg",
+                    1296,
+                    1298
+                ]
+            },
+            {
+                "text": "Flexeril",
+                "code": "224954",
+                "cui": "C0728797",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Flexeril",
+                "range": [
+                    1284,
+                    1292
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 1.0
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [
+                    "10",
+                    1293,
+                    1295
+                ],
+                "medStrengthUnit": [
+                    "mg",
+                    1296,
+                    1298
+                ]
+            },
+            {
+                "text": "Lortab",
+                "code": "144254",
+                "cui": "C0553262",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Lortab",
+                "range": [
+                    1342,
+                    1348
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.923
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "Lortab",
+                "code": "144254",
+                "cui": "C0553262",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Lortab",
+                "range": [
+                    1342,
+                    1348
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.923
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            }
+        ],
+        "Allergy": [],
+        "Lab": [
+            {
+                "code": "",
+                "cui": "C0002059",
+                "tui": "T034",
+                "vocab": "LNC",
+                "polarity": "positive",
+                "text": "AP",
+                "preferredText": "ALP - ALKALINE PHOSPHATASE",
+                "range": [
+                    915,
+                    917
+                ]
+            }
+        ],
+        "DiseaseDisorder": [
+            {
+                "text": "nucleus pulposus",
+                "range": [
+                    45,
+                    61
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "84857004",
+                "cui": "C0678212",
+                "tui": "T037",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Herniation of nucleus pulposus"
+            },
+            {
+                "text": "degenerative disease",
+                "range": [
+                    403,
+                    423
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "362975008",
+                "cui": "C1285162",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Degenerative disorder"
+            },
+            {
+                "text": "herniation",
+                "range": [
+                    463,
+                    473
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "414403008",
+                "cui": "C0019270",
+                "tui": "T190",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Hernia"
+            },
+            {
+                "text": "in her fingers",
+                "range": [
+                    878,
+                    892
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.012,
+        "uncertain_count": 2,
+        "narrow_band_ratio": 0.008,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.584,
+                    "disk",
+                    [
+                        637,
+                        641
+                    ]
+                ]
+            ],
+            "MED": [
+                [
+                    0.644,
+                    "disk",
+                    [
+                        736,
+                        740
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "nucleus",
+                    [
+                        45,
+                        52
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "pulposus",
+                    [
+                        53,
+                        61
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "neck",
+                    [
+                        245,
+                        249
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "pain",
+                    [
+                        250,
+                        254
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "right",
+                    [
+                        259,
+                        264
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "arm",
+                    [
+                        265,
+                        268
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "pain",
+                    [
+                        269,
+                        273
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "degenerative",
+                    [
+                        403,
+                        415
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "disease",
+                    [
+                        416,
+                        423
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "herniation",
+                    [
+                        463,
+                        473
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "arm",
+                    [
+                        856,
+                        859
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "pain",
+                    [
+                        860,
+                        864
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "numbness",
+                    [
+                        869,
+                        877
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "in",
+                    [
+                        878,
+                        880
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "her",
+                    [
+                        881,
+                        884
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "fingers",
+                    [
+                        885,
+                        892
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.647,
+                    "nucleus",
+                    [
+                        45,
+                        52
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.749,
+                    "pulposus",
+                    [
+                        53,
+                        61
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.489,
+                    "neck",
+                    [
+                        245,
+                        249
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.568,
+                    "pain",
+                    [
+                        250,
+                        254
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.471,
+                    "right",
+                    [
+                        259,
+                        264
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.538,
+                    "arm",
+                    [
+                        265,
+                        268
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.441,
+                    "pain",
+                    [
+                        269,
+                        273
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.693,
+                    "degenerative",
+                    [
+                        403,
+                        415
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.648,
+                    "disease",
+                    [
+                        416,
+                        423
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.568,
+                    "herniation",
+                    [
+                        463,
+                        473
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.521,
+                    "arm",
+                    [
+                        856,
+                        859
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.418,
+                    "pain",
+                    [
+                        860,
+                        864
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.464,
+                    "in",
+                    [
+                        878,
+                        880
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.526,
+                    "her",
+                    [
+                        881,
+                        884
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.393,
+                    "fingers",
+                    [
+                        885,
+                        892
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.149,
+        "uncertain_token_count": 9,
+        "narrow_band_ratio": 0.035,
+        "uncertain_tokens": {
+            "DIAGNOSIS": [
+                [
+                    0.489,
+                    "neck",
+                    [
+                        245,
+                        249
+                    ]
+                ],
+                [
+                    0.471,
+                    "right",
+                    [
+                        259,
+                        264
+                    ]
+                ],
+                [
+                    0.441,
+                    "pain",
+                    [
+                        269,
+                        273
+                    ]
+                ]
+            ],
+            "PROBLEM": [
+                [
+                    0.521,
+                    "arm",
+                    [
+                        856,
+                        859
+                    ]
+                ],
+                [
+                    0.418,
+                    "pain",
+                    [
+                        860,
+                        864
+                    ]
+                ],
+                [
+                    0.464,
+                    "in",
+                    [
+                        878,
+                        880
+                    ]
+                ],
+                [
+                    0.526,
+                    "her",
+                    [
+                        881,
+                        884
+                    ]
+                ],
+                [
+                    0.393,
+                    "fingers",
+                    [
+                        885,
+                        892
+                    ]
+                ]
+            ],
+            "NA": [
+                [
+                    0.466,
+                    "numbness",
+                    [
+                        869,
+                        877
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

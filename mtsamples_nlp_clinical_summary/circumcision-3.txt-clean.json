@@ -1,0 +1,175 @@
+{
+    "file": "circumcision-3.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "Betadine",
+                "code": "202750",
+                "cui": "C0699524",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Betadine",
+                "range": [
+                    147,
+                    155
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.994
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "Betadine",
+                "code": "202750",
+                "cui": "C0699524",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Betadine",
+                "range": [
+                    147,
+                    155
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.994
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "lidocaine",
+                "code": "6387",
+                "cui": "C0023660",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Lidocaine",
+                "range": [
+                    307,
+                    316
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.982
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "lidocaine",
+                "code": "6387",
+                "cui": "C0023660",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Lidocaine",
+                "range": [
+                    307,
+                    316
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.982
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            }
+        ],
+        "Allergy": [],
+        "Lab": [
+            {
+                "code": "LP32534-7",
+                "cui": "C0017725",
+                "tui": "T034",
+                "vocab": "LNC",
+                "polarity": "positive",
+                "text": "Glucose",
+                "preferredText": "GLUCOSE",
+                "range": [
+                    318,
+                    325
+                ]
+            }
+        ],
+        "DiseaseDisorder": []
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.017,
+        "uncertain_count": 2,
+        "narrow_band_ratio": 0.009,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.535,
+                    "lidocaine",
+                    [
+                        212,
+                        221
+                    ]
+                ],
+                [
+                    0.549,
+                    "water",
+                    [
+                        326,
+                        331
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "PROBLEM": [
+                    "bleeding",
+                    [
+                        1009,
+                        1017
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "PROBLEM": [
+                    0.449,
+                    "bleeding",
+                    [
+                        1009,
+                        1017
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.043,
+        "uncertain_token_count": 1,
+        "narrow_band_ratio": 0.004,
+        "uncertain_tokens": {
+            "PROBLEM": [
+                [
+                    0.449,
+                    "bleeding",
+                    [
+                        1009,
+                        1017
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

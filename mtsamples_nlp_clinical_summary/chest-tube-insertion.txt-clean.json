@@ -1,0 +1,343 @@
+{
+    "file": "chest-tube-insertion.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "Lidocaine",
+                "code": "6387",
+                "cui": "C0023660",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Lidocaine",
+                "range": [
+                    863,
+                    872
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.999
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [
+                    "1",
+                    860,
+                    861
+                ],
+                "medStrengthUnit": [
+                    "%",
+                    861,
+                    862
+                ]
+            },
+            {
+                "text": "Lidocaine",
+                "code": "6387",
+                "cui": "C0023660",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Lidocaine",
+                "range": [
+                    863,
+                    872
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.999
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [
+                    "1",
+                    860,
+                    861
+                ],
+                "medStrengthUnit": [
+                    "%",
+                    861,
+                    862
+                ]
+            }
+        ],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "Right",
+                "range": [
+                    70,
+                    75
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.01,
+        "uncertain_count": 2,
+        "narrow_band_ratio": 0.007,
+        "uncertain_tokens": {
+            "MED": [
+                [
+                    0.544,
+                    "Lidocaine",
+                    [
+                        188,
+                        197
+                    ]
+                ],
+                [
+                    0.597,
+                    "solution",
+                    [
+                        873,
+                        881
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "Right",
+                    [
+                        70,
+                        75
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "hemothorax",
+                    [
+                        76,
+                        86
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "carcinoma",
+                    [
+                        292,
+                        301
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "of",
+                    [
+                        302,
+                        304
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "the",
+                    [
+                        305,
+                        308
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "cervix",
+                    [
+                        309,
+                        315
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "frothy",
+                    [
+                        440,
+                        446
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "sputum",
+                    [
+                        447,
+                        453
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "hemothorax",
+                    [
+                        505,
+                        515
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.521,
+                    "Right",
+                    [
+                        70,
+                        75
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.666,
+                    "hemothorax",
+                    [
+                        76,
+                        86
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.584,
+                    "carcinoma",
+                    [
+                        292,
+                        301
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.78,
+                    "of",
+                    [
+                        302,
+                        304
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.879,
+                    "the",
+                    [
+                        305,
+                        308
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.845,
+                    "cervix",
+                    [
+                        309,
+                        315
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.49,
+                    "frothy",
+                    [
+                        440,
+                        446
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.507,
+                    "sputum",
+                    [
+                        447,
+                        453
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.372,
+                    "hemothorax",
+                    [
+                        505,
+                        515
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.087,
+        "uncertain_token_count": 6,
+        "narrow_band_ratio": 0.02,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.452,
+                    "hemothorax",
+                    [
+                        32,
+                        42
+                    ]
+                ],
+                [
+                    0.499,
+                    "on",
+                    [
+                        516,
+                        518
+                    ]
+                ]
+            ],
+            "DIAGNOSIS": [
+                [
+                    0.521,
+                    "Right",
+                    [
+                        70,
+                        75
+                    ]
+                ],
+                [
+                    0.49,
+                    "frothy",
+                    [
+                        440,
+                        446
+                    ]
+                ],
+                [
+                    0.507,
+                    "sputum",
+                    [
+                        447,
+                        453
+                    ]
+                ],
+                [
+                    0.372,
+                    "hemothorax",
+                    [
+                        505,
+                        515
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

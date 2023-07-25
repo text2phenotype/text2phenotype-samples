@@ -1,0 +1,434 @@
+{
+    "file": "mayoview-2.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "Lexiscan",
+                "code": "795691",
+                "cui": "C2343930",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Lexiscan",
+                "range": [
+                    174,
+                    182
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.991
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [
+                    "0.4",
+                    164,
+                    167
+                ],
+                "medStrengthUnit": [
+                    "mg",
+                    168,
+                    170
+                ]
+            },
+            {
+                "text": "Lexiscan",
+                "code": "795691",
+                "cui": "C2343930",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Lexiscan",
+                "range": [
+                    174,
+                    182
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.991
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [
+                    "0.4",
+                    164,
+                    167
+                ],
+                "medStrengthUnit": [
+                    "mg",
+                    168,
+                    170
+                ]
+            }
+        ],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "injury",
+                "range": [
+                    788,
+                    794
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "nonspecific in III",
+                "range": [
+                    803,
+                    821
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "aVF",
+                "range": [
+                    826,
+                    829
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "volume",
+                "range": [
+                    1236,
+                    1242
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "of 51",
+                "range": [
+                    1267,
+                    1272
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "coronary\nnarrowing",
+                "range": [
+                    1608,
+                    1626
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.009,
+        "uncertain_count": 1,
+        "narrow_band_ratio": 0.004,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.689,
+                    "Lexiscan",
+                    [
+                        128,
+                        136
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "injury",
+                    [
+                        788,
+                        794
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "nonspecific",
+                    [
+                        803,
+                        814
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "in",
+                    [
+                        815,
+                        817
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "III",
+                    [
+                        818,
+                        821
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "aVF",
+                    [
+                        826,
+                        829
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "V6",
+                    [
+                        899,
+                        901
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "volume",
+                    [
+                        1236,
+                        1242
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "of",
+                    [
+                        1267,
+                        1269
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "51",
+                    [
+                        1270,
+                        1272
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "coronary",
+                    [
+                        1608,
+                        1616
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "narrowing",
+                    [
+                        1617,
+                        1626
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.621,
+                    "injury",
+                    [
+                        788,
+                        794
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.669,
+                    "III",
+                    [
+                        818,
+                        821
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.545,
+                    "aVF",
+                    [
+                        826,
+                        829
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.658,
+                    "V6",
+                    [
+                        899,
+                        901
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.527,
+                    "volume",
+                    [
+                        1236,
+                        1242
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.536,
+                    "51",
+                    [
+                        1270,
+                        1272
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.431,
+                    "coronary",
+                    [
+                        1608,
+                        1616
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.445,
+                    "narrowing",
+                    [
+                        1617,
+                        1626
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.185,
+        "uncertain_token_count": 9,
+        "narrow_band_ratio": 0.032,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.511,
+                    "nonspecific",
+                    [
+                        803,
+                        814
+                    ]
+                ],
+                [
+                    0.516,
+                    "in",
+                    [
+                        815,
+                        817
+                    ]
+                ],
+                [
+                    0.505,
+                    "T",
+                    [
+                        881,
+                        882
+                    ]
+                ],
+                [
+                    0.528,
+                    "wave",
+                    [
+                        883,
+                        887
+                    ]
+                ],
+                [
+                    0.503,
+                    "of",
+                    [
+                        1267,
+                        1269
+                    ]
+                ],
+                [
+                    0.506,
+                    "epicardial",
+                    [
+                        1597,
+                        1607
+                    ]
+                ]
+            ],
+            "DIAGNOSIS": [
+                [
+                    0.527,
+                    "volume",
+                    [
+                        1236,
+                        1242
+                    ]
+                ],
+                [
+                    0.431,
+                    "coronary",
+                    [
+                        1608,
+                        1616
+                    ]
+                ]
+            ],
+            "PROBLEM": [
+                [
+                    0.445,
+                    "narrowing",
+                    [
+                        1617,
+                        1626
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

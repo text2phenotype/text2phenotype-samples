@@ -1,0 +1,415 @@
+{
+    "file": "gen-med-progress-note-1.txt-clean.txt",
+    "text2summary": {
+        "Medication": [],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "diabetes mellitus",
+                "range": [
+                    31,
+                    48
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "73211009",
+                "cui": "C0011849",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Diabetes Mellitus"
+            },
+            {
+                "text": "cerebrovascular accident",
+                "range": [
+                    62,
+                    86
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "230690007",
+                "cui": "C0038454",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Cerebrovascular accident"
+            },
+            {
+                "text": "tobacco",
+                "range": [
+                    589,
+                    596
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "usage",
+                "range": [
+                    609,
+                    614
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "Diabetes mellitus",
+                "range": [
+                    1258,
+                    1275
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "73211009",
+                "cui": "C0011849",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Diabetes Mellitus"
+            },
+            {
+                "text": "Neuropathy",
+                "range": [
+                    1282,
+                    1292
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "386033004",
+                "cui": "C0442874",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Neuropathy"
+            },
+            {
+                "text": "cerebrovascular accident",
+                "range": [
+                    1311,
+                    1335
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "230690007",
+                "cui": "C0038454",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Cerebrovascular accident"
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.015,
+        "uncertain_count": 4,
+        "narrow_band_ratio": 0.012,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.641,
+                    "different",
+                    [
+                        345,
+                        354
+                    ]
+                ],
+                [
+                    0.654,
+                    "PSA",
+                    [
+                        1554,
+                        1557
+                    ]
+                ]
+            ],
+            "MED": [
+                [
+                    0.644,
+                    "medications",
+                    [
+                        355,
+                        366
+                    ]
+                ],
+                [
+                    0.606,
+                    "insulin",
+                    [
+                        490,
+                        497
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "diabetes",
+                    [
+                        31,
+                        39
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "mellitus",
+                    [
+                        40,
+                        48
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "cerebrovascular",
+                    [
+                        62,
+                        77
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "accident",
+                    [
+                        78,
+                        86
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "tobacco",
+                    [
+                        589,
+                        596
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "usage",
+                    [
+                        609,
+                        614
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Diabetes",
+                    [
+                        1258,
+                        1266
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "mellitus",
+                    [
+                        1267,
+                        1275
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Neuropathy",
+                    [
+                        1282,
+                        1292
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "cerebrovascular",
+                    [
+                        1311,
+                        1326
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "accident",
+                    [
+                        1327,
+                        1335
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.772,
+                    "diabetes",
+                    [
+                        31,
+                        39
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.743,
+                    "mellitus",
+                    [
+                        40,
+                        48
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.479,
+                    "cerebrovascular",
+                    [
+                        62,
+                        77
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.713,
+                    "accident",
+                    [
+                        78,
+                        86
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.564,
+                    "tobacco",
+                    [
+                        589,
+                        596
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.551,
+                    "usage",
+                    [
+                        609,
+                        614
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.99,
+                    "Diabetes",
+                    [
+                        1258,
+                        1266
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.954,
+                    "mellitus",
+                    [
+                        1267,
+                        1275
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.973,
+                    "Neuropathy",
+                    [
+                        1282,
+                        1292
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.849,
+                    "cerebrovascular",
+                    [
+                        1311,
+                        1326
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.897,
+                    "accident",
+                    [
+                        1327,
+                        1335
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.07,
+        "uncertain_token_count": 5,
+        "narrow_band_ratio": 0.015,
+        "uncertain_tokens": {
+            "DIAGNOSIS": [
+                [
+                    0.479,
+                    "cerebrovascular",
+                    [
+                        62,
+                        77
+                    ]
+                ]
+            ],
+            "NA": [
+                [
+                    0.502,
+                    "discomfort",
+                    [
+                        184,
+                        194
+                    ]
+                ],
+                [
+                    0.474,
+                    "on",
+                    [
+                        195,
+                        197
+                    ]
+                ],
+                [
+                    0.52,
+                    "stroke",
+                    [
+                        268,
+                        274
+                    ]
+                ],
+                [
+                    0.523,
+                    "alcohol",
+                    [
+                        601,
+                        608
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

@@ -1,0 +1,648 @@
+{
+    "file": "hallux-infected-bone-resection.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "Vicodin",
+                "code": "128793",
+                "cui": "C0483514",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Vicodin",
+                "range": [
+                    5313,
+                    5320
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 1.0
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "Vicodin",
+                "code": "128793",
+                "cui": "C0483514",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Vicodin",
+                "range": [
+                    5313,
+                    5320
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 1.0
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            }
+        ],
+        "Allergy": [
+            {
+                "code": "202750",
+                "cui": "C0699524",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "text": "Betadine",
+                "preferredText": "Betadine",
+                "range": [
+                    4828,
+                    4836
+                ]
+            }
+        ],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "Osteomyelitis",
+                "range": [
+                    26,
+                    39
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "60168000",
+                "cui": "C0029443",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Osteomyelitis"
+            },
+            {
+                "text": "left hallux",
+                "range": [
+                    41,
+                    52
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "Osteomyelitis",
+                "range": [
+                    80,
+                    93
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "60168000",
+                "cui": "C0029443",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Osteomyelitis"
+            },
+            {
+                "text": "left hallux",
+                "range": [
+                    95,
+                    106
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "chronic osteomyelitis",
+                "range": [
+                    422,
+                    443
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "40970001",
+                "cui": "C0008707",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Chronic osteomyelitis"
+            },
+            {
+                "text": "non-healing",
+                "range": [
+                    448,
+                    459
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "to the left hallux of",
+                "range": [
+                    471,
+                    492
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "tail",
+                "range": [
+                    861,
+                    865
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.013,
+        "uncertain_count": 8,
+        "narrow_band_ratio": 0.008,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.521,
+                    "duration",
+                    [
+                        511,
+                        519
+                    ]
+                ],
+                [
+                    0.671,
+                    "antibiotic",
+                    [
+                        546,
+                        556
+                    ]
+                ],
+                [
+                    0.608,
+                    "blade",
+                    [
+                        1121,
+                        1126
+                    ]
+                ],
+                [
+                    0.524,
+                    "lidocaine",
+                    [
+                        1772,
+                        1781
+                    ]
+                ],
+                [
+                    0.687,
+                    "plantar",
+                    [
+                        3780,
+                        3787
+                    ]
+                ]
+            ],
+            "MED": [
+                [
+                    0.548,
+                    "beads",
+                    [
+                        4363,
+                        4368
+                    ]
+                ],
+                [
+                    0.684,
+                    "tobramycin-impregnated",
+                    [
+                        4370,
+                        4392
+                    ]
+                ],
+                [
+                    0.591,
+                    "emergency",
+                    [
+                        5264,
+                        5273
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "Osteomyelitis",
+                    [
+                        26,
+                        39
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "left",
+                    [
+                        41,
+                        45
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "hallux",
+                    [
+                        46,
+                        52
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Osteomyelitis",
+                    [
+                        80,
+                        93
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    ",",
+                    [
+                        93,
+                        94
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "left",
+                    [
+                        95,
+                        99
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "hallux",
+                    [
+                        100,
+                        106
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "chronic",
+                    [
+                        422,
+                        429
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "osteomyelitis",
+                    [
+                        430,
+                        443
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "non-healing",
+                    [
+                        448,
+                        459
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "ulceration",
+                    [
+                        460,
+                        470
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "to",
+                    [
+                        471,
+                        473
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "the",
+                    [
+                        474,
+                        477
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "left",
+                    [
+                        478,
+                        482
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "hallux",
+                    [
+                        483,
+                        489
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "of",
+                    [
+                        490,
+                        492
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "tail",
+                    [
+                        861,
+                        865
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "condition",
+                    [
+                        5462,
+                        5471
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.983,
+                    "Osteomyelitis",
+                    [
+                        26,
+                        39
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.623,
+                    "left",
+                    [
+                        41,
+                        45
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.466,
+                    "hallux",
+                    [
+                        46,
+                        52
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.94,
+                    "Osteomyelitis",
+                    [
+                        80,
+                        93
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.877,
+                    ",",
+                    [
+                        93,
+                        94
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.951,
+                    "left",
+                    [
+                        95,
+                        99
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.882,
+                    "hallux",
+                    [
+                        100,
+                        106
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.87,
+                    "chronic",
+                    [
+                        422,
+                        429
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.915,
+                    "osteomyelitis",
+                    [
+                        430,
+                        443
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.59,
+                    "non-healing",
+                    [
+                        448,
+                        459
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.581,
+                    "ulceration",
+                    [
+                        460,
+                        470
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.631,
+                    "the",
+                    [
+                        474,
+                        477
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.647,
+                    "left",
+                    [
+                        478,
+                        482
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.588,
+                    "hallux",
+                    [
+                        483,
+                        489
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.465,
+                    "of",
+                    [
+                        490,
+                        492
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.512,
+                    "tail",
+                    [
+                        861,
+                        865
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.561,
+                    "condition",
+                    [
+                        5462,
+                        5471
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.086,
+        "uncertain_token_count": 6,
+        "narrow_band_ratio": 0.006,
+        "uncertain_tokens": {
+            "DIAGNOSIS": [
+                [
+                    0.466,
+                    "hallux",
+                    [
+                        46,
+                        52
+                    ]
+                ],
+                [
+                    0.465,
+                    "of",
+                    [
+                        490,
+                        492
+                    ]
+                ]
+            ],
+            "NA": [
+                [
+                    0.432,
+                    "to",
+                    [
+                        471,
+                        473
+                    ]
+                ],
+                [
+                    0.449,
+                    "floppy",
+                    [
+                        854,
+                        860
+                    ]
+                ],
+                [
+                    0.507,
+                    "hypertrophy",
+                    [
+                        2840,
+                        2851
+                    ]
+                ]
+            ],
+            "PROBLEM": [
+                [
+                    0.512,
+                    "tail",
+                    [
+                        861,
+                        865
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

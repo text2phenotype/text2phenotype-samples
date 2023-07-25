@@ -1,0 +1,390 @@
+{
+    "file": "tubal-ligation-laparoscopic.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "Marcaine",
+                "code": "1012397",
+                "cui": "C2945665",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Marcaine",
+                "range": [
+                    981,
+                    989
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.998
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "Marcaine",
+                "code": "1012397",
+                "cui": "C2945665",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Marcaine",
+                "range": [
+                    1368,
+                    1376
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.97
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            }
+        ],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "Desires permanent sterilization",
+                "range": [
+                    85,
+                    116
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "sterilization",
+                "range": [
+                    333,
+                    346
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "infection",
+                "range": [
+                    371,
+                    380
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "189822004",
+                "cui": "C0009450",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Communicable Diseases"
+            },
+            {
+                "text": "other\norgans",
+                "range": [
+                    392,
+                    404
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "subsequent",
+                "range": [
+                    410,
+                    420
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.01,
+        "uncertain_count": 1,
+        "narrow_band_ratio": 0.003,
+        "uncertain_tokens": {
+            "MED": [
+                [
+                    0.536,
+                    "gas",
+                    [
+                        1098,
+                        1101
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "PROBLEM": [
+                    "Desires",
+                    [
+                        85,
+                        92
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "permanent",
+                    [
+                        93,
+                        102
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "sterilization",
+                    [
+                        103,
+                        116
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "sterilization",
+                    [
+                        333,
+                        346
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "bleeding",
+                    [
+                        361,
+                        369
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "infection",
+                    [
+                        371,
+                        380
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "damage",
+                    [
+                        382,
+                        388
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "other",
+                    [
+                        392,
+                        397
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "organs",
+                    [
+                        398,
+                        404
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "subsequent",
+                    [
+                        410,
+                        420
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "ectopic",
+                    [
+                        421,
+                        428
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "PROBLEM": [
+                    0.567,
+                    "Desires",
+                    [
+                        85,
+                        92
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.675,
+                    "permanent",
+                    [
+                        93,
+                        102
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.614,
+                    "sterilization",
+                    [
+                        103,
+                        116
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.489,
+                    "sterilization",
+                    [
+                        333,
+                        346
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.525,
+                    "bleeding",
+                    [
+                        361,
+                        369
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.722,
+                    "infection",
+                    [
+                        371,
+                        380
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.549,
+                    "damage",
+                    [
+                        382,
+                        388
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.43,
+                    "organs",
+                    [
+                        398,
+                        404
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.511,
+                    "ectopic",
+                    [
+                        421,
+                        428
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.097,
+        "uncertain_token_count": 6,
+        "narrow_band_ratio": 0.017,
+        "uncertain_tokens": {
+            "DIAGNOSIS": [
+                [
+                    0.489,
+                    "sterilization",
+                    [
+                        333,
+                        346
+                    ]
+                ],
+                [
+                    0.525,
+                    "bleeding",
+                    [
+                        361,
+                        369
+                    ]
+                ],
+                [
+                    0.43,
+                    "organs",
+                    [
+                        398,
+                        404
+                    ]
+                ],
+                [
+                    0.511,
+                    "ectopic",
+                    [
+                        421,
+                        428
+                    ]
+                ]
+            ],
+            "NA": [
+                [
+                    0.438,
+                    "other",
+                    [
+                        392,
+                        397
+                    ]
+                ],
+                [
+                    0.49,
+                    "subsequent",
+                    [
+                        410,
+                        420
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

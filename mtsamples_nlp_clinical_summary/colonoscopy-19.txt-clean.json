@@ -1,0 +1,158 @@
+{
+    "file": "colonoscopy-19.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "Fentanyl",
+                "code": "4337",
+                "cui": "C0015846",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Fentanyl",
+                "range": [
+                    204,
+                    212
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.999
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [
+                    "100",
+                    213,
+                    216
+                ],
+                "medStrengthUnit": [
+                    "mcg",
+                    217,
+                    220
+                ]
+            },
+            {
+                "text": "Fentanyl",
+                "code": "4337",
+                "cui": "C0015846",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Fentanyl",
+                "range": [
+                    204,
+                    212
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.999
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [
+                    "100",
+                    213,
+                    216
+                ],
+                "medStrengthUnit": [
+                    "mcg",
+                    217,
+                    220
+                ]
+            }
+        ],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "Iron deficiency anemia",
+                "range": [
+                    14,
+                    36
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "87522002",
+                "cui": "C0162316",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Iron deficiency anemia"
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.015,
+        "uncertain_count": 0,
+        "narrow_band_ratio": 0.0,
+        "uncertain_tokens": {},
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "Iron",
+                    [
+                        14,
+                        18
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "deficiency",
+                    [
+                        19,
+                        29
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "anemia",
+                    [
+                        30,
+                        36
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.971,
+                    "Iron",
+                    [
+                        14,
+                        18
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.938,
+                    "deficiency",
+                    [
+                        19,
+                        29
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.897,
+                    "anemia",
+                    [
+                        30,
+                        36
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.081,
+        "uncertain_token_count": 0,
+        "narrow_band_ratio": 0.0,
+        "uncertain_tokens": {},
+        "narrow_band_width": 0.2
+    }
+}

@@ -1,0 +1,554 @@
+{
+    "file": "egd-colonoscopy.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "Demerol",
+                "code": "282381",
+                "cui": "C0935966",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Demerol",
+                "range": [
+                    229,
+                    236
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.919
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "Demerol",
+                "code": "282381",
+                "cui": "C0935966",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Demerol",
+                "range": [
+                    229,
+                    236
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.919
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "Demerol",
+                "code": "282381",
+                "cui": "C0935966",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Demerol",
+                "range": [
+                    837,
+                    844
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 1.0
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "Demerol",
+                "code": "282381",
+                "cui": "C0935966",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Demerol",
+                "range": [
+                    837,
+                    844
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 1.0
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            }
+        ],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "Blood loss anemia",
+                "range": [
+                    26,
+                    43
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "267530009",
+                "cui": "C0154298",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Acute posthaemorrhagic anaemia"
+            },
+            {
+                "text": "Hiatal hernia",
+                "range": [
+                    124,
+                    137
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "84089009",
+                "cui": "C3489393",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Hiatal Hernia"
+            },
+            {
+                "text": "Fundal gastritis",
+                "range": [
+                    144,
+                    160
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "polyps",
+                "range": [
+                    166,
+                    172
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "441456002",
+                "cui": "C0032584",
+                "tui": "T190",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "polyps"
+            },
+            {
+                "text": "changes",
+                "range": [
+                    399,
+                    406
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "polyps",
+                "range": [
+                    2369,
+                    2375
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "103679000",
+                "cui": "C0522621",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Sessile polyp"
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.009,
+        "uncertain_count": 3,
+        "narrow_band_ratio": 0.006,
+        "uncertain_tokens": {
+            "MED": [
+                [
+                    0.517,
+                    "Versed",
+                    [
+                        849,
+                        855
+                    ]
+                ],
+                [
+                    0.543,
+                    "Air",
+                    [
+                        1347,
+                        1350
+                    ]
+                ]
+            ],
+            "NA": [
+                [
+                    0.574,
+                    "air",
+                    [
+                        1051,
+                        1054
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "Blood",
+                    [
+                        26,
+                        31
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "loss",
+                    [
+                        32,
+                        36
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "anemia",
+                    [
+                        37,
+                        43
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Hiatal",
+                    [
+                        124,
+                        130
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "hernia",
+                    [
+                        131,
+                        137
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Fundal",
+                    [
+                        144,
+                        150
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "gastritis",
+                    [
+                        151,
+                        160
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "polyps",
+                    [
+                        166,
+                        172
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "mental",
+                    [
+                        385,
+                        391
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "status",
+                    [
+                        392,
+                        398
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "changes",
+                    [
+                        399,
+                        406
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "polyps",
+                    [
+                        2369,
+                        2375
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "condition",
+                    [
+                        2689,
+                        2698
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.895,
+                    "Blood",
+                    [
+                        26,
+                        31
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.818,
+                    "loss",
+                    [
+                        32,
+                        36
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.897,
+                    "anemia",
+                    [
+                        37,
+                        43
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.911,
+                    "Hiatal",
+                    [
+                        124,
+                        130
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.942,
+                    "hernia",
+                    [
+                        131,
+                        137
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.717,
+                    "Fundal",
+                    [
+                        144,
+                        150
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.852,
+                    "gastritis",
+                    [
+                        151,
+                        160
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.499,
+                    "polyps",
+                    [
+                        166,
+                        172
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.56,
+                    "mental",
+                    [
+                        385,
+                        391
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.745,
+                    "status",
+                    [
+                        392,
+                        398
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.677,
+                    "changes",
+                    [
+                        399,
+                        406
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.507,
+                    "condition",
+                    [
+                        2689,
+                        2698
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.112,
+        "uncertain_token_count": 11,
+        "narrow_band_ratio": 0.021,
+        "uncertain_tokens": {
+            "DIAGNOSIS": [
+                [
+                    0.499,
+                    "polyps",
+                    [
+                        166,
+                        172
+                    ]
+                ],
+                [
+                    0.507,
+                    "condition",
+                    [
+                        2689,
+                        2698
+                    ]
+                ]
+            ],
+            "NA": [
+                [
+                    0.457,
+                    "Antral",
+                    [
+                        179,
+                        185
+                    ]
+                ],
+                [
+                    0.427,
+                    "mass",
+                    [
+                        186,
+                        190
+                    ]
+                ],
+                [
+                    0.51,
+                    "anemic",
+                    [
+                        421,
+                        427
+                    ]
+                ],
+                [
+                    0.511,
+                    "to",
+                    [
+                        1184,
+                        1186
+                    ]
+                ],
+                [
+                    0.467,
+                    "level",
+                    [
+                        1191,
+                        1196
+                    ]
+                ],
+                [
+                    0.461,
+                    "of",
+                    [
+                        1197,
+                        1199
+                    ]
+                ],
+                [
+                    0.49,
+                    "inflammation",
+                    [
+                        2317,
+                        2329
+                    ]
+                ],
+                [
+                    0.447,
+                    "sessile",
+                    [
+                        2361,
+                        2368
+                    ]
+                ],
+                [
+                    0.4,
+                    "polyps",
+                    [
+                        2369,
+                        2375
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

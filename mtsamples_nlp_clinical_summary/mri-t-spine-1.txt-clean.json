@@ -1,0 +1,267 @@
+{
+    "file": "mri-t-spine-1.txt-clean.txt",
+    "text2summary": {
+        "Medication": [],
+        "Allergy": [],
+        "Lab": [
+            {
+                "code": "",
+                "cui": "C0002059",
+                "tui": "T034",
+                "vocab": "LNC",
+                "polarity": "positive",
+                "text": "AP",
+                "preferredText": "ALP - ALKALINE PHOSPHATASE",
+                "range": [
+                    106,
+                    108
+                ]
+            }
+        ],
+        "DiseaseDisorder": [
+            {
+                "text": "bodies",
+                "range": [
+                    601,
+                    607
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "changes",
+                "range": [
+                    632,
+                    639
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "thoracic spine",
+                "range": [
+                    647,
+                    661
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "Osteoporosis",
+                "range": [
+                    668,
+                    680
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "64859006",
+                "cui": "C0029456",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Osteoporosis"
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.0,
+        "uncertain_count": 0,
+        "narrow_band_ratio": 0.0,
+        "uncertain_tokens": {},
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "T11",
+                    [
+                        580,
+                        583
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "bodies",
+                    [
+                        601,
+                        607
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "degenerative",
+                    [
+                        619,
+                        631
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "changes",
+                    [
+                        632,
+                        639
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "thoracic",
+                    [
+                        647,
+                        655
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "spine",
+                    [
+                        656,
+                        661
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Osteoporosis",
+                    [
+                        668,
+                        680
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.676,
+                    "T11",
+                    [
+                        580,
+                        583
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.513,
+                    "bodies",
+                    [
+                        601,
+                        607
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.721,
+                    "degenerative",
+                    [
+                        619,
+                        631
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.561,
+                    "changes",
+                    [
+                        632,
+                        639
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.465,
+                    "the",
+                    [
+                        643,
+                        646
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.553,
+                    "thoracic",
+                    [
+                        647,
+                        655
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.582,
+                    "spine",
+                    [
+                        656,
+                        661
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.931,
+                    "Osteoporosis",
+                    [
+                        668,
+                        680
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.197,
+        "uncertain_token_count": 3,
+        "narrow_band_ratio": 0.026,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.5,
+                    "anterior",
+                    [
+                        526,
+                        534
+                    ]
+                ]
+            ],
+            "DIAGNOSIS": [
+                [
+                    0.513,
+                    "bodies",
+                    [
+                        601,
+                        607
+                    ]
+                ],
+                [
+                    0.465,
+                    "the",
+                    [
+                        643,
+                        646
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

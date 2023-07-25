@@ -1,0 +1,420 @@
+{
+    "file": "vaginal-delivery-vacuum-assisted.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "Pitocin",
+                "code": "227199",
+                "cui": "C0733348",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Pitocin",
+                "range": [
+                    1213,
+                    1220
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.997
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "Pitocin",
+                "code": "227199",
+                "cui": "C0733348",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Pitocin",
+                "range": [
+                    3001,
+                    3008
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 1.0
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            }
+        ],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "laceration",
+                "range": [
+                    455,
+                    465
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "35933005",
+                "cui": "C0043246",
+                "tui": "T037",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Laceration"
+            },
+            {
+                "text": "side wall laceration",
+                "range": [
+                    484,
+                    504
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "Placenta delivered",
+                "range": [
+                    715,
+                    733
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "cervix",
+                "range": [
+                    1010,
+                    1016
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "laceration",
+                "range": [
+                    3178,
+                    3188
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "35933005",
+                "cui": "C0043246",
+                "tui": "T037",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Laceration"
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.004,
+        "uncertain_count": 1,
+        "narrow_band_ratio": 0.001,
+        "uncertain_tokens": {
+            "MED": [
+                [
+                    0.572,
+                    "gentle",
+                    [
+                        2160,
+                        2166
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "pregnancy",
+                    [
+                        251,
+                        260
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "laceration",
+                    [
+                        455,
+                        465
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "side",
+                    [
+                        484,
+                        488
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "wall",
+                    [
+                        489,
+                        493
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "laceration",
+                    [
+                        494,
+                        504
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Placenta",
+                    [
+                        715,
+                        723
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "delivered",
+                    [
+                        724,
+                        733
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "cervix",
+                    [
+                        1010,
+                        1016
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "rupture",
+                    [
+                        1288,
+                        1295
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "laceration",
+                    [
+                        3178,
+                        3188
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.459,
+                    "pregnancy",
+                    [
+                        251,
+                        260
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.61,
+                    "laceration",
+                    [
+                        455,
+                        465
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.572,
+                    "side",
+                    [
+                        484,
+                        488
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.688,
+                    "wall",
+                    [
+                        489,
+                        493
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.74,
+                    "laceration",
+                    [
+                        494,
+                        504
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.642,
+                    "Placenta",
+                    [
+                        715,
+                        723
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.492,
+                    "delivered",
+                    [
+                        724,
+                        733
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.602,
+                    "cervix",
+                    [
+                        1010,
+                        1016
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.545,
+                    "spontaneous",
+                    [
+                        1276,
+                        1287
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.602,
+                    "rupture",
+                    [
+                        1288,
+                        1295
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.484,
+                    "of",
+                    [
+                        1296,
+                        1298
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.617,
+                    "laceration",
+                    [
+                        3178,
+                        3188
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.126,
+        "uncertain_token_count": 7,
+        "narrow_band_ratio": 0.009,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.45,
+                    "intrauterine",
+                    [
+                        238,
+                        250
+                    ]
+                ],
+                [
+                    0.518,
+                    "right",
+                    [
+                        470,
+                        475
+                    ]
+                ],
+                [
+                    0.516,
+                    "favorable",
+                    [
+                        1000,
+                        1009
+                    ]
+                ],
+                [
+                    0.37,
+                    "membranes",
+                    [
+                        1299,
+                        1308
+                    ]
+                ]
+            ],
+            "DIAGNOSIS": [
+                [
+                    0.459,
+                    "pregnancy",
+                    [
+                        251,
+                        260
+                    ]
+                ],
+                [
+                    0.492,
+                    "delivered",
+                    [
+                        724,
+                        733
+                    ]
+                ],
+                [
+                    0.484,
+                    "of",
+                    [
+                        1296,
+                        1298
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

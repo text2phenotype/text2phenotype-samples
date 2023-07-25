@@ -1,0 +1,791 @@
+{
+    "file": "gardnerella-bacterial-vaginosis.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "yeast",
+                "code": null,
+                "cui": null,
+                "tui": null,
+                "vocab": null,
+                "polarity": "positive",
+                "preferredText": null,
+                "range": [
+                    506,
+                    511
+                ],
+                "prob": {
+                    "MED": 0.967
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "metronidazole",
+                "code": "6922",
+                "cui": "C0025872",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Metronidazole",
+                "range": [
+                    3312,
+                    3325
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 1.0
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [
+                    "500",
+                    3326,
+                    3329
+                ],
+                "medStrengthUnit": [
+                    "mg",
+                    3330,
+                    3332
+                ]
+            },
+            {
+                "text": "metronidazole",
+                "code": "6922",
+                "cui": "C0025872",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Metronidazole",
+                "range": [
+                    3312,
+                    3325
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 1.0
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [
+                    "500",
+                    3326,
+                    3329
+                ],
+                "medStrengthUnit": [
+                    "mg",
+                    3330,
+                    3332
+                ]
+            }
+        ],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "thin",
+                "range": [
+                    184,
+                    188
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "active",
+                "range": [
+                    391,
+                    397
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "yeast\ninfections",
+                "range": [
+                    506,
+                    522
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "sexually transmitted diseases",
+                "range": [
+                    622,
+                    651
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "8098009",
+                "cui": "C0036916",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Sexually Transmitted Diseases"
+            },
+            {
+                "text": "frequent urinary tract infections",
+                "range": [
+                    1280,
+                    1313
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "Bronchitis",
+                "range": [
+                    1355,
+                    1365
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "32398004",
+                "cui": "C0006277",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Bronchitis"
+            },
+            {
+                "text": "Urinary tract infections",
+                "range": [
+                    1372,
+                    1396
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "68566005",
+                "cui": "C0042029",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Urinary tract infection"
+            },
+            {
+                "text": "Vaginal candidiasis",
+                "range": [
+                    1403,
+                    1422
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "72934000",
+                "cui": "C0006852",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Candidiasis of vagina"
+            },
+            {
+                "text": "Gardnerella bacterial vaginosis",
+                "range": [
+                    3239,
+                    3270
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "419760006",
+                "cui": "C0085166",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Bacterial Vaginosis"
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.003,
+        "uncertain_count": 2,
+        "narrow_band_ratio": 0.003,
+        "uncertain_tokens": {
+            "MED": [
+                [
+                    0.639,
+                    "infections",
+                    [
+                        512,
+                        522
+                    ]
+                ]
+            ],
+            "NA": [
+                [
+                    0.616,
+                    "provider",
+                    [
+                        3408,
+                        3416
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "Vaginal",
+                    [
+                        19,
+                        26
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "discharge",
+                    [
+                        27,
+                        36
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "thin",
+                    [
+                        184,
+                        188
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "vaginal",
+                    [
+                        189,
+                        196
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "discharge",
+                    [
+                        197,
+                        206
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "active",
+                    [
+                        391,
+                        397
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "yeast",
+                    [
+                        506,
+                        511
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "infections",
+                    [
+                        512,
+                        522
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "sexually",
+                    [
+                        622,
+                        630
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "transmitted",
+                    [
+                        631,
+                        642
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "diseases",
+                    [
+                        643,
+                        651
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "frequent",
+                    [
+                        1280,
+                        1288
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "urinary",
+                    [
+                        1289,
+                        1296
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "tract",
+                    [
+                        1297,
+                        1302
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "infections",
+                    [
+                        1303,
+                        1313
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Bronchitis",
+                    [
+                        1355,
+                        1365
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Urinary",
+                    [
+                        1372,
+                        1379
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "tract",
+                    [
+                        1380,
+                        1385
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "infections",
+                    [
+                        1386,
+                        1396
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Vaginal",
+                    [
+                        1403,
+                        1410
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "candidiasis",
+                    [
+                        1411,
+                        1422
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Gardnerella",
+                    [
+                        3239,
+                        3250
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "bacterial",
+                    [
+                        3251,
+                        3260
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "vaginosis",
+                    [
+                        3261,
+                        3270
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "PROBLEM": [
+                    0.429,
+                    "Vaginal",
+                    [
+                        19,
+                        26
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.469,
+                    "discharge",
+                    [
+                        27,
+                        36
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.441,
+                    "thin",
+                    [
+                        184,
+                        188
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.535,
+                    "vaginal",
+                    [
+                        189,
+                        196
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.554,
+                    "discharge",
+                    [
+                        197,
+                        206
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.448,
+                    "yeast",
+                    [
+                        506,
+                        511
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.469,
+                    "infections",
+                    [
+                        512,
+                        522
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.479,
+                    "sexually",
+                    [
+                        622,
+                        630
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.598,
+                    "transmitted",
+                    [
+                        631,
+                        642
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.43,
+                    "diseases",
+                    [
+                        643,
+                        651
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.566,
+                    "frequent",
+                    [
+                        1280,
+                        1288
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.85,
+                    "urinary",
+                    [
+                        1289,
+                        1296
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.862,
+                    "tract",
+                    [
+                        1297,
+                        1302
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.777,
+                    "infections",
+                    [
+                        1303,
+                        1313
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.981,
+                    "Bronchitis",
+                    [
+                        1355,
+                        1365
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.917,
+                    "Urinary",
+                    [
+                        1372,
+                        1379
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.901,
+                    "tract",
+                    [
+                        1380,
+                        1385
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.799,
+                    "infections",
+                    [
+                        1386,
+                        1396
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.788,
+                    "Vaginal",
+                    [
+                        1403,
+                        1410
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.715,
+                    "candidiasis",
+                    [
+                        1411,
+                        1422
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.897,
+                    "Gardnerella",
+                    [
+                        3239,
+                        3250
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.891,
+                    "bacterial",
+                    [
+                        3251,
+                        3260
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.883,
+                    "vaginosis",
+                    [
+                        3261,
+                        3270
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.087,
+        "uncertain_token_count": 11,
+        "narrow_band_ratio": 0.017,
+        "uncertain_tokens": {
+            "PROBLEM": [
+                [
+                    0.429,
+                    "Vaginal",
+                    [
+                        19,
+                        26
+                    ]
+                ],
+                [
+                    0.448,
+                    "yeast",
+                    [
+                        506,
+                        511
+                    ]
+                ],
+                [
+                    0.469,
+                    "infections",
+                    [
+                        512,
+                        522
+                    ]
+                ]
+            ],
+            "DIAGNOSIS": [
+                [
+                    0.469,
+                    "discharge",
+                    [
+                        27,
+                        36
+                    ]
+                ],
+                [
+                    0.441,
+                    "thin",
+                    [
+                        184,
+                        188
+                    ]
+                ],
+                [
+                    0.479,
+                    "sexually",
+                    [
+                        622,
+                        630
+                    ]
+                ],
+                [
+                    0.43,
+                    "diseases",
+                    [
+                        643,
+                        651
+                    ]
+                ]
+            ],
+            "NA": [
+                [
+                    0.403,
+                    "of",
+                    [
+                        298,
+                        300
+                    ]
+                ],
+                [
+                    0.52,
+                    "urination",
+                    [
+                        301,
+                        310
+                    ]
+                ],
+                [
+                    0.445,
+                    "sexually",
+                    [
+                        382,
+                        390
+                    ]
+                ],
+                [
+                    0.412,
+                    "active",
+                    [
+                        391,
+                        397
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

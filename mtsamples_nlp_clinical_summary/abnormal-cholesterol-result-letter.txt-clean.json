@@ -1,0 +1,157 @@
+{
+    "file": "abnormal-cholesterol-result-letter.txt-clean.txt",
+    "text2summary": {
+        "Medication": [],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "stroke",
+                "range": [
+                    171,
+                    177
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "230690007",
+                "cui": "C0038454",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Cerebrovascular accident"
+            },
+            {
+                "text": "heart attack",
+                "range": [
+                    182,
+                    194
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "22298006",
+                "cui": "C0027051",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Myocardial Infarction"
+            },
+            {
+                "text": "hypercholesterolemia",
+                "range": [
+                    887,
+                    907
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "13644009",
+                "cui": "C0020443",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Hypercholesterolemia"
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.021,
+        "uncertain_count": 1,
+        "narrow_band_ratio": 0.005,
+        "uncertain_tokens": {
+            "MED": [
+                [
+                    0.677,
+                    "RESULT",
+                    [
+                        23,
+                        29
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "stroke",
+                    [
+                        171,
+                        177
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "heart",
+                    [
+                        182,
+                        187
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "attack",
+                    [
+                        188,
+                        194
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "hypercholesterolemia",
+                    [
+                        887,
+                        907
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.74,
+                    "stroke",
+                    [
+                        171,
+                        177
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.702,
+                    "heart",
+                    [
+                        182,
+                        187
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.542,
+                    "attack",
+                    [
+                        188,
+                        194
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.588,
+                    "hypercholesterolemia",
+                    [
+                        887,
+                        907
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.058,
+        "uncertain_token_count": 0,
+        "narrow_band_ratio": 0.0,
+        "uncertain_tokens": {},
+        "narrow_band_width": 0.2
+    }
+}

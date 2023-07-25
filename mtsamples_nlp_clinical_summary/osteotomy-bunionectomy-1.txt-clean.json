@@ -1,0 +1,639 @@
+{
+    "file": "osteotomy-bunionectomy-1.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "fiberglass",
+                "code": null,
+                "cui": null,
+                "tui": null,
+                "vocab": null,
+                "polarity": "positive",
+                "preferredText": null,
+                "range": [
+                    5604,
+                    5614
+                ],
+                "prob": {
+                    "MED": 0.95
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "Keflex",
+                "code": "203167",
+                "cui": "C0700517",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Keflex",
+                "range": [
+                    6284,
+                    6290
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.999
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "Keflex",
+                "code": "203167",
+                "cui": "C0700517",
+                "tui": "T195",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Keflex",
+                "range": [
+                    6284,
+                    6290
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.999
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            }
+        ],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "third metatarsal",
+                "range": [
+                    44,
+                    60
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "right foot",
+                "range": [
+                    62,
+                    72
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "metatarsal",
+                "range": [
+                    155,
+                    165
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "right foot",
+                "range": [
+                    167,
+                    177
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "right talus",
+                "range": [
+                    614,
+                    625
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "to the right foot",
+                "range": [
+                    633,
+                    650
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "right foot",
+                "range": [
+                    6161,
+                    6171
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.009,
+        "uncertain_count": 2,
+        "narrow_band_ratio": 0.002,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.635,
+                    "sedation",
+                    [
+                        1390,
+                        1398
+                    ]
+                ],
+                [
+                    0.51,
+                    "blade",
+                    [
+                        2805,
+                        2810
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "third",
+                    [
+                        44,
+                        49
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "metatarsal",
+                    [
+                        50,
+                        60
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "right",
+                    [
+                        62,
+                        67
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "foot",
+                    [
+                        68,
+                        72
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "metatarsal",
+                    [
+                        155,
+                        165
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "right",
+                    [
+                        167,
+                        172
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "foot",
+                    [
+                        173,
+                        177
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "right",
+                    [
+                        614,
+                        619
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "talus",
+                    [
+                        620,
+                        625
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "bunion",
+                    [
+                        626,
+                        632
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "to",
+                    [
+                        633,
+                        635
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "the",
+                    [
+                        636,
+                        639
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "right",
+                    [
+                        640,
+                        645
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "foot",
+                    [
+                        646,
+                        650
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "scarring",
+                    [
+                        2048,
+                        2056
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "hypertrophic",
+                    [
+                        2252,
+                        2264
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "scar",
+                    [
+                        2265,
+                        2269
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "right",
+                    [
+                        6161,
+                        6166
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "foot",
+                    [
+                        6167,
+                        6171
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.56,
+                    "third",
+                    [
+                        44,
+                        49
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.677,
+                    "metatarsal",
+                    [
+                        50,
+                        60
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.682,
+                    "right",
+                    [
+                        62,
+                        67
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.748,
+                    "foot",
+                    [
+                        68,
+                        72
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.522,
+                    "foot",
+                    [
+                        173,
+                        177
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.614,
+                    "right",
+                    [
+                        614,
+                        619
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.598,
+                    "talus",
+                    [
+                        620,
+                        625
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.824,
+                    "bunion",
+                    [
+                        626,
+                        632
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.769,
+                    "to",
+                    [
+                        633,
+                        635
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.828,
+                    "the",
+                    [
+                        636,
+                        639
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.793,
+                    "right",
+                    [
+                        640,
+                        645
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.774,
+                    "foot",
+                    [
+                        646,
+                        650
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.495,
+                    "relief",
+                    [
+                        789,
+                        795
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.476,
+                    "scarring",
+                    [
+                        2048,
+                        2056
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.583,
+                    "hypertrophic",
+                    [
+                        2252,
+                        2264
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.7,
+                    "scar",
+                    [
+                        2265,
+                        2269
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.487,
+                    "foot",
+                    [
+                        6076,
+                        6080
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.497,
+                    "right",
+                    [
+                        6161,
+                        6166
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.568,
+                    "foot",
+                    [
+                        6167,
+                        6171
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.093,
+        "uncertain_token_count": 9,
+        "narrow_band_ratio": 0.008,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.494,
+                    "metatarsal",
+                    [
+                        155,
+                        165
+                    ]
+                ],
+                [
+                    0.466,
+                    "padding",
+                    [
+                        747,
+                        754
+                    ]
+                ],
+                [
+                    0.513,
+                    "inadequate",
+                    [
+                        778,
+                        788
+                    ]
+                ],
+                [
+                    0.504,
+                    "hypertrophic",
+                    [
+                        2035,
+                        2047
+                    ]
+                ]
+            ],
+            "DIAGNOSIS": [
+                [
+                    0.522,
+                    "foot",
+                    [
+                        173,
+                        177
+                    ]
+                ],
+                [
+                    0.495,
+                    "relief",
+                    [
+                        789,
+                        795
+                    ]
+                ],
+                [
+                    0.476,
+                    "scarring",
+                    [
+                        2048,
+                        2056
+                    ]
+                ],
+                [
+                    0.487,
+                    "foot",
+                    [
+                        6076,
+                        6080
+                    ]
+                ],
+                [
+                    0.497,
+                    "right",
+                    [
+                        6161,
+                        6166
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

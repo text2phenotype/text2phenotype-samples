@@ -1,0 +1,268 @@
+{
+    "file": "cardiac-catheterization-7.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "Xylocaine",
+                "code": "202398",
+                "cui": "C0699094",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Xylocaine",
+                "range": [
+                    864,
+                    873
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.95
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "Xylocaine",
+                "code": "202398",
+                "cui": "C0699094",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Xylocaine",
+                "range": [
+                    864,
+                    873
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.95
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            }
+        ],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": []
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.008,
+        "uncertain_count": 2,
+        "narrow_band_ratio": 0.005,
+        "uncertain_tokens": {
+            "MED": [
+                [
+                    0.667,
+                    "injection",
+                    [
+                        1539,
+                        1548
+                    ]
+                ],
+                [
+                    0.522,
+                    "contrast",
+                    [
+                        1561,
+                        1569
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "chest",
+                    [
+                        85,
+                        90
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "pain",
+                    [
+                        91,
+                        95
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Left",
+                    [
+                        1853,
+                        1857
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "ventricular",
+                    [
+                        1858,
+                        1869
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "left",
+                    [
+                        2521,
+                        2525
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "ventricular",
+                    [
+                        2526,
+                        2537
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "systolic",
+                    [
+                        2538,
+                        2546
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "function",
+                    [
+                        2547,
+                        2555
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.513,
+                    "chest",
+                    [
+                        85,
+                        90
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.536,
+                    "pain",
+                    [
+                        91,
+                        95
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.403,
+                    "Left",
+                    [
+                        1853,
+                        1857
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.476,
+                    "ventricular",
+                    [
+                        1858,
+                        1869
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.813,
+                    "left",
+                    [
+                        2521,
+                        2525
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.847,
+                    "ventricular",
+                    [
+                        2526,
+                        2537
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.89,
+                    "systolic",
+                    [
+                        2538,
+                        2546
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.896,
+                    "function",
+                    [
+                        2547,
+                        2555
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.074,
+        "uncertain_token_count": 3,
+        "narrow_band_ratio": 0.007,
+        "uncertain_tokens": {
+            "DIAGNOSIS": [
+                [
+                    0.513,
+                    "chest",
+                    [
+                        85,
+                        90
+                    ]
+                ],
+                [
+                    0.403,
+                    "Left",
+                    [
+                        1853,
+                        1857
+                    ]
+                ],
+                [
+                    0.476,
+                    "ventricular",
+                    [
+                        1858,
+                        1869
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

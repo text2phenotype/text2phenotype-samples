@@ -1,0 +1,529 @@
+{
+    "file": "mrsa-infection-er-visit.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "bacitracin",
+                "code": "1291",
+                "cui": "C0004599",
+                "tui": "T195",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Bacitracin",
+                "range": [
+                    292,
+                    302
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.992
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "Bactroban",
+                "code": "227591",
+                "cui": "C0733863",
+                "tui": "T195",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Bactroban",
+                "range": [
+                    2501,
+                    2510
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.933
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "Bactroban",
+                "code": "227591",
+                "cui": "C0733863",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Bactroban",
+                "range": [
+                    2501,
+                    2510
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.933
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "antibiotics",
+                "code": null,
+                "cui": null,
+                "tui": null,
+                "vocab": null,
+                "polarity": "positive",
+                "preferredText": null,
+                "range": [
+                    2929,
+                    2940
+                ],
+                "prob": {
+                    "MED": 0.931
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            }
+        ],
+        "Allergy": [
+            {
+                "code": "151399",
+                "cui": "C0591139",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "negative",
+                "text": "Bactrim",
+                "preferredText": "Bactrim",
+                "range": [
+                    2412,
+                    2419
+                ]
+            }
+        ],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "MRSA",
+                "range": [
+                    245,
+                    249
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "266096002",
+                "cui": "C0343401",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "MRSA - Methicillin resistant Staphylococcus aureus infection"
+            },
+            {
+                "text": "small",
+                "range": [
+                    388,
+                    393
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "on her left temporal area",
+                "range": [
+                    402,
+                    427
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "Methicillin-resistant Staphylococcus aureus infection",
+                "range": [
+                    2825,
+                    2878
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "266096002",
+                "cui": "C0343401",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "MRSA - Methicillin resistant Staphylococcus aureus infection"
+            },
+            {
+                "text": "MRSA",
+                "range": [
+                    2887,
+                    2891
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "266096002",
+                "cui": "C0343401",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "MRSA - Methicillin resistant Staphylococcus aureus infection"
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.009,
+        "uncertain_count": 1,
+        "narrow_band_ratio": 0.002,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.699,
+                    "MRSA",
+                    [
+                        602,
+                        606
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "blister",
+                    [
+                        81,
+                        88
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "MRSA",
+                    [
+                        245,
+                        249
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "small",
+                    [
+                        388,
+                        393
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "blister",
+                    [
+                        394,
+                        401
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "on",
+                    [
+                        402,
+                        404
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "her",
+                    [
+                        405,
+                        408
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "left",
+                    [
+                        409,
+                        413
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "temporal",
+                    [
+                        414,
+                        422
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "area",
+                    [
+                        423,
+                        427
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "eating",
+                    [
+                        746,
+                        752
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Methicillin-resistant",
+                    [
+                        2825,
+                        2846
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Staphylococcus",
+                    [
+                        2847,
+                        2861
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "aureus",
+                    [
+                        2862,
+                        2868
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "infection",
+                    [
+                        2869,
+                        2878
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "MRSA",
+                    [
+                        2887,
+                        2891
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.717,
+                    "blister",
+                    [
+                        81,
+                        88
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.878,
+                    "MRSA",
+                    [
+                        245,
+                        249
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.482,
+                    "small",
+                    [
+                        388,
+                        393
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.606,
+                    "blister",
+                    [
+                        394,
+                        401
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.614,
+                    "on",
+                    [
+                        402,
+                        404
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.647,
+                    "her",
+                    [
+                        405,
+                        408
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.657,
+                    "left",
+                    [
+                        409,
+                        413
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.68,
+                    "temporal",
+                    [
+                        414,
+                        422
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.597,
+                    "area",
+                    [
+                        423,
+                        427
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.484,
+                    "MRSA",
+                    [
+                        602,
+                        606
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.965,
+                    "Methicillin-resistant",
+                    [
+                        2825,
+                        2846
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.979,
+                    "Staphylococcus",
+                    [
+                        2847,
+                        2861
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.964,
+                    "aureus",
+                    [
+                        2862,
+                        2868
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.948,
+                    "infection",
+                    [
+                        2869,
+                        2878
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.692,
+                    "MRSA",
+                    [
+                        2887,
+                        2891
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.061,
+        "uncertain_token_count": 4,
+        "narrow_band_ratio": 0.007,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.495,
+                    "blister",
+                    [
+                        131,
+                        138
+                    ]
+                ],
+                [
+                    0.529,
+                    "eating",
+                    [
+                        746,
+                        752
+                    ]
+                ]
+            ],
+            "PROBLEM": [
+                [
+                    0.482,
+                    "small",
+                    [
+                        388,
+                        393
+                    ]
+                ]
+            ],
+            "DIAGNOSIS": [
+                [
+                    0.484,
+                    "MRSA",
+                    [
+                        602,
+                        606
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

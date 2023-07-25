@@ -1,0 +1,162 @@
+{
+    "file": "tonsillectomy-1.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "Marcaine",
+                "code": "1012397",
+                "cui": "C2945665",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Marcaine",
+                "range": [
+                    331,
+                    339
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 1.0
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [
+                    "0.25",
+                    340,
+                    344
+                ],
+                "medStrengthUnit": [
+                    "%",
+                    344,
+                    345
+                ]
+            }
+        ],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "Chronic tonsillitis",
+                "range": [
+                    26,
+                    45
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "90979004",
+                "cui": "C0149517",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Chronic tonsillitis"
+            },
+            {
+                "text": "Chronic tonsillitis",
+                "range": [
+                    73,
+                    92
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "90979004",
+                "cui": "C0149517",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Chronic tonsillitis"
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.004,
+        "uncertain_count": 0,
+        "narrow_band_ratio": 0.0,
+        "uncertain_tokens": {},
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "Chronic",
+                    [
+                        26,
+                        33
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "tonsillitis",
+                    [
+                        34,
+                        45
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Chronic",
+                    [
+                        73,
+                        80
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "tonsillitis",
+                    [
+                        81,
+                        92
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.684,
+                    "Chronic",
+                    [
+                        26,
+                        33
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.671,
+                    "tonsillitis",
+                    [
+                        34,
+                        45
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.946,
+                    "Chronic",
+                    [
+                        73,
+                        80
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.95,
+                    "tonsillitis",
+                    [
+                        81,
+                        92
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.055,
+        "uncertain_token_count": 0,
+        "narrow_band_ratio": 0.0,
+        "uncertain_tokens": {},
+        "narrow_band_width": 0.2
+    }
+}

@@ -1,0 +1,489 @@
+{
+    "file": "mini-laparotomy-radical-retropubic-prostatectomy.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "Betadine",
+                "code": "202750",
+                "cui": "C0699524",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Betadine",
+                "range": [
+                    762,
+                    770
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.979
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "Betadine",
+                "code": "202750",
+                "cui": "C0699524",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Betadine",
+                "range": [
+                    762,
+                    770
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.979
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "gentle",
+                "code": "217335",
+                "cui": "C0720654",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Gentle",
+                "range": [
+                    1999,
+                    2005
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.921
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "gentle",
+                "code": "217335",
+                "cui": "C0720654",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Gentle",
+                "range": [
+                    1999,
+                    2005
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.921
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            }
+        ],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "sepsis",
+                "range": [
+                    475,
+                    481
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "91302008",
+                "cui": "C0243026",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Sepsis"
+            },
+            {
+                "text": "impotence",
+                "range": [
+                    497,
+                    506
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "397803000",
+                "cui": "C0242350",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Erectile dysfunction"
+            },
+            {
+                "text": "constricture",
+                "range": [
+                    521,
+                    533
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "heart attack",
+                "range": [
+                    535,
+                    547
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "22298006",
+                "cui": "C0027051",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Myocardial Infarction"
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.006,
+        "uncertain_count": 2,
+        "narrow_band_ratio": 0.002,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.615,
+                    "solution",
+                    [
+                        771,
+                        779
+                    ]
+                ]
+            ],
+            "MED": [
+                [
+                    0.636,
+                    "silk",
+                    [
+                        1564,
+                        1568
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "Adenocarcinoma",
+                    [
+                        26,
+                        40
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "of",
+                    [
+                        41,
+                        43
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "the",
+                    [
+                        44,
+                        47
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "prostate",
+                    [
+                        48,
+                        56
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Adenocarcinoma",
+                    [
+                        84,
+                        98
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "of",
+                    [
+                        99,
+                        101
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "the",
+                    [
+                        102,
+                        105
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "prostate",
+                    [
+                        106,
+                        114
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "sepsis",
+                    [
+                        475,
+                        481
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "impotence",
+                    [
+                        497,
+                        506
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "constricture",
+                    [
+                        521,
+                        533
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "heart",
+                    [
+                        535,
+                        540
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "attack",
+                    [
+                        541,
+                        547
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.829,
+                    "Adenocarcinoma",
+                    [
+                        26,
+                        40
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.805,
+                    "of",
+                    [
+                        41,
+                        43
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.822,
+                    "the",
+                    [
+                        44,
+                        47
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.621,
+                    "prostate",
+                    [
+                        48,
+                        56
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.897,
+                    "Adenocarcinoma",
+                    [
+                        84,
+                        98
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.809,
+                    "of",
+                    [
+                        99,
+                        101
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.854,
+                    "the",
+                    [
+                        102,
+                        105
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.72,
+                    "prostate",
+                    [
+                        106,
+                        114
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.464,
+                    "sepsis",
+                    [
+                        475,
+                        481
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.467,
+                    "impotence",
+                    [
+                        497,
+                        506
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.592,
+                    "heart",
+                    [
+                        535,
+                        540
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.467,
+                    "attack",
+                    [
+                        541,
+                        547
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.496,
+                    "stroke",
+                    [
+                        549,
+                        555
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.081,
+        "uncertain_token_count": 6,
+        "narrow_band_ratio": 0.007,
+        "uncertain_tokens": {
+            "DIAGNOSIS": [
+                [
+                    0.464,
+                    "sepsis",
+                    [
+                        475,
+                        481
+                    ]
+                ],
+                [
+                    0.467,
+                    "impotence",
+                    [
+                        497,
+                        506
+                    ]
+                ],
+                [
+                    0.467,
+                    "attack",
+                    [
+                        541,
+                        547
+                    ]
+                ],
+                [
+                    0.496,
+                    "stroke",
+                    [
+                        549,
+                        555
+                    ]
+                ]
+            ],
+            "NA": [
+                [
+                    0.507,
+                    "incontinence",
+                    [
+                        483,
+                        495
+                    ]
+                ],
+                [
+                    0.479,
+                    "into",
+                    [
+                        881,
+                        885
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

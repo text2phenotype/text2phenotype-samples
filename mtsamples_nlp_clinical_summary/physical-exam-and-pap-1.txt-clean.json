@@ -1,0 +1,470 @@
+{
+    "file": "physical-exam-and-pap-1.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "Nasonex",
+                "code": "153376",
+                "cui": "C0594492",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Nasonex",
+                "range": [
+                    2771,
+                    2778
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.959
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "Nasonex",
+                "code": "153376",
+                "cui": "C0594492",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Nasonex",
+                "range": [
+                    2771,
+                    2778
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.959
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            }
+        ],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "Rhinitis",
+                "range": [
+                    2517,
+                    2525
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "70076002",
+                "cui": "C0035455",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Rhinitis"
+            },
+            {
+                "text": "versus allergic",
+                "range": [
+                    2564,
+                    2579
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "Eczematous dermatitis on right third finger",
+                "range": [
+                    2586,
+                    2629
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "43116000",
+                "cui": "C0013595",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Eczema"
+            },
+            {
+                "text": "vasomotor rhinitis",
+                "range": [
+                    2653,
+                    2671
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "8229003",
+                "cui": "C0035460",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Rhinitis, Vasomotor"
+            },
+            {
+                "text": "eczematous dermatitis",
+                "range": [
+                    2913,
+                    2934
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "43116000",
+                "cui": "C0013595",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Eczema"
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.011,
+        "uncertain_count": 5,
+        "narrow_band_ratio": 0.008,
+        "uncertain_tokens": {
+            "MED": [
+                [
+                    0.659,
+                    "Tylenol",
+                    [
+                        1197,
+                        1204
+                    ]
+                ],
+                [
+                    0.649,
+                    "Hydrocortisone",
+                    [
+                        2863,
+                        2877
+                    ]
+                ]
+            ],
+            "NA": [
+                [
+                    0.63,
+                    "gas",
+                    [
+                        1345,
+                        1348
+                    ]
+                ],
+                [
+                    0.672,
+                    "sprays",
+                    [
+                        2799,
+                        2805
+                    ]
+                ],
+                [
+                    0.679,
+                    "cream",
+                    [
+                        2878,
+                        2883
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "PROBLEM": [
+                    "rhinorrhea",
+                    [
+                        1165,
+                        1175
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Rhinitis",
+                    [
+                        2517,
+                        2525
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "versus",
+                    [
+                        2564,
+                        2570
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "allergic",
+                    [
+                        2571,
+                        2579
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Eczematous",
+                    [
+                        2586,
+                        2596
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "dermatitis",
+                    [
+                        2597,
+                        2607
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "on",
+                    [
+                        2608,
+                        2610
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "right",
+                    [
+                        2611,
+                        2616
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "third",
+                    [
+                        2617,
+                        2622
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "finger",
+                    [
+                        2623,
+                        2629
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "vasomotor",
+                    [
+                        2653,
+                        2662
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "rhinitis",
+                    [
+                        2663,
+                        2671
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "eczematous",
+                    [
+                        2913,
+                        2923
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "dermatitis",
+                    [
+                        2924,
+                        2934
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "PROBLEM": [
+                    0.713,
+                    "rhinorrhea",
+                    [
+                        1165,
+                        1175
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.937,
+                    "Rhinitis",
+                    [
+                        2517,
+                        2525
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.512,
+                    "allergic",
+                    [
+                        2571,
+                        2579
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.931,
+                    "Eczematous",
+                    [
+                        2586,
+                        2596
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.968,
+                    "dermatitis",
+                    [
+                        2597,
+                        2607
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.923,
+                    "on",
+                    [
+                        2608,
+                        2610
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.911,
+                    "right",
+                    [
+                        2611,
+                        2616
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.886,
+                    "third",
+                    [
+                        2617,
+                        2622
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.842,
+                    "finger",
+                    [
+                        2623,
+                        2629
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.813,
+                    "vasomotor",
+                    [
+                        2653,
+                        2662
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.876,
+                    "rhinitis",
+                    [
+                        2663,
+                        2671
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.683,
+                    "eczematous",
+                    [
+                        2913,
+                        2923
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.807,
+                    "dermatitis",
+                    [
+                        2924,
+                        2934
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.075,
+        "uncertain_token_count": 3,
+        "narrow_band_ratio": 0.005,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.497,
+                    "dermatitis",
+                    [
+                        2418,
+                        2428
+                    ]
+                ],
+                [
+                    0.446,
+                    "versus",
+                    [
+                        2564,
+                        2570
+                    ]
+                ]
+            ],
+            "DIAGNOSIS": [
+                [
+                    0.512,
+                    "allergic",
+                    [
+                        2571,
+                        2579
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

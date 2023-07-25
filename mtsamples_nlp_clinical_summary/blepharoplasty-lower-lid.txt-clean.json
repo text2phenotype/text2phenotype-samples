@@ -1,0 +1,122 @@
+{
+    "file": "blepharoplasty-lower-lid.txt-clean.txt",
+    "text2summary": {
+        "Medication": [],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "left",
+                "range": [
+                    885,
+                    889
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "sutures",
+                "range": [
+                    1245,
+                    1252
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.019,
+        "uncertain_count": 1,
+        "narrow_band_ratio": 0.004,
+        "uncertain_tokens": {
+            "MED": [
+                [
+                    0.694,
+                    "solution",
+                    [
+                        257,
+                        265
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "left",
+                    [
+                        885,
+                        889
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "sutures",
+                    [
+                        1245,
+                        1252
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "PROBLEM": [
+                    0.452,
+                    "sutures",
+                    [
+                        1245,
+                        1252
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.105,
+        "uncertain_token_count": 3,
+        "narrow_band_ratio": 0.012,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.521,
+                    "left",
+                    [
+                        885,
+                        889
+                    ]
+                ],
+                [
+                    0.479,
+                    "back",
+                    [
+                        898,
+                        902
+                    ]
+                ]
+            ],
+            "PROBLEM": [
+                [
+                    0.452,
+                    "sutures",
+                    [
+                        1245,
+                        1252
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

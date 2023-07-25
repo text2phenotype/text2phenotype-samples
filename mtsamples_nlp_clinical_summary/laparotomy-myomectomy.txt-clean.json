@@ -1,0 +1,678 @@
+{
+    "file": "laparotomy-myomectomy.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "anesthetic",
+                "code": null,
+                "cui": null,
+                "tui": null,
+                "vocab": null,
+                "polarity": "positive",
+                "preferredText": null,
+                "range": [
+                    1031,
+                    1041
+                ],
+                "prob": {
+                    "MED": 0.934
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "vasopressin",
+                "code": "11149",
+                "cui": "C1705480",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Vasopressin (USP)",
+                "range": [
+                    2074,
+                    2085
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.969
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [
+                    "20",
+                    2087,
+                    2089
+                ],
+                "medStrengthUnit": [
+                    "units",
+                    2090,
+                    2095
+                ]
+            }
+        ],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "Blood loss anemia",
+                "range": [
+                    61,
+                    78
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "267530009",
+                "cui": "C0154298",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Acute posthaemorrhagic anaemia"
+            },
+            {
+                "text": "Blood loss anemia",
+                "range": [
+                    141,
+                    158
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "267530009",
+                "cui": "C0154298",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Acute posthaemorrhagic anaemia"
+            },
+            {
+                "text": "fundal/anterior",
+                "range": [
+                    692,
+                    707
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "51742006",
+                "cui": "C0751437",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Adenohypophyseal Diseases"
+            },
+            {
+                "text": "6+",
+                "range": [
+                    741,
+                    743
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "small\nsubmucosal",
+                "range": [
+                    759,
+                    775
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "within the endometrium",
+                "range": [
+                    785,
+                    807
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "postoperative",
+                "range": [
+                    4257,
+                    4270
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.009,
+        "uncertain_count": 1,
+        "narrow_band_ratio": 0.001,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.605,
+                    "general",
+                    [
+                        1023,
+                        1030
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "fibroid",
+                    [
+                        40,
+                        47
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "uterus",
+                    [
+                        48,
+                        54
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Blood",
+                    [
+                        61,
+                        66
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "loss",
+                    [
+                        67,
+                        71
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "anemia",
+                    [
+                        72,
+                        78
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "fibroid",
+                    [
+                        120,
+                        127
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "uterus",
+                    [
+                        128,
+                        134
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Blood",
+                    [
+                        141,
+                        146
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "loss",
+                    [
+                        147,
+                        151
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "anemia",
+                    [
+                        152,
+                        158
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "fundal/anterior",
+                    [
+                        692,
+                        707
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "fibroids",
+                    [
+                        708,
+                        716
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "6+",
+                    [
+                        741,
+                        743
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "cm",
+                    [
+                        744,
+                        746
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "small",
+                    [
+                        759,
+                        764
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "submucosal",
+                    [
+                        765,
+                        775
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "fibroids",
+                    [
+                        776,
+                        784
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "within",
+                    [
+                        785,
+                        791
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "the",
+                    [
+                        792,
+                        795
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "endometrium",
+                    [
+                        796,
+                        807
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "postoperative",
+                    [
+                        4257,
+                        4270
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "period",
+                    [
+                        4271,
+                        4277
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.527,
+                    "fibroid",
+                    [
+                        40,
+                        47
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.572,
+                    "uterus",
+                    [
+                        48,
+                        54
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.763,
+                    "Blood",
+                    [
+                        61,
+                        66
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.612,
+                    "loss",
+                    [
+                        67,
+                        71
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.602,
+                    "anemia",
+                    [
+                        72,
+                        78
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.59,
+                    "fibroid",
+                    [
+                        120,
+                        127
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.704,
+                    "uterus",
+                    [
+                        128,
+                        134
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.986,
+                    "Blood",
+                    [
+                        141,
+                        146
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.977,
+                    "loss",
+                    [
+                        147,
+                        151
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.975,
+                    "anemia",
+                    [
+                        152,
+                        158
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.362,
+                    "fibroids",
+                    [
+                        708,
+                        716
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.392,
+                    "6+",
+                    [
+                        741,
+                        743
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.447,
+                    "cm",
+                    [
+                        744,
+                        746
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.697,
+                    "small",
+                    [
+                        759,
+                        764
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.735,
+                    "submucosal",
+                    [
+                        765,
+                        775
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.787,
+                    "fibroids",
+                    [
+                        776,
+                        784
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.55,
+                    "within",
+                    [
+                        785,
+                        791
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.647,
+                    "the",
+                    [
+                        792,
+                        795
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.529,
+                    "endometrium",
+                    [
+                        796,
+                        807
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.56,
+                    "postoperative",
+                    [
+                        4257,
+                        4270
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.647,
+                    "period",
+                    [
+                        4271,
+                        4277
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.088,
+        "uncertain_token_count": 10,
+        "narrow_band_ratio": 0.013,
+        "uncertain_tokens": {
+            "DIAGNOSIS": [
+                [
+                    0.527,
+                    "fibroid",
+                    [
+                        40,
+                        47
+                    ]
+                ],
+                [
+                    0.392,
+                    "6+",
+                    [
+                        741,
+                        743
+                    ]
+                ],
+                [
+                    0.447,
+                    "cm",
+                    [
+                        744,
+                        746
+                    ]
+                ],
+                [
+                    0.529,
+                    "endometrium",
+                    [
+                        796,
+                        807
+                    ]
+                ]
+            ],
+            "NA": [
+                [
+                    0.423,
+                    "uterine",
+                    [
+                        394,
+                        401
+                    ]
+                ],
+                [
+                    0.392,
+                    "fibroids",
+                    [
+                        402,
+                        410
+                    ]
+                ],
+                [
+                    0.486,
+                    "fundal/anterior",
+                    [
+                        692,
+                        707
+                    ]
+                ],
+                [
+                    0.517,
+                    "several",
+                    [
+                        751,
+                        758
+                    ]
+                ],
+                [
+                    0.492,
+                    "fibroids",
+                    [
+                        2953,
+                        2961
+                    ]
+                ]
+            ],
+            "PROBLEM": [
+                [
+                    0.362,
+                    "fibroids",
+                    [
+                        708,
+                        716
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

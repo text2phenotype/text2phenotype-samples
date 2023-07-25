@@ -1,0 +1,523 @@
+{
+    "file": "induction-of-vaginal-delivery.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "Pitocin",
+                "code": "227199",
+                "cui": "C0733348",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Pitocin",
+                "range": [
+                    559,
+                    566
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 1.0
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            }
+        ],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "cervix",
+                "range": [
+                    429,
+                    435
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "induction",
+                "range": [
+                    502,
+                    511
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "perineum in an OA presentation",
+                "range": [
+                    782,
+                    812
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "the head",
+                "range": [
+                    831,
+                    839
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "anterior",
+                "range": [
+                    845,
+                    853
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "51742006",
+                "cui": "C0751437",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Adenohypophyseal Diseases"
+            },
+            {
+                "text": "delivered",
+                "range": [
+                    878,
+                    887
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.003,
+        "uncertain_count": 1,
+        "narrow_band_ratio": 0.004,
+        "uncertain_tokens": {
+            "MED": [
+                [
+                    0.545,
+                    "water",
+                    [
+                        628,
+                        633
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "Term",
+                    [
+                        17,
+                        21
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "pregnancy",
+                    [
+                        22,
+                        31
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "cervix",
+                    [
+                        429,
+                        435
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "oligohydramnios",
+                    [
+                        437,
+                        452
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "ruptured",
+                    [
+                        467,
+                        475
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "membranes",
+                    [
+                        476,
+                        485
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "induction",
+                    [
+                        502,
+                        511
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "perineum",
+                    [
+                        782,
+                        790
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "in",
+                    [
+                        791,
+                        793
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "an",
+                    [
+                        794,
+                        796
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "OA",
+                    [
+                        797,
+                        799
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "presentation",
+                    [
+                        800,
+                        812
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "the",
+                    [
+                        831,
+                        834
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "head",
+                    [
+                        835,
+                        839
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "anterior",
+                    [
+                        845,
+                        853
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "delivered",
+                    [
+                        878,
+                        887
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.866,
+                    "Term",
+                    [
+                        17,
+                        21
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.772,
+                    "pregnancy",
+                    [
+                        22,
+                        31
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.447,
+                    "cervix",
+                    [
+                        429,
+                        435
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.603,
+                    "oligohydramnios",
+                    [
+                        437,
+                        452
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.614,
+                    "ruptured",
+                    [
+                        467,
+                        475
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.634,
+                    "membranes",
+                    [
+                        476,
+                        485
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.492,
+                    "induction",
+                    [
+                        502,
+                        511
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.511,
+                    "perineum",
+                    [
+                        782,
+                        790
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.582,
+                    "in",
+                    [
+                        791,
+                        793
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.674,
+                    "an",
+                    [
+                        794,
+                        796
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.866,
+                    "OA",
+                    [
+                        797,
+                        799
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.565,
+                    "presentation",
+                    [
+                        800,
+                        812
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.522,
+                    "of",
+                    [
+                        828,
+                        830
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.531,
+                    "the",
+                    [
+                        831,
+                        834
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.538,
+                    "anterior",
+                    [
+                        845,
+                        853
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.55,
+                    "delivered",
+                    [
+                        878,
+                        887
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.222,
+        "uncertain_token_count": 9,
+        "narrow_band_ratio": 0.037,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.528,
+                    "para",
+                    [
+                        220,
+                        224
+                    ]
+                ],
+                [
+                    0.511,
+                    "variable",
+                    [
+                        420,
+                        428
+                    ]
+                ],
+                [
+                    0.514,
+                    "recommended",
+                    [
+                        490,
+                        501
+                    ]
+                ],
+                [
+                    0.46,
+                    "intact",
+                    [
+                        775,
+                        781
+                    ]
+                ],
+                [
+                    0.474,
+                    "head",
+                    [
+                        835,
+                        839
+                    ]
+                ]
+            ],
+            "PROBLEM": [
+                [
+                    0.447,
+                    "cervix",
+                    [
+                        429,
+                        435
+                    ]
+                ]
+            ],
+            "DIAGNOSIS": [
+                [
+                    0.492,
+                    "induction",
+                    [
+                        502,
+                        511
+                    ]
+                ],
+                [
+                    0.511,
+                    "perineum",
+                    [
+                        782,
+                        790
+                    ]
+                ],
+                [
+                    0.522,
+                    "of",
+                    [
+                        828,
+                        830
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

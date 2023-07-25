@@ -1,0 +1,426 @@
+{
+    "file": "prostatectomy.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "Hibiclens",
+                "code": "224892",
+                "cui": "C0728728",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Hibiclens",
+                "range": [
+                    1163,
+                    1172
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.927
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [
+                    "85",
+                    66,
+                    68
+                ],
+                "medStrengthUnit": [
+                    "%",
+                    68,
+                    69
+                ]
+            },
+            {
+                "text": "Hibiclens",
+                "code": "224892",
+                "cui": "C0728728",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Hibiclens",
+                "range": [
+                    1163,
+                    1172
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.927
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [
+                    "85",
+                    66,
+                    68
+                ],
+                "medStrengthUnit": [
+                    "%",
+                    68,
+                    69
+                ]
+            }
+        ],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "of the right seminal vesicle",
+                "range": [
+                    4967,
+                    4995
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "pelvic",
+                "range": [
+                    6637,
+                    6643
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.008,
+        "uncertain_count": 2,
+        "narrow_band_ratio": 0.002,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.63,
+                    "antibiotics",
+                    [
+                        1329,
+                        1340
+                    ]
+                ]
+            ],
+            "MED": [
+                [
+                    0.507,
+                    "K-wire",
+                    [
+                        3330,
+                        3336
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "Prostate",
+                    [
+                        26,
+                        34
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "cancer",
+                    [
+                        35,
+                        41
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Prostate",
+                    [
+                        128,
+                        136
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "cancer",
+                    [
+                        137,
+                        143
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "prostate",
+                    [
+                        451,
+                        459
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "cancer",
+                    [
+                        460,
+                        466
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "'",
+                    [
+                        4755,
+                        4756
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "of",
+                    [
+                        4967,
+                        4969
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "the",
+                    [
+                        4970,
+                        4973
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "right",
+                    [
+                        4974,
+                        4979
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "seminal",
+                    [
+                        4980,
+                        4987
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "vesicle",
+                    [
+                        4988,
+                        4995
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "pelvic",
+                    [
+                        6637,
+                        6643
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.77,
+                    "Prostate",
+                    [
+                        26,
+                        34
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.747,
+                    "cancer",
+                    [
+                        35,
+                        41
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.884,
+                    "Prostate",
+                    [
+                        128,
+                        136
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.878,
+                    "cancer",
+                    [
+                        137,
+                        143
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.637,
+                    "prostate",
+                    [
+                        451,
+                        459
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.641,
+                    "cancer",
+                    [
+                        460,
+                        466
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.648,
+                    "'",
+                    [
+                        4755,
+                        4756
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.58,
+                    "of",
+                    [
+                        4967,
+                        4969
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.571,
+                    "the",
+                    [
+                        4970,
+                        4973
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.622,
+                    "right",
+                    [
+                        4974,
+                        4979
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.524,
+                    "seminal",
+                    [
+                        4980,
+                        4987
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.549,
+                    "vesicle",
+                    [
+                        4988,
+                        4995
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.441,
+                    "pelvic",
+                    [
+                        6637,
+                        6643
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.077,
+        "uncertain_token_count": 5,
+        "narrow_band_ratio": 0.004,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.516,
+                    "cut",
+                    [
+                        4117,
+                        4120
+                    ]
+                ],
+                [
+                    0.511,
+                    "tissue",
+                    [
+                        6626,
+                        6632
+                    ]
+                ],
+                [
+                    0.432,
+                    "veins",
+                    [
+                        6644,
+                        6649
+                    ]
+                ]
+            ],
+            "DIAGNOSIS": [
+                [
+                    0.524,
+                    "seminal",
+                    [
+                        4980,
+                        4987
+                    ]
+                ],
+                [
+                    0.441,
+                    "pelvic",
+                    [
+                        6637,
+                        6643
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

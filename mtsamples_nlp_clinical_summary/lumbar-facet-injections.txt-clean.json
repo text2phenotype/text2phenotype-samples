@@ -1,0 +1,185 @@
+{
+    "file": "lumbar-facet-injections.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "analgesics",
+                "code": null,
+                "cui": null,
+                "tui": null,
+                "vocab": null,
+                "polarity": "positive",
+                "preferredText": null,
+                "range": [
+                    624,
+                    634
+                ],
+                "prob": {
+                    "MED": 0.986
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            }
+        ],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "Lumbar spondylosis",
+                "range": [
+                    26,
+                    44
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "239880009",
+                "cui": "C0149983",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Lumbar spondylosis"
+            },
+            {
+                "text": "Lumbar spondylosis",
+                "range": [
+                    72,
+                    90
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "239880009",
+                "cui": "C0149983",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Lumbar spondylosis"
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.015,
+        "uncertain_count": 2,
+        "narrow_band_ratio": 0.008,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.645,
+                    "fluoroscopic",
+                    [
+                        1094,
+                        1106
+                    ]
+                ]
+            ],
+            "MED": [
+                [
+                    0.586,
+                    "capsule",
+                    [
+                        1298,
+                        1305
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "Lumbar",
+                    [
+                        26,
+                        32
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "spondylosis",
+                    [
+                        33,
+                        44
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Lumbar",
+                    [
+                        72,
+                        78
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "spondylosis",
+                    [
+                        79,
+                        90
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.589,
+                    "Lumbar",
+                    [
+                        26,
+                        32
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.548,
+                    "spondylosis",
+                    [
+                        33,
+                        44
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.546,
+                    "Lumbar",
+                    [
+                        72,
+                        78
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.503,
+                    "spondylosis",
+                    [
+                        79,
+                        90
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.068,
+        "uncertain_token_count": 1,
+        "narrow_band_ratio": 0.004,
+        "uncertain_tokens": {
+            "DIAGNOSIS": [
+                [
+                    0.503,
+                    "spondylosis",
+                    [
+                        79,
+                        90
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

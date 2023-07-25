@@ -1,0 +1,814 @@
+{
+    "file": "discharge-summary-nephrology.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "pain",
+                "code": null,
+                "cui": null,
+                "tui": null,
+                "vocab": null,
+                "polarity": "positive",
+                "preferredText": null,
+                "range": [
+                    2507,
+                    2511
+                ],
+                "prob": {
+                    "MED": 0.903
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            }
+        ],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "Left",
+                "range": [
+                    23,
+                    27
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "renal cyst",
+                "range": [
+                    55,
+                    65
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "77945009",
+                "cui": "C0268800",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Simple renal cyst"
+            },
+            {
+                "text": "Left",
+                "range": [
+                    89,
+                    93
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "renal cyst",
+                "range": [
+                    121,
+                    131
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "77945009",
+                "cui": "C0268800",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Simple renal cyst"
+            },
+            {
+                "text": "Chronic obstructive pulmonary disease",
+                "range": [
+                    160,
+                    197
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "13645005",
+                "cui": "C0024117",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Chronic Obstructive Airway Disease"
+            },
+            {
+                "text": "Coronary artery disease",
+                "range": [
+                    204,
+                    227
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "53741008",
+                "cui": "C1956346",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Coronary Artery Disease"
+            },
+            {
+                "text": "a left",
+                "range": [
+                    405,
+                    411
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "multiple renal cysts",
+                "range": [
+                    438,
+                    458
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "253883006",
+                "cui": "C0431718",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Multiple renal cysts"
+            },
+            {
+                "text": "left kidney",
+                "range": [
+                    566,
+                    577
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.006,
+        "uncertain_count": 0,
+        "narrow_band_ratio": 0.0,
+        "uncertain_tokens": {},
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "Left",
+                    [
+                        23,
+                        27
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "renal",
+                    [
+                        28,
+                        33
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "cell",
+                    [
+                        34,
+                        38
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "carcinoma",
+                    [
+                        39,
+                        48
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "renal",
+                    [
+                        55,
+                        60
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "cyst",
+                    [
+                        61,
+                        65
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Left",
+                    [
+                        89,
+                        93
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "renal",
+                    [
+                        94,
+                        99
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "cell",
+                    [
+                        100,
+                        104
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "carcinoma",
+                    [
+                        105,
+                        114
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "renal",
+                    [
+                        121,
+                        126
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "cyst",
+                    [
+                        127,
+                        131
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Chronic",
+                    [
+                        160,
+                        167
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "obstructive",
+                    [
+                        168,
+                        179
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "pulmonary",
+                    [
+                        180,
+                        189
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "disease",
+                    [
+                        190,
+                        197
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Coronary",
+                    [
+                        204,
+                        212
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "artery",
+                    [
+                        213,
+                        219
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "disease",
+                    [
+                        220,
+                        227
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "a",
+                    [
+                        405,
+                        406
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "left",
+                    [
+                        407,
+                        411
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "renal",
+                    [
+                        412,
+                        417
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "cell",
+                    [
+                        418,
+                        422
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "carcinoma",
+                    [
+                        423,
+                        432
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "multiple",
+                    [
+                        438,
+                        446
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "renal",
+                    [
+                        447,
+                        452
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "cysts",
+                    [
+                        453,
+                        458
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "left",
+                    [
+                        566,
+                        570
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "kidney",
+                    [
+                        571,
+                        577
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "renal",
+                    [
+                        609,
+                        614
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "cell",
+                    [
+                        615,
+                        619
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "carcinoma",
+                    [
+                        620,
+                        629
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.944,
+                    "Left",
+                    [
+                        23,
+                        27
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.987,
+                    "renal",
+                    [
+                        28,
+                        33
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.978,
+                    "cell",
+                    [
+                        34,
+                        38
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.98,
+                    "carcinoma",
+                    [
+                        39,
+                        48
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.895,
+                    "renal",
+                    [
+                        55,
+                        60
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.908,
+                    "cyst",
+                    [
+                        61,
+                        65
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.721,
+                    "Left",
+                    [
+                        89,
+                        93
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.99,
+                    "renal",
+                    [
+                        94,
+                        99
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.983,
+                    "cell",
+                    [
+                        100,
+                        104
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.981,
+                    "carcinoma",
+                    [
+                        105,
+                        114
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.88,
+                    "renal",
+                    [
+                        121,
+                        126
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.89,
+                    "cyst",
+                    [
+                        127,
+                        131
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.896,
+                    "Chronic",
+                    [
+                        160,
+                        167
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.935,
+                    "obstructive",
+                    [
+                        168,
+                        179
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.954,
+                    "pulmonary",
+                    [
+                        180,
+                        189
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.956,
+                    "disease",
+                    [
+                        190,
+                        197
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.961,
+                    "Coronary",
+                    [
+                        204,
+                        212
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.954,
+                    "artery",
+                    [
+                        213,
+                        219
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.947,
+                    "disease",
+                    [
+                        220,
+                        227
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.541,
+                    "a",
+                    [
+                        405,
+                        406
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.937,
+                    "left",
+                    [
+                        407,
+                        411
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.966,
+                    "renal",
+                    [
+                        412,
+                        417
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.93,
+                    "cell",
+                    [
+                        418,
+                        422
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.825,
+                    "carcinoma",
+                    [
+                        423,
+                        432
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.679,
+                    "multiple",
+                    [
+                        438,
+                        446
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.782,
+                    "renal",
+                    [
+                        447,
+                        452
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.703,
+                    "cysts",
+                    [
+                        453,
+                        458
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.691,
+                    "left",
+                    [
+                        566,
+                        570
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.654,
+                    "kidney",
+                    [
+                        571,
+                        577
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.881,
+                    "renal",
+                    [
+                        609,
+                        614
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.899,
+                    "cell",
+                    [
+                        615,
+                        619
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.898,
+                    "carcinoma",
+                    [
+                        620,
+                        629
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.094,
+        "uncertain_token_count": 4,
+        "narrow_band_ratio": 0.008,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.515,
+                    "left",
+                    [
+                        50,
+                        54
+                    ]
+                ],
+                [
+                    0.498,
+                    "left",
+                    [
+                        116,
+                        120
+                    ]
+                ],
+                [
+                    0.488,
+                    "consistent",
+                    [
+                        578,
+                        588
+                    ]
+                ],
+                [
+                    0.503,
+                    "cysts",
+                    [
+                        1121,
+                        1126
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

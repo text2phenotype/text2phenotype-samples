@@ -1,0 +1,534 @@
+{
+    "file": "colonoscopy-8.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "azathioprine",
+                "code": "1256",
+                "cui": "C0004482",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Azathioprine",
+                "range": [
+                    2968,
+                    2980
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.984
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "azathioprine",
+                "code": "1256",
+                "cui": "C0004482",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Azathioprine",
+                "range": [
+                    2968,
+                    2980
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.984
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            }
+        ],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "Inflammatory Bowel Disease",
+                "range": [
+                    107,
+                    133
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "Inflammatory Bowel Disease",
+                "range": [
+                    773,
+                    799
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "24526004",
+                "cui": "C0021390",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Inflammatory Bowel Diseases"
+            },
+            {
+                "text": "Crohn",
+                "range": [
+                    2427,
+                    2432
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "34000006",
+                "cui": "C0010346",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Crohn Disease"
+            },
+            {
+                "text": "sigmoid colon",
+                "range": [
+                    2476,
+                    2489
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "Active flare of Inflammatory Bowel Disease",
+                "range": [
+                    2619,
+                    2661
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "Crohn\ndisease",
+                "range": [
+                    2675,
+                    2688
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "34000006",
+                "cui": "C0010346",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Crohn Disease"
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.008,
+        "uncertain_count": 1,
+        "narrow_band_ratio": 0.002,
+        "uncertain_tokens": {
+            "MED": [
+                [
+                    0.675,
+                    "sulfasalazine",
+                    [
+                        184,
+                        197
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "Inflammatory",
+                    [
+                        107,
+                        119
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Bowel",
+                    [
+                        120,
+                        125
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Disease",
+                    [
+                        126,
+                        133
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Inflammatory",
+                    [
+                        773,
+                        785
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Bowel",
+                    [
+                        786,
+                        791
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Disease",
+                    [
+                        792,
+                        799
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Crohn",
+                    [
+                        2427,
+                        2432
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "sigmoid",
+                    [
+                        2476,
+                        2483
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "colon",
+                    [
+                        2484,
+                        2489
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "disease",
+                    [
+                        2539,
+                        2546
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Active",
+                    [
+                        2619,
+                        2625
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "flare",
+                    [
+                        2626,
+                        2631
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "of",
+                    [
+                        2632,
+                        2634
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Inflammatory",
+                    [
+                        2635,
+                        2647
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Bowel",
+                    [
+                        2648,
+                        2653
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Disease",
+                    [
+                        2654,
+                        2661
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Crohn",
+                    [
+                        2675,
+                        2680
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "disease",
+                    [
+                        2681,
+                        2688
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.882,
+                    "Inflammatory",
+                    [
+                        107,
+                        119
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.851,
+                    "Bowel",
+                    [
+                        120,
+                        125
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.824,
+                    "Disease",
+                    [
+                        126,
+                        133
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.661,
+                    "Inflammatory",
+                    [
+                        773,
+                        785
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.594,
+                    "Bowel",
+                    [
+                        786,
+                        791
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.578,
+                    "Disease",
+                    [
+                        792,
+                        799
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.553,
+                    "Crohn",
+                    [
+                        2427,
+                        2432
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.512,
+                    "sigmoid",
+                    [
+                        2476,
+                        2483
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.535,
+                    "colon",
+                    [
+                        2484,
+                        2489
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.528,
+                    "disease",
+                    [
+                        2539,
+                        2546
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.665,
+                    "Active",
+                    [
+                        2619,
+                        2625
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.758,
+                    "flare",
+                    [
+                        2626,
+                        2631
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.757,
+                    "of",
+                    [
+                        2632,
+                        2634
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.982,
+                    "Inflammatory",
+                    [
+                        2635,
+                        2647
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.986,
+                    "Bowel",
+                    [
+                        2648,
+                        2653
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.984,
+                    "Disease",
+                    [
+                        2654,
+                        2661
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.883,
+                    "Crohn",
+                    [
+                        2675,
+                        2680
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.833,
+                    "disease",
+                    [
+                        2681,
+                        2688
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.081,
+        "uncertain_token_count": 3,
+        "narrow_band_ratio": 0.005,
+        "uncertain_tokens": {
+            "DIAGNOSIS": [
+                [
+                    0.512,
+                    "sigmoid",
+                    [
+                        2476,
+                        2483
+                    ]
+                ],
+                [
+                    0.528,
+                    "disease",
+                    [
+                        2539,
+                        2546
+                    ]
+                ]
+            ],
+            "NA": [
+                [
+                    0.467,
+                    "lesion",
+                    [
+                        2499,
+                        2505
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

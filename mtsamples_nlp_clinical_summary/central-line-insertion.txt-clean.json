@@ -1,0 +1,252 @@
+{
+    "file": "central-line-insertion.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "Xylocaine",
+                "code": "202398",
+                "cui": "C0699094",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Xylocaine",
+                "range": [
+                    378,
+                    387
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.994
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [
+                    "1",
+                    388,
+                    389
+                ],
+                "medStrengthUnit": [
+                    "%",
+                    389,
+                    390
+                ]
+            },
+            {
+                "text": "Xylocaine",
+                "code": "202398",
+                "cui": "C0699094",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Xylocaine",
+                "range": [
+                    378,
+                    387
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.994
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [
+                    "1",
+                    388,
+                    389
+                ],
+                "medStrengthUnit": [
+                    "%",
+                    389,
+                    390
+                ]
+            }
+        ],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "Empyema",
+                "range": [
+                    30,
+                    37
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "66696003",
+                "cui": "C0014009",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Empyema"
+            },
+            {
+                "text": "Empyema thoracis",
+                "range": [
+                    117,
+                    133
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "66696003",
+                "cui": "C0014009",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Empyema"
+            },
+            {
+                "text": "intravenous",
+                "range": [
+                    149,
+                    160
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.009,
+        "uncertain_count": 1,
+        "narrow_band_ratio": 0.007,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.544,
+                    "normal",
+                    [
+                        632,
+                        638
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "Empyema",
+                    [
+                        30,
+                        37
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Empyema",
+                    [
+                        117,
+                        124
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "thoracis",
+                    [
+                        125,
+                        133
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "intravenous",
+                    [
+                        149,
+                        160
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.575,
+                    "Empyema",
+                    [
+                        30,
+                        37
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.71,
+                    "Empyema",
+                    [
+                        117,
+                        124
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.478,
+                    "thoracis",
+                    [
+                        125,
+                        133
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.399,
+                    "intravenous",
+                    [
+                        149,
+                        160
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.074,
+        "uncertain_token_count": 4,
+        "narrow_band_ratio": 0.028,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.37,
+                    "thoracis",
+                    [
+                        38,
+                        46
+                    ]
+                ],
+                [
+                    0.473,
+                    "antibiotics",
+                    [
+                        161,
+                        172
+                    ]
+                ]
+            ],
+            "DIAGNOSIS": [
+                [
+                    0.478,
+                    "thoracis",
+                    [
+                        125,
+                        133
+                    ]
+                ],
+                [
+                    0.399,
+                    "intravenous",
+                    [
+                        149,
+                        160
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

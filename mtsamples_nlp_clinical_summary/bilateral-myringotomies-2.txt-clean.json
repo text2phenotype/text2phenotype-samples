@@ -1,0 +1,239 @@
+{
+    "file": "bilateral-myringotomies-2.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "Floxin",
+                "code": "202458",
+                "cui": "C0699173",
+                "tui": "T195",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Floxin",
+                "range": [
+                    717,
+                    723
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.999
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "Floxin",
+                "code": "202458",
+                "cui": "C0699173",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Floxin",
+                "range": [
+                    717,
+                    723
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.999
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "drops",
+                "code": null,
+                "cui": null,
+                "tui": null,
+                "vocab": null,
+                "polarity": "positive",
+                "preferredText": null,
+                "range": [
+                    724,
+                    729
+                ],
+                "prob": {
+                    "MED": 0.936
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            }
+        ],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "Bilateral chronic otitis",
+                "range": [
+                    83,
+                    107
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "drainage",
+                "range": [
+                    836,
+                    844
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.009,
+        "uncertain_count": 0,
+        "narrow_band_ratio": 0.0,
+        "uncertain_tokens": {},
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "Bilateral",
+                    [
+                        83,
+                        92
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "chronic",
+                    [
+                        93,
+                        100
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "otitis",
+                    [
+                        101,
+                        107
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "drainage",
+                    [
+                        836,
+                        844
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "condition",
+                    [
+                        941,
+                        950
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.537,
+                    "Bilateral",
+                    [
+                        83,
+                        92
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.877,
+                    "chronic",
+                    [
+                        93,
+                        100
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.84,
+                    "otitis",
+                    [
+                        101,
+                        107
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.692,
+                    "drainage",
+                    [
+                        836,
+                        844
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.705,
+                    "condition",
+                    [
+                        941,
+                        950
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.115,
+        "uncertain_token_count": 3,
+        "narrow_band_ratio": 0.019,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.495,
+                    "chronic",
+                    [
+                        36,
+                        43
+                    ]
+                ],
+                [
+                    0.397,
+                    "otitis",
+                    [
+                        44,
+                        50
+                    ]
+                ],
+                [
+                    0.495,
+                    "media",
+                    [
+                        108,
+                        113
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

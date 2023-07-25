@@ -1,0 +1,400 @@
+{
+    "file": "cineangiography-1.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "Angiomax",
+                "code": "285044",
+                "cui": "C0939677",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Angiomax",
+                "range": [
+                    971,
+                    979
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.98
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [
+                    "99",
+                    1717,
+                    1719
+                ],
+                "medStrengthUnit": [
+                    "%",
+                    1719,
+                    1720
+                ]
+            }
+        ],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "ST-elevation myocardial infarction",
+                "range": [
+                    30,
+                    64
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "balloon x2",
+                "range": [
+                    333,
+                    343
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "ST-elevation myocardial infarction",
+                "range": [
+                    3294,
+                    3328
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "left circumflex system",
+                "range": [
+                    3594,
+                    3616
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.004,
+        "uncertain_count": 0,
+        "narrow_band_ratio": 0.0,
+        "uncertain_tokens": {},
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "ST-elevation",
+                    [
+                        30,
+                        42
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "myocardial",
+                    [
+                        43,
+                        53
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "infarction",
+                    [
+                        54,
+                        64
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "balloon",
+                    [
+                        333,
+                        340
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "x2",
+                    [
+                        341,
+                        343
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "PDA",
+                    [
+                        3044,
+                        3047
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "disease",
+                    [
+                        3080,
+                        3087
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "hypokinesis",
+                    [
+                        3173,
+                        3184
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "ST-elevation",
+                    [
+                        3294,
+                        3306
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "myocardial",
+                    [
+                        3307,
+                        3317
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "infarction",
+                    [
+                        3318,
+                        3328
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "left",
+                    [
+                        3594,
+                        3598
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "circumflex",
+                    [
+                        3599,
+                        3609
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "system",
+                    [
+                        3610,
+                        3616
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "disease",
+                    [
+                        3628,
+                        3635
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.865,
+                    "myocardial",
+                    [
+                        43,
+                        53
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.925,
+                    "infarction",
+                    [
+                        54,
+                        64
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.647,
+                    "PDA",
+                    [
+                        3044,
+                        3047
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.651,
+                    "disease",
+                    [
+                        3080,
+                        3087
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.581,
+                    "hypokinesis",
+                    [
+                        3173,
+                        3184
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.708,
+                    "ST-elevation",
+                    [
+                        3294,
+                        3306
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.859,
+                    "myocardial",
+                    [
+                        3307,
+                        3317
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.896,
+                    "infarction",
+                    [
+                        3318,
+                        3328
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.676,
+                    "left",
+                    [
+                        3594,
+                        3598
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.589,
+                    "circumflex",
+                    [
+                        3599,
+                        3609
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.65,
+                    "system",
+                    [
+                        3610,
+                        3616
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.634,
+                    "disease",
+                    [
+                        3628,
+                        3635
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.1,
+        "uncertain_token_count": 4,
+        "narrow_band_ratio": 0.006,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.514,
+                    "ST-elevation",
+                    [
+                        30,
+                        42
+                    ]
+                ],
+                [
+                    0.525,
+                    "balloon",
+                    [
+                        333,
+                        340
+                    ]
+                ],
+                [
+                    0.486,
+                    "x2",
+                    [
+                        341,
+                        343
+                    ]
+                ],
+                [
+                    0.529,
+                    "lesion",
+                    [
+                        2853,
+                        2859
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

@@ -1,0 +1,346 @@
+{
+    "file": "delivery-note-4.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "Pitocin",
+                "code": "227199",
+                "cui": "C0733348",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Pitocin",
+                "range": [
+                    263,
+                    270
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.996
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [
+                    "day",
+                    953,
+                    956
+                ],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            }
+        ],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "early labor",
+                "range": [
+                    95,
+                    106
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "6383007",
+                "cui": "C0022876",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Premature Obstetric Labor"
+            },
+            {
+                "text": "IV pit",
+                "range": [
+                    1475,
+                    1481
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "tear",
+                "range": [
+                    1497,
+                    1501
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "125671007",
+                "cui": "C0043246",
+                "tui": "T037",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Laceration"
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.001,
+        "uncertain_count": 0,
+        "narrow_band_ratio": 0.0,
+        "uncertain_tokens": {},
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "early",
+                    [
+                        95,
+                        100
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "labor",
+                    [
+                        101,
+                        106
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "closed",
+                    [
+                        118,
+                        124
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "cervix",
+                    [
+                        125,
+                        131
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "posterior",
+                    [
+                        137,
+                        146
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "ruptured",
+                    [
+                        190,
+                        198
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "bleeding",
+                    [
+                        1384,
+                        1392
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "IV",
+                    [
+                        1475,
+                        1477
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "pit",
+                    [
+                        1478,
+                        1481
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "tear",
+                    [
+                        1497,
+                        1501
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.66,
+                    "early",
+                    [
+                        95,
+                        100
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.508,
+                    "labor",
+                    [
+                        101,
+                        106
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.562,
+                    "closed",
+                    [
+                        118,
+                        124
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.488,
+                    "cervix",
+                    [
+                        125,
+                        131
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.635,
+                    "ruptured",
+                    [
+                        190,
+                        198
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.405,
+                    "bleeding",
+                    [
+                        1384,
+                        1392
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.593,
+                    "IV",
+                    [
+                        1475,
+                        1477
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.716,
+                    "pit",
+                    [
+                        1478,
+                        1481
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.643,
+                    "tear",
+                    [
+                        1497,
+                        1501
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.156,
+        "uncertain_token_count": 8,
+        "narrow_band_ratio": 0.024,
+        "uncertain_tokens": {
+            "DIAGNOSIS": [
+                [
+                    0.508,
+                    "labor",
+                    [
+                        101,
+                        106
+                    ]
+                ],
+                [
+                    0.488,
+                    "cervix",
+                    [
+                        125,
+                        131
+                    ]
+                ]
+            ],
+            "NA": [
+                [
+                    0.482,
+                    "posterior",
+                    [
+                        137,
+                        146
+                    ]
+                ],
+                [
+                    0.44,
+                    "meconium",
+                    [
+                        228,
+                        236
+                    ]
+                ],
+                [
+                    0.524,
+                    "baby",
+                    [
+                        1055,
+                        1059
+                    ]
+                ],
+                [
+                    0.514,
+                    "Uterus",
+                    [
+                        1448,
+                        1454
+                    ]
+                ],
+                [
+                    0.464,
+                    "firmed",
+                    [
+                        1455,
+                        1461
+                    ]
+                ]
+            ],
+            "PROBLEM": [
+                [
+                    0.405,
+                    "bleeding",
+                    [
+                        1384,
+                        1392
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

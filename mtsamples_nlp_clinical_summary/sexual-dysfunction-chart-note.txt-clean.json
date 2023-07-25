@@ -1,0 +1,335 @@
+{
+    "file": "sexual-dysfunction-chart-note.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "Cialis",
+                "code": "303263",
+                "cui": "C0967376",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Cialis",
+                "range": [
+                    2048,
+                    2054
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 1.0
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [
+                    "10",
+                    2055,
+                    2057
+                ],
+                "medStrengthUnit": [
+                    "mg",
+                    2058,
+                    2060
+                ]
+            },
+            {
+                "text": "Cialis",
+                "code": "303263",
+                "cui": "C0967376",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Cialis",
+                "range": [
+                    2048,
+                    2054
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 1.0
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [
+                    "10",
+                    2055,
+                    2057
+                ],
+                "medStrengthUnit": [
+                    "mg",
+                    2058,
+                    2060
+                ]
+            }
+        ],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "sexual dysfunction",
+                "range": [
+                    105,
+                    123
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "231532002",
+                "cui": "C0549622",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Sexual Dysfunction"
+            },
+            {
+                "text": "sexual",
+                "range": [
+                    720,
+                    726
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "Sexual dysfunction",
+                "range": [
+                    1906,
+                    1924
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "231532002",
+                "cui": "C0549622",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Sexual Dysfunction"
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.003,
+        "uncertain_count": 0,
+        "narrow_band_ratio": 0.0,
+        "uncertain_tokens": {},
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "sexual",
+                    [
+                        105,
+                        111
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "dysfunction",
+                    [
+                        112,
+                        123
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "erections",
+                    [
+                        565,
+                        574
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "sexual",
+                    [
+                        720,
+                        726
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "activity",
+                    [
+                        727,
+                        735
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "intercourse",
+                    [
+                        924,
+                        935
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Sexual",
+                    [
+                        1906,
+                        1912
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "dysfunction",
+                    [
+                        1913,
+                        1924
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.811,
+                    "sexual",
+                    [
+                        105,
+                        111
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.837,
+                    "dysfunction",
+                    [
+                        112,
+                        123
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.464,
+                    "erections",
+                    [
+                        565,
+                        574
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.415,
+                    "sexual",
+                    [
+                        720,
+                        726
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.475,
+                    "activity",
+                    [
+                        727,
+                        735
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.555,
+                    "intercourse",
+                    [
+                        924,
+                        935
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.897,
+                    "Sexual",
+                    [
+                        1906,
+                        1912
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.907,
+                    "dysfunction",
+                    [
+                        1913,
+                        1924
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.075,
+        "uncertain_token_count": 6,
+        "narrow_band_ratio": 0.013,
+        "uncertain_tokens": {
+            "PROBLEM": [
+                [
+                    0.464,
+                    "erections",
+                    [
+                        565,
+                        574
+                    ]
+                ]
+            ],
+            "DIAGNOSIS": [
+                [
+                    0.415,
+                    "sexual",
+                    [
+                        720,
+                        726
+                    ]
+                ],
+                [
+                    0.475,
+                    "activity",
+                    [
+                        727,
+                        735
+                    ]
+                ]
+            ],
+            "NA": [
+                [
+                    0.466,
+                    "erection",
+                    [
+                        796,
+                        804
+                    ]
+                ],
+                [
+                    0.396,
+                    "infections",
+                    [
+                        1027,
+                        1037
+                    ]
+                ],
+                [
+                    0.513,
+                    "hernia",
+                    [
+                        1127,
+                        1133
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

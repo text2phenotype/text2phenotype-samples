@@ -1,0 +1,360 @@
+{
+    "file": "er-report-rib-cage-pain.txt-clean.txt",
+    "text2summary": {
+        "Medication": [],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "rib cage",
+                "range": [
+                    230,
+                    238
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "Staphylococcus infection",
+                "range": [
+                    712,
+                    736
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "56038003",
+                "cui": "C0038160",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Staphylococcal Infections"
+            },
+            {
+                "text": "skin lesion",
+                "range": [
+                    2151,
+                    2162
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "95324001",
+                "cui": "C0037284",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Skin lesion"
+            },
+            {
+                "text": "right-sided",
+                "range": [
+                    2420,
+                    2431
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "signs",
+                "range": [
+                    3225,
+                    3230
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.005,
+        "uncertain_count": 2,
+        "narrow_band_ratio": 0.003,
+        "uncertain_tokens": {
+            "MED": [
+                [
+                    0.537,
+                    "antibiotics",
+                    [
+                        766,
+                        777
+                    ]
+                ]
+            ],
+            "NA": [
+                [
+                    0.58,
+                    "vehicle",
+                    [
+                        2752,
+                        2759
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "PROBLEM": [
+                    "rib",
+                    [
+                        230,
+                        233
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "cage",
+                    [
+                        234,
+                        238
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "pain",
+                    [
+                        239,
+                        243
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Staphylococcus",
+                    [
+                        712,
+                        726
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "infection",
+                    [
+                        727,
+                        736
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "skin",
+                    [
+                        2151,
+                        2155
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "lesion",
+                    [
+                        2156,
+                        2162
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "right-sided",
+                    [
+                        2420,
+                        2431
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "chest/abdominal",
+                    [
+                        2432,
+                        2447
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "pain",
+                    [
+                        2448,
+                        2452
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "signs",
+                    [
+                        3225,
+                        3230
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "PROBLEM": [
+                    0.786,
+                    "rib",
+                    [
+                        230,
+                        233
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.876,
+                    "cage",
+                    [
+                        234,
+                        238
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.848,
+                    "pain",
+                    [
+                        239,
+                        243
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.89,
+                    "Staphylococcus",
+                    [
+                        712,
+                        726
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.838,
+                    "infection",
+                    [
+                        727,
+                        736
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.473,
+                    "skin",
+                    [
+                        2151,
+                        2155
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.532,
+                    "lesion",
+                    [
+                        2156,
+                        2162
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.425,
+                    "right-sided",
+                    [
+                        2420,
+                        2431
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.43,
+                    "chest/abdominal",
+                    [
+                        2432,
+                        2447
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.472,
+                    "pain",
+                    [
+                        2448,
+                        2452
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.586,
+                    "signs",
+                    [
+                        3225,
+                        3230
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.067,
+        "uncertain_token_count": 4,
+        "narrow_band_ratio": 0.006,
+        "uncertain_tokens": {
+            "DIAGNOSIS": [
+                [
+                    0.473,
+                    "skin",
+                    [
+                        2151,
+                        2155
+                    ]
+                ],
+                [
+                    0.425,
+                    "right-sided",
+                    [
+                        2420,
+                        2431
+                    ]
+                ],
+                [
+                    0.43,
+                    "chest/abdominal",
+                    [
+                        2432,
+                        2447
+                    ]
+                ],
+                [
+                    0.472,
+                    "pain",
+                    [
+                        2448,
+                        2452
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

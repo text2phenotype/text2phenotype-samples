@@ -1,0 +1,791 @@
+{
+    "file": "glioma-2.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "BCNU",
+                "code": "2105",
+                "cui": "C0007257",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Carmustine",
+                "range": [
+                    1974,
+                    1978
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 1.0
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "BCNU",
+                "code": "2105",
+                "cui": "C0007257",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Carmustine",
+                "range": [
+                    1974,
+                    1978
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 1.0
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            }
+        ],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "intermittent predominantly left",
+                "range": [
+                    92,
+                    123
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "tension type\nheadaches",
+                "range": [
+                    298,
+                    320
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "398057008",
+                "cui": "C0033893",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Tension Headache"
+            },
+            {
+                "text": "right frontal",
+                "range": [
+                    415,
+                    428
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "horn of the right lateral\nventricle",
+                "range": [
+                    1349,
+                    1384
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "xanthomatous",
+                "range": [
+                    1521,
+                    1533
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.006,
+        "uncertain_count": 1,
+        "narrow_band_ratio": 0.003,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.519,
+                    "PB",
+                    [
+                        1921,
+                        1923
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "Headache",
+                    [
+                        6,
+                        14
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "intermittent",
+                    [
+                        92,
+                        104
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "predominantly",
+                    [
+                        105,
+                        118
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "left",
+                    [
+                        119,
+                        123
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "occipital",
+                    [
+                        124,
+                        133
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "headaches",
+                    [
+                        134,
+                        143
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "tension",
+                    [
+                        298,
+                        305
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "type",
+                    [
+                        306,
+                        310
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "headaches",
+                    [
+                        311,
+                        320
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "right",
+                    [
+                        415,
+                        420
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "frontal",
+                    [
+                        421,
+                        428
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "mass",
+                    [
+                        429,
+                        433
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "lesion",
+                    [
+                        434,
+                        440
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "mass",
+                    [
+                        1058,
+                        1062
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "edema",
+                    [
+                        1098,
+                        1103
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "tumor",
+                    [
+                        1123,
+                        1128
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Tumor",
+                    [
+                        1184,
+                        1189
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "horn",
+                    [
+                        1349,
+                        1353
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "of",
+                    [
+                        1354,
+                        1356
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "the",
+                    [
+                        1357,
+                        1360
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "right",
+                    [
+                        1361,
+                        1366
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "lateral",
+                    [
+                        1367,
+                        1374
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "ventricle",
+                    [
+                        1375,
+                        1384
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "findings",
+                    [
+                        1394,
+                        1402
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "glioblastoma",
+                    [
+                        1428,
+                        1440
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "xanthomatous",
+                    [
+                        1521,
+                        1533
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "astrocytoma",
+                    [
+                        1534,
+                        1545
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "tumor",
+                    [
+                        1697,
+                        1702
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "tumor",
+                    [
+                        1785,
+                        1790
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "auras",
+                    [
+                        1871,
+                        1876
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.58,
+                    "Headache",
+                    [
+                        6,
+                        14
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.78,
+                    "intermittent",
+                    [
+                        92,
+                        104
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.657,
+                    "predominantly",
+                    [
+                        105,
+                        118
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.791,
+                    "left",
+                    [
+                        119,
+                        123
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.739,
+                    "occipital",
+                    [
+                        124,
+                        133
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.576,
+                    "headaches",
+                    [
+                        134,
+                        143
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.841,
+                    "tension",
+                    [
+                        298,
+                        305
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.605,
+                    "type",
+                    [
+                        306,
+                        310
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.531,
+                    "headaches",
+                    [
+                        311,
+                        320
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.876,
+                    "right",
+                    [
+                        415,
+                        420
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.971,
+                    "frontal",
+                    [
+                        421,
+                        428
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.989,
+                    "mass",
+                    [
+                        429,
+                        433
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.979,
+                    "lesion",
+                    [
+                        434,
+                        440
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.473,
+                    "mass",
+                    [
+                        1058,
+                        1062
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.68,
+                    "edema",
+                    [
+                        1098,
+                        1103
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.698,
+                    "tumor",
+                    [
+                        1123,
+                        1128
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.633,
+                    "Tumor",
+                    [
+                        1184,
+                        1189
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.62,
+                    "horn",
+                    [
+                        1349,
+                        1353
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.812,
+                    "of",
+                    [
+                        1354,
+                        1356
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.762,
+                    "the",
+                    [
+                        1357,
+                        1360
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.696,
+                    "right",
+                    [
+                        1361,
+                        1366
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.669,
+                    "lateral",
+                    [
+                        1367,
+                        1374
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.726,
+                    "ventricle",
+                    [
+                        1375,
+                        1384
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.573,
+                    "findings",
+                    [
+                        1394,
+                        1402
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.9,
+                    "glioblastoma",
+                    [
+                        1428,
+                        1440
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.677,
+                    "xanthomatous",
+                    [
+                        1521,
+                        1533
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.82,
+                    "astrocytoma",
+                    [
+                        1534,
+                        1545
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.758,
+                    "tumor",
+                    [
+                        1697,
+                        1702
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.596,
+                    "tumor",
+                    [
+                        1785,
+                        1790
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.379,
+                    "olfactory",
+                    [
+                        1861,
+                        1870
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.423,
+                    "auras",
+                    [
+                        1871,
+                        1876
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.178,
+        "uncertain_token_count": 7,
+        "narrow_band_ratio": 0.019,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.509,
+                    "lobe",
+                    [
+                        1053,
+                        1057
+                    ]
+                ],
+                [
+                    0.522,
+                    "surrounding",
+                    [
+                        1086,
+                        1097
+                    ]
+                ],
+                [
+                    0.502,
+                    "mass",
+                    [
+                        1294,
+                        1298
+                    ]
+                ],
+                [
+                    0.514,
+                    "MRI",
+                    [
+                        1390,
+                        1393
+                    ]
+                ]
+            ],
+            "DIAGNOSIS": [
+                [
+                    0.473,
+                    "mass",
+                    [
+                        1058,
+                        1062
+                    ]
+                ],
+                [
+                    0.379,
+                    "olfactory",
+                    [
+                        1861,
+                        1870
+                    ]
+                ]
+            ],
+            "PROBLEM": [
+                [
+                    0.423,
+                    "auras",
+                    [
+                        1871,
+                        1876
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

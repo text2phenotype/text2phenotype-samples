@@ -1,0 +1,113 @@
+{
+    "file": "egd-template-3.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "fentanyl",
+                "code": "4337",
+                "cui": "C0015846",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Fentanyl",
+                "range": [
+                    43,
+                    51
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.999
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [
+                    "75",
+                    52,
+                    54
+                ],
+                "medStrengthUnit": [
+                    "mcg",
+                    55,
+                    58
+                ]
+            },
+            {
+                "text": "fentanyl",
+                "code": "4337",
+                "cui": "C0015846",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Fentanyl",
+                "range": [
+                    43,
+                    51
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.999
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [
+                    "75",
+                    52,
+                    54
+                ],
+                "medStrengthUnit": [
+                    "mcg",
+                    55,
+                    58
+                ]
+            }
+        ],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": []
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.01,
+        "uncertain_count": 3,
+        "narrow_band_ratio": 0.013,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.673,
+                    "Versed",
+                    [
+                        75,
+                        81
+                    ]
+                ],
+                [
+                    0.503,
+                    "spray",
+                    [
+                        210,
+                        215
+                    ]
+                ]
+            ],
+            "MED": [
+                [
+                    0.618,
+                    "Cetacaine",
+                    [
+                        200,
+                        209
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [],
+        "weighted": [],
+        "average_entropy": 0.037,
+        "uncertain_token_count": 0,
+        "narrow_band_ratio": 0.0,
+        "uncertain_tokens": {},
+        "narrow_band_width": 0.2
+    }
+}

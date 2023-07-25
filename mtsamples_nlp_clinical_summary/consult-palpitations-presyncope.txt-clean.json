@@ -1,0 +1,492 @@
+{
+    "file": "consult-palpitations-presyncope.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "Cardizem",
+                "code": "203494",
+                "cui": "C0700940",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Cardizem",
+                "range": [
+                    2756,
+                    2764
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.992
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "Cardizem",
+                "code": "203494",
+                "cui": "C0700940",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Cardizem",
+                "range": [
+                    2756,
+                    2764
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.992
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "Caffeine",
+                "code": "1886",
+                "cui": "C0006644",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Caffeine",
+                "range": [
+                    3078,
+                    3086
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.999
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "Caffeine",
+                "code": "1886",
+                "cui": "C0006644",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Caffeine",
+                "range": [
+                    3078,
+                    3086
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.999
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            }
+        ],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "abuse",
+                "range": [
+                    1203,
+                    1208
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "contact\nurticaria",
+                "range": [
+                    1680,
+                    1697
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "19364004",
+                "cui": "C0263333",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Contact urticaria"
+            },
+            {
+                "text": "Episodic",
+                "range": [
+                    2516,
+                    2524
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.009,
+        "uncertain_count": 2,
+        "narrow_band_ratio": 0.003,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.644,
+                    "neoprene",
+                    [
+                        1705,
+                        1713
+                    ]
+                ],
+                [
+                    0.524,
+                    "medication",
+                    [
+                        2728,
+                        2738
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "palpitations",
+                    [
+                        103,
+                        115
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "presyncope",
+                    [
+                        120,
+                        130
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "palpitations",
+                    [
+                        230,
+                        242
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "thought",
+                    [
+                        336,
+                        343
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "sinus",
+                    [
+                        1111,
+                        1116
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "asymptomatic",
+                    [
+                        1148,
+                        1160
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "abuse",
+                    [
+                        1203,
+                        1208
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "contact",
+                    [
+                        1680,
+                        1687
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "urticaria",
+                    [
+                        1688,
+                        1697
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Episodic",
+                    [
+                        2516,
+                        2524
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "palpitations",
+                    [
+                        2525,
+                        2537
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "PROBLEM": [
+                    0.443,
+                    "palpitations",
+                    [
+                        103,
+                        115
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.522,
+                    "presyncope",
+                    [
+                        120,
+                        130
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.591,
+                    "palpitations",
+                    [
+                        230,
+                        242
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.555,
+                    "thought",
+                    [
+                        336,
+                        343
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.415,
+                    "sinus",
+                    [
+                        1111,
+                        1116
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.529,
+                    "asymptomatic",
+                    [
+                        1148,
+                        1160
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.453,
+                    "abuse",
+                    [
+                        1203,
+                        1208
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.459,
+                    "abuse",
+                    [
+                        1218,
+                        1223
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.496,
+                    "urticaria",
+                    [
+                        1688,
+                        1697
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.758,
+                    "Episodic",
+                    [
+                        2516,
+                        2524
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.648,
+                    "palpitations",
+                    [
+                        2525,
+                        2537
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.116,
+        "uncertain_token_count": 13,
+        "narrow_band_ratio": 0.021,
+        "uncertain_tokens": {
+            "PROBLEM": [
+                [
+                    0.443,
+                    "palpitations",
+                    [
+                        103,
+                        115
+                    ]
+                ],
+                [
+                    0.453,
+                    "abuse",
+                    [
+                        1203,
+                        1208
+                    ]
+                ],
+                [
+                    0.459,
+                    "abuse",
+                    [
+                        1218,
+                        1223
+                    ]
+                ]
+            ],
+            "DIAGNOSIS": [
+                [
+                    0.522,
+                    "presyncope",
+                    [
+                        120,
+                        130
+                    ]
+                ],
+                [
+                    0.415,
+                    "sinus",
+                    [
+                        1111,
+                        1116
+                    ]
+                ],
+                [
+                    0.529,
+                    "asymptomatic",
+                    [
+                        1148,
+                        1160
+                    ]
+                ],
+                [
+                    0.496,
+                    "urticaria",
+                    [
+                        1688,
+                        1697
+                    ]
+                ]
+            ],
+            "NA": [
+                [
+                    0.498,
+                    "heart",
+                    [
+                        508,
+                        513
+                    ]
+                ],
+                [
+                    0.506,
+                    "consciousness",
+                    [
+                        783,
+                        796
+                    ]
+                ],
+                [
+                    0.463,
+                    "rhythm",
+                    [
+                        1117,
+                        1123
+                    ]
+                ],
+                [
+                    0.429,
+                    "substance",
+                    [
+                        1193,
+                        1202
+                    ]
+                ],
+                [
+                    0.456,
+                    "alcohol",
+                    [
+                        1210,
+                        1217
+                    ]
+                ],
+                [
+                    0.49,
+                    "contact",
+                    [
+                        1680,
+                        1687
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

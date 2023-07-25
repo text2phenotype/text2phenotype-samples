@@ -1,0 +1,917 @@
+{
+    "file": "consult-facial-twitching.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "analgesics",
+                "code": null,
+                "cui": null,
+                "tui": null,
+                "vocab": null,
+                "polarity": "positive",
+                "preferredText": null,
+                "range": [
+                    599,
+                    609
+                ],
+                "prob": {
+                    "MED": 0.978
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "Aleve",
+                "code": "215101",
+                "cui": "C0718343",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Aleve",
+                "range": [
+                    618,
+                    623
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.991
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "Aleve",
+                "code": "215101",
+                "cui": "C0718343",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Aleve",
+                "range": [
+                    618,
+                    623
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.991
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            }
+        ],
+        "Allergy": [],
+        "Lab": [
+            {
+                "code": "LP32534-7",
+                "cui": "C0017725",
+                "tui": "T034",
+                "vocab": "LNC",
+                "polarity": "positive",
+                "text": "glucose",
+                "preferredText": "GLUCOSE",
+                "range": [
+                    2602,
+                    2609
+                ]
+            }
+        ],
+        "DiseaseDisorder": [
+            {
+                "text": "Facial",
+                "range": [
+                    23,
+                    29
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "week",
+                "range": [
+                    334,
+                    338
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "of the television",
+                "range": [
+                    814,
+                    831
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "right",
+                "range": [
+                    2472,
+                    2477
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "facial",
+                "range": [
+                    2741,
+                    2747
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "abscess",
+                "range": [
+                    2845,
+                    2852
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "44132006",
+                "cui": "C0000833",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Abscess"
+            },
+            {
+                "text": "be improving",
+                "range": [
+                    3046,
+                    3058
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "sleep disorder",
+                "range": [
+                    3222,
+                    3236
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "39898005",
+                "cui": "C0851578",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Sleep Disorders"
+            },
+            {
+                "text": "sleep apnea",
+                "range": [
+                    3384,
+                    3395
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "78275009",
+                "cui": "C0520679",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Sleep Apnea, Obstructive"
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.005,
+        "uncertain_count": 2,
+        "narrow_band_ratio": 0.003,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.539,
+                    "water",
+                    [
+                        444,
+                        449
+                    ]
+                ],
+                [
+                    0.545,
+                    "over-the-counter",
+                    [
+                        582,
+                        598
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "Facial",
+                    [
+                        23,
+                        29
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "twitching",
+                    [
+                        30,
+                        39
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "week",
+                    [
+                        334,
+                        338
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "sensation",
+                    [
+                        399,
+                        408
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "of",
+                    [
+                        814,
+                        816
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "the",
+                    [
+                        817,
+                        820
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "television",
+                    [
+                        821,
+                        831
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "sleep",
+                    [
+                        1187,
+                        1192
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "depression",
+                    [
+                        1702,
+                        1712
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "sad",
+                    [
+                        1737,
+                        1740
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "right",
+                    [
+                        2472,
+                        2477
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "facial",
+                    [
+                        2741,
+                        2747
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "twitching-appears",
+                    [
+                        2748,
+                        2765
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "abscess",
+                    [
+                        2845,
+                        2852
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Posterior",
+                    [
+                        2996,
+                        3005
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "pressure",
+                    [
+                        3006,
+                        3014
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "headache",
+                    [
+                        3020,
+                        3028
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "be",
+                    [
+                        3046,
+                        3048
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "improving",
+                    [
+                        3049,
+                        3058
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "sleep",
+                    [
+                        3222,
+                        3227
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "disorder",
+                    [
+                        3228,
+                        3236
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "sleep",
+                    [
+                        3321,
+                        3326
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "sleep",
+                    [
+                        3384,
+                        3389
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "apnea",
+                    [
+                        3390,
+                        3395
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "plans",
+                    [
+                        3956,
+                        3961
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "following",
+                    [
+                        3974,
+                        3983
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.636,
+                    "Facial",
+                    [
+                        23,
+                        29
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.458,
+                    "twitching",
+                    [
+                        30,
+                        39
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.489,
+                    "week",
+                    [
+                        334,
+                        338
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.507,
+                    "sensation",
+                    [
+                        399,
+                        408
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.45,
+                    "of",
+                    [
+                        814,
+                        816
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.427,
+                    "the",
+                    [
+                        817,
+                        820
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.425,
+                    "television",
+                    [
+                        821,
+                        831
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.489,
+                    "sleep",
+                    [
+                        1187,
+                        1192
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.651,
+                    "depression",
+                    [
+                        1702,
+                        1712
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.589,
+                    "right",
+                    [
+                        2472,
+                        2477
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.526,
+                    "facial",
+                    [
+                        2741,
+                        2747
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.498,
+                    "twitching-appears",
+                    [
+                        2748,
+                        2765
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.906,
+                    "abscess",
+                    [
+                        2845,
+                        2852
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.839,
+                    "Posterior",
+                    [
+                        2996,
+                        3005
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.634,
+                    "pressure",
+                    [
+                        3006,
+                        3014
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.647,
+                    "headache",
+                    [
+                        3020,
+                        3028
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.517,
+                    "be",
+                    [
+                        3046,
+                        3048
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.493,
+                    "improving",
+                    [
+                        3049,
+                        3058
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.738,
+                    "sleep",
+                    [
+                        3222,
+                        3227
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.692,
+                    "disorder",
+                    [
+                        3228,
+                        3236
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.573,
+                    "sleep",
+                    [
+                        3384,
+                        3389
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.506,
+                    "apnea",
+                    [
+                        3390,
+                        3395
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.56,
+                    "plans",
+                    [
+                        3956,
+                        3961
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.697,
+                    "following",
+                    [
+                        3974,
+                        3983
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.193,
+        "uncertain_token_count": 24,
+        "narrow_band_ratio": 0.033,
+        "uncertain_tokens": {
+            "DIAGNOSIS": [
+                [
+                    0.458,
+                    "twitching",
+                    [
+                        30,
+                        39
+                    ]
+                ],
+                [
+                    0.489,
+                    "week",
+                    [
+                        334,
+                        338
+                    ]
+                ],
+                [
+                    0.45,
+                    "of",
+                    [
+                        814,
+                        816
+                    ]
+                ],
+                [
+                    0.427,
+                    "the",
+                    [
+                        817,
+                        820
+                    ]
+                ],
+                [
+                    0.425,
+                    "television",
+                    [
+                        821,
+                        831
+                    ]
+                ],
+                [
+                    0.526,
+                    "facial",
+                    [
+                        2741,
+                        2747
+                    ]
+                ],
+                [
+                    0.498,
+                    "twitching-appears",
+                    [
+                        2748,
+                        2765
+                    ]
+                ],
+                [
+                    0.506,
+                    "apnea",
+                    [
+                        3390,
+                        3395
+                    ]
+                ]
+            ],
+            "PROBLEM": [
+                [
+                    0.507,
+                    "sensation",
+                    [
+                        399,
+                        408
+                    ]
+                ],
+                [
+                    0.489,
+                    "sleep",
+                    [
+                        1187,
+                        1192
+                    ]
+                ],
+                [
+                    0.517,
+                    "be",
+                    [
+                        3046,
+                        3048
+                    ]
+                ],
+                [
+                    0.493,
+                    "improving",
+                    [
+                        3049,
+                        3058
+                    ]
+                ]
+            ],
+            "NA": [
+                [
+                    0.516,
+                    "at",
+                    [
+                        704,
+                        706
+                    ]
+                ],
+                [
+                    0.486,
+                    "work",
+                    [
+                        707,
+                        711
+                    ]
+                ],
+                [
+                    0.489,
+                    "asleep",
+                    [
+                        750,
+                        756
+                    ]
+                ],
+                [
+                    0.398,
+                    "insomnia",
+                    [
+                        930,
+                        938
+                    ]
+                ],
+                [
+                    0.408,
+                    "sad",
+                    [
+                        1737,
+                        1740
+                    ]
+                ],
+                [
+                    0.407,
+                    "mood",
+                    [
+                        1741,
+                        1745
+                    ]
+                ],
+                [
+                    0.501,
+                    "poor",
+                    [
+                        1747,
+                        1751
+                    ]
+                ],
+                [
+                    0.445,
+                    "sleep",
+                    [
+                        1752,
+                        1757
+                    ]
+                ],
+                [
+                    0.483,
+                    "posterior",
+                    [
+                        2478,
+                        2487
+                    ]
+                ],
+                [
+                    0.493,
+                    "peripheral",
+                    [
+                        2806,
+                        2816
+                    ]
+                ],
+                [
+                    0.493,
+                    "sleep",
+                    [
+                        3321,
+                        3326
+                    ]
+                ],
+                [
+                    0.509,
+                    "obstructive",
+                    [
+                        3372,
+                        3383
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

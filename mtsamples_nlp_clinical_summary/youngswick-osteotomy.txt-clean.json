@@ -1,0 +1,774 @@
+{
+    "file": "youngswick-osteotomy.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "Marcaine",
+                "code": "1012397",
+                "cui": "C2945665",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Marcaine",
+                "range": [
+                    348,
+                    356
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.986
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [
+                    "1",
+                    361,
+                    362
+                ],
+                "medStrengthUnit": [
+                    "%",
+                    362,
+                    363
+                ]
+            },
+            {
+                "text": "Ancef",
+                "code": "203483",
+                "cui": "C0700926",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Ancef",
+                "range": [
+                    637,
+                    642
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.997
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [
+                    "1",
+                    643,
+                    644
+                ],
+                "medStrengthUnit": [
+                    "g",
+                    645,
+                    646
+                ]
+            },
+            {
+                "text": "Ancef",
+                "code": "203483",
+                "cui": "C0700926",
+                "tui": "T195",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Ancef",
+                "range": [
+                    637,
+                    642
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.997
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [
+                    "1",
+                    643,
+                    644
+                ],
+                "medStrengthUnit": [
+                    "g",
+                    645,
+                    646
+                ]
+            }
+        ],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "of the right",
+                "range": [
+                    117,
+                    129
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "deformity of the right foot",
+                "range": [
+                    176,
+                    203
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "417893002",
+                "cui": "C0302142",
+                "tui": "T190",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Deformity"
+            },
+            {
+                "text": "deformity of the right foot",
+                "range": [
+                    246,
+                    273
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "417893002",
+                "cui": "C0302142",
+                "tui": "T190",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Deformity"
+            },
+            {
+                "text": "gout",
+                "range": [
+                    2389,
+                    2393
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "90560007",
+                "cui": "C0018099",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Gout"
+            },
+            {
+                "text": "impacted on the",
+                "range": [
+                    3535,
+                    3550
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "129263008",
+                "cui": "C0040456",
+                "tui": "T190",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Impacted tooth"
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.007,
+        "uncertain_count": 2,
+        "narrow_band_ratio": 0.002,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.571,
+                    "capsule",
+                    [
+                        1670,
+                        1677
+                    ]
+                ],
+                [
+                    0.602,
+                    "cuts",
+                    [
+                        3416,
+                        3420
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "of",
+                    [
+                        117,
+                        119
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "the",
+                    [
+                        120,
+                        123
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "right",
+                    [
+                        124,
+                        129
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Hallux",
+                    [
+                        161,
+                        167
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "limitus",
+                    [
+                        168,
+                        175
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "deformity",
+                    [
+                        176,
+                        185
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "of",
+                    [
+                        186,
+                        188
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "the",
+                    [
+                        189,
+                        192
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "right",
+                    [
+                        193,
+                        198
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "foot",
+                    [
+                        199,
+                        203
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Hallux",
+                    [
+                        231,
+                        237
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "limitus",
+                    [
+                        238,
+                        245
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "deformity",
+                    [
+                        246,
+                        255
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "of",
+                    [
+                        256,
+                        258
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "the",
+                    [
+                        259,
+                        262
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "right",
+                    [
+                        263,
+                        268
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "foot",
+                    [
+                        269,
+                        273
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "tophi",
+                    [
+                        2211,
+                        2216
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "gout",
+                    [
+                        2389,
+                        2393
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "cuts",
+                    [
+                        3132,
+                        3136
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "cut",
+                    [
+                        3151,
+                        3154
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "cut",
+                    [
+                        3297,
+                        3300
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "impacted",
+                    [
+                        3535,
+                        3543
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "on",
+                    [
+                        3544,
+                        3546
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "the",
+                    [
+                        3547,
+                        3550
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "postoperative",
+                    [
+                        5336,
+                        5349
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "pain",
+                    [
+                        5350,
+                        5354
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.492,
+                    "joint",
+                    [
+                        111,
+                        116
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.748,
+                    "of",
+                    [
+                        117,
+                        119
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.662,
+                    "the",
+                    [
+                        120,
+                        123
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.934,
+                    "Hallux",
+                    [
+                        161,
+                        167
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.942,
+                    "limitus",
+                    [
+                        168,
+                        175
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.932,
+                    "deformity",
+                    [
+                        176,
+                        185
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.889,
+                    "of",
+                    [
+                        186,
+                        188
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.788,
+                    "the",
+                    [
+                        189,
+                        192
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.44,
+                    "right",
+                    [
+                        193,
+                        198
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.39,
+                    "foot",
+                    [
+                        199,
+                        203
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.872,
+                    "Hallux",
+                    [
+                        231,
+                        237
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.894,
+                    "limitus",
+                    [
+                        238,
+                        245
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.908,
+                    "deformity",
+                    [
+                        246,
+                        255
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.883,
+                    "of",
+                    [
+                        256,
+                        258
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.847,
+                    "the",
+                    [
+                        259,
+                        262
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.668,
+                    "right",
+                    [
+                        263,
+                        268
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.625,
+                    "foot",
+                    [
+                        269,
+                        273
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.791,
+                    "gout",
+                    [
+                        2389,
+                        2393
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.558,
+                    "cuts",
+                    [
+                        3132,
+                        3136
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.566,
+                    "cut",
+                    [
+                        3151,
+                        3154
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.508,
+                    "cut",
+                    [
+                        3297,
+                        3300
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.648,
+                    "impacted",
+                    [
+                        3535,
+                        3543
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.514,
+                    "on",
+                    [
+                        3544,
+                        3546
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.658,
+                    "postoperative",
+                    [
+                        5336,
+                        5349
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.572,
+                    "pain",
+                    [
+                        5350,
+                        5354
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.098,
+        "uncertain_token_count": 9,
+        "narrow_band_ratio": 0.009,
+        "uncertain_tokens": {
+            "DIAGNOSIS": [
+                [
+                    0.492,
+                    "joint",
+                    [
+                        111,
+                        116
+                    ]
+                ],
+                [
+                    0.44,
+                    "right",
+                    [
+                        193,
+                        198
+                    ]
+                ],
+                [
+                    0.39,
+                    "foot",
+                    [
+                        199,
+                        203
+                    ]
+                ],
+                [
+                    0.508,
+                    "cut",
+                    [
+                        3297,
+                        3300
+                    ]
+                ],
+                [
+                    0.514,
+                    "on",
+                    [
+                        3544,
+                        3546
+                    ]
+                ]
+            ],
+            "NA": [
+                [
+                    0.39,
+                    "right",
+                    [
+                        124,
+                        129
+                    ]
+                ],
+                [
+                    0.529,
+                    "foot",
+                    [
+                        130,
+                        134
+                    ]
+                ],
+                [
+                    0.494,
+                    "tophi",
+                    [
+                        2211,
+                        2216
+                    ]
+                ],
+                [
+                    0.518,
+                    "the",
+                    [
+                        3547,
+                        3550
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

@@ -1,0 +1,620 @@
+{
+    "file": "appendectomy-laparoscopic.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "Betadine",
+                "code": "202750",
+                "cui": "C0699524",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Betadine",
+                "range": [
+                    969,
+                    977
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.992
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "Betadine",
+                "code": "202750",
+                "cui": "C0699524",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Betadine",
+                "range": [
+                    969,
+                    977
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.992
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            }
+        ],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "Acute appendicitis",
+                "range": [
+                    26,
+                    44
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "85189001",
+                "cui": "C0085693",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Acute appendicitis NOS (disorder)"
+            },
+            {
+                "text": "Acute appendicitis",
+                "range": [
+                    72,
+                    90
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "85189001",
+                "cui": "C0085693",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Acute appendicitis NOS (disorder)"
+            },
+            {
+                "text": "with acute appendicitis as",
+                "range": [
+                    354,
+                    380
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "acute appendicitis",
+                "range": [
+                    704,
+                    722
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "85189001",
+                "cui": "C0085693",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Acute appendicitis NOS (disorder)"
+            },
+            {
+                "text": "inflamed\nappendix",
+                "range": [
+                    731,
+                    748
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.012,
+        "uncertain_count": 3,
+        "narrow_band_ratio": 0.007,
+        "uncertain_tokens": {
+            "MED": [
+                [
+                    0.559,
+                    "solution",
+                    [
+                        978,
+                        986
+                    ]
+                ],
+                [
+                    0.614,
+                    "solution",
+                    [
+                        2198,
+                        2206
+                    ]
+                ]
+            ],
+            "NA": [
+                [
+                    0.562,
+                    "Steri-Strips",
+                    [
+                        2392,
+                        2404
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "Acute",
+                    [
+                        26,
+                        31
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "appendicitis",
+                    [
+                        32,
+                        44
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Acute",
+                    [
+                        72,
+                        77
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "appendicitis",
+                    [
+                        78,
+                        90
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "right",
+                    [
+                        274,
+                        279
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "lower",
+                    [
+                        280,
+                        285
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "quadrant",
+                    [
+                        286,
+                        294
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "pain",
+                    [
+                        295,
+                        299
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "History",
+                    [
+                        301,
+                        308
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "signs",
+                    [
+                        320,
+                        325
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "and",
+                    [
+                        326,
+                        329
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "symptoms",
+                    [
+                        330,
+                        338
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "with",
+                    [
+                        354,
+                        358
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "acute",
+                    [
+                        359,
+                        364
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "appendicitis",
+                    [
+                        365,
+                        377
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "as",
+                    [
+                        378,
+                        380
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "acute",
+                    [
+                        704,
+                        709
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "appendicitis",
+                    [
+                        710,
+                        722
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "inflamed",
+                    [
+                        731,
+                        739
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "appendix",
+                    [
+                        740,
+                        748
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "wounds",
+                    [
+                        2299,
+                        2305
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.799,
+                    "Acute",
+                    [
+                        26,
+                        31
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.707,
+                    "appendicitis",
+                    [
+                        32,
+                        44
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.918,
+                    "Acute",
+                    [
+                        72,
+                        77
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.895,
+                    "appendicitis",
+                    [
+                        78,
+                        90
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.855,
+                    "right",
+                    [
+                        274,
+                        279
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.911,
+                    "lower",
+                    [
+                        280,
+                        285
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.9,
+                    "quadrant",
+                    [
+                        286,
+                        294
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.851,
+                    "pain",
+                    [
+                        295,
+                        299
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.679,
+                    "signs",
+                    [
+                        320,
+                        325
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.37,
+                    "and",
+                    [
+                        326,
+                        329
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.452,
+                    "symptoms",
+                    [
+                        330,
+                        338
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.507,
+                    "with",
+                    [
+                        354,
+                        358
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.976,
+                    "acute",
+                    [
+                        359,
+                        364
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.96,
+                    "appendicitis",
+                    [
+                        365,
+                        377
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.497,
+                    "CAT",
+                    [
+                        389,
+                        392
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.9,
+                    "acute",
+                    [
+                        704,
+                        709
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.908,
+                    "appendicitis",
+                    [
+                        710,
+                        722
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.741,
+                    "inflamed",
+                    [
+                        731,
+                        739
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.638,
+                    "appendix",
+                    [
+                        740,
+                        748
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.609,
+                    "wounds",
+                    [
+                        2299,
+                        2305
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.122,
+        "uncertain_token_count": 7,
+        "narrow_band_ratio": 0.016,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.492,
+                    "History",
+                    [
+                        301,
+                        308
+                    ]
+                ],
+                [
+                    0.403,
+                    "edematous",
+                    [
+                        760,
+                        769
+                    ]
+                ],
+                [
+                    0.521,
+                    "Vicryl",
+                    [
+                        2270,
+                        2276
+                    ]
+                ]
+            ],
+            "PROBLEM": [
+                [
+                    0.37,
+                    "and",
+                    [
+                        326,
+                        329
+                    ]
+                ],
+                [
+                    0.452,
+                    "symptoms",
+                    [
+                        330,
+                        338
+                    ]
+                ]
+            ],
+            "DIAGNOSIS": [
+                [
+                    0.507,
+                    "with",
+                    [
+                        354,
+                        358
+                    ]
+                ],
+                [
+                    0.497,
+                    "CAT",
+                    [
+                        389,
+                        392
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

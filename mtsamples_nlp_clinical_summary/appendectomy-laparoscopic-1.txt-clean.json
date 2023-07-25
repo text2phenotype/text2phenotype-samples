@@ -1,0 +1,770 @@
+{
+    "file": "appendectomy-laparoscopic-1.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "Marcaine",
+                "code": "1012397",
+                "cui": "C2945665",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Marcaine",
+                "range": [
+                    3527,
+                    3535
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.935
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [
+                    "0.25",
+                    3536,
+                    3540
+                ],
+                "medStrengthUnit": [
+                    "%",
+                    3540,
+                    3541
+                ]
+            },
+            {
+                "text": "antibiotics",
+                "code": null,
+                "cui": null,
+                "tui": null,
+                "vocab": null,
+                "polarity": "positive",
+                "preferredText": null,
+                "range": [
+                    3869,
+                    3880
+                ],
+                "prob": {
+                    "MED": 0.956
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            }
+        ],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "Acute appendicitis",
+                "range": [
+                    26,
+                    44
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "85189001",
+                "cui": "C0085693",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Acute appendicitis NOS (disorder)"
+            },
+            {
+                "text": "Acute suppurative appendicitis",
+                "range": [
+                    72,
+                    102
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "235770006",
+                "cui": "C0341352",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Acute suppurative appendicitis"
+            },
+            {
+                "text": "acute appendicitis",
+                "range": [
+                    441,
+                    459
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "85189001",
+                "cui": "C0085693",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Acute appendicitis NOS (disorder)"
+            },
+            {
+                "text": "for",
+                "range": [
+                    522,
+                    525
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "to event",
+                "range": [
+                    545,
+                    553
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "acute appendicitis",
+                "range": [
+                    651,
+                    669
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "85189001",
+                "cui": "C0085693",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Acute appendicitis NOS (disorder)"
+            },
+            {
+                "text": "bilateral ovarian cysts",
+                "range": [
+                    1669,
+                    1692
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "pneumoperitoneum",
+                "range": [
+                    3390,
+                    3406
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "17204006",
+                "cui": "C0032320",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Pneumoperitoneum"
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.012,
+        "uncertain_count": 1,
+        "narrow_band_ratio": 0.001,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.517,
+                    "irrigant",
+                    [
+                        2912,
+                        2920
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "Acute",
+                    [
+                        26,
+                        31
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "appendicitis",
+                    [
+                        32,
+                        44
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Acute",
+                    [
+                        72,
+                        77
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "suppurative",
+                    [
+                        78,
+                        89
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "appendicitis",
+                    [
+                        90,
+                        102
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "acute",
+                    [
+                        336,
+                        341
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "abdominal",
+                    [
+                        342,
+                        351
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "pain",
+                    [
+                        352,
+                        356
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "clinical",
+                    [
+                        407,
+                        415
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "findings",
+                    [
+                        416,
+                        424
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "acute",
+                    [
+                        441,
+                        446
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "appendicitis",
+                    [
+                        447,
+                        459
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "loose",
+                    [
+                        509,
+                        514
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "stools",
+                    [
+                        515,
+                        521
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "for",
+                    [
+                        522,
+                        525
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "several",
+                    [
+                        526,
+                        533
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "days",
+                    [
+                        534,
+                        538
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "to",
+                    [
+                        545,
+                        547
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "event",
+                    [
+                        548,
+                        553
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "acute",
+                    [
+                        651,
+                        656
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "appendicitis",
+                    [
+                        657,
+                        669
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "bilateral",
+                    [
+                        1669,
+                        1678
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "ovarian",
+                    [
+                        1679,
+                        1686
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "cysts",
+                    [
+                        1687,
+                        1692
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "pneumoperitoneum",
+                    [
+                        3390,
+                        3406
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.724,
+                    "Acute",
+                    [
+                        26,
+                        31
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.631,
+                    "appendicitis",
+                    [
+                        32,
+                        44
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.872,
+                    "Acute",
+                    [
+                        72,
+                        77
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.816,
+                    "suppurative",
+                    [
+                        78,
+                        89
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.879,
+                    "appendicitis",
+                    [
+                        90,
+                        102
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.972,
+                    "acute",
+                    [
+                        336,
+                        341
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.965,
+                    "abdominal",
+                    [
+                        342,
+                        351
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.935,
+                    "pain",
+                    [
+                        352,
+                        356
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.427,
+                    "clinical",
+                    [
+                        407,
+                        415
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.451,
+                    "findings",
+                    [
+                        416,
+                        424
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.844,
+                    "acute",
+                    [
+                        441,
+                        446
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.851,
+                    "appendicitis",
+                    [
+                        447,
+                        459
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.429,
+                    "loose",
+                    [
+                        509,
+                        514
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.531,
+                    "stools",
+                    [
+                        515,
+                        521
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.574,
+                    "for",
+                    [
+                        522,
+                        525
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.624,
+                    "several",
+                    [
+                        526,
+                        533
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.622,
+                    "days",
+                    [
+                        534,
+                        538
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.475,
+                    "prior",
+                    [
+                        539,
+                        544
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.592,
+                    "to",
+                    [
+                        545,
+                        547
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.759,
+                    "event",
+                    [
+                        548,
+                        553
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.39,
+                    "findings",
+                    [
+                        626,
+                        634
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.921,
+                    "acute",
+                    [
+                        651,
+                        656
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.932,
+                    "appendicitis",
+                    [
+                        657,
+                        669
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.652,
+                    "ovarian",
+                    [
+                        1679,
+                        1686
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.49,
+                    "cysts",
+                    [
+                        1687,
+                        1692
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.438,
+                    "pneumoperitoneum",
+                    [
+                        3390,
+                        3406
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.087,
+        "uncertain_token_count": 10,
+        "narrow_band_ratio": 0.014,
+        "uncertain_tokens": {
+            "PROBLEM": [
+                [
+                    0.427,
+                    "clinical",
+                    [
+                        407,
+                        415
+                    ]
+                ],
+                [
+                    0.451,
+                    "findings",
+                    [
+                        416,
+                        424
+                    ]
+                ],
+                [
+                    0.429,
+                    "loose",
+                    [
+                        509,
+                        514
+                    ]
+                ]
+            ],
+            "DIAGNOSIS": [
+                [
+                    0.475,
+                    "prior",
+                    [
+                        539,
+                        544
+                    ]
+                ],
+                [
+                    0.39,
+                    "findings",
+                    [
+                        626,
+                        634
+                    ]
+                ],
+                [
+                    0.49,
+                    "cysts",
+                    [
+                        1687,
+                        1692
+                    ]
+                ],
+                [
+                    0.438,
+                    "pneumoperitoneum",
+                    [
+                        3390,
+                        3406
+                    ]
+                ]
+            ],
+            "NA": [
+                [
+                    0.503,
+                    "Therefore",
+                    [
+                        555,
+                        564
+                    ]
+                ],
+                [
+                    0.503,
+                    "appendix",
+                    [
+                        931,
+                        939
+                    ]
+                ],
+                [
+                    0.46,
+                    "bilateral",
+                    [
+                        1669,
+                        1678
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

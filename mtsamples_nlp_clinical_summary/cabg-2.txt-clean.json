@@ -1,0 +1,427 @@
+{
+    "file": "cabg-2.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "Betadine",
+                "code": "202750",
+                "cui": "C0699524",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Betadine",
+                "range": [
+                    658,
+                    666
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.907
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "Betadine",
+                "code": "202750",
+                "cui": "C0699524",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Betadine",
+                "range": [
+                    658,
+                    666
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.907
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "Heparin",
+                "code": "5224",
+                "cui": "C0019134",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Heparin",
+                "range": [
+                    1148,
+                    1155
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.999
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "Heparin",
+                "code": "5224",
+                "cui": "C0019134",
+                "tui": "T123",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Heparin",
+                "range": [
+                    1148,
+                    1155
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.999
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "Heparin",
+                "code": "5224",
+                "cui": "C0019134",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Heparin",
+                "range": [
+                    1148,
+                    1155
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.999
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            }
+        ],
+        "Allergy": [],
+        "Lab": [
+            {
+                "code": "MTHU008063",
+                "cui": "C0005821",
+                "tui": "T034",
+                "vocab": "LNC",
+                "polarity": "positive",
+                "text": "Platelets",
+                "preferredText": "THROMBOCYTE (PLATELET)",
+                "range": [
+                    2318,
+                    2327
+                ]
+            },
+            {
+                "code": "LP14355-9",
+                "cui": "C0010294",
+                "tui": "T034",
+                "vocab": "LNC",
+                "polarity": "positive",
+                "text": "creatinine",
+                "preferredText": "CREATININE",
+                "range": [
+                    2993,
+                    3003
+                ]
+            }
+        ],
+        "DiseaseDisorder": [
+            {
+                "text": "coronary artery disease",
+                "range": [
+                    37,
+                    60
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "53741008",
+                "cui": "C1956346",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Coronary Artery Disease"
+            },
+            {
+                "text": "coronary artery disease",
+                "range": [
+                    99,
+                    122
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "53741008",
+                "cui": "C1956346",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Coronary Artery Disease"
+            },
+            {
+                "text": "neuropathy",
+                "range": [
+                    807,
+                    817
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "359837005",
+                "cui": "C0154743",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Ulnar Neuropathies"
+            },
+            {
+                "text": "kidney failure",
+                "range": [
+                    2971,
+                    2985
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "42399005",
+                "cui": "C0035078",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Kidney Failure"
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.01,
+        "uncertain_count": 1,
+        "narrow_band_ratio": 0.002,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.595,
+                    "Prolene",
+                    [
+                        1446,
+                        1453
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "Angina",
+                    [
+                        26,
+                        32
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "coronary",
+                    [
+                        37,
+                        45
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "artery",
+                    [
+                        46,
+                        52
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "disease",
+                    [
+                        53,
+                        60
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Angina",
+                    [
+                        88,
+                        94
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "coronary",
+                    [
+                        99,
+                        107
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "artery",
+                    [
+                        108,
+                        114
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "disease",
+                    [
+                        115,
+                        122
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "neuropathy",
+                    [
+                        807,
+                        817
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "kidney",
+                    [
+                        2971,
+                        2977
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "failure",
+                    [
+                        2978,
+                        2985
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.634,
+                    "Angina",
+                    [
+                        26,
+                        32
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.586,
+                    "coronary",
+                    [
+                        37,
+                        45
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.633,
+                    "artery",
+                    [
+                        46,
+                        52
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.651,
+                    "disease",
+                    [
+                        53,
+                        60
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.92,
+                    "Angina",
+                    [
+                        88,
+                        94
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.847,
+                    "coronary",
+                    [
+                        99,
+                        107
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.848,
+                    "artery",
+                    [
+                        108,
+                        114
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.854,
+                    "disease",
+                    [
+                        115,
+                        122
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.769,
+                    "kidney",
+                    [
+                        2971,
+                        2977
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.807,
+                    "failure",
+                    [
+                        2978,
+                        2985
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.071,
+        "uncertain_token_count": 0,
+        "narrow_band_ratio": 0.0,
+        "uncertain_tokens": {},
+        "narrow_band_width": 0.2
+    }
+}

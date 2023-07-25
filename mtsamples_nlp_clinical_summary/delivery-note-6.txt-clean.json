@@ -1,0 +1,386 @@
+{
+    "file": "delivery-note-6.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "Pitocin",
+                "code": "227199",
+                "cui": "C0733348",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Pitocin",
+                "range": [
+                    468,
+                    475
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.997
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            }
+        ],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "asthma",
+                "range": [
+                    272,
+                    278
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "195967001",
+                "cui": "C0004096",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Asthma"
+            },
+            {
+                "text": "OA",
+                "range": [
+                    644,
+                    646
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "225655006",
+                "cui": "C0029408",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Degenerative polyarthritis"
+            },
+            {
+                "text": "cord",
+                "range": [
+                    987,
+                    991
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "28835009",
+                "cui": "C0035334",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Retinitis Pigmentosa"
+            },
+            {
+                "text": "bilateral superficial labial lacerations",
+                "range": [
+                    1312,
+                    1352
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.005,
+        "uncertain_count": 0,
+        "narrow_band_ratio": 0.0,
+        "uncertain_tokens": {},
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "abuse",
+                    [
+                        261,
+                        266
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "asthma",
+                    [
+                        272,
+                        278
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "rupture",
+                    [
+                        331,
+                        338
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "of",
+                    [
+                        339,
+                        341
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "membranes",
+                    [
+                        342,
+                        351
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "ruptured",
+                    [
+                        395,
+                        403
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "OA",
+                    [
+                        644,
+                        646
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "cord",
+                    [
+                        987,
+                        991
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "bilateral",
+                    [
+                        1312,
+                        1321
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "superficial",
+                    [
+                        1322,
+                        1333
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "labial",
+                    [
+                        1334,
+                        1340
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "lacerations",
+                    [
+                        1341,
+                        1352
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.656,
+                    "abuse",
+                    [
+                        261,
+                        266
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.714,
+                    "asthma",
+                    [
+                        272,
+                        278
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.448,
+                    "rupture",
+                    [
+                        331,
+                        338
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.513,
+                    "of",
+                    [
+                        339,
+                        341
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.489,
+                    "membranes",
+                    [
+                        342,
+                        351
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.447,
+                    "ruptured",
+                    [
+                        395,
+                        403
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.534,
+                    "OA",
+                    [
+                        644,
+                        646
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.516,
+                    "cord",
+                    [
+                        987,
+                        991
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.696,
+                    "bilateral",
+                    [
+                        1312,
+                        1321
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.758,
+                    "superficial",
+                    [
+                        1322,
+                        1333
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.7,
+                    "labial",
+                    [
+                        1334,
+                        1340
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.627,
+                    "lacerations",
+                    [
+                        1341,
+                        1352
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.176,
+        "uncertain_token_count": 6,
+        "narrow_band_ratio": 0.021,
+        "uncertain_tokens": {
+            "DIAGNOSIS": [
+                [
+                    0.448,
+                    "rupture",
+                    [
+                        331,
+                        338
+                    ]
+                ],
+                [
+                    0.513,
+                    "of",
+                    [
+                        339,
+                        341
+                    ]
+                ],
+                [
+                    0.489,
+                    "membranes",
+                    [
+                        342,
+                        351
+                    ]
+                ],
+                [
+                    0.447,
+                    "ruptured",
+                    [
+                        395,
+                        403
+                    ]
+                ],
+                [
+                    0.516,
+                    "cord",
+                    [
+                        987,
+                        991
+                    ]
+                ]
+            ],
+            "NA": [
+                [
+                    0.497,
+                    "vaginal",
+                    [
+                        1116,
+                        1123
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

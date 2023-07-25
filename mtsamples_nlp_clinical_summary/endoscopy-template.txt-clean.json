@@ -1,0 +1,105 @@
+{
+    "file": "endoscopy-template.txt-clean.txt",
+    "text2summary": {
+        "Medication": [],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "Dysphagia",
+                "range": [
+                    15,
+                    24
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "40739000",
+                "cui": "C0011168",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Deglutition Disorders"
+            },
+            {
+                "text": "mucosa",
+                "range": [
+                    372,
+                    378
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.014,
+        "uncertain_count": 1,
+        "narrow_band_ratio": 0.007,
+        "uncertain_tokens": {
+            "MED": [
+                [
+                    0.655,
+                    "spray",
+                    [
+                        60,
+                        65
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "Dysphagia",
+                    [
+                        15,
+                        24
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "mucosa",
+                    [
+                        372,
+                        378
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.878,
+                    "Dysphagia",
+                    [
+                        15,
+                        24
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.079,
+        "uncertain_token_count": 1,
+        "narrow_band_ratio": 0.007,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.513,
+                    "mucosa",
+                    [
+                        372,
+                        378
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

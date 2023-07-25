@@ -1,0 +1,748 @@
+{
+    "file": "pain-management-progress-note.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "oxycodone",
+                "code": "7804",
+                "cui": "C0030049",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Oxycodone",
+                "range": [
+                    419,
+                    428
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.972
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "oxycodone",
+                "code": "7804",
+                "cui": "C0030049",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Oxycodone",
+                "range": [
+                    419,
+                    428
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.972
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "Botox",
+                "code": "203279",
+                "cui": "C0700702",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Botox",
+                "range": [
+                    1504,
+                    1509
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.922
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "Botox",
+                "code": "203279",
+                "cui": "C0700702",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Botox",
+                "range": [
+                    1504,
+                    1509
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.922
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            }
+        ],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "Cervical dystonia",
+                "range": [
+                    18,
+                    35
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "Post cervical laminectomy",
+                "range": [
+                    42,
+                    67
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "the",
+                "range": [
+                    629,
+                    632
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "in her neck",
+                "range": [
+                    638,
+                    649
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "tight bands\ninvolving the multifidus",
+                "range": [
+                    1094,
+                    1130
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "trigger point",
+                "range": [
+                    1143,
+                    1156
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.018,
+        "uncertain_count": 3,
+        "narrow_band_ratio": 0.01,
+        "uncertain_tokens": {
+            "MED": [
+                [
+                    0.609,
+                    "botulinum",
+                    [
+                        226,
+                        235
+                    ]
+                ],
+                [
+                    0.65,
+                    "toxin",
+                    [
+                        1420,
+                        1425
+                    ]
+                ],
+                [
+                    0.523,
+                    "injection",
+                    [
+                        1426,
+                        1435
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "Cervical",
+                    [
+                        18,
+                        26
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "dystonia",
+                    [
+                        27,
+                        35
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Post",
+                    [
+                        42,
+                        46
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "cervical",
+                    [
+                        47,
+                        55
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "laminectomy",
+                    [
+                        56,
+                        67
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "pain",
+                    [
+                        68,
+                        72
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "syndrome",
+                    [
+                        73,
+                        81
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "anxiety",
+                    [
+                        582,
+                        589
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "depression",
+                    [
+                        591,
+                        601
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "the",
+                    [
+                        629,
+                        632
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "pain",
+                    [
+                        633,
+                        637
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "in",
+                    [
+                        638,
+                        640
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "her",
+                    [
+                        641,
+                        644
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "neck",
+                    [
+                        645,
+                        649
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "spasm",
+                    [
+                        1083,
+                        1088
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "tight",
+                    [
+                        1094,
+                        1099
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "bands",
+                    [
+                        1100,
+                        1105
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "involving",
+                    [
+                        1106,
+                        1115
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "the",
+                    [
+                        1116,
+                        1119
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "multifidus",
+                    [
+                        1120,
+                        1130
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "trigger",
+                    [
+                        1143,
+                        1150
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "point",
+                    [
+                        1151,
+                        1156
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "activity",
+                    [
+                        1157,
+                        1165
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "tenderness",
+                    [
+                        1179,
+                        1189
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "guarding",
+                    [
+                        1194,
+                        1202
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.902,
+                    "Cervical",
+                    [
+                        18,
+                        26
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.927,
+                    "dystonia",
+                    [
+                        27,
+                        35
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.956,
+                    "Post",
+                    [
+                        42,
+                        46
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.953,
+                    "cervical",
+                    [
+                        47,
+                        55
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.837,
+                    "laminectomy",
+                    [
+                        56,
+                        67
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.718,
+                    "pain",
+                    [
+                        68,
+                        72
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.769,
+                    "syndrome",
+                    [
+                        73,
+                        81
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.45,
+                    "anxiety",
+                    [
+                        582,
+                        589
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.63,
+                    "depression",
+                    [
+                        591,
+                        601
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.611,
+                    "the",
+                    [
+                        629,
+                        632
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.723,
+                    "pain",
+                    [
+                        633,
+                        637
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.71,
+                    "in",
+                    [
+                        638,
+                        640
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.688,
+                    "her",
+                    [
+                        641,
+                        644
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.576,
+                    "neck",
+                    [
+                        645,
+                        649
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.467,
+                    "tight",
+                    [
+                        1094,
+                        1099
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.565,
+                    "bands",
+                    [
+                        1100,
+                        1105
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.523,
+                    "involving",
+                    [
+                        1106,
+                        1115
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.489,
+                    "trigger",
+                    [
+                        1143,
+                        1150
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.527,
+                    "point",
+                    [
+                        1151,
+                        1156
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.729,
+                    "activity",
+                    [
+                        1157,
+                        1165
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.619,
+                    "tenderness",
+                    [
+                        1179,
+                        1189
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.607,
+                    "guarding",
+                    [
+                        1194,
+                        1202
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.186,
+        "uncertain_token_count": 10,
+        "narrow_band_ratio": 0.032,
+        "uncertain_tokens": {
+            "DIAGNOSIS": [
+                [
+                    0.45,
+                    "anxiety",
+                    [
+                        582,
+                        589
+                    ]
+                ],
+                [
+                    0.467,
+                    "tight",
+                    [
+                        1094,
+                        1099
+                    ]
+                ],
+                [
+                    0.523,
+                    "involving",
+                    [
+                        1106,
+                        1115
+                    ]
+                ],
+                [
+                    0.489,
+                    "trigger",
+                    [
+                        1143,
+                        1150
+                    ]
+                ],
+                [
+                    0.527,
+                    "point",
+                    [
+                        1151,
+                        1156
+                    ]
+                ]
+            ],
+            "NA": [
+                [
+                    0.459,
+                    "frustration",
+                    [
+                        607,
+                        618
+                    ]
+                ],
+                [
+                    0.484,
+                    "muscle",
+                    [
+                        1076,
+                        1082
+                    ]
+                ],
+                [
+                    0.421,
+                    "spasm",
+                    [
+                        1083,
+                        1088
+                    ]
+                ],
+                [
+                    0.51,
+                    "the",
+                    [
+                        1116,
+                        1119
+                    ]
+                ],
+                [
+                    0.491,
+                    "multifidus",
+                    [
+                        1120,
+                        1130
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

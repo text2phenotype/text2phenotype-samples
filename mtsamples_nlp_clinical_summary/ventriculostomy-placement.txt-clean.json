@@ -1,0 +1,563 @@
+{
+    "file": "ventriculostomy-placement.txt-clean.txt",
+    "text2summary": {
+        "Medication": [],
+        "Allergy": [
+            {
+                "code": "11258",
+                "cui": "C0042878",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "text": "vitamin K",
+                "preferredText": "Vitamin K",
+                "range": [
+                    1530,
+                    1539
+                ]
+            }
+        ],
+        "Lab": [
+            {
+                "code": "MTHU008063",
+                "cui": "C0005821",
+                "tui": "T034",
+                "vocab": "LNC",
+                "polarity": "positive",
+                "text": "Platelets",
+                "preferredText": "THROMBOCYTE (PLATELET)",
+                "range": [
+                    1501,
+                    1510
+                ]
+            }
+        ],
+        "DiseaseDisorder": [
+            {
+                "text": "Massive",
+                "range": [
+                    89,
+                    96
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "hydrocephalus",
+                "range": [
+                    130,
+                    143
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "230745008",
+                "cui": "C0020255",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Hydrocephalus"
+            },
+            {
+                "text": "intracranial pressure",
+                "range": [
+                    158,
+                    179
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "271719001",
+                "cui": "C0151740",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Intracranial Hypertension"
+            },
+            {
+                "text": "hydrocephalus",
+                "range": [
+                    248,
+                    261
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "230745008",
+                "cui": "C0020255",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Hydrocephalus"
+            },
+            {
+                "text": "intracranial hemorrhage",
+                "range": [
+                    374,
+                    397
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "1386000",
+                "cui": "C0151699",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Intracranial Hemorrhages"
+            },
+            {
+                "text": "hydrocephalus",
+                "range": [
+                    402,
+                    415
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "230745008",
+                "cui": "C0020255",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Hydrocephalus"
+            },
+            {
+                "text": "His",
+                "range": [
+                    450,
+                    453
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.019,
+        "uncertain_count": 3,
+        "narrow_band_ratio": 0.011,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.505,
+                    "strips",
+                    [
+                        954,
+                        960
+                    ]
+                ],
+                [
+                    0.607,
+                    "pass",
+                    [
+                        1138,
+                        1142
+                    ]
+                ]
+            ],
+            "MED": [
+                [
+                    0.616,
+                    "K",
+                    [
+                        1538,
+                        1539
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "Massive",
+                    [
+                        89,
+                        96
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "intraventricular",
+                    [
+                        97,
+                        113
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "hemorrhage",
+                    [
+                        114,
+                        124
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "hydrocephalus",
+                    [
+                        130,
+                        143
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "intracranial",
+                    [
+                        158,
+                        170
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "pressure",
+                    [
+                        171,
+                        179
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "intraventricular",
+                    [
+                        215,
+                        231
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "hemorrhage",
+                    [
+                        232,
+                        242
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "hydrocephalus",
+                    [
+                        248,
+                        261
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "intracranial",
+                    [
+                        374,
+                        386
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "hemorrhage",
+                    [
+                        387,
+                        397
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "hydrocephalus",
+                    [
+                        402,
+                        415
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "intraventricular",
+                    [
+                        421,
+                        437
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "hemorrhage",
+                    [
+                        438,
+                        448
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    ".",
+                    [
+                        448,
+                        449
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "His",
+                    [
+                        450,
+                        453
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "condition",
+                    [
+                        454,
+                        463
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.506,
+                    "Massive",
+                    [
+                        89,
+                        96
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.494,
+                    "intraventricular",
+                    [
+                        97,
+                        113
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.553,
+                    "hemorrhage",
+                    [
+                        114,
+                        124
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.605,
+                    "hydrocephalus",
+                    [
+                        130,
+                        143
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.661,
+                    "intracranial",
+                    [
+                        158,
+                        170
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.48,
+                    "pressure",
+                    [
+                        171,
+                        179
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.577,
+                    "intraventricular",
+                    [
+                        215,
+                        231
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.448,
+                    "hemorrhage",
+                    [
+                        232,
+                        242
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.417,
+                    "hydrocephalus",
+                    [
+                        248,
+                        261
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.678,
+                    "intracranial",
+                    [
+                        374,
+                        386
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.829,
+                    "hemorrhage",
+                    [
+                        387,
+                        397
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.856,
+                    "hydrocephalus",
+                    [
+                        402,
+                        415
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.671,
+                    "intraventricular",
+                    [
+                        421,
+                        437
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.66,
+                    "hemorrhage",
+                    [
+                        438,
+                        448
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.717,
+                    "condition",
+                    [
+                        454,
+                        463
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.102,
+        "uncertain_token_count": 9,
+        "narrow_band_ratio": 0.032,
+        "uncertain_tokens": {
+            "DIAGNOSIS": [
+                [
+                    0.506,
+                    "Massive",
+                    [
+                        89,
+                        96
+                    ]
+                ],
+                [
+                    0.494,
+                    "intraventricular",
+                    [
+                        97,
+                        113
+                    ]
+                ]
+            ],
+            "NA": [
+                [
+                    0.506,
+                    "increased",
+                    [
+                        148,
+                        157
+                    ]
+                ],
+                [
+                    0.486,
+                    "with",
+                    [
+                        416,
+                        420
+                    ]
+                ],
+                [
+                    0.441,
+                    ".",
+                    [
+                        448,
+                        449
+                    ]
+                ],
+                [
+                    0.448,
+                    "His",
+                    [
+                        450,
+                        453
+                    ]
+                ]
+            ],
+            "PROBLEM": [
+                [
+                    0.48,
+                    "pressure",
+                    [
+                        171,
+                        179
+                    ]
+                ],
+                [
+                    0.448,
+                    "hemorrhage",
+                    [
+                        232,
+                        242
+                    ]
+                ],
+                [
+                    0.417,
+                    "hydrocephalus",
+                    [
+                        248,
+                        261
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

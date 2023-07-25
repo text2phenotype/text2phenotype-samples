@@ -1,0 +1,82 @@
+{
+    "file": "bmt-bilateral-myringotomy-tubes.txt-clean.txt",
+    "text2summary": {
+        "Medication": [],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "infection",
+                "range": [
+                    1617,
+                    1626
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "189822004",
+                "cui": "C0009450",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Communicable Diseases"
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.003,
+        "uncertain_count": 0,
+        "narrow_band_ratio": 0.0,
+        "uncertain_tokens": {},
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "infection",
+                    [
+                        1617,
+                        1626
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.505,
+                    "infection",
+                    [
+                        1617,
+                        1626
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.067,
+        "uncertain_token_count": 2,
+        "narrow_band_ratio": 0.005,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.516,
+                    "ear",
+                    [
+                        1442,
+                        1445
+                    ]
+                ]
+            ],
+            "DIAGNOSIS": [
+                [
+                    0.505,
+                    "infection",
+                    [
+                        1617,
+                        1626
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

@@ -1,0 +1,552 @@
+{
+    "file": "gen-med-soap-8.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "Coumadin",
+                "code": "202421",
+                "cui": "C0699129",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Coumadin",
+                "range": [
+                    228,
+                    236
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.996
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "Coumadin",
+                "code": "202421",
+                "cui": "C0699129",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Coumadin",
+                "range": [
+                    228,
+                    236
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.996
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "Lortab",
+                "code": "144254",
+                "cui": "C0553262",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Lortab",
+                "range": [
+                    1391,
+                    1397
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.998
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "Lortab",
+                "code": "144254",
+                "cui": "C0553262",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Lortab",
+                "range": [
+                    1391,
+                    1397
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.998
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            }
+        ],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "atrial fibrillation and stroke",
+                "range": [
+                    248,
+                    278
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "49436004",
+                "cui": "C0004238",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Atrial Fibrillation"
+            },
+            {
+                "text": "and",
+                "range": [
+                    420,
+                    423
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "degenerative disease",
+                "range": [
+                    508,
+                    528
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "362975008",
+                "cui": "C1285162",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Degenerative disorder"
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.017,
+        "uncertain_count": 4,
+        "narrow_band_ratio": 0.011,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.672,
+                    "Coumadin",
+                    [
+                        135,
+                        143
+                    ]
+                ],
+                [
+                    0.546,
+                    "aspirin",
+                    [
+                        1328,
+                        1335
+                    ]
+                ]
+            ],
+            "MED": [
+                [
+                    0.638,
+                    "Coumadin",
+                    [
+                        1063,
+                        1071
+                    ]
+                ],
+                [
+                    0.662,
+                    "Lortab",
+                    [
+                        1413,
+                        1419
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "PROBLEM": [
+                    "gross",
+                    [
+                        92,
+                        97
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "hematuria",
+                    [
+                        98,
+                        107
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "BPH",
+                    [
+                        181,
+                        184
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "atrial",
+                    [
+                        248,
+                        254
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "fibrillation",
+                    [
+                        255,
+                        267
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "and",
+                    [
+                        268,
+                        271
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "stroke",
+                    [
+                        272,
+                        278
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "hematuria",
+                    [
+                        333,
+                        342
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "buttock",
+                    [
+                        407,
+                        414
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "pain",
+                    [
+                        415,
+                        419
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "and",
+                    [
+                        420,
+                        423
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "leg",
+                    [
+                        424,
+                        427
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "pain",
+                    [
+                        428,
+                        432
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "degenerative",
+                    [
+                        508,
+                        520
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "disease",
+                    [
+                        521,
+                        528
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Hematuria",
+                    [
+                        1052,
+                        1061
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "back",
+                    [
+                        1674,
+                        1678
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "pain",
+                    [
+                        1679,
+                        1683
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "PROBLEM": [
+                    0.588,
+                    "gross",
+                    [
+                        92,
+                        97
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.592,
+                    "hematuria",
+                    [
+                        98,
+                        107
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.734,
+                    "BPH",
+                    [
+                        181,
+                        184
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.95,
+                    "atrial",
+                    [
+                        248,
+                        254
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.963,
+                    "fibrillation",
+                    [
+                        255,
+                        267
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.903,
+                    "stroke",
+                    [
+                        272,
+                        278
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.545,
+                    "hematuria",
+                    [
+                        333,
+                        342
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.653,
+                    "buttock",
+                    [
+                        407,
+                        414
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.591,
+                    "pain",
+                    [
+                        415,
+                        419
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.451,
+                    "and",
+                    [
+                        420,
+                        423
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.746,
+                    "leg",
+                    [
+                        424,
+                        427
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.733,
+                    "pain",
+                    [
+                        428,
+                        432
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.664,
+                    "degenerative",
+                    [
+                        508,
+                        520
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.759,
+                    "disease",
+                    [
+                        521,
+                        528
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.897,
+                    "Hematuria",
+                    [
+                        1052,
+                        1061
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.925,
+                    "back",
+                    [
+                        1674,
+                        1678
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.894,
+                    "pain",
+                    [
+                        1679,
+                        1683
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.107,
+        "uncertain_token_count": 3,
+        "narrow_band_ratio": 0.008,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.48,
+                    "issues",
+                    [
+                        60,
+                        66
+                    ]
+                ],
+                [
+                    0.495,
+                    "and",
+                    [
+                        268,
+                        271
+                    ]
+                ]
+            ],
+            "PROBLEM": [
+                [
+                    0.451,
+                    "and",
+                    [
+                        420,
+                        423
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

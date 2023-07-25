@@ -1,0 +1,110 @@
+{
+    "file": "well-child-check-7.txt-clean.txt",
+    "text2summary": {
+        "Medication": [],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "B",
+                "range": [
+                    1942,
+                    1943
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "66071002",
+                "cui": "C0019163",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Hepatitis B"
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.003,
+        "uncertain_count": 0,
+        "narrow_band_ratio": 0.0,
+        "uncertain_tokens": {},
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "PROBLEM": [
+                    "sore",
+                    [
+                        161,
+                        165
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "throat",
+                    [
+                        166,
+                        172
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "B",
+                    [
+                        1942,
+                        1943
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "PROBLEM": [
+                    0.434,
+                    "sore",
+                    [
+                        161,
+                        165
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.618,
+                    "throat",
+                    [
+                        166,
+                        172
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.71,
+                    "B",
+                    [
+                        1942,
+                        1943
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.038,
+        "uncertain_token_count": 1,
+        "narrow_band_ratio": 0.003,
+        "uncertain_tokens": {
+            "PROBLEM": [
+                [
+                    0.434,
+                    "sore",
+                    [
+                        161,
+                        165
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

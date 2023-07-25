@@ -1,0 +1,257 @@
+{
+    "file": "acromioclavicular-joint-injection.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "Betadine",
+                "code": "202750",
+                "cui": "C0699524",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Betadine",
+                "range": [
+                    219,
+                    227
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.999
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "Betadine",
+                "code": "202750",
+                "cui": "C0699524",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Betadine",
+                "range": [
+                    219,
+                    227
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.999
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "Depo-\nMedrol",
+                "code": "22584",
+                "cui": "C0057476",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Depo-Medrol",
+                "range": [
+                    254,
+                    266
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.993
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "Depo-\nMedrol",
+                "code": "22584",
+                "cui": "C0057476",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Depo-Medrol",
+                "range": [
+                    254,
+                    266
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.993
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "Marcaine",
+                "code": "1012397",
+                "cui": "C2945665",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Marcaine",
+                "range": [
+                    285,
+                    293
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.902
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            }
+        ],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "infection",
+                "range": [
+                    166,
+                    175
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "189822004",
+                "cui": "C0009450",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Communicable Diseases"
+            },
+            {
+                "text": "and\nbruising",
+                "range": [
+                    177,
+                    189
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.011,
+        "uncertain_count": 0,
+        "narrow_band_ratio": 0.0,
+        "uncertain_tokens": {},
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "PROBLEM": [
+                    "joint",
+                    [
+                        150,
+                        155
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "swelling",
+                    [
+                        156,
+                        164
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "infection",
+                    [
+                        166,
+                        175
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "and",
+                    [
+                        177,
+                        180
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "bruising",
+                    [
+                        181,
+                        189
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "PROBLEM": [
+                    0.689,
+                    "joint",
+                    [
+                        150,
+                        155
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.763,
+                    "swelling",
+                    [
+                        156,
+                        164
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.648,
+                    "infection",
+                    [
+                        166,
+                        175
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.696,
+                    "bruising",
+                    [
+                        181,
+                        189
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.079,
+        "uncertain_token_count": 1,
+        "narrow_band_ratio": 0.006,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.5,
+                    "and",
+                    [
+                        177,
+                        180
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

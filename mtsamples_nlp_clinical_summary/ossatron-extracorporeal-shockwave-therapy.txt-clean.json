@@ -1,0 +1,189 @@
+{
+    "file": "ossatron-extracorporeal-shockwave-therapy.txt-clean.txt",
+    "text2summary": {
+        "Medication": [],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "lateral epicondylitis",
+                "range": [
+                    32,
+                    53
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "202855006",
+                "cui": "C0039516",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Tennis Elbow"
+            },
+            {
+                "text": "Right lateral epicondylitis",
+                "range": [
+                    81,
+                    108
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.009,
+        "uncertain_count": 0,
+        "narrow_band_ratio": 0.0,
+        "uncertain_tokens": {},
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "lateral",
+                    [
+                        32,
+                        39
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "epicondylitis",
+                    [
+                        40,
+                        53
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Right",
+                    [
+                        81,
+                        86
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "lateral",
+                    [
+                        87,
+                        94
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "epicondylitis",
+                    [
+                        95,
+                        108
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.433,
+                    "lateral",
+                    [
+                        32,
+                        39
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.501,
+                    "epicondylitis",
+                    [
+                        40,
+                        53
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.495,
+                    "Right",
+                    [
+                        81,
+                        86
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.59,
+                    "lateral",
+                    [
+                        87,
+                        94
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.738,
+                    "epicondylitis",
+                    [
+                        95,
+                        108
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.131,
+        "uncertain_token_count": 4,
+        "narrow_band_ratio": 0.029,
+        "uncertain_tokens": {
+            "DIAGNOSIS": [
+                [
+                    0.433,
+                    "lateral",
+                    [
+                        32,
+                        39
+                    ]
+                ],
+                [
+                    0.501,
+                    "epicondylitis",
+                    [
+                        40,
+                        53
+                    ]
+                ]
+            ],
+            "PROBLEM": [
+                [
+                    0.495,
+                    "Right",
+                    [
+                        81,
+                        86
+                    ]
+                ]
+            ],
+            "NA": [
+                [
+                    0.524,
+                    "lateral",
+                    [
+                        183,
+                        190
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

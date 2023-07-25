@@ -1,0 +1,391 @@
+{
+    "file": "triple-lumen-catheter-insertion-1.txt-clean.txt",
+    "text2summary": {
+        "Medication": [],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "intravenous",
+                "range": [
+                    90,
+                    101
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "failure",
+                "range": [
+                    496,
+                    503
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "409622000",
+                "cui": "C1145670",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Respiratory Failure"
+            },
+            {
+                "text": "tracheostomy",
+                "range": [
+                    509,
+                    521
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "place",
+                "range": [
+                    525,
+                    530
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "dependent on parenteral",
+                "range": [
+                    535,
+                    558
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "dysphagia",
+                "range": [
+                    582,
+                    591
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "40739000",
+                "cui": "C0011168",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Deglutition Disorders"
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.011,
+        "uncertain_count": 2,
+        "narrow_band_ratio": 0.005,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.646,
+                    "parenteral",
+                    [
+                        548,
+                        558
+                    ]
+                ],
+                [
+                    0.672,
+                    "lidocaine",
+                    [
+                        930,
+                        939
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "intravenous",
+                    [
+                        90,
+                        101
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "failure",
+                    [
+                        496,
+                        503
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "tracheostomy",
+                    [
+                        509,
+                        521
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "place",
+                    [
+                        525,
+                        530
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "dependent",
+                    [
+                        535,
+                        544
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "on",
+                    [
+                        545,
+                        547
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "parenteral",
+                    [
+                        548,
+                        558
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "nutrition",
+                    [
+                        559,
+                        568
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "dysphagia",
+                    [
+                        582,
+                        591
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "protein-calorie",
+                    [
+                        616,
+                        631
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "malnutrition",
+                    [
+                        632,
+                        644
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.522,
+                    "intravenous",
+                    [
+                        90,
+                        101
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.508,
+                    "respiratory",
+                    [
+                        484,
+                        495
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.563,
+                    "failure",
+                    [
+                        496,
+                        503
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.535,
+                    "tracheostomy",
+                    [
+                        509,
+                        521
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.509,
+                    "place",
+                    [
+                        525,
+                        530
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.683,
+                    "dependent",
+                    [
+                        535,
+                        544
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.561,
+                    "on",
+                    [
+                        545,
+                        547
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.718,
+                    "parenteral",
+                    [
+                        548,
+                        558
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.683,
+                    "nutrition",
+                    [
+                        559,
+                        568
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.958,
+                    "dysphagia",
+                    [
+                        582,
+                        591
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.628,
+                    "protein-calorie",
+                    [
+                        616,
+                        631
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.728,
+                    "malnutrition",
+                    [
+                        632,
+                        644
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.098,
+        "uncertain_token_count": 5,
+        "narrow_band_ratio": 0.013,
+        "uncertain_tokens": {
+            "DIAGNOSIS": [
+                [
+                    0.522,
+                    "intravenous",
+                    [
+                        90,
+                        101
+                    ]
+                ],
+                [
+                    0.508,
+                    "respiratory",
+                    [
+                        484,
+                        495
+                    ]
+                ],
+                [
+                    0.509,
+                    "place",
+                    [
+                        525,
+                        530
+                    ]
+                ]
+            ],
+            "NA": [
+                [
+                    0.524,
+                    "secondary",
+                    [
+                        569,
+                        578
+                    ]
+                ],
+                [
+                    0.481,
+                    "access",
+                    [
+                        740,
+                        746
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

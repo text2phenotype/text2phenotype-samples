@@ -1,0 +1,142 @@
+{
+    "file": "radiologic-exam-spine.txt-clean.txt",
+    "text2summary": {
+        "Medication": [],
+        "Allergy": [],
+        "Lab": [
+            {
+                "code": "",
+                "cui": "C0002059",
+                "tui": "T034",
+                "vocab": "LNC",
+                "polarity": "positive",
+                "text": "AP",
+                "preferredText": "ALP - ALKALINE PHOSPHATASE",
+                "range": [
+                    126,
+                    128
+                ]
+            }
+        ],
+        "DiseaseDisorder": [
+            {
+                "text": "Back and",
+                "range": [
+                    79,
+                    87
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.002,
+        "uncertain_count": 0,
+        "narrow_band_ratio": 0.0,
+        "uncertain_tokens": {},
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "Back",
+                    [
+                        79,
+                        83
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "and",
+                    [
+                        84,
+                        87
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "neck",
+                    [
+                        88,
+                        92
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "pain",
+                    [
+                        93,
+                        97
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.985,
+                    "Back",
+                    [
+                        79,
+                        83
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.823,
+                    "and",
+                    [
+                        84,
+                        87
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.932,
+                    "neck",
+                    [
+                        88,
+                        92
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.937,
+                    "pain",
+                    [
+                        93,
+                        97
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.135,
+        "uncertain_token_count": 1,
+        "narrow_band_ratio": 0.004,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.514,
+                    "extension",
+                    [
+                        155,
+                        164
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

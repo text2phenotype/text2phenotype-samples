@@ -1,0 +1,487 @@
+{
+    "file": "head-injury.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "Enalapril",
+                "code": "3827",
+                "cui": "C0014025",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Enalapril",
+                "range": [
+                    844,
+                    853
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.927
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            }
+        ],
+        "Allergy": [],
+        "Lab": [
+            {
+                "code": "LP14355-9",
+                "cui": "C0010294",
+                "tui": "T034",
+                "vocab": "LNC",
+                "polarity": "positive",
+                "text": "creatinine",
+                "preferredText": "CREATININE",
+                "range": [
+                    2676,
+                    2686
+                ]
+            }
+        ],
+        "DiseaseDisorder": [
+            {
+                "text": "injury",
+                "range": [
+                    24,
+                    30
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "82271004",
+                "cui": "C0018674",
+                "tui": "T037",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Craniocerebral Trauma"
+            },
+            {
+                "text": "Hypertension",
+                "range": [
+                    723,
+                    735
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "38341003",
+                "cui": "C0020538",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Hypertensive disease"
+            },
+            {
+                "text": "head\ninjury",
+                "range": [
+                    2427,
+                    2438
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "82271004",
+                "cui": "C0018674",
+                "tui": "T037",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Craniocerebral Trauma"
+            },
+            {
+                "text": "hypertensive emergency",
+                "range": [
+                    2453,
+                    2475
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "132721000119104",
+                "cui": "C0745136",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Hypertensive emergency"
+            },
+            {
+                "text": "head injury",
+                "range": [
+                    3485,
+                    3496
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "82271004",
+                "cui": "C0018674",
+                "tui": "T037",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Craniocerebral Trauma"
+            },
+            {
+                "text": "hypertension",
+                "range": [
+                    3498,
+                    3510
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "38341003",
+                "cui": "C0020538",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Hypertensive disease"
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.001,
+        "uncertain_count": 0,
+        "narrow_band_ratio": 0.0,
+        "uncertain_tokens": {},
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "injury",
+                    [
+                        24,
+                        30
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "period",
+                    [
+                        498,
+                        504
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "walking",
+                    [
+                        508,
+                        515
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "diplopia",
+                    [
+                        542,
+                        550
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Hypertension",
+                    [
+                        723,
+                        735
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "head",
+                    [
+                        2427,
+                        2431
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "injury",
+                    [
+                        2432,
+                        2438
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "anxiety",
+                    [
+                        2440,
+                        2447
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "hypertensive",
+                    [
+                        2453,
+                        2465
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "emergency",
+                    [
+                        2466,
+                        2475
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "head",
+                    [
+                        3485,
+                        3489
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "injury",
+                    [
+                        3490,
+                        3496
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "hypertension",
+                    [
+                        3498,
+                        3510
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "syncope",
+                    [
+                        3516,
+                        3523
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.495,
+                    "Head",
+                    [
+                        19,
+                        23
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.578,
+                    "injury",
+                    [
+                        24,
+                        30
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.462,
+                    "period",
+                    [
+                        498,
+                        504
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.397,
+                    "of",
+                    [
+                        505,
+                        507
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.584,
+                    "walking",
+                    [
+                        508,
+                        515
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.389,
+                    "diplopia",
+                    [
+                        542,
+                        550
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.994,
+                    "Hypertension",
+                    [
+                        723,
+                        735
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.581,
+                    "head",
+                    [
+                        2427,
+                        2431
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.708,
+                    "injury",
+                    [
+                        2432,
+                        2438
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.781,
+                    "anxiety",
+                    [
+                        2440,
+                        2447
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.785,
+                    "hypertensive",
+                    [
+                        2453,
+                        2465
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.819,
+                    "emergency",
+                    [
+                        2466,
+                        2475
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.862,
+                    "head",
+                    [
+                        3485,
+                        3489
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.918,
+                    "injury",
+                    [
+                        3490,
+                        3496
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.982,
+                    "hypertension",
+                    [
+                        3498,
+                        3510
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.857,
+                    "syncope",
+                    [
+                        3516,
+                        3523
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.059,
+        "uncertain_token_count": 6,
+        "narrow_band_ratio": 0.009,
+        "uncertain_tokens": {
+            "DIAGNOSIS": [
+                [
+                    0.495,
+                    "Head",
+                    [
+                        19,
+                        23
+                    ]
+                ],
+                [
+                    0.462,
+                    "period",
+                    [
+                        498,
+                        504
+                    ]
+                ],
+                [
+                    0.397,
+                    "of",
+                    [
+                        505,
+                        507
+                    ]
+                ],
+                [
+                    0.389,
+                    "diplopia",
+                    [
+                        542,
+                        550
+                    ]
+                ]
+            ],
+            "NA": [
+                [
+                    0.478,
+                    "headache",
+                    [
+                        340,
+                        348
+                    ]
+                ],
+                [
+                    0.41,
+                    "second",
+                    [
+                        491,
+                        497
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

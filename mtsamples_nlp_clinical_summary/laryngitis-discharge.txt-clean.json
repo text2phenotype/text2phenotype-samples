@@ -1,0 +1,163 @@
+{
+    "file": "laryngitis-discharge.txt-clean.txt",
+    "text2summary": {
+        "Medication": [],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "Chronic laryngitis",
+                "range": [
+                    13,
+                    31
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "29951006",
+                "cui": "C0155836",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Chronic laryngitis"
+            },
+            {
+                "text": "voicing",
+                "range": [
+                    200,
+                    207
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.011,
+        "uncertain_count": 2,
+        "narrow_band_ratio": 0.006,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.58,
+                    "resonant",
+                    [
+                        886,
+                        894
+                    ]
+                ]
+            ],
+            "MED": [
+                [
+                    0.669,
+                    "voice",
+                    [
+                        895,
+                        900
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "Chronic",
+                    [
+                        13,
+                        20
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "laryngitis",
+                    [
+                        21,
+                        31
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "voicing",
+                    [
+                        200,
+                        207
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "difficulties",
+                    [
+                        208,
+                        220
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.928,
+                    "Chronic",
+                    [
+                        13,
+                        20
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.964,
+                    "laryngitis",
+                    [
+                        21,
+                        31
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.573,
+                    "voicing",
+                    [
+                        200,
+                        207
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.683,
+                    "difficulties",
+                    [
+                        208,
+                        220
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.068,
+        "uncertain_token_count": 1,
+        "narrow_band_ratio": 0.003,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.461,
+                    "vocal",
+                    [
+                        1401,
+                        1406
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

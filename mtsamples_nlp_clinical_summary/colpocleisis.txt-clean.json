@@ -1,0 +1,965 @@
+{
+    "file": "colpocleisis.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "Indigo carmine",
+                "code": "227312",
+                "cui": "C0021219",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Indigo Carmine",
+                "range": [
+                    2451,
+                    2465
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.996
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            }
+        ],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "Vault prolapse",
+                "range": [
+                    26,
+                    40
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "Vault prolapse and",
+                "range": [
+                    82,
+                    100
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "poor apical support",
+                "range": [
+                    406,
+                    425
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "infection",
+                "range": [
+                    685,
+                    694
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "189822004",
+                "cui": "C0009450",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Communicable Diseases"
+            },
+            {
+                "text": "MI",
+                "range": [
+                    702,
+                    704
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "22298006",
+                "cui": "C0027051",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Myocardial Infarction"
+            },
+            {
+                "text": "DVT",
+                "range": [
+                    706,
+                    709
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "128053003",
+                "cui": "C0149871",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Deep Vein Thrombosis"
+            },
+            {
+                "text": "infection",
+                "range": [
+                    782,
+                    791
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "189822004",
+                "cui": "C0009450",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Communicable Diseases"
+            },
+            {
+                "text": "abscess",
+                "range": [
+                    796,
+                    803
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "44132006",
+                "cui": "C0000833",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Abscess"
+            },
+            {
+                "text": "retention",
+                "range": [
+                    930,
+                    939
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "incontinence",
+                "range": [
+                    944,
+                    956
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "48340000",
+                "cui": "C0021167",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Incontinence"
+            },
+            {
+                "text": "support",
+                "range": [
+                    1285,
+                    1292
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "posterior",
+                "range": [
+                    1342,
+                    1351
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "72442006",
+                "cui": "C0751438",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Posterior pituitary disease"
+            },
+            {
+                "text": "significant",
+                "range": [
+                    1654,
+                    1665
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "major",
+                "range": [
+                    1899,
+                    1904
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.005,
+        "uncertain_count": 1,
+        "narrow_band_ratio": 0.002,
+        "uncertain_tokens": {
+            "MED": [
+                [
+                    0.669,
+                    "lidocaine",
+                    [
+                        1299,
+                        1308
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "Vault",
+                    [
+                        26,
+                        31
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "prolapse",
+                    [
+                        32,
+                        40
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "rectocele",
+                    [
+                        45,
+                        54
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Vault",
+                    [
+                        82,
+                        87
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "prolapse",
+                    [
+                        88,
+                        96
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "and",
+                    [
+                        97,
+                        100
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "rectocele",
+                    [
+                        101,
+                        110
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "grade",
+                    [
+                        384,
+                        389
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "3",
+                    [
+                        390,
+                        391
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "rectocele",
+                    [
+                        392,
+                        401
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "poor",
+                    [
+                        406,
+                        410
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "apical",
+                    [
+                        411,
+                        417
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "support",
+                    [
+                        418,
+                        425
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "hysterectomy",
+                    [
+                        442,
+                        454
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "infection",
+                    [
+                        685,
+                        694
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "pain",
+                    [
+                        696,
+                        700
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "MI",
+                    [
+                        702,
+                        704
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "DVT",
+                    [
+                        706,
+                        709
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "infection",
+                    [
+                        782,
+                        791
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "abscess",
+                    [
+                        796,
+                        803
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "retention",
+                    [
+                        930,
+                        939
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "incontinence",
+                    [
+                        944,
+                        956
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "grade",
+                    [
+                        1251,
+                        1256
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "3",
+                    [
+                        1257,
+                        1258
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "rectocele",
+                    [
+                        1259,
+                        1268
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "support",
+                    [
+                        1285,
+                        1292
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "posterior",
+                    [
+                        1342,
+                        1351
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "mobility",
+                    [
+                        1641,
+                        1649
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "significant",
+                    [
+                        1654,
+                        1665
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "scarring",
+                    [
+                        1666,
+                        1674
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "major",
+                    [
+                        1899,
+                        1904
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "ureteral",
+                    [
+                        2547,
+                        2555
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.779,
+                    "Vault",
+                    [
+                        26,
+                        31
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.639,
+                    "prolapse",
+                    [
+                        32,
+                        40
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.568,
+                    "rectocele",
+                    [
+                        45,
+                        54
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.862,
+                    "Vault",
+                    [
+                        82,
+                        87
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.798,
+                    "prolapse",
+                    [
+                        88,
+                        96
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.641,
+                    "rectocele",
+                    [
+                        101,
+                        110
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.472,
+                    "grade",
+                    [
+                        384,
+                        389
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.506,
+                    "3",
+                    [
+                        390,
+                        391
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.817,
+                    "rectocele",
+                    [
+                        392,
+                        401
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.437,
+                    "poor",
+                    [
+                        406,
+                        410
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.395,
+                    "apical",
+                    [
+                        411,
+                        417
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.446,
+                    "support",
+                    [
+                        418,
+                        425
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.643,
+                    "hysterectomy",
+                    [
+                        442,
+                        454
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.539,
+                    "infection",
+                    [
+                        685,
+                        694
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.486,
+                    "pain",
+                    [
+                        696,
+                        700
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.959,
+                    "MI",
+                    [
+                        702,
+                        704
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.958,
+                    "DVT",
+                    [
+                        706,
+                        709
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.581,
+                    "infection",
+                    [
+                        782,
+                        791
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.525,
+                    "abscess",
+                    [
+                        796,
+                        803
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.557,
+                    "retention",
+                    [
+                        930,
+                        939
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.484,
+                    "incontinence",
+                    [
+                        944,
+                        956
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.672,
+                    "grade",
+                    [
+                        1251,
+                        1256
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.662,
+                    "3",
+                    [
+                        1257,
+                        1258
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.857,
+                    "rectocele",
+                    [
+                        1259,
+                        1268
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.491,
+                    "posterior",
+                    [
+                        1342,
+                        1351
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.413,
+                    "scarring",
+                    [
+                        1666,
+                        1674
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.493,
+                    "major",
+                    [
+                        1899,
+                        1904
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.169,
+        "uncertain_token_count": 19,
+        "narrow_band_ratio": 0.037,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.42,
+                    "and",
+                    [
+                        97,
+                        100
+                    ]
+                ],
+                [
+                    0.412,
+                    "mass",
+                    [
+                        330,
+                        334
+                    ]
+                ],
+                [
+                    0.459,
+                    "poor",
+                    [
+                        1273,
+                        1277
+                    ]
+                ],
+                [
+                    0.488,
+                    "apical",
+                    [
+                        1278,
+                        1284
+                    ]
+                ],
+                [
+                    0.451,
+                    "support",
+                    [
+                        1285,
+                        1292
+                    ]
+                ],
+                [
+                    0.388,
+                    "mobility",
+                    [
+                        1641,
+                        1649
+                    ]
+                ],
+                [
+                    0.403,
+                    "significant",
+                    [
+                        1654,
+                        1665
+                    ]
+                ],
+                [
+                    0.474,
+                    "ureteral",
+                    [
+                        2547,
+                        2555
+                    ]
+                ]
+            ],
+            "DIAGNOSIS": [
+                [
+                    0.472,
+                    "grade",
+                    [
+                        384,
+                        389
+                    ]
+                ],
+                [
+                    0.506,
+                    "3",
+                    [
+                        390,
+                        391
+                    ]
+                ],
+                [
+                    0.437,
+                    "poor",
+                    [
+                        406,
+                        410
+                    ]
+                ],
+                [
+                    0.395,
+                    "apical",
+                    [
+                        411,
+                        417
+                    ]
+                ],
+                [
+                    0.446,
+                    "support",
+                    [
+                        418,
+                        425
+                    ]
+                ],
+                [
+                    0.486,
+                    "pain",
+                    [
+                        696,
+                        700
+                    ]
+                ],
+                [
+                    0.525,
+                    "abscess",
+                    [
+                        796,
+                        803
+                    ]
+                ],
+                [
+                    0.484,
+                    "incontinence",
+                    [
+                        944,
+                        956
+                    ]
+                ],
+                [
+                    0.491,
+                    "posterior",
+                    [
+                        1342,
+                        1351
+                    ]
+                ],
+                [
+                    0.413,
+                    "scarring",
+                    [
+                        1666,
+                        1674
+                    ]
+                ],
+                [
+                    0.493,
+                    "major",
+                    [
+                        1899,
+                        1904
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

@@ -1,0 +1,943 @@
+{
+    "file": "anterior-cervical-discectomy-1.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "cortisone",
+                "code": "2878",
+                "cui": "C0010137",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Cortisone",
+                "range": [
+                    3284,
+                    3293
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 1.0
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "cortisone",
+                "code": "2878",
+                "cui": "C0010137",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Cortisone",
+                "range": [
+                    3284,
+                    3293
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 1.0
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            }
+        ],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "Cervical spondylosis",
+                "range": [
+                    26,
+                    46
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "387800004",
+                "cui": "C1384641",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Cervical spondylosis"
+            },
+            {
+                "text": "cervical\nradiculopathy",
+                "range": [
+                    61,
+                    83
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "54404000",
+                "cui": "C0742186",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Radiculopathy, Cervical"
+            },
+            {
+                "text": "Cervical spondylosis at C3-C4",
+                "range": [
+                    139,
+                    168
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "387800004",
+                "cui": "C1384641",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Cervical spondylosis"
+            },
+            {
+                "text": "cervical\nradiculopathy",
+                "range": [
+                    174,
+                    196
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "54404000",
+                "cui": "C0742186",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Radiculopathy, Cervical"
+            },
+            {
+                "text": "spinal cord compression",
+                "range": [
+                    201,
+                    224
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "progressive",
+                "range": [
+                    832,
+                    843
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "intractable right C4 radiculopathy",
+                "range": [
+                    848,
+                    882
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "neck",
+                "range": [
+                    888,
+                    892
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "spondylosis of C3-C4",
+                "range": [
+                    998,
+                    1018
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "8847002",
+                "cui": "C0038019",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Spondylosis"
+            },
+            {
+                "text": "neuroforaminal narrowing",
+                "range": [
+                    1024,
+                    1048
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "spinal cord\ncompression",
+                "range": [
+                    1053,
+                    1076
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "self-retaining",
+                "range": [
+                    1977,
+                    1991
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.011,
+        "uncertain_count": 8,
+        "narrow_band_ratio": 0.009,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.557,
+                    "C3-C4",
+                    [
+                        1013,
+                        1018
+                    ]
+                ],
+                [
+                    0.654,
+                    "C3-C4",
+                    [
+                        1908,
+                        1913
+                    ]
+                ],
+                [
+                    0.686,
+                    "blades",
+                    [
+                        2104,
+                        2110
+                    ]
+                ],
+                [
+                    0.597,
+                    "spondylitic",
+                    [
+                        2424,
+                        2435
+                    ]
+                ],
+                [
+                    0.677,
+                    "diamond",
+                    [
+                        2456,
+                        2463
+                    ]
+                ],
+                [
+                    0.584,
+                    "C3-C4",
+                    [
+                        2651,
+                        2656
+                    ]
+                ],
+                [
+                    0.567,
+                    "C3-C4",
+                    [
+                        4989,
+                        4994
+                    ]
+                ]
+            ],
+            "MED": [
+                [
+                    0.622,
+                    "high-speed",
+                    [
+                        3273,
+                        3283
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "Cervical",
+                    [
+                        26,
+                        34
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "spondylosis",
+                    [
+                        35,
+                        46
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "cervical",
+                    [
+                        61,
+                        69
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "radiculopathy",
+                    [
+                        70,
+                        83
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Cervical",
+                    [
+                        139,
+                        147
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "spondylosis",
+                    [
+                        148,
+                        159
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "at",
+                    [
+                        160,
+                        162
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "C3-C4",
+                    [
+                        163,
+                        168
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "cervical",
+                    [
+                        174,
+                        182
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "radiculopathy",
+                    [
+                        183,
+                        196
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "spinal",
+                    [
+                        201,
+                        207
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "cord",
+                    [
+                        208,
+                        212
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "compression",
+                    [
+                        213,
+                        224
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "progressive",
+                    [
+                        832,
+                        843
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "intractable",
+                    [
+                        848,
+                        859
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "right",
+                    [
+                        860,
+                        865
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "C4",
+                    [
+                        866,
+                        868
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "radiculopathy",
+                    [
+                        869,
+                        882
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "neck",
+                    [
+                        888,
+                        892
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "shoulder",
+                    [
+                        897,
+                        905
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "pain",
+                    [
+                        906,
+                        910
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "spondylosis",
+                    [
+                        998,
+                        1009
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "of",
+                    [
+                        1010,
+                        1012
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "C3-C4",
+                    [
+                        1013,
+                        1018
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "neuroforaminal",
+                    [
+                        1024,
+                        1038
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "narrowing",
+                    [
+                        1039,
+                        1048
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "spinal",
+                    [
+                        1053,
+                        1059
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "cord",
+                    [
+                        1060,
+                        1064
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "compression",
+                    [
+                        1065,
+                        1076
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "self-retaining",
+                    [
+                        1977,
+                        1991
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "pins",
+                    [
+                        1992,
+                        1996
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.937,
+                    "Cervical",
+                    [
+                        26,
+                        34
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.932,
+                    "spondylosis",
+                    [
+                        35,
+                        46
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.503,
+                    "at",
+                    [
+                        47,
+                        49
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.606,
+                    "cervical",
+                    [
+                        61,
+                        69
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.736,
+                    "radiculopathy",
+                    [
+                        70,
+                        83
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.907,
+                    "Cervical",
+                    [
+                        139,
+                        147
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.898,
+                    "spondylosis",
+                    [
+                        148,
+                        159
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.777,
+                    "at",
+                    [
+                        160,
+                        162
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.838,
+                    "C3-C4",
+                    [
+                        163,
+                        168
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.947,
+                    "cervical",
+                    [
+                        174,
+                        182
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.954,
+                    "radiculopathy",
+                    [
+                        183,
+                        196
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.593,
+                    "spinal",
+                    [
+                        201,
+                        207
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.702,
+                    "cord",
+                    [
+                        208,
+                        212
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.638,
+                    "compression",
+                    [
+                        213,
+                        224
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.502,
+                    "progressive",
+                    [
+                        832,
+                        843
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.675,
+                    "intractable",
+                    [
+                        848,
+                        859
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.736,
+                    "right",
+                    [
+                        860,
+                        865
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.75,
+                    "C4",
+                    [
+                        866,
+                        868
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.807,
+                    "radiculopathy",
+                    [
+                        869,
+                        882
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.709,
+                    "neck",
+                    [
+                        888,
+                        892
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.88,
+                    "shoulder",
+                    [
+                        897,
+                        905
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.844,
+                    "pain",
+                    [
+                        906,
+                        910
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.974,
+                    "spondylosis",
+                    [
+                        998,
+                        1009
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.724,
+                    "of",
+                    [
+                        1010,
+                        1012
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.847,
+                    "C3-C4",
+                    [
+                        1013,
+                        1018
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.78,
+                    "neuroforaminal",
+                    [
+                        1024,
+                        1038
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.821,
+                    "narrowing",
+                    [
+                        1039,
+                        1048
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.748,
+                    "spinal",
+                    [
+                        1053,
+                        1059
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.824,
+                    "cord",
+                    [
+                        1060,
+                        1064
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.759,
+                    "compression",
+                    [
+                        1065,
+                        1076
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.368,
+                    "pins",
+                    [
+                        1992,
+                        1996
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.093,
+        "uncertain_token_count": 6,
+        "narrow_band_ratio": 0.007,
+        "uncertain_tokens": {
+            "DIAGNOSIS": [
+                [
+                    0.503,
+                    "at",
+                    [
+                        47,
+                        49
+                    ]
+                ],
+                [
+                    0.502,
+                    "progressive",
+                    [
+                        832,
+                        843
+                    ]
+                ],
+                [
+                    0.368,
+                    "pins",
+                    [
+                        1992,
+                        1996
+                    ]
+                ]
+            ],
+            "NA": [
+                [
+                    0.482,
+                    "with",
+                    [
+                        883,
+                        887
+                    ]
+                ],
+                [
+                    0.384,
+                    "self-retaining",
+                    [
+                        1977,
+                        1991
+                    ]
+                ],
+                [
+                    0.423,
+                    "osteophytes",
+                    [
+                        2250,
+                        2261
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

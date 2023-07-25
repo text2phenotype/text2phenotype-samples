@@ -1,0 +1,181 @@
+{
+    "file": "discharge-summary-mesothelioma.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "albuterol",
+                "code": "435",
+                "cui": "C0001927",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Albuterol",
+                "range": [
+                    687,
+                    696
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.999
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "albuterol",
+                "code": "435",
+                "cui": "C0001927",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Albuterol",
+                "range": [
+                    687,
+                    696
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.999
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "Vicodin",
+                "code": "128793",
+                "cui": "C0483514",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Vicodin",
+                "range": [
+                    791,
+                    798
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 1.0
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "Vicodin",
+                "code": "128793",
+                "cui": "C0483514",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Vicodin",
+                "range": [
+                    791,
+                    798
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 1.0
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            }
+        ],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": []
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.01,
+        "uncertain_count": 0,
+        "narrow_band_ratio": 0.0,
+        "uncertain_tokens": {},
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "pleural",
+                    [
+                        32,
+                        39
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Mesothelioma",
+                    [
+                        72,
+                        84
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.545,
+                    "Right",
+                    [
+                        26,
+                        31
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.59,
+                    "pleural",
+                    [
+                        32,
+                        39
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.446,
+                    "mass",
+                    [
+                        40,
+                        44
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.98,
+                    "Mesothelioma",
+                    [
+                        72,
+                        84
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.046,
+        "uncertain_token_count": 1,
+        "narrow_band_ratio": 0.005,
+        "uncertain_tokens": {
+            "DIAGNOSIS": [
+                [
+                    0.446,
+                    "mass",
+                    [
+                        40,
+                        44
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

@@ -1,0 +1,198 @@
+{
+    "file": "carotid-ultrasound.txt-clean.txt",
+    "text2summary": {
+        "Medication": [],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "intimal",
+                "range": [
+                    227,
+                    234
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "hard",
+                "range": [
+                    316,
+                    320
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "bilateral hard",
+                "range": [
+                    2183,
+                    2197
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.001,
+        "uncertain_count": 0,
+        "narrow_band_ratio": 0.0,
+        "uncertain_tokens": {},
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "intimal",
+                    [
+                        227,
+                        234
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "hard",
+                    [
+                        316,
+                        320
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "plaque",
+                    [
+                        321,
+                        327
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "bilateral",
+                    [
+                        2183,
+                        2192
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "hard",
+                    [
+                        2193,
+                        2197
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "plaque",
+                    [
+                        2198,
+                        2204
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.434,
+                    "hard",
+                    [
+                        316,
+                        320
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.533,
+                    "bilateral",
+                    [
+                        2183,
+                        2192
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.558,
+                    "hard",
+                    [
+                        2193,
+                        2197
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.503,
+                    "plaque",
+                    [
+                        2198,
+                        2204
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.072,
+        "uncertain_token_count": 4,
+        "narrow_band_ratio": 0.01,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.496,
+                    "intimal",
+                    [
+                        227,
+                        234
+                    ]
+                ],
+                [
+                    0.425,
+                    "plaque",
+                    [
+                        321,
+                        327
+                    ]
+                ]
+            ],
+            "DIAGNOSIS": [
+                [
+                    0.434,
+                    "hard",
+                    [
+                        316,
+                        320
+                    ]
+                ],
+                [
+                    0.503,
+                    "plaque",
+                    [
+                        2198,
+                        2204
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

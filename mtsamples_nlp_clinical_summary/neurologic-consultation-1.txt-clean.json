@@ -1,0 +1,412 @@
+{
+    "file": "neurologic-consultation-1.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "Copaxone",
+                "code": "135779",
+                "cui": "C0528175",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Copaxone",
+                "range": [
+                    354,
+                    362
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.989
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "Copaxone",
+                "code": "135779",
+                "cui": "C0528175",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Copaxone",
+                "range": [
+                    1475,
+                    1483
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 1.0
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            }
+        ],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "MM/DD/YYYY",
+                "range": [
+                    83,
+                    93
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "48611009",
+                "cui": "C0022595",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Keratosis Follicularis"
+            },
+            {
+                "text": "the",
+                "range": [
+                    145,
+                    148
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "urgency frequency",
+                "range": [
+                    705,
+                    722
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "hesitancy",
+                "range": [
+                    727,
+                    736
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "5972002",
+                "cui": "C0152032",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Urinary hesitation"
+            },
+            {
+                "text": "the",
+                "range": [
+                    810,
+                    813
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.004,
+        "uncertain_count": 0,
+        "narrow_band_ratio": 0.0,
+        "uncertain_tokens": {},
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "MM/DD/YYYY",
+                    [
+                        83,
+                        93
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "issues",
+                    [
+                        135,
+                        141
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "the",
+                    [
+                        145,
+                        148
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "urgency",
+                    [
+                        705,
+                        712
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "frequency",
+                    [
+                        713,
+                        722
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "hesitancy",
+                    [
+                        727,
+                        736
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "lack",
+                    [
+                        755,
+                        759
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "of",
+                    [
+                        760,
+                        762
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "stamina",
+                    [
+                        763,
+                        770
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "pain",
+                    [
+                        789,
+                        793
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "the",
+                    [
+                        810,
+                        813
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.868,
+                    "MM/DD/YYYY",
+                    [
+                        83,
+                        93
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.508,
+                    "urgency",
+                    [
+                        705,
+                        712
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.518,
+                    "frequency",
+                    [
+                        713,
+                        722
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.577,
+                    "hesitancy",
+                    [
+                        727,
+                        736
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.528,
+                    "lack",
+                    [
+                        755,
+                        759
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.627,
+                    "of",
+                    [
+                        760,
+                        762
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.611,
+                    "stamina",
+                    [
+                        763,
+                        770
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.679,
+                    "pain",
+                    [
+                        789,
+                        793
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.544,
+                    "the",
+                    [
+                        810,
+                        813
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.15,
+        "uncertain_token_count": 10,
+        "narrow_band_ratio": 0.03,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.448,
+                    "issues",
+                    [
+                        135,
+                        141
+                    ]
+                ],
+                [
+                    0.512,
+                    "in",
+                    [
+                        142,
+                        144
+                    ]
+                ],
+                [
+                    0.514,
+                    "the",
+                    [
+                        145,
+                        148
+                    ]
+                ],
+                [
+                    0.502,
+                    "dog",
+                    [
+                        225,
+                        228
+                    ]
+                ],
+                [
+                    0.528,
+                    "cycle",
+                    [
+                        480,
+                        485
+                    ]
+                ],
+                [
+                    0.508,
+                    "preponderance",
+                    [
+                        738,
+                        751
+                    ]
+                ],
+                [
+                    0.504,
+                    "in",
+                    [
+                        807,
+                        809
+                    ]
+                ]
+            ],
+            "DIAGNOSIS": [
+                [
+                    0.508,
+                    "urgency",
+                    [
+                        705,
+                        712
+                    ]
+                ],
+                [
+                    0.518,
+                    "frequency",
+                    [
+                        713,
+                        722
+                    ]
+                ],
+                [
+                    0.528,
+                    "lack",
+                    [
+                        755,
+                        759
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

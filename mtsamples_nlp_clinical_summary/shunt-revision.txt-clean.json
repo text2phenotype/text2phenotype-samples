@@ -1,0 +1,275 @@
+{
+    "file": "shunt-revision.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "Marcaine",
+                "code": "1012397",
+                "cui": "C2945665",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Marcaine",
+                "range": [
+                    923,
+                    931
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.953
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "bacitracin",
+                "code": "1291",
+                "cui": "C0004599",
+                "tui": "T195",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Bacitracin",
+                "range": [
+                    2757,
+                    2767
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.977
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            }
+        ],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "Slit ventricle syndrome",
+                "range": [
+                    183,
+                    206
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "431468008",
+                "cui": "C2316166",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Slit Ventricle Syndrome"
+            },
+            {
+                "text": "Slit ventricle syndrome",
+                "range": [
+                    234,
+                    257
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "431468008",
+                "cui": "C2316166",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Slit Ventricle Syndrome"
+            },
+            {
+                "text": "catheter",
+                "range": [
+                    331,
+                    339
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.01,
+        "uncertain_count": 2,
+        "narrow_band_ratio": 0.004,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.666,
+                    "leading",
+                    [
+                        1161,
+                        1168
+                    ]
+                ],
+                [
+                    0.666,
+                    "CSF",
+                    [
+                        2967,
+                        2970
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "Slit",
+                    [
+                        183,
+                        187
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "ventricle",
+                    [
+                        188,
+                        197
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "syndrome",
+                    [
+                        198,
+                        206
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Slit",
+                    [
+                        234,
+                        238
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "ventricle",
+                    [
+                        239,
+                        248
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "syndrome",
+                    [
+                        249,
+                        257
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "catheter",
+                    [
+                        331,
+                        339
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.919,
+                    "Slit",
+                    [
+                        183,
+                        187
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.907,
+                    "ventricle",
+                    [
+                        188,
+                        197
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.907,
+                    "syndrome",
+                    [
+                        198,
+                        206
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.89,
+                    "Slit",
+                    [
+                        234,
+                        238
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.856,
+                    "ventricle",
+                    [
+                        239,
+                        248
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.838,
+                    "syndrome",
+                    [
+                        249,
+                        257
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.599,
+                    "catheter",
+                    [
+                        331,
+                        339
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.09,
+        "uncertain_token_count": 1,
+        "narrow_band_ratio": 0.002,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.52,
+                    "ventricular",
+                    [
+                        319,
+                        330
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

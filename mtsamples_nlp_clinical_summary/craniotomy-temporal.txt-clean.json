@@ -1,0 +1,562 @@
+{
+    "file": "craniotomy-temporal.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "bacitracin",
+                "code": "1291",
+                "cui": "C0004599",
+                "tui": "T195",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Bacitracin",
+                "range": [
+                    740,
+                    750
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.99
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "DuraGen",
+                "code": "216786",
+                "cui": "C0720086",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Duragen",
+                "range": [
+                    1937,
+                    1944
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 1.0
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "DuraGen",
+                "code": "216786",
+                "cui": "C0720086",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Duragen",
+                "range": [
+                    1937,
+                    1944
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 1.0
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            }
+        ],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "left temporal",
+                "range": [
+                    38,
+                    51
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "left temporal",
+                "range": [
+                    96,
+                    109
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.008,
+        "uncertain_count": 1,
+        "narrow_band_ratio": 0.002,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.575,
+                    "liquid",
+                    [
+                        1254,
+                        1260
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "Brain",
+                    [
+                        26,
+                        31
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "tumor",
+                    [
+                        32,
+                        37
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "left",
+                    [
+                        38,
+                        42
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "temporal",
+                    [
+                        43,
+                        51
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Brain",
+                    [
+                        84,
+                        89
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "tumor",
+                    [
+                        90,
+                        95
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "left",
+                    [
+                        96,
+                        100
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "temporal",
+                    [
+                        101,
+                        109
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "glioblastoma",
+                    [
+                        118,
+                        130
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "multiforme",
+                    [
+                        131,
+                        141
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "necrotic",
+                    [
+                        1245,
+                        1253
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "glioblastoma",
+                    [
+                        1407,
+                        1419
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "necrotic-looking",
+                    [
+                        2725,
+                        2741
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "tumor",
+                    [
+                        2742,
+                        2747
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "of",
+                    [
+                        2748,
+                        2750
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "the",
+                    [
+                        2751,
+                        2754
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "brain",
+                    [
+                        2755,
+                        2760
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    ".",
+                    [
+                        2760,
+                        2761
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.841,
+                    "Brain",
+                    [
+                        26,
+                        31
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.811,
+                    "tumor",
+                    [
+                        32,
+                        37
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.721,
+                    "left",
+                    [
+                        38,
+                        42
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.456,
+                    "temporal",
+                    [
+                        43,
+                        51
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.957,
+                    "Brain",
+                    [
+                        84,
+                        89
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.962,
+                    "tumor",
+                    [
+                        90,
+                        95
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.942,
+                    "left",
+                    [
+                        96,
+                        100
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.773,
+                    "temporal",
+                    [
+                        101,
+                        109
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.74,
+                    "glioblastoma",
+                    [
+                        118,
+                        130
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.724,
+                    "multiforme",
+                    [
+                        131,
+                        141
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.505,
+                    "necrotic",
+                    [
+                        1245,
+                        1253
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.696,
+                    "glioblastoma",
+                    [
+                        1407,
+                        1419
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.543,
+                    "multiforme",
+                    [
+                        1420,
+                        1430
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.518,
+                    "tumor",
+                    [
+                        1530,
+                        1535
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.773,
+                    "necrotic-looking",
+                    [
+                        2725,
+                        2741
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.947,
+                    "tumor",
+                    [
+                        2742,
+                        2747
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.959,
+                    "of",
+                    [
+                        2748,
+                        2750
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.981,
+                    "the",
+                    [
+                        2751,
+                        2754
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.965,
+                    "brain",
+                    [
+                        2755,
+                        2760
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.492,
+                    ".",
+                    [
+                        2760,
+                        2761
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.1,
+        "uncertain_token_count": 8,
+        "narrow_band_ratio": 0.016,
+        "uncertain_tokens": {
+            "PROBLEM": [
+                [
+                    0.456,
+                    "temporal",
+                    [
+                        43,
+                        51
+                    ]
+                ],
+                [
+                    0.505,
+                    "necrotic",
+                    [
+                        1245,
+                        1253
+                    ]
+                ]
+            ],
+            "NA": [
+                [
+                    0.525,
+                    "lobe",
+                    [
+                        52,
+                        56
+                    ]
+                ],
+                [
+                    0.447,
+                    "yellowish",
+                    [
+                        1235,
+                        1244
+                    ]
+                ],
+                [
+                    0.518,
+                    "liquid",
+                    [
+                        1254,
+                        1260
+                    ]
+                ],
+                [
+                    0.348,
+                    "large",
+                    [
+                        2715,
+                        2720
+                    ]
+                ]
+            ],
+            "DIAGNOSIS": [
+                [
+                    0.518,
+                    "tumor",
+                    [
+                        1530,
+                        1535
+                    ]
+                ],
+                [
+                    0.492,
+                    ".",
+                    [
+                        2760,
+                        2761
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

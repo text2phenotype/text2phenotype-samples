@@ -1,0 +1,422 @@
+{
+    "file": "coronary-ct-angiography-ccta-3.txt-clean.txt",
+    "text2summary": {
+        "Medication": [],
+        "Allergy": [
+            {
+                "code": "4917",
+                "cui": "C0017887",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "text": "nitroglycerin",
+                "preferredText": "Nitroglycerin",
+                "range": [
+                    319,
+                    332
+                ]
+            }
+        ],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "high cholesterol",
+                "range": [
+                    395,
+                    411
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "13644009",
+                "cui": "C0020443",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Hypercholesterolemia"
+            },
+            {
+                "text": "its midportion",
+                "range": [
+                    608,
+                    622
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "focal\ncalcified",
+                "range": [
+                    632,
+                    647
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "LAD",
+                "range": [
+                    667,
+                    670
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "234582006",
+                "cui": "C0398738",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Leukocyte adhesion deficiency type 1"
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.009,
+        "uncertain_count": 1,
+        "narrow_band_ratio": 0.005,
+        "uncertain_tokens": {
+            "MED": [
+                [
+                    0.541,
+                    "nitroglycerin",
+                    [
+                        319,
+                        332
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "Chest",
+                    [
+                        81,
+                        86
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "pain",
+                    [
+                        87,
+                        91
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "high",
+                    [
+                        395,
+                        399
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "cholesterol",
+                    [
+                        400,
+                        411
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "overweight",
+                    [
+                        413,
+                        423
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "chest",
+                    [
+                        425,
+                        430
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "pain",
+                    [
+                        431,
+                        435
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "stenosis",
+                    [
+                        596,
+                        604
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "its",
+                    [
+                        608,
+                        611
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "midportion",
+                    [
+                        612,
+                        622
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "focal",
+                    [
+                        632,
+                        637
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "calcified",
+                    [
+                        638,
+                        647
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "plaque",
+                    [
+                        648,
+                        654
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "LAD",
+                    [
+                        667,
+                        670
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.441,
+                    "Chest",
+                    [
+                        81,
+                        86
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.569,
+                    "pain",
+                    [
+                        87,
+                        91
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.915,
+                    "high",
+                    [
+                        395,
+                        399
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.868,
+                    "cholesterol",
+                    [
+                        400,
+                        411
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.602,
+                    "overweight",
+                    [
+                        413,
+                        423
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.734,
+                    "chest",
+                    [
+                        425,
+                        430
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.719,
+                    "pain",
+                    [
+                        431,
+                        435
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.54,
+                    "stenosis",
+                    [
+                        596,
+                        604
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.369,
+                    "midportion",
+                    [
+                        612,
+                        622
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.597,
+                    "focal",
+                    [
+                        632,
+                        637
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.57,
+                    "calcified",
+                    [
+                        638,
+                        647
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.63,
+                    "plaque",
+                    [
+                        648,
+                        654
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.224,
+        "uncertain_token_count": 8,
+        "narrow_band_ratio": 0.041,
+        "uncertain_tokens": {
+            "DIAGNOSIS": [
+                [
+                    0.441,
+                    "Chest",
+                    [
+                        81,
+                        86
+                    ]
+                ],
+                [
+                    0.369,
+                    "midportion",
+                    [
+                        612,
+                        622
+                    ]
+                ]
+            ],
+            "NA": [
+                [
+                    0.459,
+                    "family",
+                    [
+                        437,
+                        443
+                    ]
+                ],
+                [
+                    0.452,
+                    "in",
+                    [
+                        605,
+                        607
+                    ]
+                ],
+                [
+                    0.365,
+                    "its",
+                    [
+                        608,
+                        611
+                    ]
+                ],
+                [
+                    0.481,
+                    "a",
+                    [
+                        630,
+                        631
+                    ]
+                ],
+                [
+                    0.515,
+                    "portion",
+                    [
+                        871,
+                        878
+                    ]
+                ],
+                [
+                    0.487,
+                    "Distal",
+                    [
+                        880,
+                        886
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

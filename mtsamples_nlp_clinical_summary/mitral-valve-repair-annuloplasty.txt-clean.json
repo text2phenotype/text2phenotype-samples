@@ -1,0 +1,167 @@
+{
+    "file": "mitral-valve-repair-annuloplasty.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "blade",
+                "code": "1043245",
+                "cui": "C2948008",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Blade",
+                "range": [
+                    742,
+                    747
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.992
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "silk",
+                "code": null,
+                "cui": null,
+                "tui": null,
+                "vocab": null,
+                "polarity": "positive",
+                "preferredText": null,
+                "range": [
+                    2914,
+                    2918
+                ],
+                "prob": {
+                    "MED": 0.944
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "Prolene",
+                "code": null,
+                "cui": null,
+                "tui": null,
+                "vocab": null,
+                "polarity": "positive",
+                "preferredText": null,
+                "range": [
+                    3416,
+                    3423
+                ],
+                "prob": {
+                    "MED": 0.947
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            }
+        ],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": []
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.01,
+        "uncertain_count": 2,
+        "narrow_band_ratio": 0.002,
+        "uncertain_tokens": {
+            "MED": [
+                [
+                    0.573,
+                    "leads",
+                    [
+                        4864,
+                        4869
+                    ]
+                ]
+            ],
+            "NA": [
+                [
+                    0.698,
+                    "protamine",
+                    [
+                        5032,
+                        5041
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "regurgitation",
+                    [
+                        3651,
+                        3664
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "regurgitation",
+                    [
+                        4322,
+                        4335
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.508,
+                    "abscess",
+                    [
+                        2758,
+                        2765
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.078,
+        "uncertain_token_count": 3,
+        "narrow_band_ratio": 0.003,
+        "uncertain_tokens": {
+            "DIAGNOSIS": [
+                [
+                    0.508,
+                    "abscess",
+                    [
+                        2758,
+                        2765
+                    ]
+                ]
+            ],
+            "NA": [
+                [
+                    0.396,
+                    "regurgitation",
+                    [
+                        3651,
+                        3664
+                    ]
+                ],
+                [
+                    0.471,
+                    "regurgitation",
+                    [
+                        4322,
+                        4335
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

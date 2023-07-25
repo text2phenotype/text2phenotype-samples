@@ -1,0 +1,189 @@
+{
+    "file": "stress-test-dobutrex.txt-clean.txt",
+    "text2summary": {
+        "Medication": [],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "Abnormal nuclear scan consistent",
+                "range": [
+                    726,
+                    758
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "ischemic heart\ndisease",
+                "range": [
+                    784,
+                    806
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "414795007",
+                "cui": "C0151744",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Myocardial Ischemia"
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.008,
+        "uncertain_count": 0,
+        "narrow_band_ratio": 0.0,
+        "uncertain_tokens": {},
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "PROBLEM": [
+                    "Abnormal",
+                    [
+                        726,
+                        734
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "nuclear",
+                    [
+                        735,
+                        742
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "scan",
+                    [
+                        743,
+                        747
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "consistent",
+                    [
+                        748,
+                        758
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "ischemic",
+                    [
+                        784,
+                        792
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "heart",
+                    [
+                        793,
+                        798
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "disease",
+                    [
+                        799,
+                        806
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "PROBLEM": [
+                    0.668,
+                    "nuclear",
+                    [
+                        735,
+                        742
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.718,
+                    "scan",
+                    [
+                        743,
+                        747
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.625,
+                    "consistent",
+                    [
+                        748,
+                        758
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.745,
+                    "ischemic",
+                    [
+                        784,
+                        792
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.868,
+                    "heart",
+                    [
+                        793,
+                        798
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.94,
+                    "disease",
+                    [
+                        799,
+                        806
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.087,
+        "uncertain_token_count": 1,
+        "narrow_band_ratio": 0.007,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.443,
+                    "Abnormal",
+                    [
+                        726,
+                        734
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

@@ -1,0 +1,742 @@
+{
+    "file": "adjustment-disorder-encopresis.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "MiraLax",
+                "code": "261575",
+                "cui": "C0876088",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Miralax",
+                "range": [
+                    2908,
+                    2915
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.941
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "MiraLax",
+                "code": "261575",
+                "cui": "C0876088",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Miralax",
+                "range": [
+                    2908,
+                    2915
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.941
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            }
+        ],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "encopresis",
+                "range": [
+                    136,
+                    146
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "302690004",
+                "cui": "C2945606",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Encopresis (finding)"
+            },
+            {
+                "text": "and",
+                "range": [
+                    9140,
+                    9143
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "disruptive behavior disorder",
+                "range": [
+                    9528,
+                    9556
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "309.3",
+                "range": [
+                    10314,
+                    10319
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "Encopresis",
+                "range": [
+                    10322,
+                    10332
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "constipation",
+                "range": [
+                    10342,
+                    10354
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.004,
+        "uncertain_count": 4,
+        "narrow_band_ratio": 0.002,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.545,
+                    "alcohol",
+                    [
+                        4228,
+                        4235
+                    ]
+                ],
+                [
+                    0.554,
+                    "MiraLax",
+                    [
+                        4623,
+                        4630
+                    ]
+                ],
+                [
+                    0.684,
+                    "mother",
+                    [
+                        10047,
+                        10053
+                    ]
+                ]
+            ],
+            "MED": [
+                [
+                    0.527,
+                    "rewards",
+                    [
+                        9425,
+                        9432
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "encopresis",
+                    [
+                        136,
+                        146
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "depression",
+                    [
+                        2117,
+                        2127
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "unhappy",
+                    [
+                        2200,
+                        2207
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "difficulty",
+                    [
+                        3648,
+                        3658
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "upset",
+                    [
+                        3691,
+                        3696
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "pregnancy",
+                    [
+                        4109,
+                        4118
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "constipation",
+                    [
+                        9127,
+                        9139
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "and",
+                    [
+                        9140,
+                        9143
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "impaction",
+                    [
+                        9144,
+                        9153
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    ",",
+                    [
+                        9153,
+                        9154
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "disruptive",
+                    [
+                        9528,
+                        9538
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "behavior",
+                    [
+                        9539,
+                        9547
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "disorder",
+                    [
+                        9548,
+                        9556
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Adjustment",
+                    [
+                        10265,
+                        10275
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "disorder",
+                    [
+                        10276,
+                        10284
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "with",
+                    [
+                        10285,
+                        10289
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "disturbance",
+                    [
+                        10290,
+                        10301
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "of",
+                    [
+                        10302,
+                        10304
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "conduct",
+                    [
+                        10305,
+                        10312
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "309.3",
+                    [
+                        10314,
+                        10319
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Encopresis",
+                    [
+                        10322,
+                        10332
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "constipation",
+                    [
+                        10342,
+                        10354
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.476,
+                    "encopresis",
+                    [
+                        136,
+                        146
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.399,
+                    "encopresis",
+                    [
+                        597,
+                        607
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.438,
+                    "depression",
+                    [
+                        2117,
+                        2127
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.428,
+                    "unhappy",
+                    [
+                        2200,
+                        2207
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.539,
+                    "pull-up",
+                    [
+                        2672,
+                        2679
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.5,
+                    "frustrated",
+                    [
+                        3539,
+                        3549
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.367,
+                    "difficulty",
+                    [
+                        3648,
+                        3658
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.422,
+                    "upset",
+                    [
+                        3691,
+                        3696
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.434,
+                    "pregnancy",
+                    [
+                        4109,
+                        4118
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.576,
+                    "constipation",
+                    [
+                        9127,
+                        9139
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.412,
+                    "and",
+                    [
+                        9140,
+                        9143
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.582,
+                    "impaction",
+                    [
+                        9144,
+                        9153
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.856,
+                    "disruptive",
+                    [
+                        9528,
+                        9538
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.862,
+                    "behavior",
+                    [
+                        9539,
+                        9547
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.89,
+                    "disorder",
+                    [
+                        9548,
+                        9556
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.993,
+                    "Adjustment",
+                    [
+                        10265,
+                        10275
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.993,
+                    "disorder",
+                    [
+                        10276,
+                        10284
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.926,
+                    "with",
+                    [
+                        10285,
+                        10289
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.986,
+                    "disturbance",
+                    [
+                        10290,
+                        10301
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.975,
+                    "of",
+                    [
+                        10302,
+                        10304
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.992,
+                    "conduct",
+                    [
+                        10305,
+                        10312
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.96,
+                    "309.3",
+                    [
+                        10314,
+                        10319
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.898,
+                    "Encopresis",
+                    [
+                        10322,
+                        10332
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.065,
+        "uncertain_token_count": 15,
+        "narrow_band_ratio": 0.007,
+        "uncertain_tokens": {
+            "DIAGNOSIS": [
+                [
+                    0.476,
+                    "encopresis",
+                    [
+                        136,
+                        146
+                    ]
+                ],
+                [
+                    0.438,
+                    "depression",
+                    [
+                        2117,
+                        2127
+                    ]
+                ],
+                [
+                    0.367,
+                    "difficulty",
+                    [
+                        3648,
+                        3658
+                    ]
+                ],
+                [
+                    0.434,
+                    "pregnancy",
+                    [
+                        4109,
+                        4118
+                    ]
+                ]
+            ],
+            "NA": [
+                [
+                    0.528,
+                    "oppositionality",
+                    [
+                        531,
+                        546
+                    ]
+                ],
+                [
+                    0.397,
+                    "issues",
+                    [
+                        1046,
+                        1052
+                    ]
+                ],
+                [
+                    0.481,
+                    "things",
+                    [
+                        3228,
+                        3234
+                    ]
+                ],
+                [
+                    0.508,
+                    "noncomplicated",
+                    [
+                        4094,
+                        4108
+                    ]
+                ],
+                [
+                    0.441,
+                    ",",
+                    [
+                        9153,
+                        9154
+                    ]
+                ],
+                [
+                    0.509,
+                    "307.7",
+                    [
+                        10379,
+                        10384
+                    ]
+                ]
+            ],
+            "PROBLEM": [
+                [
+                    0.399,
+                    "encopresis",
+                    [
+                        597,
+                        607
+                    ]
+                ],
+                [
+                    0.428,
+                    "unhappy",
+                    [
+                        2200,
+                        2207
+                    ]
+                ],
+                [
+                    0.5,
+                    "frustrated",
+                    [
+                        3539,
+                        3549
+                    ]
+                ],
+                [
+                    0.422,
+                    "upset",
+                    [
+                        3691,
+                        3696
+                    ]
+                ],
+                [
+                    0.412,
+                    "and",
+                    [
+                        9140,
+                        9143
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

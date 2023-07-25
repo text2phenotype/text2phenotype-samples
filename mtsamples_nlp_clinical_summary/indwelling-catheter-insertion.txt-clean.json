@@ -1,0 +1,453 @@
+{
+    "file": "indwelling-catheter-insertion.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "Levophed",
+                "code": "227559",
+                "cui": "C0733815",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Levophed",
+                "range": [
+                    573,
+                    581
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.998
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "Levophed",
+                "code": "227559",
+                "cui": "C0733815",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Levophed",
+                "range": [
+                    573,
+                    581
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.998
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "Betadine",
+                "code": "202750",
+                "cui": "C0699524",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Betadine",
+                "range": [
+                    1253,
+                    1261
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.941
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "Betadine",
+                "code": "202750",
+                "cui": "C0699524",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Betadine",
+                "range": [
+                    1253,
+                    1261
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.941
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            }
+        ],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "Chronic renal failure",
+                "range": [
+                    26,
+                    47
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "46177005",
+                "cui": "C0022661",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Kidney Failure, Chronic"
+            },
+            {
+                "text": "Chronic renal failure",
+                "range": [
+                    75,
+                    96
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "46177005",
+                "cui": "C0022661",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Kidney Failure, Chronic"
+            },
+            {
+                "text": "MRSA bacteremia",
+                "range": [
+                    424,
+                    439
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "13790001000004101",
+                "cui": "C4040349",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Bacteremia due to Methicillin resistant Staphylococcus aureus"
+            },
+            {
+                "text": "elevated",
+                "range": [
+                    445,
+                    453
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.01,
+        "uncertain_count": 2,
+        "narrow_band_ratio": 0.005,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.516,
+                    "lidocaine",
+                    [
+                        1355,
+                        1364
+                    ]
+                ],
+                [
+                    0.55,
+                    "blade",
+                    [
+                        1675,
+                        1680
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "Chronic",
+                    [
+                        26,
+                        33
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "renal",
+                    [
+                        34,
+                        39
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "failure",
+                    [
+                        40,
+                        47
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Chronic",
+                    [
+                        75,
+                        82
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "renal",
+                    [
+                        83,
+                        88
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "failure",
+                    [
+                        89,
+                        96
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "elevated",
+                    [
+                        374,
+                        382
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "temperature",
+                    [
+                        383,
+                        394
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "MRSA",
+                    [
+                        424,
+                        428
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "bacteremia",
+                    [
+                        429,
+                        439
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "elevated",
+                    [
+                        445,
+                        453
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "fever",
+                    [
+                        454,
+                        459
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "hypotension",
+                    [
+                        586,
+                        597
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.936,
+                    "Chronic",
+                    [
+                        26,
+                        33
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.856,
+                    "renal",
+                    [
+                        34,
+                        39
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.754,
+                    "failure",
+                    [
+                        40,
+                        47
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.97,
+                    "Chronic",
+                    [
+                        75,
+                        82
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.962,
+                    "renal",
+                    [
+                        83,
+                        88
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.945,
+                    "failure",
+                    [
+                        89,
+                        96
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.728,
+                    "elevated",
+                    [
+                        374,
+                        382
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.875,
+                    "temperature",
+                    [
+                        383,
+                        394
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.826,
+                    "MRSA",
+                    [
+                        424,
+                        428
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.74,
+                    "bacteremia",
+                    [
+                        429,
+                        439
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.493,
+                    "elevated",
+                    [
+                        445,
+                        453
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.524,
+                    "fever",
+                    [
+                        454,
+                        459
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.628,
+                    "hypotension",
+                    [
+                        586,
+                        597
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.058,
+        "uncertain_token_count": 2,
+        "narrow_band_ratio": 0.005,
+        "uncertain_tokens": {
+            "DIAGNOSIS": [
+                [
+                    0.493,
+                    "elevated",
+                    [
+                        445,
+                        453
+                    ]
+                ],
+                [
+                    0.524,
+                    "fever",
+                    [
+                        454,
+                        459
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

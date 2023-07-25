@@ -1,0 +1,275 @@
+{
+    "file": "delivery-note-9.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "Pitocin",
+                "code": "227199",
+                "cui": "C0733348",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Pitocin",
+                "range": [
+                    355,
+                    362
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 1.0
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "Pitocin",
+                "code": "227199",
+                "cui": "C0733348",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Pitocin",
+                "range": [
+                    871,
+                    878
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.988
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [
+                    "15",
+                    879,
+                    881
+                ],
+                "medStrengthUnit": [
+                    "units",
+                    882,
+                    887
+                ]
+            },
+            {
+                "text": "Cytotec",
+                "code": "151578",
+                "cui": "C0591321",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Cytotec",
+                "range": [
+                    1671,
+                    1678
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.965
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [
+                    "400",
+                    1679,
+                    1682
+                ],
+                "medStrengthUnit": [
+                    "mcg",
+                    1683,
+                    1686
+                ]
+            },
+            {
+                "text": "Cytotec",
+                "code": "151578",
+                "cui": "C0591321",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Cytotec",
+                "range": [
+                    1671,
+                    1678
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.965
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [
+                    "400",
+                    1679,
+                    1682
+                ],
+                "medStrengthUnit": [
+                    "mcg",
+                    1683,
+                    1686
+                ]
+            }
+        ],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "DeLee",
+                "range": [
+                    642,
+                    647
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "bleeding",
+                "range": [
+                    1378,
+                    1386
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.009,
+        "uncertain_count": 1,
+        "narrow_band_ratio": 0.003,
+        "uncertain_tokens": {
+            "MED": [
+                [
+                    0.613,
+                    "rectum",
+                    [
+                        1702,
+                        1708
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "ruptured",
+                    [
+                        488,
+                        496
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "DeLee",
+                    [
+                        642,
+                        647
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "bleeding",
+                    [
+                        1210,
+                        1218
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "bleeding",
+                    [
+                        1378,
+                        1386
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.607,
+                    "ruptured",
+                    [
+                        488,
+                        496
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.402,
+                    "bleeding",
+                    [
+                        1210,
+                        1218
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.151,
+        "uncertain_token_count": 5,
+        "narrow_band_ratio": 0.015,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.512,
+                    "meconium",
+                    [
+                        507,
+                        515
+                    ]
+                ],
+                [
+                    0.502,
+                    "DeLee",
+                    [
+                        642,
+                        647
+                    ]
+                ],
+                [
+                    0.484,
+                    "cut",
+                    [
+                        783,
+                        786
+                    ]
+                ],
+                [
+                    0.487,
+                    "bleeding",
+                    [
+                        1378,
+                        1386
+                    ]
+                ]
+            ],
+            "PROBLEM": [
+                [
+                    0.402,
+                    "bleeding",
+                    [
+                        1210,
+                        1218
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

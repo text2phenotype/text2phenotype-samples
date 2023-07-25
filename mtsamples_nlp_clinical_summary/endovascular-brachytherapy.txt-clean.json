@@ -1,0 +1,417 @@
+{
+    "file": "endovascular-brachytherapy.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "strontium",
+                "code": "10122",
+                "cui": "C0038467",
+                "tui": "T196",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Strontium",
+                "range": [
+                    357,
+                    366
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.96
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            }
+        ],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "in-stent",
+                "range": [
+                    90,
+                    98
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "acute",
+                "range": [
+                    827,
+                    832
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "such as cardiac ischemia and machine\nmalfunction are",
+                "range": [
+                    842,
+                    894
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "function",
+                "range": [
+                    1027,
+                    1035
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.016,
+        "uncertain_count": 2,
+        "narrow_band_ratio": 0.012,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.65,
+                    "blade",
+                    [
+                        585,
+                        590
+                    ]
+                ],
+                [
+                    0.699,
+                    "atherectomy",
+                    [
+                        591,
+                        602
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "in-stent",
+                    [
+                        90,
+                        98
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "restenosis",
+                    [
+                        99,
+                        109
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "severe",
+                    [
+                        820,
+                        826
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "acute",
+                    [
+                        827,
+                        832
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "toxicity",
+                    [
+                        833,
+                        841
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "such",
+                    [
+                        842,
+                        846
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "as",
+                    [
+                        847,
+                        849
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "cardiac",
+                    [
+                        850,
+                        857
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "ischemia",
+                    [
+                        858,
+                        866
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "and",
+                    [
+                        867,
+                        870
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "machine",
+                    [
+                        871,
+                        878
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "malfunction",
+                    [
+                        879,
+                        890
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "are",
+                    [
+                        891,
+                        894
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "segment",
+                    [
+                        989,
+                        996
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "function",
+                    [
+                        1027,
+                        1035
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.6,
+                    "in-stent",
+                    [
+                        90,
+                        98
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.823,
+                    "restenosis",
+                    [
+                        99,
+                        109
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.61,
+                    "severe",
+                    [
+                        820,
+                        826
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.908,
+                    "acute",
+                    [
+                        827,
+                        832
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.916,
+                    "toxicity",
+                    [
+                        833,
+                        841
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.687,
+                    "such",
+                    [
+                        842,
+                        846
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.83,
+                    "as",
+                    [
+                        847,
+                        849
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.978,
+                    "cardiac",
+                    [
+                        850,
+                        857
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.952,
+                    "ischemia",
+                    [
+                        858,
+                        866
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.58,
+                    "and",
+                    [
+                        867,
+                        870
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.635,
+                    "machine",
+                    [
+                        871,
+                        878
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.587,
+                    "malfunction",
+                    [
+                        879,
+                        890
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.507,
+                    "are",
+                    [
+                        891,
+                        894
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.555,
+                    "segment",
+                    [
+                        989,
+                        996
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.547,
+                    "function",
+                    [
+                        1027,
+                        1035
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.15,
+        "uncertain_token_count": 1,
+        "narrow_band_ratio": 0.006,
+        "uncertain_tokens": {
+            "DIAGNOSIS": [
+                [
+                    0.507,
+                    "are",
+                    [
+                        891,
+                        894
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

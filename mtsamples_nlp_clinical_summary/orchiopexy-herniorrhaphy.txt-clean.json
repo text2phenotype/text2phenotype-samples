@@ -1,0 +1,168 @@
+{
+    "file": "orchiopexy-herniorrhaphy.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "Benzoin",
+                "code": "1406",
+                "cui": "C0005070",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Benzoin",
+                "range": [
+                    2410,
+                    2417
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.911
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "Benzoin",
+                "code": "1406",
+                "cui": "C0005070",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Benzoin",
+                "range": [
+                    2410,
+                    2417
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.911
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            }
+        ],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "hernia sac",
+                "range": [
+                    849,
+                    859
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "112640005",
+                "cui": "C0333062",
+                "tui": "T190",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Hernia sac"
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.013,
+        "uncertain_count": 5,
+        "narrow_band_ratio": 0.009,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.668,
+                    "incision",
+                    [
+                        189,
+                        197
+                    ]
+                ],
+                [
+                    0.646,
+                    "sponge",
+                    [
+                        1481,
+                        1487
+                    ]
+                ],
+                [
+                    0.643,
+                    "silk",
+                    [
+                        2635,
+                        2639
+                    ]
+                ]
+            ],
+            "MED": [
+                [
+                    0.663,
+                    "fibers",
+                    [
+                        437,
+                        443
+                    ]
+                ],
+                [
+                    0.559,
+                    "Benzoin",
+                    [
+                        2855,
+                        2862
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "hernia",
+                    [
+                        849,
+                        855
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "sac",
+                    [
+                        856,
+                        859
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.805,
+                    "hernia",
+                    [
+                        849,
+                        855
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.835,
+                    "sac",
+                    [
+                        856,
+                        859
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.053,
+        "uncertain_token_count": 0,
+        "narrow_band_ratio": 0.0,
+        "uncertain_tokens": {},
+        "narrow_band_width": 0.2
+    }
+}

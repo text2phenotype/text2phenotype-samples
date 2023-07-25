@@ -1,0 +1,696 @@
+{
+    "file": "myocardial-perfusion-imaging-1.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "Plavix",
+                "code": "174742",
+                "cui": "C0633084",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Plavix",
+                "range": [
+                    15,
+                    21
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 1.0
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "Plavix",
+                "code": "174742",
+                "cui": "C0633084",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Plavix",
+                "range": [
+                    15,
+                    21
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 1.0
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "atenolol",
+                "code": "1202",
+                "cui": "C0004147",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Atenolol",
+                "range": [
+                    23,
+                    31
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.999
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "atenolol",
+                "code": "1202",
+                "cui": "C0004147",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Atenolol",
+                "range": [
+                    23,
+                    31
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.999
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "Lipitor",
+                "code": "153165",
+                "cui": "C0593906",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Lipitor",
+                "range": [
+                    33,
+                    40
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.941
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "Lipitor",
+                "code": "153165",
+                "cui": "C0593906",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Lipitor",
+                "range": [
+                    33,
+                    40
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.941
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            }
+        ],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "MI",
+                "range": [
+                    161,
+                    163
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "22298006",
+                "cui": "C0027051",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Myocardial Infarction"
+            },
+            {
+                "text": "2003",
+                "range": [
+                    199,
+                    203
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "septal",
+                "range": [
+                    1630,
+                    1636
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "apical",
+                "range": [
+                    1658,
+                    1664
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "adequate cardiac",
+                "range": [
+                    1845,
+                    1861
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "calculated",
+                "range": [
+                    2249,
+                    2259
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "fraction",
+                "range": [
+                    2269,
+                    2277
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.012,
+        "uncertain_count": 2,
+        "narrow_band_ratio": 0.005,
+        "uncertain_tokens": {
+            "MED": [
+                [
+                    0.672,
+                    "folic",
+                    [
+                        46,
+                        51
+                    ]
+                ]
+            ],
+            "NA": [
+                [
+                    0.549,
+                    "acid",
+                    [
+                        52,
+                        56
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "chest",
+                    [
+                        130,
+                        135
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "pain",
+                    [
+                        136,
+                        140
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "MI",
+                    [
+                        161,
+                        163
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "2003",
+                    [
+                        199,
+                        203
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "septal",
+                    [
+                        1630,
+                        1636
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "hypokinesis",
+                    [
+                        1637,
+                        1648
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "apical",
+                    [
+                        1658,
+                        1664
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "hypokinesis",
+                    [
+                        1665,
+                        1676
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "tolerance",
+                    [
+                        1819,
+                        1828
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "adequate",
+                    [
+                        1845,
+                        1853
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "cardiac",
+                    [
+                        1854,
+                        1861
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "stress",
+                    [
+                        1862,
+                        1868
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "left",
+                    [
+                        2209,
+                        2213
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "ventricular",
+                    [
+                        2214,
+                        2225
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "systolic",
+                    [
+                        2226,
+                        2234
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "function",
+                    [
+                        2235,
+                        2243
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "calculated",
+                    [
+                        2249,
+                        2259
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "ejection",
+                    [
+                        2260,
+                        2268
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "fraction",
+                    [
+                        2269,
+                        2277
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.745,
+                    "chest",
+                    [
+                        130,
+                        135
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.756,
+                    "pain",
+                    [
+                        136,
+                        140
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.798,
+                    "MI",
+                    [
+                        161,
+                        163
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.767,
+                    "septal",
+                    [
+                        1630,
+                        1636
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.698,
+                    "hypokinesis",
+                    [
+                        1637,
+                        1648
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.472,
+                    "hypokinesis",
+                    [
+                        1665,
+                        1676
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.576,
+                    "tolerance",
+                    [
+                        1819,
+                        1828
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.481,
+                    "adequate",
+                    [
+                        1845,
+                        1853
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.51,
+                    "cardiac",
+                    [
+                        1854,
+                        1861
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.659,
+                    "stress",
+                    [
+                        1862,
+                        1868
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.523,
+                    "left",
+                    [
+                        2209,
+                        2213
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.638,
+                    "ventricular",
+                    [
+                        2214,
+                        2225
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.81,
+                    "systolic",
+                    [
+                        2226,
+                        2234
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.85,
+                    "function",
+                    [
+                        2235,
+                        2243
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.825,
+                    "calculated",
+                    [
+                        2249,
+                        2259
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.791,
+                    "ejection",
+                    [
+                        2260,
+                        2268
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.74,
+                    "fraction",
+                    [
+                        2269,
+                        2277
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.201,
+        "uncertain_token_count": 10,
+        "narrow_band_ratio": 0.024,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.493,
+                    "ventricular",
+                    [
+                        989,
+                        1000
+                    ]
+                ],
+                [
+                    0.445,
+                    "apical",
+                    [
+                        1658,
+                        1664
+                    ]
+                ],
+                [
+                    0.516,
+                    "function",
+                    [
+                        1712,
+                        1720
+                    ]
+                ],
+                [
+                    0.466,
+                    "calculated",
+                    [
+                        1741,
+                        1751
+                    ]
+                ],
+                [
+                    0.411,
+                    "ventricular",
+                    [
+                        2002,
+                        2013
+                    ]
+                ],
+                [
+                    0.42,
+                    "rest",
+                    [
+                        2288,
+                        2292
+                    ]
+                ]
+            ],
+            "DIAGNOSIS": [
+                [
+                    0.472,
+                    "hypokinesis",
+                    [
+                        1665,
+                        1676
+                    ]
+                ],
+                [
+                    0.523,
+                    "left",
+                    [
+                        2209,
+                        2213
+                    ]
+                ]
+            ],
+            "PROBLEM": [
+                [
+                    0.481,
+                    "adequate",
+                    [
+                        1845,
+                        1853
+                    ]
+                ],
+                [
+                    0.51,
+                    "cardiac",
+                    [
+                        1854,
+                        1861
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

@@ -1,0 +1,180 @@
+{
+    "file": "well-child-check-6.txt-clean.txt",
+    "text2summary": {
+        "Medication": [],
+        "Allergy": [],
+        "Lab": [
+            {
+                "code": "6063",
+                "cui": "C0005910",
+                "tui": "T034",
+                "vocab": "MEDCIN",
+                "polarity": "positive",
+                "text": "Weight",
+                "preferredText": "WEIGHT (PHYSICAL FINDING)",
+                "range": [
+                    1044,
+                    1050
+                ]
+            },
+            {
+                "code": "6071",
+                "cui": "C0489786",
+                "tui": "T034",
+                "vocab": "MEDCIN",
+                "polarity": "positive",
+                "text": "Height",
+                "preferredText": "HEIGHT (PHYSICAL FINDING)",
+                "range": [
+                    1062,
+                    1068
+                ]
+            }
+        ],
+        "DiseaseDisorder": [
+            {
+                "text": "products",
+                "range": [
+                    236,
+                    244
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "developmental milestones",
+                "range": [
+                    630,
+                    654
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "speech",
+                "range": [
+                    736,
+                    742
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.004,
+        "uncertain_count": 0,
+        "narrow_band_ratio": 0.0,
+        "uncertain_tokens": {},
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "PROBLEM": [
+                    "products",
+                    [
+                        236,
+                        244
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "developmental",
+                    [
+                        630,
+                        643
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "milestones",
+                    [
+                        644,
+                        654
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "speech",
+                    [
+                        736,
+                        742
+                    ]
+                ]
+            }
+        ],
+        "weighted": [],
+        "average_entropy": 0.103,
+        "uncertain_token_count": 6,
+        "narrow_band_ratio": 0.012,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.398,
+                    "milk",
+                    [
+                        221,
+                        225
+                    ]
+                ],
+                [
+                    0.387,
+                    "products",
+                    [
+                        236,
+                        244
+                    ]
+                ],
+                [
+                    0.525,
+                    "social",
+                    [
+                        713,
+                        719
+                    ]
+                ],
+                [
+                    0.461,
+                    "interaction",
+                    [
+                        720,
+                        731
+                    ]
+                ],
+                [
+                    0.455,
+                    "speech",
+                    [
+                        736,
+                        742
+                    ]
+                ],
+                [
+                    0.496,
+                    "growth",
+                    [
+                        2213,
+                        2219
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

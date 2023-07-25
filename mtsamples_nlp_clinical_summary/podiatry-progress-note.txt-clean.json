@@ -1,0 +1,460 @@
+{
+    "file": "podiatry-progress-note.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "dexamethasone",
+                "code": "3264",
+                "cui": "C0011777",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Dexamethasone",
+                "range": [
+                    1079,
+                    1092
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.996
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "dexamethasone",
+                "code": "3264",
+                "cui": "C0011777",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Dexamethasone",
+                "range": [
+                    1079,
+                    1092
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.996
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            }
+        ],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "right heel",
+                "range": [
+                    98,
+                    108
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "patient",
+                "range": [
+                    114,
+                    121
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "during",
+                "range": [
+                    266,
+                    272
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "Plantar fascitis/heel spur",
+                "range": [
+                    943,
+                    969
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "foot",
+                "range": [
+                    986,
+                    990
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.01,
+        "uncertain_count": 1,
+        "narrow_band_ratio": 0.004,
+        "uncertain_tokens": {
+            "MED": [
+                [
+                    0.575,
+                    "lidocaine",
+                    [
+                        1058,
+                        1067
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "PROBLEM": [
+                    "complaint",
+                    [
+                        77,
+                        86
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "painful",
+                    [
+                        90,
+                        97
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "right",
+                    [
+                        98,
+                        103
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "heel",
+                    [
+                        104,
+                        108
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "patient",
+                    [
+                        114,
+                        121
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "activity",
+                    [
+                        257,
+                        265
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "during",
+                    [
+                        266,
+                        272
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Plantar",
+                    [
+                        943,
+                        950
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "fascitis/heel",
+                    [
+                        951,
+                        964
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "spur",
+                    [
+                        965,
+                        969
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "syndrome",
+                    [
+                        970,
+                        978
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "foot",
+                    [
+                        986,
+                        990
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "PROBLEM": [
+                    0.443,
+                    "complaint",
+                    [
+                        77,
+                        86
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.562,
+                    "painful",
+                    [
+                        90,
+                        97
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.59,
+                    "right",
+                    [
+                        98,
+                        103
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.482,
+                    "heel",
+                    [
+                        104,
+                        108
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.417,
+                    "patient",
+                    [
+                        114,
+                        121
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.472,
+                    "activity",
+                    [
+                        257,
+                        265
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.734,
+                    "Plantar",
+                    [
+                        943,
+                        950
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.788,
+                    "fascitis/heel",
+                    [
+                        951,
+                        964
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.879,
+                    "spur",
+                    [
+                        965,
+                        969
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.807,
+                    "syndrome",
+                    [
+                        970,
+                        978
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.468,
+                    "foot",
+                    [
+                        986,
+                        990
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.182,
+        "uncertain_token_count": 11,
+        "narrow_band_ratio": 0.041,
+        "uncertain_tokens": {
+            "PROBLEM": [
+                [
+                    0.443,
+                    "complaint",
+                    [
+                        77,
+                        86
+                    ]
+                ]
+            ],
+            "NA": [
+                [
+                    0.386,
+                    "of",
+                    [
+                        87,
+                        89
+                    ]
+                ],
+                [
+                    0.511,
+                    "states",
+                    [
+                        122,
+                        128
+                    ]
+                ],
+                [
+                    0.498,
+                    "during",
+                    [
+                        266,
+                        272
+                    ]
+                ],
+                [
+                    0.524,
+                    "day",
+                    [
+                        277,
+                        280
+                    ]
+                ],
+                [
+                    0.514,
+                    "pain",
+                    [
+                        376,
+                        380
+                    ]
+                ],
+                [
+                    0.526,
+                    "right",
+                    [
+                        980,
+                        985
+                    ]
+                ]
+            ],
+            "DIAGNOSIS": [
+                [
+                    0.482,
+                    "heel",
+                    [
+                        104,
+                        108
+                    ]
+                ],
+                [
+                    0.417,
+                    "patient",
+                    [
+                        114,
+                        121
+                    ]
+                ],
+                [
+                    0.472,
+                    "activity",
+                    [
+                        257,
+                        265
+                    ]
+                ],
+                [
+                    0.468,
+                    "foot",
+                    [
+                        986,
+                        990
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

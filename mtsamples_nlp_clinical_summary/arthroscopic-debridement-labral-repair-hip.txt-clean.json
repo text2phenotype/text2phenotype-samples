@@ -1,0 +1,398 @@
+{
+    "file": "arthroscopic-debridement-labral-repair-hip.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "general",
+                "code": null,
+                "cui": null,
+                "tui": null,
+                "vocab": null,
+                "polarity": "positive",
+                "preferredText": null,
+                "range": [
+                    377,
+                    384
+                ],
+                "prob": {
+                    "MED": 0.935
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "anesthetic",
+                "code": null,
+                "cui": null,
+                "tui": null,
+                "vocab": null,
+                "polarity": "positive",
+                "preferredText": null,
+                "range": [
+                    385,
+                    395
+                ],
+                "prob": {
+                    "MED": 0.934
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "Gentle",
+                "code": "217335",
+                "cui": "C0720654",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Gentle",
+                "range": [
+                    692,
+                    698
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.931
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "Gentle",
+                "code": "217335",
+                "cui": "C0720654",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Gentle",
+                "range": [
+                    692,
+                    698
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.931
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "nylon",
+                "code": null,
+                "cui": null,
+                "tui": null,
+                "vocab": null,
+                "polarity": "positive",
+                "preferredText": null,
+                "range": [
+                    2191,
+                    2196
+                ],
+                "prob": {
+                    "MED": 0.904
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "ropivacaine",
+                "code": "35780",
+                "cui": "C0073571",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "ropivacaine",
+                "range": [
+                    2292,
+                    2303
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 1.0
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "ropivacaine",
+                "code": "35780",
+                "cui": "C0073571",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "ropivacaine",
+                "range": [
+                    2292,
+                    2303
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 1.0
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            }
+        ],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "bilateral lower extremities",
+                "range": [
+                    401,
+                    428
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "into the",
+                "range": [
+                    1097,
+                    1105
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.01,
+        "uncertain_count": 1,
+        "narrow_band_ratio": 0.002,
+        "uncertain_tokens": {
+            "MED": [
+                [
+                    0.578,
+                    "Hibiclens",
+                    [
+                        589,
+                        598
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "Femoroacetabular",
+                    [
+                        82,
+                        98
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "impingement",
+                    [
+                        99,
+                        110
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "bilateral",
+                    [
+                        401,
+                        410
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "lower",
+                    [
+                        411,
+                        416
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "extremities",
+                    [
+                        417,
+                        428
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "into",
+                    [
+                        1097,
+                        1101
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "the",
+                    [
+                        1102,
+                        1105
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "PROBLEM": [
+                    0.354,
+                    "impingement",
+                    [
+                        43,
+                        54
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.564,
+                    "Femoroacetabular",
+                    [
+                        82,
+                        98
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.635,
+                    "impingement",
+                    [
+                        99,
+                        110
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.442,
+                    "bilateral",
+                    [
+                        401,
+                        410
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.467,
+                    "lower",
+                    [
+                        411,
+                        416
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.465,
+                    "extremities",
+                    [
+                        417,
+                        428
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.533,
+                    "the",
+                    [
+                        1102,
+                        1105
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.093,
+        "uncertain_token_count": 6,
+        "narrow_band_ratio": 0.015,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.411,
+                    "Femoroacetabular",
+                    [
+                        26,
+                        42
+                    ]
+                ],
+                [
+                    0.497,
+                    "into",
+                    [
+                        1097,
+                        1101
+                    ]
+                ]
+            ],
+            "PROBLEM": [
+                [
+                    0.354,
+                    "impingement",
+                    [
+                        43,
+                        54
+                    ]
+                ]
+            ],
+            "DIAGNOSIS": [
+                [
+                    0.442,
+                    "bilateral",
+                    [
+                        401,
+                        410
+                    ]
+                ],
+                [
+                    0.467,
+                    "lower",
+                    [
+                        411,
+                        416
+                    ]
+                ],
+                [
+                    0.465,
+                    "extremities",
+                    [
+                        417,
+                        428
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

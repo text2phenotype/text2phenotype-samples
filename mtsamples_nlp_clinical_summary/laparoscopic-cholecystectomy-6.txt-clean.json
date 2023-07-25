@@ -1,0 +1,187 @@
+{
+    "file": "laparoscopic-cholecystectomy-6.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "Marcaine",
+                "code": "1012397",
+                "cui": "C2945665",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Marcaine",
+                "range": [
+                    503,
+                    511
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.966
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            }
+        ],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "Cholelithiasis",
+                "range": [
+                    26,
+                    40
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "266474003",
+                "cui": "C0008350",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Cholelithiasis"
+            },
+            {
+                "text": "Cholelithiasis",
+                "range": [
+                    98,
+                    112
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "266474003",
+                "cui": "C0008350",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Cholelithiasis"
+            },
+            {
+                "text": "acute cholecystitis",
+                "range": [
+                    1077,
+                    1096
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "65275009",
+                "cui": "C0149520",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Acute Cholecystitis"
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.006,
+        "uncertain_count": 2,
+        "narrow_band_ratio": 0.005,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.609,
+                    "CO2",
+                    [
+                        645,
+                        648
+                    ]
+                ],
+                [
+                    0.538,
+                    "insufflation",
+                    [
+                        649,
+                        661
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "Cholelithiasis",
+                    [
+                        26,
+                        40
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Cholelithiasis",
+                    [
+                        98,
+                        112
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "acute",
+                    [
+                        1077,
+                        1082
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "cholecystitis",
+                    [
+                        1083,
+                        1096
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.8,
+                    "Cholelithiasis",
+                    [
+                        26,
+                        40
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.814,
+                    "Cholelithiasis",
+                    [
+                        98,
+                        112
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.717,
+                    "acute",
+                    [
+                        1077,
+                        1082
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.768,
+                    "cholecystitis",
+                    [
+                        1083,
+                        1096
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.077,
+        "uncertain_token_count": 0,
+        "narrow_band_ratio": 0.0,
+        "uncertain_tokens": {},
+        "narrow_band_width": 0.2
+    }
+}

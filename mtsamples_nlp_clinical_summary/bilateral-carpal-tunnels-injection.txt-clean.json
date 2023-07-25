@@ -1,0 +1,160 @@
+{
+    "file": "bilateral-carpal-tunnels-injection.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "Betadine",
+                "code": "202750",
+                "cui": "C0699524",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Betadine",
+                "range": [
+                    103,
+                    111
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.996
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "Betadine",
+                "code": "202750",
+                "cui": "C0699524",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Betadine",
+                "range": [
+                    103,
+                    111
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.996
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            }
+        ],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "to the",
+                "range": [
+                    391,
+                    397
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.007,
+        "uncertain_count": 2,
+        "narrow_band_ratio": 0.009,
+        "uncertain_tokens": {
+            "MED": [
+                [
+                    0.56,
+                    "alcohol",
+                    [
+                        116,
+                        123
+                    ]
+                ],
+                [
+                    0.539,
+                    "triamcinolone",
+                    [
+                        669,
+                        682
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "to",
+                    [
+                        391,
+                        393
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "the",
+                    [
+                        394,
+                        397
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.504,
+                    "to",
+                    [
+                        391,
+                        393
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.499,
+                    "the",
+                    [
+                        394,
+                        397
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.072,
+        "uncertain_token_count": 2,
+        "narrow_band_ratio": 0.009,
+        "uncertain_tokens": {
+            "DIAGNOSIS": [
+                [
+                    0.504,
+                    "to",
+                    [
+                        391,
+                        393
+                    ]
+                ],
+                [
+                    0.499,
+                    "the",
+                    [
+                        394,
+                        397
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

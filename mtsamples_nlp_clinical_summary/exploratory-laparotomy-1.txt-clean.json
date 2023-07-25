@@ -1,0 +1,461 @@
+{
+    "file": "exploratory-laparotomy-1.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "blade",
+                "code": "1043245",
+                "cui": "C2948008",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Blade",
+                "range": [
+                    2691,
+                    2696
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.921
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "iodoform",
+                "code": "27748",
+                "cui": "C0063779",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "iodoform",
+                "range": [
+                    4478,
+                    4486
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.976
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "iodoform",
+                "code": "27748",
+                "cui": "C0063779",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "iodoform",
+                "range": [
+                    4478,
+                    4486
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.976
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            }
+        ],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "sigmoid diverticuli",
+                "range": [
+                    48,
+                    67
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "sigmoid diverticuli",
+                "range": [
+                    149,
+                    168
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "Hartmann's procedure",
+                "range": [
+                    174,
+                    194
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "Massive",
+                "range": [
+                    201,
+                    208
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "perforated\ndiverticula",
+                "range": [
+                    501,
+                    523
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "20464009",
+                "cui": "C0341257",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Perforated diverticulum"
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.008,
+        "uncertain_count": 2,
+        "narrow_band_ratio": 0.002,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.614,
+                    "cautery",
+                    [
+                        1896,
+                        1903
+                    ]
+                ],
+                [
+                    0.658,
+                    "Prolene",
+                    [
+                        2427,
+                        2434
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "perforated",
+                    [
+                        37,
+                        47
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "sigmoid",
+                    [
+                        48,
+                        55
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "diverticuli",
+                    [
+                        56,
+                        67
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "perforated",
+                    [
+                        138,
+                        148
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "sigmoid",
+                    [
+                        149,
+                        156
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "diverticuli",
+                    [
+                        157,
+                        168
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Hartmann",
+                    [
+                        174,
+                        182
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "'s",
+                    [
+                        182,
+                        184
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "procedure",
+                    [
+                        185,
+                        194
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Massive",
+                    [
+                        201,
+                        208
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "adhesions",
+                    [
+                        209,
+                        218
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "perforated",
+                    [
+                        501,
+                        511
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "diverticula",
+                    [
+                        512,
+                        523
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.729,
+                    "perforated",
+                    [
+                        37,
+                        47
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.695,
+                    "sigmoid",
+                    [
+                        48,
+                        55
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.633,
+                    "diverticuli",
+                    [
+                        56,
+                        67
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.504,
+                    "Hartmann",
+                    [
+                        73,
+                        81
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.796,
+                    "perforated",
+                    [
+                        138,
+                        148
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.868,
+                    "sigmoid",
+                    [
+                        149,
+                        156
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.804,
+                    "diverticuli",
+                    [
+                        157,
+                        168
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.907,
+                    "Hartmann",
+                    [
+                        174,
+                        182
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.915,
+                    "'s",
+                    [
+                        182,
+                        184
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.739,
+                    "procedure",
+                    [
+                        185,
+                        194
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.638,
+                    "adhesions",
+                    [
+                        209,
+                        218
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.51,
+                    "perforated",
+                    [
+                        501,
+                        511
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.664,
+                    "diverticula",
+                    [
+                        512,
+                        523
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.076,
+        "uncertain_token_count": 4,
+        "narrow_band_ratio": 0.005,
+        "uncertain_tokens": {
+            "DIAGNOSIS": [
+                [
+                    0.504,
+                    "Hartmann",
+                    [
+                        73,
+                        81
+                    ]
+                ],
+                [
+                    0.51,
+                    "perforated",
+                    [
+                        501,
+                        511
+                    ]
+                ]
+            ],
+            "NA": [
+                [
+                    0.499,
+                    "Massive",
+                    [
+                        201,
+                        208
+                    ]
+                ],
+                [
+                    0.485,
+                    "rectal",
+                    [
+                        2833,
+                        2839
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

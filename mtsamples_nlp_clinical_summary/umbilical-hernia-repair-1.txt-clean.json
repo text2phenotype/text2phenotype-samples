@@ -1,0 +1,120 @@
+{
+    "file": "umbilical-hernia-repair-1.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "benzoin",
+                "code": "1406",
+                "cui": "C0005070",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Benzoin",
+                "range": [
+                    1138,
+                    1145
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.999
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "benzoin",
+                "code": "1406",
+                "cui": "C0005070",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Benzoin",
+                "range": [
+                    1138,
+                    1145
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.999
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "Steri-Strips",
+                "code": null,
+                "cui": null,
+                "tui": null,
+                "vocab": null,
+                "polarity": "positive",
+                "preferredText": null,
+                "range": [
+                    1151,
+                    1163
+                ],
+                "prob": {
+                    "MED": 0.964
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            }
+        ],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": []
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.016,
+        "uncertain_count": 2,
+        "narrow_band_ratio": 0.008,
+        "uncertain_tokens": {
+            "MED": [
+                [
+                    0.621,
+                    "lidocaine",
+                    [
+                        270,
+                        279
+                    ]
+                ]
+            ],
+            "NA": [
+                [
+                    0.692,
+                    "epinephrine",
+                    [
+                        288,
+                        299
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [],
+        "weighted": [],
+        "average_entropy": 0.041,
+        "uncertain_token_count": 1,
+        "narrow_band_ratio": 0.004,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.521,
+                    "hernia",
+                    [
+                        457,
+                        463
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

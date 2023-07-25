@@ -1,0 +1,607 @@
+{
+    "file": "lumbar-puncture-2.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "chlorhexidine",
+                "code": "2358",
+                "cui": "C0008196",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Chlorhexidine",
+                "range": [
+                    2529,
+                    2542
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.981
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "chlorhexidine",
+                "code": "2358",
+                "cui": "C0008196",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Chlorhexidine",
+                "range": [
+                    2529,
+                    2542
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.981
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            }
+        ],
+        "Allergy": [],
+        "Lab": [
+            {
+                "code": "272170001",
+                "cui": "C0023516",
+                "tui": "T034",
+                "vocab": "SNOMEDCT_US",
+                "polarity": "positive",
+                "text": "White blood cells",
+                "preferredText": "WHITE BLOOD CELL (CELL)",
+                "range": [
+                    2859,
+                    2876
+                ]
+            }
+        ],
+        "DiseaseDisorder": [
+            {
+                "text": "of the\nlung",
+                "range": [
+                    689,
+                    700
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "small vessel ischemic change",
+                "range": [
+                    799,
+                    827
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "her left arm",
+                "range": [
+                    1210,
+                    1222
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "upright",
+                "range": [
+                    1597,
+                    1604
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "puncture",
+                "range": [
+                    2353,
+                    2361
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "11639007",
+                "cui": "C0033119",
+                "tui": "T037",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Puncture wound"
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.004,
+        "uncertain_count": 1,
+        "narrow_band_ratio": 0.002,
+        "uncertain_tokens": {
+            "MED": [
+                [
+                    0.515,
+                    "crest",
+                    [
+                        2261,
+                        2266
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "lung",
+                    [
+                        538,
+                        542
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "cancer",
+                    [
+                        543,
+                        549
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "non-small",
+                    [
+                        639,
+                        648
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "cell",
+                    [
+                        649,
+                        653
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "lung",
+                    [
+                        654,
+                        658
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "cancer",
+                    [
+                        659,
+                        665
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "of",
+                    [
+                        689,
+                        691
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "the",
+                    [
+                        692,
+                        695
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "lung",
+                    [
+                        696,
+                        700
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "atrophy",
+                    [
+                        787,
+                        794
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "small",
+                    [
+                        799,
+                        804
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "vessel",
+                    [
+                        805,
+                        811
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "ischemic",
+                    [
+                        812,
+                        820
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "change",
+                    [
+                        821,
+                        827
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "moving",
+                    [
+                        1203,
+                        1209
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "her",
+                    [
+                        1210,
+                        1213
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "left",
+                    [
+                        1214,
+                        1218
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "arm",
+                    [
+                        1219,
+                        1222
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "upright",
+                    [
+                        1597,
+                        1604
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "puncture",
+                    [
+                        2353,
+                        2361
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.824,
+                    "lung",
+                    [
+                        538,
+                        542
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.909,
+                    "cancer",
+                    [
+                        543,
+                        549
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.75,
+                    "non-small",
+                    [
+                        639,
+                        648
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.775,
+                    "cell",
+                    [
+                        649,
+                        653
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.672,
+                    "lung",
+                    [
+                        654,
+                        658
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.566,
+                    "cancer",
+                    [
+                        659,
+                        665
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.665,
+                    "of",
+                    [
+                        689,
+                        691
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.653,
+                    "the",
+                    [
+                        692,
+                        695
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.564,
+                    "lung",
+                    [
+                        696,
+                        700
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.766,
+                    "atrophy",
+                    [
+                        787,
+                        794
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.641,
+                    "small",
+                    [
+                        799,
+                        804
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.657,
+                    "vessel",
+                    [
+                        805,
+                        811
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.614,
+                    "ischemic",
+                    [
+                        812,
+                        820
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.515,
+                    "change",
+                    [
+                        821,
+                        827
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.554,
+                    "her",
+                    [
+                        1210,
+                        1213
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.53,
+                    "left",
+                    [
+                        1214,
+                        1218
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.528,
+                    "arm",
+                    [
+                        1219,
+                        1222
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.605,
+                    "puncture",
+                    [
+                        2353,
+                        2361
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.161,
+        "uncertain_token_count": 10,
+        "narrow_band_ratio": 0.018,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.461,
+                    "left",
+                    [
+                        316,
+                        320
+                    ]
+                ],
+                [
+                    0.437,
+                    "arm",
+                    [
+                        321,
+                        324
+                    ]
+                ],
+                [
+                    0.447,
+                    "appetite",
+                    [
+                        507,
+                        515
+                    ]
+                ],
+                [
+                    0.512,
+                    "lobe",
+                    [
+                        684,
+                        688
+                    ]
+                ],
+                [
+                    0.485,
+                    "difficulty",
+                    [
+                        1192,
+                        1202
+                    ]
+                ],
+                [
+                    0.357,
+                    "moving",
+                    [
+                        1203,
+                        1209
+                    ]
+                ],
+                [
+                    0.44,
+                    "hand",
+                    [
+                        1227,
+                        1231
+                    ]
+                ]
+            ],
+            "DIAGNOSIS": [
+                [
+                    0.515,
+                    "change",
+                    [
+                        821,
+                        827
+                    ]
+                ],
+                [
+                    0.53,
+                    "left",
+                    [
+                        1214,
+                        1218
+                    ]
+                ],
+                [
+                    0.528,
+                    "arm",
+                    [
+                        1219,
+                        1222
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

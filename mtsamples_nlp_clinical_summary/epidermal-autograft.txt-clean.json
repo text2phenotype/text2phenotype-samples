@@ -1,0 +1,233 @@
+{
+    "file": "epidermal-autograft.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "antibiotics",
+                "code": null,
+                "cui": null,
+                "tui": null,
+                "vocab": null,
+                "polarity": "positive",
+                "preferredText": null,
+                "range": [
+                    1705,
+                    1716
+                ],
+                "prob": {
+                    "MED": 0.952
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "Betadine",
+                "code": "202750",
+                "cui": "C0699524",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Betadine",
+                "range": [
+                    1951,
+                    1959
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.988
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "Betadine",
+                "code": "202750",
+                "cui": "C0699524",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Betadine",
+                "range": [
+                    1951,
+                    1959
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.988
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            }
+        ],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "burns",
+                "range": [
+                    62,
+                    67
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "48333001",
+                "cui": "C0006434",
+                "tui": "T037",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Burn injury"
+            },
+            {
+                "text": "flame burns",
+                "range": [
+                    184,
+                    195
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.01,
+        "uncertain_count": 3,
+        "narrow_band_ratio": 0.005,
+        "uncertain_tokens": {
+            "MED": [
+                [
+                    0.667,
+                    "Silastic",
+                    [
+                        1859,
+                        1867
+                    ]
+                ]
+            ],
+            "NA": [
+                [
+                    0.641,
+                    "sulfamylon",
+                    [
+                        1974,
+                        1984
+                    ]
+                ],
+                [
+                    0.653,
+                    "sulfamylon",
+                    [
+                        3161,
+                        3171
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "burns",
+                    [
+                        62,
+                        67
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "flame",
+                    [
+                        184,
+                        189
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "burns",
+                    [
+                        190,
+                        195
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.564,
+                    "burns",
+                    [
+                        62,
+                        67
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.517,
+                    "flame",
+                    [
+                        184,
+                        189
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.745,
+                    "burns",
+                    [
+                        190,
+                        195
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.112,
+        "uncertain_token_count": 3,
+        "narrow_band_ratio": 0.005,
+        "uncertain_tokens": {
+            "DIAGNOSIS": [
+                [
+                    0.517,
+                    "flame",
+                    [
+                        184,
+                        189
+                    ]
+                ]
+            ],
+            "NA": [
+                [
+                    0.521,
+                    "burn",
+                    [
+                        696,
+                        700
+                    ]
+                ],
+                [
+                    0.491,
+                    "hands",
+                    [
+                        984,
+                        989
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

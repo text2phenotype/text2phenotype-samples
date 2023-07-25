@@ -1,0 +1,518 @@
+{
+    "file": "colonoscopy-9.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "Versed",
+                "code": "11177",
+                "cui": "C0042553",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Versed",
+                "range": [
+                    165,
+                    171
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.936
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [
+                    "5",
+                    172,
+                    173
+                ],
+                "medStrengthUnit": [
+                    "mg",
+                    174,
+                    176
+                ]
+            },
+            {
+                "text": "Versed",
+                "code": "11177",
+                "cui": "C0042553",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Versed",
+                "range": [
+                    165,
+                    171
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.936
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [
+                    "5",
+                    172,
+                    173
+                ],
+                "medStrengthUnit": [
+                    "mg",
+                    174,
+                    176
+                ]
+            },
+            {
+                "text": "Demerol",
+                "code": "282381",
+                "cui": "C0935966",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Demerol",
+                "range": [
+                    178,
+                    185
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.979
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [
+                    "100",
+                    186,
+                    189
+                ],
+                "medStrengthUnit": [
+                    "mg",
+                    190,
+                    192
+                ]
+            },
+            {
+                "text": "Demerol",
+                "code": "282381",
+                "cui": "C0935966",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Demerol",
+                "range": [
+                    178,
+                    185
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.979
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [
+                    "100",
+                    186,
+                    189
+                ],
+                "medStrengthUnit": [
+                    "mg",
+                    190,
+                    192
+                ]
+            }
+        ],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "polyps",
+                "range": [
+                    43,
+                    49
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "441456002",
+                "cui": "C0032584",
+                "tui": "T190",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "polyps"
+            },
+            {
+                "text": "Small polyps",
+                "range": [
+                    77,
+                    89
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "polyps",
+                "range": [
+                    1829,
+                    1835
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "441456002",
+                "cui": "C0032584",
+                "tui": "T190",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "polyps"
+            },
+            {
+                "text": "Diverticulosis",
+                "range": [
+                    1872,
+                    1886
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "63532004",
+                "cui": "C1510475",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Diverticulosis"
+            },
+            {
+                "text": "sigmoid colon",
+                "range": [
+                    1888,
+                    1901
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.002,
+        "uncertain_count": 0,
+        "narrow_band_ratio": 0.0,
+        "uncertain_tokens": {},
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "PROBLEM": [
+                    "polyps",
+                    [
+                        43,
+                        49
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "Small",
+                    [
+                        77,
+                        82
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "polyps",
+                    [
+                        83,
+                        89
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "lipoma",
+                    [
+                        1059,
+                        1065
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "polyps",
+                    [
+                        1829,
+                        1835
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Diverticulosis",
+                    [
+                        1872,
+                        1886
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "sigmoid",
+                    [
+                        1888,
+                        1895
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "colon",
+                    [
+                        1896,
+                        1901
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "rectal",
+                    [
+                        1914,
+                        1920
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "polyps",
+                    [
+                        1921,
+                        1927
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "lesions",
+                    [
+                        1963,
+                        1970
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "lipomata",
+                    [
+                        1988,
+                        1996
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "PROBLEM": [
+                    0.719,
+                    "polyps",
+                    [
+                        43,
+                        49
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.574,
+                    "polyps",
+                    [
+                        83,
+                        89
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.606,
+                    "lipoma",
+                    [
+                        1059,
+                        1065
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.505,
+                    "polyps",
+                    [
+                        1829,
+                        1835
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.702,
+                    "Diverticulosis",
+                    [
+                        1872,
+                        1886
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.486,
+                    "sigmoid",
+                    [
+                        1888,
+                        1895
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.48,
+                    "colon",
+                    [
+                        1896,
+                        1901
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.595,
+                    "rectal",
+                    [
+                        1914,
+                        1920
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.465,
+                    "polyps",
+                    [
+                        1921,
+                        1927
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.542,
+                    "lesions",
+                    [
+                        1963,
+                        1970
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.521,
+                    "lipomata",
+                    [
+                        1988,
+                        1996
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.144,
+        "uncertain_token_count": 10,
+        "narrow_band_ratio": 0.026,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.477,
+                    "Small",
+                    [
+                        77,
+                        82
+                    ]
+                ],
+                [
+                    0.501,
+                    "lesion",
+                    [
+                        1028,
+                        1034
+                    ]
+                ],
+                [
+                    0.457,
+                    "colon",
+                    [
+                        1845,
+                        1850
+                    ]
+                ],
+                [
+                    0.449,
+                    "Small",
+                    [
+                        1908,
+                        1913
+                    ]
+                ],
+                [
+                    0.45,
+                    "Submucosal",
+                    [
+                        1952,
+                        1962
+                    ]
+                ]
+            ],
+            "PROBLEM": [
+                [
+                    0.505,
+                    "polyps",
+                    [
+                        1829,
+                        1835
+                    ]
+                ],
+                [
+                    0.465,
+                    "polyps",
+                    [
+                        1921,
+                        1927
+                    ]
+                ]
+            ],
+            "DIAGNOSIS": [
+                [
+                    0.486,
+                    "sigmoid",
+                    [
+                        1888,
+                        1895
+                    ]
+                ],
+                [
+                    0.48,
+                    "colon",
+                    [
+                        1896,
+                        1901
+                    ]
+                ],
+                [
+                    0.521,
+                    "lipomata",
+                    [
+                        1988,
+                        1996
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

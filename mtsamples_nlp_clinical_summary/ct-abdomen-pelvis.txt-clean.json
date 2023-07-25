@@ -1,0 +1,178 @@
+{
+    "file": "ct-abdomen-pelvis.txt-clean.txt",
+    "text2summary": {
+        "Medication": [],
+        "Allergy": [],
+        "Lab": [
+            {
+                "code": "",
+                "cui": "C0002059",
+                "tui": "T034",
+                "vocab": "LNC",
+                "polarity": "positive",
+                "text": "AP",
+                "preferredText": "ALP - ALKALINE PHOSPHATASE",
+                "range": [
+                    550,
+                    552
+                ]
+            }
+        ],
+        "DiseaseDisorder": [
+            {
+                "text": "aortic aneurysm",
+                "range": [
+                    1994,
+                    2009
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "67362008",
+                "cui": "C0003486",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Aortic Aneurysm"
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.002,
+        "uncertain_count": 0,
+        "narrow_band_ratio": 0.0,
+        "uncertain_tokens": {},
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "PROBLEM": [
+                    "findings",
+                    [
+                        1910,
+                        1918
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "aortic",
+                    [
+                        1994,
+                        2000
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "aneurysm",
+                    [
+                        2001,
+                        2009
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "PROBLEM": [
+                    0.41,
+                    "findings",
+                    [
+                        1910,
+                        1918
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.639,
+                    "aortic",
+                    [
+                        1994,
+                        2000
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.784,
+                    "aneurysm",
+                    [
+                        2001,
+                        2009
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.369,
+                    "atrophy",
+                    [
+                        2112,
+                        2119
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.087,
+        "uncertain_token_count": 6,
+        "narrow_band_ratio": 0.016,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.497,
+                    "clips",
+                    [
+                        654,
+                        659
+                    ]
+                ],
+                [
+                    0.524,
+                    "thrombus",
+                    [
+                        760,
+                        768
+                    ]
+                ],
+                [
+                    0.477,
+                    "aneurysm",
+                    [
+                        1982,
+                        1990
+                    ]
+                ],
+                [
+                    0.495,
+                    "level",
+                    [
+                        2044,
+                        2049
+                    ]
+                ]
+            ],
+            "PROBLEM": [
+                [
+                    0.41,
+                    "findings",
+                    [
+                        1910,
+                        1918
+                    ]
+                ]
+            ],
+            "DIAGNOSIS": [
+                [
+                    0.369,
+                    "atrophy",
+                    [
+                        2112,
+                        2119
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

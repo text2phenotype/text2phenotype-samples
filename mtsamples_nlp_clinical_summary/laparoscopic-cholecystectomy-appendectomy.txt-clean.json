@@ -1,0 +1,479 @@
+{
+    "file": "laparoscopic-cholecystectomy-appendectomy.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "chlorhexidine",
+                "code": "2358",
+                "cui": "C0008196",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Chlorhexidine",
+                "range": [
+                    1005,
+                    1018
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.97
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "chlorhexidine",
+                "code": "2358",
+                "cui": "C0008196",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Chlorhexidine",
+                "range": [
+                    1005,
+                    1018
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.97
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            }
+        ],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "cholelithiasis",
+                "range": [
+                    38,
+                    52
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "266474003",
+                "cui": "C0008350",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Cholelithiasis"
+            },
+            {
+                "text": "Symptomatic cholelithiasis",
+                "range": [
+                    80,
+                    106
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "sickle cell anemia",
+                "range": [
+                    268,
+                    286
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "127040003",
+                "cui": "C0002895",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Anemia, Sickle Cell"
+            },
+            {
+                "text": "symptomatic cholelithiasis",
+                "range": [
+                    299,
+                    325
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "infection",
+                "range": [
+                    566,
+                    575
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "189822004",
+                "cui": "C0009450",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Communicable Diseases"
+            },
+            {
+                "text": "biliary",
+                "range": [
+                    577,
+                    584
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.012,
+        "uncertain_count": 3,
+        "narrow_band_ratio": 0.005,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.547,
+                    "solution",
+                    [
+                        1019,
+                        1027
+                    ]
+                ],
+                [
+                    0.618,
+                    "epinephrine",
+                    [
+                        1119,
+                        1130
+                    ]
+                ],
+                [
+                    0.541,
+                    "gas",
+                    [
+                        1301,
+                        1304
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "cholelithiasis",
+                    [
+                        38,
+                        52
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Symptomatic",
+                    [
+                        80,
+                        91
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "cholelithiasis",
+                    [
+                        92,
+                        106
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "sickle",
+                    [
+                        268,
+                        274
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "cell",
+                    [
+                        275,
+                        279
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "anemia",
+                    [
+                        280,
+                        286
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "symptomatic",
+                    [
+                        299,
+                        310
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "cholelithiasis",
+                    [
+                        311,
+                        325
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "crisis",
+                    [
+                        416,
+                        422
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "bleeding",
+                    [
+                        556,
+                        564
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "infection",
+                    [
+                        566,
+                        575
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "biliary",
+                    [
+                        577,
+                        584
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "injury",
+                    [
+                        585,
+                        591
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.404,
+                    "Symptomatic",
+                    [
+                        26,
+                        37
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.54,
+                    "cholelithiasis",
+                    [
+                        38,
+                        52
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.893,
+                    "Symptomatic",
+                    [
+                        80,
+                        91
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.924,
+                    "cholelithiasis",
+                    [
+                        92,
+                        106
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.78,
+                    "sickle",
+                    [
+                        268,
+                        274
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.89,
+                    "cell",
+                    [
+                        275,
+                        279
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.91,
+                    "anemia",
+                    [
+                        280,
+                        286
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.658,
+                    "symptomatic",
+                    [
+                        299,
+                        310
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.824,
+                    "cholelithiasis",
+                    [
+                        311,
+                        325
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.52,
+                    "crisis",
+                    [
+                        416,
+                        422
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.439,
+                    "bleeding",
+                    [
+                        556,
+                        564
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.691,
+                    "infection",
+                    [
+                        566,
+                        575
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.489,
+                    "biliary",
+                    [
+                        577,
+                        584
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.521,
+                    "injury",
+                    [
+                        585,
+                        591
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.111,
+        "uncertain_token_count": 5,
+        "narrow_band_ratio": 0.009,
+        "uncertain_tokens": {
+            "DIAGNOSIS": [
+                [
+                    0.404,
+                    "Symptomatic",
+                    [
+                        26,
+                        37
+                    ]
+                ],
+                [
+                    0.52,
+                    "crisis",
+                    [
+                        416,
+                        422
+                    ]
+                ],
+                [
+                    0.439,
+                    "bleeding",
+                    [
+                        556,
+                        564
+                    ]
+                ],
+                [
+                    0.489,
+                    "biliary",
+                    [
+                        577,
+                        584
+                    ]
+                ],
+                [
+                    0.521,
+                    "injury",
+                    [
+                        585,
+                        591
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

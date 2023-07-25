@@ -1,0 +1,527 @@
+{
+    "file": "vvir-permanent-pacemaker-insertion.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "beta-blocker",
+                "code": null,
+                "cui": null,
+                "tui": null,
+                "vocab": null,
+                "polarity": "positive",
+                "preferredText": null,
+                "range": [
+                    470,
+                    482
+                ],
+                "prob": {
+                    "MED": 0.965
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            }
+        ],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "critical aortic\nstenosis",
+                "range": [
+                    212,
+                    236
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "valve",
+                "range": [
+                    252,
+                    257
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "0.5",
+                "range": [
+                    266,
+                    269
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "congestive\nheart failure",
+                "range": [
+                    294,
+                    318
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "698594003",
+                "cui": "C0742758",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Symptomatic congestive heart failure"
+            },
+            {
+                "text": "congestive heart\nfailure",
+                "range": [
+                    3779,
+                    3803
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "tachybrady",
+                "range": [
+                    3808,
+                    3818
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.015,
+        "uncertain_count": 5,
+        "narrow_band_ratio": 0.007,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.643,
+                    "lidocaine",
+                    [
+                        1221,
+                        1230
+                    ]
+                ],
+                [
+                    0.67,
+                    "sedation",
+                    [
+                        1345,
+                        1353
+                    ]
+                ]
+            ],
+            "MED": [
+                [
+                    0.601,
+                    "epinephrine",
+                    [
+                        1236,
+                        1247
+                    ]
+                ],
+                [
+                    0.696,
+                    "steroid",
+                    [
+                        2138,
+                        2145
+                    ]
+                ],
+                [
+                    0.67,
+                    "lead",
+                    [
+                        2457,
+                        2461
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "critical",
+                    [
+                        212,
+                        220
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "aortic",
+                    [
+                        221,
+                        227
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "stenosis",
+                    [
+                        228,
+                        236
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "valve",
+                    [
+                        252,
+                        257
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "0.5",
+                    [
+                        266,
+                        269
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "cm",
+                    [
+                        270,
+                        272
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "congestive",
+                    [
+                        294,
+                        304
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "heart",
+                    [
+                        305,
+                        310
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "failure",
+                    [
+                        311,
+                        318
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "arrhythmias",
+                    [
+                        360,
+                        371
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "congestive",
+                    [
+                        3779,
+                        3789
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "heart",
+                    [
+                        3790,
+                        3795
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "failure",
+                    [
+                        3796,
+                        3803
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "tachybrady",
+                    [
+                        3808,
+                        3818
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "arrhythmia",
+                    [
+                        3819,
+                        3829
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.506,
+                    "critical",
+                    [
+                        212,
+                        220
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.699,
+                    "aortic",
+                    [
+                        221,
+                        227
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.692,
+                    "stenosis",
+                    [
+                        228,
+                        236
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.452,
+                    "0.5",
+                    [
+                        266,
+                        269
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.416,
+                    "cm",
+                    [
+                        270,
+                        272
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.699,
+                    "congestive",
+                    [
+                        294,
+                        304
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.681,
+                    "heart",
+                    [
+                        305,
+                        310
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.571,
+                    "failure",
+                    [
+                        311,
+                        318
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.422,
+                    "arrhythmias",
+                    [
+                        360,
+                        371
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.72,
+                    "congestive",
+                    [
+                        3779,
+                        3789
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.876,
+                    "heart",
+                    [
+                        3790,
+                        3795
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.85,
+                    "failure",
+                    [
+                        3796,
+                        3803
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.547,
+                    "tachybrady",
+                    [
+                        3808,
+                        3818
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.652,
+                    "arrhythmia",
+                    [
+                        3819,
+                        3829
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.087,
+        "uncertain_token_count": 9,
+        "narrow_band_ratio": 0.013,
+        "uncertain_tokens": {
+            "DIAGNOSIS": [
+                [
+                    0.506,
+                    "critical",
+                    [
+                        212,
+                        220
+                    ]
+                ],
+                [
+                    0.452,
+                    "0.5",
+                    [
+                        266,
+                        269
+                    ]
+                ]
+            ],
+            "NA": [
+                [
+                    0.443,
+                    "valve",
+                    [
+                        252,
+                        257
+                    ]
+                ],
+                [
+                    0.526,
+                    "of",
+                    [
+                        263,
+                        265
+                    ]
+                ],
+                [
+                    0.503,
+                    "recurrent",
+                    [
+                        284,
+                        293
+                    ]
+                ],
+                [
+                    0.465,
+                    "symptoms",
+                    [
+                        319,
+                        327
+                    ]
+                ],
+                [
+                    0.38,
+                    "tachybrady",
+                    [
+                        349,
+                        359
+                    ]
+                ]
+            ],
+            "PROBLEM": [
+                [
+                    0.416,
+                    "cm",
+                    [
+                        270,
+                        272
+                    ]
+                ],
+                [
+                    0.422,
+                    "arrhythmias",
+                    [
+                        360,
+                        371
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

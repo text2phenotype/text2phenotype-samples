@@ -1,0 +1,355 @@
+{
+    "file": "obgyn-hp.txt-clean.txt",
+    "text2summary": {
+        "Medication": [],
+        "Allergy": [],
+        "Lab": [
+            {
+                "code": "",
+                "cui": "C0518015",
+                "tui": "T034",
+                "vocab": "LNC",
+                "polarity": "positive",
+                "text": "hemoglobin",
+                "preferredText": "HEMOGLOBIN DETERMINATION (PROCEDURE)",
+                "range": [
+                    3124,
+                    3134
+                ]
+            },
+            {
+                "code": "LP32067-8",
+                "cui": "C0019046",
+                "tui": "T034",
+                "vocab": "LNC",
+                "polarity": "positive",
+                "text": "hemoglobin",
+                "preferredText": "HEMOGLOBIN",
+                "range": [
+                    3124,
+                    3134
+                ]
+            }
+        ],
+        "DiseaseDisorder": [
+            {
+                "text": "fetal",
+                "range": [
+                    157,
+                    162
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "pregnancy",
+                "range": [
+                    215,
+                    224
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "Maternal",
+                "range": [
+                    2926,
+                    2934
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "inadequate",
+                "range": [
+                    2948,
+                    2958
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "protein",
+                "range": [
+                    2963,
+                    2970
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.007,
+        "uncertain_count": 2,
+        "narrow_band_ratio": 0.003,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.625,
+                    "junk",
+                    [
+                        3011,
+                        3015
+                    ]
+                ]
+            ],
+            "MED": [
+                [
+                    0.532,
+                    "Multivitamins",
+                    [
+                        3416,
+                        3429
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "fetal",
+                    [
+                        157,
+                        162
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "pregnancy",
+                    [
+                        215,
+                        224
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Pregnancy",
+                    [
+                        2901,
+                        2910
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "Maternal",
+                    [
+                        2926,
+                        2934
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "nutrition",
+                    [
+                        2935,
+                        2944
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "inadequate",
+                    [
+                        2948,
+                        2958
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "protein",
+                    [
+                        2963,
+                        2970
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "activity",
+                    [
+                        3262,
+                        3270
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "activity",
+                    [
+                        3282,
+                        3290
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.491,
+                    "fetal",
+                    [
+                        157,
+                        162
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.644,
+                    "pregnancy",
+                    [
+                        215,
+                        224
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.611,
+                    "Pregnancy",
+                    [
+                        2901,
+                        2910
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.434,
+                    "Maternal",
+                    [
+                        2926,
+                        2934
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.674,
+                    "nutrition",
+                    [
+                        2935,
+                        2944
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.613,
+                    "inadequate",
+                    [
+                        2948,
+                        2958
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.584,
+                    "protein",
+                    [
+                        2963,
+                        2970
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.626,
+                    "activity",
+                    [
+                        3262,
+                        3270
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.065,
+        "uncertain_token_count": 6,
+        "narrow_band_ratio": 0.009,
+        "uncertain_tokens": {
+            "DIAGNOSIS": [
+                [
+                    0.491,
+                    "fetal",
+                    [
+                        157,
+                        162
+                    ]
+                ],
+                [
+                    0.434,
+                    "Maternal",
+                    [
+                        2926,
+                        2934
+                    ]
+                ]
+            ],
+            "NA": [
+                [
+                    0.503,
+                    "activity",
+                    [
+                        163,
+                        171
+                    ]
+                ],
+                [
+                    0.524,
+                    "is",
+                    [
+                        2945,
+                        2947
+                    ]
+                ],
+                [
+                    0.433,
+                    "poor",
+                    [
+                        2975,
+                        2979
+                    ]
+                ],
+                [
+                    0.521,
+                    "physical",
+                    [
+                        3253,
+                        3261
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

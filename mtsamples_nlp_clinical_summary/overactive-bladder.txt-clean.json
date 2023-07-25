@@ -1,0 +1,609 @@
+{
+    "file": "overactive-bladder.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "Sanctura",
+                "code": "579787",
+                "cui": "C1619316",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Sanctura",
+                "range": [
+                    1072,
+                    1080
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.999
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "Sanctura",
+                "code": "579787",
+                "cui": "C1619316",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Sanctura",
+                "range": [
+                    1072,
+                    1080
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.999
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            }
+        ],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "Overactive bladder",
+                "range": [
+                    20,
+                    38
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "236633002",
+                "cui": "C0878773",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Overactive Bladder"
+            },
+            {
+                "text": "with overactive bladder",
+                "range": [
+                    161,
+                    184
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "episodes",
+                "range": [
+                    256,
+                    264
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "frequency",
+                "range": [
+                    268,
+                    277
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "Overactive bladder",
+                "range": [
+                    677,
+                    695
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "9009001",
+                "cui": "C0878773",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Overactive Bladder"
+            },
+            {
+                "text": "atrophic vaginitis is noted",
+                "range": [
+                    745,
+                    772
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "52441000",
+                "cui": "C0221392",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Atrophic Vaginitis"
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.011,
+        "uncertain_count": 2,
+        "narrow_band_ratio": 0.01,
+        "uncertain_tokens": {
+            "MED": [
+                [
+                    0.629,
+                    "anticholinergic",
+                    [
+                        928,
+                        943
+                    ]
+                ],
+                [
+                    0.516,
+                    "Ditropan",
+                    [
+                        1048,
+                        1056
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "Overactive",
+                    [
+                        20,
+                        30
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "bladder",
+                    [
+                        31,
+                        38
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "microscopic",
+                    [
+                        44,
+                        55
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "hematuria",
+                    [
+                        56,
+                        65
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "microscopic",
+                    [
+                        139,
+                        150
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "hematuria",
+                    [
+                        151,
+                        160
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "with",
+                    [
+                        161,
+                        165
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "overactive",
+                    [
+                        166,
+                        176
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "bladder",
+                    [
+                        177,
+                        184
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "episodes",
+                    [
+                        256,
+                        264
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "frequency",
+                    [
+                        268,
+                        277
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Overactive",
+                    [
+                        677,
+                        687
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "bladder",
+                    [
+                        688,
+                        695
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "microscopic",
+                    [
+                        701,
+                        712
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "hematuria",
+                    [
+                        713,
+                        722
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "atrophic",
+                    [
+                        745,
+                        753
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "vaginitis",
+                    [
+                        754,
+                        763
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "is",
+                    [
+                        764,
+                        766
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "noted",
+                    [
+                        767,
+                        772
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.637,
+                    "Overactive",
+                    [
+                        20,
+                        30
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.501,
+                    "bladder",
+                    [
+                        31,
+                        38
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.41,
+                    "microscopic",
+                    [
+                        44,
+                        55
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.434,
+                    "hematuria",
+                    [
+                        56,
+                        65
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.632,
+                    "microscopic",
+                    [
+                        139,
+                        150
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.732,
+                    "hematuria",
+                    [
+                        151,
+                        160
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.837,
+                    "overactive",
+                    [
+                        166,
+                        176
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.765,
+                    "bladder",
+                    [
+                        177,
+                        184
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.427,
+                    "episodes",
+                    [
+                        256,
+                        264
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.523,
+                    "frequency",
+                    [
+                        268,
+                        277
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.488,
+                    "pyuria",
+                    [
+                        374,
+                        380
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.947,
+                    "Overactive",
+                    [
+                        677,
+                        687
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.916,
+                    "bladder",
+                    [
+                        688,
+                        695
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.857,
+                    "microscopic",
+                    [
+                        701,
+                        712
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.798,
+                    "hematuria",
+                    [
+                        713,
+                        722
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.907,
+                    "atrophic",
+                    [
+                        745,
+                        753
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.915,
+                    "vaginitis",
+                    [
+                        754,
+                        763
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.61,
+                    "is",
+                    [
+                        764,
+                        766
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.149,
+        "uncertain_token_count": 10,
+        "narrow_band_ratio": 0.048,
+        "uncertain_tokens": {
+            "DIAGNOSIS": [
+                [
+                    0.501,
+                    "bladder",
+                    [
+                        31,
+                        38
+                    ]
+                ],
+                [
+                    0.41,
+                    "microscopic",
+                    [
+                        44,
+                        55
+                    ]
+                ],
+                [
+                    0.427,
+                    "episodes",
+                    [
+                        256,
+                        264
+                    ]
+                ],
+                [
+                    0.523,
+                    "frequency",
+                    [
+                        268,
+                        277
+                    ]
+                ]
+            ],
+            "PROBLEM": [
+                [
+                    0.434,
+                    "hematuria",
+                    [
+                        56,
+                        65
+                    ]
+                ],
+                [
+                    0.488,
+                    "pyuria",
+                    [
+                        374,
+                        380
+                    ]
+                ]
+            ],
+            "NA": [
+                [
+                    0.472,
+                    "with",
+                    [
+                        161,
+                        165
+                    ]
+                ],
+                [
+                    0.506,
+                    "of",
+                    [
+                        265,
+                        267
+                    ]
+                ],
+                [
+                    0.505,
+                    "urgency",
+                    [
+                        282,
+                        289
+                    ]
+                ],
+                [
+                    0.47,
+                    "noted",
+                    [
+                        767,
+                        772
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

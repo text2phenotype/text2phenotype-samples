@@ -1,0 +1,112 @@
+{
+    "file": "mri-of-brain-wo-contrast.txt-clean.txt",
+    "text2summary": {
+        "Medication": [],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "headaches",
+                "range": [
+                    59,
+                    68
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "571000119103",
+                "cui": "C3661947",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Daily headache"
+            },
+            {
+                "text": "acute infarct",
+                "range": [
+                    654,
+                    667
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.005,
+        "uncertain_count": 0,
+        "narrow_band_ratio": 0.0,
+        "uncertain_tokens": {},
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "headaches",
+                    [
+                        59,
+                        68
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "acute",
+                    [
+                        654,
+                        659
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "infarct",
+                    [
+                        660,
+                        667
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.672,
+                    "headaches",
+                    [
+                        59,
+                        68
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.776,
+                    "acute",
+                    [
+                        654,
+                        659
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.773,
+                    "infarct",
+                    [
+                        660,
+                        667
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.101,
+        "uncertain_token_count": 0,
+        "narrow_band_ratio": 0.0,
+        "uncertain_tokens": {},
+        "narrow_band_width": 0.2
+    }
+}

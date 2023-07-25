@@ -1,0 +1,596 @@
+{
+    "file": "osteosynthesis.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "iodine",
+                "code": "5933",
+                "cui": "C0021968",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Iodine",
+                "range": [
+                    751,
+                    757
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.991
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "iodine",
+                "code": "5933",
+                "cui": "C0021968",
+                "tui": "T196",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Iodine",
+                "range": [
+                    751,
+                    757
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.991
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            }
+        ],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "Acetabular fracture",
+                "range": [
+                    26,
+                    45
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "64455005",
+                "cui": "C0347804",
+                "tui": "T037",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Fracture of acetabulum"
+            },
+            {
+                "text": "displaced\nfracture",
+                "range": [
+                    130,
+                    148
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "123735002",
+                "cui": "C0585059",
+                "tui": "T037",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Fracture with displacement"
+            },
+            {
+                "text": "Acetabular fracture on the left posterior\ncolumn/transverse posterior wall variety",
+                "range": [
+                    225,
+                    307
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "64455005",
+                "cui": "C0347804",
+                "tui": "T037",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Fracture of acetabulum"
+            },
+            {
+                "text": "displaced\nfracture",
+                "range": [
+                    329,
+                    347
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "123735002",
+                "cui": "C0585059",
+                "tui": "T037",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Fracture with displacement"
+            },
+            {
+                "text": "the posterior",
+                "range": [
+                    1345,
+                    1358
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "major",
+                "range": [
+                    1371,
+                    1376
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.009,
+        "uncertain_count": 3,
+        "narrow_band_ratio": 0.007,
+        "uncertain_tokens": {
+            "MED": [
+                [
+                    0.538,
+                    "alcohol",
+                    [
+                        762,
+                        769
+                    ]
+                ],
+                [
+                    0.597,
+                    "metal",
+                    [
+                        2466,
+                        2471
+                    ]
+                ]
+            ],
+            "NA": [
+                [
+                    0.564,
+                    "solution",
+                    [
+                        1489,
+                        1497
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "Acetabular",
+                    [
+                        26,
+                        36
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "fracture",
+                    [
+                        37,
+                        45
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "displaced",
+                    [
+                        130,
+                        139
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "fracture",
+                    [
+                        140,
+                        148
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Acetabular",
+                    [
+                        225,
+                        235
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "fracture",
+                    [
+                        236,
+                        244
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "on",
+                    [
+                        245,
+                        247
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "the",
+                    [
+                        248,
+                        251
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "left",
+                    [
+                        252,
+                        256
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "posterior",
+                    [
+                        257,
+                        266
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "column/transverse",
+                    [
+                        267,
+                        284
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "posterior",
+                    [
+                        285,
+                        294
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "wall",
+                    [
+                        295,
+                        299
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "variety",
+                    [
+                        300,
+                        307
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "displaced",
+                    [
+                        329,
+                        338
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "fracture",
+                    [
+                        339,
+                        347
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "the",
+                    [
+                        1345,
+                        1348
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "posterior",
+                    [
+                        1349,
+                        1358
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "major",
+                    [
+                        1371,
+                        1376
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.885,
+                    "Acetabular",
+                    [
+                        26,
+                        36
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.848,
+                    "fracture",
+                    [
+                        37,
+                        45
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.524,
+                    "posterior",
+                    [
+                        58,
+                        67
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.508,
+                    "posterior",
+                    [
+                        86,
+                        95
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.732,
+                    "displaced",
+                    [
+                        130,
+                        139
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.638,
+                    "fracture",
+                    [
+                        140,
+                        148
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.938,
+                    "Acetabular",
+                    [
+                        225,
+                        235
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.946,
+                    "fracture",
+                    [
+                        236,
+                        244
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.738,
+                    "on",
+                    [
+                        245,
+                        247
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.677,
+                    "the",
+                    [
+                        248,
+                        251
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.714,
+                    "left",
+                    [
+                        252,
+                        256
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.725,
+                    "posterior",
+                    [
+                        257,
+                        266
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.7,
+                    "column/transverse",
+                    [
+                        267,
+                        284
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.753,
+                    "posterior",
+                    [
+                        285,
+                        294
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.716,
+                    "displaced",
+                    [
+                        329,
+                        338
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.678,
+                    "fracture",
+                    [
+                        339,
+                        347
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.521,
+                    "the",
+                    [
+                        1345,
+                        1348
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.497,
+                    "posterior",
+                    [
+                        1349,
+                        1358
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.5,
+                    "major",
+                    [
+                        1371,
+                        1376
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.165,
+        "uncertain_token_count": 6,
+        "narrow_band_ratio": 0.013,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.515,
+                    "left",
+                    [
+                        53,
+                        57
+                    ]
+                ]
+            ],
+            "DIAGNOSIS": [
+                [
+                    0.524,
+                    "posterior",
+                    [
+                        58,
+                        67
+                    ]
+                ],
+                [
+                    0.508,
+                    "posterior",
+                    [
+                        86,
+                        95
+                    ]
+                ],
+                [
+                    0.521,
+                    "the",
+                    [
+                        1345,
+                        1348
+                    ]
+                ],
+                [
+                    0.497,
+                    "posterior",
+                    [
+                        1349,
+                        1358
+                    ]
+                ],
+                [
+                    0.5,
+                    "major",
+                    [
+                        1371,
+                        1376
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

@@ -1,0 +1,937 @@
+{
+    "file": "thyroidectomy.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "Kenalog",
+                "code": "202877",
+                "cui": "C0699689",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Kenalog",
+                "range": [
+                    4839,
+                    4846
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.902
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [
+                    "40",
+                    4812,
+                    4814
+                ],
+                "medStrengthUnit": [
+                    "mg",
+                    4815,
+                    4817
+                ]
+            },
+            {
+                "text": "Kenalog",
+                "code": "202877",
+                "cui": "C0699689",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Kenalog",
+                "range": [
+                    4839,
+                    4846
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.902
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [
+                    "40",
+                    4812,
+                    4814
+                ],
+                "medStrengthUnit": [
+                    "mg",
+                    4815,
+                    4817
+                ]
+            }
+        ],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "thyroid",
+                "range": [
+                    134,
+                    141
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "fold paralysis",
+                "range": [
+                    400,
+                    414
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "Multinodular thyroid",
+                "range": [
+                    670,
+                    690
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "237570007",
+                "cui": "C0342208",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Multinodular goiter"
+            },
+            {
+                "text": "dominant",
+                "range": [
+                    738,
+                    746
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "fine needle\naspiration",
+                "range": [
+                    786,
+                    808
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "Multinodular thyroid",
+                "range": [
+                    829,
+                    849
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "237570007",
+                "cui": "C0342208",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Multinodular goiter"
+            },
+            {
+                "text": "of the",
+                "range": [
+                    1448,
+                    1454
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "glands",
+                "range": [
+                    4122,
+                    4128
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "vocal fold",
+                "range": [
+                    5160,
+                    5170
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.01,
+        "uncertain_count": 4,
+        "narrow_band_ratio": 0.005,
+        "uncertain_tokens": {
+            "MED": [
+                [
+                    0.531,
+                    "lidocaine",
+                    [
+                        1466,
+                        1475
+                    ]
+                ],
+                [
+                    0.649,
+                    "capsule",
+                    [
+                        3447,
+                        3454
+                    ]
+                ],
+                [
+                    0.633,
+                    "tuberculin",
+                    [
+                        4893,
+                        4903
+                    ]
+                ]
+            ],
+            "NA": [
+                [
+                    0.683,
+                    "nylon",
+                    [
+                        4635,
+                        4640
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "thyroid",
+                    [
+                        134,
+                        141
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "goiter",
+                    [
+                        142,
+                        148
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "fold",
+                    [
+                        400,
+                        404
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "paralysis",
+                    [
+                        405,
+                        414
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "hoarseness",
+                    [
+                        416,
+                        426
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "tumor",
+                    [
+                        475,
+                        480
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "recurrence",
+                    [
+                        481,
+                        491
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Multinodular",
+                    [
+                        670,
+                        682
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "thyroid",
+                    [
+                        683,
+                        690
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "goiter",
+                    [
+                        691,
+                        697
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "dominant",
+                    [
+                        738,
+                        746
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "thyroid",
+                    [
+                        747,
+                        754
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "nodules",
+                    [
+                        755,
+                        762
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "fine",
+                    [
+                        786,
+                        790
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "needle",
+                    [
+                        791,
+                        797
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "aspiration",
+                    [
+                        798,
+                        808
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Multinodular",
+                    [
+                        829,
+                        841
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "thyroid",
+                    [
+                        842,
+                        849
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "goiter",
+                    [
+                        850,
+                        856
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "thyroid",
+                    [
+                        906,
+                        913
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "of",
+                    [
+                        1448,
+                        1450
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "the",
+                    [
+                        1451,
+                        1454
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "glands",
+                    [
+                        4122,
+                        4128
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "vocal",
+                    [
+                        5160,
+                        5165
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "fold",
+                    [
+                        5166,
+                        5170
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "mobility",
+                    [
+                        5171,
+                        5179
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    ".",
+                    [
+                        5179,
+                        5180
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.417,
+                    "thyroid",
+                    [
+                        134,
+                        141
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.44,
+                    "goiter",
+                    [
+                        142,
+                        148
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.433,
+                    "fold",
+                    [
+                        400,
+                        404
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.529,
+                    "paralysis",
+                    [
+                        405,
+                        414
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.45,
+                    "hoarseness",
+                    [
+                        416,
+                        426
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.735,
+                    "tumor",
+                    [
+                        475,
+                        480
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.858,
+                    "recurrence",
+                    [
+                        481,
+                        491
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.875,
+                    "Multinodular",
+                    [
+                        670,
+                        682
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.88,
+                    "thyroid",
+                    [
+                        683,
+                        690
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.752,
+                    "goiter",
+                    [
+                        691,
+                        697
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.366,
+                    "bilateral",
+                    [
+                        728,
+                        737
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.493,
+                    "dominant",
+                    [
+                        738,
+                        746
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.511,
+                    "thyroid",
+                    [
+                        747,
+                        754
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.412,
+                    "nodules",
+                    [
+                        755,
+                        762
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.431,
+                    "fine",
+                    [
+                        786,
+                        790
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.49,
+                    "needle",
+                    [
+                        791,
+                        797
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.448,
+                    "aspiration",
+                    [
+                        798,
+                        808
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.907,
+                    "Multinodular",
+                    [
+                        829,
+                        841
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.879,
+                    "thyroid",
+                    [
+                        842,
+                        849
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.737,
+                    "goiter",
+                    [
+                        850,
+                        856
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.369,
+                    "thyroid",
+                    [
+                        906,
+                        913
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.549,
+                    "of",
+                    [
+                        1448,
+                        1450
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.774,
+                    "vocal",
+                    [
+                        5160,
+                        5165
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.805,
+                    "fold",
+                    [
+                        5166,
+                        5170
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.814,
+                    "mobility",
+                    [
+                        5171,
+                        5179
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.856,
+                    ".",
+                    [
+                        5179,
+                        5180
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.111,
+        "uncertain_token_count": 23,
+        "narrow_band_ratio": 0.026,
+        "uncertain_tokens": {
+            "DIAGNOSIS": [
+                [
+                    0.417,
+                    "thyroid",
+                    [
+                        134,
+                        141
+                    ]
+                ],
+                [
+                    0.44,
+                    "goiter",
+                    [
+                        142,
+                        148
+                    ]
+                ],
+                [
+                    0.366,
+                    "bilateral",
+                    [
+                        728,
+                        737
+                    ]
+                ],
+                [
+                    0.493,
+                    "dominant",
+                    [
+                        738,
+                        746
+                    ]
+                ],
+                [
+                    0.511,
+                    "thyroid",
+                    [
+                        747,
+                        754
+                    ]
+                ],
+                [
+                    0.412,
+                    "nodules",
+                    [
+                        755,
+                        762
+                    ]
+                ],
+                [
+                    0.431,
+                    "fine",
+                    [
+                        786,
+                        790
+                    ]
+                ],
+                [
+                    0.49,
+                    "needle",
+                    [
+                        791,
+                        797
+                    ]
+                ],
+                [
+                    0.448,
+                    "aspiration",
+                    [
+                        798,
+                        808
+                    ]
+                ],
+                [
+                    0.369,
+                    "thyroid",
+                    [
+                        906,
+                        913
+                    ]
+                ]
+            ],
+            "NA": [
+                [
+                    0.522,
+                    "vocal",
+                    [
+                        394,
+                        399
+                    ]
+                ],
+                [
+                    0.494,
+                    "additional",
+                    [
+                        502,
+                        512
+                    ]
+                ],
+                [
+                    0.38,
+                    "compressive",
+                    [
+                        862,
+                        873
+                    ]
+                ],
+                [
+                    0.501,
+                    "symptoms",
+                    [
+                        874,
+                        882
+                    ]
+                ],
+                [
+                    0.481,
+                    "bilateral",
+                    [
+                        887,
+                        896
+                    ]
+                ],
+                [
+                    0.408,
+                    "dominant",
+                    [
+                        897,
+                        905
+                    ]
+                ],
+                [
+                    0.438,
+                    "nodules",
+                    [
+                        914,
+                        921
+                    ]
+                ],
+                [
+                    0.527,
+                    "the",
+                    [
+                        1451,
+                        1454
+                    ]
+                ],
+                [
+                    0.432,
+                    "parathyroid",
+                    [
+                        4110,
+                        4121
+                    ]
+                ],
+                [
+                    0.445,
+                    "glands",
+                    [
+                        4122,
+                        4128
+                    ]
+                ]
+            ],
+            "PROBLEM": [
+                [
+                    0.433,
+                    "fold",
+                    [
+                        400,
+                        404
+                    ]
+                ],
+                [
+                    0.529,
+                    "paralysis",
+                    [
+                        405,
+                        414
+                    ]
+                ],
+                [
+                    0.45,
+                    "hoarseness",
+                    [
+                        416,
+                        426
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

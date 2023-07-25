@@ -1,0 +1,844 @@
+{
+    "file": "cauterization-epistaxis.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "lidocaine",
+                "code": "6387",
+                "cui": "C0023660",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Lidocaine",
+                "range": [
+                    342,
+                    351
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.913
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "lidocaine",
+                "code": "6387",
+                "cui": "C0023660",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Lidocaine",
+                "range": [
+                    342,
+                    351
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.913
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            }
+        ],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "chronic",
+                "range": [
+                    40,
+                    47
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "mucosa",
+                "range": [
+                    109,
+                    115
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "laryngeal",
+                "range": [
+                    147,
+                    156
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "supraglottic and glottic changes",
+                "range": [
+                    430,
+                    462
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "left wrist abscess",
+                "range": [
+                    657,
+                    675
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "the left",
+                "range": [
+                    917,
+                    925
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "asthma",
+                "range": [
+                    1155,
+                    1161
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "195967001",
+                "cui": "C0004096",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Asthma"
+            },
+            {
+                "text": "asthma",
+                "range": [
+                    3072,
+                    3078
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "195967001",
+                "cui": "C0004096",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Asthma"
+            },
+            {
+                "text": "chronic",
+                "range": [
+                    3160,
+                    3167
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.011,
+        "uncertain_count": 3,
+        "narrow_band_ratio": 0.005,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.536,
+                    "Neo-Synephrine",
+                    [
+                        322,
+                        336
+                    ]
+                ],
+                [
+                    0.544,
+                    "oxygen",
+                    [
+                        805,
+                        811
+                    ]
+                ],
+                [
+                    0.636,
+                    "steroids",
+                    [
+                        3037,
+                        3045
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "Epistaxis",
+                    [
+                        26,
+                        35
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "chronic",
+                    [
+                        40,
+                        47
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "dysphonia",
+                    [
+                        48,
+                        57
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "Atrophic",
+                    [
+                        90,
+                        98
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "mucosa",
+                    [
+                        109,
+                        115
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Epistaxis",
+                    [
+                        122,
+                        131
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Atrophic",
+                    [
+                        138,
+                        146
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "laryngeal",
+                    [
+                        147,
+                        156
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "inhaled",
+                    [
+                        178,
+                        185
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "steroid",
+                    [
+                        186,
+                        193
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Atrophic",
+                    [
+                        421,
+                        429
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "supraglottic",
+                    [
+                        430,
+                        442
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "and",
+                    [
+                        443,
+                        446
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "glottic",
+                    [
+                        447,
+                        454
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "changes",
+                    [
+                        455,
+                        462
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "left",
+                    [
+                        657,
+                        661
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "wrist",
+                    [
+                        662,
+                        667
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "abscess",
+                    [
+                        668,
+                        675
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "the",
+                    [
+                        917,
+                        920
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "left",
+                    [
+                        921,
+                        925
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "asthma",
+                    [
+                        1155,
+                        1161
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "dysphonia",
+                    [
+                        1358,
+                        1367
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "atrophic",
+                    [
+                        1596,
+                        1604
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "asthma",
+                    [
+                        3072,
+                        3078
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "chronic",
+                    [
+                        3160,
+                        3167
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "dysphonia",
+                    [
+                        3168,
+                        3177
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.925,
+                    "Epistaxis",
+                    [
+                        26,
+                        35
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.756,
+                    "chronic",
+                    [
+                        40,
+                        47
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.86,
+                    "dysphonia",
+                    [
+                        48,
+                        57
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.389,
+                    "Atrophic",
+                    [
+                        90,
+                        98
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.361,
+                    "nasal",
+                    [
+                        103,
+                        108
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.352,
+                    "mucosa",
+                    [
+                        109,
+                        115
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.711,
+                    "Epistaxis",
+                    [
+                        122,
+                        131
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.512,
+                    "Atrophic",
+                    [
+                        138,
+                        146
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.38,
+                    "laryngeal",
+                    [
+                        147,
+                        156
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.702,
+                    "inhaled",
+                    [
+                        178,
+                        185
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.612,
+                    "steroid",
+                    [
+                        186,
+                        193
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.67,
+                    "Atrophic",
+                    [
+                        421,
+                        429
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.47,
+                    "supraglottic",
+                    [
+                        430,
+                        442
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.382,
+                    "and",
+                    [
+                        443,
+                        446
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.63,
+                    "glottic",
+                    [
+                        447,
+                        454
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.467,
+                    "changes",
+                    [
+                        455,
+                        462
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.607,
+                    "left",
+                    [
+                        657,
+                        661
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.574,
+                    "wrist",
+                    [
+                        662,
+                        667
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.698,
+                    "abscess",
+                    [
+                        668,
+                        675
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.911,
+                    "asthma",
+                    [
+                        1155,
+                        1161
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.593,
+                    "dysphonia",
+                    [
+                        1358,
+                        1367
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.576,
+                    "atrophic",
+                    [
+                        1596,
+                        1604
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.78,
+                    "asthma",
+                    [
+                        3072,
+                        3078
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.549,
+                    "chronic",
+                    [
+                        3160,
+                        3167
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.702,
+                    "dysphonia",
+                    [
+                        3168,
+                        3177
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.156,
+        "uncertain_token_count": 17,
+        "narrow_band_ratio": 0.031,
+        "uncertain_tokens": {
+            "PROBLEM": [
+                [
+                    0.389,
+                    "Atrophic",
+                    [
+                        90,
+                        98
+                    ]
+                ],
+                [
+                    0.361,
+                    "nasal",
+                    [
+                        103,
+                        108
+                    ]
+                ],
+                [
+                    0.352,
+                    "mucosa",
+                    [
+                        109,
+                        115
+                    ]
+                ],
+                [
+                    0.38,
+                    "laryngeal",
+                    [
+                        147,
+                        156
+                    ]
+                ],
+                [
+                    0.47,
+                    "supraglottic",
+                    [
+                        430,
+                        442
+                    ]
+                ],
+                [
+                    0.467,
+                    "changes",
+                    [
+                        455,
+                        462
+                    ]
+                ]
+            ],
+            "NA": [
+                [
+                    0.488,
+                    "dry",
+                    [
+                        99,
+                        102
+                    ]
+                ],
+                [
+                    0.511,
+                    "changes",
+                    [
+                        157,
+                        164
+                    ]
+                ],
+                [
+                    0.507,
+                    "use",
+                    [
+                        194,
+                        197
+                    ]
+                ],
+                [
+                    0.474,
+                    "mucosa",
+                    [
+                        408,
+                        414
+                    ]
+                ],
+                [
+                    0.444,
+                    "epistaxis",
+                    [
+                        902,
+                        911
+                    ]
+                ],
+                [
+                    0.492,
+                    "the",
+                    [
+                        917,
+                        920
+                    ]
+                ],
+                [
+                    0.437,
+                    "left",
+                    [
+                        921,
+                        925
+                    ]
+                ],
+                [
+                    0.518,
+                    "epistaxis",
+                    [
+                        1344,
+                        1353
+                    ]
+                ],
+                [
+                    0.507,
+                    "cords",
+                    [
+                        2343,
+                        2348
+                    ]
+                ]
+            ],
+            "DIAGNOSIS": [
+                [
+                    0.512,
+                    "Atrophic",
+                    [
+                        138,
+                        146
+                    ]
+                ],
+                [
+                    0.382,
+                    "and",
+                    [
+                        443,
+                        446
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

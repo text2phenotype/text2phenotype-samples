@@ -1,0 +1,315 @@
+{
+    "file": "cleft-repair-soft-palate.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "bupivacaine",
+                "code": "1815",
+                "cui": "C0006400",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Bupivacaine",
+                "range": [
+                    630,
+                    641
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.976
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "bupivacaine",
+                "code": "1815",
+                "cui": "C0006400",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Bupivacaine",
+                "range": [
+                    630,
+                    641
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.976
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "epinephrine",
+                "code": "3992",
+                "cui": "C0014563",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Epinephrine",
+                "range": [
+                    647,
+                    658
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.975
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "epinephrine",
+                "code": "3992",
+                "cui": "C0014563",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Epinephrine",
+                "range": [
+                    647,
+                    658
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.975
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "bupivacaine",
+                "code": "1815",
+                "cui": "C0006400",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Bupivacaine",
+                "range": [
+                    1031,
+                    1042
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.978
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [
+                    "0.25",
+                    1025,
+                    1029
+                ],
+                "medStrengthUnit": [
+                    "%",
+                    1029,
+                    1030
+                ]
+            },
+            {
+                "text": "bupivacaine",
+                "code": "1815",
+                "cui": "C0006400",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Bupivacaine",
+                "range": [
+                    1031,
+                    1042
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.978
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [
+                    "0.25",
+                    1025,
+                    1029
+                ],
+                "medStrengthUnit": [
+                    "%",
+                    1029,
+                    1030
+                ]
+            }
+        ],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": []
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.008,
+        "uncertain_count": 1,
+        "narrow_band_ratio": 0.002,
+        "uncertain_tokens": {
+            "MED": [
+                [
+                    0.554,
+                    "epinephrine",
+                    [
+                        1048,
+                        1059
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "PROBLEM": [
+                    "Cleft",
+                    [
+                        26,
+                        31
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Cleft",
+                    [
+                        71,
+                        76
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "soft",
+                    [
+                        77,
+                        81
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "palate",
+                    [
+                        82,
+                        88
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "tag",
+                    [
+                        468,
+                        471
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.378,
+                    "Cleft",
+                    [
+                        26,
+                        31
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.424,
+                    "palate",
+                    [
+                        37,
+                        43
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.721,
+                    "Cleft",
+                    [
+                        71,
+                        76
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.626,
+                    "soft",
+                    [
+                        77,
+                        81
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.603,
+                    "palate",
+                    [
+                        82,
+                        88
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.096,
+        "uncertain_token_count": 4,
+        "narrow_band_ratio": 0.01,
+        "uncertain_tokens": {
+            "DIAGNOSIS": [
+                [
+                    0.378,
+                    "Cleft",
+                    [
+                        26,
+                        31
+                    ]
+                ]
+            ],
+            "NA": [
+                [
+                    0.403,
+                    "soft",
+                    [
+                        32,
+                        36
+                    ]
+                ],
+                [
+                    0.496,
+                    "tag",
+                    [
+                        468,
+                        471
+                    ]
+                ]
+            ],
+            "PROBLEM": [
+                [
+                    0.424,
+                    "palate",
+                    [
+                        37,
+                        43
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

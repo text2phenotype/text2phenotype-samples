@@ -1,0 +1,223 @@
+{
+    "file": "ultrasound-kidney.txt-clean.txt",
+    "text2summary": {
+        "Medication": [],
+        "Allergy": [],
+        "Lab": [
+            {
+                "code": "",
+                "cui": "C0002059",
+                "tui": "T034",
+                "vocab": "LNC",
+                "polarity": "positive",
+                "text": "AP",
+                "preferredText": "ALP - ALKALINE PHOSPHATASE",
+                "range": [
+                    8,
+                    10
+                ]
+            }
+        ],
+        "DiseaseDisorder": [
+            {
+                "text": "Ureteral stricture",
+                "range": [
+                    55,
+                    73
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "25341005",
+                "cui": "C3887590",
+                "tui": "T190",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Stricture of ureter"
+            },
+            {
+                "text": "stable\nversus most",
+                "range": [
+                    520,
+                    538
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "hydronephrosis",
+                "range": [
+                    1087,
+                    1101
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "43064006",
+                "cui": "C0020295",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Hydronephrosis"
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.004,
+        "uncertain_count": 0,
+        "narrow_band_ratio": 0.0,
+        "uncertain_tokens": {},
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "Ureteral",
+                    [
+                        55,
+                        63
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "stricture",
+                    [
+                        64,
+                        73
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "findings",
+                    [
+                        507,
+                        515
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "stable",
+                    [
+                        520,
+                        526
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "versus",
+                    [
+                        527,
+                        533
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "most",
+                    [
+                        534,
+                        538
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "hydronephrosis",
+                    [
+                        1087,
+                        1101
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.958,
+                    "Ureteral",
+                    [
+                        55,
+                        63
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.925,
+                    "stricture",
+                    [
+                        64,
+                        73
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.65,
+                    "stable",
+                    [
+                        520,
+                        526
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.693,
+                    "versus",
+                    [
+                        527,
+                        533
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.87,
+                    "hydronephrosis",
+                    [
+                        1087,
+                        1101
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.12,
+        "uncertain_token_count": 3,
+        "narrow_band_ratio": 0.015,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.488,
+                    "findings",
+                    [
+                        507,
+                        515
+                    ]
+                ],
+                [
+                    0.52,
+                    "most",
+                    [
+                        534,
+                        538
+                    ]
+                ],
+                [
+                    0.527,
+                    "calculi",
+                    [
+                        1137,
+                        1144
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

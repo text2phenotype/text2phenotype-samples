@@ -1,0 +1,310 @@
+{
+    "file": "id-buccal-space-abscess.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "propofol",
+                "code": "8782",
+                "cui": "C0033487",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Propofol",
+                "range": [
+                    839,
+                    847
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.971
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "propofol",
+                "code": "8782",
+                "cui": "C0033487",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Propofol",
+                "range": [
+                    839,
+                    847
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.971
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            }
+        ],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "abscess/cellulitis",
+                "range": [
+                    168,
+                    186
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "44132006",
+                "cui": "C0000833",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Abscess"
+            },
+            {
+                "text": "right",
+                "range": [
+                    1171,
+                    1176
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "nerve area as",
+                "range": [
+                    1189,
+                    1202
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "as",
+                "range": [
+                    1208,
+                    1210
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.014,
+        "uncertain_count": 4,
+        "narrow_band_ratio": 0.009,
+        "uncertain_tokens": {
+            "MED": [
+                [
+                    0.611,
+                    "gas",
+                    [
+                        852,
+                        855
+                    ]
+                ],
+                [
+                    0.583,
+                    "chlorhexidine",
+                    [
+                        939,
+                        952
+                    ]
+                ],
+                [
+                    0.567,
+                    "lidocaine",
+                    [
+                        1048,
+                        1057
+                    ]
+                ]
+            ],
+            "NA": [
+                [
+                    0.569,
+                    "inhalation",
+                    [
+                        856,
+                        866
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "PROBLEM": [
+                    "abscess/cellulitis",
+                    [
+                        168,
+                        186
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "right",
+                    [
+                        1171,
+                        1176
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "nerve",
+                    [
+                        1189,
+                        1194
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "area",
+                    [
+                        1195,
+                        1199
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "as",
+                    [
+                        1200,
+                        1202
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "as",
+                    [
+                        1208,
+                        1210
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "PROBLEM": [
+                    0.494,
+                    "abscess/cellulitis",
+                    [
+                        168,
+                        186
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.513,
+                    "right",
+                    [
+                        1171,
+                        1176
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.54,
+                    "nerve",
+                    [
+                        1189,
+                        1194
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.538,
+                    "area",
+                    [
+                        1195,
+                        1199
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.088,
+        "uncertain_token_count": 6,
+        "narrow_band_ratio": 0.014,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.445,
+                    "abscess/cellulitis",
+                    [
+                        49,
+                        67
+                    ]
+                ],
+                [
+                    0.479,
+                    "caries",
+                    [
+                        207,
+                        213
+                    ]
+                ],
+                [
+                    0.523,
+                    "buccal",
+                    [
+                        1182,
+                        1188
+                    ]
+                ],
+                [
+                    0.507,
+                    "as",
+                    [
+                        1208,
+                        1210
+                    ]
+                ]
+            ],
+            "PROBLEM": [
+                [
+                    0.494,
+                    "abscess/cellulitis",
+                    [
+                        168,
+                        186
+                    ]
+                ]
+            ],
+            "DIAGNOSIS": [
+                [
+                    0.513,
+                    "right",
+                    [
+                        1171,
+                        1176
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

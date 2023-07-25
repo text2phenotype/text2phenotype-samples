@@ -1,0 +1,206 @@
+{
+    "file": "hemilaminotomy-foraminotomy.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "Lidocaine",
+                "code": "6387",
+                "cui": "C0023660",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Lidocaine",
+                "range": [
+                    776,
+                    785
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.997
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "Lidocaine",
+                "code": "6387",
+                "cui": "C0023660",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Lidocaine",
+                "range": [
+                    776,
+                    785
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.997
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "epinephrine",
+                "code": "3992",
+                "cui": "C0014563",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Epinephrine",
+                "range": [
+                    791,
+                    802
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.964
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "epinephrine",
+                "code": "3992",
+                "cui": "C0014563",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Epinephrine",
+                "range": [
+                    791,
+                    802
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.964
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "Bacitracin",
+                "code": "1291",
+                "cui": "C0004599",
+                "tui": "T195",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Bacitracin",
+                "range": [
+                    2856,
+                    2866
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.989
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            }
+        ],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "cervical radiculopathy",
+                "range": [
+                    40,
+                    62
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "54404000",
+                "cui": "C0742186",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Radiculopathy, Cervical"
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.01,
+        "uncertain_count": 2,
+        "narrow_band_ratio": 0.003,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.631,
+                    "anesthesia",
+                    [
+                        289,
+                        299
+                    ]
+                ],
+                [
+                    0.575,
+                    "C5-6",
+                    [
+                        1499,
+                        1503
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "cervical",
+                    [
+                        40,
+                        48
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "radiculopathy",
+                    [
+                        49,
+                        62
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.666,
+                    "radiculopathy",
+                    [
+                        49,
+                        62
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.052,
+        "uncertain_token_count": 1,
+        "narrow_band_ratio": 0.002,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.523,
+                    "of",
+                    [
+                        2120,
+                        2122
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

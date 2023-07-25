@@ -1,0 +1,102 @@
+{
+    "file": "inguinal-orchiopexy.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "Marcaine",
+                "code": "1012397",
+                "cui": "C2945665",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Marcaine",
+                "range": [
+                    992,
+                    1000
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.952
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            }
+        ],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "hernia sac",
+                "range": [
+                    306,
+                    316
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "112640005",
+                "cui": "C0333062",
+                "tui": "T190",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Hernia sac"
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.01,
+        "uncertain_count": 0,
+        "narrow_band_ratio": 0.0,
+        "uncertain_tokens": {},
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "hernia",
+                    [
+                        306,
+                        312
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "sac",
+                    [
+                        313,
+                        316
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.609,
+                    "hernia",
+                    [
+                        306,
+                        312
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.755,
+                    "sac",
+                    [
+                        313,
+                        316
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.051,
+        "uncertain_token_count": 0,
+        "narrow_band_ratio": 0.0,
+        "uncertain_tokens": {},
+        "narrow_band_width": 0.2
+    }
+}

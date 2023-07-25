@@ -1,0 +1,893 @@
+{
+    "file": "breast-ultrasound-biopsy.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "lidocaine",
+                "code": "6387",
+                "cui": "C0023660",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Lidocaine",
+                "range": [
+                    2002,
+                    2011
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.93
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "lidocaine",
+                "code": "6387",
+                "cui": "C0023660",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Lidocaine",
+                "range": [
+                    2002,
+                    2011
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.93
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            }
+        ],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "complex\ncircumscribed",
+                "range": [
+                    1444,
+                    1465
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "cystic",
+                "range": [
+                    1476,
+                    1482
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "cystic",
+                "range": [
+                    1784,
+                    1790
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "the",
+                "range": [
+                    2255,
+                    2258
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "hypoechoic area",
+                "range": [
+                    2571,
+                    2586
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "rapidly-expanding",
+                "range": [
+                    2629,
+                    2646
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "mixed",
+                "range": [
+                    3570,
+                    3575
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "cystic",
+                "range": [
+                    3586,
+                    3592
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "Suspicious mammographic",
+                "range": [
+                    4291,
+                    4314
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.005,
+        "uncertain_count": 2,
+        "narrow_band_ratio": 0.002,
+        "uncertain_tokens": {
+            "MED": [
+                [
+                    0.643,
+                    "lidocaine",
+                    [
+                        2064,
+                        2073
+                    ]
+                ]
+            ],
+            "NA": [
+                [
+                    0.565,
+                    "epinephrine",
+                    [
+                        2079,
+                        2090
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "complex",
+                    [
+                        1444,
+                        1451
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "circumscribed",
+                    [
+                        1452,
+                        1465
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "cystic",
+                    [
+                        1476,
+                        1482
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "lesion",
+                    [
+                        1483,
+                        1489
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "cystic",
+                    [
+                        1784,
+                        1790
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "lesion",
+                    [
+                        1791,
+                        1797
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "the",
+                    [
+                        2255,
+                        2258
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "lesion",
+                    [
+                        2259,
+                        2265
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "hypoechoic",
+                    [
+                        2571,
+                        2581
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "area",
+                    [
+                        2582,
+                        2586
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "lesion",
+                    [
+                        2603,
+                        2609
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "rapidly-expanding",
+                    [
+                        2629,
+                        2646
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "hematoma",
+                    [
+                        2647,
+                        2655
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "hematoma",
+                    [
+                        3087,
+                        3095
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "mixed",
+                    [
+                        3570,
+                        3575
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "cystic",
+                    [
+                        3586,
+                        3592
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "lesion",
+                    [
+                        3593,
+                        3599
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "arterial",
+                    [
+                        3782,
+                        3790
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "hemorrhage",
+                    [
+                        3791,
+                        3801
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "mass",
+                    [
+                        4144,
+                        4148
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "Suspicious",
+                    [
+                        4291,
+                        4301
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "mammographic",
+                    [
+                        4302,
+                        4314
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "findings",
+                    [
+                        4315,
+                        4323
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.573,
+                    "complex",
+                    [
+                        1444,
+                        1451
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.503,
+                    "circumscribed",
+                    [
+                        1452,
+                        1465
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.437,
+                    "cystic",
+                    [
+                        1476,
+                        1482
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.529,
+                    "lesion",
+                    [
+                        1483,
+                        1489
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.587,
+                    "lesion",
+                    [
+                        1791,
+                        1797
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.36,
+                    "lesion",
+                    [
+                        2259,
+                        2265
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.539,
+                    "hypoechoic",
+                    [
+                        2571,
+                        2581
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.485,
+                    "area",
+                    [
+                        2582,
+                        2586
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.485,
+                    "lesion",
+                    [
+                        2603,
+                        2609
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.447,
+                    "rapidly-expanding",
+                    [
+                        2629,
+                        2646
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.448,
+                    "hematoma",
+                    [
+                        2647,
+                        2655
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.613,
+                    "hematoma",
+                    [
+                        3087,
+                        3095
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.529,
+                    "mixed",
+                    [
+                        3570,
+                        3575
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.486,
+                    "lesion",
+                    [
+                        3593,
+                        3599
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.463,
+                    "hemorrhage",
+                    [
+                        3791,
+                        3801
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.455,
+                    "mass",
+                    [
+                        4144,
+                        4148
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.49,
+                    "Suspicious",
+                    [
+                        4291,
+                        4301
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.672,
+                    "mammographic",
+                    [
+                        4302,
+                        4314
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.786,
+                    "findings",
+                    [
+                        4315,
+                        4323
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.2,
+        "uncertain_token_count": 35,
+        "narrow_band_ratio": 0.044,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.518,
+                    "tissue",
+                    [
+                        167,
+                        173
+                    ]
+                ],
+                [
+                    0.518,
+                    "lump",
+                    [
+                        174,
+                        178
+                    ]
+                ],
+                [
+                    0.529,
+                    "of",
+                    [
+                        1187,
+                        1189
+                    ]
+                ],
+                [
+                    0.527,
+                    "the",
+                    [
+                        1190,
+                        1193
+                    ]
+                ],
+                [
+                    0.529,
+                    "left",
+                    [
+                        1194,
+                        1198
+                    ]
+                ],
+                [
+                    0.467,
+                    "solid",
+                    [
+                        1466,
+                        1471
+                    ]
+                ],
+                [
+                    0.498,
+                    "hypervascular",
+                    [
+                        1495,
+                        1508
+                    ]
+                ],
+                [
+                    0.492,
+                    "properties",
+                    [
+                        1509,
+                        1519
+                    ]
+                ],
+                [
+                    0.472,
+                    "lesion",
+                    [
+                        1607,
+                        1613
+                    ]
+                ],
+                [
+                    0.417,
+                    "cystic",
+                    [
+                        1784,
+                        1790
+                    ]
+                ],
+                [
+                    0.503,
+                    "lesion",
+                    [
+                        2206,
+                        2212
+                    ]
+                ],
+                [
+                    0.5,
+                    "vessels",
+                    [
+                        2235,
+                        2242
+                    ]
+                ],
+                [
+                    0.487,
+                    "surrounding",
+                    [
+                        2243,
+                        2254
+                    ]
+                ],
+                [
+                    0.43,
+                    "the",
+                    [
+                        2255,
+                        2258
+                    ]
+                ],
+                [
+                    0.425,
+                    "lesion",
+                    [
+                        2443,
+                        2449
+                    ]
+                ],
+                [
+                    0.436,
+                    "surrounding",
+                    [
+                        2587,
+                        2598
+                    ]
+                ],
+                [
+                    0.434,
+                    "the",
+                    [
+                        2599,
+                        2602
+                    ]
+                ],
+                [
+                    0.416,
+                    "ChloraPrep",
+                    [
+                        3191,
+                        3201
+                    ]
+                ],
+                [
+                    0.363,
+                    "cystic",
+                    [
+                        3586,
+                        3592
+                    ]
+                ],
+                [
+                    0.473,
+                    "arterial",
+                    [
+                        3782,
+                        3790
+                    ]
+                ],
+                [
+                    0.379,
+                    "hematoma",
+                    [
+                        3862,
+                        3870
+                    ]
+                ],
+                [
+                    0.454,
+                    "condition",
+                    [
+                        4038,
+                        4047
+                    ]
+                ]
+            ],
+            "DIAGNOSIS": [
+                [
+                    0.503,
+                    "circumscribed",
+                    [
+                        1452,
+                        1465
+                    ]
+                ],
+                [
+                    0.447,
+                    "rapidly-expanding",
+                    [
+                        2629,
+                        2646
+                    ]
+                ],
+                [
+                    0.448,
+                    "hematoma",
+                    [
+                        2647,
+                        2655
+                    ]
+                ],
+                [
+                    0.529,
+                    "mixed",
+                    [
+                        3570,
+                        3575
+                    ]
+                ],
+                [
+                    0.486,
+                    "lesion",
+                    [
+                        3593,
+                        3599
+                    ]
+                ],
+                [
+                    0.463,
+                    "hemorrhage",
+                    [
+                        3791,
+                        3801
+                    ]
+                ]
+            ],
+            "PROBLEM": [
+                [
+                    0.437,
+                    "cystic",
+                    [
+                        1476,
+                        1482
+                    ]
+                ],
+                [
+                    0.529,
+                    "lesion",
+                    [
+                        1483,
+                        1489
+                    ]
+                ],
+                [
+                    0.36,
+                    "lesion",
+                    [
+                        2259,
+                        2265
+                    ]
+                ],
+                [
+                    0.485,
+                    "area",
+                    [
+                        2582,
+                        2586
+                    ]
+                ],
+                [
+                    0.485,
+                    "lesion",
+                    [
+                        2603,
+                        2609
+                    ]
+                ],
+                [
+                    0.455,
+                    "mass",
+                    [
+                        4144,
+                        4148
+                    ]
+                ],
+                [
+                    0.49,
+                    "Suspicious",
+                    [
+                        4291,
+                        4301
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

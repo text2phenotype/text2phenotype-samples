@@ -1,0 +1,218 @@
+{
+    "file": "colonoscopy-6.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "Fentanyl",
+                "code": "4337",
+                "cui": "C0015846",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Fentanyl",
+                "range": [
+                    227,
+                    235
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 1.0
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [
+                    "100",
+                    236,
+                    239
+                ],
+                "medStrengthUnit": [
+                    "mg",
+                    253,
+                    255
+                ]
+            },
+            {
+                "text": "Fentanyl",
+                "code": "4337",
+                "cui": "C0015846",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Fentanyl",
+                "range": [
+                    227,
+                    235
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 1.0
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [
+                    "100",
+                    236,
+                    239
+                ],
+                "medStrengthUnit": [
+                    "mg",
+                    253,
+                    255
+                ]
+            }
+        ],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "colonic mucosa",
+                "range": [
+                    718,
+                    732
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "cecum",
+                "range": [
+                    748,
+                    753
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.002,
+        "uncertain_count": 0,
+        "narrow_band_ratio": 0.0,
+        "uncertain_tokens": {},
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "Normal",
+                    [
+                        711,
+                        717
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "colonic",
+                    [
+                        718,
+                        725
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "mucosa",
+                    [
+                        726,
+                        732
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "cecum",
+                    [
+                        748,
+                        753
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.577,
+                    "Normal",
+                    [
+                        711,
+                        717
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.62,
+                    "colonic",
+                    [
+                        718,
+                        725
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.658,
+                    "mucosa",
+                    [
+                        726,
+                        732
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.474,
+                    "cecum",
+                    [
+                        748,
+                        753
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.119,
+        "uncertain_token_count": 3,
+        "narrow_band_ratio": 0.019,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.477,
+                    "through",
+                    [
+                        733,
+                        740
+                    ]
+                ],
+                [
+                    0.526,
+                    "to",
+                    [
+                        741,
+                        743
+                    ]
+                ]
+            ],
+            "DIAGNOSIS": [
+                [
+                    0.474,
+                    "cecum",
+                    [
+                        748,
+                        753
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

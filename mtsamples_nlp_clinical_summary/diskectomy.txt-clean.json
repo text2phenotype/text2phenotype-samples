@@ -1,0 +1,421 @@
+{
+    "file": "diskectomy.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "Depo-Medrol",
+                "code": "22584",
+                "cui": "C0057476",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Depo-Medrol",
+                "range": [
+                    2294,
+                    2305
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.997
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "Depo-Medrol",
+                "code": "22584",
+                "cui": "C0057476",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Depo-Medrol",
+                "range": [
+                    2294,
+                    2305
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.997
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "Marcaine with\nepinephrine",
+                "code": "1372694",
+                "cui": "C3538404",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Marcaine with Epinephrine",
+                "range": [
+                    2763,
+                    2788
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.913
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            }
+        ],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "herniation",
+                "range": [
+                    41,
+                    51
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "414403008",
+                "cui": "C0019270",
+                "tui": "T190",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Hernia"
+            },
+            {
+                "text": "left\nradiculopathy",
+                "range": [
+                    67,
+                    85
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "Recurrent herniation",
+                "range": [
+                    118,
+                    138
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "disk with left\nradiculopathy",
+                "range": [
+                    144,
+                    172
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.016,
+        "uncertain_count": 3,
+        "narrow_band_ratio": 0.006,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.532,
+                    "Betadine",
+                    [
+                        788,
+                        796
+                    ]
+                ],
+                [
+                    0.588,
+                    "epinephrine",
+                    [
+                        2777,
+                        2788
+                    ]
+                ]
+            ],
+            "MED": [
+                [
+                    0.604,
+                    "antibiotic",
+                    [
+                        2252,
+                        2262
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "ES",
+                    [
+                        26,
+                        28
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "herniation",
+                    [
+                        41,
+                        51
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "L4-5",
+                    [
+                        52,
+                        56
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "left",
+                    [
+                        67,
+                        71
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "radiculopathy",
+                    [
+                        72,
+                        85
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "ES",
+                    [
+                        113,
+                        115
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Recurrent",
+                    [
+                        118,
+                        127
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "herniation",
+                    [
+                        128,
+                        138
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "L4-5",
+                    [
+                        139,
+                        143
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "disk",
+                    [
+                        144,
+                        148
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "with",
+                    [
+                        149,
+                        153
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "left",
+                    [
+                        154,
+                        158
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "radiculopathy",
+                    [
+                        159,
+                        172
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.706,
+                    "ES",
+                    [
+                        26,
+                        28
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.912,
+                    "herniation",
+                    [
+                        41,
+                        51
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.767,
+                    "L4-5",
+                    [
+                        52,
+                        56
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.579,
+                    "left",
+                    [
+                        67,
+                        71
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.72,
+                    "radiculopathy",
+                    [
+                        72,
+                        85
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.945,
+                    "ES",
+                    [
+                        113,
+                        115
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.869,
+                    "Recurrent",
+                    [
+                        118,
+                        127
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.982,
+                    "herniation",
+                    [
+                        128,
+                        138
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.955,
+                    "L4-5",
+                    [
+                        139,
+                        143
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.636,
+                    "disk",
+                    [
+                        144,
+                        148
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.639,
+                    "with",
+                    [
+                        149,
+                        153
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.913,
+                    "left",
+                    [
+                        154,
+                        158
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.965,
+                    "radiculopathy",
+                    [
+                        159,
+                        172
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.055,
+        "uncertain_token_count": 0,
+        "narrow_band_ratio": 0.0,
+        "uncertain_tokens": {},
+        "narrow_band_width": 0.2
+    }
+}

@@ -1,0 +1,232 @@
+{
+    "file": "mri-c-spine.txt-clean.txt",
+    "text2summary": {
+        "Medication": [],
+        "Allergy": [],
+        "Lab": [
+            {
+                "code": "272170001",
+                "cui": "C0023516",
+                "tui": "T034",
+                "vocab": "SNOMEDCT_US",
+                "polarity": "positive",
+                "text": "WBC",
+                "preferredText": "WHITE BLOOD CELL (CELL)",
+                "range": [
+                    1582,
+                    1585
+                ]
+            },
+            {
+                "code": "LP32534-7",
+                "cui": "C0017725",
+                "tui": "T034",
+                "vocab": "LNC",
+                "polarity": "positive",
+                "text": "Glucose",
+                "preferredText": "GLUCOSE",
+                "range": [
+                    1619,
+                    1626
+                ]
+            },
+            {
+                "code": "",
+                "cui": "C0523465",
+                "tui": "T034",
+                "vocab": "LNC",
+                "polarity": "positive",
+                "text": "Serum Albumin",
+                "preferredText": "ALBUMIN; SERUM, PLASMA OR WHOLE BLOOD",
+                "range": [
+                    1667,
+                    1680
+                ]
+            }
+        ],
+        "DiseaseDisorder": [
+            {
+                "text": "hemibody numbness",
+                "range": [
+                    77,
+                    94
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "ataxia",
+                "range": [
+                    123,
+                    129
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "Bronchitis",
+                "range": [
+                    489,
+                    499
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "32398004",
+                "cui": "C0006277",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Bronchitis"
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.005,
+        "uncertain_count": 1,
+        "narrow_band_ratio": 0.003,
+        "uncertain_tokens": {
+            "MED": [
+                [
+                    0.666,
+                    "gadolinium",
+                    [
+                        1492,
+                        1502
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "PROBLEM": [
+                    "hemibody",
+                    [
+                        77,
+                        85
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "numbness",
+                    [
+                        86,
+                        94
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "ataxia",
+                    [
+                        123,
+                        129
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Bronchitis",
+                    [
+                        489,
+                        499
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "PROBLEM": [
+                    0.424,
+                    "hemibody",
+                    [
+                        77,
+                        85
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.562,
+                    "numbness",
+                    [
+                        86,
+                        94
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.492,
+                    "ataxia",
+                    [
+                        123,
+                        129
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.957,
+                    "Bronchitis",
+                    [
+                        489,
+                        499
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.091,
+        "uncertain_token_count": 4,
+        "narrow_band_ratio": 0.01,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.397,
+                    "hemibody",
+                    [
+                        11,
+                        19
+                    ]
+                ],
+                [
+                    0.507,
+                    "numbness",
+                    [
+                        20,
+                        28
+                    ]
+                ]
+            ],
+            "PROBLEM": [
+                [
+                    0.424,
+                    "hemibody",
+                    [
+                        77,
+                        85
+                    ]
+                ],
+                [
+                    0.492,
+                    "ataxia",
+                    [
+                        123,
+                        129
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

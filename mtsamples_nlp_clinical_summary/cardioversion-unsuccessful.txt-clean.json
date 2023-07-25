@@ -1,0 +1,294 @@
+{
+    "file": "cardioversion-unsuccessful.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "fentanyl",
+                "code": "4337",
+                "cui": "C0015846",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Fentanyl",
+                "range": [
+                    318,
+                    326
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 1.0
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [
+                    "6",
+                    331,
+                    332
+                ],
+                "medStrengthUnit": [
+                    "mg",
+                    333,
+                    335
+                ]
+            },
+            {
+                "text": "fentanyl",
+                "code": "4337",
+                "cui": "C0015846",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Fentanyl",
+                "range": [
+                    318,
+                    326
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 1.0
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [
+                    "6",
+                    331,
+                    332
+                ],
+                "medStrengthUnit": [
+                    "mg",
+                    333,
+                    335
+                ]
+            },
+            {
+                "text": "amiodarone",
+                "code": "703",
+                "cui": "C0002598",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Amiodarone",
+                "range": [
+                    750,
+                    760
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 1.0
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "amiodarone",
+                "code": "703",
+                "cui": "C0002598",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Amiodarone",
+                "range": [
+                    750,
+                    760
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 1.0
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            }
+        ],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "into atrial fibrillation",
+                "range": [
+                    673,
+                    697
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.002,
+        "uncertain_count": 0,
+        "narrow_band_ratio": 0.0,
+        "uncertain_tokens": {},
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "atrial",
+                    [
+                        658,
+                        664
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "flutter",
+                    [
+                        665,
+                        672
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "into",
+                    [
+                        673,
+                        677
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "atrial",
+                    [
+                        678,
+                        684
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "fibrillation",
+                    [
+                        685,
+                        697
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "permanent",
+                    [
+                        994,
+                        1003
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "atrial",
+                    [
+                        1004,
+                        1010
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "fibrillation",
+                    [
+                        1011,
+                        1023
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.713,
+                    "atrial",
+                    [
+                        658,
+                        664
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.75,
+                    "flutter",
+                    [
+                        665,
+                        672
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.7,
+                    "into",
+                    [
+                        673,
+                        677
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.861,
+                    "atrial",
+                    [
+                        678,
+                        684
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.909,
+                    "fibrillation",
+                    [
+                        685,
+                        697
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.82,
+                    "permanent",
+                    [
+                        994,
+                        1003
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.951,
+                    "atrial",
+                    [
+                        1004,
+                        1010
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.977,
+                    "fibrillation",
+                    [
+                        1011,
+                        1023
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.113,
+        "uncertain_token_count": 0,
+        "narrow_band_ratio": 0.0,
+        "uncertain_tokens": {},
+        "narrow_band_width": 0.2
+    }
+}

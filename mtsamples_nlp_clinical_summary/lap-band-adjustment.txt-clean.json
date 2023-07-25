@@ -1,0 +1,180 @@
+{
+    "file": "lap-band-adjustment.txt-clean.txt",
+    "text2summary": {
+        "Medication": [],
+        "Allergy": [],
+        "Lab": [
+            {
+                "code": "",
+                "cui": "C0002059",
+                "tui": "T034",
+                "vocab": "LNC",
+                "polarity": "positive",
+                "text": "AP",
+                "preferredText": "ALP - ALKALINE PHOSPHATASE",
+                "range": [
+                    920,
+                    922
+                ]
+            }
+        ],
+        "DiseaseDisorder": [
+            {
+                "text": "Ms.",
+                "range": [
+                    70,
+                    73
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "24700007",
+                "cui": "C0026769",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Multiple Sclerosis"
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.009,
+        "uncertain_count": 2,
+        "narrow_band_ratio": 0.008,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.653,
+                    "water",
+                    [
+                        1043,
+                        1048
+                    ]
+                ],
+                [
+                    0.574,
+                    "water",
+                    [
+                        1185,
+                        1190
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "Ms.",
+                    [
+                        70,
+                        73
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "stress",
+                    [
+                        271,
+                        277
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "problems",
+                    [
+                        339,
+                        347
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "difficulty",
+                    [
+                        512,
+                        522
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.623,
+                    "Ms.",
+                    [
+                        70,
+                        73
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.456,
+                    "stress",
+                    [
+                        271,
+                        277
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.751,
+                    "problems",
+                    [
+                        339,
+                        347
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.434,
+                    "difficulty",
+                    [
+                        512,
+                        522
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.14,
+        "uncertain_token_count": 3,
+        "narrow_band_ratio": 0.011,
+        "uncertain_tokens": {
+            "PROBLEM": [
+                [
+                    0.456,
+                    "stress",
+                    [
+                        271,
+                        277
+                    ]
+                ],
+                [
+                    0.434,
+                    "difficulty",
+                    [
+                        512,
+                        522
+                    ]
+                ]
+            ],
+            "NA": [
+                [
+                    0.511,
+                    "finding",
+                    [
+                        468,
+                        475
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

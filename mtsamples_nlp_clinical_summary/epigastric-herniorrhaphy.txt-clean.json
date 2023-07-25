@@ -1,0 +1,278 @@
+{
+    "file": "epigastric-herniorrhaphy.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "Hibiclens",
+                "code": "224892",
+                "cui": "C0728728",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Hibiclens",
+                "range": [
+                    263,
+                    272
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.975
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "Hibiclens",
+                "code": "224892",
+                "cui": "C0728728",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Hibiclens",
+                "range": [
+                    263,
+                    272
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.975
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "Marcaine",
+                "code": "1012397",
+                "cui": "C2945665",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Marcaine",
+                "range": [
+                    388,
+                    396
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.997
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            }
+        ],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "Epigastric hernia",
+                "range": [
+                    26,
+                    43
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "289260002",
+                "cui": "C0019287",
+                "tui": "T190",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Epigastric hernia"
+            },
+            {
+                "text": "Epigastric hernia",
+                "range": [
+                    71,
+                    88
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "289260002",
+                "cui": "C0019287",
+                "tui": "T190",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Epigastric hernia"
+            },
+            {
+                "text": "hernia",
+                "range": [
+                    452,
+                    458
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "414403008",
+                "cui": "C0019270",
+                "tui": "T190",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Hernia"
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.011,
+        "uncertain_count": 1,
+        "narrow_band_ratio": 0.005,
+        "uncertain_tokens": {
+            "MED": [
+                [
+                    0.655,
+                    "Xylocaine",
+                    [
+                        401,
+                        410
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "PROBLEM": [
+                    "Epigastric",
+                    [
+                        26,
+                        36
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "hernia",
+                    [
+                        37,
+                        43
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Epigastric",
+                    [
+                        71,
+                        81
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "hernia",
+                    [
+                        82,
+                        88
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "inhalation",
+                    [
+                        150,
+                        160
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "hernia",
+                    [
+                        452,
+                        458
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "PROBLEM": [
+                    0.584,
+                    "Epigastric",
+                    [
+                        26,
+                        36
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.449,
+                    "hernia",
+                    [
+                        37,
+                        43
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.72,
+                    "Epigastric",
+                    [
+                        71,
+                        81
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.829,
+                    "hernia",
+                    [
+                        82,
+                        88
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.695,
+                    "inhalation",
+                    [
+                        150,
+                        160
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.104,
+        "uncertain_token_count": 3,
+        "narrow_band_ratio": 0.015,
+        "uncertain_tokens": {
+            "DIAGNOSIS": [
+                [
+                    0.449,
+                    "hernia",
+                    [
+                        37,
+                        43
+                    ]
+                ]
+            ],
+            "NA": [
+                [
+                    0.468,
+                    "hernia",
+                    [
+                        299,
+                        305
+                    ]
+                ],
+                [
+                    0.494,
+                    "hernia",
+                    [
+                        452,
+                        458
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

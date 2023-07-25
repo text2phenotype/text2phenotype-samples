@@ -1,0 +1,495 @@
+{
+    "file": "thoracotomy-bronchoscopy.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "Betadine",
+                "code": "202750",
+                "cui": "C0699524",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Betadine",
+                "range": [
+                    2223,
+                    2231
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.999
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "Betadine",
+                "code": "202750",
+                "cui": "C0699524",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Betadine",
+                "range": [
+                    2223,
+                    2231
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.999
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "CTX",
+                "code": "3002",
+                "cui": "C0010583",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Cyclophosphamide",
+                "range": [
+                    4150,
+                    4153
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.985
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "CTX",
+                "code": "3002",
+                "cui": "C0010583",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Cyclophosphamide",
+                "range": [
+                    4150,
+                    4153
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.985
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            }
+        ],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "Empyema",
+                "range": [
+                    26,
+                    33
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "66696003",
+                "cui": "C0014009",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Empyema"
+            },
+            {
+                "text": "Empyema",
+                "range": [
+                    61,
+                    68
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "66696003",
+                "cui": "C0014009",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Empyema"
+            },
+            {
+                "text": "right\npleural effusion",
+                "range": [
+                    457,
+                    479
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "pleural effusion",
+                "range": [
+                    563,
+                    579
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "60046008",
+                "cui": "C0032227",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Pleural effusion disorder"
+            },
+            {
+                "text": "right",
+                "range": [
+                    638,
+                    643
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "pleural",
+                "range": [
+                    2812,
+                    2819
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "88075009",
+                "cui": "C0032226",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Pleural Diseases"
+            },
+            {
+                "text": "of the",
+                "range": [
+                    4575,
+                    4581
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.009,
+        "uncertain_count": 4,
+        "narrow_band_ratio": 0.005,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.561,
+                    "decortication",
+                    [
+                        2750,
+                        2763
+                    ]
+                ],
+                [
+                    0.566,
+                    "0-silk",
+                    [
+                        4045,
+                        4051
+                    ]
+                ],
+                [
+                    0.614,
+                    "sutures",
+                    [
+                        4154,
+                        4161
+                    ]
+                ],
+                [
+                    0.52,
+                    "Pleur-Evac",
+                    [
+                        4534,
+                        4544
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "Empyema",
+                    [
+                        26,
+                        33
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Empyema",
+                    [
+                        61,
+                        68
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "right",
+                    [
+                        457,
+                        462
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "pleural",
+                    [
+                        463,
+                        470
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "effusion",
+                    [
+                        471,
+                        479
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "pleural",
+                    [
+                        563,
+                        570
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "effusion",
+                    [
+                        571,
+                        579
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "right",
+                    [
+                        638,
+                        643
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "pleural",
+                    [
+                        2812,
+                        2819
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "of",
+                    [
+                        4575,
+                        4577
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "the",
+                    [
+                        4578,
+                        4581
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.852,
+                    "Empyema",
+                    [
+                        26,
+                        33
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.952,
+                    "Empyema",
+                    [
+                        61,
+                        68
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.8,
+                    "right",
+                    [
+                        457,
+                        462
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.883,
+                    "pleural",
+                    [
+                        463,
+                        470
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.869,
+                    "effusion",
+                    [
+                        471,
+                        479
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.895,
+                    "pleural",
+                    [
+                        563,
+                        570
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.906,
+                    "effusion",
+                    [
+                        571,
+                        579
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.518,
+                    "pleural",
+                    [
+                        2812,
+                        2819
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.523,
+                    "of",
+                    [
+                        4575,
+                        4577
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.487,
+                    "the",
+                    [
+                        4578,
+                        4581
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.08,
+        "uncertain_token_count": 6,
+        "narrow_band_ratio": 0.007,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.48,
+                    "right",
+                    [
+                        638,
+                        643
+                    ]
+                ],
+                [
+                    0.464,
+                    "left",
+                    [
+                        1903,
+                        1907
+                    ]
+                ],
+                [
+                    0.478,
+                    "lung",
+                    [
+                        4582,
+                        4586
+                    ]
+                ]
+            ],
+            "DIAGNOSIS": [
+                [
+                    0.518,
+                    "pleural",
+                    [
+                        2812,
+                        2819
+                    ]
+                ],
+                [
+                    0.523,
+                    "of",
+                    [
+                        4575,
+                        4577
+                    ]
+                ],
+                [
+                    0.487,
+                    "the",
+                    [
+                        4578,
+                        4581
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

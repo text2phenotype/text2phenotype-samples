@@ -1,0 +1,115 @@
+{
+    "file": "exploratory-laparotomy.txt-clean.txt",
+    "text2summary": {
+        "Medication": [],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "abscess",
+                "range": [
+                    1100,
+                    1107
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "44132006",
+                "cui": "C0000833",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Abscess"
+            },
+            {
+                "text": "stomach",
+                "range": [
+                    1312,
+                    1319
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "29384001",
+                "cui": "C0038354",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Stomach Diseases"
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.004,
+        "uncertain_count": 0,
+        "narrow_band_ratio": 0.0,
+        "uncertain_tokens": {},
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "abscess",
+                    [
+                        1100,
+                        1107
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "stomach",
+                    [
+                        1312,
+                        1319
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.577,
+                    "abscess",
+                    [
+                        1100,
+                        1107
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.465,
+                    "stomach",
+                    [
+                        1312,
+                        1319
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.076,
+        "uncertain_token_count": 2,
+        "narrow_band_ratio": 0.005,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.463,
+                    "anastomosis",
+                    [
+                        106,
+                        117
+                    ]
+                ]
+            ],
+            "DIAGNOSIS": [
+                [
+                    0.465,
+                    "stomach",
+                    [
+                        1312,
+                        1319
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

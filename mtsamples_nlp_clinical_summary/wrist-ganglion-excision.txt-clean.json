@@ -1,0 +1,254 @@
+{
+    "file": "wrist-ganglion-excision.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "Marcaine\nwith epinephrine",
+                "code": "1372694",
+                "cui": "C3538404",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Marcaine with Epinephrine",
+                "range": [
+                    887,
+                    912
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.982
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            }
+        ],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "Wrist ganglion",
+                "range": [
+                    26,
+                    40
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "202942009",
+                "cui": "C0343231",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Ganglion of wrist"
+            },
+            {
+                "text": "Wrist ganglion",
+                "range": [
+                    68,
+                    82
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "202942009",
+                "cui": "C0343231",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Ganglion of wrist"
+            },
+            {
+                "text": "splinted the",
+                "range": [
+                    928,
+                    940
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.012,
+        "uncertain_count": 1,
+        "narrow_band_ratio": 0.006,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.56,
+                    "capsule",
+                    [
+                        662,
+                        669
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "PROBLEM": [
+                    "Wrist",
+                    [
+                        26,
+                        31
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "ganglion",
+                    [
+                        32,
+                        40
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Wrist",
+                    [
+                        68,
+                        73
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "ganglion",
+                    [
+                        74,
+                        82
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "dressed",
+                    [
+                        916,
+                        923
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "splinted",
+                    [
+                        928,
+                        936
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "the",
+                    [
+                        937,
+                        940
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "wound",
+                    [
+                        941,
+                        946
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "PROBLEM": [
+                    0.797,
+                    "Wrist",
+                    [
+                        26,
+                        31
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.822,
+                    "ganglion",
+                    [
+                        32,
+                        40
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.587,
+                    "Wrist",
+                    [
+                        68,
+                        73
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.551,
+                    "ganglion",
+                    [
+                        74,
+                        82
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.618,
+                    "dressed",
+                    [
+                        916,
+                        923
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.73,
+                    "splinted",
+                    [
+                        928,
+                        936
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.662,
+                    "the",
+                    [
+                        937,
+                        940
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.726,
+                    "wound",
+                    [
+                        941,
+                        946
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.081,
+        "uncertain_token_count": 0,
+        "narrow_band_ratio": 0.0,
+        "uncertain_tokens": {},
+        "narrow_band_width": 0.2
+    }
+}

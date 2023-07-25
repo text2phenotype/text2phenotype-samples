@@ -1,0 +1,663 @@
+{
+    "file": "arthroscopic-rotator-cuff-repair.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "Xylocaine",
+                "code": "202398",
+                "cui": "C0699094",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Xylocaine",
+                "range": [
+                    3787,
+                    3796
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.953
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "Xylocaine",
+                "code": "202398",
+                "cui": "C0699094",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Xylocaine",
+                "range": [
+                    3787,
+                    3796
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.953
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "iodoform",
+                "code": "27748",
+                "cui": "C0063779",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "iodoform",
+                "range": [
+                    3940,
+                    3948
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.922
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "iodoform",
+                "code": "27748",
+                "cui": "C0063779",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "iodoform",
+                "range": [
+                    3940,
+                    3948
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.922
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            }
+        ],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "Acute complete tear",
+                "range": [
+                    825,
+                    844
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "supraspinatus",
+                "range": [
+                    852,
+                    865
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "Shoulder\nimpingement syndrome",
+                "range": [
+                    867,
+                    896
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "239960007",
+                "cui": "C0376685",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Shoulder Impingement Syndrome"
+            },
+            {
+                "text": "Acute complete tear of the supraspinatus",
+                "range": [
+                    918,
+                    958
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "Shoulder\nimpingement syndrome",
+                "range": [
+                    960,
+                    989
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "239960007",
+                "cui": "C0376685",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Shoulder Impingement Syndrome"
+            },
+            {
+                "text": "anterior acromial spur",
+                "range": [
+                    1095,
+                    1117
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "51742006",
+                "cui": "C0751437",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Adenohypophyseal Diseases"
+            },
+            {
+                "text": "bursa",
+                "range": [
+                    1140,
+                    1145
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "tendon-to-bone",
+                "range": [
+                    3383,
+                    3397
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.008,
+        "uncertain_count": 2,
+        "narrow_band_ratio": 0.002,
+        "uncertain_tokens": {
+            "MED": [
+                [
+                    0.506,
+                    "suture",
+                    [
+                        3443,
+                        3449
+                    ]
+                ],
+                [
+                    0.656,
+                    "5/500",
+                    [
+                        4526,
+                        4531
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "Acute",
+                    [
+                        825,
+                        830
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "complete",
+                    [
+                        831,
+                        839
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "tear",
+                    [
+                        840,
+                        844
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "supraspinatus",
+                    [
+                        852,
+                        865
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Shoulder",
+                    [
+                        867,
+                        875
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "impingement",
+                    [
+                        876,
+                        887
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "syndrome",
+                    [
+                        888,
+                        896
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Acute",
+                    [
+                        918,
+                        923
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "complete",
+                    [
+                        924,
+                        932
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "tear",
+                    [
+                        933,
+                        937
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "of",
+                    [
+                        938,
+                        940
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "the",
+                    [
+                        941,
+                        944
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "supraspinatus",
+                    [
+                        945,
+                        958
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Shoulder",
+                    [
+                        960,
+                        968
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "impingement",
+                    [
+                        969,
+                        980
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "syndrome",
+                    [
+                        981,
+                        989
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "anterior",
+                    [
+                        1095,
+                        1103
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "acromial",
+                    [
+                        1104,
+                        1112
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "spur",
+                    [
+                        1113,
+                        1117
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "bursa",
+                    [
+                        1140,
+                        1145
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "tendon-to-bone",
+                    [
+                        3383,
+                        3397
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.887,
+                    "Acute",
+                    [
+                        825,
+                        830
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.961,
+                    "complete",
+                    [
+                        831,
+                        839
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.96,
+                    "tear",
+                    [
+                        840,
+                        844
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.525,
+                    "supraspinatus",
+                    [
+                        852,
+                        865
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.859,
+                    "Shoulder",
+                    [
+                        867,
+                        875
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.698,
+                    "impingement",
+                    [
+                        876,
+                        887
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.589,
+                    "syndrome",
+                    [
+                        888,
+                        896
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.841,
+                    "Acute",
+                    [
+                        918,
+                        923
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.905,
+                    "complete",
+                    [
+                        924,
+                        932
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.923,
+                    "tear",
+                    [
+                        933,
+                        937
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.714,
+                    "of",
+                    [
+                        938,
+                        940
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.704,
+                    "the",
+                    [
+                        941,
+                        944
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.795,
+                    "supraspinatus",
+                    [
+                        945,
+                        958
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.963,
+                    "Shoulder",
+                    [
+                        960,
+                        968
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.905,
+                    "impingement",
+                    [
+                        969,
+                        980
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.87,
+                    "syndrome",
+                    [
+                        981,
+                        989
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.596,
+                    "anterior",
+                    [
+                        1095,
+                        1103
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.638,
+                    "acromial",
+                    [
+                        1104,
+                        1112
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.648,
+                    "spur",
+                    [
+                        1113,
+                        1117
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.09,
+        "uncertain_token_count": 5,
+        "narrow_band_ratio": 0.006,
+        "uncertain_tokens": {
+            "DIAGNOSIS": [
+                [
+                    0.525,
+                    "supraspinatus",
+                    [
+                        852,
+                        865
+                    ]
+                ]
+            ],
+            "NA": [
+                [
+                    0.499,
+                    "bursa",
+                    [
+                        1140,
+                        1145
+                    ]
+                ],
+                [
+                    0.454,
+                    "subacromial",
+                    [
+                        2612,
+                        2623
+                    ]
+                ],
+                [
+                    0.433,
+                    "bursa",
+                    [
+                        2624,
+                        2629
+                    ]
+                ],
+                [
+                    0.52,
+                    "tendon-to-bone",
+                    [
+                        3383,
+                        3397
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

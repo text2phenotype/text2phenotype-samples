@@ -1,0 +1,348 @@
+{
+    "file": "carbohydrate-counting.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "Humalog",
+                "code": "135805",
+                "cui": "C0528249",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Humalog",
+                "range": [
+                    407,
+                    414
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.98
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [
+                    "day",
+                    2771,
+                    2774
+                ],
+                "medStrengthNum": [
+                    "6",
+                    848,
+                    849
+                ],
+                "medStrengthUnit": [
+                    "g",
+                    923,
+                    924
+                ]
+            },
+            {
+                "text": "carbohydrate",
+                "code": null,
+                "cui": null,
+                "tui": null,
+                "vocab": null,
+                "polarity": "positive",
+                "preferredText": null,
+                "range": [
+                    1062,
+                    1074
+                ],
+                "prob": {
+                    "MED": 0.904
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "insulin",
+                "code": null,
+                "cui": null,
+                "tui": null,
+                "vocab": null,
+                "polarity": "positive",
+                "preferredText": null,
+                "range": [
+                    1201,
+                    1208
+                ],
+                "prob": {
+                    "MED": 0.939
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "insulin",
+                "code": null,
+                "cui": null,
+                "tui": null,
+                "vocab": null,
+                "polarity": "positive",
+                "preferredText": null,
+                "range": [
+                    2571,
+                    2578
+                ],
+                "prob": {
+                    "MED": 0.944
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            }
+        ],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "type I diabetes",
+                "range": [
+                    108,
+                    123
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "46635009",
+                "cui": "C0011854",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Diabetes Mellitus, Insulin-Dependent"
+            },
+            {
+                "text": "DKA",
+                "range": [
+                    192,
+                    195
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "420422005",
+                "cui": "C0011880",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Diabetic Ketoacidosis"
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.028,
+        "uncertain_count": 6,
+        "narrow_band_ratio": 0.011,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.628,
+                    "injectable",
+                    [
+                        440,
+                        450
+                    ]
+                ],
+                [
+                    0.65,
+                    "counting",
+                    [
+                        1356,
+                        1364
+                    ]
+                ],
+                [
+                    0.668,
+                    "carbohydrates",
+                    [
+                        1474,
+                        1487
+                    ]
+                ]
+            ],
+            "MED": [
+                [
+                    0.617,
+                    "counting",
+                    [
+                        1075,
+                        1083
+                    ]
+                ],
+                [
+                    0.604,
+                    "insulin",
+                    [
+                        1097,
+                        1104
+                    ]
+                ],
+                [
+                    0.521,
+                    "carbohydrate",
+                    [
+                        1792,
+                        1804
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "type",
+                    [
+                        108,
+                        112
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "I",
+                    [
+                        113,
+                        114
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "diabetes",
+                    [
+                        115,
+                        123
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "DKA",
+                    [
+                        192,
+                        195
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "feeling",
+                    [
+                        617,
+                        624
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "cold",
+                    [
+                        654,
+                        658
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.838,
+                    "type",
+                    [
+                        108,
+                        112
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.857,
+                    "I",
+                    [
+                        113,
+                        114
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.97,
+                    "diabetes",
+                    [
+                        115,
+                        123
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.875,
+                    "DKA",
+                    [
+                        192,
+                        195
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.494,
+                    "feeling",
+                    [
+                        617,
+                        624
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.428,
+                    "cold",
+                    [
+                        654,
+                        658
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.066,
+        "uncertain_token_count": 3,
+        "narrow_band_ratio": 0.006,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.525,
+                    "not",
+                    [
+                        613,
+                        616
+                    ]
+                ]
+            ],
+            "PROBLEM": [
+                [
+                    0.494,
+                    "feeling",
+                    [
+                        617,
+                        624
+                    ]
+                ]
+            ],
+            "DIAGNOSIS": [
+                [
+                    0.428,
+                    "cold",
+                    [
+                        654,
+                        658
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

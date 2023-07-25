@@ -1,0 +1,232 @@
+{
+    "file": "pigtail-catheter-insertion.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "Xylocaine",
+                "code": "202398",
+                "cui": "C0699094",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Xylocaine",
+                "range": [
+                    391,
+                    400
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.977
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [
+                    "1",
+                    401,
+                    402
+                ],
+                "medStrengthUnit": [
+                    "%",
+                    402,
+                    403
+                ]
+            },
+            {
+                "text": "Xylocaine",
+                "code": "202398",
+                "cui": "C0699094",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Xylocaine",
+                "range": [
+                    391,
+                    400
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.977
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [
+                    "1",
+                    401,
+                    402
+                ],
+                "medStrengthUnit": [
+                    "%",
+                    402,
+                    403
+                ]
+            }
+        ],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "Left hemothorax",
+                "range": [
+                    26,
+                    41
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "Left hemothorax",
+                "range": [
+                    87,
+                    102
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "empyema",
+                "range": [
+                    112,
+                    119
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.006,
+        "uncertain_count": 0,
+        "narrow_band_ratio": 0.0,
+        "uncertain_tokens": {},
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "Left",
+                    [
+                        26,
+                        30
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "hemothorax",
+                    [
+                        31,
+                        41
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Left",
+                    [
+                        87,
+                        91
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "hemothorax",
+                    [
+                        92,
+                        102
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "empyema",
+                    [
+                        112,
+                        119
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.562,
+                    "Left",
+                    [
+                        26,
+                        30
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.501,
+                    "hemothorax",
+                    [
+                        31,
+                        41
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.802,
+                    "Left",
+                    [
+                        87,
+                        91
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.715,
+                    "hemothorax",
+                    [
+                        92,
+                        102
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.704,
+                    "empyema",
+                    [
+                        112,
+                        119
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.099,
+        "uncertain_token_count": 1,
+        "narrow_band_ratio": 0.006,
+        "uncertain_tokens": {
+            "PROBLEM": [
+                [
+                    0.501,
+                    "hemothorax",
+                    [
+                        31,
+                        41
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

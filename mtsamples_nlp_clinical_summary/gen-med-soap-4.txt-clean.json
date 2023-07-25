@@ -1,0 +1,510 @@
+{
+    "file": "gen-med-soap-4.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "Cardizem",
+                "code": "203494",
+                "cui": "C0700940",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Cardizem",
+                "range": [
+                    88,
+                    96
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.997
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "Cardizem",
+                "code": "203494",
+                "cui": "C0700940",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Cardizem",
+                "range": [
+                    88,
+                    96
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.997
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "Coumadin",
+                "code": "202421",
+                "cui": "C0699129",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Coumadin",
+                "range": [
+                    274,
+                    282
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.926
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "Coumadin",
+                "code": "202421",
+                "cui": "C0699129",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Coumadin",
+                "range": [
+                    274,
+                    282
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.926
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "Cardizem",
+                "code": "203494",
+                "cui": "C0700940",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Cardizem",
+                "range": [
+                    1177,
+                    1185
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.995
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "Cardizem",
+                "code": "203494",
+                "cui": "C0700940",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Cardizem",
+                "range": [
+                    1177,
+                    1185
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.995
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            }
+        ],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "atrial fibrillation",
+                "range": [
+                    43,
+                    62
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "49436004",
+                "cui": "C0004238",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Atrial Fibrillation"
+            },
+            {
+                "text": "Atrial fibrillation",
+                "range": [
+                    1124,
+                    1143
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "49436004",
+                "cui": "C0004238",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Atrial Fibrillation"
+            },
+            {
+                "text": "atrial fibrillation",
+                "range": [
+                    1346,
+                    1365
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.012,
+        "uncertain_count": 3,
+        "narrow_band_ratio": 0.007,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.575,
+                    "Coumadin",
+                    [
+                        1370,
+                        1378
+                    ]
+                ],
+                [
+                    0.575,
+                    "Coumadin",
+                    [
+                        1820,
+                        1828
+                    ]
+                ]
+            ],
+            "MED": [
+                [
+                    0.699,
+                    "aspirin",
+                    [
+                        1582,
+                        1589
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "atrial",
+                    [
+                        43,
+                        49
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "fibrillation",
+                    [
+                        50,
+                        62
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "feeling",
+                    [
+                        188,
+                        195
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "dizziness",
+                    [
+                        196,
+                        205
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "vertigo",
+                    [
+                        212,
+                        219
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "lightheadedness",
+                    [
+                        226,
+                        241
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "back",
+                    [
+                        543,
+                        547
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "pain",
+                    [
+                        548,
+                        552
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Atrial",
+                    [
+                        1124,
+                        1130
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "fibrillation",
+                    [
+                        1131,
+                        1143
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "atrial",
+                    [
+                        1346,
+                        1352
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "fibrillation",
+                    [
+                        1353,
+                        1365
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.925,
+                    "atrial",
+                    [
+                        43,
+                        49
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.943,
+                    "fibrillation",
+                    [
+                        50,
+                        62
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.723,
+                    "feeling",
+                    [
+                        188,
+                        195
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.87,
+                    "dizziness",
+                    [
+                        196,
+                        205
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.823,
+                    "vertigo",
+                    [
+                        212,
+                        219
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.725,
+                    "lightheadedness",
+                    [
+                        226,
+                        241
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.539,
+                    "back",
+                    [
+                        543,
+                        547
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.468,
+                    "pain",
+                    [
+                        548,
+                        552
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.946,
+                    "Atrial",
+                    [
+                        1124,
+                        1130
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.949,
+                    "fibrillation",
+                    [
+                        1131,
+                        1143
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.405,
+                    "Dizziness",
+                    [
+                        1150,
+                        1159
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.869,
+                    "atrial",
+                    [
+                        1346,
+                        1352
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.933,
+                    "fibrillation",
+                    [
+                        1353,
+                        1365
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.064,
+        "uncertain_token_count": 5,
+        "narrow_band_ratio": 0.012,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.438,
+                    "arm",
+                    [
+                        516,
+                        519
+                    ]
+                ],
+                [
+                    0.477,
+                    "left",
+                    [
+                        1916,
+                        1920
+                    ]
+                ],
+                [
+                    0.501,
+                    "wrist",
+                    [
+                        1921,
+                        1926
+                    ]
+                ]
+            ],
+            "DIAGNOSIS": [
+                [
+                    0.468,
+                    "pain",
+                    [
+                        548,
+                        552
+                    ]
+                ]
+            ],
+            "PROBLEM": [
+                [
+                    0.405,
+                    "Dizziness",
+                    [
+                        1150,
+                        1159
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

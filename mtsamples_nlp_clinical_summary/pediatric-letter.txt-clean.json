@@ -1,0 +1,334 @@
+{
+    "file": "pediatric-letter.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "prednisolone",
+                "code": "8638",
+                "cui": "C0032950",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "prednisolone",
+                "range": [
+                    591,
+                    603
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.939
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "prednisolone",
+                "code": "8638",
+                "cui": "C0032950",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "prednisolone",
+                "range": [
+                    591,
+                    603
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.939
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            }
+        ],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "prematurity",
+                "range": [
+                    254,
+                    265
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "395507008",
+                "cui": "C0021294",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Infant, Premature"
+            },
+            {
+                "text": "childhood asthma",
+                "range": [
+                    1321,
+                    1337
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "233678006",
+                "cui": "C0264408",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Childhood asthma"
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.015,
+        "uncertain_count": 4,
+        "narrow_band_ratio": 0.012,
+        "uncertain_tokens": {
+            "MED": [
+                [
+                    0.586,
+                    "steroids",
+                    [
+                        435,
+                        443
+                    ]
+                ],
+                [
+                    0.683,
+                    "bronchodilator",
+                    [
+                        448,
+                        462
+                    ]
+                ],
+                [
+                    0.536,
+                    "medication",
+                    [
+                        925,
+                        935
+                    ]
+                ],
+                [
+                    0.502,
+                    "steroids",
+                    [
+                        1503,
+                        1511
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "prematurity",
+                    [
+                        254,
+                        265
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "wheezing",
+                    [
+                        300,
+                        308
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "cough",
+                    [
+                        310,
+                        315
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "shortness",
+                    [
+                        320,
+                        329
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "of",
+                    [
+                        330,
+                        332
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "breath",
+                    [
+                        333,
+                        339
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "cough",
+                    [
+                        525,
+                        530
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "childhood",
+                    [
+                        1321,
+                        1330
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "asthma",
+                    [
+                        1331,
+                        1337
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.859,
+                    "prematurity",
+                    [
+                        254,
+                        265
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.833,
+                    "wheezing",
+                    [
+                        300,
+                        308
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.861,
+                    "cough",
+                    [
+                        310,
+                        315
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.856,
+                    "shortness",
+                    [
+                        320,
+                        329
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.798,
+                    "of",
+                    [
+                        330,
+                        332
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.874,
+                    "breath",
+                    [
+                        333,
+                        339
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.48,
+                    "cough",
+                    [
+                        525,
+                        530
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.801,
+                    "childhood",
+                    [
+                        1321,
+                        1330
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.826,
+                    "asthma",
+                    [
+                        1331,
+                        1337
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.082,
+        "uncertain_token_count": 3,
+        "narrow_band_ratio": 0.009,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.52,
+                    "and",
+                    [
+                        316,
+                        319
+                    ]
+                ],
+                [
+                    0.509,
+                    "management",
+                    [
+                        1158,
+                        1168
+                    ]
+                ]
+            ],
+            "DIAGNOSIS": [
+                [
+                    0.48,
+                    "cough",
+                    [
+                        525,
+                        530
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

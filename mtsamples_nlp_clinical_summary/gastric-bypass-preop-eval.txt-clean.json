@@ -1,0 +1,120 @@
+{
+    "file": "gastric-bypass-preop-eval.txt-clean.txt",
+    "text2summary": {
+        "Medication": [],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "morbid obesity",
+                "range": [
+                    514,
+                    528
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "83911000119104",
+                "cui": "C0028756",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Obesity, Morbid"
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.002,
+        "uncertain_count": 0,
+        "narrow_band_ratio": 0.0,
+        "uncertain_tokens": {},
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "condition",
+                    [
+                        499,
+                        508
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "morbid",
+                    [
+                        514,
+                        520
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "obesity",
+                    [
+                        521,
+                        528
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.52,
+                    "condition",
+                    [
+                        499,
+                        508
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.767,
+                    "morbid",
+                    [
+                        514,
+                        520
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.838,
+                    "obesity",
+                    [
+                        521,
+                        528
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.124,
+        "uncertain_token_count": 2,
+        "narrow_band_ratio": 0.011,
+        "uncertain_tokens": {
+            "DIAGNOSIS": [
+                [
+                    0.52,
+                    "condition",
+                    [
+                        499,
+                        508
+                    ]
+                ]
+            ],
+            "NA": [
+                [
+                    0.415,
+                    "infection",
+                    [
+                        863,
+                        872
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

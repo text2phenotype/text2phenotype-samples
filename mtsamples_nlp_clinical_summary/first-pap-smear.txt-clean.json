@@ -1,0 +1,619 @@
+{
+    "file": "first-pap-smear.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "caffeine",
+                "code": "1886",
+                "cui": "C0006644",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Caffeine",
+                "range": [
+                    1315,
+                    1323
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.946
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "caffeine",
+                "code": "1886",
+                "cui": "C0006644",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Caffeine",
+                "range": [
+                    1315,
+                    1323
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.946
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            }
+        ],
+        "Allergy": [],
+        "Lab": [
+            {
+                "code": "6071",
+                "cui": "C0489786",
+                "tui": "T034",
+                "vocab": "MEDCIN",
+                "polarity": "positive",
+                "text": "Height",
+                "preferredText": "HEIGHT (PHYSICAL FINDING)",
+                "range": [
+                    2614,
+                    2620
+                ]
+            },
+            {
+                "code": "6063",
+                "cui": "C0005910",
+                "tui": "T034",
+                "vocab": "MEDCIN",
+                "polarity": "positive",
+                "text": "Weight",
+                "preferredText": "WEIGHT (PHYSICAL FINDING)",
+                "range": [
+                    2634,
+                    2640
+                ]
+            }
+        ],
+        "DiseaseDisorder": [
+            {
+                "text": "weck",
+                "range": [
+                    274,
+                    278
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "migraine",
+                "range": [
+                    1120,
+                    1128
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "37796009",
+                "cui": "C0149931",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Migraine Disorders"
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.005,
+        "uncertain_count": 1,
+        "narrow_band_ratio": 0.001,
+        "uncertain_tokens": {
+            "MED": [
+                [
+                    0.536,
+                    "Anaprox",
+                    [
+                        4183,
+                        4190
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "PROBLEM": [
+                    "irregular",
+                    [
+                        77,
+                        86
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "periods",
+                    [
+                        87,
+                        94
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "menstrual",
+                    [
+                        194,
+                        203
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "cramping",
+                    [
+                        204,
+                        212
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "irregular",
+                    [
+                        217,
+                        226
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "periods",
+                    [
+                        227,
+                        234
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "weck",
+                    [
+                        274,
+                        278
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "cramping",
+                    [
+                        302,
+                        310
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "pain",
+                    [
+                        315,
+                        319
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "periods",
+                    [
+                        454,
+                        461
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "headaches",
+                    [
+                        831,
+                        840
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "headache",
+                    [
+                        920,
+                        928
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "migraine",
+                    [
+                        1120,
+                        1128
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Menorrhagia",
+                    [
+                        3789,
+                        3800
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "pelvic",
+                    [
+                        3802,
+                        3808
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "pain",
+                    [
+                        3809,
+                        3813
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "dysmenorrhea",
+                    [
+                        3815,
+                        3827
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "irregular",
+                    [
+                        3833,
+                        3842
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "periods",
+                    [
+                        3843,
+                        3850
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "headache",
+                    [
+                        4221,
+                        4229
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "PROBLEM": [
+                    0.593,
+                    "irregular",
+                    [
+                        77,
+                        86
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.6,
+                    "periods",
+                    [
+                        87,
+                        94
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.439,
+                    "menstrual",
+                    [
+                        194,
+                        203
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.52,
+                    "cramping",
+                    [
+                        204,
+                        212
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.601,
+                    "irregular",
+                    [
+                        217,
+                        226
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.635,
+                    "periods",
+                    [
+                        227,
+                        234
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.541,
+                    "weck",
+                    [
+                        274,
+                        278
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.481,
+                    "cramping",
+                    [
+                        302,
+                        310
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.414,
+                    "pain",
+                    [
+                        315,
+                        319
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.565,
+                    "periods",
+                    [
+                        454,
+                        461
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.532,
+                    "headaches",
+                    [
+                        831,
+                        840
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.429,
+                    "headache",
+                    [
+                        920,
+                        928
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.778,
+                    "migraine",
+                    [
+                        1120,
+                        1128
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.741,
+                    "Menorrhagia",
+                    [
+                        3789,
+                        3800
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.568,
+                    "pelvic",
+                    [
+                        3802,
+                        3808
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.55,
+                    "pain",
+                    [
+                        3809,
+                        3813
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.408,
+                    "dysmenorrhea",
+                    [
+                        3815,
+                        3827
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.597,
+                    "irregular",
+                    [
+                        3833,
+                        3842
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.58,
+                    "periods",
+                    [
+                        3843,
+                        3850
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.524,
+                    "headache",
+                    [
+                        4221,
+                        4229
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.087,
+        "uncertain_token_count": 12,
+        "narrow_band_ratio": 0.013,
+        "uncertain_tokens": {
+            "DIAGNOSIS": [
+                [
+                    0.439,
+                    "menstrual",
+                    [
+                        194,
+                        203
+                    ]
+                ],
+                [
+                    0.429,
+                    "headache",
+                    [
+                        920,
+                        928
+                    ]
+                ],
+                [
+                    0.408,
+                    "dysmenorrhea",
+                    [
+                        3815,
+                        3827
+                    ]
+                ],
+                [
+                    0.524,
+                    "headache",
+                    [
+                        4221,
+                        4229
+                    ]
+                ]
+            ],
+            "PROBLEM": [
+                [
+                    0.52,
+                    "cramping",
+                    [
+                        204,
+                        212
+                    ]
+                ],
+                [
+                    0.481,
+                    "cramping",
+                    [
+                        302,
+                        310
+                    ]
+                ],
+                [
+                    0.414,
+                    "pain",
+                    [
+                        315,
+                        319
+                    ]
+                ]
+            ],
+            "NA": [
+                [
+                    0.524,
+                    "and",
+                    [
+                        213,
+                        216
+                    ]
+                ],
+                [
+                    0.505,
+                    "cramping",
+                    [
+                        560,
+                        568
+                    ]
+                ],
+                [
+                    0.51,
+                    "pad",
+                    [
+                        634,
+                        637
+                    ]
+                ],
+                [
+                    0.522,
+                    "headache",
+                    [
+                        1029,
+                        1037
+                    ]
+                ],
+                [
+                    0.52,
+                    "onset",
+                    [
+                        3987,
+                        3992
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

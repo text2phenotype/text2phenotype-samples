@@ -1,0 +1,201 @@
+{
+    "file": "bilateral-myringotomies-1.txt-clean.txt",
+    "text2summary": {
+        "Medication": [],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "Adenoid hyperplasia. Hypertrophy",
+                "range": [
+                    70,
+                    102
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "195797002",
+                "cui": "C0155833",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Hyperplasia of adenoids"
+            },
+            {
+                "text": "tonsils",
+                "range": [
+                    106,
+                    113
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "46689006",
+                "cui": "C0272386",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Hypertrophy of tonsils"
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.009,
+        "uncertain_count": 2,
+        "narrow_band_ratio": 0.004,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.7,
+                    "gag",
+                    [
+                        1183,
+                        1186
+                    ]
+                ]
+            ],
+            "MED": [
+                [
+                    0.528,
+                    "packs",
+                    [
+                        1504,
+                        1509
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "Adenoid",
+                    [
+                        70,
+                        77
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "hyperplasia",
+                    [
+                        78,
+                        89
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Hypertrophy",
+                    [
+                        91,
+                        102
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "tonsils",
+                    [
+                        106,
+                        113
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "preoperative",
+                    [
+                        149,
+                        161
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.61,
+                    "Adenoid",
+                    [
+                        70,
+                        77
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.574,
+                    "hyperplasia",
+                    [
+                        78,
+                        89
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.442,
+                    "Hypertrophy",
+                    [
+                        91,
+                        102
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.419,
+                    "tonsils",
+                    [
+                        106,
+                        113
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.493,
+                    "preoperative",
+                    [
+                        149,
+                        161
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.039,
+        "uncertain_token_count": 3,
+        "narrow_band_ratio": 0.006,
+        "uncertain_tokens": {
+            "DIAGNOSIS": [
+                [
+                    0.442,
+                    "Hypertrophy",
+                    [
+                        91,
+                        102
+                    ]
+                ],
+                [
+                    0.493,
+                    "preoperative",
+                    [
+                        149,
+                        161
+                    ]
+                ]
+            ],
+            "PROBLEM": [
+                [
+                    0.419,
+                    "tonsils",
+                    [
+                        106,
+                        113
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

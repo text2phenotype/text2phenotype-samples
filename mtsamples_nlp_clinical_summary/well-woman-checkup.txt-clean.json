@@ -1,0 +1,362 @@
+{
+    "file": "well-woman-checkup.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "Tetracycline",
+                "code": "10395",
+                "cui": "C0039644",
+                "tui": "T195",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Tetracycline",
+                "range": [
+                    932,
+                    944
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 1.0
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [
+                    "day"
+                ],
+                "medStrengthNum": [
+                    "250",
+                    945,
+                    948
+                ],
+                "medStrengthUnit": [
+                    "mg",
+                    949,
+                    951
+                ]
+            },
+            {
+                "text": "Tetracycline",
+                "code": "10395",
+                "cui": "C0039644",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Tetracycline",
+                "range": [
+                    932,
+                    944
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 1.0
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [
+                    "day"
+                ],
+                "medStrengthNum": [
+                    "250",
+                    945,
+                    948
+                ],
+                "medStrengthUnit": [
+                    "mg",
+                    949,
+                    951
+                ]
+            },
+            {
+                "text": "Inderal",
+                "code": "151890",
+                "cui": "C0591636",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Inderal",
+                "range": [
+                    959,
+                    966
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 1.0
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [
+                    "day",
+                    988,
+                    991
+                ],
+                "medStrengthNum": [
+                    "80",
+                    970,
+                    972
+                ],
+                "medStrengthUnit": [
+                    "mg",
+                    973,
+                    975
+                ]
+            },
+            {
+                "text": "Inderal",
+                "code": "151890",
+                "cui": "C0591636",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Inderal",
+                "range": [
+                    959,
+                    966
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 1.0
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [
+                    "day",
+                    988,
+                    991
+                ],
+                "medStrengthNum": [
+                    "80",
+                    970,
+                    972
+                ],
+                "medStrengthUnit": [
+                    "mg",
+                    973,
+                    975
+                ]
+            }
+        ],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "urinary",
+                "range": [
+                    355,
+                    362
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "heaviness in her",
+                "range": [
+                    591,
+                    607
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "tract",
+                "range": [
+                    842,
+                    847
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "rosacea",
+                "range": [
+                    1043,
+                    1050
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "398909004",
+                "cui": "C0035854",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Rosacea"
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.004,
+        "uncertain_count": 1,
+        "narrow_band_ratio": 0.005,
+        "uncertain_tokens": {
+            "MED": [
+                [
+                    0.641,
+                    "LA",
+                    [
+                        967,
+                        969
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "PROBLEM": [
+                    "urinary",
+                    [
+                        355,
+                        362
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "heaviness",
+                    [
+                        591,
+                        600
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "in",
+                    [
+                        601,
+                        603
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "her",
+                    [
+                        604,
+                        607
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "tract",
+                    [
+                        842,
+                        847
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "rosacea",
+                    [
+                        1043,
+                        1050
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "PROBLEM": [
+                    0.736,
+                    "urinary",
+                    [
+                        355,
+                        362
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.571,
+                    "in",
+                    [
+                        601,
+                        603
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.487,
+                    "her",
+                    [
+                        604,
+                        607
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.639,
+                    "tract",
+                    [
+                        842,
+                        847
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.839,
+                    "rosacea",
+                    [
+                        1043,
+                        1050
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.203,
+        "uncertain_token_count": 4,
+        "narrow_band_ratio": 0.019,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.477,
+                    "heaviness",
+                    [
+                        591,
+                        600
+                    ]
+                ],
+                [
+                    0.515,
+                    "goes",
+                    [
+                        739,
+                        743
+                    ]
+                ],
+                [
+                    0.526,
+                    "urinary",
+                    [
+                        834,
+                        841
+                    ]
+                ]
+            ],
+            "PROBLEM": [
+                [
+                    0.487,
+                    "her",
+                    [
+                        604,
+                        607
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

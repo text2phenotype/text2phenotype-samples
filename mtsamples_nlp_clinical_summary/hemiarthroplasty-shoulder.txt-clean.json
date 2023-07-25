@@ -1,0 +1,436 @@
+{
+    "file": "hemiarthroplasty-shoulder.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "gentamycin",
+                "code": "142438",
+                "cui": "C0546866",
+                "tui": "T195",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Gentamicin Sulfate (USP)",
+                "range": [
+                    2522,
+                    2532
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.995
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "gentamycin",
+                "code": "142438",
+                "cui": "C0546866",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Gentamicin Sulfate (USP)",
+                "range": [
+                    2522,
+                    2532
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.995
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "Marcaine",
+                "code": "1012397",
+                "cui": "C2945665",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Marcaine",
+                "range": [
+                    3935,
+                    3943
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 1.0
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [
+                    "0.25",
+                    3929,
+                    3933
+                ],
+                "medStrengthUnit": [
+                    "%",
+                    3933,
+                    3934
+                ]
+            }
+        ],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "Comminuted fracture",
+                "range": [
+                    26,
+                    45
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "13321001",
+                "cui": "C0476171",
+                "tui": "T037",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Comminuted Fracture type"
+            },
+            {
+                "text": "dislocation left proximal",
+                "range": [
+                    47,
+                    72
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "87642003",
+                "cui": "C0012691",
+                "tui": "T037",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Dislocations"
+            },
+            {
+                "text": "Comminuted fracture",
+                "range": [
+                    108,
+                    127
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "13321001",
+                "cui": "C0476171",
+                "tui": "T037",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Comminuted Fracture type"
+            },
+            {
+                "text": "dislocation left",
+                "range": [
+                    129,
+                    145
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "87642003",
+                "cui": "C0012691",
+                "tui": "T037",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Dislocations"
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.017,
+        "uncertain_count": 7,
+        "narrow_band_ratio": 0.009,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.556,
+                    "general",
+                    [
+                        390,
+                        397
+                    ]
+                ],
+                [
+                    0.661,
+                    "cemented",
+                    [
+                        2165,
+                        2173
+                    ]
+                ],
+                [
+                    0.58,
+                    "condition",
+                    [
+                        4195,
+                        4204
+                    ]
+                ]
+            ],
+            "MED": [
+                [
+                    0.69,
+                    "anesthetic",
+                    [
+                        398,
+                        408
+                    ]
+                ],
+                [
+                    0.531,
+                    "solution",
+                    [
+                        2533,
+                        2541
+                    ]
+                ],
+                [
+                    0.641,
+                    "fiber",
+                    [
+                        3542,
+                        3547
+                    ]
+                ],
+                [
+                    0.644,
+                    "solution",
+                    [
+                        3944,
+                        3952
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "Comminuted",
+                    [
+                        26,
+                        36
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "fracture",
+                    [
+                        37,
+                        45
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "dislocation",
+                    [
+                        47,
+                        58
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "left",
+                    [
+                        59,
+                        63
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "proximal",
+                    [
+                        64,
+                        72
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Comminuted",
+                    [
+                        108,
+                        118
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "fracture",
+                    [
+                        119,
+                        127
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "dislocation",
+                    [
+                        129,
+                        140
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "left",
+                    [
+                        141,
+                        145
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "condition",
+                    [
+                        4195,
+                        4204
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.991,
+                    "Comminuted",
+                    [
+                        26,
+                        36
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.995,
+                    "fracture",
+                    [
+                        37,
+                        45
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.953,
+                    "dislocation",
+                    [
+                        47,
+                        58
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.893,
+                    "left",
+                    [
+                        59,
+                        63
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.687,
+                    "proximal",
+                    [
+                        64,
+                        72
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.984,
+                    "Comminuted",
+                    [
+                        108,
+                        118
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.994,
+                    "fracture",
+                    [
+                        119,
+                        127
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.856,
+                    "dislocation",
+                    [
+                        129,
+                        140
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.627,
+                    "left",
+                    [
+                        141,
+                        145
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.484,
+                    "condition",
+                    [
+                        4195,
+                        4204
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.09,
+        "uncertain_token_count": 3,
+        "narrow_band_ratio": 0.004,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.527,
+                    "proximal",
+                    [
+                        146,
+                        154
+                    ]
+                ],
+                [
+                    0.507,
+                    "cuff",
+                    [
+                        3394,
+                        3398
+                    ]
+                ]
+            ],
+            "DIAGNOSIS": [
+                [
+                    0.484,
+                    "condition",
+                    [
+                        4195,
+                        4204
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

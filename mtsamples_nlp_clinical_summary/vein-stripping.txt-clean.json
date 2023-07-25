@@ -1,0 +1,542 @@
+{
+    "file": "vein-stripping.txt-clean.txt",
+    "text2summary": {
+        "Medication": [],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "venous hypertension",
+                "range": [
+                    34,
+                    53
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "234072000",
+                "cui": "C0340766",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Venous hypertension"
+            },
+            {
+                "text": "varicosities",
+                "range": [
+                    67,
+                    79
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "128060009",
+                "cui": "C0042345",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Varicosity"
+            },
+            {
+                "text": "lower extremities",
+                "range": [
+                    81,
+                    98
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "Chronic venous hypertension",
+                "range": [
+                    139,
+                    166
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "of",
+                "range": [
+                    1618,
+                    1620
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "and calf and left thigh and calf",
+                "range": [
+                    2385,
+                    2417
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.007,
+        "uncertain_count": 1,
+        "narrow_band_ratio": 0.002,
+        "uncertain_tokens": {
+            "MED": [
+                [
+                    0.603,
+                    "antibiotics",
+                    [
+                        633,
+                        644
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "venous",
+                    [
+                        34,
+                        40
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "hypertension",
+                    [
+                        41,
+                        53
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "varicosities",
+                    [
+                        67,
+                        79
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "lower",
+                    [
+                        81,
+                        86
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "extremities",
+                    [
+                        87,
+                        98
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Chronic",
+                    [
+                        139,
+                        146
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "venous",
+                    [
+                        147,
+                        153
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "hypertension",
+                    [
+                        154,
+                        166
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "of",
+                    [
+                        1618,
+                        1620
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "and",
+                    [
+                        2385,
+                        2388
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "calf",
+                    [
+                        2389,
+                        2393
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "and",
+                    [
+                        2394,
+                        2397
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "left",
+                    [
+                        2398,
+                        2402
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "thigh",
+                    [
+                        2403,
+                        2408
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "and",
+                    [
+                        2409,
+                        2412
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "calf",
+                    [
+                        2413,
+                        2417
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.527,
+                    "Chronic",
+                    [
+                        26,
+                        33
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.905,
+                    "venous",
+                    [
+                        34,
+                        40
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.932,
+                    "hypertension",
+                    [
+                        41,
+                        53
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.471,
+                    "varicosities",
+                    [
+                        67,
+                        79
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.455,
+                    "lower",
+                    [
+                        81,
+                        86
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.407,
+                    "extremities",
+                    [
+                        87,
+                        98
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.709,
+                    "Chronic",
+                    [
+                        139,
+                        146
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.95,
+                    "venous",
+                    [
+                        147,
+                        153
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.953,
+                    "hypertension",
+                    [
+                        154,
+                        166
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.517,
+                    "of",
+                    [
+                        1618,
+                        1620
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.52,
+                    "calf",
+                    [
+                        2389,
+                        2393
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.526,
+                    "and",
+                    [
+                        2394,
+                        2397
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.526,
+                    "left",
+                    [
+                        2398,
+                        2402
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.457,
+                    "thigh",
+                    [
+                        2403,
+                        2408
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.464,
+                    "and",
+                    [
+                        2409,
+                        2412
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.41,
+                    "calf",
+                    [
+                        2413,
+                        2417
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.096,
+        "uncertain_token_count": 14,
+        "narrow_band_ratio": 0.025,
+        "uncertain_tokens": {
+            "DIAGNOSIS": [
+                [
+                    0.527,
+                    "Chronic",
+                    [
+                        26,
+                        33
+                    ]
+                ],
+                [
+                    0.471,
+                    "varicosities",
+                    [
+                        67,
+                        79
+                    ]
+                ],
+                [
+                    0.517,
+                    "of",
+                    [
+                        1618,
+                        1620
+                    ]
+                ],
+                [
+                    0.52,
+                    "calf",
+                    [
+                        2389,
+                        2393
+                    ]
+                ],
+                [
+                    0.526,
+                    "and",
+                    [
+                        2394,
+                        2397
+                    ]
+                ],
+                [
+                    0.526,
+                    "left",
+                    [
+                        2398,
+                        2402
+                    ]
+                ],
+                [
+                    0.457,
+                    "thigh",
+                    [
+                        2403,
+                        2408
+                    ]
+                ],
+                [
+                    0.464,
+                    "and",
+                    [
+                        2409,
+                        2412
+                    ]
+                ],
+                [
+                    0.41,
+                    "calf",
+                    [
+                        2413,
+                        2417
+                    ]
+                ]
+            ],
+            "NA": [
+                [
+                    0.456,
+                    "painful",
+                    [
+                        59,
+                        66
+                    ]
+                ],
+                [
+                    0.529,
+                    ",",
+                    [
+                        79,
+                        80
+                    ]
+                ],
+                [
+                    0.52,
+                    "and",
+                    [
+                        2385,
+                        2388
+                    ]
+                ]
+            ],
+            "PROBLEM": [
+                [
+                    0.455,
+                    "lower",
+                    [
+                        81,
+                        86
+                    ]
+                ],
+                [
+                    0.407,
+                    "extremities",
+                    [
+                        87,
+                        98
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

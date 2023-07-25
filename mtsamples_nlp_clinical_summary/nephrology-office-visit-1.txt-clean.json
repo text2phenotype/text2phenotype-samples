@@ -1,0 +1,438 @@
+{
+    "file": "nephrology-office-visit-1.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "Pravachol",
+                "code": "203333",
+                "cui": "C0700763",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Pravachol",
+                "range": [
+                    1166,
+                    1175
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 1.0
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [
+                    "evening",
+                    1195,
+                    1202
+                ],
+                "medStrengthNum": [
+                    "80",
+                    1176,
+                    1178
+                ],
+                "medStrengthUnit": [
+                    "mg",
+                    1179,
+                    1181
+                ]
+            },
+            {
+                "text": "Pravachol",
+                "code": "203333",
+                "cui": "C0700763",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Pravachol",
+                "range": [
+                    1166,
+                    1175
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 1.0
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [
+                    "evening",
+                    1195,
+                    1202
+                ],
+                "medStrengthNum": [
+                    "80",
+                    1176,
+                    1178
+                ],
+                "medStrengthUnit": [
+                    "mg",
+                    1179,
+                    1181
+                ]
+            },
+            {
+                "text": "Vitamin E",
+                "code": "11256",
+                "cui": "C0042874",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Vitamin E",
+                "range": [
+                    1209,
+                    1218
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 1.0
+                },
+                "medFrequencyNumber": [
+                    "1",
+                    1219,
+                    1223
+                ],
+                "medFrequencyUnit": [
+                    "day",
+                    1226,
+                    1229
+                ],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "Vitamin E",
+                "code": "11256",
+                "cui": "C0042874",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Vitamin E",
+                "range": [
+                    1209,
+                    1218
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 1.0
+                },
+                "medFrequencyNumber": [
+                    "1",
+                    1219,
+                    1223
+                ],
+                "medFrequencyUnit": [
+                    "day",
+                    1226,
+                    1229
+                ],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            }
+        ],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "chronic degenerative joint disease",
+                "range": [
+                    340,
+                    374
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "hypertension",
+                "range": [
+                    782,
+                    794
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "38341003",
+                "cui": "C0020538",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Hypertensive disease"
+            },
+            {
+                "text": "hyperlipidemia",
+                "range": [
+                    799,
+                    813
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "55822004",
+                "cui": "C0020473",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Hyperlipidemia"
+            },
+            {
+                "text": "pneumonia",
+                "range": [
+                    1019,
+                    1028
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "233604007",
+                "cui": "C0032285",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Pneumonia"
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.005,
+        "uncertain_count": 0,
+        "narrow_band_ratio": 0.0,
+        "uncertain_tokens": {},
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "microscopic",
+                    [
+                        101,
+                        112
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "hematuria",
+                    [
+                        113,
+                        122
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "illness",
+                    [
+                        143,
+                        150
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "chronic",
+                    [
+                        340,
+                        347
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "degenerative",
+                    [
+                        348,
+                        360
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "joint",
+                    [
+                        361,
+                        366
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "disease",
+                    [
+                        367,
+                        374
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "hypertension",
+                    [
+                        782,
+                        794
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "hyperlipidemia",
+                    [
+                        799,
+                        813
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "CA",
+                    [
+                        1003,
+                        1005
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "pneumonia",
+                    [
+                        1019,
+                        1028
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.722,
+                    "microscopic",
+                    [
+                        101,
+                        112
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.728,
+                    "hematuria",
+                    [
+                        113,
+                        122
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.42,
+                    "illness",
+                    [
+                        143,
+                        150
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.644,
+                    "chronic",
+                    [
+                        340,
+                        347
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.899,
+                    "degenerative",
+                    [
+                        348,
+                        360
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.921,
+                    "joint",
+                    [
+                        361,
+                        366
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.935,
+                    "disease",
+                    [
+                        367,
+                        374
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.944,
+                    "hypertension",
+                    [
+                        782,
+                        794
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.803,
+                    "hyperlipidemia",
+                    [
+                        799,
+                        813
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.535,
+                    "CA",
+                    [
+                        1003,
+                        1005
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.809,
+                    "pneumonia",
+                    [
+                        1019,
+                        1028
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.079,
+        "uncertain_token_count": 2,
+        "narrow_band_ratio": 0.004,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.483,
+                    "present",
+                    [
+                        135,
+                        142
+                    ]
+                ]
+            ],
+            "DIAGNOSIS": [
+                [
+                    0.42,
+                    "illness",
+                    [
+                        143,
+                        150
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

@@ -1,0 +1,765 @@
+{
+    "file": "exploratory-laparotomy-colon-resection.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "anesthetic",
+                "code": null,
+                "cui": null,
+                "tui": null,
+                "vocab": null,
+                "polarity": "positive",
+                "preferredText": null,
+                "range": [
+                    1170,
+                    1180
+                ],
+                "prob": {
+                    "MED": 0.903
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            }
+        ],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "Colovesical fistula",
+                "range": [
+                    26,
+                    45
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "28626004",
+                "cui": "C0268842",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Colovesical Fistula"
+            },
+            {
+                "text": "Colovesical fistula",
+                "range": [
+                    78,
+                    97
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "28626004",
+                "cui": "C0268842",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Colovesical Fistula"
+            },
+            {
+                "text": "Intraperitoneal abscess",
+                "range": [
+                    104,
+                    127
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "73962000",
+                "cui": "C0267756",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Abscess of peritoneum"
+            },
+            {
+                "text": "recent hip fracture",
+                "range": [
+                    357,
+                    376
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "colovesical\nfistula",
+                "range": [
+                    521,
+                    540
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "28626004",
+                "cui": "C0268842",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Colovesical Fistula"
+            },
+            {
+                "text": "the abdominal cavity",
+                "range": [
+                    2515,
+                    2535
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "abscess",
+                "range": [
+                    4093,
+                    4100
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "44132006",
+                "cui": "C0000833",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Abscess"
+            },
+            {
+                "text": "the pelvis in the infected area",
+                "range": [
+                    4401,
+                    4432
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "peritoneal cavity and in the",
+                "range": [
+                    4826,
+                    4854
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.008,
+        "uncertain_count": 1,
+        "narrow_band_ratio": 0.001,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.577,
+                    "general",
+                    [
+                        1162,
+                        1169
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "Colovesical",
+                    [
+                        26,
+                        37
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "fistula",
+                    [
+                        38,
+                        45
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Colovesical",
+                    [
+                        78,
+                        89
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "fistula",
+                    [
+                        90,
+                        97
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Intraperitoneal",
+                    [
+                        104,
+                        119
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "abscess",
+                    [
+                        120,
+                        127
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "recent",
+                    [
+                        357,
+                        363
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "hip",
+                    [
+                        364,
+                        367
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "fracture",
+                    [
+                        368,
+                        376
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "colovesical",
+                    [
+                        521,
+                        532
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "fistula",
+                    [
+                        533,
+                        540
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "the",
+                    [
+                        2515,
+                        2518
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "abdominal",
+                    [
+                        2519,
+                        2528
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "cavity",
+                    [
+                        2529,
+                        2535
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "abscess",
+                    [
+                        4093,
+                        4100
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "the",
+                    [
+                        4401,
+                        4404
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "pelvis",
+                    [
+                        4405,
+                        4411
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "in",
+                    [
+                        4412,
+                        4414
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "the",
+                    [
+                        4415,
+                        4418
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "infected",
+                    [
+                        4419,
+                        4427
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "area",
+                    [
+                        4428,
+                        4432
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "peritoneal",
+                    [
+                        4826,
+                        4836
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "cavity",
+                    [
+                        4837,
+                        4843
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "and",
+                    [
+                        4844,
+                        4847
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "in",
+                    [
+                        4848,
+                        4850
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "the",
+                    [
+                        4851,
+                        4854
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "PROBLEM": [
+                    0.419,
+                    "Colovesical",
+                    [
+                        26,
+                        37
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.544,
+                    "fistula",
+                    [
+                        38,
+                        45
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.794,
+                    "Colovesical",
+                    [
+                        78,
+                        89
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.915,
+                    "fistula",
+                    [
+                        90,
+                        97
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.962,
+                    "Intraperitoneal",
+                    [
+                        104,
+                        119
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.958,
+                    "abscess",
+                    [
+                        120,
+                        127
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.505,
+                    "recent",
+                    [
+                        357,
+                        363
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.713,
+                    "hip",
+                    [
+                        364,
+                        367
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.653,
+                    "fracture",
+                    [
+                        368,
+                        376
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.572,
+                    "colovesical",
+                    [
+                        521,
+                        532
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.755,
+                    "fistula",
+                    [
+                        533,
+                        540
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.494,
+                    "the",
+                    [
+                        2515,
+                        2518
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.555,
+                    "abdominal",
+                    [
+                        2519,
+                        2528
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.465,
+                    "cavity",
+                    [
+                        2529,
+                        2535
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.713,
+                    "abscess",
+                    [
+                        4093,
+                        4100
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.507,
+                    "in",
+                    [
+                        4412,
+                        4414
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.621,
+                    "the",
+                    [
+                        4415,
+                        4418
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.521,
+                    "infected",
+                    [
+                        4419,
+                        4427
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.542,
+                    "peritoneal",
+                    [
+                        4826,
+                        4836
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.607,
+                    "cavity",
+                    [
+                        4837,
+                        4843
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.514,
+                    "and",
+                    [
+                        4844,
+                        4847
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.584,
+                    "in",
+                    [
+                        4848,
+                        4850
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.503,
+                    "the",
+                    [
+                        4851,
+                        4854
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.1,
+        "uncertain_token_count": 14,
+        "narrow_band_ratio": 0.013,
+        "uncertain_tokens": {
+            "PROBLEM": [
+                [
+                    0.419,
+                    "Colovesical",
+                    [
+                        26,
+                        37
+                    ]
+                ]
+            ],
+            "DIAGNOSIS": [
+                [
+                    0.505,
+                    "recent",
+                    [
+                        357,
+                        363
+                    ]
+                ],
+                [
+                    0.494,
+                    "the",
+                    [
+                        2515,
+                        2518
+                    ]
+                ],
+                [
+                    0.465,
+                    "cavity",
+                    [
+                        2529,
+                        2535
+                    ]
+                ],
+                [
+                    0.507,
+                    "in",
+                    [
+                        4412,
+                        4414
+                    ]
+                ],
+                [
+                    0.521,
+                    "infected",
+                    [
+                        4419,
+                        4427
+                    ]
+                ],
+                [
+                    0.514,
+                    "and",
+                    [
+                        4844,
+                        4847
+                    ]
+                ],
+                [
+                    0.503,
+                    "the",
+                    [
+                        4851,
+                        4854
+                    ]
+                ]
+            ],
+            "NA": [
+                [
+                    0.489,
+                    "abscess",
+                    [
+                        2036,
+                        2043
+                    ]
+                ],
+                [
+                    0.503,
+                    "diverticulitis",
+                    [
+                        4129,
+                        4143
+                    ]
+                ],
+                [
+                    0.495,
+                    "the",
+                    [
+                        4401,
+                        4404
+                    ]
+                ],
+                [
+                    0.485,
+                    "pelvis",
+                    [
+                        4405,
+                        4411
+                    ]
+                ],
+                [
+                    0.521,
+                    "area",
+                    [
+                        4428,
+                        4432
+                    ]
+                ],
+                [
+                    0.529,
+                    "right",
+                    [
+                        4855,
+                        4860
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

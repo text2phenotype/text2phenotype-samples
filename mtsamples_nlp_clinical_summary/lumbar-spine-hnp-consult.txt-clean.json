@@ -1,0 +1,936 @@
+{
+    "file": "lumbar-spine-hnp-consult.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "Lortab",
+                "code": "144254",
+                "cui": "C0553262",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Lortab",
+                "range": [
+                    3338,
+                    3344
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.922
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "Lortab",
+                "code": "144254",
+                "cui": "C0553262",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Lortab",
+                "range": [
+                    3338,
+                    3344
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.922
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "Nicotine",
+                "code": "7407",
+                "cui": "C0028040",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Nicotine",
+                "range": [
+                    5379,
+                    5387
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.995
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "Nicotine",
+                "code": "7407",
+                "cui": "C0028040",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Nicotine",
+                "range": [
+                    5379,
+                    5387
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.995
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            }
+        ],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "and right lower",
+                "range": [
+                    33,
+                    48
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "onset",
+                "range": [
+                    344,
+                    349
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "lower",
+                "range": [
+                    1670,
+                    1675
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "'s",
+                "range": [
+                    1738,
+                    1740
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "degenerative disc disease",
+                "range": [
+                    5014,
+                    5039
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "77547008",
+                "cui": "C0158266",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Intervertebral Disc Degeneration"
+            },
+            {
+                "text": "Herniated Nucleus Pulposus",
+                "range": [
+                    5216,
+                    5242
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "84857004",
+                "cui": "C0678212",
+                "tui": "T037",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Herniation of nucleus pulposus"
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.006,
+        "uncertain_count": 4,
+        "narrow_band_ratio": 0.003,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.669,
+                    "following",
+                    [
+                        792,
+                        801
+                    ]
+                ],
+                [
+                    0.665,
+                    "medications",
+                    [
+                        1495,
+                        1506
+                    ]
+                ],
+                [
+                    0.59,
+                    "Medications",
+                    [
+                        5354,
+                        5365
+                    ]
+                ]
+            ],
+            "MED": [
+                [
+                    0.595,
+                    "SOMA",
+                    [
+                        3350,
+                        3354
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "Low",
+                    [
+                        19,
+                        22
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "back",
+                    [
+                        23,
+                        27
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "pain",
+                    [
+                        28,
+                        32
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "and",
+                    [
+                        33,
+                        36
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "right",
+                    [
+                        37,
+                        42
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "lower",
+                    [
+                        43,
+                        48
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "extremity",
+                    [
+                        49,
+                        58
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "pain",
+                    [
+                        59,
+                        63
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "onset",
+                    [
+                        344,
+                        349
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "fall",
+                    [
+                        414,
+                        418
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "injury",
+                    [
+                        432,
+                        438
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "activity",
+                    [
+                        1398,
+                        1406
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "rest",
+                    [
+                        1520,
+                        1524
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "lower",
+                    [
+                        1670,
+                        1675
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "extremity",
+                    [
+                        1676,
+                        1685
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "low",
+                    [
+                        1711,
+                        1714
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "back",
+                    [
+                        1715,
+                        1719
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "pain",
+                    [
+                        1720,
+                        1724
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "'s",
+                    [
+                        1738,
+                        1740
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "low",
+                    [
+                        1741,
+                        1744
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "back",
+                    [
+                        1745,
+                        1749
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "pain",
+                    [
+                        1750,
+                        1754
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "back",
+                    [
+                        2232,
+                        2236
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "pain",
+                    [
+                        2237,
+                        2241
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "walks",
+                    [
+                        3834,
+                        3839
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "degenerative",
+                    [
+                        5014,
+                        5026
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "disc",
+                    [
+                        5027,
+                        5031
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "disease",
+                    [
+                        5032,
+                        5039
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "L4-5",
+                    [
+                        5040,
+                        5044
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "L5-S1",
+                    [
+                        5049,
+                        5054
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Herniated",
+                    [
+                        5216,
+                        5225
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Nucleus",
+                    [
+                        5226,
+                        5233
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Pulposus",
+                    [
+                        5234,
+                        5242
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.98,
+                    "Low",
+                    [
+                        19,
+                        22
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.989,
+                    "back",
+                    [
+                        23,
+                        27
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.977,
+                    "pain",
+                    [
+                        28,
+                        32
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.674,
+                    "and",
+                    [
+                        33,
+                        36
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.949,
+                    "right",
+                    [
+                        37,
+                        42
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.958,
+                    "lower",
+                    [
+                        43,
+                        48
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.919,
+                    "extremity",
+                    [
+                        49,
+                        58
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.899,
+                    "pain",
+                    [
+                        59,
+                        63
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.645,
+                    "onset",
+                    [
+                        344,
+                        349
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.53,
+                    "fall",
+                    [
+                        414,
+                        418
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.561,
+                    "injury",
+                    [
+                        432,
+                        438
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.565,
+                    "activity",
+                    [
+                        1398,
+                        1406
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.518,
+                    "rest",
+                    [
+                        1520,
+                        1524
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.585,
+                    "lower",
+                    [
+                        1670,
+                        1675
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.527,
+                    "extremity",
+                    [
+                        1676,
+                        1685
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.89,
+                    "low",
+                    [
+                        1711,
+                        1714
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.963,
+                    "back",
+                    [
+                        1715,
+                        1719
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.941,
+                    "pain",
+                    [
+                        1720,
+                        1724
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.567,
+                    "'s",
+                    [
+                        1738,
+                        1740
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.908,
+                    "low",
+                    [
+                        1741,
+                        1744
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.954,
+                    "back",
+                    [
+                        1745,
+                        1749
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.924,
+                    "pain",
+                    [
+                        1750,
+                        1754
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.592,
+                    "back",
+                    [
+                        2232,
+                        2236
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.48,
+                    "pain",
+                    [
+                        2237,
+                        2241
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.476,
+                    "walks",
+                    [
+                        3834,
+                        3839
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.918,
+                    "degenerative",
+                    [
+                        5014,
+                        5026
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.95,
+                    "disc",
+                    [
+                        5027,
+                        5031
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.934,
+                    "disease",
+                    [
+                        5032,
+                        5039
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.855,
+                    "L4-5",
+                    [
+                        5040,
+                        5044
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.746,
+                    "L5-S1",
+                    [
+                        5049,
+                        5054
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.814,
+                    "Herniated",
+                    [
+                        5216,
+                        5225
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.83,
+                    "Nucleus",
+                    [
+                        5226,
+                        5233
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.798,
+                    "Pulposus",
+                    [
+                        5234,
+                        5242
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.1,
+        "uncertain_token_count": 9,
+        "narrow_band_ratio": 0.008,
+        "uncertain_tokens": {
+            "PROBLEM": [
+                [
+                    0.53,
+                    "fall",
+                    [
+                        414,
+                        418
+                    ]
+                ],
+                [
+                    0.518,
+                    "rest",
+                    [
+                        1520,
+                        1524
+                    ]
+                ],
+                [
+                    0.476,
+                    "walks",
+                    [
+                        3834,
+                        3839
+                    ]
+                ]
+            ],
+            "NA": [
+                [
+                    0.52,
+                    "sleep",
+                    [
+                        1586,
+                        1591
+                    ]
+                ],
+                [
+                    0.476,
+                    "sleep",
+                    [
+                        1629,
+                        1634
+                    ]
+                ],
+                [
+                    0.529,
+                    "pain",
+                    [
+                        1686,
+                        1690
+                    ]
+                ],
+                [
+                    0.418,
+                    "sleep",
+                    [
+                        2353,
+                        2358
+                    ]
+                ]
+            ],
+            "DIAGNOSIS": [
+                [
+                    0.527,
+                    "extremity",
+                    [
+                        1676,
+                        1685
+                    ]
+                ],
+                [
+                    0.48,
+                    "pain",
+                    [
+                        2237,
+                        2241
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

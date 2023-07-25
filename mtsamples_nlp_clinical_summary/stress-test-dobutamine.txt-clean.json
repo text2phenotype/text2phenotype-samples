@@ -1,0 +1,308 @@
+{
+    "file": "stress-test-dobutamine.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "dobutamine",
+                "code": "3616",
+                "cui": "C0012963",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Dobutamine",
+                "range": [
+                    102,
+                    112
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.999
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "dobutamine",
+                "code": "3616",
+                "cui": "C0012963",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Dobutamine",
+                "range": [
+                    102,
+                    112
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.999
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            }
+        ],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "Atrial fibrillation",
+                "range": [
+                    15,
+                    34
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "49436004",
+                "cui": "C0004238",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Atrial Fibrillation"
+            },
+            {
+                "text": "coronary disease",
+                "range": [
+                    36,
+                    52
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "53741008",
+                "cui": "C0010068",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Coronary heart disease"
+            },
+            {
+                "text": "atrial fibrillation",
+                "range": [
+                    158,
+                    177
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "49436004",
+                "cui": "C0004238",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Atrial Fibrillation"
+            },
+            {
+                "text": "atrial fibrillation",
+                "range": [
+                    632,
+                    651
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.014,
+        "uncertain_count": 1,
+        "narrow_band_ratio": 0.006,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.662,
+                    "SPECT",
+                    [
+                        313,
+                        318
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "Atrial",
+                    [
+                        15,
+                        21
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "fibrillation",
+                    [
+                        22,
+                        34
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "coronary",
+                    [
+                        36,
+                        44
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "disease",
+                    [
+                        45,
+                        52
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "atrial",
+                    [
+                        158,
+                        164
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "fibrillation",
+                    [
+                        165,
+                        177
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "atrial",
+                    [
+                        632,
+                        638
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "fibrillation",
+                    [
+                        639,
+                        651
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.945,
+                    "Atrial",
+                    [
+                        15,
+                        21
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.961,
+                    "fibrillation",
+                    [
+                        22,
+                        34
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.566,
+                    "coronary",
+                    [
+                        36,
+                        44
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.569,
+                    "disease",
+                    [
+                        45,
+                        52
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.558,
+                    "atrial",
+                    [
+                        158,
+                        164
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.772,
+                    "fibrillation",
+                    [
+                        165,
+                        177
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.858,
+                    "atrial",
+                    [
+                        632,
+                        638
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.838,
+                    "fibrillation",
+                    [
+                        639,
+                        651
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.131,
+        "uncertain_token_count": 2,
+        "narrow_band_ratio": 0.013,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.445,
+                    "regional",
+                    [
+                        830,
+                        838
+                    ]
+                ],
+                [
+                    0.432,
+                    "motion",
+                    [
+                        844,
+                        850
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

@@ -1,0 +1,675 @@
+{
+    "file": "laminectomy-facetectomy.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "DuraGen",
+                "code": "216786",
+                "cui": "C0720086",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Duragen",
+                "range": [
+                    4909,
+                    4916
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.956
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "DuraGen",
+                "code": "216786",
+                "cui": "C0720086",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Duragen",
+                "range": [
+                    4909,
+                    4916
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.956
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            }
+        ],
+        "Allergy": [],
+        "Lab": [
+            {
+                "code": "",
+                "cui": "C0002059",
+                "tui": "T034",
+                "vocab": "LNC",
+                "polarity": "positive",
+                "text": "AP",
+                "preferredText": "ALP - ALKALINE PHOSPHATASE",
+                "range": [
+                    4457,
+                    4459
+                ]
+            }
+        ],
+        "DiseaseDisorder": [
+            {
+                "text": "Dural tear",
+                "range": [
+                    26,
+                    36
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "postoperative",
+                "range": [
+                    38,
+                    51
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "Dural tear",
+                "range": [
+                    102,
+                    112
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "Laterolisthesis",
+                "range": [
+                    153,
+                    168
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "Spinal instability",
+                "range": [
+                    182,
+                    200
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "240220009",
+                "cui": "C0410648",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Spinal instability"
+            },
+            {
+                "text": "positional migraines",
+                "range": [
+                    1173,
+                    1193
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.011,
+        "uncertain_count": 5,
+        "narrow_band_ratio": 0.005,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.666,
+                    "intraoperative",
+                    [
+                        3315,
+                        3329
+                    ]
+                ],
+                [
+                    0.655,
+                    "elements",
+                    [
+                        4622,
+                        4630
+                    ]
+                ],
+                [
+                    0.657,
+                    "Prolene",
+                    [
+                        5107,
+                        5114
+                    ]
+                ],
+                [
+                    0.616,
+                    "bacitracin",
+                    [
+                        5345,
+                        5355
+                    ]
+                ]
+            ],
+            "MED": [
+                [
+                    0.695,
+                    "matrix",
+                    [
+                        4851,
+                        4857
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "Dural",
+                    [
+                        26,
+                        31
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "tear",
+                    [
+                        32,
+                        36
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "postoperative",
+                    [
+                        38,
+                        51
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Dural",
+                    [
+                        102,
+                        107
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "tear",
+                    [
+                        108,
+                        112
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Laterolisthesis",
+                    [
+                        153,
+                        168
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Spinal",
+                    [
+                        182,
+                        188
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "instability",
+                    [
+                        189,
+                        200
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "several",
+                    [
+                        919,
+                        926
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "draining",
+                    [
+                        966,
+                        974
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "wound",
+                    [
+                        975,
+                        980
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "headaches",
+                    [
+                        1129,
+                        1138
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "nausea",
+                    [
+                        1144,
+                        1150
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "vomiting",
+                    [
+                        1152,
+                        1160
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "positional",
+                    [
+                        1173,
+                        1183
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "migraines",
+                    [
+                        1184,
+                        1193
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "wound",
+                    [
+                        1230,
+                        1235
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "wound",
+                    [
+                        1420,
+                        1425
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "L4",
+                    [
+                        4541,
+                        4543
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.957,
+                    "Dural",
+                    [
+                        26,
+                        31
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.981,
+                    "tear",
+                    [
+                        32,
+                        36
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.52,
+                    "postoperative",
+                    [
+                        38,
+                        51
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.439,
+                    "laminectomy",
+                    [
+                        52,
+                        63
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.782,
+                    "Dural",
+                    [
+                        102,
+                        107
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.869,
+                    "tear",
+                    [
+                        108,
+                        112
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.504,
+                    "Laterolisthesis",
+                    [
+                        153,
+                        168
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.908,
+                    "Spinal",
+                    [
+                        182,
+                        188
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.873,
+                    "instability",
+                    [
+                        189,
+                        200
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.417,
+                    "several",
+                    [
+                        919,
+                        926
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.53,
+                    "draining",
+                    [
+                        966,
+                        974
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.531,
+                    "wound",
+                    [
+                        975,
+                        980
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.684,
+                    "headaches",
+                    [
+                        1129,
+                        1138
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.801,
+                    "nausea",
+                    [
+                        1144,
+                        1150
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.826,
+                    "vomiting",
+                    [
+                        1152,
+                        1160
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.707,
+                    "positional",
+                    [
+                        1173,
+                        1183
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.668,
+                    "migraines",
+                    [
+                        1184,
+                        1193
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.484,
+                    "wound",
+                    [
+                        1230,
+                        1235
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.659,
+                    "wound",
+                    [
+                        1420,
+                        1425
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.506,
+                    "L4",
+                    [
+                        4541,
+                        4543
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.09,
+        "uncertain_token_count": 11,
+        "narrow_band_ratio": 0.011,
+        "uncertain_tokens": {
+            "DIAGNOSIS": [
+                [
+                    0.52,
+                    "postoperative",
+                    [
+                        38,
+                        51
+                    ]
+                ],
+                [
+                    0.439,
+                    "laminectomy",
+                    [
+                        52,
+                        63
+                    ]
+                ],
+                [
+                    0.504,
+                    "Laterolisthesis",
+                    [
+                        153,
+                        168
+                    ]
+                ],
+                [
+                    0.484,
+                    "wound",
+                    [
+                        1230,
+                        1235
+                    ]
+                ],
+                [
+                    0.506,
+                    "L4",
+                    [
+                        4541,
+                        4543
+                    ]
+                ]
+            ],
+            "NA": [
+                [
+                    0.529,
+                    "postoperative",
+                    [
+                        114,
+                        127
+                    ]
+                ],
+                [
+                    0.488,
+                    "L4-L5",
+                    [
+                        141,
+                        146
+                    ]
+                ],
+                [
+                    0.473,
+                    "L4-L5",
+                    [
+                        170,
+                        175
+                    ]
+                ],
+                [
+                    0.408,
+                    "days",
+                    [
+                        927,
+                        931
+                    ]
+                ],
+                [
+                    0.436,
+                    "headaches",
+                    [
+                        943,
+                        952
+                    ]
+                ]
+            ],
+            "PROBLEM": [
+                [
+                    0.417,
+                    "several",
+                    [
+                        919,
+                        926
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

@@ -1,0 +1,285 @@
+{
+    "file": "intercostal-block.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "Marcaine",
+                "code": "1012397",
+                "cui": "C2945665",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Marcaine",
+                "range": [
+                    394,
+                    402
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 1.0
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [
+                    "0.025",
+                    403,
+                    408
+                ],
+                "medStrengthUnit": [
+                    "%",
+                    408,
+                    409
+                ]
+            },
+            {
+                "text": "Marcaine",
+                "code": "1012397",
+                "cui": "C2945665",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Marcaine",
+                "range": [
+                    485,
+                    493
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.999
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            }
+        ],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "post thoracotomy",
+                "range": [
+                    33,
+                    49
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "post thoracotomy",
+                "range": [
+                    89,
+                    105
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "thoracotomy",
+                "range": [
+                    269,
+                    280
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.004,
+        "uncertain_count": 0,
+        "narrow_band_ratio": 0.0,
+        "uncertain_tokens": {},
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "post",
+                    [
+                        33,
+                        37
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "thoracotomy",
+                    [
+                        38,
+                        49
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "pain",
+                    [
+                        50,
+                        54
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "post",
+                    [
+                        89,
+                        93
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "thoracotomy",
+                    [
+                        94,
+                        105
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "pain",
+                    [
+                        106,
+                        110
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "thoracotomy",
+                    [
+                        269,
+                        280
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "pain",
+                    [
+                        281,
+                        285
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.579,
+                    "post",
+                    [
+                        33,
+                        37
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.633,
+                    "thoracotomy",
+                    [
+                        38,
+                        49
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.442,
+                    "pain",
+                    [
+                        50,
+                        54
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.541,
+                    "thoracotomy",
+                    [
+                        94,
+                        105
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.471,
+                    "thoracotomy",
+                    [
+                        269,
+                        280
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.182,
+        "uncertain_token_count": 5,
+        "narrow_band_ratio": 0.048,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.471,
+                    "Severe",
+                    [
+                        26,
+                        32
+                    ]
+                ],
+                [
+                    0.485,
+                    "pain",
+                    [
+                        106,
+                        110
+                    ]
+                ],
+                [
+                    0.412,
+                    "pain",
+                    [
+                        281,
+                        285
+                    ]
+                ]
+            ],
+            "DIAGNOSIS": [
+                [
+                    0.442,
+                    "pain",
+                    [
+                        50,
+                        54
+                    ]
+                ],
+                [
+                    0.471,
+                    "thoracotomy",
+                    [
+                        269,
+                        280
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

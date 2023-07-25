@@ -1,0 +1,265 @@
+{
+    "file": "esophagoscopy-foreign-body-removal.txt-clean.txt",
+    "text2summary": {
+        "Medication": [],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "Esophageal foreign",
+                "range": [
+                    26,
+                    44
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "47609003",
+                "cui": "C0149532",
+                "tui": "T037",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Foreign body in esophagus"
+            },
+            {
+                "text": "penny",
+                "range": [
+                    105,
+                    110
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.007,
+        "uncertain_count": 2,
+        "narrow_band_ratio": 0.004,
+        "uncertain_tokens": {
+            "MED": [
+                [
+                    0.57,
+                    "oral",
+                    [
+                        591,
+                        595
+                    ]
+                ]
+            ],
+            "NA": [
+                [
+                    0.692,
+                    "intake",
+                    [
+                        596,
+                        602
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "Esophageal",
+                    [
+                        26,
+                        36
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "foreign",
+                    [
+                        37,
+                        44
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "penny",
+                    [
+                        105,
+                        110
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "biliary",
+                    [
+                        246,
+                        253
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "atresia",
+                    [
+                        254,
+                        261
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "inflammation",
+                    [
+                        2382,
+                        2394
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.833,
+                    "Esophageal",
+                    [
+                        26,
+                        36
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.626,
+                    "foreign",
+                    [
+                        37,
+                        44
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.441,
+                    "body",
+                    [
+                        45,
+                        49
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.472,
+                    "US",
+                    [
+                        102,
+                        104
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.494,
+                    "penny",
+                    [
+                        105,
+                        110
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.762,
+                    "biliary",
+                    [
+                        246,
+                        253
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.85,
+                    "atresia",
+                    [
+                        254,
+                        261
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.44,
+                    "inflammation",
+                    [
+                        2382,
+                        2394
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.107,
+        "uncertain_token_count": 6,
+        "narrow_band_ratio": 0.012,
+        "uncertain_tokens": {
+            "DIAGNOSIS": [
+                [
+                    0.441,
+                    "body",
+                    [
+                        45,
+                        49
+                    ]
+                ],
+                [
+                    0.472,
+                    "US",
+                    [
+                        102,
+                        104
+                    ]
+                ],
+                [
+                    0.494,
+                    "penny",
+                    [
+                        105,
+                        110
+                    ]
+                ]
+            ],
+            "NA": [
+                [
+                    0.427,
+                    "body",
+                    [
+                        96,
+                        100
+                    ]
+                ],
+                [
+                    0.448,
+                    "mucosal",
+                    [
+                        2374,
+                        2381
+                    ]
+                ]
+            ],
+            "PROBLEM": [
+                [
+                    0.44,
+                    "inflammation",
+                    [
+                        2382,
+                        2394
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

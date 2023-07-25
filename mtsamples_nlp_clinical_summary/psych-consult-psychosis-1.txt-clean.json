@@ -1,0 +1,372 @@
+{
+    "file": "psych-consult-psychosis-1.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "Ativan",
+                "code": "202479",
+                "cui": "C0699194",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Ativan",
+                "range": [
+                    983,
+                    989
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.999
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [
+                    "2",
+                    990,
+                    991
+                ],
+                "medStrengthUnit": [
+                    "mg",
+                    992,
+                    994
+                ]
+            },
+            {
+                "text": "Ativan",
+                "code": "202479",
+                "cui": "C0699194",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Ativan",
+                "range": [
+                    983,
+                    989
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.999
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [
+                    "2",
+                    990,
+                    991
+                ],
+                "medStrengthUnit": [
+                    "mg",
+                    992,
+                    994
+                ]
+            },
+            {
+                "text": "milieu",
+                "code": null,
+                "cui": null,
+                "tui": null,
+                "vocab": null,
+                "polarity": "positive",
+                "preferredText": null,
+                "range": [
+                    2409,
+                    2415
+                ],
+                "prob": {
+                    "MED": 0.969
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            }
+        ],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "and incontinent of urine and feces",
+                "range": [
+                    296,
+                    330
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "Dehydration",
+                "range": [
+                    2207,
+                    2218
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "34095006",
+                "cui": "C0011175",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Dehydration"
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.008,
+        "uncertain_count": 3,
+        "narrow_band_ratio": 0.006,
+        "uncertain_tokens": {
+            "MED": [
+                [
+                    0.66,
+                    "IDENTIFYING",
+                    [
+                        2,
+                        13
+                    ]
+                ],
+                [
+                    0.698,
+                    "nicotine",
+                    [
+                        1301,
+                        1309
+                    ]
+                ]
+            ],
+            "NA": [
+                [
+                    0.573,
+                    "MSW",
+                    [
+                        2461,
+                        2464
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "PROBLEM": [
+                    "unresponsive",
+                    [
+                        283,
+                        295
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "and",
+                    [
+                        296,
+                        299
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "incontinent",
+                    [
+                        300,
+                        311
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "of",
+                    [
+                        312,
+                        314
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "urine",
+                    [
+                        315,
+                        320
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "and",
+                    [
+                        321,
+                        324
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "feces",
+                    [
+                        325,
+                        330
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "psychosis",
+                    [
+                        2095,
+                        2104
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Psychosis",
+                    [
+                        2158,
+                        2167
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Dehydration",
+                    [
+                        2207,
+                        2218
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "PROBLEM": [
+                    0.754,
+                    "unresponsive",
+                    [
+                        283,
+                        295
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.593,
+                    "and",
+                    [
+                        296,
+                        299
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.787,
+                    "incontinent",
+                    [
+                        300,
+                        311
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.78,
+                    "of",
+                    [
+                        312,
+                        314
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.881,
+                    "urine",
+                    [
+                        315,
+                        320
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.783,
+                    "and",
+                    [
+                        321,
+                        324
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.781,
+                    "feces",
+                    [
+                        325,
+                        330
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.801,
+                    "psychosis",
+                    [
+                        2095,
+                        2104
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.933,
+                    "Psychosis",
+                    [
+                        2158,
+                        2167
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.903,
+                    "Dehydration",
+                    [
+                        2207,
+                        2218
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.048,
+        "uncertain_token_count": 2,
+        "narrow_band_ratio": 0.004,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.431,
+                    "unresponsive",
+                    [
+                        185,
+                        197
+                    ]
+                ],
+                [
+                    0.452,
+                    "catatonia",
+                    [
+                        2125,
+                        2134
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

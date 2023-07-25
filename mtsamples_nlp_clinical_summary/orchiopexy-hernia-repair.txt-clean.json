@@ -1,0 +1,563 @@
+{
+    "file": "orchiopexy-hernia-repair.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "Toradol",
+                "code": "57309",
+                "cui": "C0146226",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Toradol",
+                "range": [
+                    3512,
+                    3519
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 1.0
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "Toradol",
+                "code": "57309",
+                "cui": "C0146226",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Toradol",
+                "range": [
+                    3512,
+                    3519
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 1.0
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            }
+        ],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "Left",
+                "range": [
+                    77,
+                    81
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "on the left",
+                "range": [
+                    736,
+                    747
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "hernia",
+                "range": [
+                    2051,
+                    2057
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "414403008",
+                "cui": "C0019270",
+                "tui": "T190",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Hernia"
+            },
+            {
+                "text": "in the mid-to-low scrotum",
+                "range": [
+                    2622,
+                    2647
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.009,
+        "uncertain_count": 2,
+        "narrow_band_ratio": 0.003,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.524,
+                    "scrotal",
+                    [
+                        1051,
+                        1058
+                    ]
+                ]
+            ],
+            "MED": [
+                [
+                    0.593,
+                    "anesthetic",
+                    [
+                        3060,
+                        3070
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "undescended",
+                    [
+                        31,
+                        42
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Left",
+                    [
+                        77,
+                        81
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "undescended",
+                    [
+                        82,
+                        93
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "testis",
+                    [
+                        94,
+                        100
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "left",
+                    [
+                        106,
+                        110
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "inguinal",
+                    [
+                        111,
+                        119
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "hernia",
+                    [
+                        120,
+                        126
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "undescended",
+                    [
+                        717,
+                        728
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "testis",
+                    [
+                        729,
+                        735
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "on",
+                    [
+                        736,
+                        738
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "the",
+                    [
+                        739,
+                        742
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "left",
+                    [
+                        743,
+                        747
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "communicating",
+                    [
+                        2037,
+                        2050
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "hernia",
+                    [
+                        2051,
+                        2057
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "hydrocele",
+                    [
+                        2058,
+                        2067
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "in",
+                    [
+                        2622,
+                        2624
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "the",
+                    [
+                        2625,
+                        2628
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "mid-to-low",
+                    [
+                        2629,
+                        2639
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "scrotum",
+                    [
+                        2640,
+                        2647
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.422,
+                    "undescended",
+                    [
+                        31,
+                        42
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.423,
+                    "testis",
+                    [
+                        43,
+                        49
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.478,
+                    "Left",
+                    [
+                        77,
+                        81
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.805,
+                    "undescended",
+                    [
+                        82,
+                        93
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.849,
+                    "testis",
+                    [
+                        94,
+                        100
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.72,
+                    "left",
+                    [
+                        106,
+                        110
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.7,
+                    "inguinal",
+                    [
+                        111,
+                        119
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.716,
+                    "hernia",
+                    [
+                        120,
+                        126
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.584,
+                    "undescended",
+                    [
+                        717,
+                        728
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.584,
+                    "testis",
+                    [
+                        729,
+                        735
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.535,
+                    "on",
+                    [
+                        736,
+                        738
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.581,
+                    "the",
+                    [
+                        739,
+                        742
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.613,
+                    "left",
+                    [
+                        743,
+                        747
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.572,
+                    "communicating",
+                    [
+                        2037,
+                        2050
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.74,
+                    "hernia",
+                    [
+                        2051,
+                        2057
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.567,
+                    "hydrocele",
+                    [
+                        2058,
+                        2067
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.619,
+                    "in",
+                    [
+                        2622,
+                        2624
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.697,
+                    "the",
+                    [
+                        2625,
+                        2628
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.584,
+                    "mid-to-low",
+                    [
+                        2629,
+                        2639
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.527,
+                    "scrotum",
+                    [
+                        2640,
+                        2647
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.086,
+        "uncertain_token_count": 5,
+        "narrow_band_ratio": 0.008,
+        "uncertain_tokens": {
+            "DIAGNOSIS": [
+                [
+                    0.422,
+                    "undescended",
+                    [
+                        31,
+                        42
+                    ]
+                ],
+                [
+                    0.478,
+                    "Left",
+                    [
+                        77,
+                        81
+                    ]
+                ],
+                [
+                    0.527,
+                    "scrotum",
+                    [
+                        2640,
+                        2647
+                    ]
+                ]
+            ],
+            "PROBLEM": [
+                [
+                    0.423,
+                    "testis",
+                    [
+                        43,
+                        49
+                    ]
+                ]
+            ],
+            "NA": [
+                [
+                    0.495,
+                    "testis",
+                    [
+                        2615,
+                        2621
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

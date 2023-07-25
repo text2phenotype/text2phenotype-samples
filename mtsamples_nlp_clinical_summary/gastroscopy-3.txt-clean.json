@@ -1,0 +1,456 @@
+{
+    "file": "gastroscopy-3.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "PPI",
+                "code": null,
+                "cui": null,
+                "tui": null,
+                "vocab": null,
+                "polarity": "positive",
+                "preferredText": null,
+                "range": [
+                    1912,
+                    1915
+                ],
+                "prob": {
+                    "MED": 0.926
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            }
+        ],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "Gastroesophageal reflux",
+                "range": [
+                    51,
+                    74
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "Barrett esophagus",
+                "range": [
+                    110,
+                    127
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "302914006",
+                "cui": "C0004763",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Barrett Esophagus"
+            },
+            {
+                "text": "hiatal hernia",
+                "range": [
+                    537,
+                    550
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "84089009",
+                "cui": "C3489393",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Hiatal Hernia"
+            },
+            {
+                "text": "Barrett esophagus",
+                "range": [
+                    800,
+                    817
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "302914006",
+                "cui": "C0004763",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Barrett Esophagus"
+            },
+            {
+                "text": "esophagus",
+                "range": [
+                    1695,
+                    1704
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "302914006",
+                "cui": "C0004763",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Barrett Esophagus"
+            },
+            {
+                "text": "Hiatal hernia",
+                "range": [
+                    1711,
+                    1724
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "84089009",
+                "cui": "C3489393",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Hiatal Hernia"
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.004,
+        "uncertain_count": 0,
+        "narrow_band_ratio": 0.0,
+        "uncertain_tokens": {},
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "Gastroesophageal",
+                    [
+                        51,
+                        67
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "reflux",
+                    [
+                        68,
+                        74
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "disease",
+                    [
+                        75,
+                        82
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Barrett",
+                    [
+                        110,
+                        117
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "esophagus",
+                    [
+                        118,
+                        127
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "hiatal",
+                    [
+                        537,
+                        543
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "hernia",
+                    [
+                        544,
+                        550
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Barrett",
+                    [
+                        800,
+                        807
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "esophagus",
+                    [
+                        808,
+                        817
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "esophagus",
+                    [
+                        1695,
+                        1704
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Hiatal",
+                    [
+                        1711,
+                        1717
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "hernia",
+                    [
+                        1718,
+                        1724
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "fundic",
+                    [
+                        1742,
+                        1748
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "gland",
+                    [
+                        1749,
+                        1754
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "polyps",
+                    [
+                        1755,
+                        1761
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.873,
+                    "Gastroesophageal",
+                    [
+                        51,
+                        67
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.944,
+                    "reflux",
+                    [
+                        68,
+                        74
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.895,
+                    "disease",
+                    [
+                        75,
+                        82
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.935,
+                    "Barrett",
+                    [
+                        110,
+                        117
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.903,
+                    "esophagus",
+                    [
+                        118,
+                        127
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.66,
+                    "hiatal",
+                    [
+                        537,
+                        543
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.645,
+                    "hernia",
+                    [
+                        544,
+                        550
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.707,
+                    "Barrett",
+                    [
+                        800,
+                        807
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.619,
+                    "esophagus",
+                    [
+                        808,
+                        817
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.547,
+                    "Barrett",
+                    [
+                        1687,
+                        1694
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.558,
+                    "esophagus",
+                    [
+                        1695,
+                        1704
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.848,
+                    "Hiatal",
+                    [
+                        1711,
+                        1717
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.884,
+                    "hernia",
+                    [
+                        1718,
+                        1724
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.678,
+                    "fundic",
+                    [
+                        1742,
+                        1748
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.696,
+                    "gland",
+                    [
+                        1749,
+                        1754
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.476,
+                    "polyps",
+                    [
+                        1755,
+                        1761
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.106,
+        "uncertain_token_count": 3,
+        "narrow_band_ratio": 0.008,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.479,
+                    "gland",
+                    [
+                        1102,
+                        1107
+                    ]
+                ],
+                [
+                    0.503,
+                    "polyps",
+                    [
+                        1108,
+                        1114
+                    ]
+                ]
+            ],
+            "DIAGNOSIS": [
+                [
+                    0.476,
+                    "polyps",
+                    [
+                        1755,
+                        1761
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

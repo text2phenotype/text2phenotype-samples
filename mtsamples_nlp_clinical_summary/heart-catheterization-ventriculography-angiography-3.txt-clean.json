@@ -1,0 +1,434 @@
+{
+    "file": "heart-catheterization-ventriculography-angiography-3.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "heparin",
+                "code": "5224",
+                "cui": "C0019134",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Heparin",
+                "range": [
+                    303,
+                    310
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.993
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "heparin",
+                "code": "5224",
+                "cui": "C0019134",
+                "tui": "T123",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Heparin",
+                "range": [
+                    303,
+                    310
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.993
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "heparin",
+                "code": "5224",
+                "cui": "C0019134",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Heparin",
+                "range": [
+                    303,
+                    310
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.993
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            }
+        ],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "Acute coronary syndrome",
+                "range": [
+                    117,
+                    140
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "394659003",
+                "cui": "C0948089",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Acute Coronary Syndrome"
+            },
+            {
+                "text": "infarction",
+                "range": [
+                    464,
+                    474
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "22298006",
+                "cui": "C0027051",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Myocardial Infarction"
+            },
+            {
+                "text": "stroke",
+                "range": [
+                    476,
+                    482
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "230690007",
+                "cui": "C0038454",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Cerebrovascular accident"
+            },
+            {
+                "text": "ATN",
+                "range": [
+                    638,
+                    641
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "6483008",
+                "cui": "C0268494",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Oculocutaneous albinism type 1"
+            },
+            {
+                "text": "Insignificant coronary disease",
+                "range": [
+                    1251,
+                    1281
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.001,
+        "uncertain_count": 0,
+        "narrow_band_ratio": 0.0,
+        "uncertain_tokens": {},
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "Acute",
+                    [
+                        117,
+                        122
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "coronary",
+                    [
+                        123,
+                        131
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "syndrome",
+                    [
+                        132,
+                        140
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "infarction",
+                    [
+                        464,
+                        474
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "stroke",
+                    [
+                        476,
+                        482
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "death",
+                    [
+                        484,
+                        489
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "ATN",
+                    [
+                        638,
+                        641
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "allergy",
+                    [
+                        642,
+                        649
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "ventricular",
+                    [
+                        1215,
+                        1226
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "systolic",
+                    [
+                        1227,
+                        1235
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "function",
+                    [
+                        1236,
+                        1244
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Insignificant",
+                    [
+                        1251,
+                        1264
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "coronary",
+                    [
+                        1265,
+                        1273
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "disease",
+                    [
+                        1274,
+                        1281
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.897,
+                    "Acute",
+                    [
+                        117,
+                        122
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.842,
+                    "coronary",
+                    [
+                        123,
+                        131
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.832,
+                    "syndrome",
+                    [
+                        132,
+                        140
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.663,
+                    "infarction",
+                    [
+                        464,
+                        474
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.613,
+                    "stroke",
+                    [
+                        476,
+                        482
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.616,
+                    "ATN",
+                    [
+                        638,
+                        641
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.577,
+                    "ventricular",
+                    [
+                        1215,
+                        1226
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.683,
+                    "systolic",
+                    [
+                        1227,
+                        1235
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.676,
+                    "function",
+                    [
+                        1236,
+                        1244
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.555,
+                    "Insignificant",
+                    [
+                        1251,
+                        1264
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.9,
+                    "coronary",
+                    [
+                        1265,
+                        1273
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.948,
+                    "disease",
+                    [
+                        1274,
+                        1281
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.124,
+        "uncertain_token_count": 3,
+        "narrow_band_ratio": 0.012,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.504,
+                    "myocardial",
+                    [
+                        453,
+                        463
+                    ]
+                ],
+                [
+                    0.478,
+                    "death",
+                    [
+                        484,
+                        489
+                    ]
+                ],
+                [
+                    0.481,
+                    "allergy",
+                    [
+                        642,
+                        649
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

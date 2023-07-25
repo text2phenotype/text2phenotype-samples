@@ -1,0 +1,584 @@
+{
+    "file": "total-thyroid-lumpectomy.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "lidocaine",
+                "code": "6387",
+                "cui": "C0023660",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Lidocaine",
+                "range": [
+                    1023,
+                    1032
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.946
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "lidocaine",
+                "code": "6387",
+                "cui": "C0023660",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Lidocaine",
+                "range": [
+                    1023,
+                    1032
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.946
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "epinephrine",
+                "code": "3992",
+                "cui": "C0014563",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Epinephrine",
+                "range": [
+                    1038,
+                    1049
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.981
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "epinephrine",
+                "code": "3992",
+                "cui": "C0014563",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Epinephrine",
+                "range": [
+                    1038,
+                    1049
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.981
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "bacitracin",
+                "code": "1291",
+                "cui": "C0004599",
+                "tui": "T195",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Bacitracin",
+                "range": [
+                    4514,
+                    4524
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.995
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            }
+        ],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "left",
+                "range": [
+                    335,
+                    339
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "on the left\nanterior",
+                "range": [
+                    456,
+                    476
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "posterior",
+                "range": [
+                    2741,
+                    2750
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "72442006",
+                "cui": "C0751438",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Posterior pituitary disease"
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.011,
+        "uncertain_count": 4,
+        "narrow_band_ratio": 0.005,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.61,
+                    "intubation",
+                    [
+                        818,
+                        828
+                    ]
+                ],
+                [
+                    0.524,
+                    "saline",
+                    [
+                        3961,
+                        3967
+                    ]
+                ]
+            ],
+            "MED": [
+                [
+                    0.627,
+                    "solution",
+                    [
+                        3968,
+                        3976
+                    ]
+                ],
+                [
+                    0.677,
+                    "strips",
+                    [
+                        4072,
+                        4078
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "PROBLEM": [
+                    "thyroid",
+                    [
+                        76,
+                        83
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "mass",
+                    [
+                        84,
+                        88
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "left",
+                    [
+                        335,
+                        339
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "thyroid",
+                    [
+                        340,
+                        347
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "mass",
+                    [
+                        348,
+                        352
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "nodule",
+                    [
+                        353,
+                        359
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "nodule",
+                    [
+                        449,
+                        455
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "on",
+                    [
+                        456,
+                        458
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "the",
+                    [
+                        459,
+                        462
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "left",
+                    [
+                        463,
+                        467
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "anterior",
+                    [
+                        468,
+                        476
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "thyroid",
+                    [
+                        2719,
+                        2726
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "nodule",
+                    [
+                        2727,
+                        2733
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "posterior",
+                    [
+                        2741,
+                        2750
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "calcification",
+                    [
+                        2782,
+                        2795
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "nodule",
+                    [
+                        2811,
+                        2817
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.438,
+                    "thyroid",
+                    [
+                        76,
+                        83
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.467,
+                    "mass",
+                    [
+                        84,
+                        88
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.613,
+                    "left",
+                    [
+                        335,
+                        339
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.745,
+                    "thyroid",
+                    [
+                        340,
+                        347
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.749,
+                    "mass",
+                    [
+                        348,
+                        352
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.705,
+                    "nodule",
+                    [
+                        353,
+                        359
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.621,
+                    "nodule",
+                    [
+                        449,
+                        455
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.622,
+                    "the",
+                    [
+                        459,
+                        462
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.734,
+                    "left",
+                    [
+                        463,
+                        467
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.589,
+                    "anterior",
+                    [
+                        468,
+                        476
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.6,
+                    "thyroid",
+                    [
+                        2719,
+                        2726
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.525,
+                    "nodule",
+                    [
+                        2727,
+                        2733
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.553,
+                    "posterior",
+                    [
+                        2741,
+                        2750
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.484,
+                    "calcification",
+                    [
+                        2782,
+                        2795
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.615,
+                    "nodule",
+                    [
+                        2811,
+                        2817
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.535,
+                    "cut",
+                    [
+                        4059,
+                        4062
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.091,
+        "uncertain_token_count": 8,
+        "narrow_band_ratio": 0.01,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.39,
+                    "Left",
+                    [
+                        71,
+                        75
+                    ]
+                ],
+                [
+                    0.512,
+                    "on",
+                    [
+                        456,
+                        458
+                    ]
+                ],
+                [
+                    0.503,
+                    "pole",
+                    [
+                        477,
+                        481
+                    ]
+                ],
+                [
+                    0.517,
+                    "retraction",
+                    [
+                        1386,
+                        1396
+                    ]
+                ]
+            ],
+            "DIAGNOSIS": [
+                [
+                    0.438,
+                    "thyroid",
+                    [
+                        76,
+                        83
+                    ]
+                ],
+                [
+                    0.467,
+                    "mass",
+                    [
+                        84,
+                        88
+                    ]
+                ],
+                [
+                    0.525,
+                    "nodule",
+                    [
+                        2727,
+                        2733
+                    ]
+                ],
+                [
+                    0.484,
+                    "calcification",
+                    [
+                        2782,
+                        2795
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

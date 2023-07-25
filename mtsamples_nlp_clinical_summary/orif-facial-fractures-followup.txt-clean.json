@@ -1,0 +1,260 @@
+{
+    "file": "orif-facial-fractures-followup.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "Halcion",
+                "code": "227423",
+                "cui": "C0733624",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Halcion",
+                "range": [
+                    862,
+                    869
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.999
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [
+                    "5",
+                    870,
+                    871
+                ],
+                "medStrengthUnit": [
+                    "mg",
+                    872,
+                    874
+                ]
+            },
+            {
+                "text": "Halcion",
+                "code": "227423",
+                "cui": "C0733624",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Halcion",
+                "range": [
+                    862,
+                    869
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.999
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [
+                    "5",
+                    870,
+                    871
+                ],
+                "medStrengthUnit": [
+                    "mg",
+                    872,
+                    874
+                ]
+            }
+        ],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "facial\nfractures",
+                "range": [
+                    280,
+                    296
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "nasal fracture",
+                "range": [
+                    324,
+                    338
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "263171005",
+                "cui": "C0339848",
+                "tui": "T037",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Fractured nasal bones"
+            },
+            {
+                "text": "evening",
+                "range": [
+                    830,
+                    837
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.001,
+        "uncertain_count": 0,
+        "narrow_band_ratio": 0.0,
+        "uncertain_tokens": {},
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "facial",
+                    [
+                        280,
+                        286
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "fractures",
+                    [
+                        287,
+                        296
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "nasal",
+                    [
+                        324,
+                        329
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "fracture",
+                    [
+                        330,
+                        338
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "occlusion",
+                    [
+                        621,
+                        630
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "evening",
+                    [
+                        830,
+                        837
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.785,
+                    "facial",
+                    [
+                        280,
+                        286
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.912,
+                    "fractures",
+                    [
+                        287,
+                        296
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.852,
+                    "nasal",
+                    [
+                        324,
+                        329
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.902,
+                    "fracture",
+                    [
+                        330,
+                        338
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.383,
+                    "occlusion",
+                    [
+                        621,
+                        630
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.079,
+        "uncertain_token_count": 3,
+        "narrow_band_ratio": 0.012,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.461,
+                    "swelling",
+                    [
+                        593,
+                        601
+                    ]
+                ],
+                [
+                    0.434,
+                    "evening",
+                    [
+                        830,
+                        837
+                    ]
+                ]
+            ],
+            "PROBLEM": [
+                [
+                    0.383,
+                    "occlusion",
+                    [
+                        621,
+                        630
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

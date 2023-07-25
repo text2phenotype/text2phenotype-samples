@@ -1,0 +1,821 @@
+{
+    "file": "low-transverse-c-section-9.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "Valtrex",
+                "code": "152490",
+                "cui": "C0592245",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Valtrex",
+                "range": [
+                    1319,
+                    1326
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.997
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "Valtrex",
+                "code": "152490",
+                "cui": "C0592245",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Valtrex",
+                "range": [
+                    1319,
+                    1326
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.997
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "Pitocin",
+                "code": "227199",
+                "cui": "C0733348",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Pitocin",
+                "range": [
+                    1427,
+                    1434
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 1.0
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            }
+        ],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "Herpes simplex",
+                "range": [
+                    72,
+                    86
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "88594005",
+                "cui": "C0019348",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Herpes Simplex Infections"
+            },
+            {
+                "text": "Hepatitis C",
+                "range": [
+                    120,
+                    131
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "186634008",
+                "cui": "C0019196",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Hepatitis C"
+            },
+            {
+                "text": "Postpartum",
+                "range": [
+                    247,
+                    257
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "Herpes simplex virus",
+                "range": [
+                    342,
+                    362
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "88594005",
+                "cui": "C0019348",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Herpes Simplex Infections"
+            },
+            {
+                "text": "Hepatitis C",
+                "range": [
+                    390,
+                    401
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "186634008",
+                "cui": "C0019196",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Hepatitis C"
+            },
+            {
+                "text": "Postpartum",
+                "range": [
+                    517,
+                    527
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "Delivery",
+                "range": [
+                    545,
+                    553
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "lb female",
+                "range": [
+                    566,
+                    575
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "hepatitis C",
+                "range": [
+                    1181,
+                    1192
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "186634008",
+                "cui": "C0019196",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Hepatitis C"
+            },
+            {
+                "text": "delivered",
+                "range": [
+                    2997,
+                    3006
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.007,
+        "uncertain_count": 2,
+        "narrow_band_ratio": 0.003,
+        "uncertain_tokens": {
+            "MED": [
+                [
+                    0.686,
+                    "waters",
+                    [
+                        1395,
+                        1401
+                    ]
+                ]
+            ],
+            "NA": [
+                [
+                    0.668,
+                    "hemostatic",
+                    [
+                        3598,
+                        3608
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "Herpes",
+                    [
+                        72,
+                        78
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "simplex",
+                    [
+                        79,
+                        86
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Hepatitis",
+                    [
+                        120,
+                        129
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "C",
+                    [
+                        130,
+                        131
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Cephalopelvic",
+                    [
+                        195,
+                        208
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "disproportion",
+                    [
+                        209,
+                        222
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Asynclitism",
+                    [
+                        229,
+                        240
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Postpartum",
+                    [
+                        247,
+                        257
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "macrosomia",
+                    [
+                        258,
+                        268
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Herpes",
+                    [
+                        342,
+                        348
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "simplex",
+                    [
+                        349,
+                        356
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "virus",
+                    [
+                        357,
+                        362
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Hepatitis",
+                    [
+                        390,
+                        399
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "C",
+                    [
+                        400,
+                        401
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Cephalopelvic",
+                    [
+                        465,
+                        478
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "disproportion",
+                    [
+                        479,
+                        492
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Asynclitism",
+                    [
+                        499,
+                        510
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Postpartum",
+                    [
+                        517,
+                        527
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "macrosomia",
+                    [
+                        528,
+                        538
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Delivery",
+                    [
+                        545,
+                        553
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "lb",
+                    [
+                        566,
+                        568
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "female",
+                    [
+                        569,
+                        575
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "neonate",
+                    [
+                        576,
+                        583
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "hepatitis",
+                    [
+                        1181,
+                        1190
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "C",
+                    [
+                        1191,
+                        1192
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "delivered",
+                    [
+                        2997,
+                        3006
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.929,
+                    "Herpes",
+                    [
+                        72,
+                        78
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.838,
+                    "simplex",
+                    [
+                        79,
+                        86
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.964,
+                    "Hepatitis",
+                    [
+                        120,
+                        129
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.96,
+                    "C",
+                    [
+                        130,
+                        131
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.743,
+                    "Cephalopelvic",
+                    [
+                        195,
+                        208
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.806,
+                    "disproportion",
+                    [
+                        209,
+                        222
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.691,
+                    "Asynclitism",
+                    [
+                        229,
+                        240
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.432,
+                    "Postpartum",
+                    [
+                        247,
+                        257
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.562,
+                    "macrosomia",
+                    [
+                        258,
+                        268
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.906,
+                    "Herpes",
+                    [
+                        342,
+                        348
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.803,
+                    "simplex",
+                    [
+                        349,
+                        356
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.538,
+                    "virus",
+                    [
+                        357,
+                        362
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.972,
+                    "Hepatitis",
+                    [
+                        390,
+                        399
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.97,
+                    "C",
+                    [
+                        400,
+                        401
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.662,
+                    "Cephalopelvic",
+                    [
+                        465,
+                        478
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.764,
+                    "disproportion",
+                    [
+                        479,
+                        492
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.589,
+                    "Asynclitism",
+                    [
+                        499,
+                        510
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.642,
+                    "Postpartum",
+                    [
+                        517,
+                        527
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.513,
+                    "macrosomia",
+                    [
+                        528,
+                        538
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.471,
+                    "Delivery",
+                    [
+                        545,
+                        553
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.453,
+                    "lb",
+                    [
+                        566,
+                        568
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.608,
+                    "female",
+                    [
+                        569,
+                        575
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.591,
+                    "neonate",
+                    [
+                        576,
+                        583
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.561,
+                    "hepatitis",
+                    [
+                        1181,
+                        1190
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.673,
+                    "C",
+                    [
+                        1191,
+                        1192
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.46,
+                    "delivered",
+                    [
+                        2997,
+                        3006
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.099,
+        "uncertain_token_count": 9,
+        "narrow_band_ratio": 0.011,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.497,
+                    "virus",
+                    [
+                        87,
+                        92
+                    ]
+                ],
+                [
+                    0.467,
+                    "pregnancy",
+                    [
+                        314,
+                        323
+                    ]
+                ],
+                [
+                    0.499,
+                    "viable",
+                    [
+                        557,
+                        563
+                    ]
+                ],
+                [
+                    0.509,
+                    "ruptured",
+                    [
+                        1406,
+                        1414
+                    ]
+                ]
+            ],
+            "DIAGNOSIS": [
+                [
+                    0.432,
+                    "Postpartum",
+                    [
+                        247,
+                        257
+                    ]
+                ],
+                [
+                    0.513,
+                    "macrosomia",
+                    [
+                        528,
+                        538
+                    ]
+                ],
+                [
+                    0.471,
+                    "Delivery",
+                    [
+                        545,
+                        553
+                    ]
+                ],
+                [
+                    0.46,
+                    "delivered",
+                    [
+                        2997,
+                        3006
+                    ]
+                ]
+            ],
+            "PROBLEM": [
+                [
+                    0.453,
+                    "lb",
+                    [
+                        566,
+                        568
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

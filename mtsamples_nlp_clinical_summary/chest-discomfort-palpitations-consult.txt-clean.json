@@ -1,0 +1,590 @@
+{
+    "file": "chest-discomfort-palpitations-consult.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "Inderal",
+                "code": "151890",
+                "cui": "C0591636",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Inderal",
+                "range": [
+                    1023,
+                    1030
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.999
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "Inderal",
+                "code": "151890",
+                "cui": "C0591636",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Inderal",
+                "range": [
+                    1023,
+                    1030
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.999
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "Cardizem",
+                "code": "203494",
+                "cui": "C0700940",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Cardizem",
+                "range": [
+                    3267,
+                    3275
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.953
+                },
+                "medFrequencyNumber": [
+                    "4.0"
+                ],
+                "medFrequencyUnit": [
+                    "prn",
+                    3286,
+                    3289
+                ],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "Cardizem",
+                "code": "203494",
+                "cui": "C0700940",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Cardizem",
+                "range": [
+                    3267,
+                    3275
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.953
+                },
+                "medFrequencyNumber": [
+                    "4.0"
+                ],
+                "medFrequencyUnit": [
+                    "prn",
+                    3286,
+                    3289
+                ],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            }
+        ],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "UNSPECIFIED",
+                "range": [
+                    47,
+                    58
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "chronic",
+                "range": [
+                    128,
+                    135
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "mitral valve prolapse",
+                "range": [
+                    613,
+                    634
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "8074002",
+                "cui": "C0026267",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Mitral Valve Prolapse Syndrome"
+            },
+            {
+                "text": "Mitral Valve Prolapse",
+                "range": [
+                    3159,
+                    3180
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "409712001",
+                "cui": "C0026267",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Mitral Valve Prolapse Syndrome"
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.002,
+        "uncertain_count": 0,
+        "narrow_band_ratio": 0.0,
+        "uncertain_tokens": {},
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "CHEST",
+                    [
+                        34,
+                        39
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "PAIN",
+                    [
+                        40,
+                        44
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "UNSPECIFIED",
+                    [
+                        47,
+                        58
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "ANGINA",
+                    [
+                        59,
+                        65
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "chronic",
+                    [
+                        128,
+                        135
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "chest",
+                    [
+                        136,
+                        141
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "discomfort",
+                    [
+                        142,
+                        152
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "DISEASE",
+                    [
+                        573,
+                        580
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "mitral",
+                    [
+                        613,
+                        619
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "valve",
+                    [
+                        620,
+                        625
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "prolapse",
+                    [
+                        626,
+                        634
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "movements",
+                    [
+                        1604,
+                        1613
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "diarrhea",
+                    [
+                        1615,
+                        1623
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "constipation",
+                    [
+                        1625,
+                        1637
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Mitral",
+                    [
+                        3159,
+                        3165
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Valve",
+                    [
+                        3166,
+                        3171
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Prolapse",
+                    [
+                        3172,
+                        3180
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Palpitations",
+                    [
+                        3182,
+                        3194
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.59,
+                    "CHEST",
+                    [
+                        34,
+                        39
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.815,
+                    "PAIN",
+                    [
+                        40,
+                        44
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.743,
+                    "UNSPECIFIED",
+                    [
+                        47,
+                        58
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.569,
+                    "ANGINA",
+                    [
+                        59,
+                        65
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.684,
+                    "chest",
+                    [
+                        136,
+                        141
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.519,
+                    "discomfort",
+                    [
+                        142,
+                        152
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.561,
+                    "DISEASE",
+                    [
+                        573,
+                        580
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.896,
+                    "mitral",
+                    [
+                        613,
+                        619
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.91,
+                    "valve",
+                    [
+                        620,
+                        625
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.877,
+                    "prolapse",
+                    [
+                        626,
+                        634
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.501,
+                    "Valve",
+                    [
+                        732,
+                        737
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.548,
+                    "movements",
+                    [
+                        1604,
+                        1613
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.569,
+                    "diarrhea",
+                    [
+                        1615,
+                        1623
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.553,
+                    "constipation",
+                    [
+                        1625,
+                        1637
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.963,
+                    "Mitral",
+                    [
+                        3159,
+                        3165
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.963,
+                    "Valve",
+                    [
+                        3166,
+                        3171
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.9,
+                    "Prolapse",
+                    [
+                        3172,
+                        3180
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.556,
+                    "Palpitations",
+                    [
+                        3182,
+                        3194
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.083,
+        "uncertain_token_count": 8,
+        "narrow_band_ratio": 0.012,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.448,
+                    "Palpitations",
+                    [
+                        19,
+                        31
+                    ]
+                ],
+                [
+                    0.486,
+                    "chronic",
+                    [
+                        128,
+                        135
+                    ]
+                ],
+                [
+                    0.519,
+                    "problem",
+                    [
+                        195,
+                        202
+                    ]
+                ],
+                [
+                    0.411,
+                    "condition",
+                    [
+                        254,
+                        263
+                    ]
+                ],
+                [
+                    0.448,
+                    "Prolapse",
+                    [
+                        738,
+                        746
+                    ]
+                ],
+                [
+                    0.522,
+                    "CAD",
+                    [
+                        773,
+                        776
+                    ]
+                ]
+            ],
+            "DIAGNOSIS": [
+                [
+                    0.519,
+                    "discomfort",
+                    [
+                        142,
+                        152
+                    ]
+                ],
+                [
+                    0.501,
+                    "Valve",
+                    [
+                        732,
+                        737
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

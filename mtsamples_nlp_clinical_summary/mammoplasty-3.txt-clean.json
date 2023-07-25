@@ -1,0 +1,410 @@
+{
+    "file": "mammoplasty-3.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "DuraPrep",
+                "code": "1090519",
+                "cui": "C1871487",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "DuraPrep",
+                "range": [
+                    673,
+                    681
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.988
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "DuraPrep",
+                "code": "1090519",
+                "cui": "C1871487",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "DuraPrep",
+                "range": [
+                    673,
+                    681
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.988
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "bacitracin",
+                "code": "1291",
+                "cui": "C0004599",
+                "tui": "T195",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Bacitracin",
+                "range": [
+                    3450,
+                    3460
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.97
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            }
+        ],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "Bilateral",
+                "range": [
+                    136,
+                    145
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "breast\nasymmetry",
+                "range": [
+                    171,
+                    187
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "right breast larger than left",
+                "range": [
+                    189,
+                    218
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.008,
+        "uncertain_count": 3,
+        "narrow_band_ratio": 0.005,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.657,
+                    "symmetry",
+                    [
+                        2923,
+                        2931
+                    ]
+                ],
+                [
+                    0.638,
+                    "solution",
+                    [
+                        3472,
+                        3480
+                    ]
+                ]
+            ],
+            "MED": [
+                [
+                    0.691,
+                    "irrigation",
+                    [
+                        3461,
+                        3471
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "mammary",
+                    [
+                        36,
+                        43
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Bilateral",
+                    [
+                        136,
+                        145
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "mammary",
+                    [
+                        146,
+                        153
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "hypertrophy",
+                    [
+                        154,
+                        165
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "breast",
+                    [
+                        171,
+                        177
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "asymmetry",
+                    [
+                        178,
+                        187
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "right",
+                    [
+                        189,
+                        194
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "breast",
+                    [
+                        195,
+                        201
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "larger",
+                    [
+                        202,
+                        208
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "than",
+                    [
+                        209,
+                        213
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "left",
+                    [
+                        214,
+                        218
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.648,
+                    "Bilateral",
+                    [
+                        26,
+                        35
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.522,
+                    "mammary",
+                    [
+                        36,
+                        43
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.54,
+                    "hypertrophy",
+                    [
+                        44,
+                        55
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.903,
+                    "Bilateral",
+                    [
+                        136,
+                        145
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.873,
+                    "mammary",
+                    [
+                        146,
+                        153
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.889,
+                    "hypertrophy",
+                    [
+                        154,
+                        165
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.717,
+                    "breast",
+                    [
+                        171,
+                        177
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.698,
+                    "asymmetry",
+                    [
+                        178,
+                        187
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.695,
+                    "right",
+                    [
+                        189,
+                        194
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.732,
+                    "breast",
+                    [
+                        195,
+                        201
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.547,
+                    "larger",
+                    [
+                        202,
+                        208
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.642,
+                    "than",
+                    [
+                        209,
+                        213
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.667,
+                    "left",
+                    [
+                        214,
+                        218
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.075,
+        "uncertain_token_count": 2,
+        "narrow_band_ratio": 0.003,
+        "uncertain_tokens": {
+            "DIAGNOSIS": [
+                [
+                    0.522,
+                    "mammary",
+                    [
+                        36,
+                        43
+                    ]
+                ]
+            ],
+            "NA": [
+                [
+                    0.528,
+                    "wound",
+                    [
+                        3389,
+                        3394
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

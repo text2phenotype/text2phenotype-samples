@@ -1,0 +1,575 @@
+{
+    "file": "triple-lumen-catheter-insertion.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "Xylocaine",
+                "code": "202398",
+                "cui": "C0699094",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Xylocaine",
+                "range": [
+                    1997,
+                    2006
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.997
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "Xylocaine",
+                "code": "202398",
+                "cui": "C0699094",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Xylocaine",
+                "range": [
+                    1997,
+                    2006
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.997
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            }
+        ],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "Ventilator-dependent respiratory failure",
+                "range": [
+                    63,
+                    103
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "Acute pancreatitis",
+                "range": [
+                    110,
+                    128
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "197456007",
+                "cui": "C0001339",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Acute pancreatitis"
+            },
+            {
+                "text": "Ventilator-dependent respiratory failure",
+                "range": [
+                    193,
+                    233
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "Acute pancreatitis",
+                "range": [
+                    240,
+                    258
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "197456007",
+                "cui": "C0001339",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Acute pancreatitis"
+            },
+            {
+                "text": "pancreatitis",
+                "range": [
+                    574,
+                    586
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "75694006",
+                "cui": "C0030305",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Pancreatitis"
+            },
+            {
+                "text": "dehydrated",
+                "range": [
+                    605,
+                    615
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "34095006",
+                "cui": "C0011175",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Dehydration"
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.006,
+        "uncertain_count": 1,
+        "narrow_band_ratio": 0.002,
+        "uncertain_tokens": {
+            "MED": [
+                [
+                    0.583,
+                    "blade",
+                    [
+                        2653,
+                        2658
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "Hyperpyrexia/leukocytosis",
+                    [
+                        31,
+                        56
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Ventilator-dependent",
+                    [
+                        63,
+                        83
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "respiratory",
+                    [
+                        84,
+                        95
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "failure",
+                    [
+                        96,
+                        103
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Acute",
+                    [
+                        110,
+                        115
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "pancreatitis",
+                    [
+                        116,
+                        128
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "Hyperpyrexia/leukocytosis",
+                    [
+                        161,
+                        186
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Ventilator-dependent",
+                    [
+                        193,
+                        213
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "respiratory",
+                    [
+                        214,
+                        225
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "failure",
+                    [
+                        226,
+                        233
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Acute",
+                    [
+                        240,
+                        245
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "pancreatitis",
+                    [
+                        246,
+                        258
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "severe",
+                    [
+                        567,
+                        573
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "pancreatitis",
+                    [
+                        574,
+                        586
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    ".",
+                    [
+                        586,
+                        587
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "dehydrated",
+                    [
+                        605,
+                        615
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "hypoxic",
+                    [
+                        781,
+                        788
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "leukocytosis",
+                    [
+                        943,
+                        955
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.483,
+                    "Hyperpyrexia/leukocytosis",
+                    [
+                        31,
+                        56
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.669,
+                    "Ventilator-dependent",
+                    [
+                        63,
+                        83
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.773,
+                    "respiratory",
+                    [
+                        84,
+                        95
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.862,
+                    "failure",
+                    [
+                        96,
+                        103
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.913,
+                    "Acute",
+                    [
+                        110,
+                        115
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.895,
+                    "pancreatitis",
+                    [
+                        116,
+                        128
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.468,
+                    "Hyperpyrexia/leukocytosis",
+                    [
+                        161,
+                        186
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.662,
+                    "Ventilator-dependent",
+                    [
+                        193,
+                        213
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.823,
+                    "respiratory",
+                    [
+                        214,
+                        225
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.899,
+                    "failure",
+                    [
+                        226,
+                        233
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.961,
+                    "Acute",
+                    [
+                        240,
+                        245
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.957,
+                    "pancreatitis",
+                    [
+                        246,
+                        258
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.737,
+                    "severe",
+                    [
+                        567,
+                        573
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.941,
+                    "pancreatitis",
+                    [
+                        574,
+                        586
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.522,
+                    "dehydrated",
+                    [
+                        605,
+                        615
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.409,
+                    "hypoxic",
+                    [
+                        781,
+                        788
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.399,
+                    "leukocytosis",
+                    [
+                        943,
+                        955
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.087,
+        "uncertain_token_count": 9,
+        "narrow_band_ratio": 0.016,
+        "uncertain_tokens": {
+            "DIAGNOSIS": [
+                [
+                    0.483,
+                    "Hyperpyrexia/leukocytosis",
+                    [
+                        31,
+                        56
+                    ]
+                ],
+                [
+                    0.522,
+                    "dehydrated",
+                    [
+                        605,
+                        615
+                    ]
+                ],
+                [
+                    0.409,
+                    "hypoxic",
+                    [
+                        781,
+                        788
+                    ]
+                ]
+            ],
+            "PROBLEM": [
+                [
+                    0.468,
+                    "Hyperpyrexia/leukocytosis",
+                    [
+                        161,
+                        186
+                    ]
+                ],
+                [
+                    0.399,
+                    "leukocytosis",
+                    [
+                        943,
+                        955
+                    ]
+                ]
+            ],
+            "NA": [
+                [
+                    0.525,
+                    ".",
+                    [
+                        586,
+                        587
+                    ]
+                ],
+                [
+                    0.397,
+                    "boluses",
+                    [
+                        644,
+                        651
+                    ]
+                ],
+                [
+                    0.503,
+                    "hypotensive",
+                    [
+                        672,
+                        683
+                    ]
+                ],
+                [
+                    0.437,
+                    "difficulty",
+                    [
+                        744,
+                        754
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

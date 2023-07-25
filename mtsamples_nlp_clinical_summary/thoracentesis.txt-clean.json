@@ -1,0 +1,264 @@
+{
+    "file": "thoracentesis.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "Xylocaine",
+                "code": "202398",
+                "cui": "C0699094",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Xylocaine",
+                "range": [
+                    351,
+                    360
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.962
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [
+                    "day"
+                ],
+                "medStrengthNum": [
+                    "1",
+                    361,
+                    362
+                ],
+                "medStrengthUnit": [
+                    "%",
+                    362,
+                    363
+                ]
+            },
+            {
+                "text": "Xylocaine",
+                "code": "202398",
+                "cui": "C0699094",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Xylocaine",
+                "range": [
+                    351,
+                    360
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.962
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [
+                    "day"
+                ],
+                "medStrengthNum": [
+                    "1",
+                    361,
+                    362
+                ],
+                "medStrengthUnit": [
+                    "%",
+                    362,
+                    363
+                ]
+            }
+        ],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "Left pleural effusion",
+                "range": [
+                    26,
+                    47
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "Left",
+                "range": [
+                    75,
+                    79
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "pleural effusion",
+                "range": [
+                    1174,
+                    1190
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "60046008",
+                "cui": "C0032227",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Pleural effusion disorder"
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.002,
+        "uncertain_count": 0,
+        "narrow_band_ratio": 0.0,
+        "uncertain_tokens": {},
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "Left",
+                    [
+                        26,
+                        30
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "pleural",
+                    [
+                        31,
+                        38
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "effusion",
+                    [
+                        39,
+                        47
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Left",
+                    [
+                        75,
+                        79
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "hemothorax",
+                    [
+                        80,
+                        90
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "pleural",
+                    [
+                        1174,
+                        1181
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "effusion",
+                    [
+                        1182,
+                        1190
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.87,
+                    "Left",
+                    [
+                        26,
+                        30
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.93,
+                    "pleural",
+                    [
+                        31,
+                        38
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.872,
+                    "effusion",
+                    [
+                        39,
+                        47
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.837,
+                    "Left",
+                    [
+                        75,
+                        79
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.777,
+                    "hemothorax",
+                    [
+                        80,
+                        90
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.712,
+                    "pleural",
+                    [
+                        1174,
+                        1181
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.686,
+                    "effusion",
+                    [
+                        1182,
+                        1190
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.063,
+        "uncertain_token_count": 0,
+        "narrow_band_ratio": 0.0,
+        "uncertain_tokens": {},
+        "narrow_band_width": 0.2
+    }
+}

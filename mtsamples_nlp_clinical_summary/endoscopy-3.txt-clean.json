@@ -1,0 +1,645 @@
+{
+    "file": "endoscopy-3.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "fentanyl",
+                "code": "4337",
+                "cui": "C0015846",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Fentanyl",
+                "range": [
+                    334,
+                    342
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.996
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "fentanyl",
+                "code": "4337",
+                "cui": "C0015846",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Fentanyl",
+                "range": [
+                    334,
+                    342
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.996
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "omeprazole",
+                "code": "7646",
+                "cui": "C0028978",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Omeprazole",
+                "range": [
+                    1515,
+                    1525
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.919
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "omeprazole",
+                "code": "7646",
+                "cui": "C0028978",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Omeprazole",
+                "range": [
+                    1515,
+                    1525
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.919
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            }
+        ],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "Dysphagia",
+                "range": [
+                    49,
+                    58
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "40739000",
+                "cui": "C0011168",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Deglutition Disorders"
+            },
+            {
+                "text": "Esophageal ring",
+                "range": [
+                    86,
+                    101
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "66889002",
+                "cui": "C0267081",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Terminal esophageal web"
+            },
+            {
+                "text": "reflux esophagitis",
+                "range": [
+                    113,
+                    131
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "57643001",
+                "cui": "C0014869",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Peptic Esophagitis"
+            },
+            {
+                "text": "reflux esophagitis",
+                "range": [
+                    576,
+                    594
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "57643001",
+                "cui": "C0014869",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Peptic Esophagitis"
+            },
+            {
+                "text": "esophageal tear",
+                "range": [
+                    1080,
+                    1095
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "37657006",
+                "cui": "C0014852",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Esophageal Diseases"
+            },
+            {
+                "text": "distal esophageal fracture in the",
+                "range": [
+                    1222,
+                    1255
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "of active reflux esophagitis albeit",
+                "range": [
+                    1264,
+                    1299
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.018,
+        "uncertain_count": 4,
+        "narrow_band_ratio": 0.015,
+        "uncertain_tokens": {
+            "MED": [
+                [
+                    0.654,
+                    "lidocaine",
+                    [
+                        260,
+                        269
+                    ]
+                ],
+                [
+                    0.638,
+                    "Versed",
+                    [
+                        301,
+                        307
+                    ]
+                ]
+            ],
+            "NA": [
+                [
+                    0.566,
+                    "GE",
+                    [
+                        552,
+                        554
+                    ]
+                ],
+                [
+                    0.689,
+                    "GE",
+                    [
+                        877,
+                        879
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "Dysphagia",
+                    [
+                        49,
+                        58
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Esophageal",
+                    [
+                        86,
+                        96
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "ring",
+                    [
+                        97,
+                        101
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "reflux",
+                    [
+                        113,
+                        119
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "esophagitis",
+                    [
+                        120,
+                        131
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "reflux",
+                    [
+                        576,
+                        582
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "esophagitis",
+                    [
+                        583,
+                        594
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "esophageal",
+                    [
+                        1080,
+                        1090
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "tear",
+                    [
+                        1091,
+                        1095
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "distal",
+                    [
+                        1222,
+                        1228
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "esophageal",
+                    [
+                        1229,
+                        1239
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "fracture",
+                    [
+                        1240,
+                        1248
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "in",
+                    [
+                        1249,
+                        1251
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "the",
+                    [
+                        1252,
+                        1255
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "of",
+                    [
+                        1264,
+                        1266
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "active",
+                    [
+                        1267,
+                        1273
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "reflux",
+                    [
+                        1274,
+                        1280
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "esophagitis",
+                    [
+                        1281,
+                        1292
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "albeit",
+                    [
+                        1293,
+                        1299
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "mild",
+                    [
+                        1300,
+                        1304
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.822,
+                    "Dysphagia",
+                    [
+                        49,
+                        58
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.906,
+                    "Esophageal",
+                    [
+                        86,
+                        96
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.929,
+                    "ring",
+                    [
+                        97,
+                        101
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.764,
+                    "reflux",
+                    [
+                        113,
+                        119
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.817,
+                    "esophagitis",
+                    [
+                        120,
+                        131
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.501,
+                    "reflux",
+                    [
+                        576,
+                        582
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.51,
+                    "esophagitis",
+                    [
+                        583,
+                        594
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.647,
+                    "esophageal",
+                    [
+                        1080,
+                        1090
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.551,
+                    "tear",
+                    [
+                        1091,
+                        1095
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.879,
+                    "distal",
+                    [
+                        1222,
+                        1228
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.969,
+                    "esophageal",
+                    [
+                        1229,
+                        1239
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.985,
+                    "fracture",
+                    [
+                        1240,
+                        1248
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.724,
+                    "in",
+                    [
+                        1249,
+                        1251
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.546,
+                    "the",
+                    [
+                        1252,
+                        1255
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.802,
+                    "active",
+                    [
+                        1267,
+                        1273
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.936,
+                    "reflux",
+                    [
+                        1274,
+                        1280
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.922,
+                    "esophagitis",
+                    [
+                        1281,
+                        1292
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.645,
+                    "albeit",
+                    [
+                        1293,
+                        1299
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.646,
+                    "mild",
+                    [
+                        1300,
+                        1304
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.116,
+        "uncertain_token_count": 3,
+        "narrow_band_ratio": 0.011,
+        "uncertain_tokens": {
+            "DIAGNOSIS": [
+                [
+                    0.501,
+                    "reflux",
+                    [
+                        576,
+                        582
+                    ]
+                ],
+                [
+                    0.51,
+                    "esophagitis",
+                    [
+                        583,
+                        594
+                    ]
+                ]
+            ],
+            "NA": [
+                [
+                    0.525,
+                    "of",
+                    [
+                        1264,
+                        1266
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

@@ -1,0 +1,283 @@
+{
+    "file": "laparoscopic-gastric-bypass.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "Marcaine",
+                "code": "1012397",
+                "cui": "C2945665",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Marcaine",
+                "range": [
+                    944,
+                    952
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.99
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            }
+        ],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "Morbid obesity",
+                "range": [
+                    26,
+                    40
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "83911000119104",
+                "cui": "C0028756",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Obesity, Morbid"
+            },
+            {
+                "text": "Morbid obesity",
+                "range": [
+                    68,
+                    82
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "83911000119104",
+                "cui": "C0028756",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Obesity, Morbid"
+            },
+            {
+                "text": "padded",
+                "range": [
+                    702,
+                    708
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "399957001",
+                "cui": "C1704436",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Peripheral Arterial Diseases"
+            },
+            {
+                "text": "of",
+                "range": [
+                    3443,
+                    3445
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.007,
+        "uncertain_count": 1,
+        "narrow_band_ratio": 0.001,
+        "uncertain_tokens": {
+            "MED": [
+                [
+                    0.514,
+                    "anesthesia",
+                    [
+                        732,
+                        742
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "Morbid",
+                    [
+                        26,
+                        32
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "obesity",
+                    [
+                        33,
+                        40
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Morbid",
+                    [
+                        68,
+                        74
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "obesity",
+                    [
+                        75,
+                        82
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "padded",
+                    [
+                        702,
+                        708
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "of",
+                    [
+                        3443,
+                        3445
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.599,
+                    "Morbid",
+                    [
+                        26,
+                        32
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.543,
+                    "obesity",
+                    [
+                        33,
+                        40
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.551,
+                    "Morbid",
+                    [
+                        68,
+                        74
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.51,
+                    "obesity",
+                    [
+                        75,
+                        82
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.686,
+                    "padded",
+                    [
+                        702,
+                        708
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.409,
+                    "of",
+                    [
+                        3443,
+                        3445
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.077,
+        "uncertain_token_count": 6,
+        "narrow_band_ratio": 0.007,
+        "uncertain_tokens": {
+            "DIAGNOSIS": [
+                [
+                    0.51,
+                    "obesity",
+                    [
+                        75,
+                        82
+                    ]
+                ],
+                [
+                    0.409,
+                    "of",
+                    [
+                        3443,
+                        3445
+                    ]
+                ]
+            ],
+            "NA": [
+                [
+                    0.519,
+                    "redundant",
+                    [
+                        3425,
+                        3434
+                    ]
+                ],
+                [
+                    0.418,
+                    "portion",
+                    [
+                        3435,
+                        3442
+                    ]
+                ],
+                [
+                    0.415,
+                    "my",
+                    [
+                        3446,
+                        3448
+                    ]
+                ],
+                [
+                    0.521,
+                    "Roux",
+                    [
+                        3449,
+                        3453
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

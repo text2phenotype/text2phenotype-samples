@@ -1,0 +1,317 @@
+{
+    "file": "tachypnea.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "epinephrine",
+                "code": "3992",
+                "cui": "C0014563",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Epinephrine",
+                "range": [
+                    1577,
+                    1588
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.923
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "epinephrine",
+                "code": "3992",
+                "cui": "C0014563",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Epinephrine",
+                "range": [
+                    1577,
+                    1588
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.923
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "epinephrine",
+                "code": "3992",
+                "cui": "C0014563",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Epinephrine",
+                "range": [
+                    2907,
+                    2918
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.985
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "epinephrine",
+                "code": "3992",
+                "cui": "C0014563",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Epinephrine",
+                "range": [
+                    2907,
+                    2918
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.985
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            }
+        ],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "ventricular fibrillation",
+                "range": [
+                    1118,
+                    1142
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "71908006",
+                "cui": "C0042510",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Ventricular Fibrillation"
+            },
+            {
+                "text": "atrial fibrillation",
+                "range": [
+                    2314,
+                    2333
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "49436004",
+                "cui": "C0004238",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Atrial Fibrillation"
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.013,
+        "uncertain_count": 3,
+        "narrow_band_ratio": 0.005,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.676,
+                    "leads",
+                    [
+                        995,
+                        1000
+                    ]
+                ],
+                [
+                    0.615,
+                    "epinephrine",
+                    [
+                        1839,
+                        1850
+                    ]
+                ],
+                [
+                    0.655,
+                    "atropine",
+                    [
+                        1857,
+                        1865
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "ventricular",
+                    [
+                        1118,
+                        1129
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "fibrillation",
+                    [
+                        1130,
+                        1142
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "atrial",
+                    [
+                        2314,
+                        2320
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "fibrillation",
+                    [
+                        2321,
+                        2333
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "atrial",
+                    [
+                        2854,
+                        2860
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "fibrillation/flutter",
+                    [
+                        2861,
+                        2881
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.743,
+                    "ventricular",
+                    [
+                        1118,
+                        1129
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.859,
+                    "fibrillation",
+                    [
+                        1130,
+                        1142
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.888,
+                    "atrial",
+                    [
+                        2314,
+                        2320
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.894,
+                    "fibrillation",
+                    [
+                        2321,
+                        2333
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.624,
+                    "atrial",
+                    [
+                        2854,
+                        2860
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.559,
+                    "fibrillation/flutter",
+                    [
+                        2861,
+                        2881
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.063,
+        "uncertain_token_count": 4,
+        "narrow_band_ratio": 0.007,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.447,
+                    "tachypnea",
+                    [
+                        61,
+                        70
+                    ]
+                ],
+                [
+                    0.52,
+                    "ET",
+                    [
+                        1668,
+                        1670
+                    ]
+                ],
+                [
+                    0.455,
+                    "weak",
+                    [
+                        2183,
+                        2187
+                    ]
+                ],
+                [
+                    0.425,
+                    "pulse",
+                    [
+                        2188,
+                        2193
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

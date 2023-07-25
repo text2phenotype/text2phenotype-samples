@@ -1,0 +1,222 @@
+{
+    "file": "appendectomy-1.txt-clean.txt",
+    "text2summary": {
+        "Medication": [],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "Acute appendicitis",
+                "range": [
+                    26,
+                    44
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "85189001",
+                "cui": "C0085693",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Acute appendicitis NOS (disorder)"
+            },
+            {
+                "text": "Acute appendicitis",
+                "range": [
+                    72,
+                    90
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "85189001",
+                "cui": "C0085693",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Acute appendicitis NOS (disorder)"
+            },
+            {
+                "text": "gangrenous",
+                "range": [
+                    92,
+                    102
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "372070002",
+                "cui": "C0017086",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Gangrene"
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.015,
+        "uncertain_count": 3,
+        "narrow_band_ratio": 0.01,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.674,
+                    "anesthesia",
+                    [
+                        315,
+                        325
+                    ]
+                ],
+                [
+                    0.642,
+                    "normal",
+                    [
+                        1109,
+                        1115
+                    ]
+                ],
+                [
+                    0.649,
+                    "saline",
+                    [
+                        1116,
+                        1122
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "Acute",
+                    [
+                        26,
+                        31
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "appendicitis",
+                    [
+                        32,
+                        44
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Acute",
+                    [
+                        72,
+                        77
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "appendicitis",
+                    [
+                        78,
+                        90
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "gangrenous",
+                    [
+                        92,
+                        102
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "condition",
+                    [
+                        1741,
+                        1750
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.853,
+                    "Acute",
+                    [
+                        26,
+                        31
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.787,
+                    "appendicitis",
+                    [
+                        32,
+                        44
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.983,
+                    "Acute",
+                    [
+                        72,
+                        77
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.964,
+                    "appendicitis",
+                    [
+                        78,
+                        90
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.87,
+                    "gangrenous",
+                    [
+                        92,
+                        102
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.679,
+                    "condition",
+                    [
+                        1741,
+                        1750
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.127,
+        "uncertain_token_count": 1,
+        "narrow_band_ratio": 0.003,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.51,
+                    "peritonitis",
+                    [
+                        881,
+                        892
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

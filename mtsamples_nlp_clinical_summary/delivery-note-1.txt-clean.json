@@ -1,0 +1,392 @@
+{
+    "file": "delivery-note-1.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "Stadol",
+                "code": "10022",
+                "cui": "C0038119",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Stadol",
+                "range": [
+                    762,
+                    768
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.916
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "Stadol",
+                "code": "10022",
+                "cui": "C0038119",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Stadol",
+                "range": [
+                    762,
+                    768
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.916
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            }
+        ],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "Gilbert's syndrome",
+                "range": [
+                    310,
+                    328
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "27503000",
+                "cui": "C0017551",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Gilbert Disease (disorder)"
+            },
+            {
+                "text": "early labor",
+                "range": [
+                    465,
+                    476
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "6383007",
+                "cui": "C0022876",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Premature Obstetric Labor"
+            },
+            {
+                "text": "'s",
+                "range": [
+                    2436,
+                    2438
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "27503000",
+                "cui": "C0017551",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Gilbert Disease (disorder)"
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.004,
+        "uncertain_count": 0,
+        "narrow_band_ratio": 0.0,
+        "uncertain_tokens": {},
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "pregnant",
+                    [
+                        61,
+                        69
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Gilbert",
+                    [
+                        310,
+                        317
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "'s",
+                    [
+                        317,
+                        319
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "syndrome",
+                    [
+                        320,
+                        328
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "early",
+                    [
+                        465,
+                        470
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "labor",
+                    [
+                        471,
+                        476
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "painful",
+                    [
+                        592,
+                        599
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "contractions",
+                    [
+                        600,
+                        612
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "dilation",
+                    [
+                        641,
+                        649
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "'s",
+                    [
+                        2436,
+                        2438
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.542,
+                    "pregnant",
+                    [
+                        61,
+                        69
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.975,
+                    "Gilbert",
+                    [
+                        310,
+                        317
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.975,
+                    "'s",
+                    [
+                        317,
+                        319
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.917,
+                    "syndrome",
+                    [
+                        320,
+                        328
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.462,
+                    "early",
+                    [
+                        465,
+                        470
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.602,
+                    "labor",
+                    [
+                        471,
+                        476
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.402,
+                    "regular",
+                    [
+                        584,
+                        591
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.561,
+                    "painful",
+                    [
+                        592,
+                        599
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.466,
+                    "contractions",
+                    [
+                        600,
+                        612
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.411,
+                    "dilation",
+                    [
+                        641,
+                        649
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.554,
+                    "'s",
+                    [
+                        2436,
+                        2438
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.189,
+        "uncertain_token_count": 9,
+        "narrow_band_ratio": 0.022,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.511,
+                    "'",
+                    [
+                        59,
+                        60
+                    ]
+                ],
+                [
+                    0.509,
+                    "menstrual",
+                    [
+                        204,
+                        213
+                    ]
+                ],
+                [
+                    0.518,
+                    "cervical",
+                    [
+                        632,
+                        640
+                    ]
+                ],
+                [
+                    0.509,
+                    "labor",
+                    [
+                        1044,
+                        1049
+                    ]
+                ],
+                [
+                    0.523,
+                    "Gilbert",
+                    [
+                        2429,
+                        2436
+                    ]
+                ]
+            ],
+            "PROBLEM": [
+                [
+                    0.462,
+                    "early",
+                    [
+                        465,
+                        470
+                    ]
+                ],
+                [
+                    0.402,
+                    "regular",
+                    [
+                        584,
+                        591
+                    ]
+                ],
+                [
+                    0.466,
+                    "contractions",
+                    [
+                        600,
+                        612
+                    ]
+                ]
+            ],
+            "DIAGNOSIS": [
+                [
+                    0.411,
+                    "dilation",
+                    [
+                        641,
+                        649
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

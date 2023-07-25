@@ -1,0 +1,478 @@
+{
+    "file": "colonoscopy-with-photos.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "Colace",
+                "code": "82000",
+                "cui": "C0282139",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Colace",
+                "range": [
+                    1697,
+                    1703
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.996
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "Colace",
+                "code": "82000",
+                "cui": "C0282139",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Colace",
+                "range": [
+                    1697,
+                    1703
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.996
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            }
+        ],
+        "Allergy": [],
+        "Lab": [
+            {
+                "code": "",
+                "cui": "C0518015",
+                "tui": "T034",
+                "vocab": "LNC",
+                "polarity": "positive",
+                "text": "hemoglobin",
+                "preferredText": "HEMOGLOBIN DETERMINATION (PROCEDURE)",
+                "range": [
+                    359,
+                    369
+                ]
+            },
+            {
+                "code": "LP32067-8",
+                "cui": "C0019046",
+                "tui": "T034",
+                "vocab": "LNC",
+                "polarity": "positive",
+                "text": "hemoglobin",
+                "preferredText": "HEMOGLOBIN",
+                "range": [
+                    359,
+                    369
+                ]
+            }
+        ],
+        "DiseaseDisorder": [
+            {
+                "text": "Blood loss anemia",
+                "range": [
+                    26,
+                    43
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "267530009",
+                "cui": "C0154298",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Acute posthaemorrhagic anaemia"
+            },
+            {
+                "text": "Diverticulosis coli",
+                "range": [
+                    76,
+                    95
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "63532004",
+                "cui": "C1510475",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Diverticulosis"
+            },
+            {
+                "text": "Internal hemorrhoids",
+                "range": [
+                    102,
+                    122
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "90458007",
+                "cui": "C0265034",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Internal hemorrhoids"
+            },
+            {
+                "text": "Poor prep",
+                "range": [
+                    129,
+                    138
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "blood loss anemia",
+                "range": [
+                    374,
+                    391
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "267530009",
+                "cui": "C0154298",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Acute posthaemorrhagic anaemia"
+            },
+            {
+                "text": "internal",
+                "range": [
+                    1480,
+                    1488
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "90458007",
+                "cui": "C0265034",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Internal hemorrhoids"
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.008,
+        "uncertain_count": 0,
+        "narrow_band_ratio": 0.0,
+        "uncertain_tokens": {},
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "Blood",
+                    [
+                        26,
+                        31
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "loss",
+                    [
+                        32,
+                        36
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "anemia",
+                    [
+                        37,
+                        43
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Diverticulosis",
+                    [
+                        76,
+                        90
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "coli",
+                    [
+                        91,
+                        95
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Internal",
+                    [
+                        102,
+                        110
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "hemorrhoids",
+                    [
+                        111,
+                        122
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "Poor",
+                    [
+                        129,
+                        133
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "prep",
+                    [
+                        134,
+                        138
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "blood",
+                    [
+                        374,
+                        379
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "loss",
+                    [
+                        380,
+                        384
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "anemia",
+                    [
+                        385,
+                        391
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "internal",
+                    [
+                        1480,
+                        1488
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "condition",
+                    [
+                        1642,
+                        1651
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.921,
+                    "Blood",
+                    [
+                        26,
+                        31
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.839,
+                    "loss",
+                    [
+                        32,
+                        36
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.85,
+                    "anemia",
+                    [
+                        37,
+                        43
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.727,
+                    "Diverticulosis",
+                    [
+                        76,
+                        90
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.674,
+                    "coli",
+                    [
+                        91,
+                        95
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.765,
+                    "Internal",
+                    [
+                        102,
+                        110
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.75,
+                    "hemorrhoids",
+                    [
+                        111,
+                        122
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.402,
+                    "Poor",
+                    [
+                        129,
+                        133
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.434,
+                    "prep",
+                    [
+                        134,
+                        138
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.656,
+                    "blood",
+                    [
+                        374,
+                        379
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.78,
+                    "loss",
+                    [
+                        380,
+                        384
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.819,
+                    "anemia",
+                    [
+                        385,
+                        391
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.575,
+                    "internal",
+                    [
+                        1480,
+                        1488
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.586,
+                    "condition",
+                    [
+                        1642,
+                        1651
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.099,
+        "uncertain_token_count": 3,
+        "narrow_band_ratio": 0.01,
+        "uncertain_tokens": {
+            "DIAGNOSIS": [
+                [
+                    0.402,
+                    "Poor",
+                    [
+                        129,
+                        133
+                    ]
+                ]
+            ],
+            "PROBLEM": [
+                [
+                    0.434,
+                    "prep",
+                    [
+                        134,
+                        138
+                    ]
+                ]
+            ],
+            "NA": [
+                [
+                    0.514,
+                    "hemorrhoids",
+                    [
+                        1489,
+                        1500
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

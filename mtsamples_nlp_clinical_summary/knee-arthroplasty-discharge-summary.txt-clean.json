@@ -1,0 +1,361 @@
+{
+    "file": "knee-arthroplasty-discharge-summary.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "Coumadin",
+                "code": "202421",
+                "cui": "C0699129",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Coumadin",
+                "range": [
+                    1354,
+                    1362
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.996
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [
+                    "day",
+                    1370,
+                    1373
+                ],
+                "medStrengthNum": [
+                    "4",
+                    1363,
+                    1364
+                ],
+                "medStrengthUnit": [
+                    "mg",
+                    1365,
+                    1367
+                ]
+            },
+            {
+                "text": "Coumadin",
+                "code": "202421",
+                "cui": "C0699129",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Coumadin",
+                "range": [
+                    1354,
+                    1362
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.996
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [
+                    "day",
+                    1370,
+                    1373
+                ],
+                "medStrengthNum": [
+                    "4",
+                    1363,
+                    1364
+                ],
+                "medStrengthUnit": [
+                    "mg",
+                    1365,
+                    1367
+                ]
+            },
+            {
+                "text": "Vicodin",
+                "code": "128793",
+                "cui": "C0483514",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Vicodin",
+                "range": [
+                    1436,
+                    1443
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.984
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "Vicodin",
+                "code": "128793",
+                "cui": "C0483514",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Vicodin",
+                "range": [
+                    1436,
+                    1443
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.984
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            }
+        ],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "right knee",
+                "range": [
+                    294,
+                    304
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "lower extremity",
+                "range": [
+                    1255,
+                    1270
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.015,
+        "uncertain_count": 3,
+        "narrow_band_ratio": 0.009,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.662,
+                    "pain",
+                    [
+                        808,
+                        812
+                    ]
+                ]
+            ],
+            "MED": [
+                [
+                    0.68,
+                    "medications",
+                    [
+                        813,
+                        824
+                    ]
+                ],
+                [
+                    0.698,
+                    "tablets",
+                    [
+                        1469,
+                        1476
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "PROBLEM": [
+                    "soreness",
+                    [
+                        137,
+                        145
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "pain",
+                    [
+                        150,
+                        154
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "right",
+                    [
+                        294,
+                        299
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "knee",
+                    [
+                        300,
+                        304
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "lower",
+                    [
+                        1255,
+                        1260
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "extremity",
+                    [
+                        1261,
+                        1270
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "PROBLEM": [
+                    0.608,
+                    "soreness",
+                    [
+                        137,
+                        145
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.59,
+                    "pain",
+                    [
+                        150,
+                        154
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.59,
+                    "right",
+                    [
+                        294,
+                        299
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.629,
+                    "knee",
+                    [
+                        300,
+                        304
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.5,
+                    "knee",
+                    [
+                        312,
+                        316
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.44,
+                    "lower",
+                    [
+                        1255,
+                        1260
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.447,
+                    "extremity",
+                    [
+                        1261,
+                        1270
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.11,
+        "uncertain_token_count": 5,
+        "narrow_band_ratio": 0.016,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.496,
+                    "total",
+                    [
+                        306,
+                        311
+                    ]
+                ],
+                [
+                    0.52,
+                    "right",
+                    [
+                        1249,
+                        1254
+                    ]
+                ]
+            ],
+            "DIAGNOSIS": [
+                [
+                    0.5,
+                    "knee",
+                    [
+                        312,
+                        316
+                    ]
+                ],
+                [
+                    0.44,
+                    "lower",
+                    [
+                        1255,
+                        1260
+                    ]
+                ],
+                [
+                    0.447,
+                    "extremity",
+                    [
+                        1261,
+                        1270
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

@@ -1,0 +1,263 @@
+{
+    "file": "cardiology-progress-note.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "hydrochlorothiazide",
+                "code": "5487",
+                "cui": "C0020261",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Hydrochlorothiazide",
+                "range": [
+                    203,
+                    222
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.993
+                },
+                "medFrequencyNumber": [
+                    "1",
+                    229,
+                    233
+                ],
+                "medFrequencyUnit": [
+                    "day",
+                    236,
+                    239
+                ],
+                "medStrengthNum": [
+                    "25",
+                    223,
+                    225
+                ],
+                "medStrengthUnit": [
+                    "mg",
+                    226,
+                    228
+                ]
+            },
+            {
+                "text": "hydrochlorothiazide",
+                "code": "5487",
+                "cui": "C0020261",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Hydrochlorothiazide",
+                "range": [
+                    203,
+                    222
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.993
+                },
+                "medFrequencyNumber": [
+                    "1",
+                    229,
+                    233
+                ],
+                "medFrequencyUnit": [
+                    "day",
+                    236,
+                    239
+                ],
+                "medStrengthNum": [
+                    "25",
+                    223,
+                    225
+                ],
+                "medStrengthUnit": [
+                    "mg",
+                    226,
+                    228
+                ]
+            },
+            {
+                "text": "K-Dur",
+                "code": "93017",
+                "cui": "C0306511",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "K-Dur",
+                "range": [
+                    244,
+                    249
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.955
+                },
+                "medFrequencyNumber": [
+                    "1",
+                    257,
+                    261
+                ],
+                "medFrequencyUnit": [
+                    "day",
+                    264,
+                    267
+                ],
+                "medStrengthNum": [
+                    "10",
+                    250,
+                    252
+                ],
+                "medStrengthUnit": [
+                    "mEq",
+                    253,
+                    256
+                ]
+            }
+        ],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "essential hypertension",
+                "range": [
+                    70,
+                    92
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "59621000",
+                "cui": "C0085580",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Essential Hypertension"
+            },
+            {
+                "text": "massive\nheart attack",
+                "range": [
+                    704,
+                    724
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.002,
+        "uncertain_count": 0,
+        "narrow_band_ratio": 0.0,
+        "uncertain_tokens": {},
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "essential",
+                    [
+                        70,
+                        79
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "hypertension",
+                    [
+                        80,
+                        92
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "massive",
+                    [
+                        704,
+                        711
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "heart",
+                    [
+                        712,
+                        717
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "attack",
+                    [
+                        718,
+                        724
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.878,
+                    "essential",
+                    [
+                        70,
+                        79
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.97,
+                    "hypertension",
+                    [
+                        80,
+                        92
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.825,
+                    "heart",
+                    [
+                        712,
+                        717
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.634,
+                    "attack",
+                    [
+                        718,
+                        724
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.055,
+        "uncertain_token_count": 1,
+        "narrow_band_ratio": 0.004,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.494,
+                    "massive",
+                    [
+                        704,
+                        711
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

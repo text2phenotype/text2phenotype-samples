@@ -1,0 +1,123 @@
+{
+    "file": "renal-ultrasound-1.txt-clean.txt",
+    "text2summary": {
+        "Medication": [],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "UTI",
+                "range": [
+                    58,
+                    61
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "68566005",
+                "cui": "C0042029",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Urinary tract infection"
+            },
+            {
+                "text": "recent",
+                "range": [
+                    494,
+                    500
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.0,
+        "uncertain_count": 0,
+        "narrow_band_ratio": 0.0,
+        "uncertain_tokens": {},
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "UTI",
+                    [
+                        58,
+                        61
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "recent",
+                    [
+                        494,
+                        500
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "voiding",
+                    [
+                        501,
+                        508
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.696,
+                    "UTI",
+                    [
+                        58,
+                        61
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.502,
+                    "voiding",
+                    [
+                        501,
+                        508
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.11,
+        "uncertain_token_count": 2,
+        "narrow_band_ratio": 0.018,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.473,
+                    "recent",
+                    [
+                        494,
+                        500
+                    ]
+                ]
+            ],
+            "DIAGNOSIS": [
+                [
+                    0.502,
+                    "voiding",
+                    [
+                        501,
+                        508
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

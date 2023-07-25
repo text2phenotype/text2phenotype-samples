@@ -1,0 +1,210 @@
+{
+    "file": "circumcision-infant.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "Betadine",
+                "code": "202750",
+                "cui": "C0699524",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Betadine",
+                "range": [
+                    811,
+                    819
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.98
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "Betadine",
+                "code": "202750",
+                "cui": "C0699524",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Betadine",
+                "range": [
+                    811,
+                    819
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.98
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            }
+        ],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "infection",
+                "range": [
+                    270,
+                    279
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "189822004",
+                "cui": "C0009450",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Communicable Diseases"
+            },
+            {
+                "text": "meatal stenosis",
+                "range": [
+                    297,
+                    312
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "33495006",
+                "cui": "C0431750",
+                "tui": "T190",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Stenosis of urinary meatus"
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.01,
+        "uncertain_count": 0,
+        "narrow_band_ratio": 0.0,
+        "uncertain_tokens": {},
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "infection",
+                    [
+                        270,
+                        279
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "hemorrhage",
+                    [
+                        281,
+                        291
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "meatal",
+                    [
+                        297,
+                        303
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "stenosis",
+                    [
+                        304,
+                        312
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.543,
+                    "infection",
+                    [
+                        270,
+                        279
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.624,
+                    "hemorrhage",
+                    [
+                        281,
+                        291
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.599,
+                    "meatal",
+                    [
+                        297,
+                        303
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.693,
+                    "stenosis",
+                    [
+                        304,
+                        312
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.098,
+        "uncertain_token_count": 4,
+        "narrow_band_ratio": 0.015,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.523,
+                    "care",
+                    [
+                        339,
+                        343
+                    ]
+                ],
+                [
+                    0.476,
+                    "urinary",
+                    [
+                        370,
+                        377
+                    ]
+                ],
+                [
+                    0.47,
+                    "tract",
+                    [
+                        378,
+                        383
+                    ]
+                ],
+                [
+                    0.514,
+                    "infections",
+                    [
+                        384,
+                        394
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

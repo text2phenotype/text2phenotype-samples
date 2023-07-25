@@ -1,0 +1,636 @@
+{
+    "file": "orif-wrist-acumed-locking-plate.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "Accu",
+                "code": "583344",
+                "cui": "C1620450",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Accu",
+                "range": [
+                    2057,
+                    2061
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.982
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "Kantrex",
+                "code": "6101",
+                "cui": "C0022491",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Kantrex",
+                "range": [
+                    3501,
+                    3508
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.948
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "Kantrex",
+                "code": "6101",
+                "cui": "C0022491",
+                "tui": "T195",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Kantrex",
+                "range": [
+                    3501,
+                    3508
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.948
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "Marcaine",
+                "code": "1012397",
+                "cui": "C2945665",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Marcaine",
+                "range": [
+                    3648,
+                    3656
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.957
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "anesthetic",
+                "code": null,
+                "cui": null,
+                "tui": null,
+                "vocab": null,
+                "polarity": "positive",
+                "preferredText": null,
+                "range": [
+                    3803,
+                    3813
+                ],
+                "prob": {
+                    "MED": 0.998
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            }
+        ],
+        "Allergy": [],
+        "Lab": [
+            {
+                "code": "",
+                "cui": "C0002059",
+                "tui": "T034",
+                "vocab": "LNC",
+                "polarity": "positive",
+                "text": "AP",
+                "preferredText": "ALP - ALKALINE PHOSPHATASE",
+                "range": [
+                    2152,
+                    2154
+                ]
+            }
+        ],
+        "DiseaseDisorder": [
+            {
+                "text": "Closed displaced angulated fracture of the right\ndistal",
+                "range": [
+                    26,
+                    81
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "Closed displaced angulated fracture of the right\ndistal radius",
+                "range": [
+                    116,
+                    178
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "wrist",
+                "range": [
+                    633,
+                    638
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "fracture",
+                "range": [
+                    3309,
+                    3317
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "125605004",
+                "cui": "C0016658",
+                "tui": "T037",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Fracture"
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.009,
+        "uncertain_count": 5,
+        "narrow_band_ratio": 0.007,
+        "uncertain_tokens": {
+            "MED": [
+                [
+                    0.587,
+                    "fluoroscopy",
+                    [
+                        1966,
+                        1977
+                    ]
+                ],
+                [
+                    0.674,
+                    "AP",
+                    [
+                        2421,
+                        2423
+                    ]
+                ],
+                [
+                    0.676,
+                    "general",
+                    [
+                        3795,
+                        3802
+                    ]
+                ]
+            ],
+            "NA": [
+                [
+                    0.695,
+                    "screws",
+                    [
+                        2348,
+                        2354
+                    ]
+                ],
+                [
+                    0.647,
+                    "nylon",
+                    [
+                        3620,
+                        3625
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "Closed",
+                    [
+                        26,
+                        32
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "displaced",
+                    [
+                        33,
+                        42
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "angulated",
+                    [
+                        43,
+                        52
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "fracture",
+                    [
+                        53,
+                        61
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "of",
+                    [
+                        62,
+                        64
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "the",
+                    [
+                        65,
+                        68
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "right",
+                    [
+                        69,
+                        74
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "distal",
+                    [
+                        75,
+                        81
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Closed",
+                    [
+                        116,
+                        122
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "displaced",
+                    [
+                        123,
+                        132
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "angulated",
+                    [
+                        133,
+                        142
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "fracture",
+                    [
+                        143,
+                        151
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "of",
+                    [
+                        152,
+                        154
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "the",
+                    [
+                        155,
+                        158
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "right",
+                    [
+                        159,
+                        164
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "distal",
+                    [
+                        165,
+                        171
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "radius",
+                    [
+                        172,
+                        178
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "wrist",
+                    [
+                        633,
+                        638
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "fracture",
+                    [
+                        3309,
+                        3317
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "condition",
+                    [
+                        3902,
+                        3911
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.959,
+                    "Closed",
+                    [
+                        26,
+                        32
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.867,
+                    "displaced",
+                    [
+                        33,
+                        42
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.965,
+                    "angulated",
+                    [
+                        43,
+                        52
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.986,
+                    "fracture",
+                    [
+                        53,
+                        61
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.976,
+                    "of",
+                    [
+                        62,
+                        64
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.934,
+                    "the",
+                    [
+                        65,
+                        68
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.847,
+                    "right",
+                    [
+                        69,
+                        74
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.573,
+                    "distal",
+                    [
+                        75,
+                        81
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.955,
+                    "Closed",
+                    [
+                        116,
+                        122
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.898,
+                    "displaced",
+                    [
+                        123,
+                        132
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.966,
+                    "angulated",
+                    [
+                        133,
+                        142
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.988,
+                    "fracture",
+                    [
+                        143,
+                        151
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.976,
+                    "of",
+                    [
+                        152,
+                        154
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.97,
+                    "the",
+                    [
+                        155,
+                        158
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.944,
+                    "right",
+                    [
+                        159,
+                        164
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.842,
+                    "distal",
+                    [
+                        165,
+                        171
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.754,
+                    "radius",
+                    [
+                        172,
+                        178
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.501,
+                    "fracture",
+                    [
+                        3309,
+                        3317
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.579,
+                    "condition",
+                    [
+                        3902,
+                        3911
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.063,
+        "uncertain_token_count": 2,
+        "narrow_band_ratio": 0.003,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.428,
+                    "wrist",
+                    [
+                        633,
+                        638
+                    ]
+                ]
+            ],
+            "DIAGNOSIS": [
+                [
+                    0.501,
+                    "fracture",
+                    [
+                        3309,
+                        3317
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

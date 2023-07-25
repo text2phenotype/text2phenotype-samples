@@ -1,0 +1,136 @@
+{
+    "file": "tonsillectomy.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "cherry",
+                "code": null,
+                "cui": null,
+                "tui": null,
+                "vocab": null,
+                "polarity": "positive",
+                "preferredText": null,
+                "range": [
+                    1311,
+                    1317
+                ],
+                "prob": {
+                    "MED": 0.96
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            }
+        ],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "Tonsillitis",
+                "range": [
+                    26,
+                    37
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "90176007",
+                "cui": "C0040425",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Tonsillitis"
+            },
+            {
+                "text": "Tonsillitis",
+                "range": [
+                    65,
+                    76
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "90176007",
+                "cui": "C0040425",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Tonsillitis"
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.015,
+        "uncertain_count": 2,
+        "narrow_band_ratio": 0.006,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.531,
+                    "blade",
+                    [
+                        997,
+                        1002
+                    ]
+                ]
+            ],
+            "MED": [
+                [
+                    0.55,
+                    "gauze",
+                    [
+                        1318,
+                        1323
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "Tonsillitis",
+                    [
+                        26,
+                        37
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Tonsillitis",
+                    [
+                        65,
+                        76
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.605,
+                    "Tonsillitis",
+                    [
+                        26,
+                        37
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.946,
+                    "Tonsillitis",
+                    [
+                        65,
+                        76
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.064,
+        "uncertain_token_count": 0,
+        "narrow_band_ratio": 0.0,
+        "uncertain_tokens": {},
+        "narrow_band_width": 0.2
+    }
+}

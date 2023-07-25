@@ -1,0 +1,964 @@
+{
+    "file": "delivery-note-2.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "ephedrine",
+                "code": "3966",
+                "cui": "C0014479",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Ephedrine",
+                "range": [
+                    601,
+                    610
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.999
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "ephedrine",
+                "code": "3966",
+                "cui": "C0014479",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Ephedrine",
+                "range": [
+                    601,
+                    610
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.999
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "Pitocin",
+                "code": "227199",
+                "cui": "C0733348",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Pitocin",
+                "range": [
+                    1265,
+                    1272
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.937
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            }
+        ],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "arrived in",
+                "range": [
+                    158,
+                    168
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "and Delivery in the",
+                "range": [
+                    175,
+                    194
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "early labor",
+                "range": [
+                    218,
+                    229
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "6383007",
+                "cui": "C0022876",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Premature Obstetric Labor"
+            },
+            {
+                "text": "fetal heart",
+                "range": [
+                    1179,
+                    1190
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "variability",
+                "range": [
+                    1220,
+                    1231
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "of\ncord around the",
+                "range": [
+                    1494,
+                    1512
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "occurring",
+                "range": [
+                    1553,
+                    1562
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "phase",
+                "range": [
+                    1587,
+                    1592
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "the cord around the",
+                "range": [
+                    1903,
+                    1922
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "cord",
+                "range": [
+                    1937,
+                    1941
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "28835009",
+                "cui": "C0035334",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Retinitis Pigmentosa"
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.008,
+        "uncertain_count": 1,
+        "narrow_band_ratio": 0.002,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.56,
+                    "gentle",
+                    [
+                        1733,
+                        1739
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "para",
+                    [
+                        42,
+                        46
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "infertility",
+                    [
+                        142,
+                        153
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "arrived",
+                    [
+                        158,
+                        165
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "in",
+                    [
+                        166,
+                        168
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Labor",
+                    [
+                        169,
+                        174
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "and",
+                    [
+                        175,
+                        178
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Delivery",
+                    [
+                        179,
+                        187
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "in",
+                    [
+                        188,
+                        190
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "the",
+                    [
+                        191,
+                        194
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "early",
+                    [
+                        218,
+                        223
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "labor",
+                    [
+                        224,
+                        229
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "apnea",
+                    [
+                        555,
+                        560
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "hypotension",
+                    [
+                        565,
+                        576
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "fetal",
+                    [
+                        1179,
+                        1184
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "heart",
+                    [
+                        1185,
+                        1190
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "variability",
+                    [
+                        1220,
+                        1231
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "of",
+                    [
+                        1494,
+                        1496
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "cord",
+                    [
+                        1497,
+                        1501
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "around",
+                    [
+                        1502,
+                        1508
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "the",
+                    [
+                        1509,
+                        1512
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "variable",
+                    [
+                        1530,
+                        1538
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "decelerations",
+                    [
+                        1539,
+                        1552
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "occurring",
+                    [
+                        1553,
+                        1562
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "contraction",
+                    [
+                        1575,
+                        1586
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "phase",
+                    [
+                        1587,
+                        1592
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "the",
+                    [
+                        1903,
+                        1906
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "cord",
+                    [
+                        1907,
+                        1911
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "around",
+                    [
+                        1912,
+                        1918
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "the",
+                    [
+                        1919,
+                        1922
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "cord",
+                    [
+                        1937,
+                        1941
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "cut",
+                    [
+                        1952,
+                        1955
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "tension",
+                    [
+                        2001,
+                        2008
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.514,
+                    "para",
+                    [
+                        42,
+                        46
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.78,
+                    "infertility",
+                    [
+                        142,
+                        153
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.47,
+                    "and",
+                    [
+                        154,
+                        157
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.654,
+                    "arrived",
+                    [
+                        158,
+                        165
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.725,
+                    "in",
+                    [
+                        166,
+                        168
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.721,
+                    "Labor",
+                    [
+                        169,
+                        174
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.585,
+                    "and",
+                    [
+                        175,
+                        178
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.675,
+                    "Delivery",
+                    [
+                        179,
+                        187
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.591,
+                    "in",
+                    [
+                        188,
+                        190
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.532,
+                    "the",
+                    [
+                        191,
+                        194
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.705,
+                    "early",
+                    [
+                        218,
+                        223
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.7,
+                    "labor",
+                    [
+                        224,
+                        229
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.581,
+                    "apnea",
+                    [
+                        555,
+                        560
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.582,
+                    "hypotension",
+                    [
+                        565,
+                        576
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.49,
+                    "fetal",
+                    [
+                        1179,
+                        1184
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.491,
+                    "heart",
+                    [
+                        1185,
+                        1190
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.383,
+                    "variability",
+                    [
+                        1220,
+                        1231
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.634,
+                    "of",
+                    [
+                        1494,
+                        1496
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.922,
+                    "cord",
+                    [
+                        1497,
+                        1501
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.755,
+                    "around",
+                    [
+                        1502,
+                        1508
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.627,
+                    "the",
+                    [
+                        1509,
+                        1512
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.641,
+                    "variable",
+                    [
+                        1530,
+                        1538
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.721,
+                    "decelerations",
+                    [
+                        1539,
+                        1552
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.48,
+                    "occurring",
+                    [
+                        1553,
+                        1562
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.671,
+                    "contraction",
+                    [
+                        1575,
+                        1586
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.571,
+                    "phase",
+                    [
+                        1587,
+                        1592
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.578,
+                    "the",
+                    [
+                        1903,
+                        1906
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.845,
+                    "cord",
+                    [
+                        1907,
+                        1911
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.643,
+                    "around",
+                    [
+                        1912,
+                        1918
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.604,
+                    "the",
+                    [
+                        1919,
+                        1922
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.48,
+                    "neck",
+                    [
+                        1923,
+                        1927
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.59,
+                    "cord",
+                    [
+                        1937,
+                        1941
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.676,
+                    "cut",
+                    [
+                        1952,
+                        1955
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.62,
+                    "tension",
+                    [
+                        2001,
+                        2008
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.212,
+        "uncertain_token_count": 12,
+        "narrow_band_ratio": 0.023,
+        "uncertain_tokens": {
+            "DIAGNOSIS": [
+                [
+                    0.514,
+                    "para",
+                    [
+                        42,
+                        46
+                    ]
+                ],
+                [
+                    0.47,
+                    "and",
+                    [
+                        154,
+                        157
+                    ]
+                ],
+                [
+                    0.49,
+                    "fetal",
+                    [
+                        1179,
+                        1184
+                    ]
+                ],
+                [
+                    0.491,
+                    "heart",
+                    [
+                        1185,
+                        1190
+                    ]
+                ],
+                [
+                    0.383,
+                    "variability",
+                    [
+                        1220,
+                        1231
+                    ]
+                ],
+                [
+                    0.48,
+                    "occurring",
+                    [
+                        1553,
+                        1562
+                    ]
+                ],
+                [
+                    0.48,
+                    "neck",
+                    [
+                        1923,
+                        1927
+                    ]
+                ]
+            ],
+            "NA": [
+                [
+                    0.49,
+                    "2",
+                    [
+                        47,
+                        48
+                    ]
+                ],
+                [
+                    0.49,
+                    "labor",
+                    [
+                        101,
+                        106
+                    ]
+                ],
+                [
+                    0.507,
+                    "tones",
+                    [
+                        1191,
+                        1196
+                    ]
+                ],
+                [
+                    0.437,
+                    "beat-to-beat",
+                    [
+                        1207,
+                        1219
+                    ]
+                ],
+                [
+                    0.444,
+                    "retraction",
+                    [
+                        1820,
+                        1830
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

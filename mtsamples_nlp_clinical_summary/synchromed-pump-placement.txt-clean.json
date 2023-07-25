@@ -1,0 +1,288 @@
+{
+    "file": "synchromed-pump-placement.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "CSF",
+                "code": null,
+                "cui": null,
+                "tui": null,
+                "vocab": null,
+                "polarity": "positive",
+                "preferredText": null,
+                "range": [
+                    2524,
+                    2527
+                ],
+                "prob": {
+                    "MED": 0.997
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            }
+        ],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "procedure",
+                "range": [
+                    1111,
+                    1120
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "into",
+                "range": [
+                    1302,
+                    1306
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "leakage of cerebrospinal\nfluid",
+                "range": [
+                    1369,
+                    1399
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "73965003",
+                "cui": "C0023182",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Cerebrospinal fluid leak"
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.015,
+        "uncertain_count": 3,
+        "narrow_band_ratio": 0.005,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.541,
+                    "sponge",
+                    [
+                        1283,
+                        1289
+                    ]
+                ],
+                [
+                    0.576,
+                    "sponge",
+                    [
+                        3386,
+                        3392
+                    ]
+                ]
+            ],
+            "MED": [
+                [
+                    0.553,
+                    "0-silk",
+                    [
+                        2691,
+                        2697
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "procedure",
+                    [
+                        1111,
+                        1120
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "into",
+                    [
+                        1302,
+                        1306
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "wound",
+                    [
+                        1311,
+                        1316
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "leakage",
+                    [
+                        1369,
+                        1376
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "of",
+                    [
+                        1377,
+                        1379
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "cerebrospinal",
+                    [
+                        1380,
+                        1393
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "fluid",
+                    [
+                        1394,
+                        1399
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.511,
+                    "RV",
+                    [
+                        1108,
+                        1110
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.59,
+                    "procedure",
+                    [
+                        1111,
+                        1120
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.559,
+                    "into",
+                    [
+                        1302,
+                        1306
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.525,
+                    "wound",
+                    [
+                        1311,
+                        1316
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.697,
+                    "of",
+                    [
+                        1377,
+                        1379
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.67,
+                    "cerebrospinal",
+                    [
+                        1380,
+                        1393
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.638,
+                    "fluid",
+                    [
+                        1394,
+                        1399
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.07,
+        "uncertain_token_count": 4,
+        "narrow_band_ratio": 0.007,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.504,
+                    "fluid",
+                    [
+                        1085,
+                        1090
+                    ]
+                ],
+                [
+                    0.484,
+                    "leakage",
+                    [
+                        1369,
+                        1376
+                    ]
+                ]
+            ],
+            "DIAGNOSIS": [
+                [
+                    0.511,
+                    "RV",
+                    [
+                        1108,
+                        1110
+                    ]
+                ],
+                [
+                    0.525,
+                    "wound",
+                    [
+                        1311,
+                        1316
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

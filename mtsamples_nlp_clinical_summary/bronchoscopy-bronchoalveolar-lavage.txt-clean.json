@@ -1,0 +1,326 @@
+{
+    "file": "bronchoscopy-bronchoalveolar-lavage.txt-clean.txt",
+    "text2summary": {
+        "Medication": [],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "Refractory pneumonitis",
+                "range": [
+                    26,
+                    48
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "Refractory pneumonitis",
+                "range": [
+                    76,
+                    98
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "trauma",
+                "range": [
+                    237,
+                    243
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "19130008",
+                "cui": "C3714660",
+                "tui": "T037",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Trauma"
+            },
+            {
+                "text": "prolonged\nrespiratory failure",
+                "range": [
+                    254,
+                    283
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "refractory pneumonitis",
+                "range": [
+                    366,
+                    388
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.011,
+        "uncertain_count": 1,
+        "narrow_band_ratio": 0.008,
+        "uncertain_tokens": {
+            "MED": [
+                [
+                    0.593,
+                    "Versed",
+                    [
+                        439,
+                        445
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "PROBLEM": [
+                    "Refractory",
+                    [
+                        26,
+                        36
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "pneumonitis",
+                    [
+                        37,
+                        48
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Refractory",
+                    [
+                        76,
+                        86
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "pneumonitis",
+                    [
+                        87,
+                        98
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "trauma",
+                    [
+                        237,
+                        243
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "prolonged",
+                    [
+                        254,
+                        263
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "respiratory",
+                    [
+                        264,
+                        275
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "failure",
+                    [
+                        276,
+                        283
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "refractory",
+                    [
+                        366,
+                        376
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "pneumonitis",
+                    [
+                        377,
+                        388
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "PROBLEM": [
+                    0.499,
+                    "Refractory",
+                    [
+                        26,
+                        36
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.535,
+                    "pneumonitis",
+                    [
+                        37,
+                        48
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.779,
+                    "Refractory",
+                    [
+                        76,
+                        86
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.839,
+                    "pneumonitis",
+                    [
+                        87,
+                        98
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.622,
+                    "trauma",
+                    [
+                        237,
+                        243
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.577,
+                    "prolonged",
+                    [
+                        254,
+                        263
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.728,
+                    "respiratory",
+                    [
+                        264,
+                        275
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.759,
+                    "failure",
+                    [
+                        276,
+                        283
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.511,
+                    "refractory",
+                    [
+                        366,
+                        376
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.802,
+                    "pneumonitis",
+                    [
+                        377,
+                        388
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.115,
+        "uncertain_token_count": 3,
+        "narrow_band_ratio": 0.023,
+        "uncertain_tokens": {
+            "PROBLEM": [
+                [
+                    0.499,
+                    "Refractory",
+                    [
+                        26,
+                        36
+                    ]
+                ]
+            ],
+            "NA": [
+                [
+                    0.506,
+                    "tracheostomy",
+                    [
+                        296,
+                        308
+                    ]
+                ]
+            ],
+            "DIAGNOSIS": [
+                [
+                    0.511,
+                    "refractory",
+                    [
+                        366,
+                        376
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

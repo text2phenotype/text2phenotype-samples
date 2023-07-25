@@ -1,0 +1,551 @@
+{
+    "file": "gastroscopy.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "pump",
+                "code": null,
+                "cui": null,
+                "tui": null,
+                "vocab": null,
+                "polarity": "positive",
+                "preferredText": null,
+                "range": [
+                    1764,
+                    1768
+                ],
+                "prob": {
+                    "MED": 0.98
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "inhibitor",
+                "code": null,
+                "cui": null,
+                "tui": null,
+                "vocab": null,
+                "polarity": "positive",
+                "preferredText": null,
+                "range": [
+                    1769,
+                    1778
+                ],
+                "prob": {
+                    "MED": 0.972
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            }
+        ],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "Dysphagia",
+                "range": [
+                    26,
+                    35
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "40739000",
+                "cui": "C0011168",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Deglutition Disorders"
+            },
+            {
+                "text": "esophageal spasm",
+                "range": [
+                    40,
+                    56
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "79962008",
+                "cui": "C0014863",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Esophageal spasm"
+            },
+            {
+                "text": "Esophagitis and esophageal stricture",
+                "range": [
+                    84,
+                    120
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "16761005",
+                "cui": "C0014868",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Esophagitis"
+            },
+            {
+                "text": "hiatal hernia",
+                "range": [
+                    1056,
+                    1069
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "84089009",
+                "cui": "C3489393",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Hiatal Hernia"
+            },
+            {
+                "text": "Esophagitis",
+                "range": [
+                    1576,
+                    1587
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "16761005",
+                "cui": "C0014868",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Esophagitis"
+            },
+            {
+                "text": "Minor",
+                "range": [
+                    1594,
+                    1599
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "at the gastroesophageal junction",
+                "range": [
+                    1610,
+                    1642
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "Hiatal hernia",
+                "range": [
+                    1649,
+                    1662
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "84089009",
+                "cui": "C3489393",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Hiatal Hernia"
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.006,
+        "uncertain_count": 1,
+        "narrow_band_ratio": 0.003,
+        "uncertain_tokens": {
+            "MED": [
+                [
+                    0.69,
+                    "proton",
+                    [
+                        1757,
+                        1763
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "Dysphagia",
+                    [
+                        26,
+                        35
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "esophageal",
+                    [
+                        40,
+                        50
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "spasm",
+                    [
+                        51,
+                        56
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Esophagitis",
+                    [
+                        84,
+                        95
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "and",
+                    [
+                        96,
+                        99
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "esophageal",
+                    [
+                        100,
+                        110
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "stricture",
+                    [
+                        111,
+                        120
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "hiatal",
+                    [
+                        1056,
+                        1062
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "hernia",
+                    [
+                        1063,
+                        1069
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Esophagitis",
+                    [
+                        1576,
+                        1587
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Minor",
+                    [
+                        1594,
+                        1599
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "stricture",
+                    [
+                        1600,
+                        1609
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "at",
+                    [
+                        1610,
+                        1612
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "the",
+                    [
+                        1613,
+                        1616
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "gastroesophageal",
+                    [
+                        1617,
+                        1633
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "junction",
+                    [
+                        1634,
+                        1642
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Hiatal",
+                    [
+                        1649,
+                        1655
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "hernia",
+                    [
+                        1656,
+                        1662
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.778,
+                    "Dysphagia",
+                    [
+                        26,
+                        35
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.631,
+                    "esophageal",
+                    [
+                        40,
+                        50
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.621,
+                    "spasm",
+                    [
+                        51,
+                        56
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.925,
+                    "Esophagitis",
+                    [
+                        84,
+                        95
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.474,
+                    "and",
+                    [
+                        96,
+                        99
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.833,
+                    "esophageal",
+                    [
+                        100,
+                        110
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.849,
+                    "stricture",
+                    [
+                        111,
+                        120
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.621,
+                    "hiatal",
+                    [
+                        1056,
+                        1062
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.751,
+                    "hernia",
+                    [
+                        1063,
+                        1069
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.962,
+                    "Esophagitis",
+                    [
+                        1576,
+                        1587
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.553,
+                    "Minor",
+                    [
+                        1594,
+                        1599
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.684,
+                    "stricture",
+                    [
+                        1600,
+                        1609
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.609,
+                    "at",
+                    [
+                        1610,
+                        1612
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.534,
+                    "the",
+                    [
+                        1613,
+                        1616
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.448,
+                    "gastroesophageal",
+                    [
+                        1617,
+                        1633
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.558,
+                    "junction",
+                    [
+                        1634,
+                        1642
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.97,
+                    "Hiatal",
+                    [
+                        1649,
+                        1655
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.987,
+                    "hernia",
+                    [
+                        1656,
+                        1662
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.105,
+        "uncertain_token_count": 2,
+        "narrow_band_ratio": 0.006,
+        "uncertain_tokens": {
+            "DIAGNOSIS": [
+                [
+                    0.474,
+                    "and",
+                    [
+                        96,
+                        99
+                    ]
+                ],
+                [
+                    0.448,
+                    "gastroesophageal",
+                    [
+                        1617,
+                        1633
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

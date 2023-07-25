@@ -1,0 +1,558 @@
+{
+    "file": "myocardial-perfusion-imaging-3.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "Tetrofosmin",
+                "code": "1311569",
+                "cui": "C1366036",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Tetrofosmin",
+                "range": [
+                    313,
+                    324
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.986
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "Tetrofosmin",
+                "code": "1311569",
+                "cui": "C1366036",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Tetrofosmin",
+                "range": [
+                    313,
+                    324
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.986
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "Tetrofosmin",
+                "code": "1311569",
+                "cui": "C1366036",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Tetrofosmin",
+                "range": [
+                    1164,
+                    1175
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.981
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "Tetrofosmin",
+                "code": "1311569",
+                "cui": "C1366036",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Tetrofosmin",
+                "range": [
+                    1164,
+                    1175
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.981
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            }
+        ],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "Hypertension.\nHyperlipidemia",
+                "range": [
+                    56,
+                    84
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "38341003",
+                "cui": "C0020538",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Hypertensive disease"
+            },
+            {
+                "text": "coronary artery disease",
+                "range": [
+                    115,
+                    138
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "53741008",
+                "cui": "C1956346",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Coronary Artery Disease"
+            },
+            {
+                "text": "myocardial infarction",
+                "range": [
+                    905,
+                    926
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "22298006",
+                "cui": "C0027051",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Myocardial Infarction"
+            },
+            {
+                "text": "nonspecific",
+                "range": [
+                    950,
+                    961
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.01,
+        "uncertain_count": 2,
+        "narrow_band_ratio": 0.007,
+        "uncertain_tokens": {
+            "MED": [
+                [
+                    0.646,
+                    "99m",
+                    [
+                        305,
+                        308
+                    ]
+                ]
+            ],
+            "NA": [
+                [
+                    0.619,
+                    "99m",
+                    [
+                        1156,
+                        1159
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "PROBLEM": [
+                    "Fatigue",
+                    [
+                        34,
+                        41
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Hypertension",
+                    [
+                        56,
+                        68
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Hyperlipidemia",
+                    [
+                        70,
+                        84
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "coronary",
+                    [
+                        115,
+                        123
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "artery",
+                    [
+                        124,
+                        130
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "disease",
+                    [
+                        131,
+                        138
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "rest",
+                    [
+                        177,
+                        181
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "stress",
+                    [
+                        186,
+                        192
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "myocardial",
+                    [
+                        905,
+                        915
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "infarction",
+                    [
+                        916,
+                        926
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "nonspecific",
+                    [
+                        950,
+                        961
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "exercise",
+                    [
+                        1596,
+                        1604
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "right",
+                    [
+                        1691,
+                        1696
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "ventricular",
+                    [
+                        1697,
+                        1708
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "function",
+                    [
+                        1709,
+                        1717
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "normal",
+                    [
+                        1722,
+                        1728
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "PROBLEM": [
+                    0.394,
+                    "Fatigue",
+                    [
+                        34,
+                        41
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.896,
+                    "Hypertension",
+                    [
+                        56,
+                        68
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.934,
+                    "Hyperlipidemia",
+                    [
+                        70,
+                        84
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.814,
+                    "coronary",
+                    [
+                        115,
+                        123
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.896,
+                    "artery",
+                    [
+                        124,
+                        130
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.928,
+                    "disease",
+                    [
+                        131,
+                        138
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.457,
+                    "rest",
+                    [
+                        177,
+                        181
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.519,
+                    "stress",
+                    [
+                        186,
+                        192
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.714,
+                    "myocardial",
+                    [
+                        905,
+                        915
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.808,
+                    "infarction",
+                    [
+                        916,
+                        926
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.494,
+                    "nonspecific",
+                    [
+                        950,
+                        961
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.505,
+                    "Nonspecific",
+                    [
+                        976,
+                        987
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.565,
+                    "exercise",
+                    [
+                        1596,
+                        1604
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.769,
+                    "right",
+                    [
+                        1691,
+                        1696
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.776,
+                    "ventricular",
+                    [
+                        1697,
+                        1708
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.82,
+                    "function",
+                    [
+                        1709,
+                        1717
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.61,
+                    "normal",
+                    [
+                        1722,
+                        1728
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.131,
+        "uncertain_token_count": 6,
+        "narrow_band_ratio": 0.02,
+        "uncertain_tokens": {
+            "PROBLEM": [
+                [
+                    0.394,
+                    "Fatigue",
+                    [
+                        34,
+                        41
+                    ]
+                ],
+                [
+                    0.457,
+                    "rest",
+                    [
+                        177,
+                        181
+                    ]
+                ],
+                [
+                    0.519,
+                    "stress",
+                    [
+                        186,
+                        192
+                    ]
+                ]
+            ],
+            "DIAGNOSIS": [
+                [
+                    0.494,
+                    "nonspecific",
+                    [
+                        950,
+                        961
+                    ]
+                ],
+                [
+                    0.505,
+                    "Nonspecific",
+                    [
+                        976,
+                        987
+                    ]
+                ]
+            ],
+            "NA": [
+                [
+                    0.508,
+                    "ST-T",
+                    [
+                        962,
+                        966
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

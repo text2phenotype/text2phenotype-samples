@@ -1,0 +1,428 @@
+{
+    "file": "neuroma-excision.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "Marcaine",
+                "code": "1012397",
+                "cui": "C2945665",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Marcaine",
+                "range": [
+                    421,
+                    429
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 1.0
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [
+                    "1",
+                    434,
+                    435
+                ],
+                "medStrengthUnit": [
+                    "%",
+                    435,
+                    436
+                ]
+            },
+            {
+                "text": "chlorhexidine gluconate",
+                "code": "20791",
+                "cui": "C0055361",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "chlorhexidine gluconate",
+                "range": [
+                    861,
+                    884
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.981
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "chlorhexidine gluconate",
+                "code": "20791",
+                "cui": "C0055361",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "chlorhexidine gluconate",
+                "range": [
+                    861,
+                    884
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.981
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            }
+        ],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "Morton 's",
+                "range": [
+                    100,
+                    109
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "third interspace",
+                "range": [
+                    119,
+                    135
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "left",
+                "range": [
+                    137,
+                    141
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "of the digits",
+                "range": [
+                    1355,
+                    1368
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.007,
+        "uncertain_count": 1,
+        "narrow_band_ratio": 0.002,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.507,
+                    "dexamethasone",
+                    [
+                        473,
+                        486
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "neuroma",
+                    [
+                        36,
+                        43
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Morton",
+                    [
+                        100,
+                        106
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "'s",
+                    [
+                        107,
+                        109
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "neuroma",
+                    [
+                        110,
+                        117
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    ",",
+                    [
+                        117,
+                        118
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "third",
+                    [
+                        119,
+                        124
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "interspace",
+                    [
+                        125,
+                        135
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    ",",
+                    [
+                        135,
+                        136
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "left",
+                    [
+                        137,
+                        141
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "of",
+                    [
+                        1355,
+                        1357
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "the",
+                    [
+                        1358,
+                        1361
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "digits",
+                    [
+                        1362,
+                        1368
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.612,
+                    "neuroma",
+                    [
+                        36,
+                        43
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.722,
+                    "Morton",
+                    [
+                        100,
+                        106
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.931,
+                    "'s",
+                    [
+                        107,
+                        109
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.976,
+                    "neuroma",
+                    [
+                        110,
+                        117
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.736,
+                    ",",
+                    [
+                        117,
+                        118
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.891,
+                    "third",
+                    [
+                        119,
+                        124
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.92,
+                    "interspace",
+                    [
+                        125,
+                        135
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.607,
+                    ",",
+                    [
+                        135,
+                        136
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.526,
+                    "left",
+                    [
+                        137,
+                        141
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.436,
+                    "flexion",
+                    [
+                        1347,
+                        1354
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.648,
+                    "of",
+                    [
+                        1355,
+                        1357
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.581,
+                    "the",
+                    [
+                        1358,
+                        1361
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.44,
+                    "digits",
+                    [
+                        1362,
+                        1368
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.073,
+        "uncertain_token_count": 3,
+        "narrow_band_ratio": 0.007,
+        "uncertain_tokens": {
+            "DIAGNOSIS": [
+                [
+                    0.526,
+                    "left",
+                    [
+                        137,
+                        141
+                    ]
+                ],
+                [
+                    0.436,
+                    "flexion",
+                    [
+                        1347,
+                        1354
+                    ]
+                ],
+                [
+                    0.44,
+                    "digits",
+                    [
+                        1362,
+                        1368
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

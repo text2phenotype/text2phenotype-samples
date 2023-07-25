@@ -1,0 +1,477 @@
+{
+    "file": "knee-replacement.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "Lovenox",
+                "code": "225036",
+                "cui": "C0728963",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Lovenox",
+                "range": [
+                    4248,
+                    4255
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.99
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "Lovenox",
+                "code": "225036",
+                "cui": "C0728963",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Lovenox",
+                "range": [
+                    4248,
+                    4255
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.99
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            }
+        ],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "osteoarthritis",
+                "range": [
+                    50,
+                    64
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "225655006",
+                "cui": "C0029408",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Degenerative polyarthritis"
+            },
+            {
+                "text": "compartment osteoarthritis of the",
+                "range": [
+                    116,
+                    149
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "left",
+                "range": [
+                    609,
+                    613
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "impacted",
+                "range": [
+                    2145,
+                    2153
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "129263008",
+                "cui": "C0040456",
+                "tui": "T190",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Impacted tooth"
+            },
+            {
+                "text": "posterior",
+                "range": [
+                    4299,
+                    4308
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "72442006",
+                "cui": "C0751438",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Posterior pituitary disease"
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.011,
+        "uncertain_count": 4,
+        "narrow_band_ratio": 0.005,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.687,
+                    "antibiotics",
+                    [
+                        973,
+                        984
+                    ]
+                ],
+                [
+                    0.621,
+                    "cement",
+                    [
+                        3371,
+                        3377
+                    ]
+                ],
+                [
+                    0.666,
+                    "capsule",
+                    [
+                        4309,
+                        4316
+                    ]
+                ]
+            ],
+            "MED": [
+                [
+                    0.566,
+                    "cement",
+                    [
+                        3158,
+                        3164
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "osteoarthritis",
+                    [
+                        50,
+                        64
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "compartment",
+                    [
+                        116,
+                        127
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "osteoarthritis",
+                    [
+                        128,
+                        142
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "of",
+                    [
+                        143,
+                        145
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "the",
+                    [
+                        146,
+                        149
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "left",
+                    [
+                        609,
+                        613
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "knee",
+                    [
+                        614,
+                        618
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "pain",
+                    [
+                        619,
+                        623
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "cut",
+                    [
+                        1741,
+                        1744
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "impacted",
+                    [
+                        2145,
+                        2153
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "condition",
+                    [
+                        4144,
+                        4153
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "posterior",
+                    [
+                        4299,
+                        4308
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.579,
+                    "compartment",
+                    [
+                        38,
+                        49
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.738,
+                    "osteoarthritis",
+                    [
+                        50,
+                        64
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.551,
+                    "of",
+                    [
+                        65,
+                        67
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.627,
+                    "compartment",
+                    [
+                        116,
+                        127
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.726,
+                    "osteoarthritis",
+                    [
+                        128,
+                        142
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.592,
+                    "of",
+                    [
+                        143,
+                        145
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.604,
+                    "the",
+                    [
+                        146,
+                        149
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.81,
+                    "left",
+                    [
+                        609,
+                        613
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.846,
+                    "knee",
+                    [
+                        614,
+                        618
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.722,
+                    "pain",
+                    [
+                        619,
+                        623
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.655,
+                    "cut",
+                    [
+                        1741,
+                        1744
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.535,
+                    "impacted",
+                    [
+                        2145,
+                        2153
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.664,
+                    "condition",
+                    [
+                        4144,
+                        4153
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.491,
+                    "posterior",
+                    [
+                        4299,
+                        4308
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.085,
+        "uncertain_token_count": 6,
+        "narrow_band_ratio": 0.008,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.507,
+                    "Left",
+                    [
+                        26,
+                        30
+                    ]
+                ],
+                [
+                    0.524,
+                    "the",
+                    [
+                        68,
+                        71
+                    ]
+                ],
+                [
+                    0.516,
+                    "knee",
+                    [
+                        150,
+                        154
+                    ]
+                ],
+                [
+                    0.524,
+                    "cut",
+                    [
+                        2181,
+                        2184
+                    ]
+                ],
+                [
+                    0.5,
+                    "stable",
+                    [
+                        4137,
+                        4143
+                    ]
+                ]
+            ],
+            "DIAGNOSIS": [
+                [
+                    0.491,
+                    "posterior",
+                    [
+                        4299,
+                        4308
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

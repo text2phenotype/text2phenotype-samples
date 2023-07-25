@@ -1,0 +1,308 @@
+{
+    "file": "tilt-table-test-1.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "nitroglycerin",
+                "code": "4917",
+                "cui": "C0017887",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Nitroglycerin",
+                "range": [
+                    522,
+                    535
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.998
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [
+                    "0.4",
+                    536,
+                    539
+                ],
+                "medStrengthUnit": [
+                    "mg",
+                    540,
+                    542
+                ]
+            },
+            {
+                "text": "nitroglycerin",
+                "code": "4917",
+                "cui": "C0017887",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Nitroglycerin",
+                "range": [
+                    522,
+                    535
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.998
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [
+                    "0.4",
+                    536,
+                    539
+                ],
+                "medStrengthUnit": [
+                    "mg",
+                    540,
+                    542
+                ]
+            },
+            {
+                "text": "Toprol-XL",
+                "code": "220348",
+                "cui": "C0723783",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Toprol-XL",
+                "range": [
+                    987,
+                    996
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.933
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "Toprol-XL",
+                "code": "220348",
+                "cui": "C0723783",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Toprol-XL",
+                "range": [
+                    987,
+                    996
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.933
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            }
+        ],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "vasovagal syncope",
+                "range": [
+                    805,
+                    822
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "398652001",
+                "cui": "C0042420",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Vasovagal syncope"
+            },
+            {
+                "text": "heart",
+                "range": [
+                    852,
+                    857
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.006,
+        "uncertain_count": 1,
+        "narrow_band_ratio": 0.005,
+        "uncertain_tokens": {
+            "MED": [
+                [
+                    0.671,
+                    "tablet",
+                    [
+                        388,
+                        394
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "syncope",
+                    [
+                        80,
+                        87
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "vasovagal",
+                    [
+                        805,
+                        814
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "syncope",
+                    [
+                        815,
+                        822
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "heart",
+                    [
+                        852,
+                        857
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "blood",
+                    [
+                        888,
+                        893
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "pressure",
+                    [
+                        894,
+                        902
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.752,
+                    "syncope",
+                    [
+                        80,
+                        87
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.915,
+                    "vasovagal",
+                    [
+                        805,
+                        814
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.92,
+                    "syncope",
+                    [
+                        815,
+                        822
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.456,
+                    "heart",
+                    [
+                        852,
+                        857
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.502,
+                    "pressure",
+                    [
+                        894,
+                        902
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.069,
+        "uncertain_token_count": 4,
+        "narrow_band_ratio": 0.02,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.459,
+                    "dizziness",
+                    [
+                        124,
+                        133
+                    ]
+                ],
+                [
+                    0.458,
+                    "blood",
+                    [
+                        888,
+                        893
+                    ]
+                ]
+            ],
+            "DIAGNOSIS": [
+                [
+                    0.456,
+                    "heart",
+                    [
+                        852,
+                        857
+                    ]
+                ],
+                [
+                    0.502,
+                    "pressure",
+                    [
+                        894,
+                        902
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

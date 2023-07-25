@@ -1,0 +1,296 @@
+{
+    "file": "phacoemulsification-cataract-extraction.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "Salt",
+                "code": null,
+                "cui": null,
+                "tui": null,
+                "vocab": null,
+                "polarity": "positive",
+                "preferredText": null,
+                "range": [
+                    1342,
+                    1346
+                ],
+                "prob": {
+                    "MED": 0.962
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            }
+        ],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "Nuclear",
+                "range": [
+                    13,
+                    20
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "and",
+                "range": [
+                    31,
+                    34
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "right eye",
+                "range": [
+                    54,
+                    63
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.023,
+        "uncertain_count": 3,
+        "narrow_band_ratio": 0.008,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.516,
+                    "blade",
+                    [
+                        1085,
+                        1090
+                    ]
+                ],
+                [
+                    0.694,
+                    "day",
+                    [
+                        2342,
+                        2345
+                    ]
+                ]
+            ],
+            "MED": [
+                [
+                    0.592,
+                    "Tobradex",
+                    [
+                        2051,
+                        2059
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "Nuclear",
+                    [
+                        13,
+                        20
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "sclerotic",
+                    [
+                        21,
+                        30
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "and",
+                    [
+                        31,
+                        34
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "cortical",
+                    [
+                        35,
+                        43
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "cataract",
+                    [
+                        44,
+                        52
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    ",",
+                    [
+                        52,
+                        53
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "right",
+                    [
+                        54,
+                        59
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "eye",
+                    [
+                        60,
+                        63
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.541,
+                    "Nuclear",
+                    [
+                        13,
+                        20
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.496,
+                    "sclerotic",
+                    [
+                        21,
+                        30
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.481,
+                    "and",
+                    [
+                        31,
+                        34
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.507,
+                    "cortical",
+                    [
+                        35,
+                        43
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.664,
+                    "cataract",
+                    [
+                        44,
+                        52
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.617,
+                    ",",
+                    [
+                        52,
+                        53
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.575,
+                    "right",
+                    [
+                        54,
+                        59
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.592,
+                    "eye",
+                    [
+                        60,
+                        63
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.072,
+        "uncertain_token_count": 3,
+        "narrow_band_ratio": 0.008,
+        "uncertain_tokens": {
+            "PROBLEM": [
+                [
+                    0.496,
+                    "sclerotic",
+                    [
+                        21,
+                        30
+                    ]
+                ],
+                [
+                    0.481,
+                    "and",
+                    [
+                        31,
+                        34
+                    ]
+                ],
+                [
+                    0.507,
+                    "cortical",
+                    [
+                        35,
+                        43
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

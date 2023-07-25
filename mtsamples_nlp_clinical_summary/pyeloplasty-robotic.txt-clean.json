@@ -1,0 +1,366 @@
+{
+    "file": "pyeloplasty-robotic.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "povidone-iodine",
+                "code": "8611",
+                "cui": "C0032857",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Povidone-Iodine",
+                "range": [
+                    1403,
+                    1418
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.979
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "povidone-iodine",
+                "code": "8611",
+                "cui": "C0032857",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Povidone-Iodine",
+                "range": [
+                    1403,
+                    1418
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.979
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            }
+        ],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "Renal pelvis",
+                "range": [
+                    412,
+                    424
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "Kidney stones",
+                "range": [
+                    431,
+                    444
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "95570007",
+                "cui": "C0022650",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Kidney Calculi"
+            },
+            {
+                "text": "renal stones",
+                "range": [
+                    568,
+                    580
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "95570007",
+                "cui": "C0022650",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Kidney Calculi"
+            },
+            {
+                "text": "right",
+                "range": [
+                    594,
+                    599
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "Pneumoperitoneum",
+                "range": [
+                    1420,
+                    1436
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "17204006",
+                "cui": "C0032320",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Pneumoperitoneum"
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.009,
+        "uncertain_count": 2,
+        "narrow_band_ratio": 0.002,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.528,
+                    "water",
+                    [
+                        1526,
+                        1531
+                    ]
+                ],
+                [
+                    0.617,
+                    "pelvis",
+                    [
+                        3395,
+                        3401
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "Renal",
+                    [
+                        412,
+                        417
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "pelvis",
+                    [
+                        418,
+                        424
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Kidney",
+                    [
+                        431,
+                        437
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "stones",
+                    [
+                        438,
+                        444
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "hematuria",
+                    [
+                        525,
+                        534
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "renal",
+                    [
+                        568,
+                        573
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "stones",
+                    [
+                        574,
+                        580
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "right",
+                    [
+                        594,
+                        599
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Pneumoperitoneum",
+                    [
+                        1420,
+                        1436
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.433,
+                    "Renal",
+                    [
+                        412,
+                        417
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.469,
+                    "pelvis",
+                    [
+                        418,
+                        424
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.454,
+                    "Kidney",
+                    [
+                        431,
+                        437
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.449,
+                    "stones",
+                    [
+                        438,
+                        444
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.532,
+                    "hematuria",
+                    [
+                        525,
+                        534
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.602,
+                    "renal",
+                    [
+                        568,
+                        573
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.659,
+                    "stones",
+                    [
+                        574,
+                        580
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.557,
+                    "right",
+                    [
+                        594,
+                        599
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.535,
+                    "Pneumoperitoneum",
+                    [
+                        1420,
+                        1436
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.079,
+        "uncertain_token_count": 4,
+        "narrow_band_ratio": 0.004,
+        "uncertain_tokens": {
+            "DIAGNOSIS": [
+                [
+                    0.433,
+                    "Renal",
+                    [
+                        412,
+                        417
+                    ]
+                ],
+                [
+                    0.454,
+                    "Kidney",
+                    [
+                        431,
+                        437
+                    ]
+                ],
+                [
+                    0.449,
+                    "stones",
+                    [
+                        438,
+                        444
+                    ]
+                ]
+            ],
+            "PROBLEM": [
+                [
+                    0.469,
+                    "pelvis",
+                    [
+                        418,
+                        424
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

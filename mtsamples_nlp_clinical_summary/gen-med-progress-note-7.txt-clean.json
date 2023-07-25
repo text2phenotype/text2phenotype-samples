@@ -1,0 +1,291 @@
+{
+    "file": "gen-med-progress-note-7.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "chicken",
+                "code": null,
+                "cui": null,
+                "tui": null,
+                "vocab": null,
+                "polarity": "positive",
+                "preferredText": null,
+                "range": [
+                    203,
+                    210
+                ],
+                "prob": {
+                    "MED": 0.969
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            }
+        ],
+        "Allergy": [],
+        "Lab": [
+            {
+                "code": "",
+                "cui": "C0032181",
+                "tui": "T034",
+                "vocab": "LNC",
+                "polarity": "positive",
+                "text": "platelet count",
+                "preferredText": "PLATELET NUMBERS, BLOOD",
+                "range": [
+                    1783,
+                    1797
+                ]
+            }
+        ],
+        "DiseaseDisorder": [
+            {
+                "text": "of",
+                "range": [
+                    124,
+                    126
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "Viral gastroenteritis",
+                "range": [
+                    1830,
+                    1851
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "266079003",
+                "cui": "C0152517",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Enteritis due to specified virus"
+            },
+            {
+                "text": "viral",
+                "range": [
+                    2112,
+                    2117
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "266079003",
+                "cui": "C0152517",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Enteritis due to specified virus"
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.007,
+        "uncertain_count": 1,
+        "narrow_band_ratio": 0.002,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.661,
+                    "patches",
+                    [
+                        1978,
+                        1985
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "emesis",
+                    [
+                        94,
+                        100
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "history",
+                    [
+                        116,
+                        123
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "of",
+                    [
+                        124,
+                        126
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "diarrhea",
+                    [
+                        127,
+                        135
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Viral",
+                    [
+                        1830,
+                        1835
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "gastroenteritis",
+                    [
+                        1836,
+                        1851
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "viral",
+                    [
+                        2112,
+                        2117
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.463,
+                    "emesis",
+                    [
+                        94,
+                        100
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.392,
+                    "of",
+                    [
+                        124,
+                        126
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.555,
+                    "diarrhea",
+                    [
+                        127,
+                        135
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.849,
+                    "Viral",
+                    [
+                        1830,
+                        1835
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.804,
+                    "gastroenteritis",
+                    [
+                        1836,
+                        1851
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.618,
+                    "viral",
+                    [
+                        2112,
+                        2117
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.08,
+        "uncertain_token_count": 6,
+        "narrow_band_ratio": 0.012,
+        "uncertain_tokens": {
+            "DIAGNOSIS": [
+                [
+                    0.463,
+                    "emesis",
+                    [
+                        94,
+                        100
+                    ]
+                ],
+                [
+                    0.392,
+                    "of",
+                    [
+                        124,
+                        126
+                    ]
+                ]
+            ],
+            "NA": [
+                [
+                    0.367,
+                    "history",
+                    [
+                        116,
+                        123
+                    ]
+                ],
+                [
+                    0.48,
+                    "emesis",
+                    [
+                        640,
+                        646
+                    ]
+                ],
+                [
+                    0.413,
+                    "fever",
+                    [
+                        859,
+                        864
+                    ]
+                ],
+                [
+                    0.523,
+                    "gastroenteritis",
+                    [
+                        2118,
+                        2133
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

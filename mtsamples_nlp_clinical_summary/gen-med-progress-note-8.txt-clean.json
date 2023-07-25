@@ -1,0 +1,325 @@
+{
+    "file": "gen-med-progress-note-8.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "Mavik",
+                "code": "218245",
+                "cui": "C0721596",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Mavik",
+                "range": [
+                    569,
+                    574
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.999
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [
+                    "day"
+                ],
+                "medStrengthNum": [
+                    "1",
+                    475,
+                    476
+                ],
+                "medStrengthUnit": [
+                    "mg",
+                    477,
+                    479
+                ]
+            },
+            {
+                "text": "Mavik",
+                "code": "218245",
+                "cui": "C0721596",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Mavik",
+                "range": [
+                    569,
+                    574
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.999
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [
+                    "day"
+                ],
+                "medStrengthNum": [
+                    "1",
+                    475,
+                    476
+                ],
+                "medStrengthUnit": [
+                    "mg",
+                    477,
+                    479
+                ]
+            },
+            {
+                "text": "verapamil",
+                "code": "11170",
+                "cui": "C0042523",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Verapamil",
+                "range": [
+                    580,
+                    589
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.972
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "verapamil",
+                "code": "11170",
+                "cui": "C0042523",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Verapamil",
+                "range": [
+                    580,
+                    589
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.972
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "Tarka",
+                "code": "153752",
+                "cui": "C0595471",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Tarka",
+                "range": [
+                    634,
+                    639
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.998
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "Tarka",
+                "code": "153752",
+                "cui": "C0595471",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Tarka",
+                "range": [
+                    634,
+                    639
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.998
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            }
+        ],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "right arm",
+                "range": [
+                    228,
+                    237
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "hypertension",
+                "range": [
+                    533,
+                    545
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "38341003",
+                "cui": "C0020538",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Hypertensive disease"
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.014,
+        "uncertain_count": 1,
+        "narrow_band_ratio": 0.005,
+        "uncertain_tokens": {
+            "MED": [
+                [
+                    0.588,
+                    "Mavik",
+                    [
+                        348,
+                        353
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "PROBLEM": [
+                    "elevated",
+                    [
+                        196,
+                        204
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "blood",
+                    [
+                        205,
+                        210
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "right",
+                    [
+                        228,
+                        233
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "arm",
+                    [
+                        234,
+                        237
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "hypertension",
+                    [
+                        533,
+                        545
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.56,
+                    "right",
+                    [
+                        228,
+                        233
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.506,
+                    "arm",
+                    [
+                        234,
+                        237
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.805,
+                    "hypertension",
+                    [
+                        533,
+                        545
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.129,
+        "uncertain_token_count": 4,
+        "narrow_band_ratio": 0.022,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.402,
+                    "elevated",
+                    [
+                        196,
+                        204
+                    ]
+                ],
+                [
+                    0.414,
+                    "blood",
+                    [
+                        205,
+                        210
+                    ]
+                ],
+                [
+                    0.526,
+                    "pressure",
+                    [
+                        211,
+                        219
+                    ]
+                ]
+            ],
+            "DIAGNOSIS": [
+                [
+                    0.506,
+                    "arm",
+                    [
+                        234,
+                        237
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

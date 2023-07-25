@@ -1,0 +1,372 @@
+{
+    "file": "mri-cervical-spine-2.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "C4-5",
+                "code": null,
+                "cui": null,
+                "tui": null,
+                "vocab": null,
+                "polarity": "positive",
+                "preferredText": null,
+                "range": [
+                    245,
+                    249
+                ],
+                "prob": {
+                    "MED": 0.941
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            }
+        ],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "narrowing",
+                "range": [
+                    607,
+                    616
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "disk-osteophyte impresses",
+                "range": [
+                    656,
+                    681
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "235231000119100",
+                "cui": "C1956089",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Osteophyte"
+            },
+            {
+                "text": "Disk/osteophyte at C4-5 through C6-7",
+                "range": [
+                    929,
+                    965
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "235231000119100",
+                "cui": "C1956089",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Osteophyte"
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.018,
+        "uncertain_count": 3,
+        "narrow_band_ratio": 0.016,
+        "uncertain_tokens": {
+            "MED": [
+                [
+                    0.54,
+                    "disk/osteophyte",
+                    [
+                        263,
+                        278
+                    ]
+                ],
+                [
+                    0.583,
+                    "disk-osteophyte",
+                    [
+                        656,
+                        671
+                    ]
+                ]
+            ],
+            "NA": [
+                [
+                    0.55,
+                    "Disk/osteophyte",
+                    [
+                        929,
+                        944
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "PROBLEM": [
+                    "arm",
+                    [
+                        67,
+                        70
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "pain",
+                    [
+                        71,
+                        75
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "numbness",
+                    [
+                        77,
+                        85
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "tingling",
+                    [
+                        90,
+                        98
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "narrowing",
+                    [
+                        607,
+                        616
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "disk-osteophyte",
+                    [
+                        656,
+                        671
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "impresses",
+                    [
+                        672,
+                        681
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Disk/osteophyte",
+                    [
+                        929,
+                        944
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "at",
+                    [
+                        945,
+                        947
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "C4-5",
+                    [
+                        948,
+                        952
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "through",
+                    [
+                        953,
+                        960
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "C6-7",
+                    [
+                        961,
+                        965
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "PROBLEM": [
+                    0.379,
+                    "arm",
+                    [
+                        67,
+                        70
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.397,
+                    "pain",
+                    [
+                        71,
+                        75
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.588,
+                    "narrowing",
+                    [
+                        607,
+                        616
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.538,
+                    "disk-osteophyte",
+                    [
+                        656,
+                        671
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.532,
+                    "impresses",
+                    [
+                        672,
+                        681
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.863,
+                    "Disk/osteophyte",
+                    [
+                        929,
+                        944
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.68,
+                    "at",
+                    [
+                        945,
+                        947
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.801,
+                    "C4-5",
+                    [
+                        948,
+                        952
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.572,
+                    "through",
+                    [
+                        953,
+                        960
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.707,
+                    "C6-7",
+                    [
+                        961,
+                        965
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.186,
+        "uncertain_token_count": 5,
+        "narrow_band_ratio": 0.027,
+        "uncertain_tokens": {
+            "PROBLEM": [
+                [
+                    0.379,
+                    "arm",
+                    [
+                        67,
+                        70
+                    ]
+                ],
+                [
+                    0.397,
+                    "pain",
+                    [
+                        71,
+                        75
+                    ]
+                ]
+            ],
+            "NA": [
+                [
+                    0.513,
+                    "numbness",
+                    [
+                        77,
+                        85
+                    ]
+                ],
+                [
+                    0.472,
+                    "tingling",
+                    [
+                        90,
+                        98
+                    ]
+                ],
+                [
+                    0.528,
+                    "on",
+                    [
+                        682,
+                        684
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

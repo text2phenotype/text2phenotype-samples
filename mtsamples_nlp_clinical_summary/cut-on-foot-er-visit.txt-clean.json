@@ -1,0 +1,446 @@
+{
+    "file": "cut-on-foot-er-visit.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "Albuterol",
+                "code": "435",
+                "cui": "C0001927",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Albuterol",
+                "range": [
+                    636,
+                    645
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.973
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "Albuterol",
+                "code": "435",
+                "cui": "C0001927",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Albuterol",
+                "range": [
+                    636,
+                    645
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.973
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            }
+        ],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "on foot",
+                "range": [
+                    23,
+                    30
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "Asthma",
+                "range": [
+                    607,
+                    613
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "195967001",
+                "cui": "C0004096",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Asthma"
+            },
+            {
+                "text": "4-MM LACERATION TO THE RIGHT FOOT",
+                "range": [
+                    2854,
+                    2887
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "ACUTE RIGHT",
+                "range": [
+                    2894,
+                    2905
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.005,
+        "uncertain_count": 2,
+        "narrow_band_ratio": 0.003,
+        "uncertain_tokens": {
+            "MED": [
+                [
+                    0.608,
+                    "ointment",
+                    [
+                        2791,
+                        2799
+                    ]
+                ]
+            ],
+            "NA": [
+                [
+                    0.559,
+                    "glass",
+                    [
+                        3222,
+                        3227
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "Cut",
+                    [
+                        19,
+                        22
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "on",
+                    [
+                        23,
+                        25
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "foot",
+                    [
+                        26,
+                        30
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Asthma",
+                    [
+                        607,
+                        613
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "4-MM",
+                    [
+                        2854,
+                        2858
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "LACERATION",
+                    [
+                        2859,
+                        2869
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "TO",
+                    [
+                        2870,
+                        2872
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "THE",
+                    [
+                        2873,
+                        2876
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "RIGHT",
+                    [
+                        2877,
+                        2882
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "FOOT",
+                    [
+                        2883,
+                        2887
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "ACUTE",
+                    [
+                        2894,
+                        2899
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "RIGHT",
+                    [
+                        2900,
+                        2905
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "FOOT",
+                    [
+                        2906,
+                        2910
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "PAIN",
+                    [
+                        2911,
+                        2915
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.973,
+                    "Cut",
+                    [
+                        19,
+                        22
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.807,
+                    "on",
+                    [
+                        23,
+                        25
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.765,
+                    "foot",
+                    [
+                        26,
+                        30
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.968,
+                    "Asthma",
+                    [
+                        607,
+                        613
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.702,
+                    "4-MM",
+                    [
+                        2854,
+                        2858
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.839,
+                    "LACERATION",
+                    [
+                        2859,
+                        2869
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.932,
+                    "TO",
+                    [
+                        2870,
+                        2872
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.938,
+                    "THE",
+                    [
+                        2873,
+                        2876
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.948,
+                    "RIGHT",
+                    [
+                        2877,
+                        2882
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.93,
+                    "FOOT",
+                    [
+                        2883,
+                        2887
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.971,
+                    "ACUTE",
+                    [
+                        2894,
+                        2899
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.986,
+                    "RIGHT",
+                    [
+                        2900,
+                        2905
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.975,
+                    "FOOT",
+                    [
+                        2906,
+                        2910
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.95,
+                    "PAIN",
+                    [
+                        2911,
+                        2915
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.079,
+        "uncertain_token_count": 4,
+        "narrow_band_ratio": 0.006,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.432,
+                    "foot",
+                    [
+                        134,
+                        138
+                    ]
+                ],
+                [
+                    0.491,
+                    "bleeding",
+                    [
+                        197,
+                        205
+                    ]
+                ],
+                [
+                    0.521,
+                    "bleeding",
+                    [
+                        1908,
+                        1916
+                    ]
+                ],
+                [
+                    0.513,
+                    "foot",
+                    [
+                        2829,
+                        2833
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

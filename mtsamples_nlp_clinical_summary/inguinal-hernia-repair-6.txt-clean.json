@@ -1,0 +1,504 @@
+{
+    "file": "inguinal-hernia-repair-6.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "chlorhexidine",
+                "code": "2358",
+                "cui": "C0008196",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Chlorhexidine",
+                "range": [
+                    1211,
+                    1224
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 1.0
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "chlorhexidine",
+                "code": "2358",
+                "cui": "C0008196",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Chlorhexidine",
+                "range": [
+                    1211,
+                    1224
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 1.0
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            }
+        ],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "inguinal hernia",
+                "range": [
+                    329,
+                    344
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "396232000",
+                "cui": "C0019294",
+                "tui": "T190",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Hernia, Inguinal"
+            },
+            {
+                "text": "hernia sac on",
+                "range": [
+                    778,
+                    791
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "112640005",
+                "cui": "C0333062",
+                "tui": "T190",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Hernia sac"
+            },
+            {
+                "text": "hernia sac",
+                "range": [
+                    819,
+                    829
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "112640005",
+                "cui": "C0333062",
+                "tui": "T190",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Hernia sac"
+            },
+            {
+                "text": "hernia sac",
+                "range": [
+                    2002,
+                    2012
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "112640005",
+                "cui": "C0333062",
+                "tui": "T190",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Hernia sac"
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.005,
+        "uncertain_count": 1,
+        "narrow_band_ratio": 0.002,
+        "uncertain_tokens": {
+            "MED": [
+                [
+                    0.528,
+                    "solution",
+                    [
+                        1236,
+                        1244
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "Right",
+                    [
+                        26,
+                        31
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "inguinal",
+                    [
+                        32,
+                        40
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "hernia",
+                    [
+                        41,
+                        47
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Right",
+                    [
+                        75,
+                        80
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "inguinal",
+                    [
+                        81,
+                        89
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "hernia",
+                    [
+                        90,
+                        96
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "inguinal",
+                    [
+                        329,
+                        337
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "hernia",
+                    [
+                        338,
+                        344
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "hernia",
+                    [
+                        778,
+                        784
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "sac",
+                    [
+                        785,
+                        788
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "on",
+                    [
+                        789,
+                        791
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "hernia",
+                    [
+                        819,
+                        825
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "sac",
+                    [
+                        826,
+                        829
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "hernia",
+                    [
+                        2002,
+                        2008
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "sac",
+                    [
+                        2009,
+                        2012
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.715,
+                    "Right",
+                    [
+                        26,
+                        31
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.59,
+                    "inguinal",
+                    [
+                        32,
+                        40
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.537,
+                    "hernia",
+                    [
+                        41,
+                        47
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.869,
+                    "Right",
+                    [
+                        75,
+                        80
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.851,
+                    "inguinal",
+                    [
+                        81,
+                        89
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.794,
+                    "hernia",
+                    [
+                        90,
+                        96
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.714,
+                    "inguinal",
+                    [
+                        329,
+                        337
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.66,
+                    "hernia",
+                    [
+                        338,
+                        344
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.656,
+                    "hernia",
+                    [
+                        778,
+                        784
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.702,
+                    "sac",
+                    [
+                        785,
+                        788
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.542,
+                    "on",
+                    [
+                        789,
+                        791
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.526,
+                    "right",
+                    [
+                        796,
+                        801
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.635,
+                    "hernia",
+                    [
+                        819,
+                        825
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.516,
+                    "sac",
+                    [
+                        826,
+                        829
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.553,
+                    "hernia",
+                    [
+                        2002,
+                        2008
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.518,
+                    "sac",
+                    [
+                        2009,
+                        2012
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.505,
+                    "sac",
+                    [
+                        2282,
+                        2285
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.129,
+        "uncertain_token_count": 7,
+        "narrow_band_ratio": 0.014,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.49,
+                    "goes",
+                    [
+                        253,
+                        257
+                    ]
+                ],
+                [
+                    0.501,
+                    "the",
+                    [
+                        792,
+                        795
+                    ]
+                ],
+                [
+                    0.513,
+                    "hernia",
+                    [
+                        2275,
+                        2281
+                    ]
+                ]
+            ],
+            "DIAGNOSIS": [
+                [
+                    0.526,
+                    "right",
+                    [
+                        796,
+                        801
+                    ]
+                ],
+                [
+                    0.516,
+                    "sac",
+                    [
+                        826,
+                        829
+                    ]
+                ],
+                [
+                    0.518,
+                    "sac",
+                    [
+                        2009,
+                        2012
+                    ]
+                ],
+                [
+                    0.505,
+                    "sac",
+                    [
+                        2282,
+                        2285
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

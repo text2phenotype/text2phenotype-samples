@@ -1,0 +1,421 @@
+{
+    "file": "breast-augmentation-consult.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "methadone",
+                "code": "6813",
+                "cui": "C0025605",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Methadone",
+                "range": [
+                    1805,
+                    1814
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 1.0
+                },
+                "medFrequencyNumber": [
+                    "3",
+                    1815,
+                    1820
+                ],
+                "medFrequencyUnit": [
+                    "day",
+                    1829,
+                    1832
+                ],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "methadone",
+                "code": "6813",
+                "cui": "C0025605",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Methadone",
+                "range": [
+                    1805,
+                    1814
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 1.0
+                },
+                "medFrequencyNumber": [
+                    "3",
+                    1815,
+                    1820
+                ],
+                "medFrequencyUnit": [
+                    "day",
+                    1829,
+                    1832
+                ],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "amitriptyline",
+                "code": "704",
+                "cui": "C0002600",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Amitriptyline",
+                "range": [
+                    1837,
+                    1850
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 1.0
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "amitriptyline",
+                "code": "704",
+                "cui": "C0002600",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Amitriptyline",
+                "range": [
+                    1837,
+                    1850
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 1.0
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            }
+        ],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "abdomen",
+                "range": [
+                    554,
+                    561
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "chest",
+                "range": [
+                    1530,
+                    1535
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "sleep",
+                "range": [
+                    1554,
+                    1559
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "44186003",
+                "cui": "C0700201",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Dyssomnias"
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.006,
+        "uncertain_count": 1,
+        "narrow_band_ratio": 0.001,
+        "uncertain_tokens": {
+            "MED": [
+                [
+                    0.574,
+                    "tanned",
+                    [
+                        1983,
+                        1989
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "chronic",
+                    [
+                        440,
+                        447
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "pain",
+                    [
+                        448,
+                        452
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "abdomen",
+                    [
+                        554,
+                        561
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "rash",
+                    [
+                        1518,
+                        1522
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "chest",
+                    [
+                        1530,
+                        1535
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "sleep",
+                    [
+                        1554,
+                        1559
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "anxiety",
+                    [
+                        1564,
+                        1571
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "chronic",
+                    [
+                        1596,
+                        1603
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "pain",
+                    [
+                        1604,
+                        1608
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "instability",
+                    [
+                        1687,
+                        1698
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.936,
+                    "chronic",
+                    [
+                        440,
+                        447
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.907,
+                    "pain",
+                    [
+                        448,
+                        452
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.548,
+                    "rash",
+                    [
+                        1518,
+                        1522
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.384,
+                    "chest",
+                    [
+                        1530,
+                        1535
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.794,
+                    "sleep",
+                    [
+                        1554,
+                        1559
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.779,
+                    "anxiety",
+                    [
+                        1564,
+                        1571
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.759,
+                    "chronic",
+                    [
+                        1596,
+                        1603
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.749,
+                    "pain",
+                    [
+                        1604,
+                        1608
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.507,
+                    "instability",
+                    [
+                        1687,
+                        1698
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.126,
+        "uncertain_token_count": 7,
+        "narrow_band_ratio": 0.01,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.482,
+                    "abdomen",
+                    [
+                        554,
+                        561
+                    ]
+                ],
+                [
+                    0.471,
+                    "region",
+                    [
+                        1485,
+                        1491
+                    ]
+                ],
+                [
+                    0.492,
+                    "on",
+                    [
+                        1523,
+                        1525
+                    ]
+                ],
+                [
+                    0.467,
+                    "problems",
+                    [
+                        1540,
+                        1548
+                    ]
+                ],
+                [
+                    0.492,
+                    "deformity",
+                    [
+                        2330,
+                        2339
+                    ]
+                ]
+            ],
+            "DIAGNOSIS": [
+                [
+                    0.384,
+                    "chest",
+                    [
+                        1530,
+                        1535
+                    ]
+                ],
+                [
+                    0.507,
+                    "instability",
+                    [
+                        1687,
+                        1698
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

@@ -1,0 +1,160 @@
+{
+    "file": "total-knee-arthroplasty-right.txt-clean.txt",
+    "text2summary": {
+        "Medication": [],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "Osteoarthritis",
+                "range": [
+                    90,
+                    104
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "225655006",
+                "cui": "C0029408",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Degenerative polyarthritis"
+            },
+            {
+                "text": "right",
+                "range": [
+                    106,
+                    111
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.013,
+        "uncertain_count": 4,
+        "narrow_band_ratio": 0.008,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.609,
+                    "femur",
+                    [
+                        933,
+                        938
+                    ]
+                ],
+                [
+                    0.574,
+                    "cement",
+                    [
+                        2162,
+                        2168
+                    ]
+                ]
+            ],
+            "MED": [
+                [
+                    0.618,
+                    "cement",
+                    [
+                        1889,
+                        1895
+                    ]
+                ],
+                [
+                    0.626,
+                    "cement",
+                    [
+                        2366,
+                        2372
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "ES",
+                    [
+                        85,
+                        87
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Osteoarthritis",
+                    [
+                        90,
+                        104
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "right",
+                    [
+                        106,
+                        111
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.669,
+                    "ES",
+                    [
+                        85,
+                        87
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.916,
+                    "Osteoarthritis",
+                    [
+                        90,
+                        104
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.619,
+                    "right",
+                    [
+                        106,
+                        111
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.073,
+        "uncertain_token_count": 1,
+        "narrow_band_ratio": 0.002,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.503,
+                    "Osteoarthritis",
+                    [
+                        31,
+                        45
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

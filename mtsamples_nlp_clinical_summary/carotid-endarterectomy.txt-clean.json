@@ -1,0 +1,436 @@
+{
+    "file": "carotid-endarterectomy.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "Betadine",
+                "code": "202750",
+                "cui": "C0699524",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Betadine",
+                "range": [
+                    765,
+                    773
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.976
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "Betadine",
+                "code": "202750",
+                "cui": "C0699524",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Betadine",
+                "range": [
+                    765,
+                    773
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.976
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "heparin",
+                "code": "5224",
+                "cui": "C0019134",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Heparin",
+                "range": [
+                    1258,
+                    1265
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.997
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "heparin",
+                "code": "5224",
+                "cui": "C0019134",
+                "tui": "T123",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Heparin",
+                "range": [
+                    1258,
+                    1265
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.997
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "heparin",
+                "code": "5224",
+                "cui": "C0019134",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Heparin",
+                "range": [
+                    1258,
+                    1265
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.997
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            }
+        ],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "Right carotid stenosis",
+                "range": [
+                    31,
+                    53
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "cerebrovascular",
+                "range": [
+                    66,
+                    81
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "230690007",
+                "cui": "C0038454",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Cerebrovascular accident"
+            },
+            {
+                "text": "carotid stenosis",
+                "range": [
+                    129,
+                    145
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "64586002",
+                "cui": "C0007282",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Carotid Stenosis"
+            },
+            {
+                "text": "cerebrovascular accident",
+                "range": [
+                    158,
+                    182
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "230690007",
+                "cui": "C0038454",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Cerebrovascular accident"
+            },
+            {
+                "text": "preoperative\nlevels",
+                "range": [
+                    1443,
+                    1462
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.013,
+        "uncertain_count": 4,
+        "narrow_band_ratio": 0.008,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.625,
+                    "patch",
+                    [
+                        534,
+                        539
+                    ]
+                ],
+                [
+                    0.688,
+                    "anesthetic",
+                    [
+                        591,
+                        601
+                    ]
+                ],
+                [
+                    0.571,
+                    "solution",
+                    [
+                        774,
+                        782
+                    ]
+                ]
+            ],
+            "MED": [
+                [
+                    0.638,
+                    "solution",
+                    [
+                        2681,
+                        2689
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "Right",
+                    [
+                        31,
+                        36
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "carotid",
+                    [
+                        37,
+                        44
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "stenosis",
+                    [
+                        45,
+                        53
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "cerebrovascular",
+                    [
+                        66,
+                        81
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "carotid",
+                    [
+                        129,
+                        136
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "stenosis",
+                    [
+                        137,
+                        145
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "cerebrovascular",
+                    [
+                        158,
+                        173
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "accident",
+                    [
+                        174,
+                        182
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "preoperative",
+                    [
+                        1443,
+                        1455
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "levels",
+                    [
+                        1456,
+                        1462
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.385,
+                    "Right",
+                    [
+                        31,
+                        36
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.597,
+                    "carotid",
+                    [
+                        37,
+                        44
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.717,
+                    "stenosis",
+                    [
+                        45,
+                        53
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.65,
+                    "carotid",
+                    [
+                        129,
+                        136
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.774,
+                    "stenosis",
+                    [
+                        137,
+                        145
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.833,
+                    "cerebrovascular",
+                    [
+                        158,
+                        173
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.864,
+                    "accident",
+                    [
+                        174,
+                        182
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.067,
+        "uncertain_token_count": 4,
+        "narrow_band_ratio": 0.008,
+        "uncertain_tokens": {
+            "DIAGNOSIS": [
+                [
+                    0.385,
+                    "Right",
+                    [
+                        31,
+                        36
+                    ]
+                ]
+            ],
+            "NA": [
+                [
+                    0.427,
+                    "cerebrovascular",
+                    [
+                        66,
+                        81
+                    ]
+                ],
+                [
+                    0.478,
+                    "accident",
+                    [
+                        82,
+                        90
+                    ]
+                ],
+                [
+                    0.529,
+                    "levels",
+                    [
+                        1456,
+                        1462
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

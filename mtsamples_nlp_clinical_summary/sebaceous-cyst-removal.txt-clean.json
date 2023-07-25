@@ -1,0 +1,302 @@
+{
+    "file": "sebaceous-cyst-removal.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "iodoform",
+                "code": "27748",
+                "cui": "C0063779",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "iodoform",
+                "range": [
+                    791,
+                    799
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 1.0
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "iodoform",
+                "code": "27748",
+                "cui": "C0063779",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "iodoform",
+                "range": [
+                    791,
+                    799
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 1.0
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            }
+        ],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "Infected sebaceous cyst",
+                "range": [
+                    26,
+                    49
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "254671003",
+                "cui": "C0345989",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Infected sebaceous cyst"
+            },
+            {
+                "text": "Infected sebaceous cyst",
+                "range": [
+                    89,
+                    112
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "254671003",
+                "cui": "C0345989",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Infected sebaceous cyst"
+            },
+            {
+                "text": "abscess",
+                "range": [
+                    500,
+                    507
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "46984003",
+                "cui": "C0333372",
+                "tui": "T190",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Abscess cavity"
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.008,
+        "uncertain_count": 0,
+        "narrow_band_ratio": 0.0,
+        "uncertain_tokens": {},
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "Infected",
+                    [
+                        26,
+                        34
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "sebaceous",
+                    [
+                        35,
+                        44
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "cyst",
+                    [
+                        45,
+                        49
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    ",",
+                    [
+                        49,
+                        50
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Infected",
+                    [
+                        89,
+                        97
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "sebaceous",
+                    [
+                        98,
+                        107
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "cyst",
+                    [
+                        108,
+                        112
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "abscess",
+                    [
+                        500,
+                        507
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.968,
+                    "Infected",
+                    [
+                        26,
+                        34
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.96,
+                    "sebaceous",
+                    [
+                        35,
+                        44
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.955,
+                    "cyst",
+                    [
+                        45,
+                        49
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.488,
+                    "Infected",
+                    [
+                        89,
+                        97
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.417,
+                    "sebaceous",
+                    [
+                        98,
+                        107
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.455,
+                    "cyst",
+                    [
+                        108,
+                        112
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.611,
+                    "abscess",
+                    [
+                        500,
+                        507
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.132,
+        "uncertain_token_count": 5,
+        "narrow_band_ratio": 0.028,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.522,
+                    ",",
+                    [
+                        49,
+                        50
+                    ]
+                ],
+                [
+                    0.495,
+                    "right",
+                    [
+                        51,
+                        56
+                    ]
+                ]
+            ],
+            "DIAGNOSIS": [
+                [
+                    0.488,
+                    "Infected",
+                    [
+                        89,
+                        97
+                    ]
+                ]
+            ],
+            "PROBLEM": [
+                [
+                    0.417,
+                    "sebaceous",
+                    [
+                        98,
+                        107
+                    ]
+                ],
+                [
+                    0.455,
+                    "cyst",
+                    [
+                        108,
+                        112
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

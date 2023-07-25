@@ -1,0 +1,276 @@
+{
+    "file": "well-child-check-3.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "Mylicon",
+                "code": "218528",
+                "cui": "C0721886",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Mylicon",
+                "range": [
+                    342,
+                    349
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.942
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "Mylicon",
+                "code": "218528",
+                "cui": "C0721886",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Mylicon",
+                "range": [
+                    342,
+                    349
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.942
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            }
+        ],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "II",
+                "range": [
+                    474,
+                    476
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "motor",
+                "range": [
+                    546,
+                    551
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "speech",
+                "range": [
+                    602,
+                    608
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.005,
+        "uncertain_count": 2,
+        "narrow_band_ratio": 0.003,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.508,
+                    "drops",
+                    [
+                        350,
+                        355
+                    ]
+                ],
+                [
+                    0.627,
+                    "drops",
+                    [
+                        1149,
+                        1154
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "II",
+                    [
+                        474,
+                        476
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "motor",
+                    [
+                        546,
+                        551
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "speech",
+                    [
+                        602,
+                        608
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "pregnancy",
+                    [
+                        717,
+                        726
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.573,
+                    "II",
+                    [
+                        474,
+                        476
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.566,
+                    "motor",
+                    [
+                        546,
+                        551
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.492,
+                    "motor",
+                    [
+                        559,
+                        564
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.462,
+                    "speech",
+                    [
+                        602,
+                        608
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.491,
+                    "pregnancy",
+                    [
+                        717,
+                        726
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.073,
+        "uncertain_token_count": 7,
+        "narrow_band_ratio": 0.011,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.499,
+                    "Denver",
+                    [
+                        467,
+                        473
+                    ]
+                ],
+                [
+                    0.506,
+                    "social",
+                    [
+                        579,
+                        585
+                    ]
+                ],
+                [
+                    0.467,
+                    "interaction",
+                    [
+                        586,
+                        597
+                    ]
+                ],
+                [
+                    0.526,
+                    "unsure",
+                    [
+                        1370,
+                        1376
+                    ]
+                ]
+            ],
+            "DIAGNOSIS": [
+                [
+                    0.492,
+                    "motor",
+                    [
+                        559,
+                        564
+                    ]
+                ],
+                [
+                    0.462,
+                    "speech",
+                    [
+                        602,
+                        608
+                    ]
+                ],
+                [
+                    0.491,
+                    "pregnancy",
+                    [
+                        717,
+                        726
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

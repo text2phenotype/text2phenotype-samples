@@ -1,0 +1,230 @@
+{
+    "file": "gen-med-consult-18.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "Motrin",
+                "code": "202488",
+                "cui": "C0699203",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Motrin",
+                "range": [
+                    1672,
+                    1678
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.913
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "Motrin",
+                "code": "202488",
+                "cui": "C0699203",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Motrin",
+                "range": [
+                    1672,
+                    1678
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.913
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            }
+        ],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "and",
+                "range": [
+                    66,
+                    69
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "Clinical sinusitis",
+                "range": [
+                    1547,
+                    1565
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.005,
+        "uncertain_count": 0,
+        "narrow_band_ratio": 0.0,
+        "uncertain_tokens": {},
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "PROBLEM": [
+                    "cough",
+                    [
+                        60,
+                        65
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "and",
+                    [
+                        66,
+                        69
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "congestion",
+                    [
+                        70,
+                        80
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Clinical",
+                    [
+                        1547,
+                        1555
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "sinusitis",
+                    [
+                        1556,
+                        1565
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "cough",
+                    [
+                        1580,
+                        1585
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "PROBLEM": [
+                    0.788,
+                    "cough",
+                    [
+                        60,
+                        65
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.673,
+                    "and",
+                    [
+                        66,
+                        69
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.846,
+                    "congestion",
+                    [
+                        70,
+                        80
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.745,
+                    "sinusitis",
+                    [
+                        1556,
+                        1565
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.4,
+                    "cough",
+                    [
+                        1580,
+                        1585
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.056,
+        "uncertain_token_count": 3,
+        "narrow_band_ratio": 0.009,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.46,
+                    "Clinical",
+                    [
+                        1547,
+                        1555
+                    ]
+                ],
+                [
+                    0.513,
+                    "secondary",
+                    [
+                        1570,
+                        1579
+                    ]
+                ]
+            ],
+            "DIAGNOSIS": [
+                [
+                    0.4,
+                    "cough",
+                    [
+                        1580,
+                        1585
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

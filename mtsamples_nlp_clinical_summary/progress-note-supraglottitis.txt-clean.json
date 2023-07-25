@@ -1,0 +1,661 @@
+{
+    "file": "progress-note-supraglottitis.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "Augmentin",
+                "code": "151392",
+                "cui": "C0591132",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Augmentin",
+                "range": [
+                    897,
+                    906
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 1.0
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "Augmentin",
+                "code": "151392",
+                "cui": "C0591132",
+                "tui": "T195",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Augmentin",
+                "range": [
+                    897,
+                    906
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 1.0
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            }
+        ],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "supraglottitis",
+                "range": [
+                    121,
+                    135
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "709663002",
+                "cui": "C0749165",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Supraglottitis"
+            },
+            {
+                "text": "airway\nobstruction",
+                "range": [
+                    141,
+                    159
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "79688008",
+                "cui": "C0001883",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Airway Obstruction"
+            },
+            {
+                "text": "parapharyngeal",
+                "range": [
+                    164,
+                    178
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "peritonsillar cellulitis",
+                "range": [
+                    194,
+                    218
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "102453009",
+                "cui": "C0553656",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Peritonsillar cellulitis"
+            },
+            {
+                "text": "acute",
+                "range": [
+                    560,
+                    565
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "pharyngitis",
+                "range": [
+                    598,
+                    609
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "405737000",
+                "cui": "C0031350",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Pharyngitis"
+            },
+            {
+                "text": "tonsillar",
+                "range": [
+                    614,
+                    623
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "obstructive sleep apnea",
+                "range": [
+                    650,
+                    673
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "78275009",
+                "cui": "C0520679",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Sleep Apnea, Obstructive"
+            },
+            {
+                "text": "Hypercholesterolemia",
+                "range": [
+                    748,
+                    768
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "13644009",
+                "cui": "C0020443",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Hypercholesterolemia"
+            },
+            {
+                "text": "coronary artery disease",
+                "range": [
+                    811,
+                    834
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "53741008",
+                "cui": "C1956346",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Coronary Artery Disease"
+            },
+            {
+                "text": "Hypertension",
+                "range": [
+                    841,
+                    853
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "38341003",
+                "cui": "C0020538",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Hypertensive disease"
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.006,
+        "uncertain_count": 0,
+        "narrow_band_ratio": 0.0,
+        "uncertain_tokens": {},
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "supraglottitis",
+                    [
+                        121,
+                        135
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "airway",
+                    [
+                        141,
+                        147
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "obstruction",
+                    [
+                        148,
+                        159
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "parapharyngeal",
+                    [
+                        164,
+                        178
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "cellulitis",
+                    [
+                        179,
+                        189
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "peritonsillar",
+                    [
+                        194,
+                        207
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "cellulitis",
+                    [
+                        208,
+                        218
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "acute",
+                    [
+                        560,
+                        565
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "supraglottic",
+                    [
+                        566,
+                        578
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "edema",
+                    [
+                        579,
+                        584
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "pharyngitis",
+                    [
+                        598,
+                        609
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "tonsillar",
+                    [
+                        614,
+                        623
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "cellulitis",
+                    [
+                        624,
+                        634
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "obstructive",
+                    [
+                        650,
+                        661
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "sleep",
+                    [
+                        662,
+                        667
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "apnea",
+                    [
+                        668,
+                        673
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Hypercholesterolemia",
+                    [
+                        748,
+                        768
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "anxiety",
+                    [
+                        786,
+                        793
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "coronary",
+                    [
+                        811,
+                        819
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "artery",
+                    [
+                        820,
+                        826
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "disease",
+                    [
+                        827,
+                        834
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Hypertension",
+                    [
+                        841,
+                        853
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.805,
+                    "supraglottitis",
+                    [
+                        121,
+                        135
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.902,
+                    "airway",
+                    [
+                        141,
+                        147
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.928,
+                    "obstruction",
+                    [
+                        148,
+                        159
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.722,
+                    "parapharyngeal",
+                    [
+                        164,
+                        178
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.75,
+                    "cellulitis",
+                    [
+                        179,
+                        189
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.752,
+                    "peritonsillar",
+                    [
+                        194,
+                        207
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.815,
+                    "cellulitis",
+                    [
+                        208,
+                        218
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.551,
+                    "acute",
+                    [
+                        560,
+                        565
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.503,
+                    "supraglottic",
+                    [
+                        566,
+                        578
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.553,
+                    "edema",
+                    [
+                        579,
+                        584
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.602,
+                    "pharyngitis",
+                    [
+                        598,
+                        609
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.51,
+                    "tonsillar",
+                    [
+                        614,
+                        623
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.544,
+                    "cellulitis",
+                    [
+                        624,
+                        634
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.779,
+                    "obstructive",
+                    [
+                        650,
+                        661
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.811,
+                    "sleep",
+                    [
+                        662,
+                        667
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.743,
+                    "apnea",
+                    [
+                        668,
+                        673
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.848,
+                    "Hypercholesterolemia",
+                    [
+                        748,
+                        768
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.962,
+                    "anxiety",
+                    [
+                        786,
+                        793
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.985,
+                    "coronary",
+                    [
+                        811,
+                        819
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.991,
+                    "artery",
+                    [
+                        820,
+                        826
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.992,
+                    "disease",
+                    [
+                        827,
+                        834
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.995,
+                    "Hypertension",
+                    [
+                        841,
+                        853
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.126,
+        "uncertain_token_count": 2,
+        "narrow_band_ratio": 0.009,
+        "uncertain_tokens": {
+            "DIAGNOSIS": [
+                [
+                    0.503,
+                    "supraglottic",
+                    [
+                        566,
+                        578
+                    ]
+                ]
+            ],
+            "PROBLEM": [
+                [
+                    0.51,
+                    "tonsillar",
+                    [
+                        614,
+                        623
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

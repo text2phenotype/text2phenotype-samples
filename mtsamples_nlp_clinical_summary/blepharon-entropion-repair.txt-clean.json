@@ -1,0 +1,278 @@
+{
+    "file": "blepharon-entropion-repair.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "Xylocaine with Epinephrine",
+                "code": "746946",
+                "cui": "C1968032",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Xylocaine with Epinephrine",
+                "range": [
+                    487,
+                    513
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.985
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            }
+        ],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "Entropion",
+                "range": [
+                    31,
+                    40
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "33168009",
+                "cui": "C0014390",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Entropion"
+            },
+            {
+                "text": "Entropion and some blepharon",
+                "range": [
+                    63,
+                    91
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "33168009",
+                "cui": "C0014390",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Entropion"
+            },
+            {
+                "text": "entropion",
+                "range": [
+                    925,
+                    934
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "33168009",
+                "cui": "C0014390",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Entropion"
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.013,
+        "uncertain_count": 3,
+        "narrow_band_ratio": 0.008,
+        "uncertain_tokens": {
+            "MED": [
+                [
+                    0.524,
+                    "-8",
+                    [
+                        1162,
+                        1164
+                    ]
+                ],
+                [
+                    0.508,
+                    "blade",
+                    [
+                        1432,
+                        1437
+                    ]
+                ],
+                [
+                    0.689,
+                    "ointment",
+                    [
+                        1845,
+                        1853
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "Entropion",
+                    [
+                        31,
+                        40
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Entropion",
+                    [
+                        63,
+                        72
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "and",
+                    [
+                        73,
+                        76
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "some",
+                    [
+                        77,
+                        81
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "blepharon",
+                    [
+                        82,
+                        91
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "entropion",
+                    [
+                        925,
+                        934
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.942,
+                    "Entropion",
+                    [
+                        31,
+                        40
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.979,
+                    "Entropion",
+                    [
+                        63,
+                        72
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.647,
+                    "and",
+                    [
+                        73,
+                        76
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.516,
+                    "blepharon",
+                    [
+                        82,
+                        91
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.505,
+                    "trichiasis",
+                    [
+                        910,
+                        920
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.606,
+                    "entropion",
+                    [
+                        925,
+                        934
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.112,
+        "uncertain_token_count": 5,
+        "narrow_band_ratio": 0.013,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.504,
+                    "left",
+                    [
+                        42,
+                        46
+                    ]
+                ],
+                [
+                    0.51,
+                    "some",
+                    [
+                        77,
+                        81
+                    ]
+                ],
+                [
+                    0.433,
+                    "membrane",
+                    [
+                        1577,
+                        1585
+                    ]
+                ]
+            ],
+            "DIAGNOSIS": [
+                [
+                    0.516,
+                    "blepharon",
+                    [
+                        82,
+                        91
+                    ]
+                ],
+                [
+                    0.505,
+                    "trichiasis",
+                    [
+                        910,
+                        920
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

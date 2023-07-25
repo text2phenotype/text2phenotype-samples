@@ -1,0 +1,416 @@
+{
+    "file": "knee-injection-1.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "Betadine",
+                "code": "202750",
+                "cui": "C0699524",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Betadine",
+                "range": [
+                    319,
+                    327
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 1.0
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [
+                    "4",
+                    331,
+                    332
+                ],
+                "medStrengthUnit": [
+                    "mg",
+                    333,
+                    335
+                ]
+            },
+            {
+                "text": "Betadine",
+                "code": "202750",
+                "cui": "C0699524",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Betadine",
+                "range": [
+                    319,
+                    327
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 1.0
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [
+                    "4",
+                    331,
+                    332
+                ],
+                "medStrengthUnit": [
+                    "mg",
+                    333,
+                    335
+                ]
+            },
+            {
+                "text": "dexamethasone",
+                "code": "3264",
+                "cui": "C0011777",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Dexamethasone",
+                "range": [
+                    339,
+                    352
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.964
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "dexamethasone",
+                "code": "3264",
+                "cui": "C0011777",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Dexamethasone",
+                "range": [
+                    339,
+                    352
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.964
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            }
+        ],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "Osteoarthritis of the right",
+                "range": [
+                    74,
+                    101
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "225655006",
+                "cui": "C0029408",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Degenerative polyarthritis"
+            },
+            {
+                "text": "Osteoarthritis of the right knee",
+                "range": [
+                    134,
+                    166
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "225655006",
+                "cui": "C0029408",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Degenerative polyarthritis"
+            },
+            {
+                "text": "right flexed",
+                "range": [
+                    500,
+                    512
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.008,
+        "uncertain_count": 0,
+        "narrow_band_ratio": 0.0,
+        "uncertain_tokens": {},
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "Osteoarthritis",
+                    [
+                        74,
+                        88
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "of",
+                    [
+                        89,
+                        91
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "the",
+                    [
+                        92,
+                        95
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "right",
+                    [
+                        96,
+                        101
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Osteoarthritis",
+                    [
+                        134,
+                        148
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "of",
+                    [
+                        149,
+                        151
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "the",
+                    [
+                        152,
+                        155
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "right",
+                    [
+                        156,
+                        161
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "knee",
+                    [
+                        162,
+                        166
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "right",
+                    [
+                        500,
+                        505
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "flexed",
+                    [
+                        506,
+                        512
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.981,
+                    "Osteoarthritis",
+                    [
+                        74,
+                        88
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.927,
+                    "of",
+                    [
+                        89,
+                        91
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.821,
+                    "the",
+                    [
+                        92,
+                        95
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.552,
+                    "right",
+                    [
+                        96,
+                        101
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.842,
+                    "Osteoarthritis",
+                    [
+                        134,
+                        148
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.667,
+                    "of",
+                    [
+                        149,
+                        151
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.64,
+                    "the",
+                    [
+                        152,
+                        155
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.46,
+                    "right",
+                    [
+                        156,
+                        161
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.509,
+                    "knee",
+                    [
+                        162,
+                        166
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.353,
+                    "flexed",
+                    [
+                        506,
+                        512
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.122,
+        "uncertain_token_count": 5,
+        "narrow_band_ratio": 0.027,
+        "uncertain_tokens": {
+            "DIAGNOSIS": [
+                [
+                    0.46,
+                    "right",
+                    [
+                        156,
+                        161
+                    ]
+                ],
+                [
+                    0.509,
+                    "knee",
+                    [
+                        162,
+                        166
+                    ]
+                ]
+            ],
+            "NA": [
+                [
+                    0.371,
+                    "right",
+                    [
+                        500,
+                        505
+                    ]
+                ],
+                [
+                    0.448,
+                    "knee",
+                    [
+                        513,
+                        517
+                    ]
+                ]
+            ],
+            "PROBLEM": [
+                [
+                    0.353,
+                    "flexed",
+                    [
+                        506,
+                        512
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

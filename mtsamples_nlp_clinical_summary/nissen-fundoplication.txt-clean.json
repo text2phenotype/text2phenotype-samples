@@ -1,0 +1,468 @@
+{
+    "file": "nissen-fundoplication.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "silk",
+                "code": null,
+                "cui": null,
+                "tui": null,
+                "vocab": null,
+                "polarity": "positive",
+                "preferredText": null,
+                "range": [
+                    4710,
+                    4714
+                ],
+                "prob": {
+                    "MED": 0.971
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "sutures",
+                "code": null,
+                "cui": null,
+                "tui": null,
+                "vocab": null,
+                "polarity": "positive",
+                "preferredText": null,
+                "range": [
+                    4715,
+                    4722
+                ],
+                "prob": {
+                    "MED": 0.938
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "Marcaine",
+                "code": "1012397",
+                "cui": "C2945665",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Marcaine",
+                "range": [
+                    5180,
+                    5188
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.999
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [
+                    "0.5",
+                    5189,
+                    5192
+                ],
+                "medStrengthUnit": [
+                    "%",
+                    5192,
+                    5193
+                ]
+            }
+        ],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "perforation",
+                "range": [
+                    164,
+                    175
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "23387001",
+                "cui": "C0014860",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Esophageal Perforation"
+            },
+            {
+                "text": "pad",
+                "range": [
+                    425,
+                    428
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "399957001",
+                "cui": "C1704436",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Peripheral Arterial Diseases"
+            },
+            {
+                "text": "extremities",
+                "range": [
+                    433,
+                    444
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "venous thrombosis",
+                "range": [
+                    505,
+                    522
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "128053003",
+                "cui": "C0149871",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Deep Vein Thrombosis"
+            },
+            {
+                "text": "abdominal segment of",
+                "range": [
+                    3606,
+                    3626
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "hiatal hernia",
+                "range": [
+                    3657,
+                    3670
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "84089009",
+                "cui": "C3489393",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Hiatal Hernia"
+            },
+            {
+                "text": "gastric pouch",
+                "range": [
+                    3720,
+                    3733
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.008,
+        "uncertain_count": 2,
+        "narrow_band_ratio": 0.002,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.574,
+                    "carbon",
+                    [
+                        1269,
+                        1275
+                    ]
+                ],
+                [
+                    0.533,
+                    "insufflation",
+                    [
+                        1284,
+                        1296
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "perforation",
+                    [
+                        164,
+                        175
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "death",
+                    [
+                        180,
+                        185
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "pad",
+                    [
+                        425,
+                        428
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "extremities",
+                    [
+                        433,
+                        444
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "venous",
+                    [
+                        505,
+                        511
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "thrombosis",
+                    [
+                        512,
+                        522
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "abdominal",
+                    [
+                        3606,
+                        3615
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "segment",
+                    [
+                        3616,
+                        3623
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "of",
+                    [
+                        3624,
+                        3626
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "hiatal",
+                    [
+                        3657,
+                        3663
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "hernia",
+                    [
+                        3664,
+                        3670
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "gastric",
+                    [
+                        3720,
+                        3727
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "pouch",
+                    [
+                        3728,
+                        3733
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.61,
+                    "pad",
+                    [
+                        425,
+                        428
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.455,
+                    "extremities",
+                    [
+                        433,
+                        444
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.55,
+                    "venous",
+                    [
+                        505,
+                        511
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.669,
+                    "thrombosis",
+                    [
+                        512,
+                        522
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.538,
+                    "infection",
+                    [
+                        580,
+                        589
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.594,
+                    "hiatal",
+                    [
+                        3657,
+                        3663
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.755,
+                    "hernia",
+                    [
+                        3664,
+                        3670
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.089,
+        "uncertain_token_count": 8,
+        "narrow_band_ratio": 0.008,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.488,
+                    "perforation",
+                    [
+                        164,
+                        175
+                    ]
+                ],
+                [
+                    0.491,
+                    "death",
+                    [
+                        180,
+                        185
+                    ]
+                ],
+                [
+                    0.484,
+                    "to",
+                    [
+                        422,
+                        424
+                    ]
+                ],
+                [
+                    0.521,
+                    "all",
+                    [
+                        429,
+                        432
+                    ]
+                ],
+                [
+                    0.528,
+                    "abdominal",
+                    [
+                        3606,
+                        3615
+                    ]
+                ],
+                [
+                    0.501,
+                    "of",
+                    [
+                        3624,
+                        3626
+                    ]
+                ],
+                [
+                    0.523,
+                    "pouch",
+                    [
+                        3728,
+                        3733
+                    ]
+                ]
+            ],
+            "DIAGNOSIS": [
+                [
+                    0.455,
+                    "extremities",
+                    [
+                        433,
+                        444
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

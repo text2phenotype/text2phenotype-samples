@@ -1,0 +1,235 @@
+{
+    "file": "laparoscopic-appendectomy-5.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "irrigation",
+                "code": null,
+                "cui": null,
+                "tui": null,
+                "vocab": null,
+                "polarity": "positive",
+                "preferredText": null,
+                "range": [
+                    1390,
+                    1400
+                ],
+                "prob": {
+                    "MED": 0.962
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            }
+        ],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "Appendicitis",
+                "range": [
+                    26,
+                    38
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "74400008",
+                "cui": "C0003615",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Appendicitis"
+            },
+            {
+                "text": "Appendicitis",
+                "range": [
+                    66,
+                    78
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "74400008",
+                "cui": "C0003615",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Appendicitis"
+            },
+            {
+                "text": "appendicitis",
+                "range": [
+                    326,
+                    338
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "74400008",
+                "cui": "C0003615",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Appendicitis"
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.014,
+        "uncertain_count": 1,
+        "narrow_band_ratio": 0.003,
+        "uncertain_tokens": {
+            "MED": [
+                [
+                    0.552,
+                    "Blunt",
+                    [
+                        983,
+                        988
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "Appendicitis",
+                    [
+                        26,
+                        38
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Appendicitis",
+                    [
+                        66,
+                        78
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "right",
+                    [
+                        246,
+                        251
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "lower",
+                    [
+                        252,
+                        257
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "quadrant",
+                    [
+                        258,
+                        266
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "pain",
+                    [
+                        267,
+                        271
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "appendicitis",
+                    [
+                        326,
+                        338
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.622,
+                    "Appendicitis",
+                    [
+                        26,
+                        38
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.905,
+                    "Appendicitis",
+                    [
+                        66,
+                        78
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.831,
+                    "right",
+                    [
+                        246,
+                        251
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.931,
+                    "lower",
+                    [
+                        252,
+                        257
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.938,
+                    "quadrant",
+                    [
+                        258,
+                        266
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.873,
+                    "pain",
+                    [
+                        267,
+                        271
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.916,
+                    "appendicitis",
+                    [
+                        326,
+                        338
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.039,
+        "uncertain_token_count": 0,
+        "narrow_band_ratio": 0.0,
+        "uncertain_tokens": {},
+        "narrow_band_width": 0.2
+    }
+}

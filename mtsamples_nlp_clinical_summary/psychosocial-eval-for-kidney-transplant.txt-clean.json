@@ -1,0 +1,523 @@
+{
+    "file": "psychosocial-eval-for-kidney-transplant.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "Procrit",
+                "code": "227303",
+                "cui": "C0733467",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Procrit",
+                "range": [
+                    486,
+                    493
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.916
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "Procrit",
+                "code": "227303",
+                "cui": "C0733467",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Procrit",
+                "range": [
+                    627,
+                    634
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 1.0
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "Renagel",
+                "code": "135118",
+                "cui": "C0526563",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "RenaGel",
+                "range": [
+                    639,
+                    646
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 1.0
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "Renagel",
+                "code": "135118",
+                "cui": "C0526563",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "RenaGel",
+                "range": [
+                    639,
+                    646
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 1.0
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            }
+        ],
+        "Allergy": [],
+        "Lab": [
+            {
+                "code": "LP14355-9",
+                "cui": "C0010294",
+                "tui": "T034",
+                "vocab": "LNC",
+                "polarity": "positive",
+                "text": "creatinine",
+                "preferredText": "CREATININE",
+                "range": [
+                    136,
+                    146
+                ]
+            }
+        ],
+        "DiseaseDisorder": [
+            {
+                "text": "anemia",
+                "range": [
+                    113,
+                    119
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "271737000",
+                "cui": "C0002871",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Anemia"
+            },
+            {
+                "text": "renal failure",
+                "range": [
+                    1393,
+                    1406
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "42399005",
+                "cui": "C0035078",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Kidney Failure"
+            },
+            {
+                "text": "her",
+                "range": [
+                    1453,
+                    1456
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "Bartholin cyst",
+                "range": [
+                    1551,
+                    1565
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "57044006",
+                "cui": "C0004767",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Cyst of Bartholin's gland duct"
+            },
+            {
+                "text": "Ben",
+                "range": [
+                    2389,
+                    2392
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "26121002",
+                "cui": "C0004698",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Balkan Nephropathy"
+            },
+            {
+                "text": "renal failure",
+                "range": [
+                    4042,
+                    4055
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "42399005",
+                "cui": "C0035078",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Kidney Failure"
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.005,
+        "uncertain_count": 1,
+        "narrow_band_ratio": 0.001,
+        "uncertain_tokens": {
+            "MED": [
+                [
+                    0.549,
+                    "DURATION",
+                    [
+                        2526,
+                        2534
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "anemia",
+                    [
+                        113,
+                        119
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "problem",
+                    [
+                        800,
+                        807
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "adenoma",
+                    [
+                        952,
+                        959
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "renal",
+                    [
+                        1393,
+                        1398
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "failure",
+                    [
+                        1399,
+                        1406
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "helplessness",
+                    [
+                        1437,
+                        1449
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "her",
+                    [
+                        1453,
+                        1456
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "efforts",
+                    [
+                        1457,
+                        1464
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Bartholin",
+                    [
+                        1551,
+                        1560
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "cyst",
+                    [
+                        1561,
+                        1565
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Ben",
+                    [
+                        2389,
+                        2392
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "renal",
+                    [
+                        4042,
+                        4047
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "failure",
+                    [
+                        4048,
+                        4055
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.873,
+                    "anemia",
+                    [
+                        113,
+                        119
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.428,
+                    "problem",
+                    [
+                        800,
+                        807
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.542,
+                    "adenoma",
+                    [
+                        952,
+                        959
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.876,
+                    "renal",
+                    [
+                        1393,
+                        1398
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.871,
+                    "failure",
+                    [
+                        1399,
+                        1406
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.364,
+                    "helplessness",
+                    [
+                        1437,
+                        1449
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.464,
+                    "her",
+                    [
+                        1453,
+                        1456
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.51,
+                    "efforts",
+                    [
+                        1457,
+                        1464
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.817,
+                    "Bartholin",
+                    [
+                        1551,
+                        1560
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.915,
+                    "cyst",
+                    [
+                        1561,
+                        1565
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.61,
+                    "Ben",
+                    [
+                        2389,
+                        2392
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.935,
+                    "renal",
+                    [
+                        4042,
+                        4047
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.946,
+                    "failure",
+                    [
+                        4048,
+                        4055
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.048,
+        "uncertain_token_count": 6,
+        "narrow_band_ratio": 0.007,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.487,
+                    "disease",
+                    [
+                        274,
+                        281
+                    ]
+                ],
+                [
+                    0.387,
+                    "thyroid",
+                    [
+                        792,
+                        799
+                    ]
+                ]
+            ],
+            "PROBLEM": [
+                [
+                    0.428,
+                    "problem",
+                    [
+                        800,
+                        807
+                    ]
+                ],
+                [
+                    0.464,
+                    "her",
+                    [
+                        1453,
+                        1456
+                    ]
+                ],
+                [
+                    0.51,
+                    "efforts",
+                    [
+                        1457,
+                        1464
+                    ]
+                ]
+            ],
+            "DIAGNOSIS": [
+                [
+                    0.364,
+                    "helplessness",
+                    [
+                        1437,
+                        1449
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

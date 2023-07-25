@@ -1,0 +1,210 @@
+{
+    "file": "transesophageal-echocardiogram-4.txt-clean.txt",
+    "text2summary": {
+        "Medication": [],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "tricuspid regurgitation",
+                "range": [
+                    743,
+                    766
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "111287006",
+                "cui": "C0040961",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Tricuspid Valve Insufficiency"
+            },
+            {
+                "text": "patent foramen",
+                "range": [
+                    859,
+                    873
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "204317008",
+                "cui": "C0016522",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Foramen Ovale, Patent"
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.007,
+        "uncertain_count": 1,
+        "narrow_band_ratio": 0.005,
+        "uncertain_tokens": {
+            "MED": [
+                [
+                    0.581,
+                    "spray",
+                    [
+                        244,
+                        249
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "mitral",
+                    [
+                        713,
+                        719
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "regurgitation",
+                    [
+                        720,
+                        733
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "tricuspid",
+                    [
+                        743,
+                        752
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "regurgitation",
+                    [
+                        753,
+                        766
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "patent",
+                    [
+                        859,
+                        865
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "foramen",
+                    [
+                        866,
+                        873
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.75,
+                    "mitral",
+                    [
+                        713,
+                        719
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.787,
+                    "regurgitation",
+                    [
+                        720,
+                        733
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.743,
+                    "tricuspid",
+                    [
+                        743,
+                        752
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.823,
+                    "regurgitation",
+                    [
+                        753,
+                        766
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.511,
+                    "patent",
+                    [
+                        859,
+                        865
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.553,
+                    "foramen",
+                    [
+                        866,
+                        873
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.15,
+        "uncertain_token_count": 3,
+        "narrow_band_ratio": 0.014,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.483,
+                    "pericardial",
+                    [
+                        811,
+                        822
+                    ]
+                ],
+                [
+                    0.42,
+                    "effusion",
+                    [
+                        823,
+                        831
+                    ]
+                ]
+            ],
+            "PROBLEM": [
+                [
+                    0.511,
+                    "patent",
+                    [
+                        859,
+                        865
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

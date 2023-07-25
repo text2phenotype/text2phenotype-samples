@@ -1,0 +1,957 @@
+{
+    "file": "dc-laparoscopy-2.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "anesthetic",
+                "code": null,
+                "cui": null,
+                "tui": null,
+                "vocab": null,
+                "polarity": "positive",
+                "preferredText": null,
+                "range": [
+                    1372,
+                    1382
+                ],
+                "prob": {
+                    "MED": 0.945
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "CO2",
+                "code": null,
+                "cui": null,
+                "tui": null,
+                "vocab": null,
+                "polarity": "positive",
+                "preferredText": null,
+                "range": [
+                    3033,
+                    3036
+                ],
+                "prob": {
+                    "MED": 0.953
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "Marcaine",
+                "code": "1012397",
+                "cui": "C2945665",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Marcaine",
+                "range": [
+                    6888,
+                    6896
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 1.0
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            }
+        ],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "adnexal",
+                "range": [
+                    43,
+                    50
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "Complex left ovarian cyst",
+                "range": [
+                    102,
+                    127
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "15631971000119109",
+                "cui": "C3863924",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Complex cyst of left ovary"
+            },
+            {
+                "text": "Bilateral complex adnexae",
+                "range": [
+                    134,
+                    159
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "Bilateral hydrosalpinx",
+                "range": [
+                    166,
+                    188
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "Chronic pelvic inflammatory disease",
+                "range": [
+                    195,
+                    230
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "237044002",
+                "cui": "C0149960",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Chronic pelvic inflammatory disease"
+            },
+            {
+                "text": "Massive pelvic",
+                "range": [
+                    237,
+                    251
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "right and left fallopian tubes",
+                "range": [
+                    997,
+                    1027
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "complex cystic\nleft ovary",
+                "range": [
+                    1044,
+                    1069
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "from the small bowel",
+                "range": [
+                    1215,
+                    1235
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "the bilateral",
+                "range": [
+                    1239,
+                    1252
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.009,
+        "uncertain_count": 3,
+        "narrow_band_ratio": 0.002,
+        "uncertain_tokens": {
+            "MED": [
+                [
+                    0.549,
+                    "general",
+                    [
+                        1364,
+                        1371
+                    ]
+                ],
+                [
+                    0.579,
+                    "anesthetic",
+                    [
+                        1594,
+                        1604
+                    ]
+                ],
+                [
+                    0.568,
+                    "CO2",
+                    [
+                        2609,
+                        2612
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "adnexal",
+                    [
+                        43,
+                        50
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "mass",
+                    [
+                        51,
+                        55
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Complex",
+                    [
+                        102,
+                        109
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "left",
+                    [
+                        110,
+                        114
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "ovarian",
+                    [
+                        115,
+                        122
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "cyst",
+                    [
+                        123,
+                        127
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Bilateral",
+                    [
+                        134,
+                        143
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "complex",
+                    [
+                        144,
+                        151
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "adnexae",
+                    [
+                        152,
+                        159
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Bilateral",
+                    [
+                        166,
+                        175
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "hydrosalpinx",
+                    [
+                        176,
+                        188
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Chronic",
+                    [
+                        195,
+                        202
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "pelvic",
+                    [
+                        203,
+                        209
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "inflammatory",
+                    [
+                        210,
+                        222
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "disease",
+                    [
+                        223,
+                        230
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Massive",
+                    [
+                        237,
+                        244
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "pelvic",
+                    [
+                        245,
+                        251
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "adhesions",
+                    [
+                        252,
+                        261
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "right",
+                    [
+                        997,
+                        1002
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "and",
+                    [
+                        1003,
+                        1006
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "left",
+                    [
+                        1007,
+                        1011
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "fallopian",
+                    [
+                        1012,
+                        1021
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "tubes",
+                    [
+                        1022,
+                        1027
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    ",",
+                    [
+                        1027,
+                        1028
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "complex",
+                    [
+                        1044,
+                        1051
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "cystic",
+                    [
+                        1052,
+                        1058
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "left",
+                    [
+                        1059,
+                        1063
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "ovary",
+                    [
+                        1064,
+                        1069
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "adhesions",
+                    [
+                        1205,
+                        1214
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "from",
+                    [
+                        1215,
+                        1219
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "the",
+                    [
+                        1220,
+                        1223
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "small",
+                    [
+                        1224,
+                        1229
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "bowel",
+                    [
+                        1230,
+                        1235
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "the",
+                    [
+                        1239,
+                        1242
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "bilateral",
+                    [
+                        1243,
+                        1252
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.55,
+                    "right",
+                    [
+                        37,
+                        42
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.714,
+                    "adnexal",
+                    [
+                        43,
+                        50
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.737,
+                    "mass",
+                    [
+                        51,
+                        55
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.938,
+                    "Complex",
+                    [
+                        102,
+                        109
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.974,
+                    "left",
+                    [
+                        110,
+                        114
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.922,
+                    "ovarian",
+                    [
+                        115,
+                        122
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.899,
+                    "cyst",
+                    [
+                        123,
+                        127
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.555,
+                    "Bilateral",
+                    [
+                        134,
+                        143
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.562,
+                    "complex",
+                    [
+                        144,
+                        151
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.452,
+                    "adnexae",
+                    [
+                        152,
+                        159
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.78,
+                    "Bilateral",
+                    [
+                        166,
+                        175
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.863,
+                    "hydrosalpinx",
+                    [
+                        176,
+                        188
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.964,
+                    "Chronic",
+                    [
+                        195,
+                        202
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.987,
+                    "pelvic",
+                    [
+                        203,
+                        209
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.971,
+                    "inflammatory",
+                    [
+                        210,
+                        222
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.978,
+                    "disease",
+                    [
+                        223,
+                        230
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.57,
+                    "Massive",
+                    [
+                        237,
+                        244
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.769,
+                    "pelvic",
+                    [
+                        245,
+                        251
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.728,
+                    "adhesions",
+                    [
+                        252,
+                        261
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.679,
+                    "right",
+                    [
+                        997,
+                        1002
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.593,
+                    "and",
+                    [
+                        1003,
+                        1006
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.676,
+                    "left",
+                    [
+                        1007,
+                        1011
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.571,
+                    "fallopian",
+                    [
+                        1012,
+                        1021
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.635,
+                    "tubes",
+                    [
+                        1022,
+                        1027
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.52,
+                    "complex",
+                    [
+                        1044,
+                        1051
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.586,
+                    "cystic",
+                    [
+                        1052,
+                        1058
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.666,
+                    "left",
+                    [
+                        1059,
+                        1063
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.573,
+                    "ovary",
+                    [
+                        1064,
+                        1069
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.648,
+                    "adhesions",
+                    [
+                        1205,
+                        1214
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.585,
+                    "from",
+                    [
+                        1215,
+                        1219
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.628,
+                    "the",
+                    [
+                        1220,
+                        1223
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.569,
+                    "small",
+                    [
+                        1224,
+                        1229
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.505,
+                    "bowel",
+                    [
+                        1230,
+                        1235
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.517,
+                    "bilateral",
+                    [
+                        1243,
+                        1252
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.08,
+        "uncertain_token_count": 6,
+        "narrow_band_ratio": 0.005,
+        "uncertain_tokens": {
+            "DIAGNOSIS": [
+                [
+                    0.452,
+                    "adnexae",
+                    [
+                        152,
+                        159
+                    ]
+                ],
+                [
+                    0.52,
+                    "complex",
+                    [
+                        1044,
+                        1051
+                    ]
+                ],
+                [
+                    0.505,
+                    "bowel",
+                    [
+                        1230,
+                        1235
+                    ]
+                ],
+                [
+                    0.517,
+                    "bilateral",
+                    [
+                        1243,
+                        1252
+                    ]
+                ]
+            ],
+            "NA": [
+                [
+                    0.523,
+                    "scarred",
+                    [
+                        989,
+                        996
+                    ]
+                ],
+                [
+                    0.515,
+                    "the",
+                    [
+                        1239,
+                        1242
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

@@ -1,0 +1,244 @@
+{
+    "file": "endotracheal-intubation-1.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "Versed",
+                "code": "11177",
+                "cui": "C0042553",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Versed",
+                "range": [
+                    329,
+                    335
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.936
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "Versed",
+                "code": "11177",
+                "cui": "C0042553",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Versed",
+                "range": [
+                    329,
+                    335
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.936
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "etomidate",
+                "code": "4177",
+                "cui": "C0015131",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Etomidate",
+                "range": [
+                    346,
+                    355
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.989
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [
+                    "20",
+                    337,
+                    339
+                ],
+                "medStrengthUnit": [
+                    "mg",
+                    340,
+                    342
+                ]
+            },
+            {
+                "text": "etomidate",
+                "code": "4177",
+                "cui": "C0015131",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Etomidate",
+                "range": [
+                    346,
+                    355
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.989
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [
+                    "20",
+                    337,
+                    339
+                ],
+                "medStrengthUnit": [
+                    "mg",
+                    340,
+                    342
+                ]
+            },
+            {
+                "text": "vecuronium",
+                "code": "71535",
+                "cui": "C0242531",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Vecuronium",
+                "range": [
+                    370,
+                    380
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.985
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "vecuronium",
+                "code": "71535",
+                "cui": "C0242531",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Vecuronium",
+                "range": [
+                    370,
+                    380
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.985
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            }
+        ],
+        "Allergy": [],
+        "Lab": [
+            {
+                "code": "",
+                "cui": "C0201931",
+                "tui": "T059",
+                "vocab": "CPT",
+                "polarity": "positive",
+                "text": "PCO2",
+                "preferredText": "CARBON DIOXIDE MEASUREMENT, PARTIAL PRESSURE",
+                "range": [
+                    218,
+                    222
+                ]
+            }
+        ],
+        "DiseaseDisorder": []
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.008,
+        "uncertain_count": 1,
+        "narrow_band_ratio": 0.005,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.625,
+                    "blade",
+                    [
+                        501,
+                        506
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "respiratory",
+                    [
+                        114,
+                        125
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "distress",
+                    [
+                        126,
+                        134
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.568,
+                    "respiratory",
+                    [
+                        114,
+                        125
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.511,
+                    "distress",
+                    [
+                        126,
+                        134
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.059,
+        "uncertain_token_count": 1,
+        "narrow_band_ratio": 0.005,
+        "uncertain_tokens": {
+            "DIAGNOSIS": [
+                [
+                    0.511,
+                    "distress",
+                    [
+                        126,
+                        134
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

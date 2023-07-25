@@ -1,0 +1,544 @@
+{
+    "file": "long-arm-cast.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "Tylenol with codeine",
+                "code": "220586",
+                "cui": "C0724034",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Tylenol with Codeine",
+                "range": [
+                    1772,
+                    1792
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.989
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "Tylenol with codeine",
+                "code": "220586",
+                "cui": "C0724034",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Tylenol with Codeine",
+                "range": [
+                    1772,
+                    1792
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.989
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            }
+        ],
+        "Allergy": [
+            {
+                "code": "220586",
+                "cui": "C0724034",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "text": "Tylenol with codeine",
+                "preferredText": "Tylenol with Codeine",
+                "range": [
+                    1772,
+                    1792
+                ]
+            },
+            {
+                "code": "202433",
+                "cui": "C0699142",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "text": "Tylenol",
+                "preferredText": "Tylenol",
+                "range": [
+                    1772,
+                    1779
+                ]
+            },
+            {
+                "code": "2670",
+                "cui": "C0009214",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "text": "codeine",
+                "preferredText": "Codeine",
+                "range": [
+                    1785,
+                    1792
+                ]
+            }
+        ],
+        "Lab": [
+            {
+                "code": "",
+                "cui": "C0002059",
+                "tui": "T034",
+                "vocab": "LNC",
+                "polarity": "positive",
+                "text": "AP",
+                "preferredText": "ALP - ALKALINE PHOSPHATASE",
+                "range": [
+                    1084,
+                    1086
+                ]
+            }
+        ],
+        "DiseaseDisorder": [
+            {
+                "text": "Left distal radius fracture displaced",
+                "range": [
+                    26,
+                    63
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "Left distal radius fracture displaced",
+                "range": [
+                    91,
+                    128
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "displaced fracture",
+                "range": [
+                    274,
+                    292
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "123735002",
+                "cui": "C0585059",
+                "tui": "T037",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Fracture with displacement"
+            },
+            {
+                "text": "displaced fracture",
+                "range": [
+                    541,
+                    559
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "123735002",
+                "cui": "C0585059",
+                "tui": "T037",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Fracture with displacement"
+            },
+            {
+                "text": "alignment especially",
+                "range": [
+                    603,
+                    623
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.011,
+        "uncertain_count": 1,
+        "narrow_band_ratio": 0.003,
+        "uncertain_tokens": {
+            "MED": [
+                [
+                    0.6,
+                    "fiberglass",
+                    [
+                        1367,
+                        1377
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "Left",
+                    [
+                        26,
+                        30
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "distal",
+                    [
+                        31,
+                        37
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "radius",
+                    [
+                        38,
+                        44
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "fracture",
+                    [
+                        45,
+                        53
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "displaced",
+                    [
+                        54,
+                        63
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Left",
+                    [
+                        91,
+                        95
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "distal",
+                    [
+                        96,
+                        102
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "radius",
+                    [
+                        103,
+                        109
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "fracture",
+                    [
+                        110,
+                        118
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "displaced",
+                    [
+                        119,
+                        128
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "displaced",
+                    [
+                        274,
+                        283
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "fracture",
+                    [
+                        284,
+                        292
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "displaced",
+                    [
+                        541,
+                        550
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "fracture",
+                    [
+                        551,
+                        559
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "alignment",
+                    [
+                        603,
+                        612
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "especially",
+                    [
+                        613,
+                        623
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.975,
+                    "Left",
+                    [
+                        26,
+                        30
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.961,
+                    "distal",
+                    [
+                        31,
+                        37
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.956,
+                    "radius",
+                    [
+                        38,
+                        44
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.958,
+                    "fracture",
+                    [
+                        45,
+                        53
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.713,
+                    "displaced",
+                    [
+                        54,
+                        63
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.989,
+                    "Left",
+                    [
+                        91,
+                        95
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.983,
+                    "distal",
+                    [
+                        96,
+                        102
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.982,
+                    "radius",
+                    [
+                        103,
+                        109
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.963,
+                    "fracture",
+                    [
+                        110,
+                        118
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.82,
+                    "displaced",
+                    [
+                        119,
+                        128
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.754,
+                    "displaced",
+                    [
+                        274,
+                        283
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.876,
+                    "fracture",
+                    [
+                        284,
+                        292
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.815,
+                    "displaced",
+                    [
+                        541,
+                        550
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.917,
+                    "fracture",
+                    [
+                        551,
+                        559
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.528,
+                    "alignment",
+                    [
+                        603,
+                        612
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.424,
+                    "especially",
+                    [
+                        613,
+                        623
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.093,
+        "uncertain_token_count": 4,
+        "narrow_band_ratio": 0.012,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.449,
+                    "of",
+                    [
+                        600,
+                        602
+                    ]
+                ],
+                [
+                    0.45,
+                    "on",
+                    [
+                        624,
+                        626
+                    ]
+                ]
+            ],
+            "PROBLEM": [
+                [
+                    0.528,
+                    "alignment",
+                    [
+                        603,
+                        612
+                    ]
+                ],
+                [
+                    0.424,
+                    "especially",
+                    [
+                        613,
+                        623
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

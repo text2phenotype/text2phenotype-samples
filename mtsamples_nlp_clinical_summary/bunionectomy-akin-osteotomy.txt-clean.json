@@ -1,0 +1,524 @@
+{
+    "file": "bunionectomy-akin-osteotomy.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "Marcaine",
+                "code": "1012397",
+                "cui": "C2945665",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Marcaine",
+                "range": [
+                    1025,
+                    1033
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.931
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "Vicodin",
+                "code": "128793",
+                "cui": "C0483514",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Vicodin",
+                "range": [
+                    5896,
+                    5903
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.995
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "Vicodin",
+                "code": "128793",
+                "cui": "C0483514",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Vicodin",
+                "range": [
+                    5896,
+                    5903
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.995
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "Naprosyn",
+                "code": "203012",
+                "cui": "C0700017",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Naprosyn",
+                "range": [
+                    5966,
+                    5974
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.992
+                },
+                "medFrequencyNumber": [
+                    "2.0"
+                ],
+                "medFrequencyUnit": [
+                    "day"
+                ],
+                "medStrengthNum": [
+                    "500",
+                    5975,
+                    5978
+                ],
+                "medStrengthUnit": [
+                    "mg",
+                    5979,
+                    5981
+                ]
+            },
+            {
+                "text": "Naprosyn",
+                "code": "203012",
+                "cui": "C0700017",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Naprosyn",
+                "range": [
+                    5966,
+                    5974
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.992
+                },
+                "medFrequencyNumber": [
+                    "2.0"
+                ],
+                "medFrequencyUnit": [
+                    "day"
+                ],
+                "medStrengthNum": [
+                    "500",
+                    5975,
+                    5978
+                ],
+                "medStrengthUnit": [
+                    "mg",
+                    5979,
+                    5981
+                ]
+            }
+        ],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "Charcot-Marie tooth disease",
+                "range": [
+                    504,
+                    531
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "proximal\nmedial",
+                "range": [
+                    3180,
+                    3195
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "deformity",
+                "range": [
+                    4922,
+                    4931
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "417893002",
+                "cui": "C0302142",
+                "tui": "T190",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Deformity"
+            },
+            {
+                "text": "the",
+                "range": [
+                    5730,
+                    5733
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.011,
+        "uncertain_count": 5,
+        "narrow_band_ratio": 0.005,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.644,
+                    "lidocaine",
+                    [
+                        1000,
+                        1009
+                    ]
+                ],
+                [
+                    0.683,
+                    "sponge",
+                    [
+                        1473,
+                        1479
+                    ]
+                ],
+                [
+                    0.614,
+                    "incision",
+                    [
+                        5121,
+                        5129
+                    ]
+                ],
+                [
+                    0.636,
+                    "Steri-Strips",
+                    [
+                        5191,
+                        5203
+                    ]
+                ]
+            ],
+            "MED": [
+                [
+                    0.683,
+                    "Capsule",
+                    [
+                        1871,
+                        1878
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "Bunion",
+                    [
+                        26,
+                        32
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Bunion",
+                    [
+                        71,
+                        77
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "bunion",
+                    [
+                        421,
+                        427
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Charcot-Marie",
+                    [
+                        504,
+                        517
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "tooth",
+                    [
+                        518,
+                        523
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "disease",
+                    [
+                        524,
+                        531
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "proximal",
+                    [
+                        3180,
+                        3188
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "medial",
+                    [
+                        3189,
+                        3195
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "bunion",
+                    [
+                        4915,
+                        4921
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "deformity",
+                    [
+                        4922,
+                        4931
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "the",
+                    [
+                        5730,
+                        5733
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.965,
+                    "Bunion",
+                    [
+                        26,
+                        32
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.499,
+                    "left",
+                    [
+                        34,
+                        38
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.905,
+                    "Bunion",
+                    [
+                        71,
+                        77
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.669,
+                    "bunion",
+                    [
+                        421,
+                        427
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.753,
+                    "Charcot-Marie",
+                    [
+                        504,
+                        517
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.916,
+                    "tooth",
+                    [
+                        518,
+                        523
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.85,
+                    "disease",
+                    [
+                        524,
+                        531
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.51,
+                    "proximal",
+                    [
+                        3180,
+                        3188
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.526,
+                    "medial",
+                    [
+                        3189,
+                        3195
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.513,
+                    "the",
+                    [
+                        5730,
+                        5733
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.067,
+        "uncertain_token_count": 8,
+        "narrow_band_ratio": 0.007,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.515,
+                    ",",
+                    [
+                        32,
+                        33
+                    ]
+                ],
+                [
+                    0.431,
+                    "deformity",
+                    [
+                        428,
+                        437
+                    ]
+                ],
+                [
+                    0.51,
+                    "deformity",
+                    [
+                        4922,
+                        4931
+                    ]
+                ],
+                [
+                    0.487,
+                    "to",
+                    [
+                        5727,
+                        5729
+                    ]
+                ]
+            ],
+            "DIAGNOSIS": [
+                [
+                    0.499,
+                    "left",
+                    [
+                        34,
+                        38
+                    ]
+                ],
+                [
+                    0.51,
+                    "proximal",
+                    [
+                        3180,
+                        3188
+                    ]
+                ],
+                [
+                    0.526,
+                    "medial",
+                    [
+                        3189,
+                        3195
+                    ]
+                ],
+                [
+                    0.513,
+                    "the",
+                    [
+                        5730,
+                        5733
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

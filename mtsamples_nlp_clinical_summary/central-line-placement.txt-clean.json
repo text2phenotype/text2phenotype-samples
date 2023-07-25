@@ -1,0 +1,622 @@
+{
+    "file": "central-line-placement.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "Betadine",
+                "code": "202750",
+                "cui": "C0699524",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Betadine",
+                "range": [
+                    871,
+                    879
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.993
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "Betadine",
+                "code": "202750",
+                "cui": "C0699524",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Betadine",
+                "range": [
+                    871,
+                    879
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.993
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            }
+        ],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "chronic obstructive coronary disease",
+                "range": [
+                    38,
+                    74
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "Respiratory failure",
+                "range": [
+                    81,
+                    100
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "409622000",
+                "cui": "C1145670",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Respiratory Failure"
+            },
+            {
+                "text": "chronic obstructive coronary disease",
+                "range": [
+                    140,
+                    176
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "Respiratory failure",
+                "range": [
+                    183,
+                    202
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "409622000",
+                "cui": "C1145670",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Respiratory Failure"
+            },
+            {
+                "text": "respiratory failure",
+                "range": [
+                    367,
+                    386
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "409622000",
+                "cui": "C1145670",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Respiratory Failure"
+            },
+            {
+                "text": "needle stick aspiration of\nthe right subclavian",
+                "range": [
+                    909,
+                    956
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "283596007",
+                "cui": "C0085178",
+                "tui": "T037",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Needlestick Injuries"
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.009,
+        "uncertain_count": 2,
+        "narrow_band_ratio": 0.007,
+        "uncertain_tokens": {
+            "MED": [
+                [
+                    0.518,
+                    "Betadine",
+                    [
+                        1407,
+                        1415
+                    ]
+                ]
+            ],
+            "NA": [
+                [
+                    0.617,
+                    "ointment",
+                    [
+                        1416,
+                        1424
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "Severe",
+                    [
+                        31,
+                        37
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "chronic",
+                    [
+                        38,
+                        45
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "obstructive",
+                    [
+                        46,
+                        57
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "coronary",
+                    [
+                        58,
+                        66
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "disease",
+                    [
+                        67,
+                        74
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Respiratory",
+                    [
+                        81,
+                        92
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "failure",
+                    [
+                        93,
+                        100
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Severe",
+                    [
+                        133,
+                        139
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "chronic",
+                    [
+                        140,
+                        147
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "obstructive",
+                    [
+                        148,
+                        159
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "coronary",
+                    [
+                        160,
+                        168
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "disease",
+                    [
+                        169,
+                        176
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Respiratory",
+                    [
+                        183,
+                        194
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "failure",
+                    [
+                        195,
+                        202
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "respiratory",
+                    [
+                        367,
+                        378
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "failure",
+                    [
+                        379,
+                        386
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "needle",
+                    [
+                        909,
+                        915
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "stick",
+                    [
+                        916,
+                        921
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "aspiration",
+                    [
+                        922,
+                        932
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "of",
+                    [
+                        933,
+                        935
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "the",
+                    [
+                        936,
+                        939
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "right",
+                    [
+                        940,
+                        945
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "subclavian",
+                    [
+                        946,
+                        956
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.534,
+                    "Severe",
+                    [
+                        31,
+                        37
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.827,
+                    "chronic",
+                    [
+                        38,
+                        45
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.882,
+                    "obstructive",
+                    [
+                        46,
+                        57
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.946,
+                    "coronary",
+                    [
+                        58,
+                        66
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.954,
+                    "disease",
+                    [
+                        67,
+                        74
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.842,
+                    "Respiratory",
+                    [
+                        81,
+                        92
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.828,
+                    "failure",
+                    [
+                        93,
+                        100
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.773,
+                    "Severe",
+                    [
+                        133,
+                        139
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.946,
+                    "chronic",
+                    [
+                        140,
+                        147
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.965,
+                    "obstructive",
+                    [
+                        148,
+                        159
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.985,
+                    "coronary",
+                    [
+                        160,
+                        168
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.963,
+                    "disease",
+                    [
+                        169,
+                        176
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.872,
+                    "Respiratory",
+                    [
+                        183,
+                        194
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.808,
+                    "failure",
+                    [
+                        195,
+                        202
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.908,
+                    "respiratory",
+                    [
+                        367,
+                        378
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.88,
+                    "failure",
+                    [
+                        379,
+                        386
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.512,
+                    "needle",
+                    [
+                        909,
+                        915
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.566,
+                    "stick",
+                    [
+                        916,
+                        921
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.638,
+                    "aspiration",
+                    [
+                        922,
+                        932
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.687,
+                    "of",
+                    [
+                        933,
+                        935
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.636,
+                    "the",
+                    [
+                        936,
+                        939
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.612,
+                    "right",
+                    [
+                        940,
+                        945
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.105,
+        "uncertain_token_count": 2,
+        "narrow_band_ratio": 0.007,
+        "uncertain_tokens": {
+            "DIAGNOSIS": [
+                [
+                    0.512,
+                    "needle",
+                    [
+                        909,
+                        915
+                    ]
+                ]
+            ],
+            "NA": [
+                [
+                    0.506,
+                    "subclavian",
+                    [
+                        946,
+                        956
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

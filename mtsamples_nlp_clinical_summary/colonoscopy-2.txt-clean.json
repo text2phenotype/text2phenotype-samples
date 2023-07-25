@@ -1,0 +1,339 @@
+{
+    "file": "colonoscopy-2.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "Demerol",
+                "code": "282381",
+                "cui": "C0935966",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Demerol",
+                "range": [
+                    185,
+                    192
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.908
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [
+                    "50",
+                    193,
+                    195
+                ],
+                "medStrengthUnit": [
+                    "mg",
+                    196,
+                    198
+                ]
+            },
+            {
+                "text": "Demerol",
+                "code": "282381",
+                "cui": "C0935966",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Demerol",
+                "range": [
+                    185,
+                    192
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.908
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [
+                    "50",
+                    193,
+                    195
+                ],
+                "medStrengthUnit": [
+                    "mg",
+                    196,
+                    198
+                ]
+            }
+        ],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "External hemorrhoids",
+                "range": [
+                    97,
+                    117
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "external hemorrhoids",
+                "range": [
+                    254,
+                    274
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "23913003",
+                "cui": "C0265040",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "External hemorrhoids (disorder)"
+            },
+            {
+                "text": "External hemorrhoids",
+                "range": [
+                    779,
+                    799
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "23913003",
+                "cui": "C0265040",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "External hemorrhoids (disorder)"
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.009,
+        "uncertain_count": 0,
+        "narrow_band_ratio": 0.0,
+        "uncertain_tokens": {},
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "PROBLEM": [
+                    "of",
+                    [
+                        40,
+                        42
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "anemia",
+                    [
+                        43,
+                        49
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "abdominal",
+                    [
+                        51,
+                        60
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "bloating",
+                    [
+                        61,
+                        69
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "External",
+                    [
+                        97,
+                        105
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "hemorrhoids",
+                    [
+                        106,
+                        117
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "external",
+                    [
+                        254,
+                        262
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "hemorrhoids",
+                    [
+                        263,
+                        274
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "External",
+                    [
+                        779,
+                        787
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "hemorrhoids",
+                    [
+                        788,
+                        799
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "PROBLEM": [
+                    0.624,
+                    "of",
+                    [
+                        40,
+                        42
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.779,
+                    "anemia",
+                    [
+                        43,
+                        49
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.871,
+                    "abdominal",
+                    [
+                        51,
+                        60
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.819,
+                    "bloating",
+                    [
+                        61,
+                        69
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.502,
+                    "External",
+                    [
+                        97,
+                        105
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.539,
+                    "hemorrhoids",
+                    [
+                        106,
+                        117
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.758,
+                    "external",
+                    [
+                        254,
+                        262
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.873,
+                    "hemorrhoids",
+                    [
+                        263,
+                        274
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.779,
+                    "External",
+                    [
+                        779,
+                        787
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.706,
+                    "hemorrhoids",
+                    [
+                        788,
+                        799
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.112,
+        "uncertain_token_count": 2,
+        "narrow_band_ratio": 0.015,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.504,
+                    "history",
+                    [
+                        32,
+                        39
+                    ]
+                ]
+            ],
+            "DIAGNOSIS": [
+                [
+                    0.502,
+                    "External",
+                    [
+                        97,
+                        105
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

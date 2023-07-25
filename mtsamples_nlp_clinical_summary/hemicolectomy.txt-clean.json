@@ -1,0 +1,480 @@
+{
+    "file": "hemicolectomy.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "triple antibiotics",
+                "code": "220476",
+                "cui": "C0723916",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Triple Antibiotic",
+                "range": [
+                    3985,
+                    4003
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.998
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "triple antibiotics",
+                "code": "220476",
+                "cui": "C0723916",
+                "tui": "T195",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Triple Antibiotic",
+                "range": [
+                    3985,
+                    4003
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.998
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            }
+        ],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "Right",
+                "range": [
+                    76,
+                    81
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "at the hepatic\nflexure",
+                "range": [
+                    496,
+                    518
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "biopsies",
+                "range": [
+                    584,
+                    592
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.005,
+        "uncertain_count": 1,
+        "narrow_band_ratio": 0.001,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.516,
+                    "NG",
+                    [
+                        4008,
+                        4010
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "colon",
+                    [
+                        32,
+                        37
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Right",
+                    [
+                        76,
+                        81
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "colon",
+                    [
+                        82,
+                        87
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "cancer",
+                    [
+                        88,
+                        94
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Ascites",
+                    [
+                        101,
+                        108
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Adhesions",
+                    [
+                        115,
+                        124
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "lesion",
+                    [
+                        489,
+                        495
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "at",
+                    [
+                        496,
+                        498
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "the",
+                    [
+                        499,
+                        502
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "hepatic",
+                    [
+                        503,
+                        510
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "flexure",
+                    [
+                        511,
+                        518
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "lesion",
+                    [
+                        573,
+                        579
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "biopsies",
+                    [
+                        584,
+                        592
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "adenocarcinoma",
+                    [
+                        621,
+                        635
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "colon",
+                    [
+                        742,
+                        747
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "cancer",
+                    [
+                        748,
+                        754
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.496,
+                    "Right",
+                    [
+                        26,
+                        31
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.597,
+                    "colon",
+                    [
+                        32,
+                        37
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.565,
+                    "tumor",
+                    [
+                        38,
+                        43
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.524,
+                    "Right",
+                    [
+                        76,
+                        81
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.635,
+                    "colon",
+                    [
+                        82,
+                        87
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.609,
+                    "cancer",
+                    [
+                        88,
+                        94
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.889,
+                    "Ascites",
+                    [
+                        101,
+                        108
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.862,
+                    "Adhesions",
+                    [
+                        115,
+                        124
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.647,
+                    "lesion",
+                    [
+                        489,
+                        495
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.543,
+                    "at",
+                    [
+                        496,
+                        498
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.615,
+                    "the",
+                    [
+                        499,
+                        502
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.675,
+                    "hepatic",
+                    [
+                        503,
+                        510
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.741,
+                    "flexure",
+                    [
+                        511,
+                        518
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.584,
+                    "lesion",
+                    [
+                        573,
+                        579
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.846,
+                    "adenocarcinoma",
+                    [
+                        621,
+                        635
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.665,
+                    "colon",
+                    [
+                        742,
+                        747
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.636,
+                    "cancer",
+                    [
+                        748,
+                        754
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.081,
+        "uncertain_token_count": 5,
+        "narrow_band_ratio": 0.007,
+        "uncertain_tokens": {
+            "DIAGNOSIS": [
+                [
+                    0.496,
+                    "Right",
+                    [
+                        26,
+                        31
+                    ]
+                ],
+                [
+                    0.524,
+                    "Right",
+                    [
+                        76,
+                        81
+                    ]
+                ]
+            ],
+            "NA": [
+                [
+                    0.394,
+                    "obstructing",
+                    [
+                        477,
+                        488
+                    ]
+                ],
+                [
+                    0.402,
+                    "biopsies",
+                    [
+                        584,
+                        592
+                    ]
+                ],
+                [
+                    0.499,
+                    "invasive",
+                    [
+                        612,
+                        620
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

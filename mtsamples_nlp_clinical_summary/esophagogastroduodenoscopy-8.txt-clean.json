@@ -1,0 +1,312 @@
+{
+    "file": "esophagogastroduodenoscopy-8.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "Demerol",
+                "code": "282381",
+                "cui": "C0935966",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Demerol",
+                "range": [
+                    237,
+                    244
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.909
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "Demerol",
+                "code": "282381",
+                "cui": "C0935966",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Demerol",
+                "range": [
+                    237,
+                    244
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.909
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "H2",
+                "code": null,
+                "cui": null,
+                "tui": null,
+                "vocab": null,
+                "polarity": "positive",
+                "preferredText": null,
+                "range": [
+                    1375,
+                    1377
+                ],
+                "prob": {
+                    "MED": 0.973
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "blocker",
+                "code": null,
+                "cui": null,
+                "tui": null,
+                "vocab": null,
+                "polarity": "positive",
+                "preferredText": null,
+                "range": [
+                    1378,
+                    1385
+                ],
+                "prob": {
+                    "MED": 0.993
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            }
+        ],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "Antral gastritis",
+                "range": [
+                    105,
+                    121
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "polyp",
+                "range": [
+                    1002,
+                    1007
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "441456002",
+                "cui": "C0032584",
+                "tui": "T190",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "polyps"
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.006,
+        "uncertain_count": 1,
+        "narrow_band_ratio": 0.004,
+        "uncertain_tokens": {
+            "MED": [
+                [
+                    0.614,
+                    "CLO",
+                    [
+                        1132,
+                        1135
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "Chronic",
+                    [
+                        26,
+                        33
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "abdominal",
+                    [
+                        34,
+                        43
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "pain",
+                    [
+                        44,
+                        48
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Antral",
+                    [
+                        105,
+                        111
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "gastritis",
+                    [
+                        112,
+                        121
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Duodenal",
+                    [
+                        128,
+                        136
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "polyp",
+                    [
+                        137,
+                        142
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "polyp",
+                    [
+                        1002,
+                        1007
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.759,
+                    "Chronic",
+                    [
+                        26,
+                        33
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.632,
+                    "abdominal",
+                    [
+                        34,
+                        43
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.508,
+                    "pain",
+                    [
+                        44,
+                        48
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.715,
+                    "Antral",
+                    [
+                        105,
+                        111
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.861,
+                    "gastritis",
+                    [
+                        112,
+                        121
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.951,
+                    "Duodenal",
+                    [
+                        128,
+                        136
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.933,
+                    "polyp",
+                    [
+                        137,
+                        142
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.542,
+                    "polyp",
+                    [
+                        1002,
+                        1007
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.072,
+        "uncertain_token_count": 1,
+        "narrow_band_ratio": 0.004,
+        "uncertain_tokens": {
+            "DIAGNOSIS": [
+                [
+                    0.508,
+                    "pain",
+                    [
+                        44,
+                        48
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

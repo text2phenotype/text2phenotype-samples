@@ -1,0 +1,125 @@
+{
+    "file": "ultrasound-carotid-2.txt-clean.txt",
+    "text2summary": {
+        "Medication": [],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "calcific",
+                "range": [
+                    210,
+                    218
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "stenosis",
+                "range": [
+                    659,
+                    667
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "plaquing",
+                "range": [
+                    702,
+                    710
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.0,
+        "uncertain_count": 0,
+        "narrow_band_ratio": 0.0,
+        "uncertain_tokens": {},
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "calcific",
+                    [
+                        210,
+                        218
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "stenosis",
+                    [
+                        659,
+                        667
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "plaquing",
+                    [
+                        702,
+                        710
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "PROBLEM": [
+                    0.777,
+                    "stenosis",
+                    [
+                        659,
+                        667
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.554,
+                    "plaquing",
+                    [
+                        702,
+                        710
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.13,
+        "uncertain_token_count": 1,
+        "narrow_band_ratio": 0.008,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.452,
+                    "significant",
+                    [
+                        647,
+                        658
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

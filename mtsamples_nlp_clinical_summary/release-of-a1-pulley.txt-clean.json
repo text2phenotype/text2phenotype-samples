@@ -1,0 +1,282 @@
+{
+    "file": "release-of-a1-pulley.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "antibiotics",
+                "code": null,
+                "cui": null,
+                "tui": null,
+                "vocab": null,
+                "polarity": "positive",
+                "preferredText": null,
+                "range": [
+                    911,
+                    922
+                ],
+                "prob": {
+                    "MED": 0.922
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            }
+        ],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "Right",
+                "range": [
+                    26,
+                    31
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "infection",
+                "range": [
+                    603,
+                    612
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "189822004",
+                "cui": "C0009450",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Communicable Diseases"
+            },
+            {
+                "text": "anesthesia",
+                "range": [
+                    632,
+                    642
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.011,
+        "uncertain_count": 2,
+        "narrow_band_ratio": 0.005,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.62,
+                    "blade",
+                    [
+                        1346,
+                        1351
+                    ]
+                ]
+            ],
+            "MED": [
+                [
+                    0.698,
+                    "Marcaine",
+                    [
+                        1648,
+                        1656
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "Right",
+                    [
+                        26,
+                        31
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "trigger",
+                    [
+                        32,
+                        39
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "trigger",
+                    [
+                        79,
+                        86
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "thumb",
+                    [
+                        87,
+                        92
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "infection",
+                    [
+                        603,
+                        612
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "problems",
+                    [
+                        618,
+                        626
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "anesthesia",
+                    [
+                        632,
+                        642
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.746,
+                    "Right",
+                    [
+                        26,
+                        31
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.648,
+                    "trigger",
+                    [
+                        32,
+                        39
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.7,
+                    "trigger",
+                    [
+                        79,
+                        86
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.606,
+                    "thumb",
+                    [
+                        87,
+                        92
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.391,
+                    "infection",
+                    [
+                        603,
+                        612
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.553,
+                    "problems",
+                    [
+                        618,
+                        626
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.521,
+                    "anesthesia",
+                    [
+                        632,
+                        642
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.064,
+        "uncertain_token_count": 4,
+        "narrow_band_ratio": 0.011,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.51,
+                    "thumb",
+                    [
+                        40,
+                        45
+                    ]
+                ],
+                [
+                    0.446,
+                    "trigger",
+                    [
+                        442,
+                        449
+                    ]
+                ]
+            ],
+            "DIAGNOSIS": [
+                [
+                    0.391,
+                    "infection",
+                    [
+                        603,
+                        612
+                    ]
+                ]
+            ],
+            "PROBLEM": [
+                [
+                    0.521,
+                    "anesthesia",
+                    [
+                        632,
+                        642
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

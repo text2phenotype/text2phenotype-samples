@@ -1,0 +1,846 @@
+{
+    "file": "bmt-ta.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "Floxin",
+                "code": "202458",
+                "cui": "C0699173",
+                "tui": "T195",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Floxin",
+                "range": [
+                    1043,
+                    1049
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.995
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "Floxin",
+                "code": "202458",
+                "cui": "C0699173",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Floxin",
+                "range": [
+                    1043,
+                    1049
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.995
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "Xylocaine",
+                "code": "202398",
+                "cui": "C0699094",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Xylocaine",
+                "range": [
+                    1395,
+                    1404
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.963
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "Xylocaine",
+                "code": "202398",
+                "cui": "C0699094",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Xylocaine",
+                "range": [
+                    1395,
+                    1404
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.963
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            }
+        ],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "Chronic otitis media",
+                "range": [
+                    26,
+                    46
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "21186006",
+                "cui": "C0271441",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Chronic otitis media"
+            },
+            {
+                "text": "adenoid\nhypertrophy",
+                "range": [
+                    61,
+                    80
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "111591002",
+                "cui": "C0149825",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Hypertrophy of adenoids"
+            },
+            {
+                "text": "Chronic otitis media",
+                "range": [
+                    108,
+                    128
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "21186006",
+                "cui": "C0271441",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Chronic otitis media"
+            },
+            {
+                "text": "tonsillar adenoid\nhypertrophy",
+                "range": [
+                    133,
+                    162
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "recurrent otitis media as",
+                "range": [
+                    334,
+                    359
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "as",
+                "range": [
+                    365,
+                    367
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "tympanic membrane perforation",
+                "range": [
+                    483,
+                    512
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "60442001",
+                "cui": "C0206504",
+                "tui": "T037",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Tympanic Membrane Perforation"
+            },
+            {
+                "text": "recurrent\notitis media",
+                "range": [
+                    535,
+                    557
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.01,
+        "uncertain_count": 2,
+        "narrow_band_ratio": 0.005,
+        "uncertain_tokens": {
+            "MED": [
+                [
+                    0.521,
+                    "epinephrine",
+                    [
+                        1420,
+                        1431
+                    ]
+                ]
+            ],
+            "NA": [
+                [
+                    0.699,
+                    "sponge",
+                    [
+                        2395,
+                        2401
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "Chronic",
+                    [
+                        26,
+                        33
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "otitis",
+                    [
+                        34,
+                        40
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "media",
+                    [
+                        41,
+                        46
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "adenoid",
+                    [
+                        61,
+                        68
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "hypertrophy",
+                    [
+                        69,
+                        80
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Chronic",
+                    [
+                        108,
+                        115
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "otitis",
+                    [
+                        116,
+                        122
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "media",
+                    [
+                        123,
+                        128
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "tonsillar",
+                    [
+                        133,
+                        142
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "adenoid",
+                    [
+                        143,
+                        150
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "hypertrophy",
+                    [
+                        151,
+                        162
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "recurrent",
+                    [
+                        334,
+                        343
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "otitis",
+                    [
+                        344,
+                        350
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "media",
+                    [
+                        351,
+                        356
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "as",
+                    [
+                        357,
+                        359
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "as",
+                    [
+                        365,
+                        367
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "snoring",
+                    [
+                        368,
+                        375
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "chronic",
+                    [
+                        380,
+                        387
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "mouth",
+                    [
+                        388,
+                        393
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "breathing",
+                    [
+                        394,
+                        403
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "bleeding",
+                    [
+                        453,
+                        461
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "tympanic",
+                    [
+                        483,
+                        491
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "membrane",
+                    [
+                        492,
+                        500
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "perforation",
+                    [
+                        501,
+                        512
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "recurrent",
+                    [
+                        535,
+                        544
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "otitis",
+                    [
+                        545,
+                        551
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "media",
+                    [
+                        552,
+                        557
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.836,
+                    "Chronic",
+                    [
+                        26,
+                        33
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.622,
+                    "otitis",
+                    [
+                        34,
+                        40
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.654,
+                    "media",
+                    [
+                        41,
+                        46
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.43,
+                    "tonsillar",
+                    [
+                        51,
+                        60
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.552,
+                    "adenoid",
+                    [
+                        61,
+                        68
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.641,
+                    "hypertrophy",
+                    [
+                        69,
+                        80
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.639,
+                    "Chronic",
+                    [
+                        108,
+                        115
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.632,
+                    "otitis",
+                    [
+                        116,
+                        122
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.734,
+                    "media",
+                    [
+                        123,
+                        128
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.651,
+                    "tonsillar",
+                    [
+                        133,
+                        142
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.617,
+                    "adenoid",
+                    [
+                        143,
+                        150
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.611,
+                    "hypertrophy",
+                    [
+                        151,
+                        162
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.556,
+                    "recurrent",
+                    [
+                        334,
+                        343
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.85,
+                    "otitis",
+                    [
+                        344,
+                        350
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.903,
+                    "media",
+                    [
+                        351,
+                        356
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.718,
+                    "as",
+                    [
+                        357,
+                        359
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.59,
+                    "as",
+                    [
+                        365,
+                        367
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.636,
+                    "snoring",
+                    [
+                        368,
+                        375
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.711,
+                    "chronic",
+                    [
+                        380,
+                        387
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.641,
+                    "mouth",
+                    [
+                        388,
+                        393
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.637,
+                    "breathing",
+                    [
+                        394,
+                        403
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.491,
+                    "bleeding",
+                    [
+                        453,
+                        461
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.811,
+                    "tympanic",
+                    [
+                        483,
+                        491
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.804,
+                    "membrane",
+                    [
+                        492,
+                        500
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.782,
+                    "perforation",
+                    [
+                        501,
+                        512
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.469,
+                    "persistent",
+                    [
+                        524,
+                        534
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.563,
+                    "recurrent",
+                    [
+                        535,
+                        544
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.704,
+                    "otitis",
+                    [
+                        545,
+                        551
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.718,
+                    "media",
+                    [
+                        552,
+                        557
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.128,
+        "uncertain_token_count": 8,
+        "narrow_band_ratio": 0.019,
+        "uncertain_tokens": {
+            "PROBLEM": [
+                [
+                    0.43,
+                    "tonsillar",
+                    [
+                        51,
+                        60
+                    ]
+                ]
+            ],
+            "NA": [
+                [
+                    0.522,
+                    "well",
+                    [
+                        360,
+                        364
+                    ]
+                ],
+                [
+                    0.478,
+                    "general",
+                    [
+                        463,
+                        470
+                    ]
+                ],
+                [
+                    0.451,
+                    "Stomach",
+                    [
+                        2183,
+                        2190
+                    ]
+                ],
+                [
+                    0.428,
+                    "contents",
+                    [
+                        2191,
+                        2199
+                    ]
+                ],
+                [
+                    0.447,
+                    "condition",
+                    [
+                        2329,
+                        2338
+                    ]
+                ]
+            ],
+            "DIAGNOSIS": [
+                [
+                    0.491,
+                    "bleeding",
+                    [
+                        453,
+                        461
+                    ]
+                ],
+                [
+                    0.469,
+                    "persistent",
+                    [
+                        524,
+                        534
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

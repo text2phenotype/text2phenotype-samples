@@ -1,0 +1,809 @@
+{
+    "file": "pacemaker-dual-chamber.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "Versed",
+                "code": "11177",
+                "cui": "C0042553",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Versed",
+                "range": [
+                    1341,
+                    1347
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.968
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "Versed",
+                "code": "11177",
+                "cui": "C0042553",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Versed",
+                "range": [
+                    1341,
+                    1347
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.968
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "fentanyl",
+                "code": "4337",
+                "cui": "C0015846",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Fentanyl",
+                "range": [
+                    1352,
+                    1360
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.999
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "fentanyl",
+                "code": "4337",
+                "cui": "C0015846",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Fentanyl",
+                "range": [
+                    1352,
+                    1360
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.999
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "lidocaine",
+                "code": "6387",
+                "cui": "C0023660",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Lidocaine",
+                "range": [
+                    1517,
+                    1526
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.992
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "lidocaine",
+                "code": "6387",
+                "cui": "C0023660",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Lidocaine",
+                "range": [
+                    1517,
+                    1526
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.992
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            }
+        ],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "sinus bradycardia",
+                "range": [
+                    343,
+                    360
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "49044005",
+                "cui": "C0264890",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Severe sinus bradycardia"
+            },
+            {
+                "text": "sinoatrial exit block",
+                "range": [
+                    417,
+                    438
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "65778007",
+                "cui": "C0037188",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Sinoatrial Block"
+            },
+            {
+                "text": "valvular heart disease",
+                "range": [
+                    570,
+                    592
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "pacemaker\nvia the left cephalic vein",
+                "range": [
+                    3046,
+                    3082
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.016,
+        "uncertain_count": 5,
+        "narrow_band_ratio": 0.009,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.688,
+                    "lead",
+                    [
+                        2291,
+                        2295
+                    ]
+                ],
+                [
+                    0.64,
+                    "lead",
+                    [
+                        2350,
+                        2354
+                    ]
+                ]
+            ],
+            "MED": [
+                [
+                    0.607,
+                    "antibiotic",
+                    [
+                        2685,
+                        2695
+                    ]
+                ],
+                [
+                    0.573,
+                    "solution",
+                    [
+                        2696,
+                        2704
+                    ]
+                ],
+                [
+                    0.659,
+                    "Steri-Strips",
+                    [
+                        2886,
+                        2898
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "hypertension",
+                    [
+                        66,
+                        78
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "fatigue",
+                    [
+                        135,
+                        142
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "lightheadedness",
+                    [
+                        144,
+                        159
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "severe",
+                    [
+                        165,
+                        171
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "dyspnea",
+                    [
+                        172,
+                        179
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "on",
+                    [
+                        180,
+                        182
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "exertion",
+                    [
+                        183,
+                        191
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "sinus",
+                    [
+                        257,
+                        262
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "bradycardia",
+                    [
+                        263,
+                        274
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "sinus",
+                    [
+                        343,
+                        348
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "bradycardia",
+                    [
+                        349,
+                        360
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "sinus",
+                    [
+                        387,
+                        392
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "rhythm",
+                    [
+                        393,
+                        399
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "sinoatrial",
+                    [
+                        417,
+                        427
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "exit",
+                    [
+                        428,
+                        432
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "block",
+                    [
+                        433,
+                        438
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "valvular",
+                    [
+                        570,
+                        578
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "heart",
+                    [
+                        579,
+                        584
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "disease",
+                    [
+                        585,
+                        592
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "pacemaker",
+                    [
+                        3046,
+                        3055
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "via",
+                    [
+                        3056,
+                        3059
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "the",
+                    [
+                        3060,
+                        3063
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "left",
+                    [
+                        3064,
+                        3068
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "cephalic",
+                    [
+                        3069,
+                        3077
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "vein",
+                    [
+                        3078,
+                        3082
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    ".",
+                    [
+                        3082,
+                        3083
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.953,
+                    "hypertension",
+                    [
+                        66,
+                        78
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.573,
+                    "fatigue",
+                    [
+                        135,
+                        142
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.504,
+                    "lightheadedness",
+                    [
+                        144,
+                        159
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.377,
+                    "severe",
+                    [
+                        165,
+                        171
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.489,
+                    "dyspnea",
+                    [
+                        172,
+                        179
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.676,
+                    "on",
+                    [
+                        180,
+                        182
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.615,
+                    "exertion",
+                    [
+                        183,
+                        191
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.484,
+                    "sinus",
+                    [
+                        257,
+                        262
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.526,
+                    "bradycardia",
+                    [
+                        263,
+                        274
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.732,
+                    "sinus",
+                    [
+                        343,
+                        348
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.724,
+                    "bradycardia",
+                    [
+                        349,
+                        360
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.491,
+                    "sinus",
+                    [
+                        387,
+                        392
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.561,
+                    "rhythm",
+                    [
+                        393,
+                        399
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.643,
+                    "sinoatrial",
+                    [
+                        417,
+                        427
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.783,
+                    "exit",
+                    [
+                        428,
+                        432
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.792,
+                    "block",
+                    [
+                        433,
+                        438
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.571,
+                    "valvular",
+                    [
+                        570,
+                        578
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.789,
+                    "heart",
+                    [
+                        579,
+                        584
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.682,
+                    "disease",
+                    [
+                        585,
+                        592
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.497,
+                    "pacemaker",
+                    [
+                        3046,
+                        3055
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.682,
+                    "via",
+                    [
+                        3056,
+                        3059
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.932,
+                    "the",
+                    [
+                        3060,
+                        3063
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.941,
+                    "left",
+                    [
+                        3064,
+                        3068
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.911,
+                    "cephalic",
+                    [
+                        3069,
+                        3077
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.94,
+                    "vein",
+                    [
+                        3078,
+                        3082
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.531,
+                    ".",
+                    [
+                        3082,
+                        3083
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.113,
+        "uncertain_token_count": 7,
+        "narrow_band_ratio": 0.013,
+        "uncertain_tokens": {
+            "PROBLEM": [
+                [
+                    0.504,
+                    "lightheadedness",
+                    [
+                        144,
+                        159
+                    ]
+                ],
+                [
+                    0.377,
+                    "severe",
+                    [
+                        165,
+                        171
+                    ]
+                ],
+                [
+                    0.489,
+                    "dyspnea",
+                    [
+                        172,
+                        179
+                    ]
+                ]
+            ],
+            "DIAGNOSIS": [
+                [
+                    0.484,
+                    "sinus",
+                    [
+                        257,
+                        262
+                    ]
+                ],
+                [
+                    0.526,
+                    "bradycardia",
+                    [
+                        263,
+                        274
+                    ]
+                ],
+                [
+                    0.491,
+                    "sinus",
+                    [
+                        387,
+                        392
+                    ]
+                ],
+                [
+                    0.497,
+                    "pacemaker",
+                    [
+                        3046,
+                        3055
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

@@ -1,0 +1,222 @@
+{
+    "file": "liver-biopsy.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "Lidocaine",
+                "code": "6387",
+                "cui": "C0023660",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Lidocaine",
+                "range": [
+                    64,
+                    73
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.997
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "Lidocaine",
+                "code": "6387",
+                "cui": "C0023660",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Lidocaine",
+                "range": [
+                    64,
+                    73
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.997
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            }
+        ],
+        "Allergy": [
+            {
+                "code": "6387",
+                "cui": "C0023660",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "negative",
+                "text": "lidocaine",
+                "preferredText": "Lidocaine",
+                "range": [
+                    129,
+                    138
+                ]
+            },
+            {
+                "code": "2670",
+                "cui": "C0009214",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "negative",
+                "text": "codeine",
+                "preferredText": "Codeine",
+                "range": [
+                    142,
+                    149
+                ]
+            },
+            {
+                "code": "8611",
+                "cui": "C0032857",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "text": "povidone iodine",
+                "preferredText": "Povidone-Iodine",
+                "range": [
+                    743,
+                    758
+                ]
+            },
+            {
+                "code": "8610",
+                "cui": "C0032856",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "text": "povidone",
+                "preferredText": "Povidone",
+                "range": [
+                    743,
+                    751
+                ]
+            },
+            {
+                "code": "6387",
+                "cui": "C0023660",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "text": "lidocaine",
+                "preferredText": "Lidocaine",
+                "range": [
+                    852,
+                    861
+                ]
+            }
+        ],
+        "Lab": [],
+        "DiseaseDisorder": []
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.018,
+        "uncertain_count": 2,
+        "narrow_band_ratio": 0.006,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.544,
+                    "2",
+                    [
+                        61,
+                        62
+                    ]
+                ],
+                [
+                    0.686,
+                    "vaccines",
+                    [
+                        1816,
+                        1824
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "PROBLEM": [
+                    "chest",
+                    [
+                        1486,
+                        1491
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "pain",
+                    [
+                        1492,
+                        1496
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "PROBLEM": [
+                    0.434,
+                    "chest",
+                    [
+                        1486,
+                        1491
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.452,
+                    "pain",
+                    [
+                        1492,
+                        1496
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.056,
+        "uncertain_token_count": 3,
+        "narrow_band_ratio": 0.009,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.496,
+                    "peritonitis",
+                    [
+                        370,
+                        381
+                    ]
+                ]
+            ],
+            "PROBLEM": [
+                [
+                    0.434,
+                    "chest",
+                    [
+                        1486,
+                        1491
+                    ]
+                ],
+                [
+                    0.452,
+                    "pain",
+                    [
+                        1492,
+                        1496
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

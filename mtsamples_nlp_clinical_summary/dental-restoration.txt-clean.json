@@ -1,0 +1,487 @@
+{
+    "file": "dental-restoration.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "ferric sulfate",
+                "code": "24913",
+                "cui": "C0060246",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "ferric sulfate",
+                "range": [
+                    1426,
+                    1440
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.933
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "zinc oxide",
+                "code": "11423",
+                "cui": "C0043491",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Zinc Oxide",
+                "range": [
+                    1445,
+                    1455
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.944
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            }
+        ],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "Dental caries",
+                "range": [
+                    26,
+                    39
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "Dental caries",
+                "range": [
+                    67,
+                    80
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "unmanageable behavior",
+                "range": [
+                    218,
+                    239
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "dental",
+                "range": [
+                    361,
+                    367
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "Cavities",
+                "range": [
+                    374,
+                    382
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "80967001",
+                "cui": "C0011334",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Dental caries"
+            },
+            {
+                "text": "bite-wing",
+                "range": [
+                    738,
+                    747
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "3404009",
+                "cui": "C0005658",
+                "tui": "T037",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "bite injury"
+            },
+            {
+                "text": "carious\nlesions",
+                "range": [
+                    1029,
+                    1044
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "80967001",
+                "cui": "C0011334",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Dental caries"
+            },
+            {
+                "text": "Tooth",
+                "range": [
+                    1104,
+                    1109
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.022,
+        "uncertain_count": 4,
+        "narrow_band_ratio": 0.012,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.6,
+                    "occlusal",
+                    [
+                        1245,
+                        1253
+                    ]
+                ],
+                [
+                    0.558,
+                    "oxide",
+                    [
+                        1450,
+                        1455
+                    ]
+                ],
+                [
+                    0.693,
+                    "fluoride",
+                    [
+                        1609,
+                        1617
+                    ]
+                ]
+            ],
+            "MED": [
+                [
+                    0.665,
+                    "topical",
+                    [
+                        1601,
+                        1608
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "Dental",
+                    [
+                        26,
+                        32
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "caries",
+                    [
+                        33,
+                        39
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Dental",
+                    [
+                        67,
+                        73
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "caries",
+                    [
+                        74,
+                        80
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "unmanageable",
+                    [
+                        218,
+                        230
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "behavior",
+                    [
+                        231,
+                        239
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "dental",
+                    [
+                        361,
+                        367
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "work",
+                    [
+                        368,
+                        372
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Cavities",
+                    [
+                        374,
+                        382
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "bite-wing",
+                    [
+                        738,
+                        747
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "carious",
+                    [
+                        1029,
+                        1036
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "lesions",
+                    [
+                        1037,
+                        1044
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Tooth",
+                    [
+                        1104,
+                        1109
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.571,
+                    "Dental",
+                    [
+                        26,
+                        32
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.527,
+                    "caries",
+                    [
+                        33,
+                        39
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.785,
+                    "Dental",
+                    [
+                        67,
+                        73
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.735,
+                    "caries",
+                    [
+                        74,
+                        80
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.696,
+                    "unmanageable",
+                    [
+                        218,
+                        230
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.676,
+                    "behavior",
+                    [
+                        231,
+                        239
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.535,
+                    "dental",
+                    [
+                        361,
+                        367
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.617,
+                    "work",
+                    [
+                        368,
+                        372
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.651,
+                    "Cavities",
+                    [
+                        374,
+                        382
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.834,
+                    "bite-wing",
+                    [
+                        738,
+                        747
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.527,
+                    "carious",
+                    [
+                        1029,
+                        1036
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.154,
+        "uncertain_token_count": 5,
+        "narrow_band_ratio": 0.016,
+        "uncertain_tokens": {
+            "DIAGNOSIS": [
+                [
+                    0.527,
+                    "caries",
+                    [
+                        33,
+                        39
+                    ]
+                ],
+                [
+                    0.527,
+                    "carious",
+                    [
+                        1029,
+                        1036
+                    ]
+                ]
+            ],
+            "NA": [
+                [
+                    0.529,
+                    "caries",
+                    [
+                        871,
+                        877
+                    ]
+                ],
+                [
+                    0.491,
+                    "lesions",
+                    [
+                        1037,
+                        1044
+                    ]
+                ],
+                [
+                    0.516,
+                    "caries",
+                    [
+                        1116,
+                        1122
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

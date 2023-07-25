@@ -1,0 +1,287 @@
+{
+    "file": "stab-wound-closure.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "epinephrine",
+                "code": "3992",
+                "cui": "C0014563",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Epinephrine",
+                "range": [
+                    400,
+                    411
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.934
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "epinephrine",
+                "code": "3992",
+                "cui": "C0014563",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Epinephrine",
+                "range": [
+                    400,
+                    411
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.934
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            }
+        ],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "Stab wound",
+                "range": [
+                    26,
+                    36
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "425322008",
+                "cui": "C0043255",
+                "tui": "T037",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Wounds, Stab"
+            },
+            {
+                "text": "Stab wound",
+                "range": [
+                    92,
+                    102
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "425322008",
+                "cui": "C0043255",
+                "tui": "T037",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Wounds, Stab"
+            },
+            {
+                "text": "left posterolateral chest",
+                "range": [
+                    104,
+                    129
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.025,
+        "uncertain_count": 1,
+        "narrow_band_ratio": 0.013,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.673,
+                    "epinephrine",
+                    [
+                        207,
+                        218
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "Stab",
+                    [
+                        26,
+                        30
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "wound",
+                    [
+                        31,
+                        36
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Stab",
+                    [
+                        92,
+                        96
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "wound",
+                    [
+                        97,
+                        102
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "left",
+                    [
+                        104,
+                        108
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "posterolateral",
+                    [
+                        109,
+                        123
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "chest",
+                    [
+                        124,
+                        129
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.968,
+                    "Stab",
+                    [
+                        26,
+                        30
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.927,
+                    "wound",
+                    [
+                        31,
+                        36
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.801,
+                    "Stab",
+                    [
+                        92,
+                        96
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.787,
+                    "wound",
+                    [
+                        97,
+                        102
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.591,
+                    "left",
+                    [
+                        104,
+                        108
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.486,
+                    "posterolateral",
+                    [
+                        109,
+                        123
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.702,
+                    "chest",
+                    [
+                        124,
+                        129
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.487,
+                    "infiltration",
+                    [
+                        228,
+                        240
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.14,
+        "uncertain_token_count": 2,
+        "narrow_band_ratio": 0.025,
+        "uncertain_tokens": {
+            "DIAGNOSIS": [
+                [
+                    0.486,
+                    "posterolateral",
+                    [
+                        109,
+                        123
+                    ]
+                ]
+            ],
+            "PROBLEM": [
+                [
+                    0.487,
+                    "infiltration",
+                    [
+                        228,
+                        240
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

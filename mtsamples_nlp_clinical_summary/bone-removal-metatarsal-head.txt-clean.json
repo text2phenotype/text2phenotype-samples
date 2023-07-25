@@ -1,0 +1,630 @@
+{
+    "file": "bone-removal-metatarsal-head.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "gentamicin",
+                "code": "142438",
+                "cui": "C0546866",
+                "tui": "T195",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Gentamicin Sulfate (USP)",
+                "range": [
+                    3085,
+                    3095
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.952
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "gentamicin",
+                "code": "142438",
+                "cui": "C0546866",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Gentamicin Sulfate (USP)",
+                "range": [
+                    3085,
+                    3095
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.952
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            }
+        ],
+        "Allergy": [
+            {
+                "code": "202750",
+                "cui": "C0699524",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "text": "Betadine",
+                "preferredText": "Betadine",
+                "range": [
+                    3474,
+                    3482
+                ]
+            }
+        ],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "Tailor 's",
+                "range": [
+                    26,
+                    35
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "right foot",
+                "range": [
+                    99,
+                    109
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "right",
+                "range": [
+                    352,
+                    357
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "'s",
+                "range": [
+                    365,
+                    367
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "right\nfoot",
+                "range": [
+                    431,
+                    441
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "ulcer",
+                "range": [
+                    573,
+                    578
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "255321001",
+                "cui": "C0041582",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Ulcer"
+            },
+            {
+                "text": "ulcer",
+                "range": [
+                    644,
+                    649
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "255321001",
+                "cui": "C0041582",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Ulcer"
+            },
+            {
+                "text": "of the",
+                "range": [
+                    2209,
+                    2215
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.011,
+        "uncertain_count": 3,
+        "narrow_band_ratio": 0.004,
+        "uncertain_tokens": {
+            "MED": [
+                [
+                    0.598,
+                    "Betadine",
+                    [
+                        1713,
+                        1721
+                    ]
+                ],
+                [
+                    0.628,
+                    "Betadine-soaked",
+                    [
+                        3474,
+                        3489
+                    ]
+                ]
+            ],
+            "NA": [
+                [
+                    0.604,
+                    "hydrocodone",
+                    [
+                        3934,
+                        3945
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "Tailor",
+                    [
+                        26,
+                        32
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "'s",
+                    [
+                        33,
+                        35
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "bunion",
+                    [
+                        36,
+                        42
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Tailor",
+                    [
+                        82,
+                        88
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "'s",
+                    [
+                        88,
+                        90
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "bunion",
+                    [
+                        91,
+                        97
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    ",",
+                    [
+                        97,
+                        98
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "right",
+                    [
+                        99,
+                        104
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "foot",
+                    [
+                        105,
+                        109
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "right",
+                    [
+                        352,
+                        357
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "'s",
+                    [
+                        365,
+                        367
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "bunion",
+                    [
+                        368,
+                        374
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "right",
+                    [
+                        431,
+                        436
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "foot",
+                    [
+                        437,
+                        441
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "ulcer",
+                    [
+                        573,
+                        578
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "ulcer",
+                    [
+                        644,
+                        649
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "of",
+                    [
+                        2209,
+                        2211
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "the",
+                    [
+                        2212,
+                        2215
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "wound",
+                    [
+                        2216,
+                        2221
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.83,
+                    "Tailor",
+                    [
+                        26,
+                        32
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.858,
+                    "'s",
+                    [
+                        33,
+                        35
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.861,
+                    "bunion",
+                    [
+                        36,
+                        42
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.95,
+                    "Tailor",
+                    [
+                        82,
+                        88
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.99,
+                    "'s",
+                    [
+                        88,
+                        90
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.983,
+                    "bunion",
+                    [
+                        91,
+                        97
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.905,
+                    ",",
+                    [
+                        97,
+                        98
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.903,
+                    "right",
+                    [
+                        99,
+                        104
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.789,
+                    "foot",
+                    [
+                        105,
+                        109
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.509,
+                    "right",
+                    [
+                        352,
+                        357
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.522,
+                    "Tailor",
+                    [
+                        358,
+                        364
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.616,
+                    "'s",
+                    [
+                        365,
+                        367
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.624,
+                    "bunion",
+                    [
+                        368,
+                        374
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.438,
+                    "foot",
+                    [
+                        437,
+                        441
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.756,
+                    "ulcer",
+                    [
+                        573,
+                        578
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.581,
+                    "ulcer",
+                    [
+                        644,
+                        649
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.492,
+                    "wound",
+                    [
+                        2216,
+                        2221
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.086,
+        "uncertain_token_count": 8,
+        "narrow_band_ratio": 0.011,
+        "uncertain_tokens": {
+            "DIAGNOSIS": [
+                [
+                    0.509,
+                    "right",
+                    [
+                        352,
+                        357
+                    ]
+                ],
+                [
+                    0.522,
+                    "Tailor",
+                    [
+                        358,
+                        364
+                    ]
+                ],
+                [
+                    0.438,
+                    "foot",
+                    [
+                        437,
+                        441
+                    ]
+                ],
+                [
+                    0.492,
+                    "wound",
+                    [
+                        2216,
+                        2221
+                    ]
+                ]
+            ],
+            "NA": [
+                [
+                    0.463,
+                    "right",
+                    [
+                        431,
+                        436
+                    ]
+                ],
+                [
+                    0.497,
+                    "of",
+                    [
+                        2209,
+                        2211
+                    ]
+                ],
+                [
+                    0.513,
+                    "the",
+                    [
+                        2212,
+                        2215
+                    ]
+                ],
+                [
+                    0.512,
+                    "condition",
+                    [
+                        4074,
+                        4083
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

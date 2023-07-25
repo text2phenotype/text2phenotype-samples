@@ -1,0 +1,301 @@
+{
+    "file": "physical-therapy-outpatient-rehab.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "program",
+                "code": "890964",
+                "cui": "C2728259",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Program",
+                "range": [
+                    757,
+                    764
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.952
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            }
+        ],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "reflect",
+                "range": [
+                    456,
+                    463
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "debilitation",
+                "range": [
+                    1904,
+                    1916
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "appointments",
+                "range": [
+                    1994,
+                    2006
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.005,
+        "uncertain_count": 0,
+        "narrow_band_ratio": 0.0,
+        "uncertain_tokens": {},
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "reflect",
+                    [
+                        456,
+                        463
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "chronic",
+                    [
+                        1871,
+                        1878
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "back",
+                    [
+                        1879,
+                        1883
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "pain",
+                    [
+                        1884,
+                        1888
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "weakness",
+                    [
+                        1890,
+                        1898
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "debilitation",
+                    [
+                        1904,
+                        1916
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "chronic",
+                    [
+                        1930,
+                        1937
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "pain",
+                    [
+                        1938,
+                        1942
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "appointments",
+                    [
+                        1994,
+                        2006
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.84,
+                    "chronic",
+                    [
+                        1871,
+                        1878
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.823,
+                    "back",
+                    [
+                        1879,
+                        1883
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.826,
+                    "pain",
+                    [
+                        1884,
+                        1888
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.488,
+                    "weakness",
+                    [
+                        1890,
+                        1898
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.462,
+                    "debilitation",
+                    [
+                        1904,
+                        1916
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.896,
+                    "chronic",
+                    [
+                        1930,
+                        1937
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.888,
+                    "pain",
+                    [
+                        1938,
+                        1942
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.077,
+        "uncertain_token_count": 7,
+        "narrow_band_ratio": 0.011,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.472,
+                    "findings",
+                    [
+                        443,
+                        451
+                    ]
+                ],
+                [
+                    0.452,
+                    "reflect",
+                    [
+                        456,
+                        463
+                    ]
+                ],
+                [
+                    0.515,
+                    "to",
+                    [
+                        1927,
+                        1929
+                    ]
+                ],
+                [
+                    0.478,
+                    "numerous",
+                    [
+                        1985,
+                        1993
+                    ]
+                ],
+                [
+                    0.455,
+                    "appointments",
+                    [
+                        1994,
+                        2006
+                    ]
+                ]
+            ],
+            "DIAGNOSIS": [
+                [
+                    0.488,
+                    "weakness",
+                    [
+                        1890,
+                        1898
+                    ]
+                ],
+                [
+                    0.462,
+                    "debilitation",
+                    [
+                        1904,
+                        1916
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

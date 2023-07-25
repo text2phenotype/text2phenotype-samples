@@ -1,0 +1,222 @@
+{
+    "file": "headache-urgent-care-visit.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "Tylenol",
+                "code": "202433",
+                "cui": "C0699142",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Tylenol",
+                "range": [
+                    309,
+                    316
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.981
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "Tylenol",
+                "code": "202433",
+                "cui": "C0699142",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Tylenol",
+                "range": [
+                    309,
+                    316
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.981
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "Tylenol with codeine",
+                "code": "220586",
+                "cui": "C0724034",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Tylenol with Codeine",
+                "range": [
+                    877,
+                    897
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.989
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "Tylenol with codeine",
+                "code": "220586",
+                "cui": "C0724034",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Tylenol with Codeine",
+                "range": [
+                    877,
+                    897
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.989
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            }
+        ],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "Migraine",
+                "range": [
+                    983,
+                    991
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "37796009",
+                "cui": "C0149931",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Migraine Disorders"
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.006,
+        "uncertain_count": 0,
+        "narrow_band_ratio": 0.0,
+        "uncertain_tokens": {},
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "Headache",
+                    [
+                        6,
+                        14
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "occipital",
+                    [
+                        65,
+                        74
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "headache",
+                    [
+                        75,
+                        83
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Migraine",
+                    [
+                        983,
+                        991
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "headache",
+                    [
+                        992,
+                        1000
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.58,
+                    "Headache",
+                    [
+                        6,
+                        14
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.567,
+                    "occipital",
+                    [
+                        65,
+                        74
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.648,
+                    "headache",
+                    [
+                        75,
+                        83
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.974,
+                    "Migraine",
+                    [
+                        983,
+                        991
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.889,
+                    "headache",
+                    [
+                        992,
+                        1000
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.043,
+        "uncertain_token_count": 0,
+        "narrow_band_ratio": 0.0,
+        "uncertain_tokens": {},
+        "narrow_band_width": 0.2
+    }
+}

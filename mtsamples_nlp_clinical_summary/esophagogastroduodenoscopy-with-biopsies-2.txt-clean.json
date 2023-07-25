@@ -1,0 +1,674 @@
+{
+    "file": "esophagogastroduodenoscopy-with-biopsies-2.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "Demerol",
+                "code": "282381",
+                "cui": "C0935966",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Demerol",
+                "range": [
+                    750,
+                    757
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 1.0
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "Demerol",
+                "code": "282381",
+                "cui": "C0935966",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Demerol",
+                "range": [
+                    750,
+                    757
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 1.0
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            }
+        ],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "Refractory",
+                "range": [
+                    26,
+                    36
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "Hiatal hernia",
+                "range": [
+                    79,
+                    92
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "84089009",
+                "cui": "C3489393",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Hiatal Hernia"
+            },
+            {
+                "text": "Reflux esophagitis",
+                "range": [
+                    99,
+                    117
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "57643001",
+                "cui": "C0014869",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Peptic Esophagitis"
+            },
+            {
+                "text": "reflux and GERD type symptoms",
+                "range": [
+                    412,
+                    441
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "698065002",
+                "cui": "C0017168",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Gastroesophageal reflux disease"
+            },
+            {
+                "text": "as",
+                "range": [
+                    471,
+                    473
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "dyspeptic symptoms",
+                "range": [
+                    565,
+                    583
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "hiatal hernia",
+                "range": [
+                    937,
+                    950
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "84089009",
+                "cui": "C3489393",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Hiatal Hernia"
+            },
+            {
+                "text": "reflux\nesophagitis",
+                "range": [
+                    1017,
+                    1035
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "57643001",
+                "cui": "C0014869",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Peptic Esophagitis"
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.012,
+        "uncertain_count": 2,
+        "narrow_band_ratio": 0.006,
+        "uncertain_tokens": {
+            "MED": [
+                [
+                    0.601,
+                    "Demerol",
+                    [
+                        240,
+                        247
+                    ]
+                ],
+                [
+                    0.582,
+                    "proton-pump",
+                    [
+                        1927,
+                        1938
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "PROBLEM": [
+                    "Refractory",
+                    [
+                        26,
+                        36
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "dyspepsia",
+                    [
+                        37,
+                        46
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Hiatal",
+                    [
+                        79,
+                        85
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "hernia",
+                    [
+                        86,
+                        92
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Reflux",
+                    [
+                        99,
+                        105
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "esophagitis",
+                    [
+                        106,
+                        117
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "reflux",
+                    [
+                        412,
+                        418
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "and",
+                    [
+                        419,
+                        422
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "GERD",
+                    [
+                        423,
+                        427
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "type",
+                    [
+                        428,
+                        432
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "symptoms",
+                    [
+                        433,
+                        441
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "complications",
+                    [
+                        452,
+                        465
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "as",
+                    [
+                        471,
+                        473
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "hoarseness",
+                    [
+                        474,
+                        484
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "chronic",
+                    [
+                        489,
+                        496
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "cough",
+                    [
+                        497,
+                        502
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "dyspeptic",
+                    [
+                        565,
+                        574
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "symptoms",
+                    [
+                        575,
+                        583
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "hiatal",
+                    [
+                        937,
+                        943
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "hernia",
+                    [
+                        944,
+                        950
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "reflux",
+                    [
+                        1017,
+                        1023
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "esophagitis",
+                    [
+                        1024,
+                        1035
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "PROBLEM": [
+                    0.54,
+                    "Refractory",
+                    [
+                        26,
+                        36
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.633,
+                    "dyspepsia",
+                    [
+                        37,
+                        46
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.795,
+                    "Hiatal",
+                    [
+                        79,
+                        85
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.849,
+                    "hernia",
+                    [
+                        86,
+                        92
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.913,
+                    "Reflux",
+                    [
+                        99,
+                        105
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.913,
+                    "esophagitis",
+                    [
+                        106,
+                        117
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.459,
+                    "obese",
+                    [
+                        367,
+                        372
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.933,
+                    "reflux",
+                    [
+                        412,
+                        418
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.648,
+                    "and",
+                    [
+                        419,
+                        422
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.923,
+                    "GERD",
+                    [
+                        423,
+                        427
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.668,
+                    "type",
+                    [
+                        428,
+                        432
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.545,
+                    "symptoms",
+                    [
+                        433,
+                        441
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.858,
+                    "complications",
+                    [
+                        452,
+                        465
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.576,
+                    "as",
+                    [
+                        471,
+                        473
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.839,
+                    "hoarseness",
+                    [
+                        474,
+                        484
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.932,
+                    "chronic",
+                    [
+                        489,
+                        496
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.908,
+                    "cough",
+                    [
+                        497,
+                        502
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.516,
+                    "dyspeptic",
+                    [
+                        565,
+                        574
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.435,
+                    "symptoms",
+                    [
+                        575,
+                        583
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.557,
+                    "hiatal",
+                    [
+                        937,
+                        943
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.527,
+                    "hernia",
+                    [
+                        944,
+                        950
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.804,
+                    "reflux",
+                    [
+                        1017,
+                        1023
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.832,
+                    "esophagitis",
+                    [
+                        1024,
+                        1035
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.128,
+        "uncertain_token_count": 5,
+        "narrow_band_ratio": 0.014,
+        "uncertain_tokens": {
+            "DIAGNOSIS": [
+                [
+                    0.459,
+                    "obese",
+                    [
+                        367,
+                        372
+                    ]
+                ],
+                [
+                    0.527,
+                    "hernia",
+                    [
+                        944,
+                        950
+                    ]
+                ]
+            ],
+            "NA": [
+                [
+                    0.456,
+                    "female",
+                    [
+                        379,
+                        385
+                    ]
+                ]
+            ],
+            "PROBLEM": [
+                [
+                    0.516,
+                    "dyspeptic",
+                    [
+                        565,
+                        574
+                    ]
+                ],
+                [
+                    0.435,
+                    "symptoms",
+                    [
+                        575,
+                        583
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

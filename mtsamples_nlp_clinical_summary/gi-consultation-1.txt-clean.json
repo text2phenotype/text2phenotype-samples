@@ -1,0 +1,826 @@
+{
+    "file": "gi-consultation-1.txt-clean.txt",
+    "text2summary": {
+        "Medication": [],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "sprue",
+                "range": [
+                    401,
+                    406
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "81704009",
+                "cui": "C0205707",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Sprue"
+            },
+            {
+                "text": "intermittent",
+                "range": [
+                    695,
+                    707
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "with",
+                "range": [
+                    724,
+                    728
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "arthritis",
+                "range": [
+                    1319,
+                    1328
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "3723001",
+                "cui": "C0003864",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Arthritis"
+            },
+            {
+                "text": "celiac sprue",
+                "range": [
+                    2318,
+                    2330
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "celiac disease",
+                "range": [
+                    2720,
+                    2734
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "396331005",
+                "cui": "C0007570",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Celiac Disease"
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.009,
+        "uncertain_count": 3,
+        "narrow_band_ratio": 0.005,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.626,
+                    "gluten-free",
+                    [
+                        514,
+                        525
+                    ]
+                ],
+                [
+                    0.684,
+                    "gluten",
+                    [
+                        2509,
+                        2515
+                    ]
+                ]
+            ],
+            "MED": [
+                [
+                    0.655,
+                    "gold",
+                    [
+                        2426,
+                        2430
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "Rectal",
+                    [
+                        11,
+                        17
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "bleeding",
+                    [
+                        18,
+                        26
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "diarrhea",
+                    [
+                        158,
+                        166
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "constipation",
+                    [
+                        168,
+                        180
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "cramping",
+                    [
+                        182,
+                        190
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "nausea",
+                    [
+                        192,
+                        198
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "vomiting",
+                    [
+                        200,
+                        208
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "bloating",
+                    [
+                        210,
+                        218
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "belching",
+                    [
+                        220,
+                        228
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "abdominal",
+                    [
+                        230,
+                        239
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "discomfort",
+                    [
+                        240,
+                        250
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "change",
+                    [
+                        252,
+                        258
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "in",
+                    [
+                        259,
+                        261
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "bowel",
+                    [
+                        262,
+                        267
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "habits",
+                    [
+                        268,
+                        274
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "sprue",
+                    [
+                        401,
+                        406
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "intermittent",
+                    [
+                        695,
+                        707
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "rectal",
+                    [
+                        708,
+                        714
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "bleeding",
+                    [
+                        715,
+                        723
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "with",
+                    [
+                        724,
+                        728
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "constipation",
+                    [
+                        729,
+                        741
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "arthritis",
+                    [
+                        1319,
+                        1328
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "headaches",
+                    [
+                        1538,
+                        1547
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "anxiety",
+                    [
+                        1549,
+                        1556
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "cold",
+                    [
+                        1567,
+                        1571
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "intolerance",
+                    [
+                        1572,
+                        1583
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "excessive",
+                    [
+                        1585,
+                        1594
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "thirst",
+                    [
+                        1595,
+                        1601
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "urination",
+                    [
+                        1606,
+                        1615
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "celiac",
+                    [
+                        2318,
+                        2324
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "sprue",
+                    [
+                        2325,
+                        2330
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "celiac",
+                    [
+                        2720,
+                        2726
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "disease",
+                    [
+                        2727,
+                        2734
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.596,
+                    "Rectal",
+                    [
+                        11,
+                        17
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.5,
+                    "bleeding",
+                    [
+                        18,
+                        26
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.8,
+                    "diarrhea",
+                    [
+                        158,
+                        166
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.864,
+                    "constipation",
+                    [
+                        168,
+                        180
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.915,
+                    "cramping",
+                    [
+                        182,
+                        190
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.917,
+                    "nausea",
+                    [
+                        192,
+                        198
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.951,
+                    "vomiting",
+                    [
+                        200,
+                        208
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.948,
+                    "bloating",
+                    [
+                        210,
+                        218
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.938,
+                    "belching",
+                    [
+                        220,
+                        228
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.942,
+                    "abdominal",
+                    [
+                        230,
+                        239
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.919,
+                    "discomfort",
+                    [
+                        240,
+                        250
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.675,
+                    "change",
+                    [
+                        252,
+                        258
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.687,
+                    "in",
+                    [
+                        259,
+                        261
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.852,
+                    "bowel",
+                    [
+                        262,
+                        267
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.823,
+                    "habits",
+                    [
+                        268,
+                        274
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.581,
+                    "sprue",
+                    [
+                        401,
+                        406
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.627,
+                    "intermittent",
+                    [
+                        695,
+                        707
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.671,
+                    "rectal",
+                    [
+                        708,
+                        714
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.581,
+                    "bleeding",
+                    [
+                        715,
+                        723
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.396,
+                    "with",
+                    [
+                        724,
+                        728
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.455,
+                    "constipation",
+                    [
+                        729,
+                        741
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.609,
+                    "headaches",
+                    [
+                        1538,
+                        1547
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.483,
+                    "anxiety",
+                    [
+                        1549,
+                        1556
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.725,
+                    "cold",
+                    [
+                        1567,
+                        1571
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.694,
+                    "intolerance",
+                    [
+                        1572,
+                        1583
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.667,
+                    "excessive",
+                    [
+                        1585,
+                        1594
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.709,
+                    "thirst",
+                    [
+                        1595,
+                        1601
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.709,
+                    "urination",
+                    [
+                        1606,
+                        1615
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.506,
+                    "celiac",
+                    [
+                        2318,
+                        2324
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.687,
+                    "sprue",
+                    [
+                        2325,
+                        2330
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.633,
+                    "celiac",
+                    [
+                        2720,
+                        2726
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.533,
+                    "disease",
+                    [
+                        2727,
+                        2734
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.13,
+        "uncertain_token_count": 8,
+        "narrow_band_ratio": 0.013,
+        "uncertain_tokens": {
+            "PROBLEM": [
+                [
+                    0.5,
+                    "bleeding",
+                    [
+                        18,
+                        26
+                    ]
+                ],
+                [
+                    0.455,
+                    "constipation",
+                    [
+                        729,
+                        741
+                    ]
+                ],
+                [
+                    0.483,
+                    "anxiety",
+                    [
+                        1549,
+                        1556
+                    ]
+                ]
+            ],
+            "NA": [
+                [
+                    0.503,
+                    "noted",
+                    [
+                        152,
+                        157
+                    ]
+                ],
+                [
+                    0.474,
+                    "celiac",
+                    [
+                        394,
+                        400
+                    ]
+                ],
+                [
+                    0.392,
+                    "arthritis",
+                    [
+                        1319,
+                        1328
+                    ]
+                ]
+            ],
+            "DIAGNOSIS": [
+                [
+                    0.396,
+                    "with",
+                    [
+                        724,
+                        728
+                    ]
+                ],
+                [
+                    0.506,
+                    "celiac",
+                    [
+                        2318,
+                        2324
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

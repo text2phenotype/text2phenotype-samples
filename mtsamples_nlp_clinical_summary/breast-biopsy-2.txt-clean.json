@@ -1,0 +1,580 @@
+{
+    "file": "breast-biopsy-2.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "Betadine",
+                "code": "202750",
+                "cui": "C0699524",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Betadine",
+                "range": [
+                    1270,
+                    1278
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.999
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "Betadine",
+                "code": "202750",
+                "cui": "C0699524",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Betadine",
+                "range": [
+                    1270,
+                    1278
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.999
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            }
+        ],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "Left",
+                "range": [
+                    27,
+                    31
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "Left",
+                "range": [
+                    72,
+                    76
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "Breast tissue",
+                "range": [
+                    342,
+                    355
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "in the left breast",
+                "range": [
+                    530,
+                    548
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "the left breast",
+                "range": [
+                    624,
+                    639
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.009,
+        "uncertain_count": 1,
+        "narrow_band_ratio": 0.002,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.646,
+                    "Benzoin",
+                    [
+                        2446,
+                        2453
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "PROBLEM": [
+                    "Left",
+                    [
+                        27,
+                        31
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "breast",
+                    [
+                        32,
+                        38
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "mass",
+                    [
+                        39,
+                        43
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "POSTOPERATIVE",
+                    [
+                        46,
+                        59
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "DIAGNOSIS",
+                    [
+                        60,
+                        69
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Left",
+                    [
+                        72,
+                        76
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "breast",
+                    [
+                        77,
+                        83
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "mass",
+                    [
+                        84,
+                        88
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "Breast",
+                    [
+                        342,
+                        348
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "tissue",
+                    [
+                        349,
+                        355
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "in",
+                    [
+                        530,
+                        532
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "the",
+                    [
+                        533,
+                        536
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "left",
+                    [
+                        537,
+                        541
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "breast",
+                    [
+                        542,
+                        548
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "the",
+                    [
+                        624,
+                        627
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "left",
+                    [
+                        628,
+                        632
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "breast",
+                    [
+                        633,
+                        639
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "lesion",
+                    [
+                        808,
+                        814
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "PROBLEM": [
+                    0.486,
+                    "Left",
+                    [
+                        27,
+                        31
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.574,
+                    "breast",
+                    [
+                        32,
+                        38
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.605,
+                    "mass",
+                    [
+                        39,
+                        43
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.477,
+                    "POSTOPERATIVE",
+                    [
+                        46,
+                        59
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.406,
+                    "DIAGNOSIS",
+                    [
+                        60,
+                        69
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.479,
+                    "Left",
+                    [
+                        72,
+                        76
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.541,
+                    "breast",
+                    [
+                        77,
+                        83
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.501,
+                    "mass",
+                    [
+                        84,
+                        88
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.613,
+                    "in",
+                    [
+                        530,
+                        532
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.729,
+                    "the",
+                    [
+                        533,
+                        536
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.656,
+                    "left",
+                    [
+                        537,
+                        541
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.607,
+                    "breast",
+                    [
+                        542,
+                        548
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.386,
+                    "the",
+                    [
+                        624,
+                        627
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.456,
+                    "left",
+                    [
+                        628,
+                        632
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.397,
+                    "breast",
+                    [
+                        633,
+                        639
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.511,
+                    "lesion",
+                    [
+                        808,
+                        814
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.12,
+        "uncertain_token_count": 13,
+        "narrow_band_ratio": 0.028,
+        "uncertain_tokens": {
+            "PROBLEM": [
+                [
+                    0.486,
+                    "Left",
+                    [
+                        27,
+                        31
+                    ]
+                ],
+                [
+                    0.477,
+                    "POSTOPERATIVE",
+                    [
+                        46,
+                        59
+                    ]
+                ],
+                [
+                    0.406,
+                    "DIAGNOSIS",
+                    [
+                        60,
+                        69
+                    ]
+                ],
+                [
+                    0.456,
+                    "left",
+                    [
+                        628,
+                        632
+                    ]
+                ],
+                [
+                    0.397,
+                    "breast",
+                    [
+                        633,
+                        639
+                    ]
+                ]
+            ],
+            "DIAGNOSIS": [
+                [
+                    0.479,
+                    "Left",
+                    [
+                        72,
+                        76
+                    ]
+                ],
+                [
+                    0.501,
+                    "mass",
+                    [
+                        84,
+                        88
+                    ]
+                ],
+                [
+                    0.386,
+                    "the",
+                    [
+                        624,
+                        627
+                    ]
+                ],
+                [
+                    0.511,
+                    "lesion",
+                    [
+                        808,
+                        814
+                    ]
+                ]
+            ],
+            "NA": [
+                [
+                    0.439,
+                    "Breast",
+                    [
+                        342,
+                        348
+                    ]
+                ],
+                [
+                    0.443,
+                    "tissue",
+                    [
+                        349,
+                        355
+                    ]
+                ],
+                [
+                    0.494,
+                    "mass",
+                    [
+                        525,
+                        529
+                    ]
+                ],
+                [
+                    0.449,
+                    "density",
+                    [
+                        613,
+                        620
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

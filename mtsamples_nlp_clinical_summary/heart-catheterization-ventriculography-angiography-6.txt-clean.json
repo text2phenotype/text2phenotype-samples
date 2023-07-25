@@ -1,0 +1,891 @@
+{
+    "file": "heart-catheterization-ventriculography-angiography-6.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "fentanyl",
+                "code": "4337",
+                "cui": "C0015846",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Fentanyl",
+                "range": [
+                    718,
+                    726
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.948
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [
+                    "58",
+                    1864,
+                    1866
+                ],
+                "medStrengthUnit": [
+                    "%",
+                    1866,
+                    1867
+                ]
+            },
+            {
+                "text": "fentanyl",
+                "code": "4337",
+                "cui": "C0015846",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Fentanyl",
+                "range": [
+                    718,
+                    726
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.948
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [
+                    "58",
+                    1864,
+                    1866
+                ],
+                "medStrengthUnit": [
+                    "%",
+                    1866,
+                    1867
+                ]
+            }
+        ],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "Metabolic syndrome",
+                "range": [
+                    114,
+                    132
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "237602007",
+                "cui": "C0524620",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Metabolic Syndrome X"
+            },
+            {
+                "text": "two-vessel coronary artery disease",
+                "range": [
+                    191,
+                    225
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "Metabolic syndrome",
+                "range": [
+                    299,
+                    317
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "237602007",
+                "cui": "C0524620",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Metabolic Syndrome X"
+            },
+            {
+                "text": "coronary artery disease",
+                "range": [
+                    1932,
+                    1955
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "53741008",
+                "cui": "C1956346",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Coronary Artery Disease"
+            },
+            {
+                "text": "artery",
+                "range": [
+                    2086,
+                    2092
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "artery",
+                "range": [
+                    2114,
+                    2120
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "septal\nperforators",
+                "range": [
+                    2447,
+                    2465
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "posterior",
+                "range": [
+                    3435,
+                    3444
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "72442006",
+                "cui": "C0751438",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Posterior pituitary disease"
+            },
+            {
+                "text": "segment of the right coronary artery as",
+                "range": [
+                    3814,
+                    3853
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.007,
+        "uncertain_count": 1,
+        "narrow_band_ratio": 0.001,
+        "uncertain_tokens": {
+            "MED": [
+                [
+                    0.585,
+                    "rises",
+                    [
+                        2359,
+                        2364
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "PVCs",
+                    [
+                        103,
+                        107
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Metabolic",
+                    [
+                        114,
+                        123
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "syndrome",
+                    [
+                        124,
+                        132
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "two-vessel",
+                    [
+                        191,
+                        201
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "coronary",
+                    [
+                        202,
+                        210
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "artery",
+                    [
+                        211,
+                        217
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "disease",
+                    [
+                        218,
+                        225
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "systolic",
+                    [
+                        255,
+                        263
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "function",
+                    [
+                        264,
+                        272
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Metabolic",
+                    [
+                        299,
+                        308
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "syndrome",
+                    [
+                        309,
+                        317
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "coronary",
+                    [
+                        1932,
+                        1940
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "artery",
+                    [
+                        1941,
+                        1947
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "disease",
+                    [
+                        1948,
+                        1955
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "artery",
+                    [
+                        2086,
+                        2092
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "artery",
+                    [
+                        2114,
+                        2120
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "septal",
+                    [
+                        2447,
+                        2453
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "perforators",
+                    [
+                        2454,
+                        2465
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "posterior",
+                    [
+                        3435,
+                        3444
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "lesion",
+                    [
+                        3791,
+                        3797
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "segment",
+                    [
+                        3814,
+                        3821
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "of",
+                    [
+                        3822,
+                        3824
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "the",
+                    [
+                        3825,
+                        3828
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "right",
+                    [
+                        3829,
+                        3834
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "coronary",
+                    [
+                        3835,
+                        3843
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "artery",
+                    [
+                        3844,
+                        3850
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "as",
+                    [
+                        3851,
+                        3853
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.379,
+                    "PVCs",
+                    [
+                        103,
+                        107
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.888,
+                    "Metabolic",
+                    [
+                        114,
+                        123
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.94,
+                    "syndrome",
+                    [
+                        124,
+                        132
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.833,
+                    "two-vessel",
+                    [
+                        191,
+                        201
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.936,
+                    "coronary",
+                    [
+                        202,
+                        210
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.942,
+                    "artery",
+                    [
+                        211,
+                        217
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.943,
+                    "disease",
+                    [
+                        218,
+                        225
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.447,
+                    "systolic",
+                    [
+                        255,
+                        263
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.626,
+                    "function",
+                    [
+                        264,
+                        272
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.95,
+                    "Metabolic",
+                    [
+                        299,
+                        308
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.962,
+                    "syndrome",
+                    [
+                        309,
+                        317
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.746,
+                    "coronary",
+                    [
+                        1932,
+                        1940
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.768,
+                    "artery",
+                    [
+                        1941,
+                        1947
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.802,
+                    "disease",
+                    [
+                        1948,
+                        1955
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.514,
+                    "artery",
+                    [
+                        2114,
+                        2120
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.427,
+                    "septal",
+                    [
+                        2447,
+                        2453
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.497,
+                    "posterior",
+                    [
+                        3435,
+                        3444
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.536,
+                    "segment",
+                    [
+                        3814,
+                        3821
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.587,
+                    "of",
+                    [
+                        3822,
+                        3824
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.562,
+                    "the",
+                    [
+                        3825,
+                        3828
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.501,
+                    "right",
+                    [
+                        3829,
+                        3834
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.497,
+                    "coronary",
+                    [
+                        3835,
+                        3843
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.448,
+                    "artery",
+                    [
+                        3844,
+                        3850
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.479,
+                    "as",
+                    [
+                        3851,
+                        3853
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.147,
+        "uncertain_token_count": 23,
+        "narrow_band_ratio": 0.031,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.442,
+                    "Dyspnea",
+                    [
+                        30,
+                        37
+                    ]
+                ],
+                [
+                    0.451,
+                    "exertion",
+                    [
+                        41,
+                        49
+                    ]
+                ],
+                [
+                    0.477,
+                    "Frequent",
+                    [
+                        94,
+                        102
+                    ]
+                ],
+                [
+                    0.476,
+                    "Frequent",
+                    [
+                        279,
+                        287
+                    ]
+                ],
+                [
+                    0.466,
+                    "PVCs",
+                    [
+                        288,
+                        292
+                    ]
+                ],
+                [
+                    0.465,
+                    "ejection",
+                    [
+                        1842,
+                        1850
+                    ]
+                ],
+                [
+                    0.527,
+                    "artery",
+                    [
+                        2060,
+                        2066
+                    ]
+                ],
+                [
+                    0.497,
+                    "intermedius",
+                    [
+                        2074,
+                        2085
+                    ]
+                ],
+                [
+                    0.481,
+                    "artery",
+                    [
+                        2086,
+                        2092
+                    ]
+                ],
+                [
+                    0.463,
+                    "left",
+                    [
+                        2098,
+                        2102
+                    ]
+                ],
+                [
+                    0.47,
+                    "circumflex",
+                    [
+                        2103,
+                        2113
+                    ]
+                ],
+                [
+                    0.425,
+                    "perforators",
+                    [
+                        2454,
+                        2465
+                    ]
+                ],
+                [
+                    0.442,
+                    "lesion",
+                    [
+                        3791,
+                        3797
+                    ]
+                ],
+                [
+                    0.52,
+                    "proximal",
+                    [
+                        3805,
+                        3813
+                    ]
+                ]
+            ],
+            "DIAGNOSIS": [
+                [
+                    0.379,
+                    "PVCs",
+                    [
+                        103,
+                        107
+                    ]
+                ],
+                [
+                    0.447,
+                    "systolic",
+                    [
+                        255,
+                        263
+                    ]
+                ],
+                [
+                    0.514,
+                    "artery",
+                    [
+                        2114,
+                        2120
+                    ]
+                ],
+                [
+                    0.427,
+                    "septal",
+                    [
+                        2447,
+                        2453
+                    ]
+                ],
+                [
+                    0.497,
+                    "posterior",
+                    [
+                        3435,
+                        3444
+                    ]
+                ],
+                [
+                    0.501,
+                    "right",
+                    [
+                        3829,
+                        3834
+                    ]
+                ],
+                [
+                    0.497,
+                    "coronary",
+                    [
+                        3835,
+                        3843
+                    ]
+                ],
+                [
+                    0.448,
+                    "artery",
+                    [
+                        3844,
+                        3850
+                    ]
+                ],
+                [
+                    0.479,
+                    "as",
+                    [
+                        3851,
+                        3853
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

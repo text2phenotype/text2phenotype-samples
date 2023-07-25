@@ -1,0 +1,382 @@
+{
+    "file": "hydrocelectomy.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "antibiotics",
+                "code": null,
+                "cui": null,
+                "tui": null,
+                "vocab": null,
+                "polarity": "positive",
+                "preferredText": null,
+                "range": [
+                    776,
+                    787
+                ],
+                "prob": {
+                    "MED": 0.928
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "Ancef",
+                "code": "203483",
+                "cui": "C0700926",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Ancef",
+                "range": [
+                    800,
+                    805
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 1.0
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [
+                    "1",
+                    806,
+                    807
+                ],
+                "medStrengthUnit": [
+                    "g",
+                    808,
+                    809
+                ]
+            },
+            {
+                "text": "Ancef",
+                "code": "203483",
+                "cui": "C0700926",
+                "tui": "T195",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Ancef",
+                "range": [
+                    800,
+                    805
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 1.0
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [
+                    "1",
+                    806,
+                    807
+                ],
+                "medStrengthUnit": [
+                    "g",
+                    808,
+                    809
+                ]
+            },
+            {
+                "text": "Toradol",
+                "code": "57309",
+                "cui": "C0146226",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Toradol",
+                "range": [
+                    1905,
+                    1912
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.91
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "Toradol",
+                "code": "57309",
+                "cui": "C0146226",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Toradol",
+                "range": [
+                    1905,
+                    1912
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.91
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "Bacitracin",
+                "code": "1291",
+                "cui": "C0004599",
+                "tui": "T195",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Bacitracin",
+                "range": [
+                    2081,
+                    2091
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.952
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            }
+        ],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "Bilateral",
+                "range": [
+                    26,
+                    35
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "back into",
+                "range": [
+                    1740,
+                    1749
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.01,
+        "uncertain_count": 2,
+        "narrow_band_ratio": 0.005,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.659,
+                    "Lord",
+                    [
+                        1561,
+                        1565
+                    ]
+                ]
+            ],
+            "MED": [
+                [
+                    0.584,
+                    "Marcaine",
+                    [
+                        1872,
+                        1880
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "Bilateral",
+                    [
+                        26,
+                        35
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "hydroceles",
+                    [
+                        36,
+                        46
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "hydroceles",
+                    [
+                        84,
+                        94
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "back",
+                    [
+                        1740,
+                        1744
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "into",
+                    [
+                        1745,
+                        1749
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "wound",
+                    [
+                        1824,
+                        1829
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.645,
+                    "Bilateral",
+                    [
+                        26,
+                        35
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.442,
+                    "hydroceles",
+                    [
+                        36,
+                        46
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.518,
+                    "back",
+                    [
+                        1740,
+                        1744
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.507,
+                    "into",
+                    [
+                        1745,
+                        1749
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.469,
+                    "wound",
+                    [
+                        1824,
+                        1829
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.099,
+        "uncertain_token_count": 7,
+        "narrow_band_ratio": 0.017,
+        "uncertain_tokens": {
+            "DIAGNOSIS": [
+                [
+                    0.442,
+                    "hydroceles",
+                    [
+                        36,
+                        46
+                    ]
+                ],
+                [
+                    0.518,
+                    "back",
+                    [
+                        1740,
+                        1744
+                    ]
+                ],
+                [
+                    0.507,
+                    "into",
+                    [
+                        1745,
+                        1749
+                    ]
+                ],
+                [
+                    0.469,
+                    "wound",
+                    [
+                        1824,
+                        1829
+                    ]
+                ]
+            ],
+            "NA": [
+                [
+                    0.453,
+                    "hydroceles",
+                    [
+                        84,
+                        94
+                    ]
+                ],
+                [
+                    0.363,
+                    "hydroceles",
+                    [
+                        414,
+                        424
+                    ]
+                ],
+                [
+                    0.499,
+                    "wound",
+                    [
+                        1801,
+                        1806
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

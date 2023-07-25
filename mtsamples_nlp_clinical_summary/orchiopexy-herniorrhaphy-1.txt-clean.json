@@ -1,0 +1,239 @@
+{
+    "file": "orchiopexy-herniorrhaphy-1.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "Marcaine",
+                "code": "1012397",
+                "cui": "C2945665",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Marcaine",
+                "range": [
+                    3141,
+                    3149
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.998
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [
+                    "0.25",
+                    3150,
+                    3154
+                ],
+                "medStrengthUnit": [
+                    "%",
+                    3154,
+                    3155
+                ]
+            }
+        ],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "infection",
+                "range": [
+                    933,
+                    942
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "189822004",
+                "cui": "C0009450",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Communicable Diseases"
+            },
+            {
+                "text": "hernia",
+                "range": [
+                    950,
+                    956
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "414403008",
+                "cui": "C0019270",
+                "tui": "T190",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Hernia"
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.004,
+        "uncertain_count": 1,
+        "narrow_band_ratio": 0.001,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.627,
+                    "HCG",
+                    [
+                        859,
+                        862
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "PROBLEM": [
+                    "undescended",
+                    [
+                        32,
+                        43
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "undescended",
+                    [
+                        86,
+                        97
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "testicle",
+                    [
+                        98,
+                        106
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "infection",
+                    [
+                        933,
+                        942
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "hernia",
+                    [
+                        950,
+                        956
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "PROBLEM": [
+                    0.487,
+                    "undescended",
+                    [
+                        32,
+                        43
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.457,
+                    "testicle",
+                    [
+                        44,
+                        52
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.568,
+                    "undescended",
+                    [
+                        86,
+                        97
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.556,
+                    "testicle",
+                    [
+                        98,
+                        106
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.395,
+                    "infection",
+                    [
+                        933,
+                        942
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.401,
+                    "hernia",
+                    [
+                        950,
+                        956
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.069,
+        "uncertain_token_count": 4,
+        "narrow_band_ratio": 0.005,
+        "uncertain_tokens": {
+            "PROBLEM": [
+                [
+                    0.487,
+                    "undescended",
+                    [
+                        32,
+                        43
+                    ]
+                ],
+                [
+                    0.457,
+                    "testicle",
+                    [
+                        44,
+                        52
+                    ]
+                ]
+            ],
+            "DIAGNOSIS": [
+                [
+                    0.395,
+                    "infection",
+                    [
+                        933,
+                        942
+                    ]
+                ],
+                [
+                    0.401,
+                    "hernia",
+                    [
+                        950,
+                        956
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

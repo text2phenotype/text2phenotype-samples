@@ -1,0 +1,291 @@
+{
+    "file": "status-post-tympanoplasty.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "Omnicef",
+                "code": "83099",
+                "cui": "C0285868",
+                "tui": "T195",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Omnicef",
+                "range": [
+                    879,
+                    886
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.949
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "Omnicef",
+                "code": "83099",
+                "cui": "C0285868",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Omnicef",
+                "range": [
+                    879,
+                    886
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.949
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "Augmentin",
+                "code": "151392",
+                "cui": "C0591132",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Augmentin",
+                "range": [
+                    910,
+                    919
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.963
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "Augmentin",
+                "code": "151392",
+                "cui": "C0591132",
+                "tui": "T195",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Augmentin",
+                "range": [
+                    910,
+                    919
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.963
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "Augmentin",
+                "code": "151392",
+                "cui": "C0591132",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Augmentin",
+                "range": [
+                    997,
+                    1006
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.998
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [
+                    "400",
+                    1007,
+                    1010
+                ],
+                "medStrengthUnit": [
+                    "mg",
+                    1011,
+                    1013
+                ]
+            },
+            {
+                "text": "Augmentin",
+                "code": "151392",
+                "cui": "C0591132",
+                "tui": "T195",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Augmentin",
+                "range": [
+                    997,
+                    1006
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.998
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [
+                    "400",
+                    1007,
+                    1010
+                ],
+                "medStrengthUnit": [
+                    "mg",
+                    1011,
+                    1013
+                ]
+            }
+        ],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "traumatic perforation of the",
+                "range": [
+                    46,
+                    74
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "43892002",
+                "cui": "C0728942",
+                "tui": "T037",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Perforating wound"
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.007,
+        "uncertain_count": 1,
+        "narrow_band_ratio": 0.003,
+        "uncertain_tokens": {
+            "MED": [
+                [
+                    0.699,
+                    "Floxin",
+                    [
+                        1201,
+                        1207
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "traumatic",
+                    [
+                        46,
+                        55
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "perforation",
+                    [
+                        56,
+                        67
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "of",
+                    [
+                        68,
+                        70
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "the",
+                    [
+                        71,
+                        74
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.635,
+                    "traumatic",
+                    [
+                        46,
+                        55
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.55,
+                    "perforation",
+                    [
+                        56,
+                        67
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.463,
+                    "of",
+                    [
+                        68,
+                        70
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.476,
+                    "the",
+                    [
+                        71,
+                        74
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.09,
+        "uncertain_token_count": 2,
+        "narrow_band_ratio": 0.007,
+        "uncertain_tokens": {
+            "DIAGNOSIS": [
+                [
+                    0.463,
+                    "of",
+                    [
+                        68,
+                        70
+                    ]
+                ],
+                [
+                    0.476,
+                    "the",
+                    [
+                        71,
+                        74
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

@@ -1,0 +1,275 @@
+{
+    "file": "thrombocytopenia-soap-note.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "prednisone",
+                "code": "8640",
+                "cui": "C0032952",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Prednisone",
+                "range": [
+                    172,
+                    182
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.996
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [
+                    "day",
+                    194,
+                    197
+                ],
+                "medStrengthNum": [
+                    "60",
+                    186,
+                    188
+                ],
+                "medStrengthUnit": [
+                    "mg",
+                    189,
+                    191
+                ]
+            },
+            {
+                "text": "prednisone",
+                "code": "8640",
+                "cui": "C0032952",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Prednisone",
+                "range": [
+                    172,
+                    182
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.996
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [
+                    "day",
+                    194,
+                    197
+                ],
+                "medStrengthNum": [
+                    "60",
+                    186,
+                    188
+                ],
+                "medStrengthUnit": [
+                    "mg",
+                    189,
+                    191
+                ]
+            },
+            {
+                "text": "prednisone",
+                "code": "8640",
+                "cui": "C0032952",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Prednisone",
+                "range": [
+                    366,
+                    376
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.984
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "prednisone",
+                "code": "8640",
+                "cui": "C0032952",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Prednisone",
+                "range": [
+                    366,
+                    376
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.984
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "medicines",
+                "code": null,
+                "cui": null,
+                "tui": null,
+                "vocab": null,
+                "polarity": "positive",
+                "preferredText": null,
+                "range": [
+                    988,
+                    997
+                ],
+                "prob": {
+                    "MED": 0.995
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            }
+        ],
+        "Allergy": [],
+        "Lab": [
+            {
+                "code": "MTHU008063",
+                "cui": "C0005821",
+                "tui": "T034",
+                "vocab": "LNC",
+                "polarity": "positive",
+                "text": "platelets",
+                "preferredText": "THROMBOCYTE (PLATELET)",
+                "range": [
+                    80,
+                    89
+                ]
+            }
+        ],
+        "DiseaseDisorder": [
+            {
+                "text": "immune thrombocytopenia",
+                "range": [
+                    51,
+                    74
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "2897005",
+                "cui": "C0272286",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Thrombocytopenia due to platelet alloimmunization"
+            },
+            {
+                "text": "osteoporosis",
+                "range": [
+                    1002,
+                    1014
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "64859006",
+                "cui": "C0029456",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Osteoporosis"
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.014,
+        "uncertain_count": 2,
+        "narrow_band_ratio": 0.009,
+        "uncertain_tokens": {
+            "MED": [
+                [
+                    0.685,
+                    "prednisone",
+                    [
+                        802,
+                        812
+                    ]
+                ],
+                [
+                    0.668,
+                    "prednisone",
+                    [
+                        835,
+                        845
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "immune",
+                    [
+                        51,
+                        57
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "thrombocytopenia",
+                    [
+                        58,
+                        74
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "osteoporosis",
+                    [
+                        1002,
+                        1014
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.601,
+                    "immune",
+                    [
+                        51,
+                        57
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.691,
+                    "thrombocytopenia",
+                    [
+                        58,
+                        74
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.6,
+                    "osteoporosis",
+                    [
+                        1002,
+                        1014
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.055,
+        "uncertain_token_count": 0,
+        "narrow_band_ratio": 0.0,
+        "uncertain_tokens": {},
+        "narrow_band_width": 0.2
+    }
+}

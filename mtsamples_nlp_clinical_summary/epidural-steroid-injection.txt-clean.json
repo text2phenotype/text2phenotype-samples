@@ -1,0 +1,514 @@
+{
+    "file": "epidural-steroid-injection.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "Depo-Medrol",
+                "code": "22584",
+                "cui": "C0057476",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Depo-Medrol",
+                "range": [
+                    1128,
+                    1139
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.964
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "Depo-Medrol",
+                "code": "22584",
+                "cui": "C0057476",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Depo-Medrol",
+                "range": [
+                    1128,
+                    1139
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.964
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            }
+        ],
+        "Allergy": [],
+        "Lab": [
+            {
+                "code": "",
+                "cui": "C0002059",
+                "tui": "T034",
+                "vocab": "LNC",
+                "polarity": "positive",
+                "text": "AP",
+                "preferredText": "ALP - ALKALINE PHOSPHATASE",
+                "range": [
+                    1075,
+                    1077
+                ]
+            }
+        ],
+        "DiseaseDisorder": [
+            {
+                "text": "724.2",
+                "range": [
+                    37,
+                    42
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "Herniated disc",
+                "range": [
+                    44,
+                    58
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "73589001",
+                "cui": "C0021818",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Intervertebral Disk Displacement"
+            },
+            {
+                "text": "722.10",
+                "range": [
+                    61,
+                    67
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "Lumbosacral Facet",
+                "range": [
+                    69,
+                    86
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "Herniated",
+                "range": [
+                    153,
+                    162
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "73589001",
+                "cui": "C0021818",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Intervertebral Disk Displacement"
+            },
+            {
+                "text": "722.10",
+                "range": [
+                    170,
+                    176
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "Lumbosacral",
+                "range": [
+                    178,
+                    189
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.016,
+        "uncertain_count": 2,
+        "narrow_band_ratio": 0.008,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.583,
+                    "anesthetic",
+                    [
+                        740,
+                        750
+                    ]
+                ]
+            ],
+            "MED": [
+                [
+                    0.565,
+                    "medications",
+                    [
+                        1421,
+                        1432
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "Low",
+                    [
+                        20,
+                        23
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "back",
+                    [
+                        24,
+                        28
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "pain",
+                    [
+                        29,
+                        33
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "724.2",
+                    [
+                        37,
+                        42
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Herniated",
+                    [
+                        44,
+                        53
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "disc",
+                    [
+                        54,
+                        58
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "-",
+                    [
+                        59,
+                        60
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "722.10",
+                    [
+                        61,
+                        67
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Lumbosacral",
+                    [
+                        69,
+                        80
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Facet",
+                    [
+                        81,
+                        86
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Low",
+                    [
+                        129,
+                        132
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "back",
+                    [
+                        133,
+                        137
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "pain",
+                    [
+                        138,
+                        142
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Herniated",
+                    [
+                        153,
+                        162
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "722.10",
+                    [
+                        170,
+                        176
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Lumbosacral",
+                    [
+                        178,
+                        189
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.948,
+                    "Low",
+                    [
+                        20,
+                        23
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.949,
+                    "back",
+                    [
+                        24,
+                        28
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.893,
+                    "pain",
+                    [
+                        29,
+                        33
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.629,
+                    "724.2",
+                    [
+                        37,
+                        42
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.888,
+                    "Herniated",
+                    [
+                        44,
+                        53
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.842,
+                    "disc",
+                    [
+                        54,
+                        58
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.657,
+                    "-",
+                    [
+                        59,
+                        60
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.868,
+                    "722.10",
+                    [
+                        61,
+                        67
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.845,
+                    "Lumbosacral",
+                    [
+                        69,
+                        80
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.669,
+                    "Facet",
+                    [
+                        81,
+                        86
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.9,
+                    "Low",
+                    [
+                        129,
+                        132
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.877,
+                    "back",
+                    [
+                        133,
+                        137
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.839,
+                    "pain",
+                    [
+                        138,
+                        142
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.542,
+                    "Herniated",
+                    [
+                        153,
+                        162
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.547,
+                    "722.10",
+                    [
+                        170,
+                        176
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.538,
+                    "Lumbosacral",
+                    [
+                        178,
+                        189
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.095,
+        "uncertain_token_count": 1,
+        "narrow_band_ratio": 0.004,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.437,
+                    "arthropathy",
+                    [
+                        88,
+                        99
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

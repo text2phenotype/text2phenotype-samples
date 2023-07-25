@@ -1,0 +1,821 @@
+{
+    "file": "fiberoptic-bronchoscopy.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "Demerol",
+                "code": "282381",
+                "cui": "C0935966",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Demerol",
+                "range": [
+                    498,
+                    505
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 1.0
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [
+                    "150",
+                    506,
+                    509
+                ],
+                "medStrengthUnit": [
+                    "mg",
+                    510,
+                    512
+                ]
+            },
+            {
+                "text": "Demerol",
+                "code": "282381",
+                "cui": "C0935966",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Demerol",
+                "range": [
+                    498,
+                    505
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 1.0
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [
+                    "150",
+                    506,
+                    509
+                ],
+                "medStrengthUnit": [
+                    "mg",
+                    510,
+                    512
+                ]
+            }
+        ],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "upper lobe",
+                "range": [
+                    110,
+                    120
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "Airway",
+                "range": [
+                    178,
+                    184
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "upper lobe segmental bronchi",
+                "range": [
+                    216,
+                    244
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "and false vocal cord",
+                "range": [
+                    877,
+                    897
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "circumferential narrowing",
+                "range": [
+                    1239,
+                    1264
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "involving the posterior",
+                "range": [
+                    1284,
+                    1307
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "segmental bronchi on the right",
+                "range": [
+                    1319,
+                    1349
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.01,
+        "uncertain_count": 2,
+        "narrow_band_ratio": 0.006,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.657,
+                    "Topical",
+                    [
+                        736,
+                        743
+                    ]
+                ]
+            ],
+            "MED": [
+                [
+                    0.534,
+                    "lidocaine",
+                    [
+                        744,
+                        753
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "PROBLEM": [
+                    "upper",
+                    [
+                        110,
+                        115
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "lobe",
+                    [
+                        116,
+                        120
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "lung",
+                    [
+                        130,
+                        134
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "masses",
+                    [
+                        135,
+                        141
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Airway",
+                    [
+                        178,
+                        184
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "upper",
+                    [
+                        216,
+                        221
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "lobe",
+                    [
+                        222,
+                        226
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "segmental",
+                    [
+                        227,
+                        236
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "bronchi",
+                    [
+                        237,
+                        244
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "inflammation",
+                    [
+                        333,
+                        345
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "and",
+                    [
+                        877,
+                        880
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "false",
+                    [
+                        881,
+                        886
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "vocal",
+                    [
+                        887,
+                        892
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "cord",
+                    [
+                        893,
+                        897
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "abnormalities",
+                    [
+                        1215,
+                        1228
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "circumferential",
+                    [
+                        1239,
+                        1254
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "narrowing",
+                    [
+                        1255,
+                        1264
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "probable",
+                    [
+                        1269,
+                        1277
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "edema",
+                    [
+                        1278,
+                        1283
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "involving",
+                    [
+                        1284,
+                        1293
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "the",
+                    [
+                        1294,
+                        1297
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "posterior",
+                    [
+                        1298,
+                        1307
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "segmental",
+                    [
+                        1319,
+                        1328
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "bronchi",
+                    [
+                        1329,
+                        1336
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "on",
+                    [
+                        1337,
+                        1339
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "the",
+                    [
+                        1340,
+                        1343
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "right",
+                    [
+                        1344,
+                        1349
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "PROBLEM": [
+                    0.426,
+                    "upper",
+                    [
+                        110,
+                        115
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.426,
+                    "lobe",
+                    [
+                        116,
+                        120
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.517,
+                    "lung",
+                    [
+                        130,
+                        134
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.372,
+                    "masses",
+                    [
+                        135,
+                        141
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.418,
+                    "Airway",
+                    [
+                        178,
+                        184
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.482,
+                    "upper",
+                    [
+                        216,
+                        221
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.502,
+                    "lobe",
+                    [
+                        222,
+                        226
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.473,
+                    "segmental",
+                    [
+                        227,
+                        236
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.469,
+                    "bronchi",
+                    [
+                        237,
+                        244
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.49,
+                    "inflammation",
+                    [
+                        333,
+                        345
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.522,
+                    "false",
+                    [
+                        881,
+                        886
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.631,
+                    "vocal",
+                    [
+                        887,
+                        892
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.633,
+                    "cord",
+                    [
+                        893,
+                        897
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.783,
+                    "circumferential",
+                    [
+                        1239,
+                        1254
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.859,
+                    "narrowing",
+                    [
+                        1255,
+                        1264
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.63,
+                    "probable",
+                    [
+                        1269,
+                        1277
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.725,
+                    "edema",
+                    [
+                        1278,
+                        1283
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.594,
+                    "involving",
+                    [
+                        1284,
+                        1293
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.678,
+                    "the",
+                    [
+                        1294,
+                        1297
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.683,
+                    "posterior",
+                    [
+                        1298,
+                        1307
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.541,
+                    "on",
+                    [
+                        1337,
+                        1339
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.529,
+                    "the",
+                    [
+                        1340,
+                        1343
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.229,
+        "uncertain_token_count": 19,
+        "narrow_band_ratio": 0.053,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.49,
+                    "Bilateral",
+                    [
+                        100,
+                        109
+                    ]
+                ],
+                [
+                    0.43,
+                    "cavitary",
+                    [
+                        121,
+                        129
+                    ]
+                ],
+                [
+                    0.442,
+                    "narrowing",
+                    [
+                        203,
+                        212
+                    ]
+                ],
+                [
+                    0.499,
+                    "and",
+                    [
+                        877,
+                        880
+                    ]
+                ],
+                [
+                    0.493,
+                    "abnormalities",
+                    [
+                        1215,
+                        1228
+                    ]
+                ],
+                [
+                    0.507,
+                    "bronchi",
+                    [
+                        1329,
+                        1336
+                    ]
+                ],
+                [
+                    0.498,
+                    "right",
+                    [
+                        1344,
+                        1349
+                    ]
+                ]
+            ],
+            "PROBLEM": [
+                [
+                    0.426,
+                    "upper",
+                    [
+                        110,
+                        115
+                    ]
+                ],
+                [
+                    0.426,
+                    "lobe",
+                    [
+                        116,
+                        120
+                    ]
+                ],
+                [
+                    0.517,
+                    "lung",
+                    [
+                        130,
+                        134
+                    ]
+                ],
+                [
+                    0.372,
+                    "masses",
+                    [
+                        135,
+                        141
+                    ]
+                ],
+                [
+                    0.49,
+                    "inflammation",
+                    [
+                        333,
+                        345
+                    ]
+                ]
+            ],
+            "DIAGNOSIS": [
+                [
+                    0.418,
+                    "Airway",
+                    [
+                        178,
+                        184
+                    ]
+                ],
+                [
+                    0.482,
+                    "upper",
+                    [
+                        216,
+                        221
+                    ]
+                ],
+                [
+                    0.502,
+                    "lobe",
+                    [
+                        222,
+                        226
+                    ]
+                ],
+                [
+                    0.473,
+                    "segmental",
+                    [
+                        227,
+                        236
+                    ]
+                ],
+                [
+                    0.469,
+                    "bronchi",
+                    [
+                        237,
+                        244
+                    ]
+                ],
+                [
+                    0.522,
+                    "false",
+                    [
+                        881,
+                        886
+                    ]
+                ],
+                [
+                    0.529,
+                    "the",
+                    [
+                        1340,
+                        1343
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

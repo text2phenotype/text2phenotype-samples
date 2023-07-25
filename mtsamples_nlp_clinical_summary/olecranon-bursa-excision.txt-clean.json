@@ -1,0 +1,538 @@
+{
+    "file": "olecranon-bursa-excision.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "Marcaine",
+                "code": "1012397",
+                "cui": "C2945665",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Marcaine",
+                "range": [
+                    868,
+                    876
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 1.0
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            }
+        ],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "Acute infected olecranon bursitis",
+                "range": [
+                    26,
+                    59
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "left",
+                "range": [
+                    61,
+                    65
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "Infection",
+                "range": [
+                    99,
+                    108
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "189822004",
+                "cui": "C0009450",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Communicable Diseases"
+            },
+            {
+                "text": "left olecranon bursitis",
+                "range": [
+                    110,
+                    133
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "on the left elbow",
+                "range": [
+                    501,
+                    518
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "open wound",
+                "range": [
+                    527,
+                    537
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "59091005",
+                "cui": "C0332798",
+                "tui": "T037",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Open wound"
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.008,
+        "uncertain_count": 2,
+        "narrow_band_ratio": 0.005,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.552,
+                    "solution",
+                    [
+                        1701,
+                        1709
+                    ]
+                ]
+            ],
+            "MED": [
+                [
+                    0.528,
+                    "iodoform",
+                    [
+                        2027,
+                        2035
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "Acute",
+                    [
+                        26,
+                        31
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "infected",
+                    [
+                        32,
+                        40
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "olecranon",
+                    [
+                        41,
+                        50
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "bursitis",
+                    [
+                        51,
+                        59
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    ",",
+                    [
+                        59,
+                        60
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "left",
+                    [
+                        61,
+                        65
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Infection",
+                    [
+                        99,
+                        108
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    ",",
+                    [
+                        108,
+                        109
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "left",
+                    [
+                        110,
+                        114
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "olecranon",
+                    [
+                        115,
+                        124
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "bursitis",
+                    [
+                        125,
+                        133
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "pain",
+                    [
+                        496,
+                        500
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "on",
+                    [
+                        501,
+                        503
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "the",
+                    [
+                        504,
+                        507
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "left",
+                    [
+                        508,
+                        512
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "elbow",
+                    [
+                        513,
+                        518
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "open",
+                    [
+                        527,
+                        531
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "wound",
+                    [
+                        532,
+                        537
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.701,
+                    "Acute",
+                    [
+                        26,
+                        31
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.898,
+                    "infected",
+                    [
+                        32,
+                        40
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.921,
+                    "olecranon",
+                    [
+                        41,
+                        50
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.9,
+                    "bursitis",
+                    [
+                        51,
+                        59
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.483,
+                    ",",
+                    [
+                        59,
+                        60
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.501,
+                    "left",
+                    [
+                        61,
+                        65
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.979,
+                    "Infection",
+                    [
+                        99,
+                        108
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.553,
+                    ",",
+                    [
+                        108,
+                        109
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.938,
+                    "left",
+                    [
+                        110,
+                        114
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.932,
+                    "olecranon",
+                    [
+                        115,
+                        124
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.945,
+                    "bursitis",
+                    [
+                        125,
+                        133
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.866,
+                    "pain",
+                    [
+                        496,
+                        500
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.901,
+                    "on",
+                    [
+                        501,
+                        503
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.914,
+                    "the",
+                    [
+                        504,
+                        507
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.852,
+                    "left",
+                    [
+                        508,
+                        512
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.768,
+                    "elbow",
+                    [
+                        513,
+                        518
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.686,
+                    "open",
+                    [
+                        527,
+                        531
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.728,
+                    "wound",
+                    [
+                        532,
+                        537
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.158,
+        "uncertain_token_count": 5,
+        "narrow_band_ratio": 0.012,
+        "uncertain_tokens": {
+            "DIAGNOSIS": [
+                [
+                    0.483,
+                    ",",
+                    [
+                        59,
+                        60
+                    ]
+                ],
+                [
+                    0.501,
+                    "left",
+                    [
+                        61,
+                        65
+                    ]
+                ]
+            ],
+            "NA": [
+                [
+                    0.53,
+                    "drainage",
+                    [
+                        542,
+                        550
+                    ]
+                ],
+                [
+                    0.525,
+                    "purulent",
+                    [
+                        551,
+                        559
+                    ]
+                ],
+                [
+                    0.507,
+                    "drainage",
+                    [
+                        583,
+                        591
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

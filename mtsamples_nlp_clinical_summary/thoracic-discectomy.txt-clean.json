@@ -1,0 +1,434 @@
+{
+    "file": "thoracic-discectomy.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "general",
+                "code": null,
+                "cui": null,
+                "tui": null,
+                "vocab": null,
+                "polarity": "positive",
+                "preferredText": null,
+                "range": [
+                    655,
+                    662
+                ],
+                "prob": {
+                    "MED": 0.991
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "anesthetic",
+                "code": null,
+                "cui": null,
+                "tui": null,
+                "vocab": null,
+                "polarity": "positive",
+                "preferredText": null,
+                "range": [
+                    663,
+                    673
+                ],
+                "prob": {
+                    "MED": 0.993
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            }
+        ],
+        "Allergy": [],
+        "Lab": [
+            {
+                "code": "",
+                "cui": "C0002059",
+                "tui": "T034",
+                "vocab": "LNC",
+                "polarity": "positive",
+                "text": "AP",
+                "preferredText": "ALP - ALKALINE PHOSPHATASE",
+                "range": [
+                    920,
+                    922
+                ]
+            }
+        ],
+        "DiseaseDisorder": [
+            {
+                "text": "Herniated nucleus pulposus",
+                "range": [
+                    26,
+                    52
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "84857004",
+                "cui": "C0678212",
+                "tui": "T037",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Herniation of nucleus pulposus"
+            },
+            {
+                "text": "Herniated nucleus pulposus",
+                "range": [
+                    86,
+                    112
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "84857004",
+                "cui": "C0678212",
+                "tui": "T037",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Herniation of nucleus pulposus"
+            },
+            {
+                "text": "right thoracic",
+                "range": [
+                    283,
+                    297
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "herniated\nnucleus pulposus",
+                "range": [
+                    320,
+                    346
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "84857004",
+                "cui": "C0678212",
+                "tui": "T037",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Herniation of nucleus pulposus"
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.015,
+        "uncertain_count": 1,
+        "narrow_band_ratio": 0.002,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.624,
+                    "disc",
+                    [
+                        2623,
+                        2627
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "Herniated",
+                    [
+                        26,
+                        35
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "nucleus",
+                    [
+                        36,
+                        43
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "pulposus",
+                    [
+                        44,
+                        52
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Herniated",
+                    [
+                        86,
+                        95
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "nucleus",
+                    [
+                        96,
+                        103
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "pulposus",
+                    [
+                        104,
+                        112
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "T8-T9",
+                    [
+                        113,
+                        118
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "right",
+                    [
+                        283,
+                        288
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "thoracic",
+                    [
+                        289,
+                        297
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "rib",
+                    [
+                        298,
+                        301
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "pain",
+                    [
+                        302,
+                        306
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "herniated",
+                    [
+                        320,
+                        329
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "nucleus",
+                    [
+                        330,
+                        337
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "pulposus",
+                    [
+                        338,
+                        346
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.684,
+                    "Herniated",
+                    [
+                        26,
+                        35
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.621,
+                    "nucleus",
+                    [
+                        36,
+                        43
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.475,
+                    "pulposus",
+                    [
+                        44,
+                        52
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.909,
+                    "Herniated",
+                    [
+                        86,
+                        95
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.893,
+                    "nucleus",
+                    [
+                        96,
+                        103
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.813,
+                    "pulposus",
+                    [
+                        104,
+                        112
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.502,
+                    "T8-T9",
+                    [
+                        113,
+                        118
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.847,
+                    "right",
+                    [
+                        283,
+                        288
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.909,
+                    "thoracic",
+                    [
+                        289,
+                        297
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.89,
+                    "rib",
+                    [
+                        298,
+                        301
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.868,
+                    "pain",
+                    [
+                        302,
+                        306
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.618,
+                    "herniated",
+                    [
+                        320,
+                        329
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.816,
+                    "nucleus",
+                    [
+                        330,
+                        337
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.815,
+                    "pulposus",
+                    [
+                        338,
+                        346
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.074,
+        "uncertain_token_count": 2,
+        "narrow_band_ratio": 0.003,
+        "uncertain_tokens": {
+            "DIAGNOSIS": [
+                [
+                    0.475,
+                    "pulposus",
+                    [
+                        44,
+                        52
+                    ]
+                ],
+                [
+                    0.502,
+                    "T8-T9",
+                    [
+                        113,
+                        118
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

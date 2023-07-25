@@ -1,0 +1,97 @@
+{
+    "file": "radiofrequency-thermocoagulation.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "Betadine",
+                "code": "202750",
+                "cui": "C0699524",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Betadine",
+                "range": [
+                    314,
+                    322
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.994
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "Betadine",
+                "code": "202750",
+                "cui": "C0699524",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Betadine",
+                "range": [
+                    314,
+                    322
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.994
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            }
+        ],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": []
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.013,
+        "uncertain_count": 3,
+        "narrow_band_ratio": 0.015,
+        "uncertain_tokens": {
+            "MED": [
+                [
+                    0.691,
+                    "Marcaine",
+                    [
+                        605,
+                        613
+                    ]
+                ]
+            ],
+            "NA": [
+                [
+                    0.591,
+                    "Depo-Medrol",
+                    [
+                        627,
+                        638
+                    ]
+                ],
+                [
+                    0.618,
+                    "steroid",
+                    [
+                        1006,
+                        1013
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [],
+        "weighted": [],
+        "average_entropy": 0.031,
+        "uncertain_token_count": 0,
+        "narrow_band_ratio": 0.0,
+        "uncertain_tokens": {},
+        "narrow_band_width": 0.2
+    }
+}

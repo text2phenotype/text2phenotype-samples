@@ -1,0 +1,810 @@
+{
+    "file": "cardiac-catheterization-3.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "heparin",
+                "code": "5224",
+                "cui": "C0019134",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Heparin",
+                "range": [
+                    653,
+                    660
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.957
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "heparin",
+                "code": "5224",
+                "cui": "C0019134",
+                "tui": "T123",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Heparin",
+                "range": [
+                    653,
+                    660
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.957
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "heparin",
+                "code": "5224",
+                "cui": "C0019134",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Heparin",
+                "range": [
+                    653,
+                    660
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.957
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            }
+        ],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "residual shortness of breath",
+                "range": [
+                    307,
+                    335
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "smooth narrowing",
+                "range": [
+                    2271,
+                    2287
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "origin",
+                "range": [
+                    2295,
+                    2301
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "posterior",
+                "range": [
+                    2309,
+                    2318
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "72442006",
+                "cui": "C0751438",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Posterior pituitary disease"
+            },
+            {
+                "text": "Recent inferior myocardial infarction",
+                "range": [
+                    2703,
+                    2740
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "RCA",
+                "range": [
+                    2782,
+                    2785
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "coronary angiography",
+                "range": [
+                    2799,
+                    2819
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.007,
+        "uncertain_count": 3,
+        "narrow_band_ratio": 0.005,
+        "uncertain_tokens": {
+            "MED": [
+                [
+                    0.635,
+                    "Xylocaine",
+                    [
+                        509,
+                        518
+                    ]
+                ]
+            ],
+            "NA": [
+                [
+                    0.529,
+                    "nitroglycerin",
+                    [
+                        714,
+                        727
+                    ]
+                ],
+                [
+                    0.631,
+                    "luminal",
+                    [
+                        2055,
+                        2062
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "PROBLEM": [
+                    "chest",
+                    [
+                        77,
+                        82
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "pain",
+                    [
+                        83,
+                        87
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "pain",
+                    [
+                        284,
+                        288
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "residual",
+                    [
+                        307,
+                        315
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "shortness",
+                    [
+                        316,
+                        325
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "of",
+                    [
+                        326,
+                        328
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "breath",
+                    [
+                        329,
+                        335
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "ST",
+                    [
+                        387,
+                        389
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "smooth",
+                    [
+                        2271,
+                        2277
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "narrowing",
+                    [
+                        2278,
+                        2287
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "origin",
+                    [
+                        2295,
+                        2301
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "posterior",
+                    [
+                        2309,
+                        2318
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Recent",
+                    [
+                        2703,
+                        2709
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "inferior",
+                    [
+                        2710,
+                        2718
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "myocardial",
+                    [
+                        2719,
+                        2729
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "infarction",
+                    [
+                        2730,
+                        2740
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "RCA",
+                    [
+                        2782,
+                        2785
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "coronary",
+                    [
+                        2799,
+                        2807
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "angiography",
+                    [
+                        2808,
+                        2819
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "chest",
+                    [
+                        2839,
+                        2844
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "pain",
+                    [
+                        2845,
+                        2849
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "ST",
+                    [
+                        2854,
+                        2856
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "segment",
+                    [
+                        2857,
+                        2864
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "stenosis",
+                    [
+                        2933,
+                        2941
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "function",
+                    [
+                        3037,
+                        3045
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "ejection",
+                    [
+                        3062,
+                        3070
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "PROBLEM": [
+                    0.681,
+                    "chest",
+                    [
+                        77,
+                        82
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.573,
+                    "pain",
+                    [
+                        83,
+                        87
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.499,
+                    "pain",
+                    [
+                        284,
+                        288
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.688,
+                    "residual",
+                    [
+                        307,
+                        315
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.733,
+                    "shortness",
+                    [
+                        316,
+                        325
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.633,
+                    "of",
+                    [
+                        326,
+                        328
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.702,
+                    "breath",
+                    [
+                        329,
+                        335
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.518,
+                    "ST",
+                    [
+                        387,
+                        389
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.602,
+                    "smooth",
+                    [
+                        2271,
+                        2277
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.678,
+                    "narrowing",
+                    [
+                        2278,
+                        2287
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.481,
+                    "origin",
+                    [
+                        2295,
+                        2301
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.705,
+                    "posterior",
+                    [
+                        2309,
+                        2318
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.611,
+                    "Recent",
+                    [
+                        2703,
+                        2709
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.929,
+                    "inferior",
+                    [
+                        2710,
+                        2718
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.968,
+                    "myocardial",
+                    [
+                        2719,
+                        2729
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.969,
+                    "infarction",
+                    [
+                        2730,
+                        2740
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.491,
+                    "distal",
+                    [
+                        2775,
+                        2781
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.569,
+                    "RCA",
+                    [
+                        2782,
+                        2785
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.628,
+                    "coronary",
+                    [
+                        2799,
+                        2807
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.919,
+                    "chest",
+                    [
+                        2839,
+                        2844
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.882,
+                    "pain",
+                    [
+                        2845,
+                        2849
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.769,
+                    "ST",
+                    [
+                        2854,
+                        2856
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.57,
+                    "segment",
+                    [
+                        2857,
+                        2864
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.508,
+                    "stenosis",
+                    [
+                        2933,
+                        2941
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.582,
+                    "function",
+                    [
+                        3037,
+                        3045
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.453,
+                    "ejection",
+                    [
+                        3062,
+                        3070
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.165,
+        "uncertain_token_count": 12,
+        "narrow_band_ratio": 0.021,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.511,
+                    "chest",
+                    [
+                        278,
+                        283
+                    ]
+                ],
+                [
+                    0.472,
+                    "stenosis",
+                    [
+                        1577,
+                        1585
+                    ]
+                ],
+                [
+                    0.504,
+                    "descending",
+                    [
+                        2319,
+                        2329
+                    ]
+                ],
+                [
+                    0.498,
+                    "angiography",
+                    [
+                        2808,
+                        2819
+                    ]
+                ],
+                [
+                    0.438,
+                    "ventricular",
+                    [
+                        3025,
+                        3036
+                    ]
+                ],
+                [
+                    0.494,
+                    "fraction",
+                    [
+                        3071,
+                        3079
+                    ]
+                ]
+            ],
+            "DIAGNOSIS": [
+                [
+                    0.499,
+                    "pain",
+                    [
+                        284,
+                        288
+                    ]
+                ],
+                [
+                    0.518,
+                    "ST",
+                    [
+                        387,
+                        389
+                    ]
+                ],
+                [
+                    0.481,
+                    "origin",
+                    [
+                        2295,
+                        2301
+                    ]
+                ],
+                [
+                    0.491,
+                    "distal",
+                    [
+                        2775,
+                        2781
+                    ]
+                ],
+                [
+                    0.508,
+                    "stenosis",
+                    [
+                        2933,
+                        2941
+                    ]
+                ]
+            ],
+            "PROBLEM": [
+                [
+                    0.453,
+                    "ejection",
+                    [
+                        3062,
+                        3070
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

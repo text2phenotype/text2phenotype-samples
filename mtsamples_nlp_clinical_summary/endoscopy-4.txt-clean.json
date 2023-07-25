@@ -1,0 +1,380 @@
+{
+    "file": "endoscopy-4.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "Fentanyl",
+                "code": "4337",
+                "cui": "C0015846",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Fentanyl",
+                "range": [
+                    110,
+                    118
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 1.0
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [
+                    "100",
+                    119,
+                    122
+                ],
+                "medStrengthUnit": [
+                    "mg",
+                    133,
+                    135
+                ]
+            },
+            {
+                "text": "Fentanyl",
+                "code": "4337",
+                "cui": "C0015846",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Fentanyl",
+                "range": [
+                    110,
+                    118
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 1.0
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [
+                    "100",
+                    119,
+                    122
+                ],
+                "medStrengthUnit": [
+                    "mg",
+                    133,
+                    135
+                ]
+            }
+        ],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "esophagitis",
+                "range": [
+                    1093,
+                    1104
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "gastroesophageal\nreflux disease",
+                "range": [
+                    1216,
+                    1247
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "hiatal hernia",
+                "range": [
+                    1279,
+                    1292
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.007,
+        "uncertain_count": 1,
+        "narrow_band_ratio": 0.004,
+        "uncertain_tokens": {
+            "MED": [
+                [
+                    0.596,
+                    "Versed",
+                    [
+                        142,
+                        148
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "abdominal",
+                    [
+                        81,
+                        90
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "pain",
+                    [
+                        91,
+                        95
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "esophagitis",
+                    [
+                        1093,
+                        1104
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Abdominal",
+                    [
+                        1170,
+                        1179
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "pain",
+                    [
+                        1180,
+                        1184
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "gastroesophageal",
+                    [
+                        1216,
+                        1232
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "reflux",
+                    [
+                        1233,
+                        1239
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "disease",
+                    [
+                        1240,
+                        1247
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "hiatal",
+                    [
+                        1279,
+                        1285
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "hernia",
+                    [
+                        1286,
+                        1292
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.634,
+                    "abdominal",
+                    [
+                        81,
+                        90
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.518,
+                    "pain",
+                    [
+                        91,
+                        95
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.504,
+                    "esophagitis",
+                    [
+                        1093,
+                        1104
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.952,
+                    "Abdominal",
+                    [
+                        1170,
+                        1179
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.907,
+                    "pain",
+                    [
+                        1180,
+                        1184
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.538,
+                    "gastroesophageal",
+                    [
+                        1216,
+                        1232
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.75,
+                    "reflux",
+                    [
+                        1233,
+                        1239
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.776,
+                    "disease",
+                    [
+                        1240,
+                        1247
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.851,
+                    "hiatal",
+                    [
+                        1279,
+                        1285
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.93,
+                    "hernia",
+                    [
+                        1286,
+                        1292
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.132,
+        "uncertain_token_count": 6,
+        "narrow_band_ratio": 0.025,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.492,
+                    "Intermittent",
+                    [
+                        47,
+                        59
+                    ]
+                ],
+                [
+                    0.509,
+                    "rectal",
+                    [
+                        60,
+                        66
+                    ]
+                ],
+                [
+                    0.527,
+                    "gastroesophageal",
+                    [
+                        1059,
+                        1075
+                    ]
+                ],
+                [
+                    0.492,
+                    "sphincter",
+                    [
+                        1076,
+                        1085
+                    ]
+                ]
+            ],
+            "DIAGNOSIS": [
+                [
+                    0.518,
+                    "pain",
+                    [
+                        91,
+                        95
+                    ]
+                ],
+                [
+                    0.504,
+                    "esophagitis",
+                    [
+                        1093,
+                        1104
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

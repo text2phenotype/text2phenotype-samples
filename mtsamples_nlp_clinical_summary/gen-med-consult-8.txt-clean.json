@@ -1,0 +1,282 @@
+{
+    "file": "gen-med-consult-8.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "Toprol",
+                "code": "865575",
+                "cui": "C2723006",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Toprol",
+                "range": [
+                    499,
+                    505
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.996
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "Avalide",
+                "code": "261454",
+                "cui": "C0875966",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Avalide",
+                "range": [
+                    510,
+                    517
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.995
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "Avalide",
+                "code": "261454",
+                "cui": "C0875966",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Avalide",
+                "range": [
+                    510,
+                    517
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.995
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            }
+        ],
+        "Allergy": [],
+        "Lab": [
+            {
+                "code": "LP32534-7",
+                "cui": "C0017725",
+                "tui": "T034",
+                "vocab": "LNC",
+                "polarity": "positive",
+                "text": "glucose",
+                "preferredText": "GLUCOSE",
+                "range": [
+                    707,
+                    714
+                ]
+            }
+        ],
+        "DiseaseDisorder": [
+            {
+                "text": "diabetes",
+                "range": [
+                    734,
+                    742
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "73211009",
+                "cui": "C0011849",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Diabetes Mellitus"
+            },
+            {
+                "text": "Generalized",
+                "range": [
+                    2078,
+                    2089
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "hypertension",
+                "range": [
+                    2102,
+                    2114
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "38341003",
+                "cui": "C0020538",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Hypertensive disease"
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.008,
+        "uncertain_count": 1,
+        "narrow_band_ratio": 0.002,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.657,
+                    "abnormalities",
+                    [
+                        715,
+                        728
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "anxiety",
+                    [
+                        281,
+                        288
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "diabetes",
+                    [
+                        734,
+                        742
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Generalized",
+                    [
+                        2078,
+                        2089
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "anxiety",
+                    [
+                        2090,
+                        2097
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "hypertension",
+                    [
+                        2102,
+                        2114
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.697,
+                    "anxiety",
+                    [
+                        281,
+                        288
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.501,
+                    "diabetes",
+                    [
+                        734,
+                        742
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.935,
+                    "Generalized",
+                    [
+                        2078,
+                        2089
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.965,
+                    "anxiety",
+                    [
+                        2090,
+                        2097
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.501,
+                    "and",
+                    [
+                        2098,
+                        2101
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.982,
+                    "hypertension",
+                    [
+                        2102,
+                        2114
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.039,
+        "uncertain_token_count": 2,
+        "narrow_band_ratio": 0.004,
+        "uncertain_tokens": {
+            "DIAGNOSIS": [
+                [
+                    0.501,
+                    "diabetes",
+                    [
+                        734,
+                        742
+                    ]
+                ],
+                [
+                    0.501,
+                    "and",
+                    [
+                        2098,
+                        2101
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

@@ -1,0 +1,170 @@
+{
+    "file": "tracheotomy-1.txt-clean.txt",
+    "text2summary": {
+        "Medication": [],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "Respiratory failure",
+                "range": [
+                    26,
+                    45
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "409622000",
+                "cui": "C1145670",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Respiratory Failure"
+            },
+            {
+                "text": "Respiratory failure",
+                "range": [
+                    73,
+                    92
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "409622000",
+                "cui": "C1145670",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Respiratory Failure"
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.014,
+        "uncertain_count": 0,
+        "narrow_band_ratio": 0.0,
+        "uncertain_tokens": {},
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "Respiratory",
+                    [
+                        26,
+                        37
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "failure",
+                    [
+                        38,
+                        45
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Respiratory",
+                    [
+                        73,
+                        84
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "failure",
+                    [
+                        85,
+                        92
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "condition",
+                    [
+                        2086,
+                        2095
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.489,
+                    "Respiratory",
+                    [
+                        26,
+                        37
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.441,
+                    "failure",
+                    [
+                        38,
+                        45
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.952,
+                    "Respiratory",
+                    [
+                        73,
+                        84
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.951,
+                    "failure",
+                    [
+                        85,
+                        92
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.615,
+                    "condition",
+                    [
+                        2086,
+                        2095
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.051,
+        "uncertain_token_count": 2,
+        "narrow_band_ratio": 0.006,
+        "uncertain_tokens": {
+            "DIAGNOSIS": [
+                [
+                    0.489,
+                    "Respiratory",
+                    [
+                        26,
+                        37
+                    ]
+                ],
+                [
+                    0.441,
+                    "failure",
+                    [
+                        38,
+                        45
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

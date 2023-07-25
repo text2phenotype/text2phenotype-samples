@@ -1,0 +1,394 @@
+{
+    "file": "toronto-porcine-valve-insertion.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "heparin",
+                "code": "5224",
+                "cui": "C0019134",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Heparin",
+                "range": [
+                    1046,
+                    1053
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.965
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "heparin",
+                "code": "5224",
+                "cui": "C0019134",
+                "tui": "T123",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Heparin",
+                "range": [
+                    1046,
+                    1053
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.965
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "heparin",
+                "code": "5224",
+                "cui": "C0019134",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Heparin",
+                "range": [
+                    1046,
+                    1053
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.965
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "cardioplegia",
+                "code": null,
+                "cui": null,
+                "tui": null,
+                "vocab": null,
+                "polarity": "positive",
+                "preferredText": null,
+                "range": [
+                    2402,
+                    2414
+                ],
+                "prob": {
+                    "MED": 0.975
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "cardioplegia",
+                "code": null,
+                "cui": null,
+                "tui": null,
+                "vocab": null,
+                "polarity": "positive",
+                "preferredText": null,
+                "range": [
+                    2627,
+                    2639
+                ],
+                "prob": {
+                    "MED": 0.99
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            }
+        ],
+        "Allergy": [],
+        "Lab": [
+            {
+                "code": "82310",
+                "cui": "C0201925",
+                "tui": "T059",
+                "vocab": "CPT",
+                "polarity": "positive",
+                "text": "calcium",
+                "preferredText": "ASSAY OF CALCIUM",
+                "range": [
+                    3051,
+                    3058
+                ]
+            }
+        ],
+        "DiseaseDisorder": [
+            {
+                "text": "Aortic stenosis",
+                "range": [
+                    26,
+                    41
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "60573004",
+                "cui": "C0003507",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Aortic Valve Stenosis"
+            },
+            {
+                "text": "Aortic stenosis",
+                "range": [
+                    69,
+                    84
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "60573004",
+                "cui": "C0003507",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Aortic Valve Stenosis"
+            },
+            {
+                "text": "arrest the heart",
+                "range": [
+                    2441,
+                    2457
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "410429000",
+                "cui": "C0018790",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Cardiac Arrest"
+            },
+            {
+                "text": "aortic",
+                "range": [
+                    2480,
+                    2486
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "60234000",
+                "cui": "C0003504",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Aortic Valve Insufficiency"
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.009,
+        "uncertain_count": 2,
+        "narrow_band_ratio": 0.002,
+        "uncertain_tokens": {
+            "MED": [
+                [
+                    0.642,
+                    "solution",
+                    [
+                        1987,
+                        1995
+                    ]
+                ]
+            ],
+            "NA": [
+                [
+                    0.593,
+                    "protamine",
+                    [
+                        5305,
+                        5314
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "Aortic",
+                    [
+                        26,
+                        32
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "stenosis",
+                    [
+                        33,
+                        41
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Aortic",
+                    [
+                        69,
+                        75
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "stenosis",
+                    [
+                        76,
+                        84
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "arrest",
+                    [
+                        2441,
+                        2447
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "the",
+                    [
+                        2448,
+                        2451
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "heart",
+                    [
+                        2452,
+                        2457
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "aortic",
+                    [
+                        2480,
+                        2486
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.888,
+                    "Aortic",
+                    [
+                        26,
+                        32
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.804,
+                    "stenosis",
+                    [
+                        33,
+                        41
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.927,
+                    "Aortic",
+                    [
+                        69,
+                        75
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.891,
+                    "stenosis",
+                    [
+                        76,
+                        84
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.679,
+                    "arrest",
+                    [
+                        2441,
+                        2447
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.682,
+                    "the",
+                    [
+                        2448,
+                        2451
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.606,
+                    "heart",
+                    [
+                        2452,
+                        2457
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.629,
+                    "aortic",
+                    [
+                        2480,
+                        2486
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.076,
+        "uncertain_token_count": 2,
+        "narrow_band_ratio": 0.002,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.53,
+                    "insufficiency",
+                    [
+                        2487,
+                        2500
+                    ]
+                ],
+                [
+                    0.509,
+                    "activity",
+                    [
+                        4820,
+                        4828
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

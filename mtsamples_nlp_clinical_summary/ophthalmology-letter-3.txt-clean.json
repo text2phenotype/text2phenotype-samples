@@ -1,0 +1,555 @@
+{
+    "file": "ophthalmology-letter-3.txt-clean.txt",
+    "text2summary": {
+        "Medication": [],
+        "Allergy": [],
+        "Lab": [
+            {
+                "code": "",
+                "cui": "C0518015",
+                "tui": "T034",
+                "vocab": "LNC",
+                "polarity": "positive",
+                "text": "hemoglobin",
+                "preferredText": "HEMOGLOBIN DETERMINATION (PROCEDURE)",
+                "range": [
+                    624,
+                    634
+                ]
+            },
+            {
+                "code": "LP32067-8",
+                "cui": "C0019046",
+                "tui": "T034",
+                "vocab": "LNC",
+                "polarity": "positive",
+                "text": "hemoglobin",
+                "preferredText": "HEMOGLOBIN",
+                "range": [
+                    624,
+                    634
+                ]
+            }
+        ],
+        "DiseaseDisorder": [
+            {
+                "text": "narrow angles",
+                "range": [
+                    145,
+                    158
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "419422001",
+                "cui": "C1410927",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Narrow angle"
+            },
+            {
+                "text": "glaucoma",
+                "range": [
+                    183,
+                    191
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "23986001",
+                "cui": "C0017601",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Glaucoma"
+            },
+            {
+                "text": "occasional",
+                "range": [
+                    285,
+                    295
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "around her eye",
+                "range": [
+                    301,
+                    315
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "non-insulin",
+                "range": [
+                    565,
+                    576
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "44054006",
+                "cui": "C0011860",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Diabetes Mellitus, Non-Insulin-Dependent"
+            },
+            {
+                "text": "in either eye",
+                "range": [
+                    1712,
+                    1725
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "optic nerve damage",
+                "range": [
+                    1852,
+                    1870
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "narrow",
+                "range": [
+                    1963,
+                    1969
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.008,
+        "uncertain_count": 1,
+        "narrow_band_ratio": 0.002,
+        "uncertain_tokens": {
+            "MED": [
+                [
+                    0.551,
+                    "retinal",
+                    [
+                        1756,
+                        1763
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "narrow",
+                    [
+                        145,
+                        151
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "angles",
+                    [
+                        152,
+                        158
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "glaucoma",
+                    [
+                        183,
+                        191
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "occasional",
+                    [
+                        285,
+                        295
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "pain",
+                    [
+                        296,
+                        300
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "around",
+                    [
+                        301,
+                        307
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "her",
+                    [
+                        308,
+                        311
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "eye",
+                    [
+                        312,
+                        315
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "non-insulin",
+                    [
+                        565,
+                        576
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "enlarged",
+                    [
+                        1692,
+                        1700
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "blind",
+                    [
+                        1701,
+                        1706
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "spot",
+                    [
+                        1707,
+                        1711
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "in",
+                    [
+                        1712,
+                        1714
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "either",
+                    [
+                        1715,
+                        1721
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "eye",
+                    [
+                        1722,
+                        1725
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "optic",
+                    [
+                        1852,
+                        1857
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "nerve",
+                    [
+                        1858,
+                        1863
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "damage",
+                    [
+                        1864,
+                        1870
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "narrow",
+                    [
+                        1963,
+                        1969
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.545,
+                    "narrow",
+                    [
+                        145,
+                        151
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.601,
+                    "angles",
+                    [
+                        152,
+                        158
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.596,
+                    "glaucoma",
+                    [
+                        183,
+                        191
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.82,
+                    "occasional",
+                    [
+                        285,
+                        295
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.888,
+                    "pain",
+                    [
+                        296,
+                        300
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.872,
+                    "around",
+                    [
+                        301,
+                        307
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.842,
+                    "her",
+                    [
+                        308,
+                        311
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.745,
+                    "eye",
+                    [
+                        312,
+                        315
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.542,
+                    "non-insulin",
+                    [
+                        565,
+                        576
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.603,
+                    "enlarged",
+                    [
+                        1692,
+                        1700
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.764,
+                    "blind",
+                    [
+                        1701,
+                        1706
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.799,
+                    "spot",
+                    [
+                        1707,
+                        1711
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.788,
+                    "in",
+                    [
+                        1712,
+                        1714
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.72,
+                    "either",
+                    [
+                        1715,
+                        1721
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.618,
+                    "eye",
+                    [
+                        1722,
+                        1725
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.633,
+                    "optic",
+                    [
+                        1852,
+                        1857
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.745,
+                    "nerve",
+                    [
+                        1858,
+                        1863
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.775,
+                    "damage",
+                    [
+                        1864,
+                        1870
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.475,
+                    "narrow",
+                    [
+                        1963,
+                        1969
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.092,
+        "uncertain_token_count": 2,
+        "narrow_band_ratio": 0.005,
+        "uncertain_tokens": {
+            "DIAGNOSIS": [
+                [
+                    0.475,
+                    "narrow",
+                    [
+                        1963,
+                        1969
+                    ]
+                ]
+            ],
+            "NA": [
+                [
+                    0.481,
+                    "angles",
+                    [
+                        1970,
+                        1976
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

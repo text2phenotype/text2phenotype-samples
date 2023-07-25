@@ -1,0 +1,160 @@
+{
+    "file": "kenalog-injection.txt-clean.txt",
+    "text2summary": {
+        "Medication": [],
+        "Allergy": [],
+        "Lab": [
+            {
+                "code": "",
+                "cui": "C0002059",
+                "tui": "T034",
+                "vocab": "LNC",
+                "polarity": "positive",
+                "text": "AP",
+                "preferredText": "ALP - ALKALINE PHOSPHATASE",
+                "range": [
+                    1108,
+                    1110
+                ]
+            }
+        ],
+        "DiseaseDisorder": [
+            {
+                "text": "foraminal",
+                "range": [
+                    1386,
+                    1395
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.017,
+        "uncertain_count": 3,
+        "narrow_band_ratio": 0.009,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.683,
+                    "Kenalog",
+                    [
+                        77,
+                        84
+                    ]
+                ],
+                [
+                    0.522,
+                    "anesthetic",
+                    [
+                        1750,
+                        1760
+                    ]
+                ]
+            ],
+            "MED": [
+                [
+                    0.589,
+                    "Omnipaque",
+                    [
+                        1222,
+                        1231
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "PROBLEM": [
+                    "pain",
+                    [
+                        174,
+                        178
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "foraminal",
+                    [
+                        1386,
+                        1395
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "stenosis",
+                    [
+                        1396,
+                        1404
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.501,
+                    "foraminal",
+                    [
+                        1386,
+                        1395
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.566,
+                    "stenosis",
+                    [
+                        1396,
+                        1404
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.074,
+        "uncertain_token_count": 3,
+        "narrow_band_ratio": 0.009,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.418,
+                    "back",
+                    [
+                        169,
+                        173
+                    ]
+                ],
+                [
+                    0.408,
+                    "pain",
+                    [
+                        174,
+                        178
+                    ]
+                ]
+            ],
+            "DIAGNOSIS": [
+                [
+                    0.501,
+                    "foraminal",
+                    [
+                        1386,
+                        1395
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

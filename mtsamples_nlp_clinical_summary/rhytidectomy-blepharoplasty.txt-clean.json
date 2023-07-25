@@ -1,0 +1,153 @@
+{
+    "file": "rhytidectomy-blepharoplasty.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "Marcaine",
+                "code": "1012397",
+                "cui": "C2945665",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Marcaine",
+                "range": [
+                    2303,
+                    2311
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 1.0
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            }
+        ],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": []
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.017,
+        "uncertain_count": 7,
+        "narrow_band_ratio": 0.008,
+        "uncertain_tokens": {
+            "MED": [
+                [
+                    0.639,
+                    "endotracheal",
+                    [
+                        819,
+                        831
+                    ]
+                ],
+                [
+                    0.669,
+                    "Mersilene",
+                    [
+                        3087,
+                        3096
+                    ]
+                ],
+                [
+                    0.557,
+                    "nylon",
+                    [
+                        3899,
+                        3904
+                    ]
+                ]
+            ],
+            "NA": [
+                [
+                    0.601,
+                    "adrenaline",
+                    [
+                        2322,
+                        2332
+                    ]
+                ],
+                [
+                    0.696,
+                    "nylon",
+                    [
+                        3731,
+                        3736
+                    ]
+                ],
+                [
+                    0.697,
+                    "ointment",
+                    [
+                        4068,
+                        4076
+                    ]
+                ],
+                [
+                    0.639,
+                    "fat",
+                    [
+                        4509,
+                        4512
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "cc",
+                    [
+                        5015,
+                        5017
+                    ]
+                ]
+            }
+        ],
+        "weighted": [],
+        "average_entropy": 0.09,
+        "uncertain_token_count": 4,
+        "narrow_band_ratio": 0.005,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.472,
+                    "Ageing",
+                    [
+                        65,
+                        71
+                    ]
+                ],
+                [
+                    0.472,
+                    "face",
+                    [
+                        72,
+                        76
+                    ]
+                ],
+                [
+                    0.482,
+                    "syringes",
+                    [
+                        4549,
+                        4557
+                    ]
+                ],
+                [
+                    0.493,
+                    "cc",
+                    [
+                        5015,
+                        5017
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

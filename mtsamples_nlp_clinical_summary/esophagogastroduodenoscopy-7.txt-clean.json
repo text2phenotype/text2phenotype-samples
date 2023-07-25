@@ -1,0 +1,354 @@
+{
+    "file": "esophagogastroduodenoscopy-7.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "Demerol",
+                "code": "282381",
+                "cui": "C0935966",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Demerol",
+                "range": [
+                    906,
+                    913
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 1.0
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "Demerol",
+                "code": "282381",
+                "cui": "C0935966",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Demerol",
+                "range": [
+                    906,
+                    913
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 1.0
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            }
+        ],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "peptic ulcer",
+                "range": [
+                    35,
+                    47
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "13200003",
+                "cui": "C0030920",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Peptic Ulcer"
+            },
+            {
+                "text": "Gastritis",
+                "range": [
+                    83,
+                    92
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "4556007",
+                "cui": "C0017152",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Gastritis"
+            },
+            {
+                "text": "ulcer",
+                "range": [
+                    310,
+                    315
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "255321001",
+                "cui": "C0041582",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Ulcer"
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.009,
+        "uncertain_count": 2,
+        "narrow_band_ratio": 0.007,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.628,
+                    "biopsies",
+                    [
+                        1457,
+                        1465
+                    ]
+                ]
+            ],
+            "MED": [
+                [
+                    0.622,
+                    "Air",
+                    [
+                        1510,
+                        1513
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "peptic",
+                    [
+                        35,
+                        41
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "ulcer",
+                    [
+                        42,
+                        47
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Gastritis",
+                    [
+                        83,
+                        92
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "peptic",
+                    [
+                        218,
+                        224
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "ulcer",
+                    [
+                        225,
+                        230
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "disease",
+                    [
+                        231,
+                        238
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "epigastric",
+                    [
+                        240,
+                        250
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "abdominal",
+                    [
+                        251,
+                        260
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "pain",
+                    [
+                        261,
+                        265
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "ulcer",
+                    [
+                        310,
+                        315
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "disease",
+                    [
+                        316,
+                        323
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.643,
+                    "peptic",
+                    [
+                        35,
+                        41
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.575,
+                    "ulcer",
+                    [
+                        42,
+                        47
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.933,
+                    "Gastritis",
+                    [
+                        83,
+                        92
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.94,
+                    "peptic",
+                    [
+                        218,
+                        224
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.938,
+                    "ulcer",
+                    [
+                        225,
+                        230
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.948,
+                    "disease",
+                    [
+                        231,
+                        238
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.67,
+                    "epigastric",
+                    [
+                        240,
+                        250
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.744,
+                    "abdominal",
+                    [
+                        251,
+                        260
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.637,
+                    "pain",
+                    [
+                        261,
+                        265
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.777,
+                    "ulcer",
+                    [
+                        310,
+                        315
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.646,
+                    "disease",
+                    [
+                        316,
+                        323
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.112,
+        "uncertain_token_count": 1,
+        "narrow_band_ratio": 0.003,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.41,
+                    "months",
+                    [
+                        269,
+                        275
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

@@ -1,0 +1,392 @@
+{
+    "file": "anaplastic-astrocytoma-letter.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "ABC",
+                "code": null,
+                "cui": null,
+                "tui": null,
+                "vocab": null,
+                "polarity": "positive",
+                "preferredText": null,
+                "range": [
+                    27,
+                    30
+                ],
+                "prob": {
+                    "MED": 0.948
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "Temodar",
+                "code": "261663",
+                "cui": "C0876179",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Temodar",
+                "range": [
+                    2097,
+                    2104
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.979
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [
+                    "day"
+                ],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "Temodar",
+                "code": "261663",
+                "cui": "C0876179",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Temodar",
+                "range": [
+                    2097,
+                    2104
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.979
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [
+                    "day"
+                ],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "thalidomide",
+                "code": "10432",
+                "cui": "C0039736",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Thalidomide",
+                "range": [
+                    2237,
+                    2248
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 1.0
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [
+                    "100",
+                    2249,
+                    2252
+                ],
+                "medStrengthUnit": [
+                    "mg",
+                    2253,
+                    2255
+                ]
+            },
+            {
+                "text": "thalidomide",
+                "code": "10432",
+                "cui": "C0039736",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Thalidomide",
+                "range": [
+                    2237,
+                    2248
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 1.0
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [
+                    "100",
+                    2249,
+                    2252
+                ],
+                "medStrengthUnit": [
+                    "mg",
+                    2253,
+                    2255
+                ]
+            },
+            {
+                "text": "Accutane",
+                "code": "202795",
+                "cui": "C0699581",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Accutane",
+                "range": [
+                    2428,
+                    2436
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.989
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "Accutane",
+                "code": "202795",
+                "cui": "C0699581",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Accutane",
+                "range": [
+                    2428,
+                    2436
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.989
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            }
+        ],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "left temporal lesion",
+                "range": [
+                    361,
+                    381
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.007,
+        "uncertain_count": 2,
+        "narrow_band_ratio": 0.003,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.679,
+                    "steroids",
+                    [
+                        1756,
+                        1764
+                    ]
+                ]
+            ],
+            "MED": [
+                [
+                    0.674,
+                    "medications",
+                    [
+                        2353,
+                        2364
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "anaplastic",
+                    [
+                        211,
+                        221
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "astrocytoma",
+                    [
+                        222,
+                        233
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "left",
+                    [
+                        361,
+                        365
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "temporal",
+                    [
+                        366,
+                        374
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "lesion",
+                    [
+                        375,
+                        381
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "facial",
+                    [
+                        1459,
+                        1465
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "droop",
+                    [
+                        1466,
+                        1471
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "tumor",
+                    [
+                        1559,
+                        1564
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.779,
+                    "anaplastic",
+                    [
+                        211,
+                        221
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.821,
+                    "astrocytoma",
+                    [
+                        222,
+                        233
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.85,
+                    "left",
+                    [
+                        361,
+                        365
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.889,
+                    "temporal",
+                    [
+                        366,
+                        374
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.859,
+                    "lesion",
+                    [
+                        375,
+                        381
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.64,
+                    "facial",
+                    [
+                        1459,
+                        1465
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.615,
+                    "droop",
+                    [
+                        1466,
+                        1471
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.867,
+                    "tumor",
+                    [
+                        1559,
+                        1564
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.097,
+        "uncertain_token_count": 1,
+        "narrow_band_ratio": 0.002,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.45,
+                    "right",
+                    [
+                        1453,
+                        1458
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

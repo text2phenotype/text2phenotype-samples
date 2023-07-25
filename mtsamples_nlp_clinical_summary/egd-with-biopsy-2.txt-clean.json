@@ -1,0 +1,349 @@
+{
+    "file": "egd-with-biopsy-2.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "Fentanyl",
+                "code": "4337",
+                "cui": "C0015846",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Fentanyl",
+                "range": [
+                    162,
+                    170
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.999
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [
+                    "125",
+                    171,
+                    174
+                ],
+                "medStrengthUnit": [
+                    "mcg",
+                    175,
+                    178
+                ]
+            },
+            {
+                "text": "Fentanyl",
+                "code": "4337",
+                "cui": "C0015846",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Fentanyl",
+                "range": [
+                    162,
+                    170
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.999
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [
+                    "125",
+                    171,
+                    174
+                ],
+                "medStrengthUnit": [
+                    "mcg",
+                    175,
+                    178
+                ]
+            }
+        ],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "biliary colic-type",
+                "range": [
+                    252,
+                    270
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "102628000",
+                "cui": "C0151824",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Biliary Colic"
+            },
+            {
+                "text": "gallstones",
+                "range": [
+                    465,
+                    475
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "235919008",
+                "cui": "C0947622",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Cholecystolithiasis"
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.008,
+        "uncertain_count": 2,
+        "narrow_band_ratio": 0.009,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.693,
+                    "Versed",
+                    [
+                        183,
+                        189
+                    ]
+                ],
+                [
+                    0.624,
+                    "Gastric",
+                    [
+                        1098,
+                        1105
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "PROBLEM": [
+                    "Abdominal",
+                    [
+                        86,
+                        95
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "pain",
+                    [
+                        96,
+                        100
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "biliary",
+                    [
+                        252,
+                        259
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "colic-type",
+                    [
+                        260,
+                        270
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "severe",
+                    [
+                        323,
+                        329
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "pain",
+                    [
+                        330,
+                        334
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "gallstones",
+                    [
+                        465,
+                        475
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "pain",
+                    [
+                        864,
+                        868
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.415,
+                    "Abdominal",
+                    [
+                        86,
+                        95
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.518,
+                    "pain",
+                    [
+                        96,
+                        100
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.482,
+                    "biliary",
+                    [
+                        252,
+                        259
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.456,
+                    "colic-type",
+                    [
+                        260,
+                        270
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.554,
+                    "severe",
+                    [
+                        323,
+                        329
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.659,
+                    "pain",
+                    [
+                        330,
+                        334
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.606,
+                    "gallstones",
+                    [
+                        465,
+                        475
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.452,
+                    "pain",
+                    [
+                        864,
+                        868
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.12,
+        "uncertain_token_count": 7,
+        "narrow_band_ratio": 0.031,
+        "uncertain_tokens": {
+            "DIAGNOSIS": [
+                [
+                    0.415,
+                    "Abdominal",
+                    [
+                        86,
+                        95
+                    ]
+                ],
+                [
+                    0.452,
+                    "pain",
+                    [
+                        864,
+                        868
+                    ]
+                ]
+            ],
+            "PROBLEM": [
+                [
+                    0.518,
+                    "pain",
+                    [
+                        96,
+                        100
+                    ]
+                ],
+                [
+                    0.482,
+                    "biliary",
+                    [
+                        252,
+                        259
+                    ]
+                ],
+                [
+                    0.456,
+                    "colic-type",
+                    [
+                        260,
+                        270
+                    ]
+                ]
+            ],
+            "NA": [
+                [
+                    0.518,
+                    "symptoms",
+                    [
+                        271,
+                        279
+                    ]
+                ],
+                [
+                    0.49,
+                    "pregnancy",
+                    [
+                        491,
+                        500
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

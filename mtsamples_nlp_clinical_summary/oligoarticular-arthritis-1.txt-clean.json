@@ -1,0 +1,338 @@
+{
+    "file": "oligoarticular-arthritis-1.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "Indocin",
+                "code": "203365",
+                "cui": "C0700798",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Indocin",
+                "range": [
+                    290,
+                    297
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 1.0
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "Indocin",
+                "code": "203365",
+                "cui": "C0700798",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Indocin",
+                "range": [
+                    290,
+                    297
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 1.0
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "Indocin",
+                "code": "203365",
+                "cui": "C0700798",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Indocin",
+                "range": [
+                    1985,
+                    1992
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.942
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [
+                    "75",
+                    1993,
+                    1995
+                ],
+                "medStrengthUnit": [
+                    "mg",
+                    1996,
+                    1998
+                ]
+            },
+            {
+                "text": "Indocin",
+                "code": "203365",
+                "cui": "C0700798",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Indocin",
+                "range": [
+                    1985,
+                    1992
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.942
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [
+                    "75",
+                    1993,
+                    1995
+                ],
+                "medStrengthUnit": [
+                    "mg",
+                    1996,
+                    1998
+                ]
+            }
+        ],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "right knee",
+                "range": [
+                    174,
+                    184
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "of the",
+                "range": [
+                    1475,
+                    1481
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "tenderness",
+                "range": [
+                    1621,
+                    1631
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "arthritis",
+                "range": [
+                    1750,
+                    1759
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "239819001",
+                "cui": "C3892044",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Oligoarticular Arthritis"
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.006,
+        "uncertain_count": 1,
+        "narrow_band_ratio": 0.002,
+        "uncertain_tokens": {
+            "MED": [
+                [
+                    0.691,
+                    "medication",
+                    [
+                        1935,
+                        1945
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "right",
+                    [
+                        174,
+                        179
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "knee",
+                    [
+                        180,
+                        184
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "of",
+                    [
+                        1475,
+                        1477
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "the",
+                    [
+                        1478,
+                        1481
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "tenderness",
+                    [
+                        1621,
+                        1631
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "arthritis",
+                    [
+                        1750,
+                        1759
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.536,
+                    "right",
+                    [
+                        174,
+                        179
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.578,
+                    "knee",
+                    [
+                        180,
+                        184
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.604,
+                    "of",
+                    [
+                        1475,
+                        1477
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.512,
+                    "the",
+                    [
+                        1478,
+                        1481
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.521,
+                    "tenderness",
+                    [
+                        1621,
+                        1631
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.542,
+                    "arthritis",
+                    [
+                        1750,
+                        1759
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.067,
+        "uncertain_token_count": 3,
+        "narrow_band_ratio": 0.006,
+        "uncertain_tokens": {
+            "DIAGNOSIS": [
+                [
+                    0.512,
+                    "the",
+                    [
+                        1478,
+                        1481
+                    ]
+                ]
+            ],
+            "NA": [
+                [
+                    0.505,
+                    "right",
+                    [
+                        1482,
+                        1487
+                    ]
+                ]
+            ],
+            "PROBLEM": [
+                [
+                    0.521,
+                    "tenderness",
+                    [
+                        1621,
+                        1631
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

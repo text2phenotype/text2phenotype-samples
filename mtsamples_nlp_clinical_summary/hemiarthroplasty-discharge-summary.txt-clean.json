@@ -1,0 +1,809 @@
+{
+    "file": "hemiarthroplasty-discharge-summary.txt-clean.txt",
+    "text2summary": {
+        "Medication": [],
+        "Allergy": [],
+        "Lab": [
+            {
+                "code": "272170001",
+                "cui": "C0023516",
+                "tui": "T034",
+                "vocab": "SNOMEDCT_US",
+                "polarity": "positive",
+                "text": "white count",
+                "preferredText": "WHITE BLOOD CELL (CELL)",
+                "range": [
+                    909,
+                    920
+                ]
+            }
+        ],
+        "DiseaseDisorder": [
+            {
+                "text": "Fracture of the right femoral neck",
+                "range": [
+                    23,
+                    57
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "125605004",
+                "cui": "C0016658",
+                "tui": "T037",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Fracture"
+            },
+            {
+                "text": "Alzheimer's dementia",
+                "range": [
+                    75,
+                    95
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "26929004",
+                "cui": "C0002395",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Alzheimer's Disease"
+            },
+            {
+                "text": "hypothyroidism",
+                "range": [
+                    101,
+                    115
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "40930008",
+                "cui": "C0020676",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Hypothyroidism"
+            },
+            {
+                "text": "Fracture of the right femoral neck",
+                "range": [
+                    139,
+                    173
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "125605004",
+                "cui": "C0016658",
+                "tui": "T037",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Fracture"
+            },
+            {
+                "text": "Alzheimer 's",
+                "range": [
+                    191,
+                    203
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "hypothyroidism",
+                "range": [
+                    214,
+                    228
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "40930008",
+                "cui": "C0020676",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Hypothyroidism"
+            },
+            {
+                "text": "Alzheimer's",
+                "range": [
+                    405,
+                    416
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "subsequent fracture of the right hip",
+                "range": [
+                    493,
+                    529
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "hip",
+                "range": [
+                    725,
+                    728
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.009,
+        "uncertain_count": 2,
+        "narrow_band_ratio": 0.008,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.634,
+                    "ABC",
+                    [
+                        1134,
+                        1137
+                    ]
+                ]
+            ],
+            "MED": [
+                [
+                    0.647,
+                    "aspirin",
+                    [
+                        1370,
+                        1377
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "Fracture",
+                    [
+                        23,
+                        31
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "of",
+                    [
+                        32,
+                        34
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "the",
+                    [
+                        35,
+                        38
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "right",
+                    [
+                        39,
+                        44
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "femoral",
+                    [
+                        45,
+                        52
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "neck",
+                    [
+                        53,
+                        57
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Alzheimer",
+                    [
+                        75,
+                        84
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "'s",
+                    [
+                        84,
+                        86
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "dementia",
+                    [
+                        87,
+                        95
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "hypothyroidism",
+                    [
+                        101,
+                        115
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Fracture",
+                    [
+                        139,
+                        147
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "of",
+                    [
+                        148,
+                        150
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "the",
+                    [
+                        151,
+                        154
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "right",
+                    [
+                        155,
+                        160
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "femoral",
+                    [
+                        161,
+                        168
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "neck",
+                    [
+                        169,
+                        173
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Alzheimer",
+                    [
+                        191,
+                        200
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "'s",
+                    [
+                        201,
+                        203
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "dementia",
+                    [
+                        204,
+                        212
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "hypothyroidism",
+                    [
+                        214,
+                        228
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Alzheimer",
+                    [
+                        405,
+                        414
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "'s",
+                    [
+                        414,
+                        416
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "subsequent",
+                    [
+                        493,
+                        503
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "fracture",
+                    [
+                        504,
+                        512
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "of",
+                    [
+                        513,
+                        515
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "the",
+                    [
+                        516,
+                        519
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "right",
+                    [
+                        520,
+                        525
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "hip",
+                    [
+                        526,
+                        529
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    ".",
+                    [
+                        529,
+                        530
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "hip",
+                    [
+                        725,
+                        728
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "dementia",
+                    [
+                        816,
+                        824
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.971,
+                    "Fracture",
+                    [
+                        23,
+                        31
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.885,
+                    "of",
+                    [
+                        32,
+                        34
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.857,
+                    "the",
+                    [
+                        35,
+                        38
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.926,
+                    "right",
+                    [
+                        39,
+                        44
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.766,
+                    "femoral",
+                    [
+                        45,
+                        52
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.733,
+                    "neck",
+                    [
+                        53,
+                        57
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.994,
+                    "Alzheimer",
+                    [
+                        75,
+                        84
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.997,
+                    "'s",
+                    [
+                        84,
+                        86
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.992,
+                    "dementia",
+                    [
+                        87,
+                        95
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.928,
+                    "hypothyroidism",
+                    [
+                        101,
+                        115
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.975,
+                    "Fracture",
+                    [
+                        139,
+                        147
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.937,
+                    "of",
+                    [
+                        148,
+                        150
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.92,
+                    "the",
+                    [
+                        151,
+                        154
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.879,
+                    "right",
+                    [
+                        155,
+                        160
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.735,
+                    "femoral",
+                    [
+                        161,
+                        168
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.73,
+                    "neck",
+                    [
+                        169,
+                        173
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.923,
+                    "Alzheimer",
+                    [
+                        191,
+                        200
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.921,
+                    "'s",
+                    [
+                        201,
+                        203
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.959,
+                    "dementia",
+                    [
+                        204,
+                        212
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.908,
+                    "hypothyroidism",
+                    [
+                        214,
+                        228
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.684,
+                    "Alzheimer",
+                    [
+                        405,
+                        414
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.843,
+                    "'s",
+                    [
+                        414,
+                        416
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.585,
+                    "subsequent",
+                    [
+                        493,
+                        503
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.891,
+                    "fracture",
+                    [
+                        504,
+                        512
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.877,
+                    "of",
+                    [
+                        513,
+                        515
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.898,
+                    "the",
+                    [
+                        516,
+                        519
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.829,
+                    "right",
+                    [
+                        520,
+                        525
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.81,
+                    "hip",
+                    [
+                        526,
+                        529
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.495,
+                    ".",
+                    [
+                        529,
+                        530
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.618,
+                    "dementia",
+                    [
+                        816,
+                        824
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.141,
+        "uncertain_token_count": 5,
+        "narrow_band_ratio": 0.019,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.52,
+                    ",",
+                    [
+                        95,
+                        96
+                    ]
+                ],
+                [
+                    0.526,
+                    ",",
+                    [
+                        212,
+                        213
+                    ]
+                ],
+                [
+                    0.498,
+                    "hip",
+                    [
+                        725,
+                        728
+                    ]
+                ],
+                [
+                    0.525,
+                    "hemiarthroplasty",
+                    [
+                        729,
+                        745
+                    ]
+                ]
+            ],
+            "DIAGNOSIS": [
+                [
+                    0.495,
+                    ".",
+                    [
+                        529,
+                        530
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

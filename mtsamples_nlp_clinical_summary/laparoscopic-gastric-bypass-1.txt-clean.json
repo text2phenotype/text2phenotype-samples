@@ -1,0 +1,238 @@
+{
+    "file": "laparoscopic-gastric-bypass-1.txt-clean.txt",
+    "text2summary": {
+        "Medication": [],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "Morbid obesity",
+                "range": [
+                    26,
+                    40
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "83911000119104",
+                "cui": "C0028756",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Obesity, Morbid"
+            },
+            {
+                "text": "Morbid obesity",
+                "range": [
+                    68,
+                    82
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "83911000119104",
+                "cui": "C0028756",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Obesity, Morbid"
+            },
+            {
+                "text": "obesity",
+                "range": [
+                    487,
+                    494
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "414915002",
+                "cui": "C0028754",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Obesity"
+            },
+            {
+                "text": "padded",
+                "range": [
+                    1094,
+                    1100
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "399957001",
+                "cui": "C1704436",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Peripheral Arterial Diseases"
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.006,
+        "uncertain_count": 3,
+        "narrow_band_ratio": 0.003,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.64,
+                    "Marcaine",
+                    [
+                        1237,
+                        1245
+                    ]
+                ],
+                [
+                    0.501,
+                    "drop",
+                    [
+                        3219,
+                        3223
+                    ]
+                ]
+            ],
+            "MED": [
+                [
+                    0.544,
+                    "insufflation",
+                    [
+                        1364,
+                        1376
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "Morbid",
+                    [
+                        26,
+                        32
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "obesity",
+                    [
+                        33,
+                        40
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Morbid",
+                    [
+                        68,
+                        74
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "obesity",
+                    [
+                        75,
+                        82
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "obesity",
+                    [
+                        487,
+                        494
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "padded",
+                    [
+                        1094,
+                        1100
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.682,
+                    "Morbid",
+                    [
+                        26,
+                        32
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.551,
+                    "obesity",
+                    [
+                        33,
+                        40
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.902,
+                    "Morbid",
+                    [
+                        68,
+                        74
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.867,
+                    "obesity",
+                    [
+                        75,
+                        82
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.587,
+                    "obesity",
+                    [
+                        487,
+                        494
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.457,
+                    "padded",
+                    [
+                        1094,
+                        1100
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.074,
+        "uncertain_token_count": 1,
+        "narrow_band_ratio": 0.001,
+        "uncertain_tokens": {
+            "DIAGNOSIS": [
+                [
+                    0.457,
+                    "padded",
+                    [
+                        1094,
+                        1100
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

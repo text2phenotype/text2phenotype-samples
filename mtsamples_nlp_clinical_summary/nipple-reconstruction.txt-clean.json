@@ -1,0 +1,682 @@
+{
+    "file": "nipple-reconstruction.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "silicone",
+                "code": "9778",
+                "cui": "C0037114",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Silicones",
+                "range": [
+                    2815,
+                    2823
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.975
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            }
+        ],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "Surgical",
+                "range": [
+                    30,
+                    38
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "left nipple areola",
+                "range": [
+                    50,
+                    68
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "of",
+                "range": [
+                    91,
+                    93
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "2. Breast asymmetry",
+                "range": [
+                    111,
+                    130
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "Surgical",
+                "range": [
+                    162,
+                    170
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "of left nipple areola",
+                "range": [
+                    179,
+                    200
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "of",
+                "range": [
+                    223,
+                    225
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "complex",
+                "range": [
+                    1499,
+                    1506
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.011,
+        "uncertain_count": 4,
+        "narrow_band_ratio": 0.006,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.581,
+                    "gloves",
+                    [
+                        1306,
+                        1312
+                    ]
+                ],
+                [
+                    0.668,
+                    "nylon",
+                    [
+                        2884,
+                        2889
+                    ]
+                ]
+            ],
+            "MED": [
+                [
+                    0.594,
+                    "gel",
+                    [
+                        2824,
+                        2827
+                    ]
+                ],
+                [
+                    0.685,
+                    "Steri-Strips",
+                    [
+                        2981,
+                        2993
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "Surgical",
+                    [
+                        30,
+                        38
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "absence",
+                    [
+                        39,
+                        46
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "left",
+                    [
+                        50,
+                        54
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "nipple",
+                    [
+                        55,
+                        61
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "areola",
+                    [
+                        62,
+                        68
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "personal",
+                    [
+                        74,
+                        82
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "history",
+                    [
+                        83,
+                        90
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "of",
+                    [
+                        91,
+                        93
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "breast",
+                    [
+                        94,
+                        100
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "cancer",
+                    [
+                        101,
+                        107
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    ".",
+                    [
+                        107,
+                        108
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "2",
+                    [
+                        111,
+                        112
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Breast",
+                    [
+                        114,
+                        120
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "asymmetry",
+                    [
+                        121,
+                        130
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Surgical",
+                    [
+                        162,
+                        170
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "absence",
+                    [
+                        171,
+                        178
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "of",
+                    [
+                        179,
+                        181
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "left",
+                    [
+                        182,
+                        186
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "nipple",
+                    [
+                        187,
+                        193
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "areola",
+                    [
+                        194,
+                        200
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "of",
+                    [
+                        223,
+                        225
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "breast",
+                    [
+                        226,
+                        232
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "cancer",
+                    [
+                        233,
+                        239
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "complex",
+                    [
+                        1499,
+                        1506
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.766,
+                    "Surgical",
+                    [
+                        30,
+                        38
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.944,
+                    "absence",
+                    [
+                        39,
+                        46
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.507,
+                    "of",
+                    [
+                        47,
+                        49
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.942,
+                    "left",
+                    [
+                        50,
+                        54
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.899,
+                    "nipple",
+                    [
+                        55,
+                        61
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.824,
+                    "areola",
+                    [
+                        62,
+                        68
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.706,
+                    "personal",
+                    [
+                        74,
+                        82
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.602,
+                    "history",
+                    [
+                        83,
+                        90
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.993,
+                    "breast",
+                    [
+                        94,
+                        100
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.993,
+                    "cancer",
+                    [
+                        101,
+                        107
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.555,
+                    ".",
+                    [
+                        107,
+                        108
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.589,
+                    "2",
+                    [
+                        111,
+                        112
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.798,
+                    "Breast",
+                    [
+                        114,
+                        120
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.491,
+                    "asymmetry",
+                    [
+                        121,
+                        130
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.755,
+                    "Surgical",
+                    [
+                        162,
+                        170
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.892,
+                    "absence",
+                    [
+                        171,
+                        178
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.565,
+                    "of",
+                    [
+                        179,
+                        181
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.82,
+                    "left",
+                    [
+                        182,
+                        186
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.697,
+                    "nipple",
+                    [
+                        187,
+                        193
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.629,
+                    "areola",
+                    [
+                        194,
+                        200
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.517,
+                    "of",
+                    [
+                        223,
+                        225
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.983,
+                    "breast",
+                    [
+                        226,
+                        232
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.985,
+                    "cancer",
+                    [
+                        233,
+                        239
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.095,
+        "uncertain_token_count": 5,
+        "narrow_band_ratio": 0.007,
+        "uncertain_tokens": {
+            "DIAGNOSIS": [
+                [
+                    0.507,
+                    "of",
+                    [
+                        47,
+                        49
+                    ]
+                ],
+                [
+                    0.491,
+                    "asymmetry",
+                    [
+                        121,
+                        130
+                    ]
+                ],
+                [
+                    0.517,
+                    "of",
+                    [
+                        223,
+                        225
+                    ]
+                ]
+            ],
+            "NA": [
+                [
+                    0.522,
+                    "complex",
+                    [
+                        1499,
+                        1506
+                    ]
+                ],
+                [
+                    0.483,
+                    "suture",
+                    [
+                        1918,
+                        1924
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

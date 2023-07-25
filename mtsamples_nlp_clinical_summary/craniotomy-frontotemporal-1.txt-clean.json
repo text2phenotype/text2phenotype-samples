@@ -1,0 +1,744 @@
+{
+    "file": "craniotomy-frontotemporal-1.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "Betadine",
+                "code": "202750",
+                "cui": "C0699524",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Betadine",
+                "range": [
+                    1068,
+                    1076
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.997
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "Betadine",
+                "code": "202750",
+                "cui": "C0699524",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Betadine",
+                "range": [
+                    1068,
+                    1076
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.997
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "sponge",
+                "code": null,
+                "cui": null,
+                "tui": null,
+                "vocab": null,
+                "polarity": "positive",
+                "preferredText": null,
+                "range": [
+                    2439,
+                    2445
+                ],
+                "prob": {
+                    "MED": 0.911
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            }
+        ],
+        "Allergy": [
+            {
+                "code": "202750",
+                "cui": "C0699524",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "text": "Betadine",
+                "preferredText": "Betadine",
+                "range": [
+                    1068,
+                    1076
+                ]
+            }
+        ],
+        "Lab": [
+            {
+                "code": "272170001",
+                "cui": "C0023516",
+                "tui": "T034",
+                "vocab": "SNOMEDCT_US",
+                "polarity": "positive",
+                "text": "white cell",
+                "preferredText": "WHITE BLOOD CELL (CELL)",
+                "range": [
+                    389,
+                    399
+                ]
+            }
+        ],
+        "DiseaseDisorder": [
+            {
+                "text": "Acute left",
+                "range": [
+                    26,
+                    36
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "Acute left",
+                "range": [
+                    82,
+                    92
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "thrombocytopenia",
+                "range": [
+                    368,
+                    384
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "302215000",
+                "cui": "C0040034",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Thrombocytopenia"
+            },
+            {
+                "text": "an intracerebral\ninjury",
+                "range": [
+                    559,
+                    582
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "left",
+                "range": [
+                    616,
+                    620
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "could",
+                "range": [
+                    1601,
+                    1606
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "counts",
+                "range": [
+                    2457,
+                    2463
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "foreign body",
+                "range": [
+                    2477,
+                    2489
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "19227008",
+                "cui": "C0016542",
+                "tui": "T037",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Foreign Bodies"
+            },
+            {
+                "text": "drain",
+                "range": [
+                    2498,
+                    2503
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.006,
+        "uncertain_count": 1,
+        "narrow_band_ratio": 0.002,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.529,
+                    "alcohol",
+                    [
+                        1089,
+                        1096
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "Acute",
+                    [
+                        26,
+                        31
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "left",
+                    [
+                        32,
+                        36
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "subdural",
+                    [
+                        37,
+                        45
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "hematoma",
+                    [
+                        46,
+                        54
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Acute",
+                    [
+                        82,
+                        87
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "left",
+                    [
+                        88,
+                        92
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "subdural",
+                    [
+                        93,
+                        101
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "hematoma",
+                    [
+                        102,
+                        110
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "subdural",
+                    [
+                        181,
+                        189
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "hematoma",
+                    [
+                        190,
+                        198
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "acute",
+                    [
+                        274,
+                        279
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "leukemia",
+                    [
+                        280,
+                        288
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "thrombocytopenia",
+                    [
+                        368,
+                        384
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "an",
+                    [
+                        559,
+                        561
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "intracerebral",
+                    [
+                        562,
+                        575
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "injury",
+                    [
+                        576,
+                        582
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "left",
+                    [
+                        616,
+                        620
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "subdural",
+                    [
+                        621,
+                        629
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "hematoma",
+                    [
+                        630,
+                        638
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "could",
+                    [
+                        1601,
+                        1606
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "counts",
+                    [
+                        2457,
+                        2463
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "foreign",
+                    [
+                        2477,
+                        2484
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "body",
+                    [
+                        2485,
+                        2489
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "drain",
+                    [
+                        2498,
+                        2503
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.909,
+                    "Acute",
+                    [
+                        26,
+                        31
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.927,
+                    "left",
+                    [
+                        32,
+                        36
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.788,
+                    "subdural",
+                    [
+                        37,
+                        45
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.641,
+                    "hematoma",
+                    [
+                        46,
+                        54
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.763,
+                    "Acute",
+                    [
+                        82,
+                        87
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.794,
+                    "left",
+                    [
+                        88,
+                        92
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.566,
+                    "subdural",
+                    [
+                        93,
+                        101
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.548,
+                    "hematoma",
+                    [
+                        102,
+                        110
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.654,
+                    "subdural",
+                    [
+                        181,
+                        189
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.775,
+                    "hematoma",
+                    [
+                        190,
+                        198
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.95,
+                    "acute",
+                    [
+                        274,
+                        279
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.96,
+                    "leukemia",
+                    [
+                        280,
+                        288
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.716,
+                    "thrombocytopenia",
+                    [
+                        368,
+                        384
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.711,
+                    "intracerebral",
+                    [
+                        562,
+                        575
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.784,
+                    "injury",
+                    [
+                        576,
+                        582
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.619,
+                    "left",
+                    [
+                        616,
+                        620
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.685,
+                    "subdural",
+                    [
+                        621,
+                        629
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.63,
+                    "hematoma",
+                    [
+                        630,
+                        638
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.601,
+                    "counts",
+                    [
+                        2457,
+                        2463
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.914,
+                    "foreign",
+                    [
+                        2477,
+                        2484
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.901,
+                    "body",
+                    [
+                        2485,
+                        2489
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.552,
+                    "drain",
+                    [
+                        2498,
+                        2503
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.194,
+        "uncertain_token_count": 7,
+        "narrow_band_ratio": 0.016,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.49,
+                    "profound",
+                    [
+                        359,
+                        367
+                    ]
+                ],
+                [
+                    0.522,
+                    "neurologic",
+                    [
+                        518,
+                        528
+                    ]
+                ],
+                [
+                    0.479,
+                    "deterioration",
+                    [
+                        529,
+                        542
+                    ]
+                ],
+                [
+                    0.47,
+                    "an",
+                    [
+                        559,
+                        561
+                    ]
+                ],
+                [
+                    0.517,
+                    "condition",
+                    [
+                        978,
+                        987
+                    ]
+                ],
+                [
+                    0.484,
+                    "hematoma",
+                    [
+                        1490,
+                        1498
+                    ]
+                ],
+                [
+                    0.514,
+                    "could",
+                    [
+                        1601,
+                        1606
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

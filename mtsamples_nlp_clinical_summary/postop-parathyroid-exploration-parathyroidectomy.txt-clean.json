@@ -1,0 +1,281 @@
+{
+    "file": "postop-parathyroid-exploration-parathyroidectomy.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "Tums",
+                "code": "220508",
+                "cui": "C0723950",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Tums",
+                "range": [
+                    404,
+                    408
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.905
+                },
+                "medFrequencyNumber": [
+                    "2.0"
+                ],
+                "medFrequencyUnit": [
+                    "am",
+                    429,
+                    431
+                ],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "Tums",
+                "code": "220508",
+                "cui": "C0723950",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Tums",
+                "range": [
+                    449,
+                    453
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.993
+                },
+                "medFrequencyNumber": [
+                    "4.0"
+                ],
+                "medFrequencyUnit": [
+                    "day"
+                ],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "Lortab Elixir",
+                "code": "218084",
+                "cui": "C0721432",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Lortab Elixir",
+                "range": [
+                    899,
+                    912
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 1.0
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "Lortab Elixir",
+                "code": "218084",
+                "cui": "C0721432",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Lortab Elixir",
+                "range": [
+                    899,
+                    912
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 1.0
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "calcium",
+                "code": "1895",
+                "cui": "C0006675",
+                "tui": "T123",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Calcium",
+                "range": [
+                    1012,
+                    1019
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.999
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "calcium",
+                "code": "1895",
+                "cui": "C0006675",
+                "tui": "T196",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Calcium",
+                "range": [
+                    1012,
+                    1019
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.999
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "calcium",
+                "code": "1895",
+                "cui": "C0006675",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Calcium",
+                "range": [
+                    1012,
+                    1019
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.999
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            }
+        ],
+        "Allergy": [],
+        "Lab": [
+            {
+                "code": "82310",
+                "cui": "C0201925",
+                "tui": "T059",
+                "vocab": "CPT",
+                "polarity": "positive",
+                "text": "calcium level",
+                "preferredText": "ASSAY OF CALCIUM",
+                "range": [
+                    346,
+                    359
+                ]
+            }
+        ],
+        "DiseaseDisorder": [
+            {
+                "text": "parathyroid\nhyperplasia",
+                "range": [
+                    141,
+                    164
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "9092004",
+                "cui": "C0271844",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Parathyroid hyperplasia"
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.015,
+        "uncertain_count": 3,
+        "narrow_band_ratio": 0.013,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.632,
+                    "PTH",
+                    [
+                        122,
+                        125
+                    ]
+                ],
+                [
+                    0.63,
+                    "dosage",
+                    [
+                        1020,
+                        1026
+                    ]
+                ]
+            ],
+            "MED": [
+                [
+                    0.574,
+                    "calcium",
+                    [
+                        745,
+                        752
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "parathyroid",
+                    [
+                        141,
+                        152
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "hyperplasia",
+                    [
+                        153,
+                        164
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.68,
+                    "parathyroid",
+                    [
+                        141,
+                        152
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.63,
+                    "hyperplasia",
+                    [
+                        153,
+                        164
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.039,
+        "uncertain_token_count": 0,
+        "narrow_band_ratio": 0.0,
+        "uncertain_tokens": {},
+        "narrow_band_width": 0.2
+    }
+}

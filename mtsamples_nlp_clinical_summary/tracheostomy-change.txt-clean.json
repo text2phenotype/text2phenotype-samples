@@ -1,0 +1,437 @@
+{
+    "file": "tracheostomy-change.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "acetic acid",
+                "code": "168",
+                "cui": "C0000983",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Acetic Acid",
+                "range": [
+                    2716,
+                    2727
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 1.0
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "acetic acid",
+                "code": "168",
+                "cui": "C0000983",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Acetic Acid",
+                "range": [
+                    2716,
+                    2727
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 1.0
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "sponge",
+                "code": null,
+                "cui": null,
+                "tui": null,
+                "vocab": null,
+                "polarity": "positive",
+                "preferredText": null,
+                "range": [
+                    2760,
+                    2766
+                ],
+                "prob": {
+                    "MED": 0.917
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            }
+        ],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "Ventilator-dependent respiratory failure",
+                "range": [
+                    31,
+                    71
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "Ventilator-dependent respiratory failure",
+                "range": [
+                    126,
+                    166
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "COPD and CHF",
+                "range": [
+                    441,
+                    453
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "13645005",
+                "cui": "C0024117",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Chronic Obstructive Airway Disease"
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.008,
+        "uncertain_count": 1,
+        "narrow_band_ratio": 0.002,
+        "uncertain_tokens": {
+            "MED": [
+                [
+                    0.637,
+                    "sponge",
+                    [
+                        2402,
+                        2408
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "Ventilator-dependent",
+                    [
+                        31,
+                        51
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "respiratory",
+                    [
+                        52,
+                        63
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "failure",
+                    [
+                        64,
+                        71
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "Laryngeal",
+                    [
+                        78,
+                        87
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "edema",
+                    [
+                        88,
+                        93
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Ventilator-dependent",
+                    [
+                        126,
+                        146
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "respiratory",
+                    [
+                        147,
+                        158
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "failure",
+                    [
+                        159,
+                        166
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Laryngeal",
+                    [
+                        173,
+                        182
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "edema",
+                    [
+                        183,
+                        188
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "COPD",
+                    [
+                        441,
+                        445
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "and",
+                    [
+                        446,
+                        449
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "CHF",
+                    [
+                        450,
+                        453
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "edema",
+                    [
+                        646,
+                        651
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.52,
+                    "Ventilator-dependent",
+                    [
+                        31,
+                        51
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.652,
+                    "respiratory",
+                    [
+                        52,
+                        63
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.74,
+                    "failure",
+                    [
+                        64,
+                        71
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.858,
+                    "Laryngeal",
+                    [
+                        78,
+                        87
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.812,
+                    "edema",
+                    [
+                        88,
+                        93
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.619,
+                    "Ventilator-dependent",
+                    [
+                        126,
+                        146
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.872,
+                    "respiratory",
+                    [
+                        147,
+                        158
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.936,
+                    "failure",
+                    [
+                        159,
+                        166
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.85,
+                    "Laryngeal",
+                    [
+                        173,
+                        182
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.851,
+                    "edema",
+                    [
+                        183,
+                        188
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.941,
+                    "COPD",
+                    [
+                        441,
+                        445
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.474,
+                    "and",
+                    [
+                        446,
+                        449
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.919,
+                    "CHF",
+                    [
+                        450,
+                        453
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.447,
+                    "edema",
+                    [
+                        646,
+                        651
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.068,
+        "uncertain_token_count": 3,
+        "narrow_band_ratio": 0.006,
+        "uncertain_tokens": {
+            "DIAGNOSIS": [
+                [
+                    0.52,
+                    "Ventilator-dependent",
+                    [
+                        31,
+                        51
+                    ]
+                ],
+                [
+                    0.474,
+                    "and",
+                    [
+                        446,
+                        449
+                    ]
+                ]
+            ],
+            "PROBLEM": [
+                [
+                    0.447,
+                    "edema",
+                    [
+                        646,
+                        651
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

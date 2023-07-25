@@ -1,0 +1,228 @@
+{
+    "file": "colonoscopy-1.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "NuLev",
+                "code": "284812",
+                "cui": "C0939414",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Nulev",
+                "range": [
+                    1297,
+                    1302
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.992
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "NuLev",
+                "code": "284812",
+                "cui": "C0939414",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Nulev",
+                "range": [
+                    1297,
+                    1302
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.992
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            }
+        ],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "Rectal bleeding",
+                "range": [
+                    14,
+                    29
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "constipation",
+                "range": [
+                    31,
+                    43
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "internal hemorrhoids",
+                "range": [
+                    1143,
+                    1163
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "90458007",
+                "cui": "C0265034",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Internal hemorrhoids"
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.011,
+        "uncertain_count": 1,
+        "narrow_band_ratio": 0.004,
+        "uncertain_tokens": {
+            "MED": [
+                [
+                    0.521,
+                    "medications",
+                    [
+                        261,
+                        272
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "PROBLEM": [
+                    "Rectal",
+                    [
+                        14,
+                        20
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "bleeding",
+                    [
+                        21,
+                        29
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "constipation",
+                    [
+                        31,
+                        43
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "internal",
+                    [
+                        1143,
+                        1151
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "hemorrhoids",
+                    [
+                        1152,
+                        1163
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "PROBLEM": [
+                    0.612,
+                    "Rectal",
+                    [
+                        14,
+                        20
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.766,
+                    "bleeding",
+                    [
+                        21,
+                        29
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.813,
+                    "constipation",
+                    [
+                        31,
+                        43
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.77,
+                    "internal",
+                    [
+                        1143,
+                        1151
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.866,
+                    "hemorrhoids",
+                    [
+                        1152,
+                        1163
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.082,
+        "uncertain_token_count": 1,
+        "narrow_band_ratio": 0.004,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.511,
+                    "hemorrhoids",
+                    [
+                        985,
+                        996
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

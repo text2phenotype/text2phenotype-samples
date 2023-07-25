@@ -1,0 +1,191 @@
+{
+    "file": "pacemaker-dddr.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "Argon",
+                "code": "1368133",
+                "cui": "C0003781",
+                "tui": "T196",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Argon",
+                "range": [
+                    826,
+                    831
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.999
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            }
+        ],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "Tachybrady",
+                "range": [
+                    62,
+                    72
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "of",
+                "range": [
+                    2934,
+                    2936
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.017,
+        "uncertain_count": 4,
+        "narrow_band_ratio": 0.005,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.562,
+                    "solution",
+                    [
+                        416,
+                        424
+                    ]
+                ],
+                [
+                    0.503,
+                    "lead",
+                    [
+                        2524,
+                        2528
+                    ]
+                ]
+            ],
+            "MED": [
+                [
+                    0.528,
+                    "lead",
+                    [
+                        1890,
+                        1894
+                    ]
+                ],
+                [
+                    0.585,
+                    "leads",
+                    [
+                        3008,
+                        3013
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "Tachybrady",
+                    [
+                        62,
+                        72
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "syndrome",
+                    [
+                        73,
+                        81
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "of",
+                    [
+                        2934,
+                        2936
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.644,
+                    "Tachybrady",
+                    [
+                        62,
+                        72
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.761,
+                    "syndrome",
+                    [
+                        73,
+                        81
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.455,
+                    "of",
+                    [
+                        2934,
+                        2936
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.061,
+        "uncertain_token_count": 2,
+        "narrow_band_ratio": 0.003,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.516,
+                    "free",
+                    [
+                        2929,
+                        2933
+                    ]
+                ]
+            ],
+            "DIAGNOSIS": [
+                [
+                    0.455,
+                    "of",
+                    [
+                        2934,
+                        2936
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

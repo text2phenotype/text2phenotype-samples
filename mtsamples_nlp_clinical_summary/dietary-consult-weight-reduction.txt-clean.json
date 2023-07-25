@@ -1,0 +1,195 @@
+{
+    "file": "dietary-consult-weight-reduction.txt-clean.txt",
+    "text2summary": {
+        "Medication": [],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "hyperlipidemia",
+                "range": [
+                    87,
+                    101
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "55822004",
+                "cui": "C0020473",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Hyperlipidemia"
+            },
+            {
+                "text": "hypertension",
+                "range": [
+                    103,
+                    115
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "38341003",
+                "cui": "C0020538",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Hypertensive disease"
+            },
+            {
+                "text": "gastroesophageal reflux",
+                "range": [
+                    117,
+                    140
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.016,
+        "uncertain_count": 1,
+        "narrow_band_ratio": 0.008,
+        "uncertain_tokens": {
+            "MED": [
+                [
+                    0.634,
+                    "high",
+                    [
+                        231,
+                        235
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "hyperlipidemia",
+                    [
+                        87,
+                        101
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "hypertension",
+                    [
+                        103,
+                        115
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "gastroesophageal",
+                    [
+                        117,
+                        133
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "reflux",
+                    [
+                        134,
+                        140
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "disease",
+                    [
+                        141,
+                        148
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "reduction",
+                    [
+                        160,
+                        169
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.961,
+                    "hyperlipidemia",
+                    [
+                        87,
+                        101
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.991,
+                    "hypertension",
+                    [
+                        103,
+                        115
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.96,
+                    "gastroesophageal",
+                    [
+                        117,
+                        133
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.972,
+                    "reflux",
+                    [
+                        134,
+                        140
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.965,
+                    "disease",
+                    [
+                        141,
+                        148
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.116,
+        "uncertain_token_count": 1,
+        "narrow_band_ratio": 0.008,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.484,
+                    "reduction",
+                    [
+                        160,
+                        169
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

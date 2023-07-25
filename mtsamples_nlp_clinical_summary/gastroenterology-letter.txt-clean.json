@@ -1,0 +1,606 @@
+{
+    "file": "gastroenterology-letter.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "Cardizem CD",
+                "code": "215895",
+                "cui": "C0719166",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Cardizem CD",
+                "range": [
+                    622,
+                    633
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.967
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [
+                    "240",
+                    634,
+                    637
+                ],
+                "medStrengthUnit": [
+                    "mg",
+                    638,
+                    640
+                ]
+            },
+            {
+                "text": "Cardizem CD",
+                "code": "215895",
+                "cui": "C0719166",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Cardizem CD",
+                "range": [
+                    622,
+                    633
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.967
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [
+                    "240",
+                    634,
+                    637
+                ],
+                "medStrengthUnit": [
+                    "mg",
+                    638,
+                    640
+                ]
+            }
+        ],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "glaucoma",
+                "range": [
+                    281,
+                    289
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "23986001",
+                "cui": "C0017601",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Glaucoma"
+            },
+            {
+                "text": "hypertension",
+                "range": [
+                    493,
+                    505
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "38341003",
+                "cui": "C0020538",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Hypertensive disease"
+            },
+            {
+                "text": "diabetes",
+                "range": [
+                    510,
+                    518
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "73211009",
+                "cui": "C0011849",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Diabetes Mellitus"
+            },
+            {
+                "text": "chronic cough",
+                "range": [
+                    1242,
+                    1255
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "painless rectal\nbleeding",
+                "range": [
+                    1954,
+                    1978
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "loss",
+                "range": [
+                    2010,
+                    2014
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "colon cancer",
+                "range": [
+                    2070,
+                    2082
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "colon polyps",
+                "range": [
+                    2098,
+                    2110
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "hemorrhoids",
+                "range": [
+                    2126,
+                    2137
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.004,
+        "uncertain_count": 0,
+        "narrow_band_ratio": 0.0,
+        "uncertain_tokens": {},
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "hypertension",
+                    [
+                        264,
+                        276
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "glaucoma",
+                    [
+                        281,
+                        289
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "bleeding",
+                    [
+                        354,
+                        362
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "hypertension",
+                    [
+                        493,
+                        505
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "diabetes",
+                    [
+                        510,
+                        518
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "chronic",
+                    [
+                        1242,
+                        1249
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "cough",
+                    [
+                        1250,
+                        1255
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "painless",
+                    [
+                        1954,
+                        1962
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "rectal",
+                    [
+                        1963,
+                        1969
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "bleeding",
+                    [
+                        1970,
+                        1978
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "loss",
+                    [
+                        2010,
+                        2014
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "colon",
+                    [
+                        2070,
+                        2075
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "cancer",
+                    [
+                        2076,
+                        2082
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "colon",
+                    [
+                        2098,
+                        2103
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "polyps",
+                    [
+                        2104,
+                        2110
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "hemorrhoids",
+                    [
+                        2126,
+                        2137
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.993,
+                    "hypertension",
+                    [
+                        264,
+                        276
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.975,
+                    "glaucoma",
+                    [
+                        281,
+                        289
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.425,
+                    "rectal",
+                    [
+                        347,
+                        353
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.443,
+                    "bleeding",
+                    [
+                        354,
+                        362
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.984,
+                    "hypertension",
+                    [
+                        493,
+                        505
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.907,
+                    "diabetes",
+                    [
+                        510,
+                        518
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.435,
+                    "chronic",
+                    [
+                        1242,
+                        1249
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.516,
+                    "cough",
+                    [
+                        1250,
+                        1255
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.497,
+                    "painless",
+                    [
+                        1954,
+                        1962
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.598,
+                    "rectal",
+                    [
+                        1963,
+                        1969
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.492,
+                    "bleeding",
+                    [
+                        1970,
+                        1978
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.447,
+                    "colon",
+                    [
+                        2070,
+                        2075
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.443,
+                    "cancer",
+                    [
+                        2076,
+                        2082
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.52,
+                    "colon",
+                    [
+                        2098,
+                        2103
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.566,
+                    "polyps",
+                    [
+                        2104,
+                        2110
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.41,
+                    "hemorrhoids",
+                    [
+                        2126,
+                        2137
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.08,
+        "uncertain_token_count": 11,
+        "narrow_band_ratio": 0.022,
+        "uncertain_tokens": {
+            "DIAGNOSIS": [
+                [
+                    0.425,
+                    "rectal",
+                    [
+                        347,
+                        353
+                    ]
+                ],
+                [
+                    0.443,
+                    "bleeding",
+                    [
+                        354,
+                        362
+                    ]
+                ],
+                [
+                    0.492,
+                    "bleeding",
+                    [
+                        1970,
+                        1978
+                    ]
+                ],
+                [
+                    0.41,
+                    "hemorrhoids",
+                    [
+                        2126,
+                        2137
+                    ]
+                ]
+            ],
+            "PROBLEM": [
+                [
+                    0.435,
+                    "chronic",
+                    [
+                        1242,
+                        1249
+                    ]
+                ],
+                [
+                    0.516,
+                    "cough",
+                    [
+                        1250,
+                        1255
+                    ]
+                ],
+                [
+                    0.497,
+                    "painless",
+                    [
+                        1954,
+                        1962
+                    ]
+                ],
+                [
+                    0.447,
+                    "colon",
+                    [
+                        2070,
+                        2075
+                    ]
+                ],
+                [
+                    0.443,
+                    "cancer",
+                    [
+                        2076,
+                        2082
+                    ]
+                ],
+                [
+                    0.52,
+                    "colon",
+                    [
+                        2098,
+                        2103
+                    ]
+                ]
+            ],
+            "NA": [
+                [
+                    0.37,
+                    "loss",
+                    [
+                        2010,
+                        2014
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

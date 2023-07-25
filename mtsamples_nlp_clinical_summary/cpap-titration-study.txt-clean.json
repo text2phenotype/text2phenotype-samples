@@ -1,0 +1,80 @@
+{
+    "file": "cpap-titration-study.txt-clean.txt",
+    "text2summary": {
+        "Medication": [],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "sleep apnea",
+                "range": [
+                    106,
+                    117
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "78275009",
+                "cui": "C0520679",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Sleep Apnea, Obstructive"
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.003,
+        "uncertain_count": 0,
+        "narrow_band_ratio": 0.0,
+        "uncertain_tokens": {},
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "sleep",
+                    [
+                        106,
+                        111
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "apnea",
+                    [
+                        112,
+                        117
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.601,
+                    "sleep",
+                    [
+                        106,
+                        111
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.57,
+                    "apnea",
+                    [
+                        112,
+                        117
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.046,
+        "uncertain_token_count": 0,
+        "narrow_band_ratio": 0.0,
+        "uncertain_tokens": {},
+        "narrow_band_width": 0.2
+    }
+}

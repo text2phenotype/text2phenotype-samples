@@ -1,0 +1,267 @@
+{
+    "file": "colonoscopy-16.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "antibiotics",
+                "code": null,
+                "cui": null,
+                "tui": null,
+                "vocab": null,
+                "polarity": "positive",
+                "preferredText": null,
+                "range": [
+                    1810,
+                    1821
+                ],
+                "prob": {
+                    "MED": 0.996
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            }
+        ],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "Perianal abscess",
+                "range": [
+                    117,
+                    133
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "82127005",
+                "cui": "C0031019",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Perianal abscess"
+            },
+            {
+                "text": "'s",
+                "range": [
+                    1379,
+                    1381
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.006,
+        "uncertain_count": 2,
+        "narrow_band_ratio": 0.006,
+        "uncertain_tokens": {
+            "MED": [
+                [
+                    0.603,
+                    "drainage",
+                    [
+                        1857,
+                        1865
+                    ]
+                ],
+                [
+                    0.63,
+                    "persists",
+                    [
+                        1866,
+                        1874
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "Rectal",
+                    [
+                        51,
+                        57
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "bleeding",
+                    [
+                        58,
+                        66
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "perirectal",
+                    [
+                        71,
+                        81
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "abscess",
+                    [
+                        82,
+                        89
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Perianal",
+                    [
+                        117,
+                        125
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "abscess",
+                    [
+                        126,
+                        133
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "'s",
+                    [
+                        1379,
+                        1381
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.617,
+                    "Rectal",
+                    [
+                        51,
+                        57
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.459,
+                    "bleeding",
+                    [
+                        58,
+                        66
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.493,
+                    "perirectal",
+                    [
+                        71,
+                        81
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.508,
+                    "abscess",
+                    [
+                        82,
+                        89
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.823,
+                    "Perianal",
+                    [
+                        117,
+                        125
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.874,
+                    "abscess",
+                    [
+                        126,
+                        133
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.576,
+                    "'s",
+                    [
+                        1379,
+                        1381
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.136,
+        "uncertain_token_count": 4,
+        "narrow_band_ratio": 0.012,
+        "uncertain_tokens": {
+            "DIAGNOSIS": [
+                [
+                    0.459,
+                    "bleeding",
+                    [
+                        58,
+                        66
+                    ]
+                ]
+            ],
+            "PROBLEM": [
+                [
+                    0.493,
+                    "perirectal",
+                    [
+                        71,
+                        81
+                    ]
+                ],
+                [
+                    0.508,
+                    "abscess",
+                    [
+                        82,
+                        89
+                    ]
+                ]
+            ],
+            "NA": [
+                [
+                    0.526,
+                    "on",
+                    [
+                        1360,
+                        1362
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

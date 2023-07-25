@@ -1,0 +1,626 @@
+{
+    "file": "spinal-fusion-instrumentation.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "anesthetic",
+                "code": null,
+                "cui": null,
+                "tui": null,
+                "vocab": null,
+                "polarity": "positive",
+                "preferredText": null,
+                "range": [
+                    1102,
+                    1112
+                ],
+                "prob": {
+                    "MED": 0.986
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "T8-T9",
+                "code": null,
+                "cui": null,
+                "tui": null,
+                "vocab": null,
+                "polarity": "positive",
+                "preferredText": null,
+                "range": [
+                    4283,
+                    4288
+                ],
+                "prob": {
+                    "MED": 0.914
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "clindamycin",
+                "code": "2582",
+                "cui": "C0008947",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Clindamycin",
+                "range": [
+                    7167,
+                    7178
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.998
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "clindamycin",
+                "code": "2582",
+                "cui": "C0008947",
+                "tui": "T195",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Clindamycin",
+                "range": [
+                    7167,
+                    7178
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.998
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            }
+        ],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "scoliosis",
+                "range": [
+                    33,
+                    42
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "298382003",
+                "cui": "C0036439",
+                "tui": "T190",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Scoliosis, unspecified"
+            },
+            {
+                "text": "scoliosis",
+                "range": [
+                    561,
+                    570
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "298382003",
+                "cui": "C0036439",
+                "tui": "T190",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Scoliosis, unspecified"
+            },
+            {
+                "text": "mother",
+                "range": [
+                    746,
+                    752
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "infections",
+                "range": [
+                    765,
+                    775
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "189822004",
+                "cui": "C0009450",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Communicable Diseases"
+            },
+            {
+                "text": "nerve injuries",
+                "range": [
+                    787,
+                    801
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "57182000",
+                "cui": "C0161479",
+                "tui": "T037",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Nerve injury"
+            },
+            {
+                "text": "spinal cord",
+                "range": [
+                    822,
+                    833
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "90584004",
+                "cui": "C0037929",
+                "tui": "T037",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Spinal Cord Injuries"
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.012,
+        "uncertain_count": 4,
+        "narrow_band_ratio": 0.003,
+        "uncertain_tokens": {
+            "MED": [
+                [
+                    0.692,
+                    "T12",
+                    [
+                        2706,
+                        2709
+                    ]
+                ],
+                [
+                    0.519,
+                    "T12",
+                    [
+                        3008,
+                        3011
+                    ]
+                ],
+                [
+                    0.692,
+                    "T4",
+                    [
+                        3840,
+                        3842
+                    ]
+                ],
+                [
+                    0.502,
+                    "Ancef",
+                    [
+                        7157,
+                        7162
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "scoliosis",
+                    [
+                        33,
+                        42
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "scoliosis",
+                    [
+                        561,
+                        570
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "mother",
+                    [
+                        746,
+                        752
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "infections",
+                    [
+                        765,
+                        775
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "bleeding",
+                    [
+                        777,
+                        785
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "nerve",
+                    [
+                        787,
+                        792
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "injuries",
+                    [
+                        793,
+                        801
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "spinal",
+                    [
+                        822,
+                        828
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "cord",
+                    [
+                        829,
+                        833
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "bowel",
+                    [
+                        886,
+                        891
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "bladder",
+                    [
+                        896,
+                        903
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "control",
+                    [
+                        904,
+                        911
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "understood",
+                    [
+                        981,
+                        991
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "T7-T8",
+                    [
+                        4273,
+                        4278
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.847,
+                    "scoliosis",
+                    [
+                        33,
+                        42
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.552,
+                    "scoliosis",
+                    [
+                        561,
+                        570
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.607,
+                    "infections",
+                    [
+                        765,
+                        775
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.686,
+                    "bleeding",
+                    [
+                        777,
+                        785
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.428,
+                    "nerve",
+                    [
+                        787,
+                        792
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.433,
+                    "injuries",
+                    [
+                        793,
+                        801
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.499,
+                    "vascular",
+                    [
+                        803,
+                        811
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.553,
+                    "injuries",
+                    [
+                        812,
+                        820
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.711,
+                    "spinal",
+                    [
+                        822,
+                        828
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.705,
+                    "cord",
+                    [
+                        829,
+                        833
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.512,
+                    "injury",
+                    [
+                        834,
+                        840
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.562,
+                    "bowel",
+                    [
+                        886,
+                        891
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.518,
+                    "bladder",
+                    [
+                        896,
+                        903
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.479,
+                    "control",
+                    [
+                        904,
+                        911
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.672,
+                    "understood",
+                    [
+                        981,
+                        991
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.577,
+                    "T7-T8",
+                    [
+                        4273,
+                        4278
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.077,
+        "uncertain_token_count": 13,
+        "narrow_band_ratio": 0.009,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.489,
+                    "Surgery",
+                    [
+                        729,
+                        736
+                    ]
+                ],
+                [
+                    0.467,
+                    "with",
+                    [
+                        737,
+                        741
+                    ]
+                ],
+                [
+                    0.408,
+                    "the",
+                    [
+                        742,
+                        745
+                    ]
+                ],
+                [
+                    0.457,
+                    "mother",
+                    [
+                        746,
+                        752
+                    ]
+                ],
+                [
+                    0.421,
+                    "motor",
+                    [
+                        867,
+                        872
+                    ]
+                ],
+                [
+                    0.488,
+                    "function",
+                    [
+                        873,
+                        881
+                    ]
+                ],
+                [
+                    0.462,
+                    "___________",
+                    [
+                        930,
+                        941
+                    ]
+                ]
+            ],
+            "PROBLEM": [
+                [
+                    0.428,
+                    "nerve",
+                    [
+                        787,
+                        792
+                    ]
+                ],
+                [
+                    0.518,
+                    "bladder",
+                    [
+                        896,
+                        903
+                    ]
+                ],
+                [
+                    0.479,
+                    "control",
+                    [
+                        904,
+                        911
+                    ]
+                ]
+            ],
+            "DIAGNOSIS": [
+                [
+                    0.433,
+                    "injuries",
+                    [
+                        793,
+                        801
+                    ]
+                ],
+                [
+                    0.499,
+                    "vascular",
+                    [
+                        803,
+                        811
+                    ]
+                ],
+                [
+                    0.512,
+                    "injury",
+                    [
+                        834,
+                        840
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

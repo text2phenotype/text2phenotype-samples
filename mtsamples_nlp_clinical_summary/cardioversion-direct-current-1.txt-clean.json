@@ -1,0 +1,360 @@
+{
+    "file": "cardioversion-direct-current-1.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "Brevital",
+                "code": "227282",
+                "cui": "C0733444",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Brevital",
+                "range": [
+                    569,
+                    577
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.986
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "Brevital",
+                "code": "227282",
+                "cui": "C0733444",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Brevital",
+                "range": [
+                    569,
+                    577
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.986
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            }
+        ],
+        "Allergy": [],
+        "Lab": [
+            {
+                "code": "",
+                "cui": "C0002059",
+                "tui": "T034",
+                "vocab": "LNC",
+                "polarity": "positive",
+                "text": "AP",
+                "preferredText": "ALP - ALKALINE PHOSPHATASE",
+                "range": [
+                    669,
+                    671
+                ]
+            }
+        ],
+        "DiseaseDisorder": [
+            {
+                "text": "paroxysmal\natrial fibrillation",
+                "range": [
+                    107,
+                    137
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "282825002",
+                "cui": "C0235480",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Paroxysmal atrial fibrillation"
+            },
+            {
+                "text": "atrial fibrillation",
+                "range": [
+                    223,
+                    242
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "49436004",
+                "cui": "C0004238",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Atrial Fibrillation"
+            },
+            {
+                "text": "recurrent atrial fibrillation",
+                "range": [
+                    259,
+                    288
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "atrial\nfibrillation",
+                "range": [
+                    1050,
+                    1069
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "49436004",
+                "cui": "C0004238",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Atrial Fibrillation"
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.011,
+        "uncertain_count": 0,
+        "narrow_band_ratio": 0.0,
+        "uncertain_tokens": {},
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "paroxysmal",
+                    [
+                        107,
+                        117
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "atrial",
+                    [
+                        118,
+                        124
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "fibrillation",
+                    [
+                        125,
+                        137
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "atrial",
+                    [
+                        223,
+                        229
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "fibrillation",
+                    [
+                        230,
+                        242
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "recurrent",
+                    [
+                        259,
+                        268
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "atrial",
+                    [
+                        269,
+                        275
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "fibrillation",
+                    [
+                        276,
+                        288
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "persistent",
+                    [
+                        326,
+                        336
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "atrial",
+                    [
+                        1050,
+                        1056
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "fibrillation",
+                    [
+                        1057,
+                        1069
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.934,
+                    "paroxysmal",
+                    [
+                        107,
+                        117
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.947,
+                    "atrial",
+                    [
+                        118,
+                        124
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.957,
+                    "fibrillation",
+                    [
+                        125,
+                        137
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.927,
+                    "atrial",
+                    [
+                        223,
+                        229
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.961,
+                    "fibrillation",
+                    [
+                        230,
+                        242
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.515,
+                    "recurrent",
+                    [
+                        259,
+                        268
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.938,
+                    "atrial",
+                    [
+                        269,
+                        275
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.943,
+                    "fibrillation",
+                    [
+                        276,
+                        288
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.603,
+                    "persistent",
+                    [
+                        326,
+                        336
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.749,
+                    "atrial",
+                    [
+                        1050,
+                        1056
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.892,
+                    "fibrillation",
+                    [
+                        1057,
+                        1069
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.099,
+        "uncertain_token_count": 1,
+        "narrow_band_ratio": 0.005,
+        "uncertain_tokens": {
+            "DIAGNOSIS": [
+                [
+                    0.515,
+                    "recurrent",
+                    [
+                        259,
+                        268
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

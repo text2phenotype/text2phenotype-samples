@@ -1,0 +1,489 @@
+{
+    "file": "lymph-node-excisional-biopsy.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "Betadine",
+                "code": "202750",
+                "cui": "C0699524",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Betadine",
+                "range": [
+                    1091,
+                    1099
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.949
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "Betadine",
+                "code": "202750",
+                "cui": "C0699524",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Betadine",
+                "range": [
+                    1091,
+                    1099
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.949
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            }
+        ],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "Left",
+                "range": [
+                    26,
+                    30
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "Left",
+                "range": [
+                    78,
+                    82
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "radiation",
+                "range": [
+                    274,
+                    283
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "view of the high-risk nature of her",
+                "range": [
+                    657,
+                    692
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.008,
+        "uncertain_count": 1,
+        "narrow_band_ratio": 0.003,
+        "uncertain_tokens": {
+            "MED": [
+                [
+                    0.573,
+                    "solution",
+                    [
+                        1100,
+                        1108
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "Left",
+                    [
+                        26,
+                        30
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "axillary",
+                    [
+                        31,
+                        39
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "adenopathy",
+                    [
+                        40,
+                        50
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "Left",
+                    [
+                        78,
+                        82
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "axillary",
+                    [
+                        83,
+                        91
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "adenopathy",
+                    [
+                        92,
+                        102
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "radiation",
+                    [
+                        274,
+                        283
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "adenopathy",
+                    [
+                        643,
+                        653
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "view",
+                    [
+                        657,
+                        661
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "of",
+                    [
+                        662,
+                        664
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "the",
+                    [
+                        665,
+                        668
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "high-risk",
+                    [
+                        669,
+                        678
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "nature",
+                    [
+                        679,
+                        685
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "of",
+                    [
+                        686,
+                        688
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "her",
+                    [
+                        689,
+                        692
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "lesion",
+                    [
+                        693,
+                        699
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.509,
+                    "Left",
+                    [
+                        26,
+                        30
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.74,
+                    "axillary",
+                    [
+                        31,
+                        39
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.71,
+                    "adenopathy",
+                    [
+                        40,
+                        50
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.635,
+                    "Left",
+                    [
+                        78,
+                        82
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.798,
+                    "axillary",
+                    [
+                        83,
+                        91
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.685,
+                    "adenopathy",
+                    [
+                        92,
+                        102
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.462,
+                    "adenopathy",
+                    [
+                        643,
+                        653
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.463,
+                    "view",
+                    [
+                        657,
+                        661
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.59,
+                    "of",
+                    [
+                        662,
+                        664
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.51,
+                    "the",
+                    [
+                        665,
+                        668
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.445,
+                    "high-risk",
+                    [
+                        669,
+                        678
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.532,
+                    "nature",
+                    [
+                        679,
+                        685
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.56,
+                    "of",
+                    [
+                        686,
+                        688
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.493,
+                    "her",
+                    [
+                        689,
+                        692
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.658,
+                    "lesion",
+                    [
+                        693,
+                        699
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.134,
+        "uncertain_token_count": 7,
+        "narrow_band_ratio": 0.024,
+        "uncertain_tokens": {
+            "DIAGNOSIS": [
+                [
+                    0.509,
+                    "Left",
+                    [
+                        26,
+                        30
+                    ]
+                ],
+                [
+                    0.462,
+                    "adenopathy",
+                    [
+                        643,
+                        653
+                    ]
+                ],
+                [
+                    0.463,
+                    "view",
+                    [
+                        657,
+                        661
+                    ]
+                ],
+                [
+                    0.51,
+                    "the",
+                    [
+                        665,
+                        668
+                    ]
+                ],
+                [
+                    0.445,
+                    "high-risk",
+                    [
+                        669,
+                        678
+                    ]
+                ],
+                [
+                    0.493,
+                    "her",
+                    [
+                        689,
+                        692
+                    ]
+                ]
+            ],
+            "NA": [
+                [
+                    0.502,
+                    "radiation",
+                    [
+                        274,
+                        283
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

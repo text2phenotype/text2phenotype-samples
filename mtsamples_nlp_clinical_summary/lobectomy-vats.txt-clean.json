@@ -1,0 +1,356 @@
+{
+    "file": "lobectomy-vats.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "Marcaine",
+                "code": "1012397",
+                "cui": "C2945665",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Marcaine",
+                "range": [
+                    2644,
+                    2652
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.928
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            }
+        ],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "Right middle lobe",
+                "range": [
+                    26,
+                    43
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "Right middle lobe",
+                "range": [
+                    83,
+                    100
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "pneumonitis",
+                "range": [
+                    1310,
+                    1321
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.005,
+        "uncertain_count": 3,
+        "narrow_band_ratio": 0.002,
+        "uncertain_tokens": {
+            "MED": [
+                [
+                    0.643,
+                    "DuraPrep",
+                    [
+                        2395,
+                        2403
+                    ]
+                ],
+                [
+                    0.555,
+                    "air",
+                    [
+                        6753,
+                        6756
+                    ]
+                ]
+            ],
+            "NA": [
+                [
+                    0.524,
+                    "water",
+                    [
+                        6463,
+                        6468
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "Right",
+                    [
+                        26,
+                        31
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "middle",
+                    [
+                        32,
+                        38
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "lobe",
+                    [
+                        39,
+                        43
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "lung",
+                    [
+                        44,
+                        48
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "cancer",
+                    [
+                        49,
+                        55
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Right",
+                    [
+                        83,
+                        88
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "middle",
+                    [
+                        89,
+                        95
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "lobe",
+                    [
+                        96,
+                        100
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "lung",
+                    [
+                        101,
+                        105
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "cancer",
+                    [
+                        106,
+                        112
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "pneumonitis",
+                    [
+                        1310,
+                        1321
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.869,
+                    "Right",
+                    [
+                        26,
+                        31
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.867,
+                    "middle",
+                    [
+                        32,
+                        38
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.742,
+                    "lobe",
+                    [
+                        39,
+                        43
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.82,
+                    "lung",
+                    [
+                        44,
+                        48
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.706,
+                    "cancer",
+                    [
+                        49,
+                        55
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.938,
+                    "Right",
+                    [
+                        83,
+                        88
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.955,
+                    "middle",
+                    [
+                        89,
+                        95
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.882,
+                    "lobe",
+                    [
+                        96,
+                        100
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.943,
+                    "lung",
+                    [
+                        101,
+                        105
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.903,
+                    "cancer",
+                    [
+                        106,
+                        112
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.524,
+                    "pneumonitis",
+                    [
+                        1310,
+                        1321
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.07,
+        "uncertain_token_count": 3,
+        "narrow_band_ratio": 0.002,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.526,
+                    "tumor",
+                    [
+                        484,
+                        489
+                    ]
+                ],
+                [
+                    0.464,
+                    "tumor",
+                    [
+                        686,
+                        691
+                    ]
+                ]
+            ],
+            "DIAGNOSIS": [
+                [
+                    0.524,
+                    "pneumonitis",
+                    [
+                        1310,
+                        1321
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

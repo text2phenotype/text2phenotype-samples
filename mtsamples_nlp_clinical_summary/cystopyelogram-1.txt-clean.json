@@ -1,0 +1,747 @@
+{
+    "file": "cystopyelogram-1.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "Coumadin",
+                "code": "202421",
+                "cui": "C0699129",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Coumadin",
+                "range": [
+                    1504,
+                    1512
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.998
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "Coumadin",
+                "code": "202421",
+                "cui": "C0699129",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Coumadin",
+                "range": [
+                    1504,
+                    1512
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.998
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "clots",
+                "code": null,
+                "cui": null,
+                "tui": null,
+                "vocab": null,
+                "polarity": "positive",
+                "preferredText": null,
+                "range": [
+                    1839,
+                    1844
+                ],
+                "prob": {
+                    "MED": 0.989
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "clots",
+                "code": null,
+                "cui": null,
+                "tui": null,
+                "vocab": null,
+                "polarity": "positive",
+                "preferredText": null,
+                "range": [
+                    1865,
+                    1870
+                ],
+                "prob": {
+                    "MED": 0.991
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "clots",
+                "code": null,
+                "cui": null,
+                "tui": null,
+                "vocab": null,
+                "polarity": "positive",
+                "preferredText": null,
+                "range": [
+                    2418,
+                    2423
+                ],
+                "prob": {
+                    "MED": 0.991
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            }
+        ],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "recurrent UTIs",
+                "range": [
+                    664,
+                    678
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "infection",
+                "range": [
+                    1071,
+                    1080
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "189822004",
+                "cui": "C0009450",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Communicable Diseases"
+            },
+            {
+                "text": "MI",
+                "range": [
+                    1088,
+                    1090
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "22298006",
+                "cui": "C0027051",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Myocardial Infarction"
+            },
+            {
+                "text": "DVT",
+                "range": [
+                    1092,
+                    1095
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "128053003",
+                "cui": "C0149871",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Deep Vein Thrombosis"
+            },
+            {
+                "text": "PE",
+                "range": [
+                    1100,
+                    1102
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "mucosa",
+                "range": [
+                    2507,
+                    2513
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.008,
+        "uncertain_count": 3,
+        "narrow_band_ratio": 0.006,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.66,
+                    "clots",
+                    [
+                        291,
+                        296
+                    ]
+                ],
+                [
+                    0.683,
+                    "contrast",
+                    [
+                        2624,
+                        2632
+                    ]
+                ]
+            ],
+            "MED": [
+                [
+                    0.663,
+                    "clot",
+                    [
+                        1595,
+                        1599
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "hematuria",
+                    [
+                        32,
+                        41
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "hematuria",
+                    [
+                        75,
+                        84
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "papillary",
+                    [
+                        372,
+                        381
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "tumor",
+                    [
+                        382,
+                        387
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "gross",
+                    [
+                        644,
+                        649
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "hematuria",
+                    [
+                        650,
+                        659
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "recurrent",
+                    [
+                        664,
+                        673
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "UTIs",
+                    [
+                        674,
+                        678
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "hematuria",
+                    [
+                        696,
+                        705
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "gross",
+                    [
+                        775,
+                        780
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "hematuria",
+                    [
+                        781,
+                        790
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "gross",
+                    [
+                        941,
+                        946
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "hematuria",
+                    [
+                        947,
+                        956
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "infection",
+                    [
+                        1071,
+                        1080
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "pain",
+                    [
+                        1082,
+                        1086
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "MI",
+                    [
+                        1088,
+                        1090
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "DVT",
+                    [
+                        1092,
+                        1095
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "PE",
+                    [
+                        1100,
+                        1102
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "tumor",
+                    [
+                        2163,
+                        2168
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "mucosa",
+                    [
+                        2507,
+                        2513
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "condition",
+                    [
+                        2906,
+                        2915
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.394,
+                    "Gross",
+                    [
+                        26,
+                        31
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.433,
+                    "hematuria",
+                    [
+                        32,
+                        41
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.477,
+                    "hematuria",
+                    [
+                        75,
+                        84
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.511,
+                    "bladder",
+                    [
+                        163,
+                        170
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.64,
+                    "papillary",
+                    [
+                        372,
+                        381
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.674,
+                    "tumor",
+                    [
+                        382,
+                        387
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.795,
+                    "gross",
+                    [
+                        644,
+                        649
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.876,
+                    "hematuria",
+                    [
+                        650,
+                        659
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.786,
+                    "recurrent",
+                    [
+                        664,
+                        673
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.856,
+                    "UTIs",
+                    [
+                        674,
+                        678
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.476,
+                    "hematuria",
+                    [
+                        696,
+                        705
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.533,
+                    "gross",
+                    [
+                        775,
+                        780
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.491,
+                    "hematuria",
+                    [
+                        781,
+                        790
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.431,
+                    "gross",
+                    [
+                        941,
+                        946
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.551,
+                    "hematuria",
+                    [
+                        947,
+                        956
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.701,
+                    "infection",
+                    [
+                        1071,
+                        1080
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.722,
+                    "pain",
+                    [
+                        1082,
+                        1086
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.981,
+                    "MI",
+                    [
+                        1088,
+                        1090
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.98,
+                    "DVT",
+                    [
+                        1092,
+                        1095
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.616,
+                    "PE",
+                    [
+                        1100,
+                        1102
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.692,
+                    "tumor",
+                    [
+                        2163,
+                        2168
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.439,
+                    "mucosa",
+                    [
+                        2507,
+                        2513
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.374,
+                    "condition",
+                    [
+                        2906,
+                        2915
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.145,
+        "uncertain_token_count": 10,
+        "narrow_band_ratio": 0.018,
+        "uncertain_tokens": {
+            "DIAGNOSIS": [
+                [
+                    0.394,
+                    "Gross",
+                    [
+                        26,
+                        31
+                    ]
+                ],
+                [
+                    0.433,
+                    "hematuria",
+                    [
+                        32,
+                        41
+                    ]
+                ],
+                [
+                    0.477,
+                    "hematuria",
+                    [
+                        75,
+                        84
+                    ]
+                ],
+                [
+                    0.511,
+                    "bladder",
+                    [
+                        163,
+                        170
+                    ]
+                ],
+                [
+                    0.491,
+                    "hematuria",
+                    [
+                        781,
+                        790
+                    ]
+                ],
+                [
+                    0.439,
+                    "mucosa",
+                    [
+                        2507,
+                        2513
+                    ]
+                ]
+            ],
+            "NA": [
+                [
+                    0.511,
+                    "Gross",
+                    [
+                        69,
+                        74
+                    ]
+                ]
+            ],
+            "PROBLEM": [
+                [
+                    0.476,
+                    "hematuria",
+                    [
+                        696,
+                        705
+                    ]
+                ],
+                [
+                    0.431,
+                    "gross",
+                    [
+                        941,
+                        946
+                    ]
+                ],
+                [
+                    0.374,
+                    "condition",
+                    [
+                        2906,
+                        2915
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

@@ -1,0 +1,465 @@
+{
+    "file": "bilateral-carotid-cerebral-angiogram.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "Heparin",
+                "code": "5224",
+                "cui": "C0019134",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Heparin",
+                "range": [
+                    1634,
+                    1641
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 1.0
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "Heparin",
+                "code": "5224",
+                "cui": "C0019134",
+                "tui": "T123",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Heparin",
+                "range": [
+                    1634,
+                    1641
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 1.0
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "Heparin",
+                "code": "5224",
+                "cui": "C0019134",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Heparin",
+                "range": [
+                    1634,
+                    1641
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 1.0
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "protamine",
+                "code": "8826",
+                "cui": "C0033603",
+                "tui": "T123",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Protamines",
+                "range": [
+                    1692,
+                    1701
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.927
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "protamine",
+                "code": "8826",
+                "cui": "C0033603",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Protamines",
+                "range": [
+                    1692,
+                    1701
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.927
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            }
+        ],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "Carotid artery occlusive",
+                "range": [
+                    31,
+                    55
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "Peripheral vascular disease",
+                "range": [
+                    70,
+                    97
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "400047006",
+                "cui": "C0085096",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Peripheral Vascular Diseases"
+            },
+            {
+                "text": "Carotid artery occlusive",
+                "range": [
+                    130,
+                    154
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "Peripheral vascular disease",
+                "range": [
+                    169,
+                    196
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "400047006",
+                "cui": "C0085096",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Peripheral Vascular Diseases"
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.002,
+        "uncertain_count": 0,
+        "narrow_band_ratio": 0.0,
+        "uncertain_tokens": {},
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "Carotid",
+                    [
+                        31,
+                        38
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "artery",
+                    [
+                        39,
+                        45
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "occlusive",
+                    [
+                        46,
+                        55
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "disease",
+                    [
+                        56,
+                        63
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Peripheral",
+                    [
+                        70,
+                        80
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "vascular",
+                    [
+                        81,
+                        89
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "disease",
+                    [
+                        90,
+                        97
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Carotid",
+                    [
+                        130,
+                        137
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "artery",
+                    [
+                        138,
+                        144
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "occlusive",
+                    [
+                        145,
+                        154
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "disease",
+                    [
+                        155,
+                        162
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Peripheral",
+                    [
+                        169,
+                        179
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "vascular",
+                    [
+                        180,
+                        188
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "disease",
+                    [
+                        189,
+                        196
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.989,
+                    "Carotid",
+                    [
+                        31,
+                        38
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.988,
+                    "artery",
+                    [
+                        39,
+                        45
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.965,
+                    "occlusive",
+                    [
+                        46,
+                        55
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.969,
+                    "disease",
+                    [
+                        56,
+                        63
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.976,
+                    "Peripheral",
+                    [
+                        70,
+                        80
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.975,
+                    "vascular",
+                    [
+                        81,
+                        89
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.953,
+                    "disease",
+                    [
+                        90,
+                        97
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.992,
+                    "Carotid",
+                    [
+                        130,
+                        137
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.995,
+                    "artery",
+                    [
+                        138,
+                        144
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.987,
+                    "occlusive",
+                    [
+                        145,
+                        154
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.99,
+                    "disease",
+                    [
+                        155,
+                        162
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.983,
+                    "Peripheral",
+                    [
+                        169,
+                        179
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.972,
+                    "vascular",
+                    [
+                        180,
+                        188
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.945,
+                    "disease",
+                    [
+                        189,
+                        196
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.106,
+        "uncertain_token_count": 1,
+        "narrow_band_ratio": 0.003,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.461,
+                    "ulcer",
+                    [
+                        849,
+                        854
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

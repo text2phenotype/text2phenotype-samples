@@ -1,0 +1,469 @@
+{
+    "file": "parathyroid-adenoma-excision.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "Aricept",
+                "code": "135446",
+                "cui": "C0527315",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Aricept",
+                "range": [
+                    346,
+                    353
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.995
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "Aricept",
+                "code": "135446",
+                "cui": "C0527315",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Aricept",
+                "range": [
+                    346,
+                    353
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.995
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "parathyroid hormone",
+                "code": "1427222",
+                "cui": "C0030520",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Parathyroid Hormone",
+                "range": [
+                    2449,
+                    2468
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 1.0
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            }
+        ],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "Right superior",
+                "range": [
+                    88,
+                    102
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "hyperparathyroidism",
+                "range": [
+                    2686,
+                    2705
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "66999008",
+                "cui": "C0020502",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Hyperparathyroidism"
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.012,
+        "uncertain_count": 3,
+        "narrow_band_ratio": 0.005,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.642,
+                    "Xylocaine",
+                    [
+                        211,
+                        220
+                    ]
+                ],
+                [
+                    0.591,
+                    "epinephrine",
+                    [
+                        1216,
+                        1227
+                    ]
+                ]
+            ],
+            "MED": [
+                [
+                    0.663,
+                    "condition",
+                    [
+                        3226,
+                        3235
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "adenoma",
+                    [
+                        53,
+                        60
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Right",
+                    [
+                        88,
+                        93
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "superior",
+                    [
+                        94,
+                        102
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "parathyroid",
+                    [
+                        103,
+                        114
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "adenoma",
+                    [
+                        115,
+                        122
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "mild",
+                    [
+                        314,
+                        318
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "dementia",
+                    [
+                        319,
+                        327
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "parathyroid",
+                    [
+                        2249,
+                        2260
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "adenoma",
+                    [
+                        2261,
+                        2268
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "parathyroid",
+                    [
+                        2502,
+                        2513
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "adenoma",
+                    [
+                        2514,
+                        2521
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "hyperparathyroidism",
+                    [
+                        2686,
+                        2705
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "parathyroid",
+                    [
+                        2725,
+                        2736
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "adenoma",
+                    [
+                        2737,
+                        2744
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.457,
+                    "parathyroid",
+                    [
+                        41,
+                        52
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.393,
+                    "adenoma",
+                    [
+                        53,
+                        60
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.591,
+                    "Right",
+                    [
+                        88,
+                        93
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.65,
+                    "superior",
+                    [
+                        94,
+                        102
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.589,
+                    "parathyroid",
+                    [
+                        103,
+                        114
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.72,
+                    "adenoma",
+                    [
+                        115,
+                        122
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.6,
+                    "mild",
+                    [
+                        314,
+                        318
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.853,
+                    "dementia",
+                    [
+                        319,
+                        327
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.606,
+                    "parathyroid",
+                    [
+                        2249,
+                        2260
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.619,
+                    "adenoma",
+                    [
+                        2261,
+                        2268
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.636,
+                    "parathyroid",
+                    [
+                        2502,
+                        2513
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.685,
+                    "adenoma",
+                    [
+                        2514,
+                        2521
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.592,
+                    "hyperparathyroidism",
+                    [
+                        2686,
+                        2705
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.803,
+                    "parathyroid",
+                    [
+                        2725,
+                        2736
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.792,
+                    "adenoma",
+                    [
+                        2737,
+                        2744
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.098,
+        "uncertain_token_count": 5,
+        "narrow_band_ratio": 0.009,
+        "uncertain_tokens": {
+            "DIAGNOSIS": [
+                [
+                    0.457,
+                    "parathyroid",
+                    [
+                        41,
+                        52
+                    ]
+                ],
+                [
+                    0.393,
+                    "adenoma",
+                    [
+                        53,
+                        60
+                    ]
+                ]
+            ],
+            "NA": [
+                [
+                    0.439,
+                    "strange",
+                    [
+                        393,
+                        400
+                    ]
+                ],
+                [
+                    0.456,
+                    "thoughts",
+                    [
+                        401,
+                        409
+                    ]
+                ],
+                [
+                    0.493,
+                    "adenoma",
+                    [
+                        592,
+                        599
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

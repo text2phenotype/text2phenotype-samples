@@ -1,0 +1,204 @@
+{
+    "file": "cervical-medial-branch-blocks.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "Marcaine",
+                "code": "1012397",
+                "cui": "C2945665",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Marcaine",
+                "range": [
+                    2030,
+                    2038
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.928
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [
+                    "0.5",
+                    2039,
+                    2042
+                ],
+                "medStrengthUnit": [
+                    "mg",
+                    2057,
+                    2059
+                ]
+            },
+            {
+                "text": "prednisolone acetate",
+                "code": "34372",
+                "cui": "C0071839",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "prednisolone acetate",
+                "range": [
+                    2070,
+                    2090
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.955
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "prednisolone acetate",
+                "code": "34372",
+                "cui": "C0071839",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "prednisolone acetate",
+                "range": [
+                    2070,
+                    2090
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.955
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            }
+        ],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "Cervical spondylosis",
+                "range": [
+                    26,
+                    46
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "387800004",
+                "cui": "C1384641",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Cervical spondylosis"
+            },
+            {
+                "text": "Cervical spondylosis",
+                "range": [
+                    74,
+                    94
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "387800004",
+                "cui": "C1384641",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Cervical spondylosis"
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.008,
+        "uncertain_count": 0,
+        "narrow_band_ratio": 0.0,
+        "uncertain_tokens": {},
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "PROBLEM": [
+                    "Cervical",
+                    [
+                        26,
+                        34
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "spondylosis",
+                    [
+                        35,
+                        46
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "Cervical",
+                    [
+                        74,
+                        82
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "spondylosis",
+                    [
+                        83,
+                        94
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "PROBLEM": [
+                    0.592,
+                    "Cervical",
+                    [
+                        26,
+                        34
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.597,
+                    "spondylosis",
+                    [
+                        35,
+                        46
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.67,
+                    "Cervical",
+                    [
+                        74,
+                        82
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.625,
+                    "spondylosis",
+                    [
+                        83,
+                        94
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.064,
+        "uncertain_token_count": 0,
+        "narrow_band_ratio": 0.0,
+        "uncertain_tokens": {},
+        "narrow_band_width": 0.2
+    }
+}

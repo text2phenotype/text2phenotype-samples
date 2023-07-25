@@ -1,0 +1,106 @@
+{
+    "file": "transesophageal-echocardiography-probe.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "cefazolin",
+                "code": "2180",
+                "cui": "C0007546",
+                "tui": "T195",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Cefazolin",
+                "range": [
+                    270,
+                    279
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.968
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "cefazolin",
+                "code": "2180",
+                "cui": "C0007546",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Cefazolin",
+                "range": [
+                    270,
+                    279
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.968
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            }
+        ],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": []
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.008,
+        "uncertain_count": 1,
+        "narrow_band_ratio": 0.003,
+        "uncertain_tokens": {
+            "MED": [
+                [
+                    0.621,
+                    "lidocaine",
+                    [
+                        1842,
+                        1851
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [],
+        "weighted": [],
+        "average_entropy": 0.099,
+        "uncertain_token_count": 3,
+        "narrow_band_ratio": 0.008,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.5,
+                    "of",
+                    [
+                        1998,
+                        2000
+                    ]
+                ],
+                [
+                    0.45,
+                    "the",
+                    [
+                        2001,
+                        2004
+                    ]
+                ],
+                [
+                    0.5,
+                    "left",
+                    [
+                        2005,
+                        2009
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

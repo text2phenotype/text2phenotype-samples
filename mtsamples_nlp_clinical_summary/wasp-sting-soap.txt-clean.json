@@ -1,0 +1,763 @@
+{
+    "file": "wasp-sting-soap.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "Benadryl",
+                "code": "203457",
+                "cui": "C0700899",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Benadryl",
+                "range": [
+                    1304,
+                    1312
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 1.0
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "Benadryl",
+                "code": "203457",
+                "cui": "C0700899",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Benadryl",
+                "range": [
+                    1304,
+                    1312
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 1.0
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            }
+        ],
+        "Allergy": [
+            {
+                "code": "203457",
+                "cui": "C0700899",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "text": "Benadryl",
+                "preferredText": "Benadryl",
+                "range": [
+                    1304,
+                    1312
+                ]
+            }
+        ],
+        "Lab": [
+            {
+                "code": "6063",
+                "cui": "C0005910",
+                "tui": "T034",
+                "vocab": "MEDCIN",
+                "polarity": "positive",
+                "text": "Weight",
+                "preferredText": "WEIGHT (PHYSICAL FINDING)",
+                "range": [
+                    786,
+                    792
+                ]
+            }
+        ],
+        "DiseaseDisorder": [
+            {
+                "text": "stung by a Yellow Jacket Wasp\nyesterday",
+                "range": [
+                    119,
+                    158
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "72587008",
+                "cui": "C0038340",
+                "tui": "T037",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Sting Injury"
+            },
+            {
+                "text": "in",
+                "range": [
+                    189,
+                    191
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "hand",
+                "range": [
+                    202,
+                    206
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "right arm",
+                "range": [
+                    211,
+                    220
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "throat",
+                "range": [
+                    538,
+                    544
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "wrist region on his right hand",
+                "range": [
+                    919,
+                    949
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "Wasp sting to the right wrist area",
+                "range": [
+                    1207,
+                    1241
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "241819002",
+                "cui": "C0413119",
+                "tui": "T037",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Wasp sting"
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.011,
+        "uncertain_count": 3,
+        "narrow_band_ratio": 0.01,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.629,
+                    "Jacket",
+                    [
+                        137,
+                        143
+                    ]
+                ],
+                [
+                    0.507,
+                    "Solu-Medrol",
+                    [
+                        1255,
+                        1266
+                    ]
+                ],
+                [
+                    0.587,
+                    "ice",
+                    [
+                        1314,
+                        1317
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "stung",
+                    [
+                        119,
+                        124
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "by",
+                    [
+                        125,
+                        127
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "a",
+                    [
+                        128,
+                        129
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Yellow",
+                    [
+                        130,
+                        136
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Jacket",
+                    [
+                        137,
+                        143
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Wasp",
+                    [
+                        144,
+                        148
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "yesterday",
+                    [
+                        149,
+                        158
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "in",
+                    [
+                        189,
+                        191
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "hand",
+                    [
+                        202,
+                        206
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "right",
+                    [
+                        211,
+                        216
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "arm",
+                    [
+                        217,
+                        220
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "throat",
+                    [
+                        538,
+                        544
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "wrist",
+                    [
+                        919,
+                        924
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "region",
+                    [
+                        925,
+                        931
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "on",
+                    [
+                        932,
+                        934
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "his",
+                    [
+                        935,
+                        938
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "right",
+                    [
+                        939,
+                        944
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "hand",
+                    [
+                        945,
+                        949
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Wasp",
+                    [
+                        1207,
+                        1211
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "sting",
+                    [
+                        1212,
+                        1217
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "to",
+                    [
+                        1218,
+                        1220
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "the",
+                    [
+                        1221,
+                        1224
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "right",
+                    [
+                        1225,
+                        1230
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "wrist",
+                    [
+                        1231,
+                        1236
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "area",
+                    [
+                        1237,
+                        1241
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.915,
+                    "stung",
+                    [
+                        119,
+                        124
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.901,
+                    "by",
+                    [
+                        125,
+                        127
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.882,
+                    "a",
+                    [
+                        128,
+                        129
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.88,
+                    "Yellow",
+                    [
+                        130,
+                        136
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.914,
+                    "Jacket",
+                    [
+                        137,
+                        143
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.891,
+                    "Wasp",
+                    [
+                        144,
+                        148
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.585,
+                    "yesterday",
+                    [
+                        149,
+                        158
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.493,
+                    "in",
+                    [
+                        189,
+                        191
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.59,
+                    "hand",
+                    [
+                        202,
+                        206
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.45,
+                    "and",
+                    [
+                        207,
+                        210
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.523,
+                    "right",
+                    [
+                        211,
+                        216
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.562,
+                    "arm",
+                    [
+                        217,
+                        220
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.457,
+                    "feeling",
+                    [
+                        545,
+                        552
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.707,
+                    "region",
+                    [
+                        925,
+                        931
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.748,
+                    "on",
+                    [
+                        932,
+                        934
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.639,
+                    "his",
+                    [
+                        935,
+                        938
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.671,
+                    "right",
+                    [
+                        939,
+                        944
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.633,
+                    "hand",
+                    [
+                        945,
+                        949
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.945,
+                    "Wasp",
+                    [
+                        1207,
+                        1211
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.915,
+                    "sting",
+                    [
+                        1212,
+                        1217
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.923,
+                    "to",
+                    [
+                        1218,
+                        1220
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.949,
+                    "the",
+                    [
+                        1221,
+                        1224
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.94,
+                    "right",
+                    [
+                        1225,
+                        1230
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.934,
+                    "wrist",
+                    [
+                        1231,
+                        1236
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.79,
+                    "area",
+                    [
+                        1237,
+                        1241
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.213,
+        "uncertain_token_count": 8,
+        "narrow_band_ratio": 0.027,
+        "uncertain_tokens": {
+            "PROBLEM": [
+                [
+                    0.493,
+                    "in",
+                    [
+                        189,
+                        191
+                    ]
+                ],
+                [
+                    0.45,
+                    "and",
+                    [
+                        207,
+                        210
+                    ]
+                ],
+                [
+                    0.523,
+                    "right",
+                    [
+                        211,
+                        216
+                    ]
+                ],
+                [
+                    0.457,
+                    "feeling",
+                    [
+                        545,
+                        552
+                    ]
+                ]
+            ],
+            "NA": [
+                [
+                    0.505,
+                    "his",
+                    [
+                        192,
+                        195
+                    ]
+                ],
+                [
+                    0.471,
+                    "right",
+                    [
+                        196,
+                        201
+                    ]
+                ],
+                [
+                    0.463,
+                    "throat",
+                    [
+                        538,
+                        544
+                    ]
+                ],
+                [
+                    0.513,
+                    "sting",
+                    [
+                        701,
+                        706
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

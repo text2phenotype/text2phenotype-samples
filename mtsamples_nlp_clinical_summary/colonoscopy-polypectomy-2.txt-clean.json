@@ -1,0 +1,478 @@
+{
+    "file": "colonoscopy-polypectomy-2.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "fentanyl",
+                "code": "4337",
+                "cui": "C0015846",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Fentanyl",
+                "range": [
+                    1065,
+                    1073
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.999
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [
+                    "8",
+                    1079,
+                    1080
+                ],
+                "medStrengthUnit": [
+                    "mg",
+                    1081,
+                    1083
+                ]
+            },
+            {
+                "text": "fentanyl",
+                "code": "4337",
+                "cui": "C0015846",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Fentanyl",
+                "range": [
+                    1065,
+                    1073
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.999
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [
+                    "8",
+                    1079,
+                    1080
+                ],
+                "medStrengthUnit": [
+                    "mg",
+                    1081,
+                    1083
+                ]
+            }
+        ],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "Colon polyps",
+                "range": [
+                    76,
+                    88
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "68496003",
+                "cui": "C0009376",
+                "tui": "T190",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Colonic Polyps"
+            },
+            {
+                "text": "diverticulosis",
+                "range": [
+                    90,
+                    104
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "63532004",
+                "cui": "C1510475",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Diverticulosis"
+            },
+            {
+                "text": "hemorrhoids",
+                "range": [
+                    106,
+                    117
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "70153002",
+                "cui": "C0019112",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Hemorrhoids"
+            },
+            {
+                "text": "internal hemorrhoids",
+                "range": [
+                    446,
+                    466
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "90458007",
+                "cui": "C0265034",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Internal hemorrhoids"
+            },
+            {
+                "text": "diverticular disease",
+                "range": [
+                    546,
+                    566
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "63532004",
+                "cui": "C1510475",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Diverticulosis"
+            },
+            {
+                "text": "polyps",
+                "range": [
+                    603,
+                    609
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "441456002",
+                "cui": "C0032584",
+                "tui": "T190",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "polyps"
+            },
+            {
+                "text": "polyp",
+                "range": [
+                    1644,
+                    1649
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "441456002",
+                "cui": "C0032584",
+                "tui": "T190",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "polyps"
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.007,
+        "uncertain_count": 0,
+        "narrow_band_ratio": 0.0,
+        "uncertain_tokens": {},
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "Colon",
+                    [
+                        76,
+                        81
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "polyps",
+                    [
+                        82,
+                        88
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "diverticulosis",
+                    [
+                        90,
+                        104
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "hemorrhoids",
+                    [
+                        106,
+                        117
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "myelodysplastic",
+                    [
+                        253,
+                        268
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "syndrome",
+                    [
+                        269,
+                        277
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "internal",
+                    [
+                        446,
+                        454
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "hemorrhoids",
+                    [
+                        455,
+                        466
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "diverticular",
+                    [
+                        546,
+                        558
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "disease",
+                    [
+                        559,
+                        566
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "polyps",
+                    [
+                        603,
+                        609
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "bleeding",
+                    [
+                        1009,
+                        1017
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "perforation",
+                    [
+                        1022,
+                        1033
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "polyp",
+                    [
+                        1644,
+                        1649
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.789,
+                    "Colon",
+                    [
+                        76,
+                        81
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.629,
+                    "polyps",
+                    [
+                        82,
+                        88
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.617,
+                    "diverticulosis",
+                    [
+                        90,
+                        104
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.621,
+                    "hemorrhoids",
+                    [
+                        106,
+                        117
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.825,
+                    "myelodysplastic",
+                    [
+                        253,
+                        268
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.821,
+                    "syndrome",
+                    [
+                        269,
+                        277
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.654,
+                    "internal",
+                    [
+                        446,
+                        454
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.612,
+                    "hemorrhoids",
+                    [
+                        455,
+                        466
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.54,
+                    "diverticular",
+                    [
+                        546,
+                        558
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.606,
+                    "disease",
+                    [
+                        559,
+                        566
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.424,
+                    "polyps",
+                    [
+                        603,
+                        609
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.464,
+                    "bleeding",
+                    [
+                        1009,
+                        1017
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.115,
+        "uncertain_token_count": 5,
+        "narrow_band_ratio": 0.015,
+        "uncertain_tokens": {
+            "DIAGNOSIS": [
+                [
+                    0.424,
+                    "polyps",
+                    [
+                        603,
+                        609
+                    ]
+                ]
+            ],
+            "PROBLEM": [
+                [
+                    0.464,
+                    "bleeding",
+                    [
+                        1009,
+                        1017
+                    ]
+                ]
+            ],
+            "NA": [
+                [
+                    0.392,
+                    "perforation",
+                    [
+                        1022,
+                        1033
+                    ]
+                ],
+                [
+                    0.483,
+                    "polyp",
+                    [
+                        1434,
+                        1439
+                    ]
+                ],
+                [
+                    0.429,
+                    "polyp",
+                    [
+                        1644,
+                        1649
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

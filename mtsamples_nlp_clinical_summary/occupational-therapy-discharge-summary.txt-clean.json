@@ -1,0 +1,140 @@
+{
+    "file": "occupational-therapy-discharge-summary.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "program",
+                "code": "890964",
+                "cui": "C2728259",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Program",
+                "range": [
+                    421,
+                    428
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.963
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            }
+        ],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "Traumatic brain injury",
+                "range": [
+                    13,
+                    35
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "127295002",
+                "cui": "C0876926",
+                "tui": "T037",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Traumatic Brain Injury"
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.006,
+        "uncertain_count": 0,
+        "narrow_band_ratio": 0.0,
+        "uncertain_tokens": {},
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "Traumatic",
+                    [
+                        13,
+                        22
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "brain",
+                    [
+                        23,
+                        28
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "injury",
+                    [
+                        29,
+                        35
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "strain",
+                    [
+                        62,
+                        68
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.818,
+                    "Traumatic",
+                    [
+                        13,
+                        22
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.852,
+                    "brain",
+                    [
+                        23,
+                        28
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.802,
+                    "injury",
+                    [
+                        29,
+                        35
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.639,
+                    "strain",
+                    [
+                        62,
+                        68
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.069,
+        "uncertain_token_count": 0,
+        "narrow_band_ratio": 0.0,
+        "uncertain_tokens": {},
+        "narrow_band_width": 0.2
+    }
+}

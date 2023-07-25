@@ -1,0 +1,660 @@
+{
+    "file": "flank-pain-consult.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "Ritalin",
+                "code": "224917",
+                "cui": "C0728759",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Ritalin",
+                "range": [
+                    381,
+                    388
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.993
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [
+                    "day",
+                    394,
+                    397
+                ],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "Ritalin",
+                "code": "224917",
+                "cui": "C0728759",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Ritalin",
+                "range": [
+                    381,
+                    388
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.993
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [
+                    "day",
+                    394,
+                    397
+                ],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            }
+        ],
+        "Allergy": [
+            {
+                "code": "70618",
+                "cui": "C0220892",
+                "tui": "T195",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "text": "penicillin",
+                "preferredText": "Penicillin",
+                "range": [
+                    414,
+                    424
+                ]
+            },
+            {
+                "code": "70618",
+                "cui": "C0220892",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "text": "penicillin",
+                "preferredText": "Penicillin",
+                "range": [
+                    414,
+                    424
+                ]
+            }
+        ],
+        "Lab": [
+            {
+                "code": "272170001",
+                "cui": "C0023516",
+                "tui": "T034",
+                "vocab": "SNOMEDCT_US",
+                "polarity": "positive",
+                "text": "white count",
+                "preferredText": "WHITE BLOOD CELL (CELL)",
+                "range": [
+                    844,
+                    855
+                ]
+            },
+            {
+                "code": "272170001",
+                "cui": "C0023516",
+                "tui": "T034",
+                "vocab": "SNOMEDCT_US",
+                "polarity": "positive",
+                "text": "white count",
+                "preferredText": "WHITE BLOOD CELL (CELL)",
+                "range": [
+                    844,
+                    855
+                ]
+            },
+            {
+                "code": "",
+                "cui": "C0518014",
+                "tui": "T034",
+                "vocab": "LNC",
+                "polarity": "positive",
+                "text": "hematocrit",
+                "preferredText": "HEMATOCRIT LEVEL",
+                "range": [
+                    862,
+                    872
+                ]
+            },
+            {
+                "code": "LP15101-6",
+                "cui": "C0018935",
+                "tui": "T034",
+                "vocab": "LNC",
+                "polarity": "positive",
+                "text": "hematocrit",
+                "preferredText": "HEMATOCRIT",
+                "range": [
+                    862,
+                    872
+                ]
+            },
+            {
+                "code": "",
+                "cui": "C1542366",
+                "tui": "T034",
+                "vocab": "LNC",
+                "polarity": "positive",
+                "text": "hematocrit",
+                "preferredText": "HEMATOCRIT",
+                "range": [
+                    862,
+                    872
+                ]
+            }
+        ],
+        "DiseaseDisorder": [
+            {
+                "text": "to urinate",
+                "range": [
+                    46,
+                    56
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "focal ileus",
+                "range": [
+                    696,
+                    707
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "left",
+                "range": [
+                    711,
+                    715
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "quadrant",
+                "range": [
+                    722,
+                    730
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "urinary",
+                "range": [
+                    1057,
+                    1064
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.003,
+        "uncertain_count": 0,
+        "narrow_band_ratio": 0.0,
+        "uncertain_tokens": {},
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "Left",
+                    [
+                        19,
+                        23
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "flank",
+                    [
+                        24,
+                        29
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "pain",
+                    [
+                        30,
+                        34
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "unable",
+                    [
+                        39,
+                        45
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "to",
+                    [
+                        46,
+                        48
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "urinate",
+                    [
+                        49,
+                        56
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "left",
+                    [
+                        145,
+                        149
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "flank",
+                    [
+                        150,
+                        155
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "pain",
+                    [
+                        156,
+                        160
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "difficulty",
+                    [
+                        165,
+                        175
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "urinating",
+                    [
+                        176,
+                        185
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "ADHD",
+                    [
+                        449,
+                        453
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "focal",
+                    [
+                        696,
+                        701
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "ileus",
+                    [
+                        702,
+                        707
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "left",
+                    [
+                        711,
+                        715
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "quadrant",
+                    [
+                        722,
+                        730
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Left",
+                    [
+                        967,
+                        971
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "flank",
+                    [
+                        972,
+                        977
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "pain",
+                    [
+                        978,
+                        982
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "urinary",
+                    [
+                        1057,
+                        1064
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.812,
+                    "Left",
+                    [
+                        19,
+                        23
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.512,
+                    "flank",
+                    [
+                        24,
+                        29
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.504,
+                    "pain",
+                    [
+                        30,
+                        34
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.764,
+                    "unable",
+                    [
+                        39,
+                        45
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.565,
+                    "to",
+                    [
+                        46,
+                        48
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.59,
+                    "urinate",
+                    [
+                        49,
+                        56
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.856,
+                    "left",
+                    [
+                        145,
+                        149
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.808,
+                    "flank",
+                    [
+                        150,
+                        155
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.836,
+                    "pain",
+                    [
+                        156,
+                        160
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.479,
+                    "difficulty",
+                    [
+                        165,
+                        175
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.409,
+                    "urinating",
+                    [
+                        176,
+                        185
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.871,
+                    "ADHD",
+                    [
+                        449,
+                        453
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.664,
+                    "focal",
+                    [
+                        696,
+                        701
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.763,
+                    "ileus",
+                    [
+                        702,
+                        707
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.812,
+                    "Left",
+                    [
+                        967,
+                        971
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.658,
+                    "flank",
+                    [
+                        972,
+                        977
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.668,
+                    "pain",
+                    [
+                        978,
+                        982
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.557,
+                    "urinary",
+                    [
+                        1057,
+                        1064
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.138,
+        "uncertain_token_count": 7,
+        "narrow_band_ratio": 0.027,
+        "uncertain_tokens": {
+            "DIAGNOSIS": [
+                [
+                    0.512,
+                    "flank",
+                    [
+                        24,
+                        29
+                    ]
+                ],
+                [
+                    0.479,
+                    "difficulty",
+                    [
+                        165,
+                        175
+                    ]
+                ],
+                [
+                    0.409,
+                    "urinating",
+                    [
+                        176,
+                        185
+                    ]
+                ]
+            ],
+            "PROBLEM": [
+                [
+                    0.504,
+                    "pain",
+                    [
+                        30,
+                        34
+                    ]
+                ]
+            ],
+            "NA": [
+                [
+                    0.439,
+                    "left",
+                    [
+                        711,
+                        715
+                    ]
+                ],
+                [
+                    0.478,
+                    "upper",
+                    [
+                        716,
+                        721
+                    ]
+                ],
+                [
+                    0.467,
+                    "quadrant",
+                    [
+                        722,
+                        730
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

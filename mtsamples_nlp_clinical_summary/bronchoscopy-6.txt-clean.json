@@ -1,0 +1,591 @@
+{
+    "file": "bronchoscopy-6.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "fentanyl",
+                "code": "4337",
+                "cui": "C0015846",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Fentanyl",
+                "range": [
+                    926,
+                    934
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 1.0
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "fentanyl",
+                "code": "4337",
+                "cui": "C0015846",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Fentanyl",
+                "range": [
+                    926,
+                    934
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 1.0
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            }
+        ],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "increasing pulmonary",
+                "range": [
+                    38,
+                    58
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "pulmonary secretions",
+                "range": [
+                    124,
+                    144
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "small bowel",
+                "range": [
+                    433,
+                    444
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "of SMV",
+                "range": [
+                    458,
+                    464
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "ET tube",
+                "range": [
+                    601,
+                    608
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "of",
+                "range": [
+                    700,
+                    702
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.006,
+        "uncertain_count": 0,
+        "narrow_band_ratio": 0.0,
+        "uncertain_tokens": {},
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "Hypoxia",
+                    [
+                        26,
+                        33
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "increasing",
+                    [
+                        38,
+                        48
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "pulmonary",
+                    [
+                        49,
+                        58
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Hypoxia",
+                    [
+                        101,
+                        108
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "pulmonary",
+                    [
+                        124,
+                        133
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "secretions",
+                    [
+                        134,
+                        144
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "small",
+                    [
+                        433,
+                        438
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "bowel",
+                    [
+                        439,
+                        444
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "sequelae",
+                    [
+                        449,
+                        457
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "of",
+                    [
+                        458,
+                        460
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "SMV",
+                    [
+                        461,
+                        464
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "occlusion",
+                    [
+                        465,
+                        474
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "hypoxia",
+                    [
+                        522,
+                        529
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "ET",
+                    [
+                        601,
+                        603
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "tube",
+                    [
+                        604,
+                        608
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "atelectasis",
+                    [
+                        645,
+                        656
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "of",
+                    [
+                        700,
+                        702
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.632,
+                    "Hypoxia",
+                    [
+                        26,
+                        33
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.567,
+                    "increasing",
+                    [
+                        38,
+                        48
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.557,
+                    "pulmonary",
+                    [
+                        49,
+                        58
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.653,
+                    "Hypoxia",
+                    [
+                        101,
+                        108
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.453,
+                    "pulmonary",
+                    [
+                        124,
+                        133
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.42,
+                    "secretions",
+                    [
+                        134,
+                        144
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.595,
+                    "small",
+                    [
+                        433,
+                        438
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.537,
+                    "bowel",
+                    [
+                        439,
+                        444
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.662,
+                    "sequelae",
+                    [
+                        449,
+                        457
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.544,
+                    "of",
+                    [
+                        458,
+                        460
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.865,
+                    "SMV",
+                    [
+                        461,
+                        464
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.822,
+                    "occlusion",
+                    [
+                        465,
+                        474
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.56,
+                    "hypoxia",
+                    [
+                        522,
+                        529
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.659,
+                    "ET",
+                    [
+                        601,
+                        603
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.639,
+                    "tube",
+                    [
+                        604,
+                        608
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.454,
+                    "new-appearing",
+                    [
+                        631,
+                        644
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.501,
+                    "atelectasis",
+                    [
+                        645,
+                        656
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.475,
+                    "of",
+                    [
+                        700,
+                        702
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.182,
+        "uncertain_token_count": 13,
+        "narrow_band_ratio": 0.041,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.46,
+                    "and",
+                    [
+                        34,
+                        37
+                    ]
+                ],
+                [
+                    0.472,
+                    "secretions",
+                    [
+                        59,
+                        69
+                    ]
+                ],
+                [
+                    0.47,
+                    "increasing",
+                    [
+                        113,
+                        123
+                    ]
+                ],
+                [
+                    0.45,
+                    "versus",
+                    [
+                        657,
+                        663
+                    ]
+                ],
+                [
+                    0.446,
+                    "infiltrates",
+                    [
+                        664,
+                        675
+                    ]
+                ],
+                [
+                    0.53,
+                    "in",
+                    [
+                        676,
+                        678
+                    ]
+                ],
+                [
+                    0.512,
+                    "the",
+                    [
+                        679,
+                        682
+                    ]
+                ],
+                [
+                    0.503,
+                    "findings",
+                    [
+                        740,
+                        748
+                    ]
+                ]
+            ],
+            "DIAGNOSIS": [
+                [
+                    0.453,
+                    "pulmonary",
+                    [
+                        124,
+                        133
+                    ]
+                ],
+                [
+                    0.42,
+                    "secretions",
+                    [
+                        134,
+                        144
+                    ]
+                ],
+                [
+                    0.454,
+                    "new-appearing",
+                    [
+                        631,
+                        644
+                    ]
+                ],
+                [
+                    0.501,
+                    "atelectasis",
+                    [
+                        645,
+                        656
+                    ]
+                ],
+                [
+                    0.475,
+                    "of",
+                    [
+                        700,
+                        702
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

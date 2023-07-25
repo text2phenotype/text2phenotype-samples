@@ -1,0 +1,288 @@
+{
+    "file": "carotid-cerebral-arteriograms.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "Lidocaine",
+                "code": "6387",
+                "cui": "C0023660",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Lidocaine",
+                "range": [
+                    637,
+                    646
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.999
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [
+                    "1",
+                    647,
+                    648
+                ],
+                "medStrengthUnit": [
+                    "%",
+                    648,
+                    649
+                ]
+            },
+            {
+                "text": "Lidocaine",
+                "code": "6387",
+                "cui": "C0023660",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Lidocaine",
+                "range": [
+                    637,
+                    646
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.999
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [
+                    "1",
+                    647,
+                    648
+                ],
+                "medStrengthUnit": [
+                    "%",
+                    648,
+                    649
+                ]
+            }
+        ],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "Abnormal",
+                "range": [
+                    56,
+                    64
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "origin",
+                "range": [
+                    253,
+                    259
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "bilateral",
+                "range": [
+                    346,
+                    355
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.005,
+        "uncertain_count": 0,
+        "narrow_band_ratio": 0.0,
+        "uncertain_tokens": {},
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "Abnormal",
+                    [
+                        56,
+                        64
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "occlusion",
+                    [
+                        176,
+                        185
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "origin",
+                    [
+                        253,
+                        259
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "stenosis",
+                    [
+                        271,
+                        279
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "bilateral",
+                    [
+                        346,
+                        355
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.587,
+                    "occlusion",
+                    [
+                        176,
+                        185
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.474,
+                    "origin",
+                    [
+                        253,
+                        259
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.506,
+                    "stenosis",
+                    [
+                        271,
+                        279
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.499,
+                    "bilateral",
+                    [
+                        346,
+                        355
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.116,
+        "uncertain_token_count": 9,
+        "narrow_band_ratio": 0.022,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.44,
+                    "Abnormal",
+                    [
+                        56,
+                        64
+                    ]
+                ],
+                [
+                    0.449,
+                    "carotid",
+                    [
+                        65,
+                        72
+                    ]
+                ],
+                [
+                    0.5,
+                    "artery",
+                    [
+                        141,
+                        147
+                    ]
+                ],
+                [
+                    0.5,
+                    "cm",
+                    [
+                        236,
+                        238
+                    ]
+                ],
+                [
+                    0.475,
+                    "vertebral",
+                    [
+                        356,
+                        365
+                    ]
+                ],
+                [
+                    0.496,
+                    "arteries",
+                    [
+                        366,
+                        374
+                    ]
+                ]
+            ],
+            "DIAGNOSIS": [
+                [
+                    0.474,
+                    "origin",
+                    [
+                        253,
+                        259
+                    ]
+                ],
+                [
+                    0.506,
+                    "stenosis",
+                    [
+                        271,
+                        279
+                    ]
+                ],
+                [
+                    0.499,
+                    "bilateral",
+                    [
+                        346,
+                        355
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

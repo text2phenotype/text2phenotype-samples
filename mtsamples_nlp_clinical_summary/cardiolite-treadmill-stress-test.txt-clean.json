@@ -1,0 +1,328 @@
+{
+    "file": "cardiolite-treadmill-stress-test.txt-clean.txt",
+    "text2summary": {
+        "Medication": [],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "hypertension",
+                "range": [
+                    124,
+                    136
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "38341003",
+                "cui": "C0020538",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Hypertensive disease"
+            },
+            {
+                "text": "right bundle branch block",
+                "range": [
+                    142,
+                    167
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "59118001",
+                "cui": "C0085615",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Right bundle branch block"
+            },
+            {
+                "text": "coronary artery disease",
+                "range": [
+                    1354,
+                    1377
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "53741008",
+                "cui": "C1956346",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Coronary Artery Disease"
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.005,
+        "uncertain_count": 1,
+        "narrow_band_ratio": 0.004,
+        "uncertain_tokens": {
+            "MED": [
+                [
+                    0.654,
+                    "injection",
+                    [
+                        649,
+                        658
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "diabetes",
+                    [
+                        105,
+                        113
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "mellitus",
+                    [
+                        114,
+                        122
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "hypertension",
+                    [
+                        124,
+                        136
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "right",
+                    [
+                        142,
+                        147
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "bundle",
+                    [
+                        148,
+                        154
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "branch",
+                    [
+                        155,
+                        161
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "block",
+                    [
+                        162,
+                        167
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "coronary",
+                    [
+                        1354,
+                        1362
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "artery",
+                    [
+                        1363,
+                        1369
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "disease",
+                    [
+                        1370,
+                        1377
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.699,
+                    "diabetes",
+                    [
+                        105,
+                        113
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.798,
+                    "mellitus",
+                    [
+                        114,
+                        122
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.953,
+                    "hypertension",
+                    [
+                        124,
+                        136
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.542,
+                    "right",
+                    [
+                        142,
+                        147
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.564,
+                    "bundle",
+                    [
+                        148,
+                        154
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.526,
+                    "branch",
+                    [
+                        155,
+                        161
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.503,
+                    "block",
+                    [
+                        162,
+                        167
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.452,
+                    "rest",
+                    [
+                        980,
+                        984
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.549,
+                    "coronary",
+                    [
+                        1354,
+                        1362
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.702,
+                    "artery",
+                    [
+                        1363,
+                        1369
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.9,
+                    "disease",
+                    [
+                        1370,
+                        1377
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.122,
+        "uncertain_token_count": 5,
+        "narrow_band_ratio": 0.022,
+        "uncertain_tokens": {
+            "DIAGNOSIS": [
+                [
+                    0.526,
+                    "branch",
+                    [
+                        155,
+                        161
+                    ]
+                ],
+                [
+                    0.503,
+                    "block",
+                    [
+                        162,
+                        167
+                    ]
+                ]
+            ],
+            "NA": [
+                [
+                    0.511,
+                    "normal",
+                    [
+                        966,
+                        972
+                    ]
+                ],
+                [
+                    0.519,
+                    "Myocardial",
+                    [
+                        1253,
+                        1263
+                    ]
+                ]
+            ],
+            "PROBLEM": [
+                [
+                    0.452,
+                    "rest",
+                    [
+                        980,
+                        984
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

@@ -1,0 +1,861 @@
+{
+    "file": "thoracotomy-lobectomy.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "Marcaine",
+                "code": "1012397",
+                "cui": "C2945665",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Marcaine",
+                "range": [
+                    2774,
+                    2782
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.992
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            }
+        ],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "Non-small-cell",
+                "range": [
+                    31,
+                    45
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "of the left upper lobe",
+                "range": [
+                    56,
+                    78
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "Non-small-cell",
+                "range": [
+                    150,
+                    164
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "of the left upper lobe",
+                "range": [
+                    175,
+                    197
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "left upper lobe",
+                "range": [
+                    529,
+                    544
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "node",
+                "range": [
+                    648,
+                    652
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "the lung",
+                "range": [
+                    831,
+                    839
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "the",
+                "range": [
+                    3143,
+                    3146
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.009,
+        "uncertain_count": 4,
+        "narrow_band_ratio": 0.007,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.513,
+                    "thoracotomy",
+                    [
+                        1265,
+                        1276
+                    ]
+                ],
+                [
+                    0.663,
+                    "silk",
+                    [
+                        1901,
+                        1905
+                    ]
+                ],
+                [
+                    0.697,
+                    "sterile",
+                    [
+                        2618,
+                        2625
+                    ]
+                ]
+            ],
+            "MED": [
+                [
+                    0.621,
+                    "Marcaine",
+                    [
+                        2880,
+                        2888
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "Non-small-cell",
+                    [
+                        31,
+                        45
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "carcinoma",
+                    [
+                        46,
+                        55
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "of",
+                    [
+                        56,
+                        58
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "the",
+                    [
+                        59,
+                        62
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "left",
+                    [
+                        63,
+                        67
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "upper",
+                    [
+                        68,
+                        73
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "lobe",
+                    [
+                        74,
+                        78
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "lymphoma",
+                    [
+                        96,
+                        104
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "in",
+                    [
+                        105,
+                        107
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "remission",
+                    [
+                        108,
+                        117
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Non-small-cell",
+                    [
+                        150,
+                        164
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "carcinoma",
+                    [
+                        165,
+                        174
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "of",
+                    [
+                        175,
+                        177
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "the",
+                    [
+                        178,
+                        181
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "left",
+                    [
+                        182,
+                        186
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "upper",
+                    [
+                        187,
+                        192
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "lobe",
+                    [
+                        193,
+                        197
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "lymphoma",
+                    [
+                        215,
+                        223
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "in",
+                    [
+                        224,
+                        226
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "remission",
+                    [
+                        227,
+                        236
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "postoperative",
+                    [
+                        380,
+                        393
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "left",
+                    [
+                        529,
+                        533
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "upper",
+                    [
+                        534,
+                        539
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "lobe",
+                    [
+                        540,
+                        544
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "carcinoma",
+                    [
+                        545,
+                        554
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "lymphoma",
+                    [
+                        585,
+                        593
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "remission",
+                    [
+                        604,
+                        613
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "node",
+                    [
+                        648,
+                        652
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "the",
+                    [
+                        831,
+                        834
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "lung",
+                    [
+                        835,
+                        839
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "the",
+                    [
+                        3143,
+                        3146
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.934,
+                    "Non-small-cell",
+                    [
+                        31,
+                        45
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.976,
+                    "carcinoma",
+                    [
+                        46,
+                        55
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.925,
+                    "of",
+                    [
+                        56,
+                        58
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.853,
+                    "the",
+                    [
+                        59,
+                        62
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.773,
+                    "left",
+                    [
+                        63,
+                        67
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.708,
+                    "upper",
+                    [
+                        68,
+                        73
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.673,
+                    "lobe",
+                    [
+                        74,
+                        78
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.914,
+                    "lymphoma",
+                    [
+                        96,
+                        104
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.729,
+                    "in",
+                    [
+                        105,
+                        107
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.954,
+                    "remission",
+                    [
+                        108,
+                        117
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.877,
+                    "Non-small-cell",
+                    [
+                        150,
+                        164
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.97,
+                    "carcinoma",
+                    [
+                        165,
+                        174
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.862,
+                    "of",
+                    [
+                        175,
+                        177
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.872,
+                    "the",
+                    [
+                        178,
+                        181
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.834,
+                    "left",
+                    [
+                        182,
+                        186
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.799,
+                    "upper",
+                    [
+                        187,
+                        192
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.767,
+                    "lobe",
+                    [
+                        193,
+                        197
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.971,
+                    "lymphoma",
+                    [
+                        215,
+                        223
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.938,
+                    "in",
+                    [
+                        224,
+                        226
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.972,
+                    "remission",
+                    [
+                        227,
+                        236
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.464,
+                    "postoperative",
+                    [
+                        380,
+                        393
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.836,
+                    "left",
+                    [
+                        529,
+                        533
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.831,
+                    "upper",
+                    [
+                        534,
+                        539
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.855,
+                    "lobe",
+                    [
+                        540,
+                        544
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.927,
+                    "carcinoma",
+                    [
+                        545,
+                        554
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.843,
+                    "lymphoma",
+                    [
+                        585,
+                        593
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.408,
+                    "in",
+                    [
+                        601,
+                        603
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.601,
+                    "remission",
+                    [
+                        604,
+                        613
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.419,
+                    "lymph",
+                    [
+                        642,
+                        647
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.45,
+                    "node",
+                    [
+                        648,
+                        652
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.594,
+                    "the",
+                    [
+                        831,
+                        834
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.633,
+                    "lung",
+                    [
+                        835,
+                        839
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.597,
+                    "the",
+                    [
+                        3143,
+                        3146
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.1,
+        "uncertain_token_count": 7,
+        "narrow_band_ratio": 0.012,
+        "uncertain_tokens": {
+            "DIAGNOSIS": [
+                [
+                    0.464,
+                    "postoperative",
+                    [
+                        380,
+                        393
+                    ]
+                ],
+                [
+                    0.408,
+                    "in",
+                    [
+                        601,
+                        603
+                    ]
+                ],
+                [
+                    0.419,
+                    "lymph",
+                    [
+                        642,
+                        647
+                    ]
+                ],
+                [
+                    0.45,
+                    "node",
+                    [
+                        648,
+                        652
+                    ]
+                ]
+            ],
+            "NA": [
+                [
+                    0.481,
+                    "was",
+                    [
+                        653,
+                        656
+                    ]
+                ],
+                [
+                    0.487,
+                    "exposure",
+                    [
+                        1489,
+                        1497
+                    ]
+                ],
+                [
+                    0.526,
+                    "for",
+                    [
+                        3139,
+                        3142
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

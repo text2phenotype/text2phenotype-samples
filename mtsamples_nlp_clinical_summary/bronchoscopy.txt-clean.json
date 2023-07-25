@@ -1,0 +1,133 @@
+{
+    "file": "bronchoscopy.txt-clean.txt",
+    "text2summary": {
+        "Medication": [],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "Mucous plugging",
+                "range": [
+                    65,
+                    80
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "erythema",
+                "range": [
+                    467,
+                    475
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "70819003",
+                "cui": "C0041834",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Erythema"
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.012,
+        "uncertain_count": 0,
+        "narrow_band_ratio": 0.0,
+        "uncertain_tokens": {},
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "Mucous",
+                    [
+                        65,
+                        71
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "plugging",
+                    [
+                        72,
+                        80
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "erythema",
+                    [
+                        467,
+                        475
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "PROBLEM": [
+                    0.399,
+                    "Atelectasis",
+                    [
+                        26,
+                        37
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.687,
+                    "Mucous",
+                    [
+                        65,
+                        71
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.617,
+                    "plugging",
+                    [
+                        72,
+                        80
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.613,
+                    "erythema",
+                    [
+                        467,
+                        475
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.099,
+        "uncertain_token_count": 1,
+        "narrow_band_ratio": 0.008,
+        "uncertain_tokens": {
+            "PROBLEM": [
+                [
+                    0.399,
+                    "Atelectasis",
+                    [
+                        26,
+                        37
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

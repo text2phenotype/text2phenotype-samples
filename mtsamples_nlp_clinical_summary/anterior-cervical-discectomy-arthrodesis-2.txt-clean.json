@@ -1,0 +1,274 @@
+{
+    "file": "anterior-cervical-discectomy-arthrodesis-2.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "C4-C5",
+                "code": null,
+                "cui": null,
+                "tui": null,
+                "vocab": null,
+                "polarity": "positive",
+                "preferredText": null,
+                "range": [
+                    1950,
+                    1955
+                ],
+                "prob": {
+                    "MED": 0.999
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            }
+        ],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "Cervical spondylosis",
+                "range": [
+                    26,
+                    46
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "387800004",
+                "cui": "C1384641",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Cervical spondylosis"
+            },
+            {
+                "text": "herniated nucleus\npulposus",
+                "range": [
+                    51,
+                    77
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "84857004",
+                "cui": "C0678212",
+                "tui": "T037",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Herniation of nucleus pulposus"
+            },
+            {
+                "text": "Cervical spondylosis",
+                "range": [
+                    114,
+                    134
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "387800004",
+                "cui": "C1384641",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Cervical spondylosis"
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.011,
+        "uncertain_count": 2,
+        "narrow_band_ratio": 0.003,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.546,
+                    "C4",
+                    [
+                        1745,
+                        1747
+                    ]
+                ]
+            ],
+            "MED": [
+                [
+                    0.579,
+                    "diamond",
+                    [
+                        2269,
+                        2276
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "Cervical",
+                    [
+                        26,
+                        34
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "spondylosis",
+                    [
+                        35,
+                        46
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "herniated",
+                    [
+                        51,
+                        60
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "nucleus",
+                    [
+                        61,
+                        68
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "pulposus",
+                    [
+                        69,
+                        77
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Cervical",
+                    [
+                        114,
+                        122
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "spondylosis",
+                    [
+                        123,
+                        134
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.68,
+                    "Cervical",
+                    [
+                        26,
+                        34
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.737,
+                    "spondylosis",
+                    [
+                        35,
+                        46
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.465,
+                    "herniated",
+                    [
+                        51,
+                        60
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.412,
+                    "nucleus",
+                    [
+                        61,
+                        68
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.398,
+                    "pulposus",
+                    [
+                        69,
+                        77
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.624,
+                    "Cervical",
+                    [
+                        114,
+                        122
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.743,
+                    "spondylosis",
+                    [
+                        123,
+                        134
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.076,
+        "uncertain_token_count": 3,
+        "narrow_band_ratio": 0.004,
+        "uncertain_tokens": {
+            "DIAGNOSIS": [
+                [
+                    0.465,
+                    "herniated",
+                    [
+                        51,
+                        60
+                    ]
+                ]
+            ],
+            "PROBLEM": [
+                [
+                    0.412,
+                    "nucleus",
+                    [
+                        61,
+                        68
+                    ]
+                ],
+                [
+                    0.398,
+                    "pulposus",
+                    [
+                        69,
+                        77
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

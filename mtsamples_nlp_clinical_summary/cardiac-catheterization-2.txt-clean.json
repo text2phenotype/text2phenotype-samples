@@ -1,0 +1,589 @@
+{
+    "file": "cardiac-catheterization-2.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "Xylocaine",
+                "code": "202398",
+                "cui": "C0699094",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Xylocaine",
+                "range": [
+                    1110,
+                    1119
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.943
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "Xylocaine",
+                "code": "202398",
+                "cui": "C0699094",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Xylocaine",
+                "range": [
+                    1110,
+                    1119
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.943
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            }
+        ],
+        "Allergy": [],
+        "Lab": [
+            {
+                "code": "",
+                "cui": "C0002059",
+                "tui": "T034",
+                "vocab": "LNC",
+                "polarity": "positive",
+                "text": "AP",
+                "preferredText": "ALP - ALKALINE PHOSPHATASE",
+                "range": [
+                    1635,
+                    1637
+                ]
+            }
+        ],
+        "DiseaseDisorder": [
+            {
+                "text": "atypical type\nright arm",
+                "range": [
+                    60,
+                    83
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "neck",
+                "range": [
+                    99,
+                    103
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "subclavian",
+                "range": [
+                    183,
+                    193
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "right subclavian",
+                "range": [
+                    320,
+                    336
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "Moderate grade",
+                "range": [
+                    2047,
+                    2061
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "in the right subclavian artery",
+                "range": [
+                    2071,
+                    2101
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.006,
+        "uncertain_count": 0,
+        "narrow_band_ratio": 0.0,
+        "uncertain_tokens": {},
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "PROBLEM": [
+                    "atypical",
+                    [
+                        60,
+                        68
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "type",
+                    [
+                        69,
+                        73
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "right",
+                    [
+                        74,
+                        79
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "arm",
+                    [
+                        80,
+                        83
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "discomfort",
+                    [
+                        84,
+                        94
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "neck",
+                    [
+                        99,
+                        103
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "discomfort",
+                    [
+                        104,
+                        114
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "subclavian",
+                    [
+                        183,
+                        193
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "stenosis",
+                    [
+                        194,
+                        202
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "right",
+                    [
+                        320,
+                        325
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "subclavian",
+                    [
+                        326,
+                        336
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Moderate",
+                    [
+                        2047,
+                        2055
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "grade",
+                    [
+                        2056,
+                        2061
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "stenosis",
+                    [
+                        2062,
+                        2070
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "in",
+                    [
+                        2071,
+                        2073
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "the",
+                    [
+                        2074,
+                        2077
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "right",
+                    [
+                        2078,
+                        2083
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "subclavian",
+                    [
+                        2084,
+                        2094
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "artery",
+                    [
+                        2095,
+                        2101
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "PROBLEM": [
+                    0.633,
+                    "atypical",
+                    [
+                        60,
+                        68
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.618,
+                    "type",
+                    [
+                        69,
+                        73
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.667,
+                    "right",
+                    [
+                        74,
+                        79
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.666,
+                    "arm",
+                    [
+                        80,
+                        83
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.781,
+                    "discomfort",
+                    [
+                        84,
+                        94
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.665,
+                    "neck",
+                    [
+                        99,
+                        103
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.645,
+                    "discomfort",
+                    [
+                        104,
+                        114
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.492,
+                    "right",
+                    [
+                        177,
+                        182
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.585,
+                    "subclavian",
+                    [
+                        183,
+                        193
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.625,
+                    "stenosis",
+                    [
+                        194,
+                        202
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.529,
+                    "right",
+                    [
+                        320,
+                        325
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.591,
+                    "subclavian",
+                    [
+                        326,
+                        336
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.534,
+                    "Moderate",
+                    [
+                        2047,
+                        2055
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.643,
+                    "grade",
+                    [
+                        2056,
+                        2061
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.496,
+                    "stenosis",
+                    [
+                        2062,
+                        2070
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.446,
+                    "in",
+                    [
+                        2071,
+                        2073
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.431,
+                    "the",
+                    [
+                        2074,
+                        2077
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.62,
+                    "right",
+                    [
+                        2078,
+                        2083
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.615,
+                    "subclavian",
+                    [
+                        2084,
+                        2094
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.562,
+                    "artery",
+                    [
+                        2095,
+                        2101
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.138,
+        "uncertain_token_count": 6,
+        "narrow_band_ratio": 0.016,
+        "uncertain_tokens": {
+            "DIAGNOSIS": [
+                [
+                    0.492,
+                    "right",
+                    [
+                        177,
+                        182
+                    ]
+                ],
+                [
+                    0.529,
+                    "right",
+                    [
+                        320,
+                        325
+                    ]
+                ],
+                [
+                    0.446,
+                    "in",
+                    [
+                        2071,
+                        2073
+                    ]
+                ]
+            ],
+            "NA": [
+                [
+                    0.51,
+                    "stenosis",
+                    [
+                        1731,
+                        1739
+                    ]
+                ]
+            ],
+            "PROBLEM": [
+                [
+                    0.496,
+                    "stenosis",
+                    [
+                        2062,
+                        2070
+                    ]
+                ],
+                [
+                    0.431,
+                    "the",
+                    [
+                        2074,
+                        2077
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

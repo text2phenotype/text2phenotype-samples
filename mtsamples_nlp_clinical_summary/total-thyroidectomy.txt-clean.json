@@ -1,0 +1,748 @@
+{
+    "file": "total-thyroidectomy.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "epinephrine",
+                "code": "3992",
+                "cui": "C0014563",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Epinephrine",
+                "range": [
+                    1336,
+                    1347
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.92
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "epinephrine",
+                "code": "3992",
+                "cui": "C0014563",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Epinephrine",
+                "range": [
+                    1336,
+                    1347
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.92
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "Bacitracin",
+                "code": "1291",
+                "cui": "C0004599",
+                "tui": "T195",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Bacitracin",
+                "range": [
+                    5330,
+                    5340
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.957
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            }
+        ],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "Thyroid",
+                "range": [
+                    26,
+                    33
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "substernal extension",
+                "range": [
+                    46,
+                    66
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "Thyroid",
+                "range": [
+                    106,
+                    113
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "extension",
+                "range": [
+                    137,
+                    146
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "gland who presented to the",
+                "range": [
+                    470,
+                    496
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "dysphagia",
+                "range": [
+                    533,
+                    542
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "40739000",
+                "cui": "C0011168",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Deglutition Disorders"
+            },
+            {
+                "text": "while\nlying supine",
+                "range": [
+                    576,
+                    594
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "thyroid gland",
+                "range": [
+                    672,
+                    685
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.008,
+        "uncertain_count": 3,
+        "narrow_band_ratio": 0.003,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.58,
+                    "saline",
+                    [
+                        4639,
+                        4645
+                    ]
+                ],
+                [
+                    0.532,
+                    "Surgicel",
+                    [
+                        4731,
+                        4739
+                    ]
+                ]
+            ],
+            "MED": [
+                [
+                    0.642,
+                    "solution",
+                    [
+                        4646,
+                        4654
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "Thyroid",
+                    [
+                        26,
+                        33
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "goiter",
+                    [
+                        34,
+                        40
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "substernal",
+                    [
+                        46,
+                        56
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "extension",
+                    [
+                        57,
+                        66
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Thyroid",
+                    [
+                        106,
+                        113
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "goiter",
+                    [
+                        114,
+                        120
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "extension",
+                    [
+                        137,
+                        146
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "enlarged",
+                    [
+                        453,
+                        461
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "thyroid",
+                    [
+                        462,
+                        469
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "gland",
+                    [
+                        470,
+                        475
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "who",
+                    [
+                        476,
+                        479
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "presented",
+                    [
+                        480,
+                        489
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "to",
+                    [
+                        490,
+                        492
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "the",
+                    [
+                        493,
+                        496
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "dysphagia",
+                    [
+                        533,
+                        542
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "difficulty",
+                    [
+                        552,
+                        562
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "while",
+                    [
+                        576,
+                        581
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "lying",
+                    [
+                        582,
+                        587
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "supine",
+                    [
+                        588,
+                        594
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "large",
+                    [
+                        666,
+                        671
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "thyroid",
+                    [
+                        672,
+                        679
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "gland",
+                    [
+                        680,
+                        685
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "condition",
+                    [
+                        5646,
+                        5655
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.908,
+                    "Thyroid",
+                    [
+                        26,
+                        33
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.834,
+                    "goiter",
+                    [
+                        34,
+                        40
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.738,
+                    "substernal",
+                    [
+                        46,
+                        56
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.728,
+                    "extension",
+                    [
+                        57,
+                        66
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.878,
+                    "Thyroid",
+                    [
+                        106,
+                        113
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.76,
+                    "goiter",
+                    [
+                        114,
+                        120
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.467,
+                    "substernal",
+                    [
+                        126,
+                        136
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.527,
+                    "extension",
+                    [
+                        137,
+                        146
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.524,
+                    "on",
+                    [
+                        147,
+                        149
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.717,
+                    "enlarged",
+                    [
+                        453,
+                        461
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.84,
+                    "thyroid",
+                    [
+                        462,
+                        469
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.856,
+                    "gland",
+                    [
+                        470,
+                        475
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.559,
+                    "who",
+                    [
+                        476,
+                        479
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.502,
+                    "to",
+                    [
+                        490,
+                        492
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.904,
+                    "dysphagia",
+                    [
+                        533,
+                        542
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.548,
+                    "difficulty",
+                    [
+                        552,
+                        562
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.428,
+                    "while",
+                    [
+                        576,
+                        581
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.4,
+                    "lying",
+                    [
+                        582,
+                        587
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.544,
+                    "supine",
+                    [
+                        588,
+                        594
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.672,
+                    "large",
+                    [
+                        666,
+                        671
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.723,
+                    "thyroid",
+                    [
+                        672,
+                        679
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.629,
+                    "gland",
+                    [
+                        680,
+                        685
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.479,
+                    "condition",
+                    [
+                        5646,
+                        5655
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.094,
+        "uncertain_token_count": 10,
+        "narrow_band_ratio": 0.01,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.501,
+                    "on",
+                    [
+                        67,
+                        69
+                    ]
+                ],
+                [
+                    0.516,
+                    "the",
+                    [
+                        493,
+                        496
+                    ]
+                ],
+                [
+                    0.473,
+                    "breathing",
+                    [
+                        566,
+                        575
+                    ]
+                ]
+            ],
+            "DIAGNOSIS": [
+                [
+                    0.467,
+                    "substernal",
+                    [
+                        126,
+                        136
+                    ]
+                ],
+                [
+                    0.527,
+                    "extension",
+                    [
+                        137,
+                        146
+                    ]
+                ],
+                [
+                    0.524,
+                    "on",
+                    [
+                        147,
+                        149
+                    ]
+                ],
+                [
+                    0.502,
+                    "to",
+                    [
+                        490,
+                        492
+                    ]
+                ],
+                [
+                    0.428,
+                    "while",
+                    [
+                        576,
+                        581
+                    ]
+                ],
+                [
+                    0.4,
+                    "lying",
+                    [
+                        582,
+                        587
+                    ]
+                ],
+                [
+                    0.479,
+                    "condition",
+                    [
+                        5646,
+                        5655
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

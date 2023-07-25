@@ -1,0 +1,480 @@
+{
+    "file": "laparoscopic-ablation-of-eendometrial-implants.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "anesthetic",
+                "code": null,
+                "cui": null,
+                "tui": null,
+                "vocab": null,
+                "polarity": "positive",
+                "preferredText": null,
+                "range": [
+                    1318,
+                    1328
+                ],
+                "prob": {
+                    "MED": 0.918
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "Darvocet",
+                "code": "492810",
+                "cui": "C1514497",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Darvocet",
+                "range": [
+                    3739,
+                    3747
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 1.0
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "Darvocet",
+                "code": "492810",
+                "cui": "C1514497",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Darvocet",
+                "range": [
+                    3739,
+                    3747
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 1.0
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "contraceptives",
+                "code": null,
+                "cui": null,
+                "tui": null,
+                "vocab": null,
+                "polarity": "positive",
+                "preferredText": null,
+                "range": [
+                    3921,
+                    3935
+                ],
+                "prob": {
+                    "MED": 0.987
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            }
+        ],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "pelvic endometriosis",
+                "range": [
+                    140,
+                    160
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "26681001",
+                "cui": "C0241880",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Endometriosis of pelvis"
+            },
+            {
+                "text": "endometriosis",
+                "range": [
+                    887,
+                    900
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "129103003",
+                "cui": "C0014175",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Endometriosis"
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.013,
+        "uncertain_count": 5,
+        "narrow_band_ratio": 0.007,
+        "uncertain_tokens": {
+            "MED": [
+                [
+                    0.686,
+                    "general",
+                    [
+                        1310,
+                        1317
+                    ]
+                ],
+                [
+                    0.663,
+                    "Pathology",
+                    [
+                        1821,
+                        1830
+                    ]
+                ],
+                [
+                    0.523,
+                    "gas",
+                    [
+                        2179,
+                        2182
+                    ]
+                ],
+                [
+                    0.519,
+                    "monophasic",
+                    [
+                        3905,
+                        3915
+                    ]
+                ]
+            ],
+            "NA": [
+                [
+                    0.51,
+                    "Gloves",
+                    [
+                        1909,
+                        1915
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "Pelvic",
+                    [
+                        31,
+                        37
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "pain",
+                    [
+                        38,
+                        42
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "Hypermenorrhea",
+                    [
+                        49,
+                        63
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Pelvic",
+                    [
+                        96,
+                        102
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "pain",
+                    [
+                        103,
+                        107
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Hypermenorrhea",
+                    [
+                        114,
+                        128
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "pelvic",
+                    [
+                        140,
+                        146
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "endometriosis",
+                    [
+                        147,
+                        160
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "painful",
+                    [
+                        498,
+                        505
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "menses",
+                    [
+                        506,
+                        512
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "endometriosis",
+                    [
+                        887,
+                        900
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.632,
+                    "Pelvic",
+                    [
+                        31,
+                        37
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.516,
+                    "pain",
+                    [
+                        38,
+                        42
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.456,
+                    "Hypermenorrhea",
+                    [
+                        49,
+                        63
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.515,
+                    "Pelvic",
+                    [
+                        96,
+                        102
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.509,
+                    "pain",
+                    [
+                        103,
+                        107
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.694,
+                    "Hypermenorrhea",
+                    [
+                        114,
+                        128
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.951,
+                    "pelvic",
+                    [
+                        140,
+                        146
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.948,
+                    "endometriosis",
+                    [
+                        147,
+                        160
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.381,
+                    "painful",
+                    [
+                        498,
+                        505
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.452,
+                    "menses",
+                    [
+                        506,
+                        512
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.494,
+                    "endometriosis",
+                    [
+                        887,
+                        900
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.092,
+        "uncertain_token_count": 10,
+        "narrow_band_ratio": 0.014,
+        "uncertain_tokens": {
+            "DIAGNOSIS": [
+                [
+                    0.516,
+                    "pain",
+                    [
+                        38,
+                        42
+                    ]
+                ],
+                [
+                    0.515,
+                    "Pelvic",
+                    [
+                        96,
+                        102
+                    ]
+                ],
+                [
+                    0.509,
+                    "pain",
+                    [
+                        103,
+                        107
+                    ]
+                ],
+                [
+                    0.452,
+                    "menses",
+                    [
+                        506,
+                        512
+                    ]
+                ],
+                [
+                    0.494,
+                    "endometriosis",
+                    [
+                        887,
+                        900
+                    ]
+                ]
+            ],
+            "PROBLEM": [
+                [
+                    0.456,
+                    "Hypermenorrhea",
+                    [
+                        49,
+                        63
+                    ]
+                ],
+                [
+                    0.381,
+                    "painful",
+                    [
+                        498,
+                        505
+                    ]
+                ]
+            ],
+            "NA": [
+                [
+                    0.501,
+                    "Mild",
+                    [
+                        135,
+                        139
+                    ]
+                ],
+                [
+                    0.486,
+                    "heavy",
+                    [
+                        492,
+                        497
+                    ]
+                ],
+                [
+                    0.422,
+                    "endometriosis",
+                    [
+                        2667,
+                        2680
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

@@ -1,0 +1,482 @@
+{
+    "file": "hp-infant-with-fever.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "Tylenol",
+                "code": "202433",
+                "cui": "C0699142",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Tylenol",
+                "range": [
+                    2427,
+                    2434
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.995
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "Tylenol",
+                "code": "202433",
+                "cui": "C0699142",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Tylenol",
+                "range": [
+                    2427,
+                    2434
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.995
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            }
+        ],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "baby",
+                "range": [
+                    29,
+                    33
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "S",
+                "range": [
+                    2288,
+                    2289
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "viral syndrome",
+                "range": [
+                    2299,
+                    2313
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "445939008",
+                "cui": "C0042740",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Viral syndrome"
+            },
+            {
+                "text": "viral meningitis",
+                "range": [
+                    2315,
+                    2331
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "58170007",
+                "cui": "C0025297",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Viral meningitis"
+            },
+            {
+                "text": "flu",
+                "range": [
+                    2333,
+                    2336
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "6142004",
+                "cui": "C0021400",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Influenza"
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.004,
+        "uncertain_count": 0,
+        "narrow_band_ratio": 0.0,
+        "uncertain_tokens": {},
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "Irritable",
+                    [
+                        19,
+                        28
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "baby",
+                    [
+                        29,
+                        33
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "fever",
+                    [
+                        39,
+                        44
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "irritability",
+                    [
+                        191,
+                        203
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "fussiness",
+                    [
+                        205,
+                        214
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "vomiting",
+                    [
+                        232,
+                        240
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "fever",
+                    [
+                        251,
+                        256
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "pregnancy",
+                    [
+                        474,
+                        483
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "S",
+                    [
+                        2288,
+                        2289
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Likely",
+                    [
+                        2292,
+                        2298
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "viral",
+                    [
+                        2299,
+                        2304
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "syndrome",
+                    [
+                        2305,
+                        2313
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "viral",
+                    [
+                        2315,
+                        2320
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "meningitis",
+                    [
+                        2321,
+                        2331
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "flu",
+                    [
+                        2333,
+                        2336
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "syndrome",
+                    [
+                        2337,
+                        2345
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.899,
+                    "Irritable",
+                    [
+                        19,
+                        28
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.731,
+                    "baby",
+                    [
+                        29,
+                        33
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.477,
+                    "fever",
+                    [
+                        39,
+                        44
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.476,
+                    "irritability",
+                    [
+                        191,
+                        203
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.582,
+                    "fussiness",
+                    [
+                        205,
+                        214
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.647,
+                    "vomiting",
+                    [
+                        232,
+                        240
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.691,
+                    "fever",
+                    [
+                        251,
+                        256
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.453,
+                    "pregnancy",
+                    [
+                        474,
+                        483
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.792,
+                    "S",
+                    [
+                        2288,
+                        2289
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.581,
+                    "Likely",
+                    [
+                        2292,
+                        2298
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.971,
+                    "viral",
+                    [
+                        2299,
+                        2304
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.972,
+                    "syndrome",
+                    [
+                        2305,
+                        2313
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.958,
+                    "viral",
+                    [
+                        2315,
+                        2320
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.953,
+                    "meningitis",
+                    [
+                        2321,
+                        2331
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.921,
+                    "flu",
+                    [
+                        2333,
+                        2336
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.941,
+                    "syndrome",
+                    [
+                        2337,
+                        2345
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.089,
+        "uncertain_token_count": 4,
+        "narrow_band_ratio": 0.008,
+        "uncertain_tokens": {
+            "PROBLEM": [
+                [
+                    0.477,
+                    "fever",
+                    [
+                        39,
+                        44
+                    ]
+                ],
+                [
+                    0.476,
+                    "irritability",
+                    [
+                        191,
+                        203
+                    ]
+                ]
+            ],
+            "NA": [
+                [
+                    0.461,
+                    "term",
+                    [
+                        469,
+                        473
+                    ]
+                ]
+            ],
+            "DIAGNOSIS": [
+                [
+                    0.453,
+                    "pregnancy",
+                    [
+                        474,
+                        483
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

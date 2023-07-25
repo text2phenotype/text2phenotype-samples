@@ -1,0 +1,347 @@
+{
+    "file": "colonoscopy-with-biopsy-1.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "Canasa",
+                "code": "196493",
+                "cui": "C0678169",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Canasa",
+                "range": [
+                    1005,
+                    1011
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.939
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "Canasa",
+                "code": "196493",
+                "cui": "C0678169",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Canasa",
+                "range": [
+                    1005,
+                    1011
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.939
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            }
+        ],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "PREPROCEDURE",
+                "range": [
+                    2,
+                    14
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "Change",
+                "range": [
+                    26,
+                    32
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "Proctosigmoiditis",
+                "range": [
+                    78,
+                    95
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "41364008",
+                "cui": "C0033252",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Proctosigmoiditis"
+            },
+            {
+                "text": "proctosigmoiditis",
+                "range": [
+                    817,
+                    834
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "41364008",
+                "cui": "C0033252",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Proctosigmoiditis"
+            },
+            {
+                "text": "colitis",
+                "range": [
+                    931,
+                    938
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "64226004",
+                "cui": "C0009319",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Colitis"
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.004,
+        "uncertain_count": 0,
+        "narrow_band_ratio": 0.0,
+        "uncertain_tokens": {},
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "PROBLEM": [
+                    "PREPROCEDURE",
+                    [
+                        2,
+                        14
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "Change",
+                    [
+                        26,
+                        32
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "bowel",
+                    [
+                        36,
+                        41
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "function",
+                    [
+                        42,
+                        50
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Proctosigmoiditis",
+                    [
+                        78,
+                        95
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "function",
+                    [
+                        277,
+                        285
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "hematochezia",
+                    [
+                        290,
+                        302
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "proctosigmoiditis",
+                    [
+                        817,
+                        834
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "colitis",
+                    [
+                        931,
+                        938
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "PROBLEM": [
+                    0.614,
+                    "PREPROCEDURE",
+                    [
+                        2,
+                        14
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.797,
+                    "Change",
+                    [
+                        26,
+                        32
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.836,
+                    "bowel",
+                    [
+                        36,
+                        41
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.697,
+                    "function",
+                    [
+                        42,
+                        50
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.6,
+                    "Proctosigmoiditis",
+                    [
+                        78,
+                        95
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.435,
+                    "function",
+                    [
+                        277,
+                        285
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.648,
+                    "hematochezia",
+                    [
+                        290,
+                        302
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.668,
+                    "proctosigmoiditis",
+                    [
+                        817,
+                        834
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.617,
+                    "colitis",
+                    [
+                        931,
+                        938
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.166,
+        "uncertain_token_count": 4,
+        "narrow_band_ratio": 0.022,
+        "uncertain_tokens": {
+            "PROBLEM": [
+                [
+                    0.435,
+                    "function",
+                    [
+                        277,
+                        285
+                    ]
+                ]
+            ],
+            "NA": [
+                [
+                    0.487,
+                    "edema",
+                    [
+                        742,
+                        747
+                    ]
+                ],
+                [
+                    0.398,
+                    "vascular",
+                    [
+                        784,
+                        792
+                    ]
+                ],
+                [
+                    0.445,
+                    "pattern",
+                    [
+                        793,
+                        800
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

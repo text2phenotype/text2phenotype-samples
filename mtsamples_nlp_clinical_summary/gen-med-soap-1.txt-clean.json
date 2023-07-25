@@ -1,0 +1,296 @@
+{
+    "file": "gen-med-soap-1.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "Toprol",
+                "code": "865575",
+                "cui": "C2723006",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Toprol",
+                "range": [
+                    1401,
+                    1407
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.989
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            }
+        ],
+        "Allergy": [],
+        "Lab": [
+            {
+                "code": "6063",
+                "cui": "C0005910",
+                "tui": "T034",
+                "vocab": "MEDCIN",
+                "polarity": "positive",
+                "text": "Weight",
+                "preferredText": "WEIGHT (PHYSICAL FINDING)",
+                "range": [
+                    288,
+                    294
+                ]
+            }
+        ],
+        "DiseaseDisorder": [
+            {
+                "text": "stasis dermatitis",
+                "range": [
+                    1443,
+                    1460
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "275700003",
+                "cui": "C0011620",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Stasis dermatitis"
+            },
+            {
+                "text": "superficial",
+                "range": [
+                    1466,
+                    1477
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "in the foot",
+                "range": [
+                    1585,
+                    1596
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.008,
+        "uncertain_count": 2,
+        "narrow_band_ratio": 0.006,
+        "uncertain_tokens": {
+            "MED": [
+                [
+                    0.65,
+                    "zinc",
+                    [
+                        1523,
+                        1527
+                    ]
+                ],
+                [
+                    0.665,
+                    "shampoo",
+                    [
+                        1641,
+                        1648
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "stasis",
+                    [
+                        1443,
+                        1449
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "dermatitis",
+                    [
+                        1450,
+                        1460
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "superficial",
+                    [
+                        1466,
+                        1477
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "erosions",
+                    [
+                        1478,
+                        1486
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "wound",
+                    [
+                        1579,
+                        1584
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "in",
+                    [
+                        1585,
+                        1587
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "the",
+                    [
+                        1588,
+                        1591
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "foot",
+                    [
+                        1592,
+                        1596
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.488,
+                    "stasis",
+                    [
+                        1443,
+                        1449
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.548,
+                    "dermatitis",
+                    [
+                        1450,
+                        1460
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.64,
+                    "superficial",
+                    [
+                        1466,
+                        1477
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.702,
+                    "erosions",
+                    [
+                        1478,
+                        1486
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.86,
+                    "wound",
+                    [
+                        1579,
+                        1584
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.834,
+                    "in",
+                    [
+                        1585,
+                        1587
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.884,
+                    "the",
+                    [
+                        1588,
+                        1591
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.841,
+                    "foot",
+                    [
+                        1592,
+                        1596
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.041,
+        "uncertain_token_count": 2,
+        "narrow_band_ratio": 0.006,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.493,
+                    "pressure",
+                    [
+                        24,
+                        32
+                    ]
+                ]
+            ],
+            "DIAGNOSIS": [
+                [
+                    0.488,
+                    "stasis",
+                    [
+                        1443,
+                        1449
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

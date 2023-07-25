@@ -1,0 +1,561 @@
+{
+    "file": "scrotal-exploration.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "blade",
+                "code": "1043245",
+                "cui": "C2948008",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Blade",
+                "range": [
+                    1316,
+                    1321
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.931
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "Toradol",
+                "code": "57309",
+                "cui": "C0146226",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Toradol",
+                "range": [
+                    2769,
+                    2776
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 1.0
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "Toradol",
+                "code": "57309",
+                "cui": "C0146226",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Toradol",
+                "range": [
+                    2769,
+                    2776
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 1.0
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            }
+        ],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "Left testicular torsion",
+                "range": [
+                    26,
+                    49
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "Left testicular torsion",
+                "range": [
+                    97,
+                    120
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "in the left testis",
+                "range": [
+                    387,
+                    405
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "cord",
+                "range": [
+                    410,
+                    414
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "28835009",
+                "cui": "C0035334",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Retinitis Pigmentosa"
+            },
+            {
+                "text": "bell-clapper\ndeformity",
+                "range": [
+                    422,
+                    444
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "left",
+                "range": [
+                    782,
+                    786
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.011,
+        "uncertain_count": 3,
+        "narrow_band_ratio": 0.006,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.582,
+                    "scrotal",
+                    [
+                        1275,
+                        1282
+                    ]
+                ],
+                [
+                    0.641,
+                    "anesthetic",
+                    [
+                        2474,
+                        2484
+                    ]
+                ]
+            ],
+            "MED": [
+                [
+                    0.612,
+                    "incisions",
+                    [
+                        1283,
+                        1292
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "Left",
+                    [
+                        26,
+                        30
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "testicular",
+                    [
+                        31,
+                        41
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "torsion",
+                    [
+                        42,
+                        49
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Left",
+                    [
+                        97,
+                        101
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "testicular",
+                    [
+                        102,
+                        112
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "torsion",
+                    [
+                        113,
+                        120
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Congestion",
+                    [
+                        376,
+                        386
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "in",
+                    [
+                        387,
+                        389
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "the",
+                    [
+                        390,
+                        393
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "left",
+                    [
+                        394,
+                        398
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "testis",
+                    [
+                        399,
+                        405
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "cord",
+                    [
+                        410,
+                        414
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "bell-clapper",
+                    [
+                        422,
+                        434
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "deformity",
+                    [
+                        435,
+                        444
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "left",
+                    [
+                        782,
+                        786
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "testicular",
+                    [
+                        787,
+                        797
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "pain",
+                    [
+                        798,
+                        802
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "torsion",
+                    [
+                        945,
+                        952
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.945,
+                    "Left",
+                    [
+                        26,
+                        30
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.928,
+                    "testicular",
+                    [
+                        31,
+                        41
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.861,
+                    "torsion",
+                    [
+                        42,
+                        49
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.898,
+                    "Left",
+                    [
+                        97,
+                        101
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.895,
+                    "testicular",
+                    [
+                        102,
+                        112
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.816,
+                    "torsion",
+                    [
+                        113,
+                        120
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.846,
+                    "Congestion",
+                    [
+                        376,
+                        386
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.753,
+                    "in",
+                    [
+                        387,
+                        389
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.724,
+                    "the",
+                    [
+                        390,
+                        393
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.631,
+                    "left",
+                    [
+                        394,
+                        398
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.528,
+                    "testis",
+                    [
+                        399,
+                        405
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.655,
+                    "cord",
+                    [
+                        410,
+                        414
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.515,
+                    "bell-clapper",
+                    [
+                        422,
+                        434
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.572,
+                    "deformity",
+                    [
+                        435,
+                        444
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.836,
+                    "left",
+                    [
+                        782,
+                        786
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.856,
+                    "testicular",
+                    [
+                        787,
+                        797
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.859,
+                    "pain",
+                    [
+                        798,
+                        802
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.544,
+                    "torsion",
+                    [
+                        945,
+                        952
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.102,
+        "uncertain_token_count": 2,
+        "narrow_band_ratio": 0.004,
+        "uncertain_tokens": {
+            "DIAGNOSIS": [
+                [
+                    0.528,
+                    "testis",
+                    [
+                        399,
+                        405
+                    ]
+                ],
+                [
+                    0.515,
+                    "bell-clapper",
+                    [
+                        422,
+                        434
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

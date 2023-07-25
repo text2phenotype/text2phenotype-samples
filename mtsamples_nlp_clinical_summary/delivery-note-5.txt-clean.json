@@ -1,0 +1,155 @@
+{
+    "file": "delivery-note-5.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "Pitocin",
+                "code": "227199",
+                "cui": "C0733348",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Pitocin",
+                "range": [
+                    201,
+                    208
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.995
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [
+                    "50",
+                    230,
+                    232
+                ],
+                "medStrengthUnit": [
+                    "%",
+                    232,
+                    233
+                ]
+            }
+        ],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "female infant",
+                "range": [
+                    468,
+                    481
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.004,
+        "uncertain_count": 0,
+        "narrow_band_ratio": 0.0,
+        "uncertain_tokens": {},
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "babies",
+                    [
+                        141,
+                        147
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "female",
+                    [
+                        468,
+                        474
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "infant",
+                    [
+                        475,
+                        481
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.495,
+                    "Labor",
+                    [
+                        87,
+                        92
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.377,
+                    "babies",
+                    [
+                        141,
+                        147
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.191,
+        "uncertain_token_count": 4,
+        "narrow_band_ratio": 0.027,
+        "uncertain_tokens": {
+            "DIAGNOSIS": [
+                [
+                    0.495,
+                    "Labor",
+                    [
+                        87,
+                        92
+                    ]
+                ],
+                [
+                    0.377,
+                    "babies",
+                    [
+                        141,
+                        147
+                    ]
+                ]
+            ],
+            "NA": [
+                [
+                    0.502,
+                    "female",
+                    [
+                        468,
+                        474
+                    ]
+                ],
+                [
+                    0.39,
+                    "infant",
+                    [
+                        475,
+                        481
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

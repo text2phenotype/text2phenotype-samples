@@ -1,0 +1,267 @@
+{
+    "file": "syncope-er-visit-1.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "hydrochlorothiazide",
+                "code": "5487",
+                "cui": "C0020261",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Hydrochlorothiazide",
+                "range": [
+                    528,
+                    547
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 1.0
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "hydrochlorothiazide",
+                "code": "5487",
+                "cui": "C0020261",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Hydrochlorothiazide",
+                "range": [
+                    528,
+                    547
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 1.0
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "Maxzide",
+                "code": "52440",
+                "cui": "C0127096",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Maxzide",
+                "range": [
+                    1263,
+                    1270
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.959
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "Maxzide",
+                "code": "52440",
+                "cui": "C0127096",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Maxzide",
+                "range": [
+                    1263,
+                    1270
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.959
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            }
+        ],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "episode",
+                "range": [
+                    92,
+                    99
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "Arthritis",
+                "range": [
+                    385,
+                    394
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "3723001",
+                "cui": "C0003864",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Arthritis"
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.005,
+        "uncertain_count": 1,
+        "narrow_band_ratio": 0.003,
+        "uncertain_tokens": {
+            "MED": [
+                [
+                    0.584,
+                    "today",
+                    [
+                        548,
+                        553
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "Syncope",
+                    [
+                        20,
+                        27
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "episode",
+                    [
+                        92,
+                        99
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "headache",
+                    [
+                        299,
+                        307
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Arthritis",
+                    [
+                        385,
+                        394
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Syncope",
+                    [
+                        1149,
+                        1156
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.532,
+                    "Syncope",
+                    [
+                        20,
+                        27
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.398,
+                    "episode",
+                    [
+                        92,
+                        99
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.581,
+                    "headache",
+                    [
+                        299,
+                        307
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.952,
+                    "Arthritis",
+                    [
+                        385,
+                        394
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.866,
+                    "Syncope",
+                    [
+                        1149,
+                        1156
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.059,
+        "uncertain_token_count": 2,
+        "narrow_band_ratio": 0.007,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.483,
+                    "syncopal",
+                    [
+                        83,
+                        91
+                    ]
+                ]
+            ],
+            "DIAGNOSIS": [
+                [
+                    0.398,
+                    "episode",
+                    [
+                        92,
+                        99
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

@@ -1,0 +1,411 @@
+{
+    "file": "bnp-vs-bmp.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "BNP",
+                "code": null,
+                "cui": null,
+                "tui": null,
+                "vocab": null,
+                "polarity": "positive",
+                "preferredText": null,
+                "range": [
+                    2,
+                    5
+                ],
+                "prob": {
+                    "MED": 0.903
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            }
+        ],
+        "Allergy": [],
+        "Lab": [
+            {
+                "code": "LP32534-7",
+                "cui": "C0017725",
+                "tui": "T034",
+                "vocab": "LNC",
+                "polarity": "positive",
+                "text": "glucose",
+                "preferredText": "GLUCOSE",
+                "range": [
+                    824,
+                    831
+                ]
+            },
+            {
+                "code": "LP14355-9",
+                "cui": "C0010294",
+                "tui": "T034",
+                "vocab": "LNC",
+                "polarity": "positive",
+                "text": "creatinine",
+                "preferredText": "CREATININE",
+                "range": [
+                    889,
+                    899
+                ]
+            }
+        ],
+        "DiseaseDisorder": [
+            {
+                "text": "the heart muscles",
+                "range": [
+                    146,
+                    163
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "congestive heart failure",
+                "range": [
+                    257,
+                    281
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "MI",
+                "range": [
+                    418,
+                    420
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "22298006",
+                "cui": "C0027051",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Myocardial Infarction"
+            },
+            {
+                "text": "heart",
+                "range": [
+                    636,
+                    641
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "coronary event",
+                "range": [
+                    1266,
+                    1280
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.022,
+        "uncertain_count": 2,
+        "narrow_band_ratio": 0.007,
+        "uncertain_tokens": {
+            "MED": [
+                [
+                    0.639,
+                    "glucose",
+                    [
+                        824,
+                        831
+                    ]
+                ],
+                [
+                    0.675,
+                    "calcium",
+                    [
+                        833,
+                        840
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "strain",
+                    [
+                        136,
+                        142
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "the",
+                    [
+                        146,
+                        149
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "heart",
+                    [
+                        150,
+                        155
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "muscles",
+                    [
+                        156,
+                        163
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "congestive",
+                    [
+                        257,
+                        267
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "heart",
+                    [
+                        268,
+                        273
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "failure",
+                    [
+                        274,
+                        281
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "MI",
+                    [
+                        418,
+                        420
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "heart",
+                    [
+                        636,
+                        641
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "coronary",
+                    [
+                        1266,
+                        1274
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "event",
+                    [
+                        1275,
+                        1280
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.502,
+                    "strain",
+                    [
+                        136,
+                        142
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.533,
+                    "the",
+                    [
+                        146,
+                        149
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.462,
+                    "heart",
+                    [
+                        150,
+                        155
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.67,
+                    "congestive",
+                    [
+                        257,
+                        267
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.751,
+                    "heart",
+                    [
+                        268,
+                        273
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.69,
+                    "failure",
+                    [
+                        274,
+                        281
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.704,
+                    "MI",
+                    [
+                        418,
+                        420
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.576,
+                    "heart",
+                    [
+                        636,
+                        641
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.509,
+                    "event",
+                    [
+                        1275,
+                        1280
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.138,
+        "uncertain_token_count": 7,
+        "narrow_band_ratio": 0.026,
+        "uncertain_tokens": {
+            "DIAGNOSIS": [
+                [
+                    0.502,
+                    "strain",
+                    [
+                        136,
+                        142
+                    ]
+                ],
+                [
+                    0.462,
+                    "heart",
+                    [
+                        150,
+                        155
+                    ]
+                ],
+                [
+                    0.509,
+                    "event",
+                    [
+                        1275,
+                        1280
+                    ]
+                ]
+            ],
+            "NA": [
+                [
+                    0.443,
+                    "to",
+                    [
+                        143,
+                        145
+                    ]
+                ],
+                [
+                    0.435,
+                    "muscles",
+                    [
+                        156,
+                        163
+                    ]
+                ],
+                [
+                    0.496,
+                    "problems",
+                    [
+                        642,
+                        650
+                    ]
+                ],
+                [
+                    0.486,
+                    "coronary",
+                    [
+                        1266,
+                        1274
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

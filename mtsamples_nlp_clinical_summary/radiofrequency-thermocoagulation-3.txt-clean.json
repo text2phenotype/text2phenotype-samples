@@ -1,0 +1,231 @@
+{
+    "file": "radiofrequency-thermocoagulation-3.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "Marcaine",
+                "code": "1012397",
+                "cui": "C2945665",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Marcaine",
+                "range": [
+                    2543,
+                    2551
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.999
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [
+                    "0.5",
+                    2552,
+                    2555
+                ],
+                "medStrengthUnit": [
+                    "mg",
+                    2564,
+                    2566
+                ]
+            }
+        ],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "Cervical spondylosis",
+                "range": [
+                    26,
+                    46
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "387800004",
+                "cui": "C1384641",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Cervical spondylosis"
+            },
+            {
+                "text": "Cervical spondylosis",
+                "range": [
+                    74,
+                    94
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "387800004",
+                "cui": "C1384641",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Cervical spondylosis"
+            },
+            {
+                "text": "concordant",
+                "range": [
+                    2115,
+                    2125
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.011,
+        "uncertain_count": 2,
+        "narrow_band_ratio": 0.004,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.654,
+                    "fluoroscopic",
+                    [
+                        1193,
+                        1205
+                    ]
+                ],
+                [
+                    0.552,
+                    "acetate",
+                    [
+                        2590,
+                        2597
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "Cervical",
+                    [
+                        26,
+                        34
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "spondylosis",
+                    [
+                        35,
+                        46
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Cervical",
+                    [
+                        74,
+                        82
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "spondylosis",
+                    [
+                        83,
+                        94
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "concordant",
+                    [
+                        2115,
+                        2125
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "pain",
+                    [
+                        2126,
+                        2130
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.749,
+                    "Cervical",
+                    [
+                        26,
+                        34
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.708,
+                    "spondylosis",
+                    [
+                        35,
+                        46
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.903,
+                    "Cervical",
+                    [
+                        74,
+                        82
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.906,
+                    "spondylosis",
+                    [
+                        83,
+                        94
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.056,
+        "uncertain_token_count": 2,
+        "narrow_band_ratio": 0.004,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.434,
+                    "concordant",
+                    [
+                        2115,
+                        2125
+                    ]
+                ],
+                [
+                    0.455,
+                    "pain",
+                    [
+                        2126,
+                        2130
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

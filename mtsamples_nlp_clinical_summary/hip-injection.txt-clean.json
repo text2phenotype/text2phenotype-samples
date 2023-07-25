@@ -1,0 +1,602 @@
+{
+    "file": "hip-injection.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "Betadine",
+                "code": "202750",
+                "cui": "C0699524",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Betadine",
+                "range": [
+                    1263,
+                    1271
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.999
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "Betadine",
+                "code": "202750",
+                "cui": "C0699524",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Betadine",
+                "range": [
+                    1263,
+                    1271
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.999
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            }
+        ],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "infection",
+                "range": [
+                    297,
+                    306
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "189822004",
+                "cui": "C0009450",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Communicable Diseases"
+            },
+            {
+                "text": "dural puncture",
+                "range": [
+                    337,
+                    351
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "nerve injuries",
+                "range": [
+                    363,
+                    377
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "57182000",
+                "cui": "C0161479",
+                "tui": "T037",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Nerve injury"
+            },
+            {
+                "text": "spinal cord",
+                "range": [
+                    379,
+                    390
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "90584004",
+                "cui": "C0037929",
+                "tui": "T037",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Spinal Cord Injuries"
+            },
+            {
+                "text": "side",
+                "range": [
+                    426,
+                    430
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.012,
+        "uncertain_count": 1,
+        "narrow_band_ratio": 0.002,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.583,
+                    "15-20",
+                    [
+                        2486,
+                        2491
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "infection",
+                    [
+                        297,
+                        306
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "bleeding",
+                    [
+                        308,
+                        316
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "allergic",
+                    [
+                        318,
+                        326
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "reaction",
+                    [
+                        327,
+                        335
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "dural",
+                    [
+                        337,
+                        342
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "puncture",
+                    [
+                        343,
+                        351
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "headache",
+                    [
+                        353,
+                        361
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "nerve",
+                    [
+                        363,
+                        368
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "injuries",
+                    [
+                        369,
+                        377
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    ",",
+                    [
+                        377,
+                        378
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "spinal",
+                    [
+                        379,
+                        385
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "cord",
+                    [
+                        386,
+                        390
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "side",
+                    [
+                        426,
+                        430
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "shortness",
+                    [
+                        2810,
+                        2819
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "of",
+                    [
+                        2820,
+                        2822
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "breath",
+                    [
+                        2823,
+                        2829
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "chest",
+                    [
+                        2831,
+                        2836
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "pain",
+                    [
+                        2837,
+                        2841
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "fever",
+                    [
+                        2843,
+                        2848
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.787,
+                    "infection",
+                    [
+                        297,
+                        306
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.782,
+                    "bleeding",
+                    [
+                        308,
+                        316
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.709,
+                    "allergic",
+                    [
+                        318,
+                        326
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.796,
+                    "reaction",
+                    [
+                        327,
+                        335
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.776,
+                    "dural",
+                    [
+                        337,
+                        342
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.894,
+                    "puncture",
+                    [
+                        343,
+                        351
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.77,
+                    "headache",
+                    [
+                        353,
+                        361
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.503,
+                    "nerve",
+                    [
+                        363,
+                        368
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.483,
+                    "injuries",
+                    [
+                        369,
+                        377
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.502,
+                    "spinal",
+                    [
+                        379,
+                        385
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.55,
+                    "cord",
+                    [
+                        386,
+                        390
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.514,
+                    "injury",
+                    [
+                        391,
+                        397
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.499,
+                    "side",
+                    [
+                        426,
+                        430
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.519,
+                    "of",
+                    [
+                        2820,
+                        2822
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.493,
+                    "breath",
+                    [
+                        2823,
+                        2829
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.464,
+                    "chest",
+                    [
+                        2831,
+                        2836
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.543,
+                    "pain",
+                    [
+                        2837,
+                        2841
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.678,
+                    "fever",
+                    [
+                        2843,
+                        2848
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.109,
+        "uncertain_token_count": 12,
+        "narrow_band_ratio": 0.024,
+        "uncertain_tokens": {
+            "DIAGNOSIS": [
+                [
+                    0.503,
+                    "nerve",
+                    [
+                        363,
+                        368
+                    ]
+                ],
+                [
+                    0.483,
+                    "injuries",
+                    [
+                        369,
+                        377
+                    ]
+                ],
+                [
+                    0.502,
+                    "spinal",
+                    [
+                        379,
+                        385
+                    ]
+                ],
+                [
+                    0.514,
+                    "injury",
+                    [
+                        391,
+                        397
+                    ]
+                ],
+                [
+                    0.499,
+                    "side",
+                    [
+                        426,
+                        430
+                    ]
+                ],
+                [
+                    0.519,
+                    "of",
+                    [
+                        2820,
+                        2822
+                    ]
+                ],
+                [
+                    0.493,
+                    "breath",
+                    [
+                        2823,
+                        2829
+                    ]
+                ],
+                [
+                    0.464,
+                    "chest",
+                    [
+                        2831,
+                        2836
+                    ]
+                ]
+            ],
+            "NA": [
+                [
+                    0.513,
+                    "CNS",
+                    [
+                        422,
+                        425
+                    ]
+                ],
+                [
+                    0.472,
+                    "signs",
+                    [
+                        2369,
+                        2374
+                    ]
+                ],
+                [
+                    0.452,
+                    "shortness",
+                    [
+                        2810,
+                        2819
+                    ]
+                ],
+                [
+                    0.529,
+                    "chills",
+                    [
+                        2850,
+                        2856
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

@@ -1,0 +1,847 @@
+{
+    "file": "elbow-pain-consult.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "Tylenol",
+                "code": "202433",
+                "cui": "C0699142",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Tylenol",
+                "range": [
+                    3004,
+                    3011
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.995
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "Tylenol",
+                "code": "202433",
+                "cui": "C0699142",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Tylenol",
+                "range": [
+                    3004,
+                    3011
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.995
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "Motrin",
+                "code": "202488",
+                "cui": "C0699203",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Motrin",
+                "range": [
+                    3015,
+                    3021
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.971
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "Motrin",
+                "code": "202488",
+                "cui": "C0699203",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Motrin",
+                "range": [
+                    3015,
+                    3021
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.971
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            }
+        ],
+        "Allergy": [
+            {
+                "code": "7052",
+                "cui": "C0026549",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "text": "MORPHINE",
+                "preferredText": "Morphine",
+                "range": [
+                    852,
+                    860
+                ]
+            }
+        ],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "Left",
+                "range": [
+                    19,
+                    23
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "in his left elbow",
+                "range": [
+                    161,
+                    178
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "in his",
+                "range": [
+                    218,
+                    224
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "left",
+                "range": [
+                    538,
+                    542
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "Fracture of the humerus",
+                "range": [
+                    3255,
+                    3278
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "125605004",
+                "cui": "C0016658",
+                "tui": "T037",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Fracture"
+            },
+            {
+                "text": "nerve injuries",
+                "range": [
+                    3302,
+                    3316
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "57182000",
+                "cui": "C0161479",
+                "tui": "T037",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Nerve injury"
+            },
+            {
+                "text": "radial",
+                "range": [
+                    3324,
+                    3330
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.004,
+        "uncertain_count": 1,
+        "narrow_band_ratio": 0.001,
+        "uncertain_tokens": {
+            "MED": [
+                [
+                    0.52,
+                    "Vicodin",
+                    [
+                        2888,
+                        2895
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "Left",
+                    [
+                        19,
+                        23
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "elbow",
+                    [
+                        24,
+                        29
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "pain",
+                    [
+                        30,
+                        34
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "in",
+                    [
+                        161,
+                        163
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "his",
+                    [
+                        164,
+                        167
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "left",
+                    [
+                        168,
+                        172
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "elbow",
+                    [
+                        173,
+                        178
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "in",
+                    [
+                        218,
+                        220
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "his",
+                    [
+                        221,
+                        224
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "toe",
+                    [
+                        521,
+                        524
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "problems",
+                    [
+                        525,
+                        533
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "left",
+                    [
+                        538,
+                        542
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "knee",
+                    [
+                        543,
+                        547
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "pain",
+                    [
+                        548,
+                        552
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Fracture",
+                    [
+                        3255,
+                        3263
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "of",
+                    [
+                        3264,
+                        3266
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "the",
+                    [
+                        3267,
+                        3270
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "humerus",
+                    [
+                        3271,
+                        3278
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "nerve",
+                    [
+                        3302,
+                        3307
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "injuries",
+                    [
+                        3308,
+                        3316
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "radial",
+                    [
+                        3324,
+                        3330
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Psychiatric",
+                    [
+                        3376,
+                        3387
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "disorder",
+                    [
+                        3388,
+                        3396
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.935,
+                    "Left",
+                    [
+                        19,
+                        23
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.932,
+                    "elbow",
+                    [
+                        24,
+                        29
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.878,
+                    "pain",
+                    [
+                        30,
+                        34
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.589,
+                    "in",
+                    [
+                        161,
+                        163
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.573,
+                    "his",
+                    [
+                        164,
+                        167
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.688,
+                    "left",
+                    [
+                        168,
+                        172
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.448,
+                    "elbow",
+                    [
+                        173,
+                        178
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.463,
+                    "in",
+                    [
+                        218,
+                        220
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.459,
+                    "his",
+                    [
+                        221,
+                        224
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.34,
+                    "left",
+                    [
+                        225,
+                        229
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.455,
+                    "the",
+                    [
+                        397,
+                        400
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.593,
+                    "toe",
+                    [
+                        521,
+                        524
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.501,
+                    "problems",
+                    [
+                        525,
+                        533
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.651,
+                    "left",
+                    [
+                        538,
+                        542
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.67,
+                    "knee",
+                    [
+                        543,
+                        547
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.474,
+                    "pain",
+                    [
+                        548,
+                        552
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.946,
+                    "Fracture",
+                    [
+                        3255,
+                        3263
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.761,
+                    "of",
+                    [
+                        3264,
+                        3266
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.565,
+                    "the",
+                    [
+                        3267,
+                        3270
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.585,
+                    "humerus",
+                    [
+                        3271,
+                        3278
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.604,
+                    "nerve",
+                    [
+                        3302,
+                        3307
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.642,
+                    "injuries",
+                    [
+                        3308,
+                        3316
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.529,
+                    "radial",
+                    [
+                        3324,
+                        3330
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.551,
+                    "Psychiatric",
+                    [
+                        3376,
+                        3387
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.837,
+                    "disorder",
+                    [
+                        3388,
+                        3396
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.088,
+        "uncertain_token_count": 19,
+        "narrow_band_ratio": 0.026,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.504,
+                    "pain",
+                    [
+                        156,
+                        160
+                    ]
+                ],
+                [
+                    0.526,
+                    "ankle",
+                    [
+                        230,
+                        235
+                    ]
+                ],
+                [
+                    0.513,
+                    "left",
+                    [
+                        302,
+                        306
+                    ]
+                ],
+                [
+                    0.399,
+                    "hit",
+                    [
+                        390,
+                        393
+                    ]
+                ],
+                [
+                    0.514,
+                    "in",
+                    [
+                        394,
+                        396
+                    ]
+                ],
+                [
+                    0.511,
+                    "head",
+                    [
+                        401,
+                        405
+                    ]
+                ],
+                [
+                    0.45,
+                    "compartment",
+                    [
+                        2331,
+                        2342
+                    ]
+                ],
+                [
+                    0.52,
+                    "the",
+                    [
+                        3320,
+                        3323
+                    ]
+                ],
+                [
+                    0.507,
+                    "median",
+                    [
+                        3335,
+                        3341
+                    ]
+                ],
+                [
+                    0.465,
+                    "nerve",
+                    [
+                        3342,
+                        3347
+                    ]
+                ],
+                [
+                    0.383,
+                    "neurapraxia",
+                    [
+                        3358,
+                        3369
+                    ]
+                ]
+            ],
+            "DIAGNOSIS": [
+                [
+                    0.448,
+                    "elbow",
+                    [
+                        173,
+                        178
+                    ]
+                ],
+                [
+                    0.34,
+                    "left",
+                    [
+                        225,
+                        229
+                    ]
+                ],
+                [
+                    0.455,
+                    "the",
+                    [
+                        397,
+                        400
+                    ]
+                ],
+                [
+                    0.501,
+                    "problems",
+                    [
+                        525,
+                        533
+                    ]
+                ],
+                [
+                    0.474,
+                    "pain",
+                    [
+                        548,
+                        552
+                    ]
+                ],
+                [
+                    0.529,
+                    "radial",
+                    [
+                        3324,
+                        3330
+                    ]
+                ]
+            ],
+            "PROBLEM": [
+                [
+                    0.463,
+                    "in",
+                    [
+                        218,
+                        220
+                    ]
+                ],
+                [
+                    0.459,
+                    "his",
+                    [
+                        221,
+                        224
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

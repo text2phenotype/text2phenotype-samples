@@ -1,0 +1,110 @@
+{
+    "file": "flex-sig-1.txt-clean.txt",
+    "text2summary": {
+        "Medication": [],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "Internal hemorrhoids",
+                "range": [
+                    1218,
+                    1238
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "90458007",
+                "cui": "C0265034",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Internal hemorrhoids"
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.011,
+        "uncertain_count": 2,
+        "narrow_band_ratio": 0.007,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.581,
+                    "patches",
+                    [
+                        818,
+                        825
+                    ]
+                ],
+                [
+                    0.536,
+                    "hyoscyamine",
+                    [
+                        1325,
+                        1336
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "Internal",
+                    [
+                        1218,
+                        1226
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "hemorrhoids",
+                    [
+                        1227,
+                        1238
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.898,
+                    "Internal",
+                    [
+                        1218,
+                        1226
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.952,
+                    "hemorrhoids",
+                    [
+                        1227,
+                        1238
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.069,
+        "uncertain_token_count": 1,
+        "narrow_band_ratio": 0.004,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.505,
+                    "bleeding",
+                    [
+                        21,
+                        29
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

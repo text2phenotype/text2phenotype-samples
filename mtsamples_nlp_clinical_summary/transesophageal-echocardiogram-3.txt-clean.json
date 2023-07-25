@@ -1,0 +1,855 @@
+{
+    "file": "transesophageal-echocardiogram-3.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "Versed",
+                "code": "11177",
+                "cui": "C0042553",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Versed",
+                "range": [
+                    477,
+                    483
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.98
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [
+                    "50",
+                    488,
+                    490
+                ],
+                "medStrengthUnit": [
+                    "mcg",
+                    491,
+                    494
+                ]
+            },
+            {
+                "text": "Versed",
+                "code": "11177",
+                "cui": "C0042553",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Versed",
+                "range": [
+                    477,
+                    483
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.98
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [
+                    "50",
+                    488,
+                    490
+                ],
+                "medStrengthUnit": [
+                    "mcg",
+                    491,
+                    494
+                ]
+            },
+            {
+                "text": "benzocaine",
+                "code": "1399",
+                "cui": "C0005059",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Benzocaine",
+                "range": [
+                    581,
+                    591
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.989
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "benzocaine",
+                "code": "1399",
+                "cui": "C0005059",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Benzocaine",
+                "range": [
+                    581,
+                    591
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.989
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            }
+        ],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "on",
+                "range": [
+                    99,
+                    101
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "Moderate stenosis of aortic",
+                "range": [
+                    190,
+                    217
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "moderate aortic valve stenosis",
+                "range": [
+                    1928,
+                    1958
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "mechanical aortic valve",
+                "range": [
+                    2473,
+                    2496
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "1.2",
+                "range": [
+                    2558,
+                    2561
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "aortic stenosis",
+                "range": [
+                    2591,
+                    2606
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "60573004",
+                "cui": "C0003507",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Aortic Valve Stenosis"
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.016,
+        "uncertain_count": 7,
+        "narrow_band_ratio": 0.015,
+        "uncertain_tokens": {
+            "MED": [
+                [
+                    0.62,
+                    "fentanyl",
+                    [
+                        498,
+                        506
+                    ]
+                ],
+                [
+                    0.625,
+                    "m/sec",
+                    [
+                        1840,
+                        1845
+                    ]
+                ],
+                [
+                    0.625,
+                    "echocardiogram",
+                    [
+                        2662,
+                        2676
+                    ]
+                ]
+            ],
+            "NA": [
+                [
+                    0.644,
+                    "solution",
+                    [
+                        612,
+                        620
+                    ]
+                ],
+                [
+                    0.688,
+                    "calculated",
+                    [
+                        1851,
+                        1861
+                    ]
+                ],
+                [
+                    0.606,
+                    "criteria",
+                    [
+                        1968,
+                        1976
+                    ]
+                ],
+                [
+                    0.624,
+                    "transthoracic",
+                    [
+                        2648,
+                        2661
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "thrombus",
+                    [
+                        90,
+                        98
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "on",
+                    [
+                        99,
+                        101
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "Moderate",
+                    [
+                        190,
+                        198
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "stenosis",
+                    [
+                        199,
+                        207
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "of",
+                    [
+                        208,
+                        210
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "aortic",
+                    [
+                        211,
+                        217
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "mitral",
+                    [
+                        242,
+                        248
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "regurgitation",
+                    [
+                        249,
+                        262
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "regurgitation",
+                    [
+                        1584,
+                        1597
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "moderate",
+                    [
+                        1928,
+                        1936
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "aortic",
+                    [
+                        1937,
+                        1943
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "valve",
+                    [
+                        1944,
+                        1949
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "stenosis",
+                    [
+                        1950,
+                        1958
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "dilated",
+                    [
+                        2398,
+                        2405
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "left",
+                    [
+                        2406,
+                        2410
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "atrium",
+                    [
+                        2411,
+                        2417
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "Mild-to-moderate",
+                    [
+                        2424,
+                        2440
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "regurgitation",
+                    [
+                        2441,
+                        2454
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "mechanical",
+                    [
+                        2473,
+                        2483
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "aortic",
+                    [
+                        2484,
+                        2490
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "valve",
+                    [
+                        2491,
+                        2496
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "1.2",
+                    [
+                        2558,
+                        2561
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "cm2",
+                    [
+                        2562,
+                        2565
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "aortic",
+                    [
+                        2591,
+                        2597
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "stenosis",
+                    [
+                        2598,
+                        2606
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.522,
+                    "thrombus",
+                    [
+                        90,
+                        98
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.461,
+                    "on",
+                    [
+                        99,
+                        101
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.421,
+                    "Moderate",
+                    [
+                        190,
+                        198
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.572,
+                    "stenosis",
+                    [
+                        199,
+                        207
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.558,
+                    "of",
+                    [
+                        208,
+                        210
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.507,
+                    "aortic",
+                    [
+                        211,
+                        217
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.527,
+                    "mitral",
+                    [
+                        242,
+                        248
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.511,
+                    "regurgitation",
+                    [
+                        249,
+                        262
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.502,
+                    "regurgitation",
+                    [
+                        1584,
+                        1597
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.694,
+                    "moderate",
+                    [
+                        1928,
+                        1936
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.872,
+                    "aortic",
+                    [
+                        1937,
+                        1943
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.863,
+                    "valve",
+                    [
+                        1944,
+                        1949
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.757,
+                    "stenosis",
+                    [
+                        1950,
+                        1958
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.537,
+                    "dilated",
+                    [
+                        2398,
+                        2405
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.804,
+                    "left",
+                    [
+                        2406,
+                        2410
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.68,
+                    "atrium",
+                    [
+                        2411,
+                        2417
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.464,
+                    "Mild-to-moderate",
+                    [
+                        2424,
+                        2440
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.57,
+                    "regurgitation",
+                    [
+                        2441,
+                        2454
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.373,
+                    "mechanical",
+                    [
+                        2473,
+                        2483
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.374,
+                    "aortic",
+                    [
+                        2484,
+                        2490
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.414,
+                    "valve",
+                    [
+                        2491,
+                        2496
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.638,
+                    "1.2",
+                    [
+                        2558,
+                        2561
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.661,
+                    "cm2",
+                    [
+                        2562,
+                        2565
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.605,
+                    "aortic",
+                    [
+                        2591,
+                        2597
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.709,
+                    "stenosis",
+                    [
+                        2598,
+                        2606
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.164,
+        "uncertain_token_count": 13,
+        "narrow_band_ratio": 0.029,
+        "uncertain_tokens": {
+            "DIAGNOSIS": [
+                [
+                    0.522,
+                    "thrombus",
+                    [
+                        90,
+                        98
+                    ]
+                ],
+                [
+                    0.461,
+                    "on",
+                    [
+                        99,
+                        101
+                    ]
+                ],
+                [
+                    0.507,
+                    "aortic",
+                    [
+                        211,
+                        217
+                    ]
+                ],
+                [
+                    0.527,
+                    "mitral",
+                    [
+                        242,
+                        248
+                    ]
+                ],
+                [
+                    0.511,
+                    "regurgitation",
+                    [
+                        249,
+                        262
+                    ]
+                ],
+                [
+                    0.502,
+                    "regurgitation",
+                    [
+                        1584,
+                        1597
+                    ]
+                ],
+                [
+                    0.373,
+                    "mechanical",
+                    [
+                        2473,
+                        2483
+                    ]
+                ],
+                [
+                    0.374,
+                    "aortic",
+                    [
+                        2484,
+                        2490
+                    ]
+                ],
+                [
+                    0.414,
+                    "valve",
+                    [
+                        2491,
+                        2496
+                    ]
+                ]
+            ],
+            "PROBLEM": [
+                [
+                    0.421,
+                    "Moderate",
+                    [
+                        190,
+                        198
+                    ]
+                ],
+                [
+                    0.464,
+                    "Mild-to-moderate",
+                    [
+                        2424,
+                        2440
+                    ]
+                ]
+            ],
+            "NA": [
+                [
+                    0.461,
+                    "valve",
+                    [
+                        218,
+                        223
+                    ]
+                ],
+                [
+                    0.41,
+                    "Well-seated",
+                    [
+                        2461,
+                        2472
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

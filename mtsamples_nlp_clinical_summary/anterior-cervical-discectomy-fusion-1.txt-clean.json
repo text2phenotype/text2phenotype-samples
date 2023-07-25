@@ -1,0 +1,714 @@
+{
+    "file": "anterior-cervical-discectomy-fusion-1.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "C4-C5",
+                "code": null,
+                "cui": null,
+                "tui": null,
+                "vocab": null,
+                "polarity": "positive",
+                "preferredText": null,
+                "range": [
+                    1137,
+                    1142
+                ],
+                "prob": {
+                    "MED": 0.985
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "bacitracin",
+                "code": "1291",
+                "cui": "C0004599",
+                "tui": "T195",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Bacitracin",
+                "range": [
+                    2030,
+                    2040
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.995
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            }
+        ],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "pulposus C2-C3",
+                "range": [
+                    48,
+                    62
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "84857004",
+                "cui": "C0678212",
+                "tui": "T037",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Herniation of nucleus pulposus"
+            },
+            {
+                "text": "nucleus pulposus C2-C3",
+                "range": [
+                    132,
+                    154
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "84857004",
+                "cui": "C0678212",
+                "tui": "T037",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Herniation of nucleus pulposus"
+            },
+            {
+                "text": "C3-C4",
+                "range": [
+                    177,
+                    182
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "high-grade",
+                "range": [
+                    2635,
+                    2645
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "compression",
+                "range": [
+                    2719,
+                    2730
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "arm",
+                "range": [
+                    2758,
+                    2761
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.016,
+        "uncertain_count": 6,
+        "narrow_band_ratio": 0.011,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.619,
+                    "C4-C5",
+                    [
+                        327,
+                        332
+                    ]
+                ],
+                [
+                    0.515,
+                    "C4-C5",
+                    [
+                        835,
+                        840
+                    ]
+                ],
+                [
+                    0.608,
+                    "blades",
+                    [
+                        938,
+                        944
+                    ]
+                ],
+                [
+                    0.528,
+                    "C4-C5",
+                    [
+                        1172,
+                        1177
+                    ]
+                ]
+            ],
+            "MED": [
+                [
+                    0.513,
+                    "C3-C4",
+                    [
+                        1488,
+                        1493
+                    ]
+                ],
+                [
+                    0.519,
+                    "C3-C4",
+                    [
+                        1729,
+                        1734
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "pulposus",
+                    [
+                        48,
+                        56
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "C2-C3",
+                    [
+                        57,
+                        62
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Spinal",
+                    [
+                        69,
+                        75
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "stenosis",
+                    [
+                        76,
+                        84
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "nucleus",
+                    [
+                        132,
+                        139
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "pulposus",
+                    [
+                        140,
+                        148
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "C2-C3",
+                    [
+                        149,
+                        154
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Spinal",
+                    [
+                        161,
+                        167
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "stenosis",
+                    [
+                        168,
+                        176
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "C3-C4",
+                    [
+                        177,
+                        182
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "high-grade",
+                    [
+                        2635,
+                        2645
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "spinal",
+                    [
+                        2646,
+                        2652
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "stenosis",
+                    [
+                        2653,
+                        2661
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "stenosis",
+                    [
+                        2698,
+                        2706
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "compression",
+                    [
+                        2719,
+                        2730
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "neck",
+                    [
+                        2732,
+                        2736
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "pain",
+                    [
+                        2737,
+                        2741
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "arm",
+                    [
+                        2758,
+                        2761
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "shoulder",
+                    [
+                        2766,
+                        2774
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "pain",
+                    [
+                        2775,
+                        2779
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.428,
+                    "nucleus",
+                    [
+                        40,
+                        47
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.489,
+                    "pulposus",
+                    [
+                        48,
+                        56
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.424,
+                    "C2-C3",
+                    [
+                        57,
+                        62
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.599,
+                    "Spinal",
+                    [
+                        69,
+                        75
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.465,
+                    "stenosis",
+                    [
+                        76,
+                        84
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.54,
+                    "pulposus",
+                    [
+                        140,
+                        148
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.495,
+                    "C2-C3",
+                    [
+                        149,
+                        154
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.749,
+                    "Spinal",
+                    [
+                        161,
+                        167
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.673,
+                    "stenosis",
+                    [
+                        168,
+                        176
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.51,
+                    "osteophytosis",
+                    [
+                        1553,
+                        1566
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.844,
+                    "spinal",
+                    [
+                        2646,
+                        2652
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.678,
+                    "stenosis",
+                    [
+                        2653,
+                        2661
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.503,
+                    "stenosis",
+                    [
+                        2698,
+                        2706
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.649,
+                    "compression",
+                    [
+                        2719,
+                        2730
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.545,
+                    "neck",
+                    [
+                        2732,
+                        2736
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.548,
+                    "pain",
+                    [
+                        2737,
+                        2741
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.51,
+                    "shoulder",
+                    [
+                        2766,
+                        2774
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.462,
+                    "pain",
+                    [
+                        2775,
+                        2779
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.103,
+        "uncertain_token_count": 18,
+        "narrow_band_ratio": 0.033,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.53,
+                    "Herniated",
+                    [
+                        30,
+                        39
+                    ]
+                ],
+                [
+                    0.468,
+                    "C3-C4",
+                    [
+                        85,
+                        90
+                    ]
+                ],
+                [
+                    0.405,
+                    "nucleus",
+                    [
+                        132,
+                        139
+                    ]
+                ],
+                [
+                    0.529,
+                    "foraminal",
+                    [
+                        1571,
+                        1580
+                    ]
+                ],
+                [
+                    0.479,
+                    "stenosis",
+                    [
+                        1581,
+                        1589
+                    ]
+                ],
+                [
+                    0.463,
+                    "high-grade",
+                    [
+                        2635,
+                        2645
+                    ]
+                ],
+                [
+                    0.497,
+                    "foramen",
+                    [
+                        2690,
+                        2697
+                    ]
+                ],
+                [
+                    0.507,
+                    "the",
+                    [
+                        2715,
+                        2718
+                    ]
+                ],
+                [
+                    0.518,
+                    "arm",
+                    [
+                        2758,
+                        2761
+                    ]
+                ]
+            ],
+            "DIAGNOSIS": [
+                [
+                    0.428,
+                    "nucleus",
+                    [
+                        40,
+                        47
+                    ]
+                ],
+                [
+                    0.489,
+                    "pulposus",
+                    [
+                        48,
+                        56
+                    ]
+                ],
+                [
+                    0.424,
+                    "C2-C3",
+                    [
+                        57,
+                        62
+                    ]
+                ],
+                [
+                    0.495,
+                    "C2-C3",
+                    [
+                        149,
+                        154
+                    ]
+                ],
+                [
+                    0.51,
+                    "osteophytosis",
+                    [
+                        1553,
+                        1566
+                    ]
+                ],
+                [
+                    0.503,
+                    "stenosis",
+                    [
+                        2698,
+                        2706
+                    ]
+                ],
+                [
+                    0.51,
+                    "shoulder",
+                    [
+                        2766,
+                        2774
+                    ]
+                ],
+                [
+                    0.462,
+                    "pain",
+                    [
+                        2775,
+                        2779
+                    ]
+                ]
+            ],
+            "PROBLEM": [
+                [
+                    0.465,
+                    "stenosis",
+                    [
+                        76,
+                        84
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

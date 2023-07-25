@@ -1,0 +1,800 @@
+{
+    "file": "dental-pain.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "Vicodin",
+                "code": "128793",
+                "cui": "C0483514",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Vicodin",
+                "range": [
+                    1714,
+                    1721
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.931
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "Vicodin",
+                "code": "128793",
+                "cui": "C0483514",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Vicodin",
+                "range": [
+                    1714,
+                    1721
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.931
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            }
+        ],
+        "Allergy": [
+            {
+                "code": "224954",
+                "cui": "C0728797",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "text": "FLEXERIL",
+                "preferredText": "Flexeril",
+                "range": [
+                    736,
+                    744
+                ]
+            },
+            {
+                "code": "202750",
+                "cui": "C0699524",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "text": "BETADINE",
+                "preferredText": "Betadine",
+                "range": [
+                    746,
+                    754
+                ]
+            },
+            {
+                "code": "70618",
+                "cui": "C0220892",
+                "tui": "T195",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "text": "penicillin",
+                "preferredText": "Penicillin",
+                "range": [
+                    1699,
+                    1709
+                ]
+            },
+            {
+                "code": "70618",
+                "cui": "C0220892",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "text": "penicillin",
+                "preferredText": "Penicillin",
+                "range": [
+                    1699,
+                    1709
+                ]
+            },
+            {
+                "code": "128793",
+                "cui": "C0483514",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "text": "Vicodin",
+                "preferredText": "Vicodin",
+                "range": [
+                    1714,
+                    1721
+                ]
+            }
+        ],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "to the left lower mandible area",
+                "range": [
+                    195,
+                    226
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "cervical fusion",
+                "range": [
+                    346,
+                    361
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "degenerative disc disease",
+                "range": [
+                    367,
+                    392
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "77547008",
+                "cui": "C0158266",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Intervertebral Disc Degeneration"
+            },
+            {
+                "text": "ACUTE DENTAL ABSCESS",
+                "range": [
+                    1745,
+                    1765
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.011,
+        "uncertain_count": 1,
+        "narrow_band_ratio": 0.003,
+        "uncertain_tokens": {
+            "MED": [
+                [
+                    0.594,
+                    "penicillin",
+                    [
+                        1699,
+                        1709
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "Dental",
+                    [
+                        19,
+                        25
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "pain",
+                    [
+                        26,
+                        30
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "dental",
+                    [
+                        141,
+                        147
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "pain",
+                    [
+                        148,
+                        152
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "swelling",
+                    [
+                        177,
+                        185
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "pain",
+                    [
+                        190,
+                        194
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "to",
+                    [
+                        195,
+                        197
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "the",
+                    [
+                        198,
+                        201
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "left",
+                    [
+                        202,
+                        206
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "lower",
+                    [
+                        207,
+                        212
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "mandible",
+                    [
+                        213,
+                        221
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "area",
+                    [
+                        222,
+                        226
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "chronic",
+                    [
+                        301,
+                        308
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "back",
+                    [
+                        309,
+                        313
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "pain",
+                    [
+                        314,
+                        318
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    ",",
+                    [
+                        318,
+                        319
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "neck",
+                    [
+                        320,
+                        324
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "pain",
+                    [
+                        325,
+                        329
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "cervical",
+                    [
+                        346,
+                        354
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "fusion",
+                    [
+                        355,
+                        361
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "degenerative",
+                    [
+                        367,
+                        379
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "disc",
+                    [
+                        380,
+                        384
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "disease",
+                    [
+                        385,
+                        392
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "chronic",
+                    [
+                        402,
+                        409
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "pain",
+                    [
+                        410,
+                        414
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "swelling",
+                    [
+                        607,
+                        615
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "pain",
+                    [
+                        620,
+                        624
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "ACUTE",
+                    [
+                        1745,
+                        1750
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "DENTAL",
+                    [
+                        1751,
+                        1757
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "ABSCESS",
+                    [
+                        1758,
+                        1765
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.755,
+                    "Dental",
+                    [
+                        19,
+                        25
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.704,
+                    "pain",
+                    [
+                        26,
+                        30
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.927,
+                    "dental",
+                    [
+                        141,
+                        147
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.89,
+                    "pain",
+                    [
+                        148,
+                        152
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.794,
+                    "swelling",
+                    [
+                        177,
+                        185
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.469,
+                    "and",
+                    [
+                        186,
+                        189
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.804,
+                    "pain",
+                    [
+                        190,
+                        194
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.729,
+                    "to",
+                    [
+                        195,
+                        197
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.778,
+                    "the",
+                    [
+                        198,
+                        201
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.846,
+                    "left",
+                    [
+                        202,
+                        206
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.827,
+                    "lower",
+                    [
+                        207,
+                        212
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.683,
+                    "mandible",
+                    [
+                        213,
+                        221
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.544,
+                    "area",
+                    [
+                        222,
+                        226
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.966,
+                    "chronic",
+                    [
+                        301,
+                        308
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.981,
+                    "back",
+                    [
+                        309,
+                        313
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.984,
+                    "pain",
+                    [
+                        314,
+                        318
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.95,
+                    "neck",
+                    [
+                        320,
+                        324
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.976,
+                    "pain",
+                    [
+                        325,
+                        329
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.542,
+                    "cervical",
+                    [
+                        346,
+                        354
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.594,
+                    "fusion",
+                    [
+                        355,
+                        361
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.975,
+                    "degenerative",
+                    [
+                        367,
+                        379
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.988,
+                    "disc",
+                    [
+                        380,
+                        384
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.973,
+                    "disease",
+                    [
+                        385,
+                        392
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.808,
+                    "chronic",
+                    [
+                        402,
+                        409
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.812,
+                    "pain",
+                    [
+                        410,
+                        414
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.561,
+                    "swelling",
+                    [
+                        607,
+                        615
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.566,
+                    "pain",
+                    [
+                        620,
+                        624
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.954,
+                    "ACUTE",
+                    [
+                        1745,
+                        1750
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.955,
+                    "DENTAL",
+                    [
+                        1751,
+                        1757
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.977,
+                    "ABSCESS",
+                    [
+                        1758,
+                        1765
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.12,
+        "uncertain_token_count": 3,
+        "narrow_band_ratio": 0.008,
+        "uncertain_tokens": {
+            "PROBLEM": [
+                [
+                    0.469,
+                    "and",
+                    [
+                        186,
+                        189
+                    ]
+                ]
+            ],
+            "NA": [
+                [
+                    0.504,
+                    ",",
+                    [
+                        318,
+                        319
+                    ]
+                ],
+                [
+                    0.518,
+                    "pain",
+                    [
+                        1726,
+                        1730
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

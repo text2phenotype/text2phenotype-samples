@@ -1,0 +1,315 @@
+{
+    "file": "cystopyelogram.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "antibiotics",
+                "code": null,
+                "cui": null,
+                "tui": null,
+                "vocab": null,
+                "polarity": "positive",
+                "preferredText": null,
+                "range": [
+                    2088,
+                    2099
+                ],
+                "prob": {
+                    "MED": 0.926
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            }
+        ],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "stone",
+                "range": [
+                    47,
+                    52
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "31054009",
+                "cui": "C0041952",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Ureterolithiasis"
+            },
+            {
+                "text": "Left distal ureteral stone",
+                "range": [
+                    80,
+                    106
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "episode of sepsis",
+                "range": [
+                    582,
+                    599
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.012,
+        "uncertain_count": 2,
+        "narrow_band_ratio": 0.005,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.592,
+                    "antibiotics",
+                    [
+                        379,
+                        390
+                    ]
+                ],
+                [
+                    0.522,
+                    "Ureteroscopy",
+                    [
+                        1375,
+                        1387
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "stone",
+                    [
+                        47,
+                        52
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Left",
+                    [
+                        80,
+                        84
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "distal",
+                    [
+                        85,
+                        91
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "ureteral",
+                    [
+                        92,
+                        100
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "stone",
+                    [
+                        101,
+                        106
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "episode",
+                    [
+                        582,
+                        589
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "of",
+                    [
+                        590,
+                        592
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "sepsis",
+                    [
+                        593,
+                        599
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.482,
+                    "ureteral",
+                    [
+                        38,
+                        46
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.587,
+                    "stone",
+                    [
+                        47,
+                        52
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.642,
+                    "Left",
+                    [
+                        80,
+                        84
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.693,
+                    "distal",
+                    [
+                        85,
+                        91
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.777,
+                    "ureteral",
+                    [
+                        92,
+                        100
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.886,
+                    "stone",
+                    [
+                        101,
+                        106
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.473,
+                    "episode",
+                    [
+                        582,
+                        589
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.471,
+                    "of",
+                    [
+                        590,
+                        592
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.789,
+                    "sepsis",
+                    [
+                        593,
+                        599
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.062,
+        "uncertain_token_count": 5,
+        "narrow_band_ratio": 0.012,
+        "uncertain_tokens": {
+            "DIAGNOSIS": [
+                [
+                    0.482,
+                    "ureteral",
+                    [
+                        38,
+                        46
+                    ]
+                ],
+                [
+                    0.473,
+                    "episode",
+                    [
+                        582,
+                        589
+                    ]
+                ],
+                [
+                    0.471,
+                    "of",
+                    [
+                        590,
+                        592
+                    ]
+                ]
+            ],
+            "NA": [
+                [
+                    0.522,
+                    "uroseptic",
+                    [
+                        478,
+                        487
+                    ]
+                ],
+                [
+                    0.446,
+                    "stones",
+                    [
+                        488,
+                        494
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

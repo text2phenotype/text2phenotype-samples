@@ -1,0 +1,494 @@
+{
+    "file": "phacoemulsification-cataract-extraction-1.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "tetracaine",
+                "code": "10391",
+                "cui": "C0039629",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Tetracaine",
+                "range": [
+                    1095,
+                    1105
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.95
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "tetracaine",
+                "code": "10391",
+                "cui": "C0039629",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Tetracaine",
+                "range": [
+                    1095,
+                    1105
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.95
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "diamond",
+                "code": "1362686",
+                "cui": "C0057717",
+                "tui": "T196",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Diamond",
+                "range": [
+                    1533,
+                    1540
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.979
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            }
+        ],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "left eye",
+                "range": [
+                    124,
+                    132
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "Topical/MAC",
+                "range": [
+                    147,
+                    158
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "progressive loss of vision in her left eye",
+                "range": [
+                    412,
+                    454
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.019,
+        "uncertain_count": 6,
+        "narrow_band_ratio": 0.013,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.654,
+                    "topical",
+                    [
+                        1049,
+                        1056
+                    ]
+                ],
+                [
+                    0.662,
+                    "blade",
+                    [
+                        1305,
+                        1310
+                    ]
+                ],
+                [
+                    0.525,
+                    "lidocaine",
+                    [
+                        1377,
+                        1386
+                    ]
+                ],
+                [
+                    0.529,
+                    "BSS",
+                    [
+                        1768,
+                        1771
+                    ]
+                ]
+            ],
+            "MED": [
+                [
+                    0.642,
+                    "preservative-free",
+                    [
+                        1077,
+                        1094
+                    ]
+                ],
+                [
+                    0.683,
+                    "water-tight",
+                    [
+                        2447,
+                        2458
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "cataract",
+                    [
+                        47,
+                        55
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "cataract",
+                    [
+                        114,
+                        122
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "left",
+                    [
+                        124,
+                        128
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "eye",
+                    [
+                        129,
+                        132
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Topical/MAC",
+                    [
+                        147,
+                        158
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "progressive",
+                    [
+                        412,
+                        423
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "loss",
+                    [
+                        424,
+                        428
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "of",
+                    [
+                        429,
+                        431
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "vision",
+                    [
+                        432,
+                        438
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "in",
+                    [
+                        439,
+                        441
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "her",
+                    [
+                        442,
+                        445
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "left",
+                    [
+                        446,
+                        450
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "eye",
+                    [
+                        451,
+                        454
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.814,
+                    "cataract",
+                    [
+                        47,
+                        55
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.697,
+                    "cataract",
+                    [
+                        114,
+                        122
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.387,
+                    "left",
+                    [
+                        124,
+                        128
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.412,
+                    "eye",
+                    [
+                        129,
+                        132
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.522,
+                    "Topical/MAC",
+                    [
+                        147,
+                        158
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.519,
+                    "progressive",
+                    [
+                        412,
+                        423
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.631,
+                    "loss",
+                    [
+                        424,
+                        428
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.761,
+                    "of",
+                    [
+                        429,
+                        431
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.833,
+                    "vision",
+                    [
+                        432,
+                        438
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.828,
+                    "in",
+                    [
+                        439,
+                        441
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.838,
+                    "her",
+                    [
+                        442,
+                        445
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.861,
+                    "left",
+                    [
+                        446,
+                        450
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.833,
+                    "eye",
+                    [
+                        451,
+                        454
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.11,
+        "uncertain_token_count": 7,
+        "narrow_band_ratio": 0.015,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.488,
+                    "left",
+                    [
+                        57,
+                        61
+                    ]
+                ],
+                [
+                    0.507,
+                    "significant",
+                    [
+                        102,
+                        113
+                    ]
+                ],
+                [
+                    0.452,
+                    ",",
+                    [
+                        122,
+                        123
+                    ]
+                ]
+            ],
+            "PROBLEM": [
+                [
+                    0.387,
+                    "left",
+                    [
+                        124,
+                        128
+                    ]
+                ],
+                [
+                    0.412,
+                    "eye",
+                    [
+                        129,
+                        132
+                    ]
+                ]
+            ],
+            "DIAGNOSIS": [
+                [
+                    0.522,
+                    "Topical/MAC",
+                    [
+                        147,
+                        158
+                    ]
+                ],
+                [
+                    0.519,
+                    "progressive",
+                    [
+                        412,
+                        423
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

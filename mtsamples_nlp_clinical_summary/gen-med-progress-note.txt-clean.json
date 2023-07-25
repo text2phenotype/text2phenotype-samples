@@ -1,0 +1,270 @@
+{
+    "file": "gen-med-progress-note.txt-clean.txt",
+    "text2summary": {
+        "Medication": [],
+        "Allergy": [],
+        "Lab": [
+            {
+                "code": "272170001",
+                "cui": "C0023516",
+                "tui": "T034",
+                "vocab": "SNOMEDCT_US",
+                "polarity": "positive",
+                "text": "White count",
+                "preferredText": "WHITE BLOOD CELL (CELL)",
+                "range": [
+                    645,
+                    656
+                ]
+            },
+            {
+                "code": "272170001",
+                "cui": "C0023516",
+                "tui": "T034",
+                "vocab": "SNOMEDCT_US",
+                "polarity": "positive",
+                "text": "White count",
+                "preferredText": "WHITE BLOOD CELL (CELL)",
+                "range": [
+                    645,
+                    656
+                ]
+            },
+            {
+                "code": "",
+                "cui": "C0518015",
+                "tui": "T034",
+                "vocab": "LNC",
+                "polarity": "positive",
+                "text": "hemoglobin",
+                "preferredText": "HEMOGLOBIN DETERMINATION (PROCEDURE)",
+                "range": [
+                    675,
+                    685
+                ]
+            },
+            {
+                "code": "",
+                "cui": "C0518015",
+                "tui": "T034",
+                "vocab": "LNC",
+                "polarity": "positive",
+                "text": "hemoglobin",
+                "preferredText": "HEMOGLOBIN DETERMINATION (PROCEDURE)",
+                "range": [
+                    675,
+                    685
+                ]
+            },
+            {
+                "code": "LP32067-8",
+                "cui": "C0019046",
+                "tui": "T034",
+                "vocab": "LNC",
+                "polarity": "positive",
+                "text": "hemoglobin",
+                "preferredText": "HEMOGLOBIN",
+                "range": [
+                    675,
+                    685
+                ]
+            },
+            {
+                "code": "LP32067-8",
+                "cui": "C0019046",
+                "tui": "T034",
+                "vocab": "LNC",
+                "polarity": "positive",
+                "text": "hemoglobin",
+                "preferredText": "HEMOGLOBIN",
+                "range": [
+                    675,
+                    685
+                ]
+            },
+            {
+                "code": "MTHU008063",
+                "cui": "C0005821",
+                "tui": "T034",
+                "vocab": "LNC",
+                "polarity": "positive",
+                "text": "platelets",
+                "preferredText": "THROMBOCYTE (PLATELET)",
+                "range": [
+                    699,
+                    708
+                ]
+            },
+            {
+                "code": "LP32534-7",
+                "cui": "C0017725",
+                "tui": "T034",
+                "vocab": "LNC",
+                "polarity": "positive",
+                "text": "Glucose",
+                "preferredText": "GLUCOSE",
+                "range": [
+                    718,
+                    725
+                ]
+            }
+        ],
+        "DiseaseDisorder": [
+            {
+                "text": "Dehydration",
+                "range": [
+                    977,
+                    988
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "34095006",
+                "cui": "C0011175",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Dehydration"
+            },
+            {
+                "text": "Prostatic hypertrophy",
+                "range": [
+                    1016,
+                    1037
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "266569009",
+                "cui": "C1739363",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Prostatic Hypertrophy"
+            },
+            {
+                "text": "DVT",
+                "range": [
+                    1062,
+                    1065
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "128053003",
+                "cui": "C0149871",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Deep Vein Thrombosis"
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.005,
+        "uncertain_count": 0,
+        "narrow_band_ratio": 0.0,
+        "uncertain_tokens": {},
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "Fever",
+                    [
+                        850,
+                        855
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Dehydration",
+                    [
+                        977,
+                        988
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Prostatic",
+                    [
+                        1016,
+                        1025
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "hypertrophy",
+                    [
+                        1026,
+                        1037
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "DVT",
+                    [
+                        1062,
+                        1065
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.627,
+                    "Fever",
+                    [
+                        850,
+                        855
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.962,
+                    "Dehydration",
+                    [
+                        977,
+                        988
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.865,
+                    "Prostatic",
+                    [
+                        1016,
+                        1025
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.849,
+                    "hypertrophy",
+                    [
+                        1026,
+                        1037
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.895,
+                    "DVT",
+                    [
+                        1062,
+                        1065
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.027,
+        "uncertain_token_count": 0,
+        "narrow_band_ratio": 0.0,
+        "uncertain_tokens": {},
+        "narrow_band_width": 0.2
+    }
+}

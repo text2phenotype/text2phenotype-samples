@@ -1,0 +1,270 @@
+{
+    "file": "heart-catheterization-1.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "Aspirin",
+                "code": "1191",
+                "cui": "C0004057",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Aspirin",
+                "range": [
+                    1108,
+                    1115
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 1.0
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [
+                    "81",
+                    1116,
+                    1118
+                ],
+                "medStrengthUnit": [
+                    "mg",
+                    1119,
+                    1121
+                ]
+            },
+            {
+                "text": "Aspirin",
+                "code": "1191",
+                "cui": "C0004057",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Aspirin",
+                "range": [
+                    1108,
+                    1115
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 1.0
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [
+                    "81",
+                    1116,
+                    1118
+                ],
+                "medStrengthUnit": [
+                    "mg",
+                    1119,
+                    1121
+                ]
+            },
+            {
+                "text": "nitroglycerin",
+                "code": "4917",
+                "cui": "C0017887",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Nitroglycerin",
+                "range": [
+                    1141,
+                    1154
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 1.0
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [
+                    "p.r.n.",
+                    1134,
+                    1140
+                ],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "nitroglycerin",
+                "code": "4917",
+                "cui": "C0017887",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Nitroglycerin",
+                "range": [
+                    1141,
+                    1154
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 1.0
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [
+                    "p.r.n.",
+                    1134,
+                    1140
+                ],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            }
+        ],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "MI",
+                "range": [
+                    148,
+                    150
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "22298006",
+                "cui": "C0027051",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Myocardial Infarction"
+            },
+            {
+                "text": "origin",
+                "range": [
+                    989,
+                    995
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.009,
+        "uncertain_count": 2,
+        "narrow_band_ratio": 0.009,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.635,
+                    "troponin",
+                    [
+                        169,
+                        177
+                    ]
+                ],
+                [
+                    0.649,
+                    "LMCA",
+                    [
+                        936,
+                        940
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "Chest",
+                    [
+                        122,
+                        127
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "pain",
+                    [
+                        128,
+                        132
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "MI",
+                    [
+                        148,
+                        150
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "origin",
+                    [
+                        989,
+                        995
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.923,
+                    "Chest",
+                    [
+                        122,
+                        127
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.897,
+                    "pain",
+                    [
+                        128,
+                        132
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.725,
+                    "MI",
+                    [
+                        148,
+                        150
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.457,
+                    "origin",
+                    [
+                        989,
+                        995
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.078,
+        "uncertain_token_count": 1,
+        "narrow_band_ratio": 0.004,
+        "uncertain_tokens": {
+            "DIAGNOSIS": [
+                [
+                    0.457,
+                    "origin",
+                    [
+                        989,
+                        995
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

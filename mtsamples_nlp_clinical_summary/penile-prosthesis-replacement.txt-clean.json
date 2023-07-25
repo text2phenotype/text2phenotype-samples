@@ -1,0 +1,527 @@
+{
+    "file": "penile-prosthesis-replacement.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "hemostatic",
+                "code": null,
+                "cui": null,
+                "tui": null,
+                "vocab": null,
+                "polarity": "positive",
+                "preferredText": null,
+                "range": [
+                    7225,
+                    7235
+                ],
+                "prob": {
+                    "MED": 0.921
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "amber",
+                "code": "1311393",
+                "cui": "C0242864",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Amber",
+                "range": [
+                    8048,
+                    8053
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.96
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "Telemetry",
+                "code": null,
+                "cui": null,
+                "tui": null,
+                "vocab": null,
+                "polarity": "positive",
+                "preferredText": null,
+                "range": [
+                    8384,
+                    8393
+                ],
+                "prob": {
+                    "MED": 0.993
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "antibiotics",
+                "code": null,
+                "cui": null,
+                "tui": null,
+                "vocab": null,
+                "polarity": "positive",
+                "preferredText": null,
+                "range": [
+                    8415,
+                    8426
+                ],
+                "prob": {
+                    "MED": 1.0
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            }
+        ],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "Peyronie's disease",
+                "range": [
+                    81,
+                    99
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "1335005",
+                "cui": "C0030848",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Peyronie Disease"
+            },
+            {
+                "text": "penile prosthesis",
+                "range": [
+                    158,
+                    175
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "Peyronie's disease",
+                "range": [
+                    182,
+                    200
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "1335005",
+                "cui": "C0030848",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Peyronie Disease"
+            },
+            {
+                "text": "Peyronie's\ndisease",
+                "range": [
+                    485,
+                    503
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "1335005",
+                "cui": "C0030848",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Peyronie Disease"
+            },
+            {
+                "text": "prosthesis",
+                "range": [
+                    564,
+                    574
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "penile prosthesis",
+                "range": [
+                    2054,
+                    2071
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.009,
+        "uncertain_count": 2,
+        "narrow_band_ratio": 0.001,
+        "uncertain_tokens": {
+            "MED": [
+                [
+                    0.604,
+                    "stick",
+                    [
+                        3242,
+                        3247
+                    ]
+                ]
+            ],
+            "NA": [
+                [
+                    0.587,
+                    "crest",
+                    [
+                        4666,
+                        4671
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "Peyronie",
+                    [
+                        81,
+                        89
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "'s",
+                    [
+                        89,
+                        91
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "disease",
+                    [
+                        92,
+                        99
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "penile",
+                    [
+                        158,
+                        164
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "prosthesis",
+                    [
+                        165,
+                        175
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Peyronie",
+                    [
+                        182,
+                        190
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "'s",
+                    [
+                        190,
+                        192
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "disease",
+                    [
+                        193,
+                        200
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Peyronie's",
+                    [
+                        485,
+                        495
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "disease",
+                    [
+                        496,
+                        503
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "prosthesis",
+                    [
+                        564,
+                        574
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "worked",
+                    [
+                        586,
+                        592
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "penile",
+                    [
+                        2054,
+                        2060
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "prosthesis",
+                    [
+                        2061,
+                        2071
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.977,
+                    "Peyronie",
+                    [
+                        81,
+                        89
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.987,
+                    "'s",
+                    [
+                        89,
+                        91
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.955,
+                    "disease",
+                    [
+                        92,
+                        99
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.489,
+                    "penile",
+                    [
+                        158,
+                        164
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.519,
+                    "prosthesis",
+                    [
+                        165,
+                        175
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.972,
+                    "Peyronie",
+                    [
+                        182,
+                        190
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.982,
+                    "'s",
+                    [
+                        190,
+                        192
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.934,
+                    "disease",
+                    [
+                        193,
+                        200
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.812,
+                    "Peyronie's",
+                    [
+                        485,
+                        495
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.8,
+                    "disease",
+                    [
+                        496,
+                        503
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.417,
+                    "prosthesis",
+                    [
+                        564,
+                        574
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.571,
+                    "prosthesis",
+                    [
+                        2061,
+                        2071
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.073,
+        "uncertain_token_count": 8,
+        "narrow_band_ratio": 0.005,
+        "uncertain_tokens": {
+            "DIAGNOSIS": [
+                [
+                    0.489,
+                    "penile",
+                    [
+                        158,
+                        164
+                    ]
+                ],
+                [
+                    0.519,
+                    "prosthesis",
+                    [
+                        165,
+                        175
+                    ]
+                ],
+                [
+                    0.417,
+                    "prosthesis",
+                    [
+                        564,
+                        574
+                    ]
+                ]
+            ],
+            "NA": [
+                [
+                    0.394,
+                    "worked",
+                    [
+                        586,
+                        592
+                    ]
+                ],
+                [
+                    0.511,
+                    "penile",
+                    [
+                        2054,
+                        2060
+                    ]
+                ],
+                [
+                    0.516,
+                    "bleeding",
+                    [
+                        3659,
+                        3667
+                    ]
+                ],
+                [
+                    0.521,
+                    "cylinders",
+                    [
+                        5274,
+                        5283
+                    ]
+                ],
+                [
+                    0.431,
+                    "condition",
+                    [
+                        8208,
+                        8217
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

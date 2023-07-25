@@ -1,0 +1,476 @@
+{
+    "file": "ventriculostomy.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "Marcaine",
+                "code": "1012397",
+                "cui": "C2945665",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Marcaine",
+                "range": [
+                    903,
+                    911
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.998
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "CSF",
+                "code": null,
+                "cui": null,
+                "tui": null,
+                "vocab": null,
+                "polarity": "positive",
+                "preferredText": null,
+                "range": [
+                    1411,
+                    1414
+                ],
+                "prob": {
+                    "MED": 0.941
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            }
+        ],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "hydrocephalus",
+                "range": [
+                    407,
+                    420
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "230745008",
+                "cui": "C0020255",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Hydrocephalus"
+            },
+            {
+                "text": "the",
+                "range": [
+                    1505,
+                    1508
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "third ventricle",
+                "range": [
+                    1589,
+                    1604
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.011,
+        "uncertain_count": 3,
+        "narrow_band_ratio": 0.007,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.661,
+                    "CSF",
+                    [
+                        339,
+                        342
+                    ]
+                ],
+                [
+                    0.656,
+                    "various",
+                    [
+                        1965,
+                        1972
+                    ]
+                ]
+            ],
+            "MED": [
+                [
+                    0.564,
+                    "bacitracin",
+                    [
+                        2304,
+                        2314
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "PROBLEM": [
+                    "Aqueductal",
+                    [
+                        26,
+                        36
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "stenosis",
+                    [
+                        37,
+                        45
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Aqueductal",
+                    [
+                        73,
+                        83
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "stenosis",
+                    [
+                        84,
+                        92
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "hydrocephalus",
+                    [
+                        407,
+                        420
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "aqueductal",
+                    [
+                        442,
+                        452
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "stenosis",
+                    [
+                        453,
+                        461
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "intermittent",
+                    [
+                        505,
+                        517
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "headaches",
+                    [
+                        518,
+                        527
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "macrocephaly",
+                    [
+                        529,
+                        541
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "the",
+                    [
+                        1505,
+                        1508
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "aqueductal",
+                    [
+                        1528,
+                        1538
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "stenosis",
+                    [
+                        1539,
+                        1547
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "third",
+                    [
+                        1589,
+                        1594
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "ventricle",
+                    [
+                        1595,
+                        1604
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "macrocephaly",
+                    [
+                        2198,
+                        2210
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "PROBLEM": [
+                    0.469,
+                    "Aqueductal",
+                    [
+                        26,
+                        36
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.468,
+                    "stenosis",
+                    [
+                        37,
+                        45
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.52,
+                    "Aqueductal",
+                    [
+                        73,
+                        83
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.605,
+                    "stenosis",
+                    [
+                        84,
+                        92
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.614,
+                    "hydrocephalus",
+                    [
+                        407,
+                        420
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.833,
+                    "aqueductal",
+                    [
+                        442,
+                        452
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.921,
+                    "stenosis",
+                    [
+                        453,
+                        461
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.409,
+                    "intermittent",
+                    [
+                        505,
+                        517
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.575,
+                    "headaches",
+                    [
+                        518,
+                        527
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.766,
+                    "macrocephaly",
+                    [
+                        529,
+                        541
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.756,
+                    "aqueductal",
+                    [
+                        1528,
+                        1538
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.814,
+                    "stenosis",
+                    [
+                        1539,
+                        1547
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.866,
+                    "macrocephaly",
+                    [
+                        2198,
+                        2210
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.112,
+        "uncertain_token_count": 7,
+        "narrow_band_ratio": 0.017,
+        "uncertain_tokens": {
+            "PROBLEM": [
+                [
+                    0.469,
+                    "Aqueductal",
+                    [
+                        26,
+                        36
+                    ]
+                ],
+                [
+                    0.468,
+                    "stenosis",
+                    [
+                        37,
+                        45
+                    ]
+                ]
+            ],
+            "DIAGNOSIS": [
+                [
+                    0.52,
+                    "Aqueductal",
+                    [
+                        73,
+                        83
+                    ]
+                ],
+                [
+                    0.409,
+                    "intermittent",
+                    [
+                        505,
+                        517
+                    ]
+                ]
+            ],
+            "NA": [
+                [
+                    0.516,
+                    "congenital",
+                    [
+                        1509,
+                        1519
+                    ]
+                ],
+                [
+                    0.509,
+                    "third",
+                    [
+                        1589,
+                        1594
+                    ]
+                ],
+                [
+                    0.476,
+                    "ventricle",
+                    [
+                        1595,
+                        1604
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

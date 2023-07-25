@@ -1,0 +1,384 @@
+{
+    "file": "id-orif-wound.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "general",
+                "code": null,
+                "cui": null,
+                "tui": null,
+                "vocab": null,
+                "polarity": "positive",
+                "preferredText": null,
+                "range": [
+                    1246,
+                    1253
+                ],
+                "prob": {
+                    "MED": 0.967
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "anesthetic",
+                "code": null,
+                "cui": null,
+                "tui": null,
+                "vocab": null,
+                "polarity": "positive",
+                "preferredText": null,
+                "range": [
+                    1254,
+                    1264
+                ],
+                "prob": {
+                    "MED": 0.988
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            }
+        ],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "ICD-9 code\n998.59",
+                "range": [
+                    320,
+                    337
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "70199000",
+                "cui": "C0020725",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Type II Mucolipidosis"
+            },
+            {
+                "text": "complicated (ICD-9",
+                "range": [
+                    390,
+                    408
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "bilateral calcanei",
+                "range": [
+                    540,
+                    558
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.01,
+        "uncertain_count": 2,
+        "narrow_band_ratio": 0.004,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.625,
+                    "solution",
+                    [
+                        2030,
+                        2038
+                    ]
+                ],
+                [
+                    0.613,
+                    "sponge",
+                    [
+                        2046,
+                        2052
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "Postoperative",
+                    [
+                        276,
+                        289
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "wound",
+                    [
+                        290,
+                        295
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "infection",
+                    [
+                        296,
+                        305
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "ICD-9",
+                    [
+                        320,
+                        325
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "code",
+                    [
+                        326,
+                        330
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "998.59",
+                    [
+                        331,
+                        337
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Postoperative",
+                    [
+                        359,
+                        372
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "wound",
+                    [
+                        373,
+                        378
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "infection",
+                    [
+                        379,
+                        388
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "complicated",
+                    [
+                        390,
+                        401
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "ICD-9",
+                    [
+                        403,
+                        408
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "bilateral",
+                    [
+                        540,
+                        549
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "calcanei",
+                    [
+                        550,
+                        558
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.694,
+                    "Postoperative",
+                    [
+                        276,
+                        289
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.714,
+                    "wound",
+                    [
+                        290,
+                        295
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.668,
+                    "infection",
+                    [
+                        296,
+                        305
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.714,
+                    "ICD-9",
+                    [
+                        320,
+                        325
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.637,
+                    "998.59",
+                    [
+                        331,
+                        337
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.92,
+                    "Postoperative",
+                    [
+                        359,
+                        372
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.963,
+                    "wound",
+                    [
+                        373,
+                        378
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.975,
+                    "infection",
+                    [
+                        379,
+                        388
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.694,
+                    "complicated",
+                    [
+                        390,
+                        401
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.545,
+                    "ICD-9",
+                    [
+                        403,
+                        408
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.792,
+                    "bilateral",
+                    [
+                        540,
+                        549
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.766,
+                    "calcanei",
+                    [
+                        550,
+                        558
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.092,
+        "uncertain_token_count": 2,
+        "narrow_band_ratio": 0.004,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.518,
+                    "code",
+                    [
+                        326,
+                        330
+                    ]
+                ],
+                [
+                    0.505,
+                    "of",
+                    [
+                        537,
+                        539
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

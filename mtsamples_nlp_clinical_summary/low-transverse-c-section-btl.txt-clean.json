@@ -1,0 +1,220 @@
+{
+    "file": "low-transverse-c-section-btl.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "Pitocin",
+                "code": "227199",
+                "cui": "C0733348",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Pitocin",
+                "range": [
+                    2160,
+                    2167
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.958
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            }
+        ],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "at",
+                "range": [
+                    49,
+                    51
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "cesarean",
+                "range": [
+                    284,
+                    292
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.003,
+        "uncertain_count": 0,
+        "narrow_band_ratio": 0.0,
+        "uncertain_tokens": {},
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "Intrauterine",
+                    [
+                        26,
+                        38
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "pregnancy",
+                    [
+                        39,
+                        48
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "at",
+                    [
+                        49,
+                        51
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "term",
+                    [
+                        52,
+                        56
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "Macrosomia",
+                    [
+                        153,
+                        163
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Macrosomia",
+                    [
+                        233,
+                        243
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "cesarean",
+                    [
+                        284,
+                        292
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.708,
+                    "Intrauterine",
+                    [
+                        26,
+                        38
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.75,
+                    "pregnancy",
+                    [
+                        39,
+                        48
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.565,
+                    "at",
+                    [
+                        49,
+                        51
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.584,
+                    "term",
+                    [
+                        52,
+                        56
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.439,
+                    "Macrosomia",
+                    [
+                        153,
+                        163
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.552,
+                    "Macrosomia",
+                    [
+                        233,
+                        243
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.535,
+                    "cesarean",
+                    [
+                        284,
+                        292
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.086,
+        "uncertain_token_count": 1,
+        "narrow_band_ratio": 0.002,
+        "uncertain_tokens": {
+            "DIAGNOSIS": [
+                [
+                    0.439,
+                    "Macrosomia",
+                    [
+                        153,
+                        163
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

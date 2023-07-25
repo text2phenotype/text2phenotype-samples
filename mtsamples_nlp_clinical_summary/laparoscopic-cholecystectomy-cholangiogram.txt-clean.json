@@ -1,0 +1,250 @@
+{
+    "file": "laparoscopic-cholecystectomy-cholangiogram.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "Marcaine",
+                "code": "1012397",
+                "cui": "C2945665",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Marcaine",
+                "range": [
+                    2463,
+                    2471
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.954
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            }
+        ],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "Acute cholecystitis",
+                "range": [
+                    26,
+                    45
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "65275009",
+                "cui": "C0149520",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Acute Cholecystitis"
+            },
+            {
+                "text": "Acute gangrenous cholecystitis with\ncholelithiasis",
+                "range": [
+                    73,
+                    123
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "72533002",
+                "cui": "C0267844",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Acute gangrenous cholecystitis"
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.007,
+        "uncertain_count": 0,
+        "narrow_band_ratio": 0.0,
+        "uncertain_tokens": {},
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "Acute",
+                    [
+                        26,
+                        31
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "cholecystitis",
+                    [
+                        32,
+                        45
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Acute",
+                    [
+                        73,
+                        78
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "gangrenous",
+                    [
+                        79,
+                        89
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "cholecystitis",
+                    [
+                        90,
+                        103
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "with",
+                    [
+                        104,
+                        108
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "cholelithiasis",
+                    [
+                        109,
+                        123
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "condition",
+                    [
+                        2686,
+                        2695
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.835,
+                    "Acute",
+                    [
+                        26,
+                        31
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.657,
+                    "cholecystitis",
+                    [
+                        32,
+                        45
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.914,
+                    "Acute",
+                    [
+                        73,
+                        78
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.869,
+                    "gangrenous",
+                    [
+                        79,
+                        89
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.879,
+                    "cholecystitis",
+                    [
+                        90,
+                        103
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.654,
+                    "with",
+                    [
+                        104,
+                        108
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.906,
+                    "cholelithiasis",
+                    [
+                        109,
+                        123
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.574,
+                    "acute",
+                    [
+                        1037,
+                        1042
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.625,
+                    "cholecystitis",
+                    [
+                        1043,
+                        1056
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.543,
+                    "condition",
+                    [
+                        2686,
+                        2695
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.095,
+        "uncertain_token_count": 0,
+        "narrow_band_ratio": 0.0,
+        "uncertain_tokens": {},
+        "narrow_band_width": 0.2
+    }
+}

@@ -1,0 +1,444 @@
+{
+    "file": "tonsillectomy-adenoidectomy-2.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "Marcaine",
+                "code": "1012397",
+                "cui": "C2945665",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Marcaine",
+                "range": [
+                    918,
+                    926
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.998
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [
+                    "0.25",
+                    912,
+                    916
+                ],
+                "medStrengthUnit": [
+                    "%",
+                    916,
+                    917
+                ]
+            },
+            {
+                "text": "adrenaline",
+                "code": "3992",
+                "cui": "C0014563",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Epinephrine",
+                "range": [
+                    932,
+                    942
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.99
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "adrenaline",
+                "code": "3992",
+                "cui": "C0014563",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Epinephrine",
+                "range": [
+                    932,
+                    942
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.99
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            }
+        ],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "Chronic tonsillitis with symptomatic tonsil",
+                "range": [
+                    26,
+                    69
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "90979004",
+                "cui": "C0149517",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Chronic tonsillitis"
+            },
+            {
+                "text": "adenoid hypertrophy",
+                "range": [
+                    74,
+                    93
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "111591002",
+                "cui": "C0149825",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Hypertrophy of adenoids"
+            },
+            {
+                "text": "Chronic tonsillitis with symptomatic tonsil",
+                "range": [
+                    121,
+                    164
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "90979004",
+                "cui": "C0149517",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Chronic tonsillitis"
+            },
+            {
+                "text": "adenoid hypertrophy",
+                "range": [
+                    169,
+                    188
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "111591002",
+                "cui": "C0149825",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Hypertrophy of adenoids"
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.008,
+        "uncertain_count": 1,
+        "narrow_band_ratio": 0.006,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.62,
+                    "gag",
+                    [
+                        462,
+                        465
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "Chronic",
+                    [
+                        26,
+                        33
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "tonsillitis",
+                    [
+                        34,
+                        45
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "with",
+                    [
+                        46,
+                        50
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "symptomatic",
+                    [
+                        51,
+                        62
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "tonsil",
+                    [
+                        63,
+                        69
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "adenoid",
+                    [
+                        74,
+                        81
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "hypertrophy",
+                    [
+                        82,
+                        93
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Chronic",
+                    [
+                        121,
+                        128
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "tonsillitis",
+                    [
+                        129,
+                        140
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "with",
+                    [
+                        141,
+                        145
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "symptomatic",
+                    [
+                        146,
+                        157
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "tonsil",
+                    [
+                        158,
+                        164
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "adenoid",
+                    [
+                        169,
+                        176
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "hypertrophy",
+                    [
+                        177,
+                        188
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.85,
+                    "Chronic",
+                    [
+                        26,
+                        33
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.745,
+                    "tonsillitis",
+                    [
+                        34,
+                        45
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.438,
+                    "with",
+                    [
+                        46,
+                        50
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.744,
+                    "symptomatic",
+                    [
+                        51,
+                        62
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.791,
+                    "tonsil",
+                    [
+                        63,
+                        69
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.824,
+                    "adenoid",
+                    [
+                        74,
+                        81
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.786,
+                    "hypertrophy",
+                    [
+                        82,
+                        93
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.918,
+                    "Chronic",
+                    [
+                        121,
+                        128
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.91,
+                    "tonsillitis",
+                    [
+                        129,
+                        140
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.765,
+                    "symptomatic",
+                    [
+                        146,
+                        157
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.799,
+                    "tonsil",
+                    [
+                        158,
+                        164
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.833,
+                    "adenoid",
+                    [
+                        169,
+                        176
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.834,
+                    "hypertrophy",
+                    [
+                        177,
+                        188
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.086,
+        "uncertain_token_count": 2,
+        "narrow_band_ratio": 0.012,
+        "uncertain_tokens": {
+            "PROBLEM": [
+                [
+                    0.438,
+                    "with",
+                    [
+                        46,
+                        50
+                    ]
+                ]
+            ],
+            "NA": [
+                [
+                    0.481,
+                    "with",
+                    [
+                        141,
+                        145
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

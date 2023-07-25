@@ -1,0 +1,768 @@
+{
+    "file": "total-abdominal-hysterectomy-2.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "Lupron",
+                "code": "203852",
+                "cui": "C0701459",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Lupron",
+                "range": [
+                    614,
+                    620
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 1.0
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "Vasopressin",
+                "code": "11149",
+                "cui": "C1705480",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Vasopressin (USP)",
+                "range": [
+                    4934,
+                    4945
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.965
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "sponges",
+                "code": null,
+                "cui": null,
+                "tui": null,
+                "vocab": null,
+                "polarity": "positive",
+                "preferredText": null,
+                "range": [
+                    6663,
+                    6670
+                ],
+                "prob": {
+                    "MED": 0.94
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "Betadine",
+                "code": "202750",
+                "cui": "C0699524",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Betadine",
+                "range": [
+                    6961,
+                    6969
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.999
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "Betadine",
+                "code": "202750",
+                "cui": "C0699524",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Betadine",
+                "range": [
+                    6961,
+                    6969
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.999
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            }
+        ],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "Pelvic endometriosis",
+                "range": [
+                    153,
+                    173
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "26681001",
+                "cui": "C0241880",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Endometriosis of pelvis"
+            },
+            {
+                "text": "enlarged",
+                "range": [
+                    498,
+                    506
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "pedunculated",
+                "range": [
+                    850,
+                    862
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "endometriosis",
+                "range": [
+                    983,
+                    996
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "129103003",
+                "cui": "C0014175",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Endometriosis"
+            },
+            {
+                "text": "right infundibulopelvic ligament",
+                "range": [
+                    1195,
+                    1227
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.01,
+        "uncertain_count": 8,
+        "narrow_band_ratio": 0.006,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.587,
+                    "Astramorph",
+                    [
+                        277,
+                        287
+                    ]
+                ],
+                [
+                    0.674,
+                    "general",
+                    [
+                        1369,
+                        1376
+                    ]
+                ],
+                [
+                    0.604,
+                    "ligament",
+                    [
+                        3884,
+                        3892
+                    ]
+                ],
+                [
+                    0.682,
+                    "staples",
+                    [
+                        6931,
+                        6938
+                    ]
+                ],
+                [
+                    0.565,
+                    "sponge",
+                    [
+                        7027,
+                        7033
+                    ]
+                ]
+            ],
+            "MED": [
+                [
+                    0.596,
+                    "anesthetic",
+                    [
+                        1377,
+                        1387
+                    ]
+                ],
+                [
+                    0.697,
+                    "blade",
+                    [
+                        2521,
+                        2526
+                    ]
+                ],
+                [
+                    0.664,
+                    "sponges",
+                    [
+                        2589,
+                        2596
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "fibroid",
+                    [
+                        40,
+                        47
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "uterus",
+                    [
+                        48,
+                        54
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "Pelvic",
+                    [
+                        61,
+                        67
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "pain",
+                    [
+                        68,
+                        72
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "fibroid",
+                    [
+                        114,
+                        121
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "uterus",
+                    [
+                        122,
+                        128
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Pelvic",
+                    [
+                        135,
+                        141
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "pain",
+                    [
+                        142,
+                        146
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Pelvic",
+                    [
+                        153,
+                        159
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "endometriosis",
+                    [
+                        160,
+                        173
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "enlarged",
+                    [
+                        498,
+                        506
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "fibroid",
+                    [
+                        507,
+                        514
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "uterus",
+                    [
+                        515,
+                        521
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "fibroids",
+                    [
+                        787,
+                        795
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "pedunculated",
+                    [
+                        850,
+                        862
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "fibroids",
+                    [
+                        863,
+                        871
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "endometriosis",
+                    [
+                        983,
+                        996
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "right",
+                    [
+                        1195,
+                        1200
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "infundibulopelvic",
+                    [
+                        1201,
+                        1218
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "ligament",
+                    [
+                        1219,
+                        1227
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.471,
+                    "fibroid",
+                    [
+                        40,
+                        47
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.482,
+                    "uterus",
+                    [
+                        48,
+                        54
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.655,
+                    "Pelvic",
+                    [
+                        61,
+                        67
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.754,
+                    "pain",
+                    [
+                        68,
+                        72
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.442,
+                    "fibroid",
+                    [
+                        114,
+                        121
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.496,
+                    "uterus",
+                    [
+                        122,
+                        128
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.617,
+                    "Pelvic",
+                    [
+                        135,
+                        141
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.505,
+                    "pain",
+                    [
+                        142,
+                        146
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.697,
+                    "Pelvic",
+                    [
+                        153,
+                        159
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.715,
+                    "endometriosis",
+                    [
+                        160,
+                        173
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.519,
+                    "enlarged",
+                    [
+                        498,
+                        506
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.551,
+                    "fibroid",
+                    [
+                        507,
+                        514
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.534,
+                    "uterus",
+                    [
+                        515,
+                        521
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.483,
+                    "fibroids",
+                    [
+                        787,
+                        795
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.453,
+                    "pedunculated",
+                    [
+                        850,
+                        862
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.613,
+                    "fibroids",
+                    [
+                        863,
+                        871
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.431,
+                    "endometriosis",
+                    [
+                        983,
+                        996
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.475,
+                    "right",
+                    [
+                        1195,
+                        1200
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.454,
+                    "infundibulopelvic",
+                    [
+                        1201,
+                        1218
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.453,
+                    "ligament",
+                    [
+                        1219,
+                        1227
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.082,
+        "uncertain_token_count": 14,
+        "narrow_band_ratio": 0.011,
+        "uncertain_tokens": {
+            "DIAGNOSIS": [
+                [
+                    0.471,
+                    "fibroid",
+                    [
+                        40,
+                        47
+                    ]
+                ],
+                [
+                    0.496,
+                    "uterus",
+                    [
+                        122,
+                        128
+                    ]
+                ],
+                [
+                    0.505,
+                    "pain",
+                    [
+                        142,
+                        146
+                    ]
+                ],
+                [
+                    0.483,
+                    "fibroids",
+                    [
+                        787,
+                        795
+                    ]
+                ],
+                [
+                    0.453,
+                    "pedunculated",
+                    [
+                        850,
+                        862
+                    ]
+                ],
+                [
+                    0.431,
+                    "endometriosis",
+                    [
+                        983,
+                        996
+                    ]
+                ]
+            ],
+            "PROBLEM": [
+                [
+                    0.482,
+                    "uterus",
+                    [
+                        48,
+                        54
+                    ]
+                ],
+                [
+                    0.442,
+                    "fibroid",
+                    [
+                        114,
+                        121
+                    ]
+                ],
+                [
+                    0.519,
+                    "enlarged",
+                    [
+                        498,
+                        506
+                    ]
+                ],
+                [
+                    0.475,
+                    "right",
+                    [
+                        1195,
+                        1200
+                    ]
+                ],
+                [
+                    0.454,
+                    "infundibulopelvic",
+                    [
+                        1201,
+                        1218
+                    ]
+                ],
+                [
+                    0.453,
+                    "ligament",
+                    [
+                        1219,
+                        1227
+                    ]
+                ]
+            ],
+            "NA": [
+                [
+                    0.464,
+                    "ligament",
+                    [
+                        1164,
+                        1172
+                    ]
+                ],
+                [
+                    0.506,
+                    "the",
+                    [
+                        1191,
+                        1194
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

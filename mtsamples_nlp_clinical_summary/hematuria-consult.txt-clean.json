@@ -1,0 +1,745 @@
+{
+    "file": "hematuria-consult.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "Levaquin",
+                "code": "217992",
+                "cui": "C0721336",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Levaquin",
+                "range": [
+                    553,
+                    561
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.999
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "Levaquin",
+                "code": "217992",
+                "cui": "C0721336",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Levaquin",
+                "range": [
+                    553,
+                    561
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.999
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            }
+        ],
+        "Allergy": [],
+        "Lab": [
+            {
+                "code": "272170001",
+                "cui": "C0023516",
+                "tui": "T034",
+                "vocab": "SNOMEDCT_US",
+                "polarity": "positive",
+                "text": "white count",
+                "preferredText": "WHITE BLOOD CELL (CELL)",
+                "range": [
+                    2499,
+                    2510
+                ]
+            },
+            {
+                "code": "272170001",
+                "cui": "C0023516",
+                "tui": "T034",
+                "vocab": "SNOMEDCT_US",
+                "polarity": "positive",
+                "text": "white count",
+                "preferredText": "WHITE BLOOD CELL (CELL)",
+                "range": [
+                    2499,
+                    2510
+                ]
+            },
+            {
+                "code": "",
+                "cui": "C0033707",
+                "tui": "T034",
+                "vocab": "LNC",
+                "polarity": "positive",
+                "text": "PT",
+                "preferredText": "PT",
+                "range": [
+                    2534,
+                    2536
+                ]
+            },
+            {
+                "code": "42525009",
+                "cui": "C0030605",
+                "tui": "T059",
+                "vocab": "SNOMEDCT_US",
+                "polarity": "positive",
+                "text": "PTT",
+                "preferredText": "PARTIAL THROMBOPLASTIN TIME, ACTIVATED",
+                "range": [
+                    2559,
+                    2562
+                ]
+            },
+            {
+                "code": "84520",
+                "cui": "C0005845",
+                "tui": "T059",
+                "vocab": "CPT",
+                "polarity": "positive",
+                "text": "BUN",
+                "preferredText": "ASSAY OF UREA NITROGEN QUANTITATIVE",
+                "range": [
+                    2650,
+                    2653
+                ]
+            }
+        ],
+        "DiseaseDisorder": [
+            {
+                "text": "to his left neck",
+                "range": [
+                    620,
+                    636
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "a coagulopathy",
+                "range": [
+                    641,
+                    655
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "significant",
+                "range": [
+                    661,
+                    672
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "coagulopathy",
+                "range": [
+                    788,
+                    800
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "362970003",
+                "cui": "C0005779",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Blood Coagulation Disorders"
+            },
+            {
+                "text": "critical",
+                "range": [
+                    825,
+                    833
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "coagulopathy",
+                "range": [
+                    2824,
+                    2836
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "362970003",
+                "cui": "C0005779",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Blood Coagulation Disorders"
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.006,
+        "uncertain_count": 1,
+        "narrow_band_ratio": 0.002,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.552,
+                    "medication",
+                    [
+                        1494,
+                        1504
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "gross",
+                    [
+                        76,
+                        81
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "hematuria",
+                    [
+                        82,
+                        91
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "speech",
+                    [
+                        169,
+                        175
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "impediment",
+                    [
+                        176,
+                        186
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "hematuria",
+                    [
+                        464,
+                        473
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "large",
+                    [
+                        605,
+                        610
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "hematoma",
+                    [
+                        611,
+                        619
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "to",
+                    [
+                        620,
+                        622
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "his",
+                    [
+                        623,
+                        626
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "left",
+                    [
+                        627,
+                        631
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "neck",
+                    [
+                        632,
+                        636
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "a",
+                    [
+                        641,
+                        642
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "coagulopathy",
+                    [
+                        643,
+                        655
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "significant",
+                    [
+                        661,
+                        672
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "bleeding",
+                    [
+                        673,
+                        681
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "malignancy",
+                    [
+                        776,
+                        786
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "coagulopathy",
+                    [
+                        788,
+                        800
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "critical",
+                    [
+                        825,
+                        833
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "condition",
+                    [
+                        834,
+                        843
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "prostate",
+                    [
+                        1406,
+                        1414
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "cancer",
+                    [
+                        1415,
+                        1421
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "coagulopathy",
+                    [
+                        2824,
+                        2836
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.76,
+                    "gross",
+                    [
+                        76,
+                        81
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.828,
+                    "hematuria",
+                    [
+                        82,
+                        91
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.449,
+                    "speech",
+                    [
+                        169,
+                        175
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.408,
+                    "impediment",
+                    [
+                        176,
+                        186
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.507,
+                    "hematuria",
+                    [
+                        464,
+                        473
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.368,
+                    "large",
+                    [
+                        605,
+                        610
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.467,
+                    "hematoma",
+                    [
+                        611,
+                        619
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.481,
+                    "to",
+                    [
+                        620,
+                        622
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.473,
+                    "his",
+                    [
+                        623,
+                        626
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.601,
+                    "left",
+                    [
+                        627,
+                        631
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.444,
+                    "neck",
+                    [
+                        632,
+                        636
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.707,
+                    "coagulopathy",
+                    [
+                        643,
+                        655
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.469,
+                    "significant",
+                    [
+                        661,
+                        672
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.496,
+                    "bleeding",
+                    [
+                        673,
+                        681
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.367,
+                    "malignancy",
+                    [
+                        776,
+                        786
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.456,
+                    "coagulopathy",
+                    [
+                        788,
+                        800
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.519,
+                    "critical",
+                    [
+                        825,
+                        833
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.595,
+                    "condition",
+                    [
+                        834,
+                        843
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.953,
+                    "prostate",
+                    [
+                        1406,
+                        1414
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.974,
+                    "cancer",
+                    [
+                        1415,
+                        1421
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.899,
+                    "coagulopathy",
+                    [
+                        2824,
+                        2836
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.066,
+        "uncertain_token_count": 13,
+        "narrow_band_ratio": 0.022,
+        "uncertain_tokens": {
+            "PROBLEM": [
+                [
+                    0.449,
+                    "speech",
+                    [
+                        169,
+                        175
+                    ]
+                ],
+                [
+                    0.408,
+                    "impediment",
+                    [
+                        176,
+                        186
+                    ]
+                ],
+                [
+                    0.368,
+                    "large",
+                    [
+                        605,
+                        610
+                    ]
+                ],
+                [
+                    0.444,
+                    "neck",
+                    [
+                        632,
+                        636
+                    ]
+                ],
+                [
+                    0.367,
+                    "malignancy",
+                    [
+                        776,
+                        786
+                    ]
+                ],
+                [
+                    0.456,
+                    "coagulopathy",
+                    [
+                        788,
+                        800
+                    ]
+                ]
+            ],
+            "DIAGNOSIS": [
+                [
+                    0.507,
+                    "hematuria",
+                    [
+                        464,
+                        473
+                    ]
+                ],
+                [
+                    0.467,
+                    "hematoma",
+                    [
+                        611,
+                        619
+                    ]
+                ],
+                [
+                    0.481,
+                    "to",
+                    [
+                        620,
+                        622
+                    ]
+                ],
+                [
+                    0.473,
+                    "his",
+                    [
+                        623,
+                        626
+                    ]
+                ],
+                [
+                    0.469,
+                    "significant",
+                    [
+                        661,
+                        672
+                    ]
+                ],
+                [
+                    0.496,
+                    "bleeding",
+                    [
+                        673,
+                        681
+                    ]
+                ],
+                [
+                    0.519,
+                    "critical",
+                    [
+                        825,
+                        833
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

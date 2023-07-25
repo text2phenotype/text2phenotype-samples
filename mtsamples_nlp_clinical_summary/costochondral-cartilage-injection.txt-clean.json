@@ -1,0 +1,136 @@
+{
+    "file": "costochondral-cartilage-injection.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "Depo-Medrol",
+                "code": "22584",
+                "cui": "C0057476",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Depo-Medrol",
+                "range": [
+                    871,
+                    882
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.99
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "Depo-Medrol",
+                "code": "22584",
+                "cui": "C0057476",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Depo-Medrol",
+                "range": [
+                    871,
+                    882
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.99
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            }
+        ],
+        "Allergy": [],
+        "Lab": [
+            {
+                "code": "",
+                "cui": "C0002059",
+                "tui": "T034",
+                "vocab": "LNC",
+                "polarity": "positive",
+                "text": "AP",
+                "preferredText": "ALP - ALKALINE PHOSPHATASE",
+                "range": [
+                    731,
+                    733
+                ]
+            }
+        ],
+        "DiseaseDisorder": [
+            {
+                "text": "pneumothorax",
+                "range": [
+                    1252,
+                    1264
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.008,
+        "uncertain_count": 0,
+        "narrow_band_ratio": 0.0,
+        "uncertain_tokens": {},
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "pneumothorax",
+                    [
+                        1252,
+                        1264
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.583,
+                    "pneumothorax",
+                    [
+                        1252,
+                        1264
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.051,
+        "uncertain_token_count": 2,
+        "narrow_band_ratio": 0.008,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.423,
+                    "respiratory",
+                    [
+                        1273,
+                        1284
+                    ]
+                ],
+                [
+                    0.529,
+                    "distress",
+                    [
+                        1285,
+                        1293
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

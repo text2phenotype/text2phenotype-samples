@@ -1,0 +1,1037 @@
+{
+    "file": "mammoplasty-2.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "silicone",
+                "code": "9778",
+                "cui": "C0037114",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Silicones",
+                "range": [
+                    2617,
+                    2625
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 1.0
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "silicone",
+                "code": "9778",
+                "cui": "C0037114",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Silicones",
+                "range": [
+                    2731,
+                    2739
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.994
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "silicone",
+                "code": "9778",
+                "cui": "C0037114",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Silicones",
+                "range": [
+                    2996,
+                    3004
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.999
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            }
+        ],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "melasma to",
+                "range": [
+                    46,
+                    56
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "36209000",
+                "cui": "C0025218",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Chloasma"
+            },
+            {
+                "text": "as well as dark areas on her face",
+                "range": [
+                    640,
+                    673
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "varicose veins to the back and posterior aspect of",
+                "range": [
+                    678,
+                    728
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "128060009",
+                "cui": "C0042345",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Varicosity"
+            },
+            {
+                "text": "infection",
+                "range": [
+                    913,
+                    922
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "189822004",
+                "cui": "C0009450",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Communicable Diseases"
+            },
+            {
+                "text": "poor",
+                "range": [
+                    934,
+                    938
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "right",
+                "range": [
+                    1482,
+                    1487
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "the varicose veins",
+                "range": [
+                    1522,
+                    1540
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "varicose veins",
+                "range": [
+                    1567,
+                    1581
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "128060009",
+                "cui": "C0042345",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Varicosity"
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.013,
+        "uncertain_count": 5,
+        "narrow_band_ratio": 0.007,
+        "uncertain_tokens": {
+            "MED": [
+                [
+                    0.546,
+                    "silicone",
+                    [
+                        243,
+                        251
+                    ]
+                ],
+                [
+                    0.64,
+                    "implant",
+                    [
+                        3123,
+                        3130
+                    ]
+                ]
+            ],
+            "NA": [
+                [
+                    0.647,
+                    "breast",
+                    [
+                        2740,
+                        2746
+                    ]
+                ],
+                [
+                    0.504,
+                    "gel",
+                    [
+                        3119,
+                        3122
+                    ]
+                ],
+                [
+                    0.696,
+                    "TCA",
+                    [
+                        3561,
+                        3564
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "Breast",
+                    [
+                        27,
+                        33
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "hypoplasia",
+                    [
+                        34,
+                        44
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "melasma",
+                    [
+                        46,
+                        53
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "to",
+                    [
+                        54,
+                        56
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "small",
+                    [
+                        626,
+                        631
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "breasts",
+                    [
+                        632,
+                        639
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "as",
+                    [
+                        640,
+                        642
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "well",
+                    [
+                        643,
+                        647
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "as",
+                    [
+                        648,
+                        650
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "dark",
+                    [
+                        651,
+                        655
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "areas",
+                    [
+                        656,
+                        661
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "on",
+                    [
+                        662,
+                        664
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "her",
+                    [
+                        665,
+                        668
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "face",
+                    [
+                        669,
+                        673
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "varicose",
+                    [
+                        678,
+                        686
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "veins",
+                    [
+                        687,
+                        692
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "to",
+                    [
+                        693,
+                        695
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "the",
+                    [
+                        696,
+                        699
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "back",
+                    [
+                        700,
+                        704
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "and",
+                    [
+                        705,
+                        708
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "posterior",
+                    [
+                        709,
+                        718
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "aspect",
+                    [
+                        719,
+                        725
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "of",
+                    [
+                        726,
+                        728
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "infection",
+                    [
+                        913,
+                        922
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "bleeding",
+                    [
+                        924,
+                        932
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "poor",
+                    [
+                        934,
+                        938
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "wound",
+                    [
+                        939,
+                        944
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "healing",
+                    [
+                        945,
+                        952
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "right",
+                    [
+                        1482,
+                        1487
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "the",
+                    [
+                        1522,
+                        1525
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "varicose",
+                    [
+                        1526,
+                        1534
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "veins",
+                    [
+                        1535,
+                        1540
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "varicose",
+                    [
+                        1567,
+                        1575
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "veins",
+                    [
+                        1576,
+                        1581
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "wounds",
+                    [
+                        1638,
+                        1644
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.919,
+                    "Breast",
+                    [
+                        27,
+                        33
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.853,
+                    "hypoplasia",
+                    [
+                        34,
+                        44
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.671,
+                    "melasma",
+                    [
+                        46,
+                        53
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.554,
+                    "to",
+                    [
+                        54,
+                        56
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.501,
+                    "the",
+                    [
+                        57,
+                        60
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.838,
+                    "small",
+                    [
+                        626,
+                        631
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.822,
+                    "breasts",
+                    [
+                        632,
+                        639
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.834,
+                    "as",
+                    [
+                        640,
+                        642
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.57,
+                    "well",
+                    [
+                        643,
+                        647
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.645,
+                    "as",
+                    [
+                        648,
+                        650
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.656,
+                    "dark",
+                    [
+                        651,
+                        655
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.73,
+                    "areas",
+                    [
+                        656,
+                        661
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.808,
+                    "on",
+                    [
+                        662,
+                        664
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.665,
+                    "her",
+                    [
+                        665,
+                        668
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.682,
+                    "face",
+                    [
+                        669,
+                        673
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.785,
+                    "varicose",
+                    [
+                        678,
+                        686
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.741,
+                    "veins",
+                    [
+                        687,
+                        692
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.699,
+                    "to",
+                    [
+                        693,
+                        695
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.747,
+                    "the",
+                    [
+                        696,
+                        699
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.693,
+                    "back",
+                    [
+                        700,
+                        704
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.557,
+                    "and",
+                    [
+                        705,
+                        708
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.549,
+                    "posterior",
+                    [
+                        709,
+                        718
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.508,
+                    "of",
+                    [
+                        726,
+                        728
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.46,
+                    "lower",
+                    [
+                        739,
+                        744
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.474,
+                    "extremity",
+                    [
+                        745,
+                        754
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.459,
+                    "infection",
+                    [
+                        913,
+                        922
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.51,
+                    "bleeding",
+                    [
+                        924,
+                        932
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.542,
+                    "poor",
+                    [
+                        934,
+                        938
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.557,
+                    "wound",
+                    [
+                        939,
+                        944
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.534,
+                    "healing",
+                    [
+                        945,
+                        952
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.593,
+                    "the",
+                    [
+                        1522,
+                        1525
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.761,
+                    "varicose",
+                    [
+                        1526,
+                        1534
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.598,
+                    "veins",
+                    [
+                        1535,
+                        1540
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.688,
+                    "varicose",
+                    [
+                        1567,
+                        1575
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.64,
+                    "veins",
+                    [
+                        1576,
+                        1581
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.484,
+                    "wounds",
+                    [
+                        1638,
+                        1644
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.154,
+        "uncertain_token_count": 14,
+        "narrow_band_ratio": 0.02,
+        "uncertain_tokens": {
+            "DIAGNOSIS": [
+                [
+                    0.501,
+                    "the",
+                    [
+                        57,
+                        60
+                    ]
+                ],
+                [
+                    0.508,
+                    "of",
+                    [
+                        726,
+                        728
+                    ]
+                ],
+                [
+                    0.46,
+                    "lower",
+                    [
+                        739,
+                        744
+                    ]
+                ],
+                [
+                    0.474,
+                    "extremity",
+                    [
+                        745,
+                        754
+                    ]
+                ],
+                [
+                    0.459,
+                    "infection",
+                    [
+                        913,
+                        922
+                    ]
+                ],
+                [
+                    0.51,
+                    "bleeding",
+                    [
+                        924,
+                        932
+                    ]
+                ],
+                [
+                    0.484,
+                    "wounds",
+                    [
+                        1638,
+                        1644
+                    ]
+                ]
+            ],
+            "NA": [
+                [
+                    0.501,
+                    "face",
+                    [
+                        61,
+                        65
+                    ]
+                ],
+                [
+                    0.492,
+                    "aspect",
+                    [
+                        719,
+                        725
+                    ]
+                ],
+                [
+                    0.503,
+                    "her",
+                    [
+                        729,
+                        732
+                    ]
+                ],
+                [
+                    0.467,
+                    "right",
+                    [
+                        733,
+                        738
+                    ]
+                ],
+                [
+                    0.498,
+                    "right",
+                    [
+                        1482,
+                        1487
+                    ]
+                ],
+                [
+                    0.518,
+                    "thigh",
+                    [
+                        1488,
+                        1493
+                    ]
+                ],
+                [
+                    0.406,
+                    "avulsed",
+                    [
+                        1615,
+                        1622
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

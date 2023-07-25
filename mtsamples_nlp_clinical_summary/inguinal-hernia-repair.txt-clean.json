@@ -1,0 +1,519 @@
+{
+    "file": "inguinal-hernia-repair.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "Toradol",
+                "code": "57309",
+                "cui": "C0146226",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Toradol",
+                "range": [
+                    3066,
+                    3073
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 1.0
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "Toradol",
+                "code": "57309",
+                "cui": "C0146226",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Toradol",
+                "range": [
+                    3066,
+                    3073
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 1.0
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            }
+        ],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "Bilateral inguinal hernia",
+                "range": [
+                    26,
+                    51
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "85502002",
+                "cui": "C0267672",
+                "tui": "T190",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Bilateral inguinal hernia"
+            },
+            {
+                "text": "bilateral",
+                "range": [
+                    53,
+                    62
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "85502002",
+                "cui": "C0267672",
+                "tui": "T190",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Bilateral inguinal hernia"
+            },
+            {
+                "text": "Bilateral inguinal hernia",
+                "range": [
+                    101,
+                    126
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "85502002",
+                "cui": "C0267672",
+                "tui": "T190",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Bilateral inguinal hernia"
+            },
+            {
+                "text": "bilateral",
+                "range": [
+                    128,
+                    137
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "85502002",
+                "cui": "C0267672",
+                "tui": "T190",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Bilateral inguinal hernia"
+            },
+            {
+                "text": "and",
+                "range": [
+                    657,
+                    660
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.012,
+        "uncertain_count": 3,
+        "narrow_band_ratio": 0.005,
+        "uncertain_tokens": {
+            "MED": [
+                [
+                    0.534,
+                    "Sponge",
+                    [
+                        497,
+                        503
+                    ]
+                ],
+                [
+                    0.539,
+                    "transfer",
+                    [
+                        3265,
+                        3273
+                    ]
+                ]
+            ],
+            "NA": [
+                [
+                    0.592,
+                    "blade",
+                    [
+                        1296,
+                        1301
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "Bilateral",
+                    [
+                        26,
+                        35
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "inguinal",
+                    [
+                        36,
+                        44
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "hernia",
+                    [
+                        45,
+                        51
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "bilateral",
+                    [
+                        53,
+                        62
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "hydroceles",
+                    [
+                        63,
+                        73
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Bilateral",
+                    [
+                        101,
+                        110
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "inguinal",
+                    [
+                        111,
+                        119
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "hernia",
+                    [
+                        120,
+                        126
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    ",",
+                    [
+                        126,
+                        127
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "bilateral",
+                    [
+                        128,
+                        137
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "hydroceles",
+                    [
+                        138,
+                        148
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "right",
+                    [
+                        635,
+                        640
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "inguinal",
+                    [
+                        641,
+                        649
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "hernia",
+                    [
+                        650,
+                        656
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "and",
+                    [
+                        657,
+                        660
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "hydrocele",
+                    [
+                        661,
+                        670
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "hydrocele",
+                    [
+                        1825,
+                        1834
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.902,
+                    "Bilateral",
+                    [
+                        26,
+                        35
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.828,
+                    "inguinal",
+                    [
+                        36,
+                        44
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.794,
+                    "hernia",
+                    [
+                        45,
+                        51
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.495,
+                    "bilateral",
+                    [
+                        53,
+                        62
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.587,
+                    "hydroceles",
+                    [
+                        63,
+                        73
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.574,
+                    "Bilateral",
+                    [
+                        101,
+                        110
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.526,
+                    "inguinal",
+                    [
+                        111,
+                        119
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.518,
+                    "hernia",
+                    [
+                        120,
+                        126
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.659,
+                    "bilateral",
+                    [
+                        128,
+                        137
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.666,
+                    "hydroceles",
+                    [
+                        138,
+                        148
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.542,
+                    "right",
+                    [
+                        635,
+                        640
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.652,
+                    "inguinal",
+                    [
+                        641,
+                        649
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.691,
+                    "hernia",
+                    [
+                        650,
+                        656
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.632,
+                    "hydrocele",
+                    [
+                        661,
+                        670
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.753,
+                    "hydrocele",
+                    [
+                        1825,
+                        1834
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.096,
+        "uncertain_token_count": 5,
+        "narrow_band_ratio": 0.008,
+        "uncertain_tokens": {
+            "PROBLEM": [
+                [
+                    0.495,
+                    "bilateral",
+                    [
+                        53,
+                        62
+                    ]
+                ],
+                [
+                    0.518,
+                    "hernia",
+                    [
+                        120,
+                        126
+                    ]
+                ]
+            ],
+            "DIAGNOSIS": [
+                [
+                    0.526,
+                    "inguinal",
+                    [
+                        111,
+                        119
+                    ]
+                ]
+            ],
+            "NA": [
+                [
+                    0.412,
+                    ",",
+                    [
+                        126,
+                        127
+                    ]
+                ],
+                [
+                    0.476,
+                    "and",
+                    [
+                        657,
+                        660
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

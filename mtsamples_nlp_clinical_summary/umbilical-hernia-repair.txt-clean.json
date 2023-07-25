@@ -1,0 +1,184 @@
+{
+    "file": "umbilical-hernia-repair.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "Marcaine",
+                "code": "1012397",
+                "cui": "C2945665",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Marcaine",
+                "range": [
+                    568,
+                    576
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.903
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            }
+        ],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "Umbilical hernia",
+                "range": [
+                    26,
+                    42
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "396347007",
+                "cui": "C0019322",
+                "tui": "T190",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Umbilical hernia"
+            },
+            {
+                "text": "Umbilical hernia",
+                "range": [
+                    70,
+                    86
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "396347007",
+                "cui": "C0019322",
+                "tui": "T190",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Umbilical hernia"
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.013,
+        "uncertain_count": 1,
+        "narrow_band_ratio": 0.007,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.681,
+                    "Steri-Strips",
+                    [
+                        747,
+                        759
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "PROBLEM": [
+                    "Umbilical",
+                    [
+                        26,
+                        35
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "hernia",
+                    [
+                        36,
+                        42
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Umbilical",
+                    [
+                        70,
+                        79
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "hernia",
+                    [
+                        80,
+                        86
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "PROBLEM": [
+                    0.613,
+                    "Umbilical",
+                    [
+                        26,
+                        35
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.523,
+                    "hernia",
+                    [
+                        36,
+                        42
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.524,
+                    "Umbilical",
+                    [
+                        70,
+                        79
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.596,
+                    "hernia",
+                    [
+                        80,
+                        86
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.08,
+        "uncertain_token_count": 2,
+        "narrow_band_ratio": 0.014,
+        "uncertain_tokens": {
+            "PROBLEM": [
+                [
+                    0.523,
+                    "hernia",
+                    [
+                        36,
+                        42
+                    ]
+                ],
+                [
+                    0.524,
+                    "Umbilical",
+                    [
+                        70,
+                        79
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

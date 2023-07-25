@@ -1,0 +1,592 @@
+{
+    "file": "breast-mass-excision-1.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "Marcaine",
+                "code": "1012397",
+                "cui": "C2945665",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Marcaine",
+                "range": [
+                    1515,
+                    1523
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.988
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            }
+        ],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "Left",
+                "range": [
+                    31,
+                    35
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "of the left",
+                "range": [
+                    72,
+                    83
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "Left",
+                "range": [
+                    123,
+                    127
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "of the left breast",
+                "range": [
+                    164,
+                    182
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "fibrocystic disease",
+                "range": [
+                    590,
+                    609
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "190905008",
+                "cui": "C0010674",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Cystic Fibrosis"
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.006,
+        "uncertain_count": 1,
+        "narrow_band_ratio": 0.003,
+        "uncertain_tokens": {
+            "MED": [
+                [
+                    0.541,
+                    "Steri-Strips",
+                    [
+                        1868,
+                        1880
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "Left",
+                    [
+                        31,
+                        35
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "breast",
+                    [
+                        36,
+                        42
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "mass",
+                    [
+                        43,
+                        47
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Hypertrophic",
+                    [
+                        54,
+                        66
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "scar",
+                    [
+                        67,
+                        71
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "of",
+                    [
+                        72,
+                        74
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "the",
+                    [
+                        75,
+                        78
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "left",
+                    [
+                        79,
+                        83
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Left",
+                    [
+                        123,
+                        127
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "breast",
+                    [
+                        128,
+                        134
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "mass",
+                    [
+                        135,
+                        139
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Hypertrophic",
+                    [
+                        146,
+                        158
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "scar",
+                    [
+                        159,
+                        163
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "of",
+                    [
+                        164,
+                        166
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "the",
+                    [
+                        167,
+                        170
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "left",
+                    [
+                        171,
+                        175
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "breast",
+                    [
+                        176,
+                        182
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "fibrocystic",
+                    [
+                        590,
+                        601
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "disease",
+                    [
+                        602,
+                        609
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "scar",
+                    [
+                        714,
+                        718
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "hypertrophic",
+                    [
+                        860,
+                        872
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "scar",
+                    [
+                        873,
+                        877
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.552,
+                    "Left",
+                    [
+                        31,
+                        35
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.58,
+                    "breast",
+                    [
+                        36,
+                        42
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.596,
+                    "mass",
+                    [
+                        43,
+                        47
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.956,
+                    "Hypertrophic",
+                    [
+                        54,
+                        66
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.964,
+                    "scar",
+                    [
+                        67,
+                        71
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.927,
+                    "of",
+                    [
+                        72,
+                        74
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.907,
+                    "the",
+                    [
+                        75,
+                        78
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.668,
+                    "left",
+                    [
+                        79,
+                        83
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.623,
+                    "Left",
+                    [
+                        123,
+                        127
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.68,
+                    "breast",
+                    [
+                        128,
+                        134
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.733,
+                    "mass",
+                    [
+                        135,
+                        139
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.981,
+                    "Hypertrophic",
+                    [
+                        146,
+                        158
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.987,
+                    "scar",
+                    [
+                        159,
+                        163
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.951,
+                    "of",
+                    [
+                        164,
+                        166
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.965,
+                    "the",
+                    [
+                        167,
+                        170
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.942,
+                    "left",
+                    [
+                        171,
+                        175
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.898,
+                    "breast",
+                    [
+                        176,
+                        182
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.878,
+                    "fibrocystic",
+                    [
+                        590,
+                        601
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.905,
+                    "disease",
+                    [
+                        602,
+                        609
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.451,
+                    "hypertrophic",
+                    [
+                        701,
+                        713
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.573,
+                    "scar",
+                    [
+                        714,
+                        718
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.71,
+                    "hypertrophic",
+                    [
+                        860,
+                        872
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.652,
+                    "scar",
+                    [
+                        873,
+                        877
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.107,
+        "uncertain_token_count": 4,
+        "narrow_band_ratio": 0.011,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.511,
+                    "breast",
+                    [
+                        84,
+                        90
+                    ]
+                ],
+                [
+                    0.512,
+                    "mass",
+                    [
+                        826,
+                        830
+                    ]
+                ],
+                [
+                    0.526,
+                    "tissue",
+                    [
+                        982,
+                        988
+                    ]
+                ]
+            ],
+            "DIAGNOSIS": [
+                [
+                    0.451,
+                    "hypertrophic",
+                    [
+                        701,
+                        713
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

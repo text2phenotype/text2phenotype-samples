@@ -1,0 +1,354 @@
+{
+    "file": "esophagogastroduodenoscopy-9.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "Betadine",
+                "code": "202750",
+                "cui": "C0699524",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Betadine",
+                "range": [
+                    1181,
+                    1189
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 1.0
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [
+                    "1",
+                    1191,
+                    1192
+                ],
+                "medStrengthUnit": [
+                    "%",
+                    1192,
+                    1193
+                ]
+            },
+            {
+                "text": "Betadine",
+                "code": "202750",
+                "cui": "C0699524",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Betadine",
+                "range": [
+                    1181,
+                    1189
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 1.0
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [
+                    "1",
+                    1191,
+                    1192
+                ],
+                "medStrengthUnit": [
+                    "%",
+                    1192,
+                    1193
+                ]
+            }
+        ],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "Malnutrition",
+                "range": [
+                    26,
+                    38
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "70241007",
+                "cui": "C0162429",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Malnutrition"
+            },
+            {
+                "text": "dysphagia",
+                "range": [
+                    43,
+                    52
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "40739000",
+                "cui": "C0011168",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Deglutition Disorders"
+            },
+            {
+                "text": "Malnutrition",
+                "range": [
+                    80,
+                    92
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "70241007",
+                "cui": "C0162429",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Malnutrition"
+            },
+            {
+                "text": "dysphagia",
+                "range": [
+                    97,
+                    106
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "40739000",
+                "cui": "C0011168",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Deglutition Disorders"
+            },
+            {
+                "text": "hernia",
+                "range": [
+                    147,
+                    153
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "84089009",
+                "cui": "C3489393",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Hiatal Hernia"
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.013,
+        "uncertain_count": 2,
+        "narrow_band_ratio": 0.006,
+        "uncertain_tokens": {
+            "MED": [
+                [
+                    0.526,
+                    "Xylocaine",
+                    [
+                        313,
+                        322
+                    ]
+                ],
+                [
+                    0.614,
+                    "Xylocaine",
+                    [
+                        1194,
+                        1203
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "PROBLEM": [
+                    "Malnutrition",
+                    [
+                        26,
+                        38
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "dysphagia",
+                    [
+                        43,
+                        52
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Malnutrition",
+                    [
+                        80,
+                        92
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "dysphagia",
+                    [
+                        97,
+                        106
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "antral",
+                    [
+                        116,
+                        122
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "polyps",
+                    [
+                        123,
+                        129
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "hernia",
+                    [
+                        147,
+                        153
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "PROBLEM": [
+                    0.545,
+                    "Malnutrition",
+                    [
+                        26,
+                        38
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.808,
+                    "dysphagia",
+                    [
+                        43,
+                        52
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.592,
+                    "Malnutrition",
+                    [
+                        80,
+                        92
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.51,
+                    "dysphagia",
+                    [
+                        97,
+                        106
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.396,
+                    "antral",
+                    [
+                        116,
+                        122
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.554,
+                    "polyps",
+                    [
+                        123,
+                        129
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.633,
+                    "hernia",
+                    [
+                        147,
+                        153
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.101,
+        "uncertain_token_count": 5,
+        "narrow_band_ratio": 0.015,
+        "uncertain_tokens": {
+            "DIAGNOSIS": [
+                [
+                    0.51,
+                    "dysphagia",
+                    [
+                        97,
+                        106
+                    ]
+                ],
+                [
+                    0.396,
+                    "antral",
+                    [
+                        116,
+                        122
+                    ]
+                ]
+            ],
+            "NA": [
+                [
+                    0.48,
+                    "hiatal",
+                    [
+                        140,
+                        146
+                    ]
+                ],
+                [
+                    0.422,
+                    "partial",
+                    [
+                        542,
+                        549
+                    ]
+                ],
+                [
+                    0.441,
+                    "left",
+                    [
+                        550,
+                        554
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

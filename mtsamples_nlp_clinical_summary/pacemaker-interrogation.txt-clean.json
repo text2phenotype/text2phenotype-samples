@@ -1,0 +1,571 @@
+{
+    "file": "pacemaker-interrogation.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "ATP",
+                "code": null,
+                "cui": null,
+                "tui": null,
+                "vocab": null,
+                "polarity": "positive",
+                "preferredText": null,
+                "range": [
+                    1047,
+                    1050
+                ],
+                "prob": {
+                    "MED": 0.941
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            }
+        ],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "ICD",
+                "range": [
+                    28,
+                    31
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "70199000",
+                "cui": "C0020725",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Type II Mucolipidosis"
+            },
+            {
+                "text": "ICD pacemaker",
+                "range": [
+                    160,
+                    173
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "70199000",
+                "cui": "C0020725",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Type II Mucolipidosis"
+            },
+            {
+                "text": "DRRS",
+                "range": [
+                    229,
+                    233
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "699867001",
+                "cui": "C1623209",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Okihiro Syndrome"
+            },
+            {
+                "text": "2207-36 pacemaker",
+                "range": [
+                    235,
+                    252
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "nonischemic cardiomyopathy",
+                "range": [
+                    273,
+                    299
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "ventricular\ntachycardia",
+                "range": [
+                    311,
+                    334
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "25569003",
+                "cui": "C0042514",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Tachycardia, Ventricular"
+            },
+            {
+                "text": "SVT",
+                "range": [
+                    915,
+                    918
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "6456007",
+                "cui": "C0039240",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Supraventricular tachycardia"
+            },
+            {
+                "text": "SVT",
+                "range": [
+                    1014,
+                    1017
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "6456007",
+                "cui": "C0039240",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Supraventricular tachycardia"
+            },
+            {
+                "text": "functioning pacemaker ICD",
+                "range": [
+                    1305,
+                    1330
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.016,
+        "uncertain_count": 3,
+        "narrow_band_ratio": 0.012,
+        "uncertain_tokens": {
+            "MED": [
+                [
+                    0.662,
+                    "lead",
+                    [
+                        440,
+                        444
+                    ]
+                ],
+                [
+                    0.645,
+                    "lead",
+                    [
+                        782,
+                        786
+                    ]
+                ]
+            ],
+            "NA": [
+                [
+                    0.527,
+                    "implant",
+                    [
+                        1336,
+                        1343
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "ICD",
+                    [
+                        28,
+                        31
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "ICD",
+                    [
+                        160,
+                        163
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "pacemaker",
+                    [
+                        164,
+                        173
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "DRRS",
+                    [
+                        229,
+                        233
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "2207-36",
+                    [
+                        235,
+                        242
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "pacemaker",
+                    [
+                        243,
+                        252
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Severe",
+                    [
+                        266,
+                        272
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "nonischemic",
+                    [
+                        273,
+                        284
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "cardiomyopathy",
+                    [
+                        285,
+                        299
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "ventricular",
+                    [
+                        311,
+                        322
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "tachycardia",
+                    [
+                        323,
+                        334
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "SVT",
+                    [
+                        915,
+                        918
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "discrimination",
+                    [
+                        919,
+                        933
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "SVT",
+                    [
+                        1014,
+                        1017
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "functioning",
+                    [
+                        1305,
+                        1316
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "pacemaker",
+                    [
+                        1317,
+                        1326
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "ICD",
+                    [
+                        1327,
+                        1330
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.651,
+                    "ICD",
+                    [
+                        28,
+                        31
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.804,
+                    "ICD",
+                    [
+                        160,
+                        163
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.555,
+                    "pacemaker",
+                    [
+                        164,
+                        173
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.53,
+                    "DRRS",
+                    [
+                        229,
+                        233
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.58,
+                    "2207-36",
+                    [
+                        235,
+                        242
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.55,
+                    "pacemaker",
+                    [
+                        243,
+                        252
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.736,
+                    "Severe",
+                    [
+                        266,
+                        272
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.905,
+                    "nonischemic",
+                    [
+                        273,
+                        284
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.95,
+                    "cardiomyopathy",
+                    [
+                        285,
+                        299
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.629,
+                    "ventricular",
+                    [
+                        311,
+                        322
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.587,
+                    "tachycardia",
+                    [
+                        323,
+                        334
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.671,
+                    "SVT",
+                    [
+                        915,
+                        918
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.489,
+                    "SVT",
+                    [
+                        1014,
+                        1017
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.411,
+                    "Normally",
+                    [
+                        1296,
+                        1304
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.537,
+                    "functioning",
+                    [
+                        1305,
+                        1316
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.561,
+                    "pacemaker",
+                    [
+                        1317,
+                        1326
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.746,
+                    "ICD",
+                    [
+                        1327,
+                        1330
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.164,
+        "uncertain_token_count": 5,
+        "narrow_band_ratio": 0.02,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.487,
+                    "Pacemaker",
+                    [
+                        18,
+                        27
+                    ]
+                ],
+                [
+                    0.517,
+                    "VF",
+                    [
+                        1136,
+                        1138
+                    ]
+                ]
+            ],
+            "DIAGNOSIS": [
+                [
+                    0.53,
+                    "DRRS",
+                    [
+                        229,
+                        233
+                    ]
+                ],
+                [
+                    0.489,
+                    "SVT",
+                    [
+                        1014,
+                        1017
+                    ]
+                ]
+            ],
+            "PROBLEM": [
+                [
+                    0.411,
+                    "Normally",
+                    [
+                        1296,
+                        1304
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

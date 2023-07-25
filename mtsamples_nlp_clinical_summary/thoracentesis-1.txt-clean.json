@@ -1,0 +1,388 @@
+{
+    "file": "thoracentesis-1.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "Xylocaine",
+                "code": "202398",
+                "cui": "C0699094",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Xylocaine",
+                "range": [
+                    543,
+                    552
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.977
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "Xylocaine",
+                "code": "202398",
+                "cui": "C0699094",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Xylocaine",
+                "range": [
+                    543,
+                    552
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.977
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            }
+        ],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "Malignant pleural effusion",
+                "range": [
+                    26,
+                    52
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "83270006",
+                "cui": "C0080032",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Pleural Effusion, Malignant"
+            },
+            {
+                "text": "left",
+                "range": [
+                    54,
+                    58
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "Malignant pleural effusion",
+                "range": [
+                    100,
+                    126
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "83270006",
+                "cui": "C0080032",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Pleural Effusion, Malignant"
+            },
+            {
+                "text": "left",
+                "range": [
+                    128,
+                    132
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "pleural fluid",
+                "range": [
+                    1509,
+                    1522
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "88075009",
+                "cui": "C0032226",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Pleural Diseases"
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.012,
+        "uncertain_count": 1,
+        "narrow_band_ratio": 0.003,
+        "uncertain_tokens": {
+            "MED": [
+                [
+                    0.686,
+                    "Xylocaine",
+                    [
+                        396,
+                        405
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "Malignant",
+                    [
+                        26,
+                        35
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "pleural",
+                    [
+                        36,
+                        43
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "effusion",
+                    [
+                        44,
+                        52
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "left",
+                    [
+                        54,
+                        58
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Malignant",
+                    [
+                        100,
+                        109
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "pleural",
+                    [
+                        110,
+                        117
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "effusion",
+                    [
+                        118,
+                        126
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "left",
+                    [
+                        128,
+                        132
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "dyspnea",
+                    [
+                        139,
+                        146
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "pleural",
+                    [
+                        1509,
+                        1516
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "fluid",
+                    [
+                        1517,
+                        1522
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.997,
+                    "Malignant",
+                    [
+                        26,
+                        35
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.996,
+                    "pleural",
+                    [
+                        36,
+                        43
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.993,
+                    "effusion",
+                    [
+                        44,
+                        52
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.551,
+                    "left",
+                    [
+                        54,
+                        58
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.992,
+                    "Malignant",
+                    [
+                        100,
+                        109
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.984,
+                    "pleural",
+                    [
+                        110,
+                        117
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.971,
+                    "effusion",
+                    [
+                        118,
+                        126
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.658,
+                    "left",
+                    [
+                        128,
+                        132
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.451,
+                    "dyspnea",
+                    [
+                        139,
+                        146
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.481,
+                    "pleural",
+                    [
+                        1509,
+                        1516
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.357,
+                    "fluid",
+                    [
+                        1517,
+                        1522
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.065,
+        "uncertain_token_count": 3,
+        "narrow_band_ratio": 0.01,
+        "uncertain_tokens": {
+            "DIAGNOSIS": [
+                [
+                    0.451,
+                    "dyspnea",
+                    [
+                        139,
+                        146
+                    ]
+                ],
+                [
+                    0.481,
+                    "pleural",
+                    [
+                        1509,
+                        1516
+                    ]
+                ]
+            ],
+            "PROBLEM": [
+                [
+                    0.357,
+                    "fluid",
+                    [
+                        1517,
+                        1522
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

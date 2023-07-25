@@ -1,0 +1,348 @@
+{
+    "file": "shoulder-pain-consult.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "cortisone",
+                "code": "2878",
+                "cui": "C0010137",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Cortisone",
+                "range": [
+                    1052,
+                    1061
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.997
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "cortisone",
+                "code": "2878",
+                "cui": "C0010137",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Cortisone",
+                "range": [
+                    1052,
+                    1061
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.997
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "cortisone",
+                "code": "2878",
+                "cui": "C0010137",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Cortisone",
+                "range": [
+                    1282,
+                    1291
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 1.0
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "cortisone",
+                "code": "2878",
+                "cui": "C0010137",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Cortisone",
+                "range": [
+                    1282,
+                    1291
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 1.0
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            }
+        ],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "right\nshoulder pain",
+                "range": [
+                    109,
+                    128
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "Right shoulder impingement",
+                "range": [
+                    912,
+                    938
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.008,
+        "uncertain_count": 1,
+        "narrow_band_ratio": 0.004,
+        "uncertain_tokens": {
+            "MED": [
+                [
+                    0.553,
+                    "pain",
+                    [
+                        1095,
+                        1099
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "Right",
+                    [
+                        19,
+                        24
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "shoulder",
+                    [
+                        25,
+                        33
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "pain",
+                    [
+                        34,
+                        38
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "right",
+                    [
+                        109,
+                        114
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "shoulder",
+                    [
+                        115,
+                        123
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "pain",
+                    [
+                        124,
+                        128
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Right",
+                    [
+                        912,
+                        917
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "shoulder",
+                    [
+                        918,
+                        926
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "impingement",
+                    [
+                        927,
+                        938
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.949,
+                    "Right",
+                    [
+                        19,
+                        24
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.947,
+                    "shoulder",
+                    [
+                        25,
+                        33
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.901,
+                    "pain",
+                    [
+                        34,
+                        38
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.434,
+                    "shoulder",
+                    [
+                        115,
+                        123
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.487,
+                    "pain",
+                    [
+                        124,
+                        128
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.704,
+                    "Right",
+                    [
+                        912,
+                        917
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.854,
+                    "shoulder",
+                    [
+                        918,
+                        926
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.85,
+                    "impingement",
+                    [
+                        927,
+                        938
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.077,
+        "uncertain_token_count": 4,
+        "narrow_band_ratio": 0.015,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.417,
+                    "right",
+                    [
+                        109,
+                        114
+                    ]
+                ],
+                [
+                    0.458,
+                    "trauma",
+                    [
+                        196,
+                        202
+                    ]
+                ]
+            ],
+            "DIAGNOSIS": [
+                [
+                    0.434,
+                    "shoulder",
+                    [
+                        115,
+                        123
+                    ]
+                ],
+                [
+                    0.487,
+                    "pain",
+                    [
+                        124,
+                        128
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

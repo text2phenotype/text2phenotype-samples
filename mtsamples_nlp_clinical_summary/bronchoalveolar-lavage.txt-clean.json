@@ -1,0 +1,241 @@
+{
+    "file": "bronchoalveolar-lavage.txt-clean.txt",
+    "text2summary": {
+        "Medication": [],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "abdominal trauma",
+                "range": [
+                    178,
+                    194
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "128069005",
+                "cui": "C0848377",
+                "tui": "T037",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "trauma to the abdomen"
+            },
+            {
+                "text": "splenic laceration",
+                "range": [
+                    196,
+                    214
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "bacterial infection",
+                "range": [
+                    489,
+                    508
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "301811001",
+                "cui": "C0004623",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Bacterial Infections"
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.008,
+        "uncertain_count": 0,
+        "narrow_band_ratio": 0.0,
+        "uncertain_tokens": {},
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "Fever",
+                    [
+                        59,
+                        64
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "abdominal",
+                    [
+                        178,
+                        187
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "trauma",
+                    [
+                        188,
+                        194
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "splenic",
+                    [
+                        196,
+                        203
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "laceration",
+                    [
+                        204,
+                        214
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "bacterial",
+                    [
+                        489,
+                        498
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "infection",
+                    [
+                        499,
+                        508
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "PROBLEM": [
+                    0.506,
+                    "Fever",
+                    [
+                        26,
+                        31
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.671,
+                    "Fever",
+                    [
+                        59,
+                        64
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.54,
+                    "trauma",
+                    [
+                        188,
+                        194
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.566,
+                    "splenic",
+                    [
+                        196,
+                        203
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.746,
+                    "laceration",
+                    [
+                        204,
+                        214
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.514,
+                    "bacterial",
+                    [
+                        489,
+                        498
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.448,
+                    "infection",
+                    [
+                        499,
+                        508
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.081,
+        "uncertain_token_count": 4,
+        "narrow_band_ratio": 0.016,
+        "uncertain_tokens": {
+            "PROBLEM": [
+                [
+                    0.506,
+                    "Fever",
+                    [
+                        26,
+                        31
+                    ]
+                ]
+            ],
+            "NA": [
+                [
+                    0.481,
+                    "splenectomy",
+                    [
+                        220,
+                        231
+                    ]
+                ]
+            ],
+            "DIAGNOSIS": [
+                [
+                    0.514,
+                    "bacterial",
+                    [
+                        489,
+                        498
+                    ]
+                ],
+                [
+                    0.448,
+                    "infection",
+                    [
+                        499,
+                        508
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

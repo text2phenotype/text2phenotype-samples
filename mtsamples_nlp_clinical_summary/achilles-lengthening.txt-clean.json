@@ -1,0 +1,663 @@
+{
+    "file": "achilles-lengthening.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "Ancef",
+                "code": "203483",
+                "cui": "C0700926",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Ancef",
+                "range": [
+                    1358,
+                    1363
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.976
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "Ancef",
+                "code": "203483",
+                "cui": "C0700926",
+                "tui": "T195",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Ancef",
+                "range": [
+                    1358,
+                    1363
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.976
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "Marcaine",
+                "code": "1012397",
+                "cui": "C2945665",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Marcaine",
+                "range": [
+                    2467,
+                    2475
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.996
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            }
+        ],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "toe",
+                "range": [
+                    86,
+                    89
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "infection",
+                "range": [
+                    967,
+                    976
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "189822004",
+                "cui": "C0009450",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Communicable Diseases"
+            },
+            {
+                "text": "changes",
+                "range": [
+                    988,
+                    995
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "motion of the extremities",
+                "range": [
+                    1013,
+                    1038
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "failure",
+                "range": [
+                    1040,
+                    1047
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "resolve",
+                "range": [
+                    1051,
+                    1058
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.011,
+        "uncertain_count": 3,
+        "narrow_band_ratio": 0.005,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.531,
+                    "Steri-Strips",
+                    [
+                        2408,
+                        2420
+                    ]
+                ],
+                [
+                    0.575,
+                    "Achilles",
+                    [
+                        3219,
+                        3227
+                    ]
+                ]
+            ],
+            "MED": [
+                [
+                    0.537,
+                    "lengthenings",
+                    [
+                        3228,
+                        3240
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "toe",
+                    [
+                        86,
+                        89
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "toe",
+                    [
+                        880,
+                        883
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "walking",
+                    [
+                        884,
+                        891
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "infection",
+                    [
+                        967,
+                        976
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "bleeding",
+                    [
+                        978,
+                        986
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "changes",
+                    [
+                        988,
+                        995
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "sensation",
+                    [
+                        999,
+                        1008
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "motion",
+                    [
+                        1013,
+                        1019
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "of",
+                    [
+                        1020,
+                        1022
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "the",
+                    [
+                        1023,
+                        1026
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "extremities",
+                    [
+                        1027,
+                        1038
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "failure",
+                    [
+                        1040,
+                        1047
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "resolve",
+                    [
+                        1051,
+                        1058
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "toe",
+                    [
+                        1059,
+                        1062
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "walking",
+                    [
+                        1063,
+                        1070
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "cut",
+                    [
+                        1998,
+                        2001
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.477,
+                    "toe",
+                    [
+                        86,
+                        89
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.539,
+                    "toe",
+                    [
+                        880,
+                        883
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.464,
+                    "walking",
+                    [
+                        884,
+                        891
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.437,
+                    "infection",
+                    [
+                        967,
+                        976
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.5,
+                    "bleeding",
+                    [
+                        978,
+                        986
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.472,
+                    "changes",
+                    [
+                        988,
+                        995
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.456,
+                    "sensation",
+                    [
+                        999,
+                        1008
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.479,
+                    "motion",
+                    [
+                        1013,
+                        1019
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.497,
+                    "of",
+                    [
+                        1020,
+                        1022
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.455,
+                    "the",
+                    [
+                        1023,
+                        1026
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.513,
+                    "extremities",
+                    [
+                        1027,
+                        1038
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.533,
+                    "failure",
+                    [
+                        1040,
+                        1047
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.623,
+                    "resolve",
+                    [
+                        1051,
+                        1058
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.635,
+                    "toe",
+                    [
+                        1059,
+                        1062
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.642,
+                    "walking",
+                    [
+                        1063,
+                        1070
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.491,
+                    "cut",
+                    [
+                        1998,
+                        2001
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.123,
+        "uncertain_token_count": 19,
+        "narrow_band_ratio": 0.031,
+        "uncertain_tokens": {
+            "DIAGNOSIS": [
+                [
+                    0.477,
+                    "toe",
+                    [
+                        86,
+                        89
+                    ]
+                ],
+                [
+                    0.464,
+                    "walking",
+                    [
+                        884,
+                        891
+                    ]
+                ],
+                [
+                    0.437,
+                    "infection",
+                    [
+                        967,
+                        976
+                    ]
+                ],
+                [
+                    0.5,
+                    "bleeding",
+                    [
+                        978,
+                        986
+                    ]
+                ],
+                [
+                    0.472,
+                    "changes",
+                    [
+                        988,
+                        995
+                    ]
+                ],
+                [
+                    0.456,
+                    "sensation",
+                    [
+                        999,
+                        1008
+                    ]
+                ],
+                [
+                    0.479,
+                    "motion",
+                    [
+                        1013,
+                        1019
+                    ]
+                ],
+                [
+                    0.497,
+                    "of",
+                    [
+                        1020,
+                        1022
+                    ]
+                ],
+                [
+                    0.455,
+                    "the",
+                    [
+                        1023,
+                        1026
+                    ]
+                ],
+                [
+                    0.491,
+                    "cut",
+                    [
+                        1998,
+                        2001
+                    ]
+                ]
+            ],
+            "NA": [
+                [
+                    0.509,
+                    "walker",
+                    [
+                        90,
+                        96
+                    ]
+                ],
+                [
+                    0.52,
+                    "toe",
+                    [
+                        754,
+                        757
+                    ]
+                ],
+                [
+                    0.471,
+                    "walk",
+                    [
+                        758,
+                        762
+                    ]
+                ],
+                [
+                    0.526,
+                    "and",
+                    [
+                        1009,
+                        1012
+                    ]
+                ],
+                [
+                    0.508,
+                    "to",
+                    [
+                        1048,
+                        1050
+                    ]
+                ],
+                [
+                    0.519,
+                    "stiffness",
+                    [
+                        1081,
+                        1090
+                    ]
+                ],
+                [
+                    0.514,
+                    "suture",
+                    [
+                        2164,
+                        2170
+                    ]
+                ],
+                [
+                    0.48,
+                    "pain",
+                    [
+                        3360,
+                        3364
+                    ]
+                ]
+            ],
+            "PROBLEM": [
+                [
+                    0.513,
+                    "extremities",
+                    [
+                        1027,
+                        1038
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

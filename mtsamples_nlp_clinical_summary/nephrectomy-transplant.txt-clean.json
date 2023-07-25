@@ -1,0 +1,310 @@
+{
+    "file": "nephrectomy-transplant.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "antibiotic",
+                "code": null,
+                "cui": null,
+                "tui": null,
+                "vocab": null,
+                "polarity": "positive",
+                "preferredText": null,
+                "range": [
+                    1554,
+                    1564
+                ],
+                "prob": {
+                    "MED": 0.975
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            }
+        ],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "Rejection",
+                "range": [
+                    26,
+                    35
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "Rejection of renal transplant",
+                "range": [
+                    83,
+                    112
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "arrested",
+                "range": [
+                    690,
+                    698
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "410429000",
+                "cui": "C0018790",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Cardiac Arrest"
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.004,
+        "uncertain_count": 0,
+        "narrow_band_ratio": 0.0,
+        "uncertain_tokens": {},
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "Rejection",
+                    [
+                        26,
+                        35
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Rejection",
+                    [
+                        83,
+                        92
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "of",
+                    [
+                        93,
+                        95
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "renal",
+                    [
+                        96,
+                        101
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "transplant",
+                    [
+                        102,
+                        112
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "arrested",
+                    [
+                        690,
+                        698
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.369,
+                    "Rejection",
+                    [
+                        26,
+                        35
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.501,
+                    "renal",
+                    [
+                        39,
+                        44
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.736,
+                    "Rejection",
+                    [
+                        83,
+                        92
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.612,
+                    "of",
+                    [
+                        93,
+                        95
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.675,
+                    "renal",
+                    [
+                        96,
+                        101
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.513,
+                    "transplant",
+                    [
+                        102,
+                        112
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.36,
+                    "fever",
+                    [
+                        658,
+                        663
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.512,
+                    "arrested",
+                    [
+                        690,
+                        698
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.118,
+        "uncertain_token_count": 10,
+        "narrow_band_ratio": 0.033,
+        "uncertain_tokens": {
+            "DIAGNOSIS": [
+                [
+                    0.369,
+                    "Rejection",
+                    [
+                        26,
+                        35
+                    ]
+                ],
+                [
+                    0.513,
+                    "transplant",
+                    [
+                        102,
+                        112
+                    ]
+                ],
+                [
+                    0.512,
+                    "arrested",
+                    [
+                        690,
+                        698
+                    ]
+                ]
+            ],
+            "NA": [
+                [
+                    0.494,
+                    "of",
+                    [
+                        36,
+                        38
+                    ]
+                ],
+                [
+                    0.507,
+                    "obstruction",
+                    [
+                        334,
+                        345
+                    ]
+                ],
+                [
+                    0.491,
+                    "to",
+                    [
+                        346,
+                        348
+                    ]
+                ],
+                [
+                    0.509,
+                    "transplant",
+                    [
+                        353,
+                        363
+                    ]
+                ],
+                [
+                    0.436,
+                    "toxic",
+                    [
+                        668,
+                        673
+                    ]
+                ]
+            ],
+            "PROBLEM": [
+                [
+                    0.501,
+                    "renal",
+                    [
+                        39,
+                        44
+                    ]
+                ],
+                [
+                    0.36,
+                    "fever",
+                    [
+                        658,
+                        663
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

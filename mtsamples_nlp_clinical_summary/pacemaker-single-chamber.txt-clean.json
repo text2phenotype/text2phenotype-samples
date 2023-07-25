@@ -1,0 +1,598 @@
+{
+    "file": "pacemaker-single-chamber.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "versed",
+                "code": "11177",
+                "cui": "C0042553",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Versed",
+                "range": [
+                    956,
+                    962
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 1.0
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [
+                    "1.5",
+                    946,
+                    949
+                ],
+                "medStrengthUnit": [
+                    "mg",
+                    950,
+                    952
+                ]
+            },
+            {
+                "text": "versed",
+                "code": "11177",
+                "cui": "C0042553",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Versed",
+                "range": [
+                    956,
+                    962
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 1.0
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [
+                    "1.5",
+                    946,
+                    949
+                ],
+                "medStrengthUnit": [
+                    "mg",
+                    950,
+                    952
+                ]
+            },
+            {
+                "text": "Benadryl",
+                "code": "203457",
+                "cui": "C0700899",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Benadryl",
+                "range": [
+                    976,
+                    984
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.997
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "Benadryl",
+                "code": "203457",
+                "cui": "C0700899",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Benadryl",
+                "range": [
+                    976,
+                    984
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.997
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            }
+        ],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "Mobitz type II",
+                "range": [
+                    65,
+                    79
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "with",
+                "range": [
+                    86,
+                    90
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "and",
+                "range": [
+                    107,
+                    110
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "type II",
+                "range": [
+                    153,
+                    160
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "pacemaker",
+                "range": [
+                    3682,
+                    3691
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "right",
+                "range": [
+                    3809,
+                    3814
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "asystole",
+                "range": [
+                    3830,
+                    3838
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "410429000",
+                "cui": "C0018790",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Cardiac Arrest"
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.015,
+        "uncertain_count": 4,
+        "narrow_band_ratio": 0.006,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.674,
+                    "dissection",
+                    [
+                        1464,
+                        1474
+                    ]
+                ],
+                [
+                    0.666,
+                    "contrast",
+                    [
+                        2215,
+                        2223
+                    ]
+                ]
+            ],
+            "MED": [
+                [
+                    0.695,
+                    "lead",
+                    [
+                        3061,
+                        3065
+                    ]
+                ],
+                [
+                    0.617,
+                    "saline",
+                    [
+                        3349,
+                        3355
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "Mobitz",
+                    [
+                        65,
+                        71
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "type",
+                    [
+                        72,
+                        76
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "II",
+                    [
+                        77,
+                        79
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "block",
+                    [
+                        80,
+                        85
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "with",
+                    [
+                        86,
+                        90
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "AV",
+                    [
+                        91,
+                        93
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "dissociation",
+                    [
+                        94,
+                        106
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "and",
+                    [
+                        107,
+                        110
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "syncope",
+                    [
+                        111,
+                        118
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "type",
+                    [
+                        153,
+                        157
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "II",
+                    [
+                        158,
+                        160
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "block",
+                    [
+                        161,
+                        166
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "pacemaker",
+                    [
+                        3682,
+                        3691
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "right",
+                    [
+                        3809,
+                        3814
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "asystole",
+                    [
+                        3830,
+                        3838
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.881,
+                    "Mobitz",
+                    [
+                        65,
+                        71
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.905,
+                    "type",
+                    [
+                        72,
+                        76
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.953,
+                    "II",
+                    [
+                        77,
+                        79
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.836,
+                    "block",
+                    [
+                        80,
+                        85
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.599,
+                    "with",
+                    [
+                        86,
+                        90
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.774,
+                    "AV",
+                    [
+                        91,
+                        93
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.625,
+                    "dissociation",
+                    [
+                        94,
+                        106
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.364,
+                    "and",
+                    [
+                        107,
+                        110
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.661,
+                    "syncope",
+                    [
+                        111,
+                        118
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.618,
+                    "type",
+                    [
+                        153,
+                        157
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.836,
+                    "II",
+                    [
+                        158,
+                        160
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.831,
+                    "block",
+                    [
+                        161,
+                        166
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.46,
+                    "pacemaker",
+                    [
+                        3682,
+                        3691
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.689,
+                    "right",
+                    [
+                        3809,
+                        3814
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.765,
+                    "asystole",
+                    [
+                        3830,
+                        3838
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.093,
+        "uncertain_token_count": 6,
+        "narrow_band_ratio": 0.009,
+        "uncertain_tokens": {
+            "PROBLEM": [
+                [
+                    0.364,
+                    "and",
+                    [
+                        107,
+                        110
+                    ]
+                ]
+            ],
+            "NA": [
+                [
+                    0.461,
+                    "Mobitz",
+                    [
+                        146,
+                        152
+                    ]
+                ],
+                [
+                    0.505,
+                    "assess",
+                    [
+                        3751,
+                        3757
+                    ]
+                ],
+                [
+                    0.51,
+                    "the",
+                    [
+                        3758,
+                        3761
+                    ]
+                ],
+                [
+                    0.515,
+                    "ventricle",
+                    [
+                        3815,
+                        3824
+                    ]
+                ]
+            ],
+            "DIAGNOSIS": [
+                [
+                    0.46,
+                    "pacemaker",
+                    [
+                        3682,
+                        3691
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

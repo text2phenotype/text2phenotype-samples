@@ -1,0 +1,637 @@
+{
+    "file": "total-knee-arthroplasty.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "Methylmethacrylate",
+                "code": "29897",
+                "cui": "C0066409",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Methylmethacrylate",
+                "range": [
+                    3812,
+                    3830
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.922
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            }
+        ],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "osteoarthritis",
+                "range": [
+                    39,
+                    53
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "225655006",
+                "cui": "C0029408",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Degenerative polyarthritis"
+            },
+            {
+                "text": "osteoarthritis",
+                "range": [
+                    106,
+                    120
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "225655006",
+                "cui": "C0029408",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Degenerative polyarthritis"
+            },
+            {
+                "text": "increasing right",
+                "range": [
+                    718,
+                    734
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "number",
+                "range": [
+                    749,
+                    755
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "osteoarthritis",
+                "range": [
+                    1053,
+                    1067
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "complete collapse",
+                "range": [
+                    1073,
+                    1090
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "of the lateral compartment",
+                "range": [
+                    1100,
+                    1126
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "sulcus",
+                "range": [
+                    1173,
+                    1179
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "abscess",
+                "range": [
+                    2298,
+                    2305
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "44132006",
+                "cui": "C0000833",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Abscess"
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.007,
+        "uncertain_count": 1,
+        "narrow_band_ratio": 0.001,
+        "uncertain_tokens": {
+            "MED": [
+                [
+                    0.552,
+                    "methylmethacrylate",
+                    [
+                        3993,
+                        4011
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "Degenerative",
+                    [
+                        26,
+                        38
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "osteoarthritis",
+                    [
+                        39,
+                        53
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Degenerative",
+                    [
+                        93,
+                        105
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "osteoarthritis",
+                    [
+                        106,
+                        120
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "increasing",
+                    [
+                        718,
+                        728
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "right",
+                    [
+                        729,
+                        734
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "knee",
+                    [
+                        735,
+                        739
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "pain",
+                    [
+                        740,
+                        744
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "number",
+                    [
+                        749,
+                        755
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "osteoarthritis",
+                    [
+                        1053,
+                        1067
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "complete",
+                    [
+                        1073,
+                        1081
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "collapse",
+                    [
+                        1082,
+                        1090
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "of",
+                    [
+                        1100,
+                        1102
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "the",
+                    [
+                        1103,
+                        1106
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "lateral",
+                    [
+                        1107,
+                        1114
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "compartment",
+                    [
+                        1115,
+                        1126
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "degenerative",
+                    [
+                        1131,
+                        1143
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "sulcus",
+                    [
+                        1173,
+                        1179
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "abscess",
+                    [
+                        2298,
+                        2305
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.532,
+                    "Degenerative",
+                    [
+                        26,
+                        38
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.635,
+                    "osteoarthritis",
+                    [
+                        39,
+                        53
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.549,
+                    "Degenerative",
+                    [
+                        93,
+                        105
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.737,
+                    "osteoarthritis",
+                    [
+                        106,
+                        120
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.494,
+                    "increasing",
+                    [
+                        718,
+                        728
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.864,
+                    "right",
+                    [
+                        729,
+                        734
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.828,
+                    "knee",
+                    [
+                        735,
+                        739
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.755,
+                    "pain",
+                    [
+                        740,
+                        744
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.587,
+                    "number",
+                    [
+                        749,
+                        755
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.489,
+                    "degenerative",
+                    [
+                        1040,
+                        1052
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.682,
+                    "osteoarthritis",
+                    [
+                        1053,
+                        1067
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.575,
+                    "complete",
+                    [
+                        1073,
+                        1081
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.597,
+                    "collapse",
+                    [
+                        1082,
+                        1090
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.604,
+                    "of",
+                    [
+                        1100,
+                        1102
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.636,
+                    "the",
+                    [
+                        1103,
+                        1106
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.68,
+                    "lateral",
+                    [
+                        1107,
+                        1114
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.673,
+                    "compartment",
+                    [
+                        1115,
+                        1126
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.592,
+                    "degenerative",
+                    [
+                        1131,
+                        1143
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.494,
+                    "femoral",
+                    [
+                        1165,
+                        1172
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.517,
+                    "sulcus",
+                    [
+                        1173,
+                        1179
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.1,
+        "uncertain_token_count": 10,
+        "narrow_band_ratio": 0.012,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.474,
+                    "right",
+                    [
+                        55,
+                        60
+                    ]
+                ],
+                [
+                    0.499,
+                    "changes",
+                    [
+                        1144,
+                        1151
+                    ]
+                ],
+                [
+                    0.496,
+                    "on",
+                    [
+                        2214,
+                        2216
+                    ]
+                ],
+                [
+                    0.504,
+                    "the",
+                    [
+                        2217,
+                        2220
+                    ]
+                ],
+                [
+                    0.503,
+                    "posterior",
+                    [
+                        2221,
+                        2230
+                    ]
+                ],
+                [
+                    0.48,
+                    "abscess",
+                    [
+                        2298,
+                        2305
+                    ]
+                ]
+            ],
+            "DIAGNOSIS": [
+                [
+                    0.494,
+                    "increasing",
+                    [
+                        718,
+                        728
+                    ]
+                ],
+                [
+                    0.489,
+                    "degenerative",
+                    [
+                        1040,
+                        1052
+                    ]
+                ],
+                [
+                    0.494,
+                    "femoral",
+                    [
+                        1165,
+                        1172
+                    ]
+                ],
+                [
+                    0.517,
+                    "sulcus",
+                    [
+                        1173,
+                        1179
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

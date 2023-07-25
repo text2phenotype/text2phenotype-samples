@@ -1,0 +1,510 @@
+{
+    "file": "hysterectomy-laparoscopic-supracervical.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "silver\nnitrate",
+                "code": "9789",
+                "cui": "C0037129",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Silver Nitrate",
+                "range": [
+                    4584,
+                    4598
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 1.0
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "sticks",
+                "code": null,
+                "cui": null,
+                "tui": null,
+                "vocab": null,
+                "polarity": "positive",
+                "preferredText": null,
+                "range": [
+                    4599,
+                    4605
+                ],
+                "prob": {
+                    "MED": 0.917
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            }
+        ],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "simple cyst",
+                "range": [
+                    310,
+                    321
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "367644007",
+                "cui": "C0037157",
+                "tui": "T190",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Simple cyst"
+            },
+            {
+                "text": "left ovary",
+                "range": [
+                    373,
+                    383
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "tubes",
+                "range": [
+                    406,
+                    411
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "Uterine fragments",
+                "range": [
+                    437,
+                    454
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "uterus",
+                "range": [
+                    710,
+                    716
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "adnexal",
+                "range": [
+                    724,
+                    731
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.008,
+        "uncertain_count": 3,
+        "narrow_band_ratio": 0.004,
+        "uncertain_tokens": {
+            "MED": [
+                [
+                    0.542,
+                    "hemostatic",
+                    [
+                        4033,
+                        4043
+                    ]
+                ],
+                [
+                    0.643,
+                    "hemostatic",
+                    [
+                        4092,
+                        4102
+                    ]
+                ],
+                [
+                    0.518,
+                    "Sponge",
+                    [
+                        4717,
+                        4723
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "PROBLEM": [
+                    "Menorrhagia",
+                    [
+                        26,
+                        37
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "dysmenorrhea",
+                    [
+                        42,
+                        54
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "Menorrhagia",
+                    [
+                        82,
+                        93
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "dysmenorrhea",
+                    [
+                        98,
+                        110
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "simple",
+                    [
+                        310,
+                        316
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "cyst",
+                    [
+                        317,
+                        321
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "normal-appearing",
+                    [
+                        356,
+                        372
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "left",
+                    [
+                        373,
+                        377
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "ovary",
+                    [
+                        378,
+                        383
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "normal-appearing",
+                    [
+                        389,
+                        405
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "tubes",
+                    [
+                        406,
+                        411
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Uterine",
+                    [
+                        437,
+                        444
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "fragments",
+                    [
+                        445,
+                        454
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "uterus",
+                    [
+                        710,
+                        716
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "adnexal",
+                    [
+                        724,
+                        731
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "PROBLEM": [
+                    0.761,
+                    "Menorrhagia",
+                    [
+                        26,
+                        37
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.753,
+                    "dysmenorrhea",
+                    [
+                        42,
+                        54
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.86,
+                    "Menorrhagia",
+                    [
+                        82,
+                        93
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.75,
+                    "dysmenorrhea",
+                    [
+                        98,
+                        110
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.938,
+                    "simple",
+                    [
+                        310,
+                        316
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.911,
+                    "cyst",
+                    [
+                        317,
+                        321
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.542,
+                    "normal-appearing",
+                    [
+                        356,
+                        372
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.591,
+                    "left",
+                    [
+                        373,
+                        377
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.453,
+                    "ovary",
+                    [
+                        378,
+                        383
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.424,
+                    "tubes",
+                    [
+                        406,
+                        411
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.568,
+                    "Uterine",
+                    [
+                        437,
+                        444
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.468,
+                    "fragments",
+                    [
+                        445,
+                        454
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.451,
+                    "uterus",
+                    [
+                        710,
+                        716
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.086,
+        "uncertain_token_count": 8,
+        "narrow_band_ratio": 0.009,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.468,
+                    "and",
+                    [
+                        94,
+                        97
+                    ]
+                ],
+                [
+                    0.368,
+                    "normal-appearing",
+                    [
+                        389,
+                        405
+                    ]
+                ],
+                [
+                    0.499,
+                    "bilaterally",
+                    [
+                        412,
+                        423
+                    ]
+                ],
+                [
+                    0.493,
+                    "adnexal",
+                    [
+                        724,
+                        731
+                    ]
+                ]
+            ],
+            "DIAGNOSIS": [
+                [
+                    0.453,
+                    "ovary",
+                    [
+                        378,
+                        383
+                    ]
+                ],
+                [
+                    0.424,
+                    "tubes",
+                    [
+                        406,
+                        411
+                    ]
+                ],
+                [
+                    0.468,
+                    "fragments",
+                    [
+                        445,
+                        454
+                    ]
+                ],
+                [
+                    0.451,
+                    "uterus",
+                    [
+                        710,
+                        716
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

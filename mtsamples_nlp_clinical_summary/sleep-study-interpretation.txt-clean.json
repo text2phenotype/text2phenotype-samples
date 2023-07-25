@@ -1,0 +1,345 @@
+{
+    "file": "sleep-study-interpretation.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "Ag/AgCl",
+                "code": null,
+                "cui": null,
+                "tui": null,
+                "vocab": null,
+                "polarity": "positive",
+                "preferredText": null,
+                "range": [
+                    639,
+                    646
+                ],
+                "prob": {
+                    "MED": 0.933
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            }
+        ],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "obstructive sleep apnea",
+                "range": [
+                    109,
+                    132
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "78275009",
+                "cui": "C0520679",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Sleep Apnea, Obstructive"
+            },
+            {
+                "text": "hypertension",
+                "range": [
+                    147,
+                    159
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "38341003",
+                "cui": "C0020538",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Hypertensive disease"
+            },
+            {
+                "text": "Obstructive sleep apnea",
+                "range": [
+                    2254,
+                    2277
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "78275009",
+                "cui": "C0520679",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Sleep Apnea, Obstructive"
+            },
+            {
+                "text": "Hypertension",
+                "range": [
+                    2419,
+                    2431
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "38341003",
+                "cui": "C0020538",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Hypertensive disease"
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.01,
+        "uncertain_count": 3,
+        "narrow_band_ratio": 0.006,
+        "uncertain_tokens": {
+            "MED": [
+                [
+                    0.675,
+                    "O2-A1",
+                    [
+                        766,
+                        771
+                    ]
+                ],
+                [
+                    0.5,
+                    "O2-A1",
+                    [
+                        776,
+                        781
+                    ]
+                ]
+            ],
+            "NA": [
+                [
+                    0.686,
+                    "asleep",
+                    [
+                        2179,
+                        2185
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "obstructive",
+                    [
+                        109,
+                        120
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "sleep",
+                    [
+                        121,
+                        126
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "apnea",
+                    [
+                        127,
+                        132
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "snoring",
+                    [
+                        138,
+                        145
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "hypertension",
+                    [
+                        147,
+                        159
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Obstructive",
+                    [
+                        2254,
+                        2265
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "sleep",
+                    [
+                        2266,
+                        2271
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "apnea",
+                    [
+                        2272,
+                        2277
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "syndrome",
+                    [
+                        2278,
+                        2286
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Hypertension",
+                    [
+                        2419,
+                        2431
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.832,
+                    "obstructive",
+                    [
+                        109,
+                        120
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.912,
+                    "sleep",
+                    [
+                        121,
+                        126
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.888,
+                    "apnea",
+                    [
+                        127,
+                        132
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.745,
+                    "snoring",
+                    [
+                        138,
+                        145
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.962,
+                    "hypertension",
+                    [
+                        147,
+                        159
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.974,
+                    "Obstructive",
+                    [
+                        2254,
+                        2265
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.969,
+                    "sleep",
+                    [
+                        2266,
+                        2271
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.961,
+                    "apnea",
+                    [
+                        2272,
+                        2277
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.938,
+                    "syndrome",
+                    [
+                        2278,
+                        2286
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.477,
+                    "snoring",
+                    [
+                        2308,
+                        2315
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.832,
+                    "Hypertension",
+                    [
+                        2419,
+                        2431
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.066,
+        "uncertain_token_count": 1,
+        "narrow_band_ratio": 0.002,
+        "uncertain_tokens": {
+            "DIAGNOSIS": [
+                [
+                    0.477,
+                    "snoring",
+                    [
+                        2308,
+                        2315
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

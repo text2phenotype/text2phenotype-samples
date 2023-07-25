@@ -1,0 +1,373 @@
+{
+    "file": "uvulopalatopharyngoplasty-tonsillectomy.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "Decadron",
+                "code": "227682",
+                "cui": "C0740057",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Decadron",
+                "range": [
+                    3167,
+                    3175
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.964
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "Decadron",
+                "code": "227682",
+                "cui": "C0740057",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Decadron",
+                "range": [
+                    3167,
+                    3175
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.964
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            }
+        ],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "Obstructive sleep apnea",
+                "range": [
+                    26,
+                    49
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "78275009",
+                "cui": "C0520679",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Sleep Apnea, Obstructive"
+            },
+            {
+                "text": "Obstructive sleep apnea",
+                "range": [
+                    77,
+                    100
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "78275009",
+                "cui": "C0520679",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Sleep Apnea, Obstructive"
+            },
+            {
+                "text": "obstructive sleep apnea who",
+                "range": [
+                    321,
+                    348
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "78275009",
+                "cui": "C0520679",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Sleep Apnea, Obstructive"
+            },
+            {
+                "text": "apnea",
+                "range": [
+                    478,
+                    483
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.012,
+        "uncertain_count": 3,
+        "narrow_band_ratio": 0.005,
+        "uncertain_tokens": {
+            "MED": [
+                [
+                    0.568,
+                    "intubation",
+                    [
+                        726,
+                        736
+                    ]
+                ]
+            ],
+            "NA": [
+                [
+                    0.624,
+                    "solution",
+                    [
+                        1823,
+                        1831
+                    ]
+                ],
+                [
+                    0.589,
+                    "PDS",
+                    [
+                        2652,
+                        2655
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "Obstructive",
+                    [
+                        26,
+                        37
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "sleep",
+                    [
+                        38,
+                        43
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "apnea",
+                    [
+                        44,
+                        49
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Obstructive",
+                    [
+                        77,
+                        88
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "sleep",
+                    [
+                        89,
+                        94
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "apnea",
+                    [
+                        95,
+                        100
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "obstructive",
+                    [
+                        321,
+                        332
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "sleep",
+                    [
+                        333,
+                        338
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "apnea",
+                    [
+                        339,
+                        344
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "who",
+                    [
+                        345,
+                        348
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "apnea",
+                    [
+                        478,
+                        483
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.579,
+                    "Obstructive",
+                    [
+                        26,
+                        37
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.474,
+                    "sleep",
+                    [
+                        38,
+                        43
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.549,
+                    "apnea",
+                    [
+                        44,
+                        49
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.937,
+                    "Obstructive",
+                    [
+                        77,
+                        88
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.941,
+                    "sleep",
+                    [
+                        89,
+                        94
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.88,
+                    "apnea",
+                    [
+                        95,
+                        100
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.964,
+                    "obstructive",
+                    [
+                        321,
+                        332
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.983,
+                    "sleep",
+                    [
+                        333,
+                        338
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.974,
+                    "apnea",
+                    [
+                        339,
+                        344
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.067,
+        "uncertain_token_count": 3,
+        "narrow_band_ratio": 0.005,
+        "uncertain_tokens": {
+            "PROBLEM": [
+                [
+                    0.474,
+                    "sleep",
+                    [
+                        38,
+                        43
+                    ]
+                ]
+            ],
+            "NA": [
+                [
+                    0.499,
+                    "who",
+                    [
+                        345,
+                        348
+                    ]
+                ],
+                [
+                    0.443,
+                    "apnea",
+                    [
+                        478,
+                        483
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

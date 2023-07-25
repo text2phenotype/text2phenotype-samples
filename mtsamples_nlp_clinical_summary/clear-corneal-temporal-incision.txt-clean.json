@@ -1,0 +1,95 @@
+{
+    "file": "clear-corneal-temporal-incision.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "Healon",
+                "code": "203447",
+                "cui": "C0700889",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Healon",
+                "range": [
+                    934,
+                    940
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.989
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "Maxitrol",
+                "code": "134920",
+                "cui": "C0526091",
+                "tui": "T195",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Maxitrol",
+                "range": [
+                    1321,
+                    1329
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 1.0
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            }
+        ],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": []
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.014,
+        "uncertain_count": 3,
+        "narrow_band_ratio": 0.012,
+        "uncertain_tokens": {
+            "MED": [
+                [
+                    0.624,
+                    "diamond",
+                    [
+                        291,
+                        298
+                    ]
+                ],
+                [
+                    0.681,
+                    "balanced",
+                    [
+                        1138,
+                        1146
+                    ]
+                ],
+                [
+                    0.693,
+                    "solution",
+                    [
+                        1152,
+                        1160
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [],
+        "weighted": [],
+        "average_entropy": 0.04,
+        "uncertain_token_count": 0,
+        "narrow_band_ratio": 0.0,
+        "uncertain_tokens": {},
+        "narrow_band_width": 0.2
+    }
+}

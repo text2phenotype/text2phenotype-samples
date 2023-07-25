@@ -1,0 +1,365 @@
+{
+    "file": "liposuction.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "antibiotic",
+                "code": null,
+                "cui": null,
+                "tui": null,
+                "vocab": null,
+                "polarity": "positive",
+                "preferredText": null,
+                "range": [
+                    2724,
+                    2734
+                ],
+                "prob": {
+                    "MED": 0.975
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            }
+        ],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "Deformity",
+                "range": [
+                    31,
+                    40
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "417893002",
+                "cui": "C0302142",
+                "tui": "T190",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Deformity"
+            },
+            {
+                "text": "Deformity",
+                "range": [
+                    190,
+                    199
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "417893002",
+                "cui": "C0302142",
+                "tui": "T190",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Deformity"
+            },
+            {
+                "text": "tissue",
+                "range": [
+                    247,
+                    253
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "dog",
+                "range": [
+                    3047,
+                    3050
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.023,
+        "uncertain_count": 14,
+        "narrow_band_ratio": 0.02,
+        "uncertain_tokens": {
+            "MED": [
+                [
+                    0.589,
+                    "implant",
+                    [
+                        705,
+                        712
+                    ]
+                ],
+                [
+                    0.624,
+                    "lidocaine",
+                    [
+                        1762,
+                        1771
+                    ]
+                ],
+                [
+                    0.507,
+                    "epinephrine",
+                    [
+                        1777,
+                        1788
+                    ]
+                ],
+                [
+                    0.65,
+                    "capsule",
+                    [
+                        2132,
+                        2139
+                    ]
+                ],
+                [
+                    0.671,
+                    "PDS",
+                    [
+                        2329,
+                        2332
+                    ]
+                ],
+                [
+                    0.576,
+                    "implant",
+                    [
+                        2550,
+                        2557
+                    ]
+                ],
+                [
+                    0.629,
+                    "irrigation",
+                    [
+                        2735,
+                        2745
+                    ]
+                ],
+                [
+                    0.626,
+                    "implant",
+                    [
+                        2878,
+                        2885
+                    ]
+                ],
+                [
+                    0.609,
+                    "ointment",
+                    [
+                        3562,
+                        3570
+                    ]
+                ]
+            ],
+            "NA": [
+                [
+                    0.571,
+                    "solution",
+                    [
+                        1747,
+                        1755
+                    ]
+                ],
+                [
+                    0.526,
+                    "antibiotic",
+                    [
+                        2079,
+                        2089
+                    ]
+                ],
+                [
+                    0.52,
+                    "suture",
+                    [
+                        2333,
+                        2339
+                    ]
+                ],
+                [
+                    0.681,
+                    "Dermabond",
+                    [
+                        3523,
+                        3532
+                    ]
+                ],
+                [
+                    0.621,
+                    "Steri-Strips",
+                    [
+                        3534,
+                        3546
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "Deformity",
+                    [
+                        31,
+                        40
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Deformity",
+                    [
+                        190,
+                        199
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "tissue",
+                    [
+                        247,
+                        253
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "dog",
+                    [
+                        3047,
+                        3050
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.854,
+                    "Deformity",
+                    [
+                        31,
+                        40
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.849,
+                    "Deformity",
+                    [
+                        190,
+                        199
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.559,
+                    "tissue",
+                    [
+                        247,
+                        253
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.494,
+                    "dog",
+                    [
+                        3047,
+                        3050
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.117,
+        "uncertain_token_count": 8,
+        "narrow_band_ratio": 0.011,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.517,
+                    "tissue",
+                    [
+                        88,
+                        94
+                    ]
+                ],
+                [
+                    0.516,
+                    "Lipodystrophy",
+                    [
+                        129,
+                        142
+                    ]
+                ],
+                [
+                    0.519,
+                    "the",
+                    [
+                        971,
+                        974
+                    ]
+                ],
+                [
+                    0.505,
+                    "area",
+                    [
+                        981,
+                        985
+                    ]
+                ],
+                [
+                    0.485,
+                    "infraumbilical",
+                    [
+                        1114,
+                        1128
+                    ]
+                ],
+                [
+                    0.499,
+                    "abdomen",
+                    [
+                        1129,
+                        1136
+                    ]
+                ],
+                [
+                    0.468,
+                    "complications",
+                    [
+                        1326,
+                        1339
+                    ]
+                ]
+            ],
+            "DIAGNOSIS": [
+                [
+                    0.494,
+                    "dog",
+                    [
+                        3047,
+                        3050
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

@@ -1,0 +1,355 @@
+{
+    "file": "gen-med-progress-note-2.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "Altace",
+                "code": "262418",
+                "cui": "C0878061",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Altace",
+                "range": [
+                    1642,
+                    1648
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.948
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [
+                    "p.r.n.",
+                    1774,
+                    1780
+                ],
+                "medStrengthNum": [
+                    "5",
+                    1652,
+                    1653
+                ],
+                "medStrengthUnit": [
+                    "mg",
+                    1654,
+                    1656
+                ]
+            },
+            {
+                "text": "Altace",
+                "code": "262418",
+                "cui": "C0878061",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Altace",
+                "range": [
+                    1642,
+                    1648
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.948
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [
+                    "p.r.n.",
+                    1774,
+                    1780
+                ],
+                "medStrengthNum": [
+                    "5",
+                    1652,
+                    1653
+                ],
+                "medStrengthUnit": [
+                    "mg",
+                    1654,
+                    1656
+                ]
+            }
+        ],
+        "Allergy": [],
+        "Lab": [
+            {
+                "code": "",
+                "cui": "C0002059",
+                "tui": "T034",
+                "vocab": "LNC",
+                "polarity": "positive",
+                "text": "AP",
+                "preferredText": "ALP - ALKALINE PHOSPHATASE",
+                "range": [
+                    1040,
+                    1042
+                ]
+            }
+        ],
+        "DiseaseDisorder": [
+            {
+                "text": "hypertension",
+                "range": [
+                    31,
+                    43
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "38341003",
+                "cui": "C0020538",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Hypertensive disease"
+            },
+            {
+                "text": "hypercholesterolemia",
+                "range": [
+                    48,
+                    68
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "13644009",
+                "cui": "C0020443",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Hypercholesterolemia"
+            },
+            {
+                "text": "right knee",
+                "range": [
+                    131,
+                    141
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "Hypertension",
+                "range": [
+                    1409,
+                    1421
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "38341003",
+                "cui": "C0020538",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Hypertensive disease"
+            },
+            {
+                "text": "Hypercholesterolemia",
+                "range": [
+                    1428,
+                    1448
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "13644009",
+                "cui": "C0020443",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Hypercholesterolemia"
+            },
+            {
+                "text": "Osteoarthritis",
+                "range": [
+                    1455,
+                    1469
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "225655006",
+                "cui": "C0029408",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Degenerative polyarthritis"
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.003,
+        "uncertain_count": 0,
+        "narrow_band_ratio": 0.0,
+        "uncertain_tokens": {},
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "hypertension",
+                    [
+                        31,
+                        43
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "hypercholesterolemia",
+                    [
+                        48,
+                        68
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "right",
+                    [
+                        131,
+                        136
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "knee",
+                    [
+                        137,
+                        141
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Hypertension",
+                    [
+                        1409,
+                        1421
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Hypercholesterolemia",
+                    [
+                        1428,
+                        1448
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Osteoarthritis",
+                    [
+                        1455,
+                        1469
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Fatigue",
+                    [
+                        1476,
+                        1483
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.935,
+                    "hypertension",
+                    [
+                        31,
+                        43
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.91,
+                    "hypercholesterolemia",
+                    [
+                        48,
+                        68
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.557,
+                    "right",
+                    [
+                        131,
+                        136
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.48,
+                    "knee",
+                    [
+                        137,
+                        141
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.983,
+                    "Hypertension",
+                    [
+                        1409,
+                        1421
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.989,
+                    "Hypercholesterolemia",
+                    [
+                        1428,
+                        1448
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.962,
+                    "Osteoarthritis",
+                    [
+                        1455,
+                        1469
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.743,
+                    "Fatigue",
+                    [
+                        1476,
+                        1483
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.043,
+        "uncertain_token_count": 1,
+        "narrow_band_ratio": 0.003,
+        "uncertain_tokens": {
+            "DIAGNOSIS": [
+                [
+                    0.48,
+                    "knee",
+                    [
+                        137,
+                        141
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

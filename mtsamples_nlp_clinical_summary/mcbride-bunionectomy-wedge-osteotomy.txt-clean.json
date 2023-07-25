@@ -1,0 +1,370 @@
+{
+    "file": "mcbride-bunionectomy-wedge-osteotomy.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "lidocaine",
+                "code": "6387",
+                "cui": "C0023660",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Lidocaine",
+                "range": [
+                    577,
+                    586
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.919
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "lidocaine",
+                "code": "6387",
+                "cui": "C0023660",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Lidocaine",
+                "range": [
+                    577,
+                    586
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.919
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "Marcaine",
+                "code": "1012397",
+                "cui": "C2945665",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Marcaine",
+                "range": [
+                    5215,
+                    5223
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.999
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "dexamethasone",
+                "code": "3264",
+                "cui": "C0011777",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Dexamethasone",
+                "range": [
+                    5241,
+                    5254
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.999
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "dexamethasone",
+                "code": "3264",
+                "cui": "C0011777",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Dexamethasone",
+                "range": [
+                    5241,
+                    5254
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.999
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "fiberglass",
+                "code": null,
+                "cui": null,
+                "tui": null,
+                "vocab": null,
+                "polarity": "positive",
+                "preferredText": null,
+                "range": [
+                    5399,
+                    5409
+                ],
+                "prob": {
+                    "MED": 0.913
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            }
+        ],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "hallux abductovalgus deformity",
+                "range": [
+                    32,
+                    62
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "122480009",
+                "cui": "C0018536",
+                "tui": "T190",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Hallux Valgus"
+            },
+            {
+                "text": "Right hallux abductovalgus deformity",
+                "range": [
+                    95,
+                    131
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.01,
+        "uncertain_count": 3,
+        "narrow_band_ratio": 0.003,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.679,
+                    "Marcaine",
+                    [
+                        602,
+                        610
+                    ]
+                ],
+                [
+                    0.649,
+                    "dissection",
+                    [
+                        1509,
+                        1519
+                    ]
+                ]
+            ],
+            "MED": [
+                [
+                    0.7,
+                    "capsule",
+                    [
+                        3296,
+                        3303
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "PROBLEM": [
+                    "hallux",
+                    [
+                        32,
+                        38
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "abductovalgus",
+                    [
+                        39,
+                        52
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "deformity",
+                    [
+                        53,
+                        62
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Right",
+                    [
+                        95,
+                        100
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "hallux",
+                    [
+                        101,
+                        107
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "abductovalgus",
+                    [
+                        108,
+                        121
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "deformity",
+                    [
+                        122,
+                        131
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "PROBLEM": [
+                    0.544,
+                    "hallux",
+                    [
+                        32,
+                        38
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.595,
+                    "abductovalgus",
+                    [
+                        39,
+                        52
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.499,
+                    "deformity",
+                    [
+                        53,
+                        62
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.871,
+                    "hallux",
+                    [
+                        101,
+                        107
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.716,
+                    "abductovalgus",
+                    [
+                        108,
+                        121
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.774,
+                    "deformity",
+                    [
+                        122,
+                        131
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.073,
+        "uncertain_token_count": 4,
+        "narrow_band_ratio": 0.004,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.433,
+                    "Right",
+                    [
+                        26,
+                        31
+                    ]
+                ],
+                [
+                    0.515,
+                    "Right",
+                    [
+                        95,
+                        100
+                    ]
+                ],
+                [
+                    0.496,
+                    "tension",
+                    [
+                        4002,
+                        4009
+                    ]
+                ]
+            ],
+            "PROBLEM": [
+                [
+                    0.499,
+                    "deformity",
+                    [
+                        53,
+                        62
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

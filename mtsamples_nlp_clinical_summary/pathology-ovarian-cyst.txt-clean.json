@@ -1,0 +1,151 @@
+{
+    "file": "pathology-ovarian-cyst.txt-clean.txt",
+    "text2summary": {
+        "Medication": [],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "right ovarian cyst",
+                "range": [
+                    40,
+                    58
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "12238631000119108",
+                "cui": "C2016032",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Cyst of right ovary"
+            },
+            {
+                "text": "cystic",
+                "range": [
+                    531,
+                    537
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "79883001",
+                "cui": "C0029927",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Ovarian Cysts"
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.003,
+        "uncertain_count": 0,
+        "narrow_band_ratio": 0.0,
+        "uncertain_tokens": {},
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "right",
+                    [
+                        40,
+                        45
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "ovarian",
+                    [
+                        46,
+                        53
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "cyst",
+                    [
+                        54,
+                        58
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "cystic",
+                    [
+                        531,
+                        537
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.841,
+                    "right",
+                    [
+                        40,
+                        45
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.787,
+                    "ovarian",
+                    [
+                        46,
+                        53
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.727,
+                    "cyst",
+                    [
+                        54,
+                        58
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.56,
+                    "cystic",
+                    [
+                        531,
+                        537
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.116,
+        "uncertain_token_count": 2,
+        "narrow_band_ratio": 0.02,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.475,
+                    "cm",
+                    [
+                        172,
+                        174
+                    ]
+                ],
+                [
+                    0.505,
+                    "Benign",
+                    [
+                        524,
+                        530
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

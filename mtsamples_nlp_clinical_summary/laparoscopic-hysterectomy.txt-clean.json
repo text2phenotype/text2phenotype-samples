@@ -1,0 +1,195 @@
+{
+    "file": "laparoscopic-hysterectomy.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "Koh",
+                "code": "34311",
+                "cui": "C0071767",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Potassium Hydroxide",
+                "range": [
+                    3790,
+                    3793
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.978
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            }
+        ],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": []
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.009,
+        "uncertain_count": 1,
+        "narrow_band_ratio": 0.001,
+        "uncertain_tokens": {
+            "MED": [
+                [
+                    0.627,
+                    "Marcaine",
+                    [
+                        1408,
+                        1416
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "Endometrial",
+                    [
+                        26,
+                        37
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "carcinoma",
+                    [
+                        38,
+                        47
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Endometrial",
+                    [
+                        75,
+                        86
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "carcinoma",
+                    [
+                        87,
+                        96
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "cancer",
+                    [
+                        573,
+                        579
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "condition",
+                    [
+                        5120,
+                        5129
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.683,
+                    "Endometrial",
+                    [
+                        26,
+                        37
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.648,
+                    "carcinoma",
+                    [
+                        38,
+                        47
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.809,
+                    "Endometrial",
+                    [
+                        75,
+                        86
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.874,
+                    "carcinoma",
+                    [
+                        87,
+                        96
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.505,
+                    "endometrial",
+                    [
+                        561,
+                        572
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.557,
+                    "cancer",
+                    [
+                        573,
+                        579
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.586,
+                    "condition",
+                    [
+                        5120,
+                        5129
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.09,
+        "uncertain_token_count": 1,
+        "narrow_band_ratio": 0.001,
+        "uncertain_tokens": {
+            "DIAGNOSIS": [
+                [
+                    0.505,
+                    "endometrial",
+                    [
+                        561,
+                        572
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

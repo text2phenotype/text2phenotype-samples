@@ -1,0 +1,932 @@
+{
+    "file": "pulmonary-edema-consult.txt-clean.txt",
+    "text2summary": {
+        "Medication": [],
+        "Allergy": [
+            {
+                "code": "216076",
+                "cui": "C0719359",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "negative",
+                "text": "Claritin-D",
+                "preferredText": "Claritin-D",
+                "range": [
+                    455,
+                    465
+                ]
+            },
+            {
+                "code": "203576",
+                "cui": "C0701055",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "negative",
+                "text": "Claritin",
+                "preferredText": "Claritin",
+                "range": [
+                    455,
+                    463
+                ]
+            },
+            {
+                "code": "70618",
+                "cui": "C0220892",
+                "tui": "T195",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "text": "Penicillin",
+                "preferredText": "Penicillin",
+                "range": [
+                    987,
+                    997
+                ]
+            },
+            {
+                "code": "70618",
+                "cui": "C0220892",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "text": "Penicillin",
+                "preferredText": "Penicillin",
+                "range": [
+                    987,
+                    997
+                ]
+            }
+        ],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "hypertension",
+                "range": [
+                    82,
+                    94
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "38341003",
+                "cui": "C0020538",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Hypertensive disease"
+            },
+            {
+                "text": "acute pulmonary edema",
+                "range": [
+                    111,
+                    132
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "40541001",
+                "cui": "C0155919",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Acute pulmonary edema"
+            },
+            {
+                "text": "heart",
+                "range": [
+                    164,
+                    169
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "intermittent",
+                "range": [
+                    258,
+                    270
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "intermittent",
+                "range": [
+                    292,
+                    304
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "slight",
+                "range": [
+                    310,
+                    316
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "with",
+                "range": [
+                    323,
+                    327
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "hypertension",
+                "range": [
+                    547,
+                    559
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "chest pain",
+                "range": [
+                    709,
+                    719
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "Acute pulmonary edema",
+                "range": [
+                    2586,
+                    2607
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "40541001",
+                "cui": "C0155919",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Acute pulmonary edema"
+            },
+            {
+                "text": "left ventricle",
+                "range": [
+                    2643,
+                    2657
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "Left bundle-branch block",
+                "range": [
+                    2664,
+                    2688
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "63467002",
+                "cui": "C0023211",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Left Bundle-Branch Block"
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.003,
+        "uncertain_count": 2,
+        "narrow_band_ratio": 0.004,
+        "uncertain_tokens": {
+            "MED": [
+                [
+                    0.616,
+                    "Claritin-D",
+                    [
+                        455,
+                        465
+                    ]
+                ],
+                [
+                    0.57,
+                    "Coreg",
+                    [
+                        2793,
+                        2798
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "breath",
+                    [
+                        74,
+                        80
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "hypertension",
+                    [
+                        82,
+                        94
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "acute",
+                    [
+                        111,
+                        116
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "pulmonary",
+                    [
+                        117,
+                        126
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "edema",
+                    [
+                        127,
+                        132
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "heart",
+                    [
+                        164,
+                        169
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "intermittent",
+                    [
+                        258,
+                        270
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "shortness",
+                    [
+                        271,
+                        280
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "of",
+                    [
+                        281,
+                        283
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "breath",
+                    [
+                        284,
+                        290
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "intermittent",
+                    [
+                        292,
+                        304
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "slight",
+                    [
+                        310,
+                        316
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "edema",
+                    [
+                        317,
+                        322
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "with",
+                    [
+                        323,
+                        327
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "shortness",
+                    [
+                        328,
+                        337
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "of",
+                    [
+                        338,
+                        340
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "breath",
+                    [
+                        341,
+                        347
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "hypertension",
+                    [
+                        547,
+                        559
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "chest",
+                    [
+                        675,
+                        680
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "chest",
+                    [
+                        709,
+                        714
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "pain",
+                    [
+                        715,
+                        719
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Acute",
+                    [
+                        2586,
+                        2591
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "pulmonary",
+                    [
+                        2592,
+                        2601
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "edema",
+                    [
+                        2602,
+                        2607
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "findings",
+                    [
+                        2623,
+                        2631
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "dilated",
+                    [
+                        2635,
+                        2642
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "left",
+                    [
+                        2643,
+                        2647
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "ventricle",
+                    [
+                        2648,
+                        2657
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Left",
+                    [
+                        2664,
+                        2668
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "bundle-branch",
+                    [
+                        2669,
+                        2682
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "block",
+                    [
+                        2683,
+                        2688
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Breast",
+                    [
+                        2695,
+                        2701
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "cancer",
+                    [
+                        2702,
+                        2708
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.642,
+                    "breath",
+                    [
+                        74,
+                        80
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.969,
+                    "hypertension",
+                    [
+                        82,
+                        94
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.979,
+                    "acute",
+                    [
+                        111,
+                        116
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.982,
+                    "pulmonary",
+                    [
+                        117,
+                        126
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.976,
+                    "edema",
+                    [
+                        127,
+                        132
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.479,
+                    "intermittent",
+                    [
+                        258,
+                        270
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.672,
+                    "shortness",
+                    [
+                        271,
+                        280
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.755,
+                    "of",
+                    [
+                        281,
+                        283
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.682,
+                    "breath",
+                    [
+                        284,
+                        290
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.625,
+                    "intermittent",
+                    [
+                        292,
+                        304
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.593,
+                    "slight",
+                    [
+                        310,
+                        316
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.583,
+                    "edema",
+                    [
+                        317,
+                        322
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.511,
+                    "with",
+                    [
+                        323,
+                        327
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.657,
+                    "shortness",
+                    [
+                        328,
+                        337
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.714,
+                    "of",
+                    [
+                        338,
+                        340
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.608,
+                    "breath",
+                    [
+                        341,
+                        347
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.886,
+                    "hypertension",
+                    [
+                        547,
+                        559
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.417,
+                    "chest",
+                    [
+                        675,
+                        680
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.544,
+                    "chest",
+                    [
+                        709,
+                        714
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.526,
+                    "pain",
+                    [
+                        715,
+                        719
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.974,
+                    "Acute",
+                    [
+                        2586,
+                        2591
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.962,
+                    "pulmonary",
+                    [
+                        2592,
+                        2601
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.949,
+                    "edema",
+                    [
+                        2602,
+                        2607
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.436,
+                    "findings",
+                    [
+                        2623,
+                        2631
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.624,
+                    "dilated",
+                    [
+                        2635,
+                        2642
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.724,
+                    "left",
+                    [
+                        2643,
+                        2647
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.591,
+                    "ventricle",
+                    [
+                        2648,
+                        2657
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.772,
+                    "Left",
+                    [
+                        2664,
+                        2668
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.835,
+                    "bundle-branch",
+                    [
+                        2669,
+                        2682
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.933,
+                    "block",
+                    [
+                        2683,
+                        2688
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.994,
+                    "Breast",
+                    [
+                        2695,
+                        2701
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.992,
+                    "cancer",
+                    [
+                        2702,
+                        2708
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.092,
+        "uncertain_token_count": 6,
+        "narrow_band_ratio": 0.011,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.447,
+                    "heart",
+                    [
+                        164,
+                        169
+                    ]
+                ]
+            ],
+            "DIAGNOSIS": [
+                [
+                    0.479,
+                    "intermittent",
+                    [
+                        258,
+                        270
+                    ]
+                ],
+                [
+                    0.511,
+                    "with",
+                    [
+                        323,
+                        327
+                    ]
+                ],
+                [
+                    0.436,
+                    "findings",
+                    [
+                        2623,
+                        2631
+                    ]
+                ]
+            ],
+            "PROBLEM": [
+                [
+                    0.417,
+                    "chest",
+                    [
+                        675,
+                        680
+                    ]
+                ],
+                [
+                    0.526,
+                    "pain",
+                    [
+                        715,
+                        719
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

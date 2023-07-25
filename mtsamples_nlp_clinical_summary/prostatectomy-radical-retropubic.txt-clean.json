@@ -1,0 +1,588 @@
+{
+    "file": "prostatectomy-radical-retropubic.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "Betadine",
+                "code": "202750",
+                "cui": "C0699524",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Betadine",
+                "range": [
+                    981,
+                    989
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.993
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "Betadine",
+                "code": "202750",
+                "cui": "C0699524",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Betadine",
+                "range": [
+                    981,
+                    989
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.993
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            }
+        ],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "Infection",
+                "range": [
+                    533,
+                    542
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "189822004",
+                "cui": "C0009450",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Communicable Diseases"
+            },
+            {
+                "text": "Incontinence",
+                "range": [
+                    564,
+                    576
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "48340000",
+                "cui": "C0021167",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Incontinence"
+            },
+            {
+                "text": "Impotence",
+                "range": [
+                    583,
+                    592
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "397803000",
+                "cui": "C0242350",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Erectile dysfunction"
+            },
+            {
+                "text": "Deep venous thrombosis",
+                "range": [
+                    599,
+                    621
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "128053003",
+                "cui": "C0149871",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Deep Vein Thrombosis"
+            },
+            {
+                "text": "urethral",
+                "range": [
+                    3932,
+                    3940
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.012,
+        "uncertain_count": 5,
+        "narrow_band_ratio": 0.006,
+        "uncertain_tokens": {
+            "MED": [
+                [
+                    0.643,
+                    "antibiotic",
+                    [
+                        771,
+                        781
+                    ]
+                ],
+                [
+                    0.683,
+                    "silk",
+                    [
+                        1666,
+                        1670
+                    ]
+                ]
+            ],
+            "NA": [
+                [
+                    0.552,
+                    "LMA",
+                    [
+                        902,
+                        905
+                    ]
+                ],
+                [
+                    0.681,
+                    "suture",
+                    [
+                        2231,
+                        2237
+                    ]
+                ],
+                [
+                    0.664,
+                    "sponge",
+                    [
+                        4552,
+                        4558
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "Prostate",
+                    [
+                        26,
+                        34
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "cancer",
+                    [
+                        35,
+                        41
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Prostate",
+                    [
+                        69,
+                        77
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "cancer",
+                    [
+                        78,
+                        84
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "adenocarcinoma",
+                    [
+                        316,
+                        330
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "of",
+                    [
+                        331,
+                        333
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "the",
+                    [
+                        334,
+                        337
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "prostate",
+                    [
+                        338,
+                        346
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Infection",
+                    [
+                        533,
+                        542
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Bleeding",
+                    [
+                        549,
+                        557
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "Incontinence",
+                    [
+                        564,
+                        576
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Impotence",
+                    [
+                        583,
+                        592
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Deep",
+                    [
+                        599,
+                        603
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "venous",
+                    [
+                        604,
+                        610
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "thrombosis",
+                    [
+                        611,
+                        621
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "cancer",
+                    [
+                        646,
+                        652
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "urethral",
+                    [
+                        3932,
+                        3940
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "stump",
+                    [
+                        3941,
+                        3946
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.474,
+                    "Prostate",
+                    [
+                        26,
+                        34
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.425,
+                    "cancer",
+                    [
+                        35,
+                        41
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.695,
+                    "Prostate",
+                    [
+                        69,
+                        77
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.65,
+                    "cancer",
+                    [
+                        78,
+                        84
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.682,
+                    "adenocarcinoma",
+                    [
+                        316,
+                        330
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.819,
+                    "of",
+                    [
+                        331,
+                        333
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.89,
+                    "the",
+                    [
+                        334,
+                        337
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.64,
+                    "prostate",
+                    [
+                        338,
+                        346
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.456,
+                    "complications",
+                    [
+                        481,
+                        494
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.502,
+                    "Infection",
+                    [
+                        533,
+                        542
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.561,
+                    "Bleeding",
+                    [
+                        549,
+                        557
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.503,
+                    "Incontinence",
+                    [
+                        564,
+                        576
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.811,
+                    "Impotence",
+                    [
+                        583,
+                        592
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.911,
+                    "Deep",
+                    [
+                        599,
+                        603
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.917,
+                    "venous",
+                    [
+                        604,
+                        610
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.917,
+                    "thrombosis",
+                    [
+                        611,
+                        621
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.746,
+                    "cancer",
+                    [
+                        646,
+                        652
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.468,
+                    "stump",
+                    [
+                        3941,
+                        3946
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.064,
+        "uncertain_token_count": 7,
+        "narrow_band_ratio": 0.008,
+        "uncertain_tokens": {
+            "DIAGNOSIS": [
+                [
+                    0.474,
+                    "Prostate",
+                    [
+                        26,
+                        34
+                    ]
+                ],
+                [
+                    0.425,
+                    "cancer",
+                    [
+                        35,
+                        41
+                    ]
+                ],
+                [
+                    0.456,
+                    "complications",
+                    [
+                        481,
+                        494
+                    ]
+                ],
+                [
+                    0.502,
+                    "Infection",
+                    [
+                        533,
+                        542
+                    ]
+                ],
+                [
+                    0.503,
+                    "Incontinence",
+                    [
+                        564,
+                        576
+                    ]
+                ],
+                [
+                    0.468,
+                    "stump",
+                    [
+                        3941,
+                        3946
+                    ]
+                ]
+            ],
+            "NA": [
+                [
+                    0.511,
+                    "urethral",
+                    [
+                        3932,
+                        3940
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

@@ -1,0 +1,942 @@
+{
+    "file": "browlift-blepharoplasty-rhytidectomy.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "Maxitrol",
+                "code": "134920",
+                "cui": "C0526091",
+                "tui": "T195",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Maxitrol",
+                "range": [
+                    5223,
+                    5231
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.953
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            }
+        ],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "1",
+                "range": [
+                    28,
+                    29
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "Dermatochalasia of upper",
+                "range": [
+                    52,
+                    76
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "58588007",
+                "cui": "C0010495",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Cutis Laxa"
+            },
+            {
+                "text": "lower eyelids",
+                "range": [
+                    81,
+                    94
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "tear trough deformity of\nthe lower eyelid",
+                "range": [
+                    100,
+                    141
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "125671007",
+                "cui": "C0043246",
+                "tui": "T037",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Laceration"
+            },
+            {
+                "text": "Cervical facial",
+                "range": [
+                    148,
+                    163
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "submental lipodystrophy",
+                "range": [
+                    175,
+                    198
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "inferior orbital rim to lower eyelid",
+                "range": [
+                    369,
+                    405
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "the",
+                "range": [
+                    1950,
+                    1953
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "dissection from the upper eyelid",
+                "range": [
+                    1968,
+                    2000
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "the",
+                "range": [
+                    4731,
+                    4734
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.01,
+        "uncertain_count": 2,
+        "narrow_band_ratio": 0.002,
+        "uncertain_tokens": {
+            "MED": [
+                [
+                    0.61,
+                    "fibers",
+                    [
+                        1852,
+                        1858
+                    ]
+                ]
+            ],
+            "NA": [
+                [
+                    0.639,
+                    "silk",
+                    [
+                        3505,
+                        3509
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "1",
+                    [
+                        28,
+                        29
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Eyebrow",
+                    [
+                        31,
+                        38
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "ptosis",
+                    [
+                        39,
+                        45
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Dermatochalasia",
+                    [
+                        52,
+                        67
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "of",
+                    [
+                        68,
+                        70
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "upper",
+                    [
+                        71,
+                        76
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "lower",
+                    [
+                        81,
+                        86
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "eyelids",
+                    [
+                        87,
+                        94
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "tear",
+                    [
+                        100,
+                        104
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "trough",
+                    [
+                        105,
+                        111
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "deformity",
+                    [
+                        112,
+                        121
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "of",
+                    [
+                        122,
+                        124
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "the",
+                    [
+                        125,
+                        128
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "lower",
+                    [
+                        129,
+                        134
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "eyelid",
+                    [
+                        135,
+                        141
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Cervical",
+                    [
+                        148,
+                        156
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "facial",
+                    [
+                        157,
+                        163
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "aging",
+                    [
+                        164,
+                        169
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "submental",
+                    [
+                        175,
+                        184
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "lipodystrophy",
+                    [
+                        185,
+                        198
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "inferior",
+                    [
+                        369,
+                        377
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "orbital",
+                    [
+                        378,
+                        385
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "rim",
+                    [
+                        386,
+                        389
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "to",
+                    [
+                        390,
+                        392
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "lower",
+                    [
+                        393,
+                        398
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "eyelid",
+                    [
+                        399,
+                        405
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "the",
+                    [
+                        1950,
+                        1953
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "dissection",
+                    [
+                        1968,
+                        1978
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "from",
+                    [
+                        1979,
+                        1983
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "the",
+                    [
+                        1984,
+                        1987
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "upper",
+                    [
+                        1988,
+                        1993
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "eyelid",
+                    [
+                        1994,
+                        2000
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "redundant",
+                    [
+                        4715,
+                        4724
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "the",
+                    [
+                        4731,
+                        4734
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.578,
+                    "1",
+                    [
+                        28,
+                        29
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.779,
+                    "Eyebrow",
+                    [
+                        31,
+                        38
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.89,
+                    "ptosis",
+                    [
+                        39,
+                        45
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.718,
+                    "Dermatochalasia",
+                    [
+                        52,
+                        67
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.587,
+                    "of",
+                    [
+                        68,
+                        70
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.521,
+                    "upper",
+                    [
+                        71,
+                        76
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.432,
+                    "lower",
+                    [
+                        81,
+                        86
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.459,
+                    "eyelids",
+                    [
+                        87,
+                        94
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.872,
+                    "tear",
+                    [
+                        100,
+                        104
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.866,
+                    "trough",
+                    [
+                        105,
+                        111
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.913,
+                    "deformity",
+                    [
+                        112,
+                        121
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.946,
+                    "of",
+                    [
+                        122,
+                        124
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.953,
+                    "the",
+                    [
+                        125,
+                        128
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.913,
+                    "lower",
+                    [
+                        129,
+                        134
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.913,
+                    "eyelid",
+                    [
+                        135,
+                        141
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.778,
+                    "Cervical",
+                    [
+                        148,
+                        156
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.676,
+                    "facial",
+                    [
+                        157,
+                        163
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.499,
+                    "aging",
+                    [
+                        164,
+                        169
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.536,
+                    "submental",
+                    [
+                        175,
+                        184
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.765,
+                    "lipodystrophy",
+                    [
+                        185,
+                        198
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.681,
+                    "inferior",
+                    [
+                        369,
+                        377
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.771,
+                    "orbital",
+                    [
+                        378,
+                        385
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.831,
+                    "rim",
+                    [
+                        386,
+                        389
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.781,
+                    "to",
+                    [
+                        390,
+                        392
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.741,
+                    "lower",
+                    [
+                        393,
+                        398
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.63,
+                    "eyelid",
+                    [
+                        399,
+                        405
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.5,
+                    "the",
+                    [
+                        1950,
+                        1953
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.515,
+                    "dissection",
+                    [
+                        1968,
+                        1978
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.555,
+                    "from",
+                    [
+                        1979,
+                        1983
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.575,
+                    "the",
+                    [
+                        1984,
+                        1987
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.518,
+                    "upper",
+                    [
+                        1988,
+                        1993
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.513,
+                    "eyelid",
+                    [
+                        1994,
+                        2000
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.676,
+                    "redundant",
+                    [
+                        4715,
+                        4724
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.532,
+                    "the",
+                    [
+                        4731,
+                        4734
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.135,
+        "uncertain_token_count": 11,
+        "narrow_band_ratio": 0.012,
+        "uncertain_tokens": {
+            "DIAGNOSIS": [
+                [
+                    0.521,
+                    "upper",
+                    [
+                        71,
+                        76
+                    ]
+                ],
+                [
+                    0.432,
+                    "lower",
+                    [
+                        81,
+                        86
+                    ]
+                ],
+                [
+                    0.459,
+                    "eyelids",
+                    [
+                        87,
+                        94
+                    ]
+                ],
+                [
+                    0.499,
+                    "aging",
+                    [
+                        164,
+                        169
+                    ]
+                ],
+                [
+                    0.5,
+                    "the",
+                    [
+                        1950,
+                        1953
+                    ]
+                ],
+                [
+                    0.515,
+                    "dissection",
+                    [
+                        1968,
+                        1978
+                    ]
+                ],
+                [
+                    0.518,
+                    "upper",
+                    [
+                        1988,
+                        1993
+                    ]
+                ],
+                [
+                    0.513,
+                    "eyelid",
+                    [
+                        1994,
+                        2000
+                    ]
+                ]
+            ],
+            "NA": [
+                [
+                    0.472,
+                    "and",
+                    [
+                        77,
+                        80
+                    ]
+                ],
+                [
+                    0.501,
+                    "transposition",
+                    [
+                        350,
+                        363
+                    ]
+                ],
+                [
+                    0.493,
+                    "antagonistic",
+                    [
+                        2823,
+                        2835
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

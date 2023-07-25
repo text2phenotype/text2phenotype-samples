@@ -1,0 +1,153 @@
+{
+    "file": "pet-report-whole-body-scan.txt-clean.txt",
+    "text2summary": {
+        "Medication": [],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "Lung",
+                "range": [
+                    14,
+                    18
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "obstructive\natelectasis",
+                "range": [
+                    1349,
+                    1372
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "58525007",
+                "cui": "C0264498",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Obstructive atelectasis"
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.002,
+        "uncertain_count": 1,
+        "narrow_band_ratio": 0.003,
+        "uncertain_tokens": {
+            "MED": [
+                [
+                    0.626,
+                    "FDG",
+                    [
+                        1444,
+                        1447
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "Lung",
+                    [
+                        14,
+                        18
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "carcinoma",
+                    [
+                        19,
+                        28
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "obstructive",
+                    [
+                        1349,
+                        1360
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "atelectasis",
+                    [
+                        1361,
+                        1372
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.856,
+                    "Lung",
+                    [
+                        14,
+                        18
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.827,
+                    "carcinoma",
+                    [
+                        19,
+                        28
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.627,
+                    "obstructive",
+                    [
+                        1349,
+                        1360
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.614,
+                    "atelectasis",
+                    [
+                        1361,
+                        1372
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.116,
+        "uncertain_token_count": 1,
+        "narrow_band_ratio": 0.003,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.504,
+                    "lesion",
+                    [
+                        1659,
+                        1665
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

@@ -1,0 +1,535 @@
+{
+    "file": "knee-injection-2.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "Naprosyn",
+                "code": "203012",
+                "cui": "C0700017",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Naprosyn",
+                "range": [
+                    372,
+                    380
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.997
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "Naprosyn",
+                "code": "203012",
+                "cui": "C0700017",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Naprosyn",
+                "range": [
+                    372,
+                    380
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.997
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            }
+        ],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "pauciarticular arthritis in\nparticular arthritis of her left knee",
+                "range": [
+                    124,
+                    189
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "multiple joints",
+                "range": [
+                    237,
+                    252
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "of her left knee",
+                "range": [
+                    301,
+                    317
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "symptoms",
+                "range": [
+                    449,
+                    457
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.007,
+        "uncertain_count": 2,
+        "narrow_band_ratio": 0.007,
+        "uncertain_tokens": {
+            "MED": [
+                [
+                    0.539,
+                    "injection",
+                    [
+                        550,
+                        559
+                    ]
+                ],
+                [
+                    0.578,
+                    "Aristospan",
+                    [
+                        912,
+                        922
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "pauciarticular",
+                    [
+                        124,
+                        138
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "arthritis",
+                    [
+                        139,
+                        148
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "in",
+                    [
+                        149,
+                        151
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "particular",
+                    [
+                        152,
+                        162
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "arthritis",
+                    [
+                        163,
+                        172
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "of",
+                    [
+                        173,
+                        175
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "her",
+                    [
+                        176,
+                        179
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "left",
+                    [
+                        180,
+                        184
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "knee",
+                    [
+                        185,
+                        189
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "arthralgias",
+                    [
+                        222,
+                        233
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "multiple",
+                    [
+                        237,
+                        245
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "joints",
+                    [
+                        246,
+                        252
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "swelling",
+                    [
+                        292,
+                        300
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "of",
+                    [
+                        301,
+                        303
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "her",
+                    [
+                        304,
+                        307
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "left",
+                    [
+                        308,
+                        312
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "knee",
+                    [
+                        313,
+                        317
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "symptoms",
+                    [
+                        449,
+                        457
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.85,
+                    "pauciarticular",
+                    [
+                        124,
+                        138
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.918,
+                    "arthritis",
+                    [
+                        139,
+                        148
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.733,
+                    "in",
+                    [
+                        149,
+                        151
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.864,
+                    "particular",
+                    [
+                        152,
+                        162
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.893,
+                    "arthritis",
+                    [
+                        163,
+                        172
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.894,
+                    "of",
+                    [
+                        173,
+                        175
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.811,
+                    "her",
+                    [
+                        176,
+                        179
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.774,
+                    "left",
+                    [
+                        180,
+                        184
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.774,
+                    "knee",
+                    [
+                        185,
+                        189
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.502,
+                    "arthralgias",
+                    [
+                        222,
+                        233
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.655,
+                    "multiple",
+                    [
+                        237,
+                        245
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.628,
+                    "joints",
+                    [
+                        246,
+                        252
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.498,
+                    "swelling",
+                    [
+                        292,
+                        300
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.478,
+                    "of",
+                    [
+                        301,
+                        303
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.504,
+                    "her",
+                    [
+                        304,
+                        307
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.531,
+                    "left",
+                    [
+                        308,
+                        312
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.445,
+                    "knee",
+                    [
+                        313,
+                        317
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.124,
+        "uncertain_token_count": 7,
+        "narrow_band_ratio": 0.025,
+        "uncertain_tokens": {
+            "DIAGNOSIS": [
+                [
+                    0.502,
+                    "arthralgias",
+                    [
+                        222,
+                        233
+                    ]
+                ],
+                [
+                    0.498,
+                    "swelling",
+                    [
+                        292,
+                        300
+                    ]
+                ],
+                [
+                    0.478,
+                    "of",
+                    [
+                        301,
+                        303
+                    ]
+                ],
+                [
+                    0.504,
+                    "her",
+                    [
+                        304,
+                        307
+                    ]
+                ],
+                [
+                    0.445,
+                    "knee",
+                    [
+                        313,
+                        317
+                    ]
+                ]
+            ],
+            "NA": [
+                [
+                    0.513,
+                    "joint",
+                    [
+                        286,
+                        291
+                    ]
+                ],
+                [
+                    0.494,
+                    "symptoms",
+                    [
+                        449,
+                        457
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

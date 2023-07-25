@@ -1,0 +1,349 @@
+{
+    "file": "bunionectomy-austin-akin.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "dexamethasone phosphate",
+                "code": "235486",
+                "cui": "C0770565",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Dexamethasone phosphate",
+                "range": [
+                    4595,
+                    4618
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.922
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "dexamethasone phosphate",
+                "code": "235486",
+                "cui": "C0770565",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Dexamethasone phosphate",
+                "range": [
+                    4595,
+                    4618
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.922
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "Tylenol",
+                "code": "202433",
+                "cui": "C0699142",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Tylenol",
+                "range": [
+                    5191,
+                    5198
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.963
+                },
+                "medFrequencyNumber": [
+                    "6.0"
+                ],
+                "medFrequencyUnit": [
+                    "p.r.n.",
+                    5241,
+                    5247
+                ],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "Tylenol",
+                "code": "202433",
+                "cui": "C0699142",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Tylenol",
+                "range": [
+                    5191,
+                    5198
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.963
+                },
+                "medFrequencyNumber": [
+                    "6.0"
+                ],
+                "medFrequencyUnit": [
+                    "p.r.n.",
+                    5241,
+                    5247
+                ],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            }
+        ],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "right foot",
+                "range": [
+                    80,
+                    90
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "metatarsal head",
+                "range": [
+                    4172,
+                    4187
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.009,
+        "uncertain_count": 2,
+        "narrow_band_ratio": 0.002,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.571,
+                    "lidocaine",
+                    [
+                        951,
+                        960
+                    ]
+                ],
+                [
+                    0.634,
+                    "sponge",
+                    [
+                        1373,
+                        1379
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "Bunion",
+                    [
+                        26,
+                        32
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Bunion",
+                    [
+                        72,
+                        78
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    ",",
+                    [
+                        78,
+                        79
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "right",
+                    [
+                        80,
+                        85
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "foot",
+                    [
+                        86,
+                        90
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "bunion",
+                    [
+                        302,
+                        308
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "metatarsal",
+                    [
+                        4172,
+                        4182
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "head",
+                    [
+                        4183,
+                        4187
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.816,
+                    "Bunion",
+                    [
+                        26,
+                        32
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.872,
+                    "Bunion",
+                    [
+                        72,
+                        78
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.594,
+                    ",",
+                    [
+                        78,
+                        79
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.482,
+                    "right",
+                    [
+                        80,
+                        85
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.445,
+                    "foot",
+                    [
+                        86,
+                        90
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.529,
+                    "bunion",
+                    [
+                        302,
+                        308
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.535,
+                    "head",
+                    [
+                        4183,
+                        4187
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.058,
+        "uncertain_token_count": 4,
+        "narrow_band_ratio": 0.004,
+        "uncertain_tokens": {
+            "DIAGNOSIS": [
+                [
+                    0.482,
+                    "right",
+                    [
+                        80,
+                        85
+                    ]
+                ],
+                [
+                    0.445,
+                    "foot",
+                    [
+                        86,
+                        90
+                    ]
+                ],
+                [
+                    0.529,
+                    "bunion",
+                    [
+                        302,
+                        308
+                    ]
+                ]
+            ],
+            "NA": [
+                [
+                    0.483,
+                    "metatarsal",
+                    [
+                        4172,
+                        4182
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

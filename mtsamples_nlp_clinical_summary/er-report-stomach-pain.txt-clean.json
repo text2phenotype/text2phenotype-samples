@@ -1,0 +1,787 @@
+{
+    "file": "er-report-stomach-pain.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "Tylenol",
+                "code": "202433",
+                "cui": "C0699142",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Tylenol",
+                "range": [
+                    1920,
+                    1927
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.922
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [
+                    "as-needed"
+                ],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "Tylenol",
+                "code": "202433",
+                "cui": "C0699142",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Tylenol",
+                "range": [
+                    1920,
+                    1927
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.922
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [
+                    "as-needed"
+                ],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "Cimetidine",
+                "code": "2541",
+                "cui": "C0008783",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Cimetidine",
+                "range": [
+                    1979,
+                    1989
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.988
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [
+                    "day"
+                ],
+                "medStrengthNum": [
+                    "400",
+                    1990,
+                    1993
+                ],
+                "medStrengthUnit": [
+                    "mg",
+                    1993,
+                    1995
+                ]
+            },
+            {
+                "text": "Cimetidine",
+                "code": "2541",
+                "cui": "C0008783",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Cimetidine",
+                "range": [
+                    1979,
+                    1989
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.988
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [
+                    "day"
+                ],
+                "medStrengthNum": [
+                    "400",
+                    1990,
+                    1993
+                ],
+                "medStrengthUnit": [
+                    "mg",
+                    1993,
+                    1995
+                ]
+            }
+        ],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "of mid-epigastric and right upper quadrant",
+                "range": [
+                    200,
+                    242
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "crampy",
+                "range": [
+                    303,
+                    309
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "386781001",
+                "cui": "C0270814",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Spastic syndrome"
+            },
+            {
+                "text": "character",
+                "range": [
+                    325,
+                    334
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "subjective",
+                "range": [
+                    998,
+                    1008
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "Right inguinal groin",
+                "range": [
+                    1263,
+                    1283
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "effect",
+                "range": [
+                    3168,
+                    3174
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "of the liver",
+                "range": [
+                    3237,
+                    3249
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.004,
+        "uncertain_count": 1,
+        "narrow_band_ratio": 0.001,
+        "uncertain_tokens": {
+            "MED": [
+                [
+                    0.595,
+                    "duration",
+                    [
+                        682,
+                        690
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "Stomach",
+                    [
+                        19,
+                        26
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "pain",
+                    [
+                        27,
+                        31
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "of",
+                    [
+                        200,
+                        202
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "mid-epigastric",
+                    [
+                        203,
+                        217
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "and",
+                    [
+                        218,
+                        221
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "right",
+                    [
+                        222,
+                        227
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "upper",
+                    [
+                        228,
+                        233
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "quadrant",
+                    [
+                        234,
+                        242
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "abdominal",
+                    [
+                        243,
+                        252
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "pain",
+                    [
+                        253,
+                        257
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "crampy",
+                    [
+                        303,
+                        309
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "burning",
+                    [
+                        314,
+                        321
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "character",
+                    [
+                        325,
+                        334
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "intake",
+                    [
+                        362,
+                        368
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "subjective",
+                    [
+                        998,
+                        1008
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "fever",
+                    [
+                        1009,
+                        1014
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "diaphoresis",
+                    [
+                        1019,
+                        1030
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Right",
+                    [
+                        1263,
+                        1268
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "inguinal",
+                    [
+                        1269,
+                        1277
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "groin",
+                    [
+                        1278,
+                        1283
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "cyst",
+                    [
+                        1284,
+                        1288
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "mass",
+                    [
+                        3163,
+                        3167
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "effect",
+                    [
+                        3168,
+                        3174
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "of",
+                    [
+                        3237,
+                        3239
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "the",
+                    [
+                        3240,
+                        3243
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "liver",
+                    [
+                        3244,
+                        3249
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.956,
+                    "Stomach",
+                    [
+                        19,
+                        26
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.776,
+                    "pain",
+                    [
+                        27,
+                        31
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.878,
+                    "mid-epigastric",
+                    [
+                        203,
+                        217
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.712,
+                    "and",
+                    [
+                        218,
+                        221
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.95,
+                    "right",
+                    [
+                        222,
+                        227
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.971,
+                    "upper",
+                    [
+                        228,
+                        233
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.971,
+                    "quadrant",
+                    [
+                        234,
+                        242
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.968,
+                    "abdominal",
+                    [
+                        243,
+                        252
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.956,
+                    "pain",
+                    [
+                        253,
+                        257
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.585,
+                    "crampy",
+                    [
+                        303,
+                        309
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.646,
+                    "burning",
+                    [
+                        314,
+                        321
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.544,
+                    "character",
+                    [
+                        325,
+                        334
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.531,
+                    "intake",
+                    [
+                        362,
+                        368
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.378,
+                    "subjective",
+                    [
+                        998,
+                        1008
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.68,
+                    "fever",
+                    [
+                        1009,
+                        1014
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.661,
+                    "diaphoresis",
+                    [
+                        1019,
+                        1030
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.718,
+                    "Right",
+                    [
+                        1263,
+                        1268
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.882,
+                    "inguinal",
+                    [
+                        1269,
+                        1277
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.889,
+                    "groin",
+                    [
+                        1278,
+                        1283
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.913,
+                    "cyst",
+                    [
+                        1284,
+                        1288
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.67,
+                    "mass",
+                    [
+                        3163,
+                        3167
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.524,
+                    "effect",
+                    [
+                        3168,
+                        3174
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.55,
+                    "of",
+                    [
+                        3237,
+                        3239
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.531,
+                    "the",
+                    [
+                        3240,
+                        3243
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.468,
+                    "liver",
+                    [
+                        3244,
+                        3249
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.099,
+        "uncertain_token_count": 7,
+        "narrow_band_ratio": 0.01,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.525,
+                    "food",
+                    [
+                        357,
+                        361
+                    ]
+                ],
+                [
+                    0.487,
+                    "nausea",
+                    [
+                        885,
+                        891
+                    ]
+                ],
+                [
+                    0.441,
+                    "non-bloody",
+                    [
+                        930,
+                        940
+                    ]
+                ],
+                [
+                    0.435,
+                    "emesis",
+                    [
+                        941,
+                        947
+                    ]
+                ]
+            ],
+            "PROBLEM": [
+                [
+                    0.378,
+                    "subjective",
+                    [
+                        998,
+                        1008
+                    ]
+                ]
+            ],
+            "DIAGNOSIS": [
+                [
+                    0.524,
+                    "effect",
+                    [
+                        3168,
+                        3174
+                    ]
+                ],
+                [
+                    0.468,
+                    "liver",
+                    [
+                        3244,
+                        3249
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

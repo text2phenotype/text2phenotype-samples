@@ -1,0 +1,812 @@
+{
+    "file": "arthroscopic-meniscoplasty.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "Marcaine",
+                "code": "1012397",
+                "cui": "C2945665",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Marcaine",
+                "range": [
+                    4163,
+                    4171
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.97
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            }
+        ],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "Torn lateral meniscus",
+                "range": [
+                    31,
+                    52
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "302933001",
+                "cui": "C0159972",
+                "tui": "T037",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Tear of lateral meniscus of knee"
+            },
+            {
+                "text": "right knee",
+                "range": [
+                    54,
+                    64
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "Chondromalacia of the patella",
+                "range": [
+                    71,
+                    100
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "63198006",
+                "cui": "C0085700",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Chondromalacia"
+            },
+            {
+                "text": "Torn lateral meniscus",
+                "range": [
+                    145,
+                    166
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "302933001",
+                "cui": "C0159972",
+                "tui": "T037",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Tear of lateral meniscus of knee"
+            },
+            {
+                "text": "right knee",
+                "range": [
+                    168,
+                    178
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "Chondromalacia of the patella",
+                "range": [
+                    185,
+                    214
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "63198006",
+                "cui": "C0085700",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Chondromalacia"
+            },
+            {
+                "text": "of the",
+                "range": [
+                    512,
+                    518
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "grade-II chondromalacia of the patella",
+                "range": [
+                    540,
+                    578
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "right",
+                "range": [
+                    692,
+                    697
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.006,
+        "uncertain_count": 1,
+        "narrow_band_ratio": 0.001,
+        "uncertain_tokens": {
+            "MED": [
+                [
+                    0.69,
+                    "anesthetic",
+                    [
+                        1328,
+                        1338
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "Torn",
+                    [
+                        31,
+                        35
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "lateral",
+                    [
+                        36,
+                        43
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "meniscus",
+                    [
+                        44,
+                        52
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    ",",
+                    [
+                        52,
+                        53
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "right",
+                    [
+                        54,
+                        59
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "knee",
+                    [
+                        60,
+                        64
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Chondromalacia",
+                    [
+                        71,
+                        85
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "of",
+                    [
+                        86,
+                        88
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "the",
+                    [
+                        89,
+                        92
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "patella",
+                    [
+                        93,
+                        100
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Torn",
+                    [
+                        145,
+                        149
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "lateral",
+                    [
+                        150,
+                        157
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "meniscus",
+                    [
+                        158,
+                        166
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    ",",
+                    [
+                        166,
+                        167
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "right",
+                    [
+                        168,
+                        173
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "knee",
+                    [
+                        174,
+                        178
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Chondromalacia",
+                    [
+                        185,
+                        199
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "of",
+                    [
+                        200,
+                        202
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "the",
+                    [
+                        203,
+                        206
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "patella",
+                    [
+                        207,
+                        214
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "of",
+                    [
+                        512,
+                        514
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "the",
+                    [
+                        515,
+                        518
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "grade-II",
+                    [
+                        540,
+                        548
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "chondromalacia",
+                    [
+                        549,
+                        563
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "of",
+                    [
+                        564,
+                        566
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "the",
+                    [
+                        567,
+                        570
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "patella",
+                    [
+                        571,
+                        578
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "right",
+                    [
+                        692,
+                        697
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "knee",
+                    [
+                        698,
+                        702
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "pain",
+                    [
+                        703,
+                        707
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "pain",
+                    [
+                        726,
+                        730
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.953,
+                    "Torn",
+                    [
+                        31,
+                        35
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.97,
+                    "lateral",
+                    [
+                        36,
+                        43
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.959,
+                    "meniscus",
+                    [
+                        44,
+                        52
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.693,
+                    ",",
+                    [
+                        52,
+                        53
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.787,
+                    "right",
+                    [
+                        54,
+                        59
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.605,
+                    "knee",
+                    [
+                        60,
+                        64
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.93,
+                    "Chondromalacia",
+                    [
+                        71,
+                        85
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.661,
+                    "of",
+                    [
+                        86,
+                        88
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.644,
+                    "the",
+                    [
+                        89,
+                        92
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.453,
+                    "patella",
+                    [
+                        93,
+                        100
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.901,
+                    "Torn",
+                    [
+                        145,
+                        149
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.938,
+                    "lateral",
+                    [
+                        150,
+                        157
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.938,
+                    "meniscus",
+                    [
+                        158,
+                        166
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.618,
+                    ",",
+                    [
+                        166,
+                        167
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.743,
+                    "right",
+                    [
+                        168,
+                        173
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.607,
+                    "knee",
+                    [
+                        174,
+                        178
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.899,
+                    "Chondromalacia",
+                    [
+                        185,
+                        199
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.685,
+                    "of",
+                    [
+                        200,
+                        202
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.78,
+                    "the",
+                    [
+                        203,
+                        206
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.793,
+                    "patella",
+                    [
+                        207,
+                        214
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.53,
+                    "of",
+                    [
+                        512,
+                        514
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.651,
+                    "chondromalacia",
+                    [
+                        549,
+                        563
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.665,
+                    "of",
+                    [
+                        564,
+                        566
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.73,
+                    "the",
+                    [
+                        567,
+                        570
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.678,
+                    "patella",
+                    [
+                        571,
+                        578
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.86,
+                    "right",
+                    [
+                        692,
+                        697
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.884,
+                    "knee",
+                    [
+                        698,
+                        702
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.829,
+                    "pain",
+                    [
+                        703,
+                        707
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.476,
+                    "pain",
+                    [
+                        726,
+                        730
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.11,
+        "uncertain_token_count": 7,
+        "narrow_band_ratio": 0.009,
+        "uncertain_tokens": {
+            "DIAGNOSIS": [
+                [
+                    0.453,
+                    "patella",
+                    [
+                        93,
+                        100
+                    ]
+                ],
+                [
+                    0.476,
+                    "pain",
+                    [
+                        726,
+                        730
+                    ]
+                ]
+            ],
+            "NA": [
+                [
+                    0.521,
+                    "right",
+                    [
+                        216,
+                        221
+                    ]
+                ],
+                [
+                    0.519,
+                    "the",
+                    [
+                        515,
+                        518
+                    ]
+                ],
+                [
+                    0.505,
+                    "grade-II",
+                    [
+                        540,
+                        548
+                    ]
+                ],
+                [
+                    0.524,
+                    "complaining",
+                    [
+                        677,
+                        688
+                    ]
+                ],
+                [
+                    0.505,
+                    "of",
+                    [
+                        689,
+                        691
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

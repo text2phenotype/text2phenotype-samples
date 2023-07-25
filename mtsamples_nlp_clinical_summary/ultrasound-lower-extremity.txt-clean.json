@@ -1,0 +1,132 @@
+{
+    "file": "ultrasound-lower-extremity.txt-clean.txt",
+    "text2summary": {
+        "Medication": [],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "study",
+                "range": [
+                    649,
+                    654
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "habitus",
+                "range": [
+                    673,
+                    680
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.0,
+        "uncertain_count": 0,
+        "narrow_band_ratio": 0.0,
+        "uncertain_tokens": {},
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "PROBLEM": [
+                    "study",
+                    [
+                        649,
+                        654
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "habitus",
+                    [
+                        673,
+                        680
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "edema",
+                    [
+                        685,
+                        690
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.4,
+                    "study",
+                    [
+                        649,
+                        654
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.448,
+                    "habitus",
+                    [
+                        673,
+                        680
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.737,
+                    "edema",
+                    [
+                        685,
+                        690
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.169,
+        "uncertain_token_count": 2,
+        "narrow_band_ratio": 0.015,
+        "uncertain_tokens": {
+            "DIAGNOSIS": [
+                [
+                    0.4,
+                    "study",
+                    [
+                        649,
+                        654
+                    ]
+                ]
+            ],
+            "PROBLEM": [
+                [
+                    0.448,
+                    "habitus",
+                    [
+                        673,
+                        680
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

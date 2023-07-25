@@ -1,0 +1,330 @@
+{
+    "file": "colonoscopy-3.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "Demerol",
+                "code": "282381",
+                "cui": "C0935966",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Demerol",
+                "range": [
+                    306,
+                    313
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.998
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "Demerol",
+                "code": "282381",
+                "cui": "C0935966",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Demerol",
+                "range": [
+                    306,
+                    313
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.998
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "Demerol",
+                "code": "282381",
+                "cui": "C0935966",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Demerol",
+                "range": [
+                    336,
+                    343
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.999
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [
+                    "25",
+                    391,
+                    393
+                ],
+                "medStrengthUnit": [
+                    "mg",
+                    394,
+                    396
+                ]
+            },
+            {
+                "text": "Demerol",
+                "code": "282381",
+                "cui": "C0935966",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Demerol",
+                "range": [
+                    336,
+                    343
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.999
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [
+                    "25",
+                    391,
+                    393
+                ],
+                "medStrengthUnit": [
+                    "mg",
+                    394,
+                    396
+                ]
+            },
+            {
+                "text": "Phenergan",
+                "code": "152218",
+                "cui": "C0591971",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Phenergan",
+                "range": [
+                    400,
+                    409
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.998
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "Phenergan",
+                "code": "152218",
+                "cui": "C0591971",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Phenergan",
+                "range": [
+                    400,
+                    409
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.998
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            }
+        ],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "neoplastic polyps",
+                "range": [
+                    43,
+                    60
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.009,
+        "uncertain_count": 1,
+        "narrow_band_ratio": 0.003,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.529,
+                    "punctate",
+                    [
+                        1094,
+                        1102
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "PROBLEM": [
+                    "neoplastic",
+                    [
+                        43,
+                        53
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "polyps",
+                    [
+                        54,
+                        60
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "rectal",
+                    [
+                        94,
+                        100
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "polyps/removed",
+                    [
+                        101,
+                        115
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "headache",
+                    [
+                        434,
+                        442
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "nausea",
+                    [
+                        447,
+                        453
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "PROBLEM": [
+                    0.453,
+                    "neoplastic",
+                    [
+                        43,
+                        53
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.531,
+                    "polyps",
+                    [
+                        54,
+                        60
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.768,
+                    "rectal",
+                    [
+                        94,
+                        100
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.723,
+                    "polyps/removed",
+                    [
+                        101,
+                        115
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.684,
+                    "headache",
+                    [
+                        434,
+                        442
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.635,
+                    "nausea",
+                    [
+                        447,
+                        453
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.083,
+        "uncertain_token_count": 2,
+        "narrow_band_ratio": 0.007,
+        "uncertain_tokens": {
+            "PROBLEM": [
+                [
+                    0.453,
+                    "neoplastic",
+                    [
+                        43,
+                        53
+                    ]
+                ]
+            ],
+            "NA": [
+                [
+                    0.35,
+                    "nausea",
+                    [
+                        355,
+                        361
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

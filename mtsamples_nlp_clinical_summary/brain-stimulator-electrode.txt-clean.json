@@ -1,0 +1,381 @@
+{
+    "file": "brain-stimulator-electrode.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "Marcaine",
+                "code": "1012397",
+                "cui": "C2945665",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Marcaine",
+                "range": [
+                    1298,
+                    1306
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.963
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [
+                    "0.5",
+                    1293,
+                    1296
+                ],
+                "medStrengthUnit": [
+                    "%",
+                    1296,
+                    1297
+                ]
+            },
+            {
+                "text": "Betadine",
+                "code": "202750",
+                "cui": "C0699524",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Betadine",
+                "range": [
+                    2166,
+                    2174
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.948
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "Betadine",
+                "code": "202750",
+                "cui": "C0699524",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Betadine",
+                "range": [
+                    2166,
+                    2174
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.948
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "Betadine",
+                "code": "202750",
+                "cui": "C0699524",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Betadine",
+                "range": [
+                    4430,
+                    4438
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 1.0
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "Betadine",
+                "code": "202750",
+                "cui": "C0699524",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Betadine",
+                "range": [
+                    4430,
+                    4438
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 1.0
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            }
+        ],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "the",
+                "range": [
+                    1472,
+                    1475
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "symptoms",
+                "range": [
+                    3488,
+                    3496
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.011,
+        "uncertain_count": 4,
+        "narrow_band_ratio": 0.005,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.604,
+                    "lidocaine",
+                    [
+                        1314,
+                        1323
+                    ]
+                ],
+                [
+                    0.587,
+                    "antibiotics",
+                    [
+                        1342,
+                        1353
+                    ]
+                ],
+                [
+                    0.584,
+                    "anesthetic",
+                    [
+                        2345,
+                        2355
+                    ]
+                ],
+                [
+                    0.604,
+                    "blade",
+                    [
+                        2951,
+                        2956
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "Tremor",
+                    [
+                        75,
+                        81
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "dystonic",
+                    [
+                        673,
+                        681
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "tremor",
+                    [
+                        682,
+                        688
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "movements",
+                    [
+                        694,
+                        703
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "pin",
+                    [
+                        1259,
+                        1262
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "the",
+                    [
+                        1472,
+                        1475
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "symptoms",
+                    [
+                        3488,
+                        3496
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.786,
+                    "Tremor",
+                    [
+                        75,
+                        81
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.478,
+                    "dystonic",
+                    [
+                        673,
+                        681
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.513,
+                    "tremor",
+                    [
+                        682,
+                        688
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.444,
+                    "movements",
+                    [
+                        694,
+                        703
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.577,
+                    "pin",
+                    [
+                        1259,
+                        1262
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.52,
+                    "symptoms",
+                    [
+                        3488,
+                        3496
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.089,
+        "uncertain_token_count": 6,
+        "narrow_band_ratio": 0.007,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.364,
+                    "Tremor",
+                    [
+                        26,
+                        32
+                    ]
+                ],
+                [
+                    0.489,
+                    "of",
+                    [
+                        3485,
+                        3487
+                    ]
+                ]
+            ],
+            "DIAGNOSIS": [
+                [
+                    0.478,
+                    "dystonic",
+                    [
+                        673,
+                        681
+                    ]
+                ],
+                [
+                    0.513,
+                    "tremor",
+                    [
+                        682,
+                        688
+                    ]
+                ]
+            ],
+            "PROBLEM": [
+                [
+                    0.444,
+                    "movements",
+                    [
+                        694,
+                        703
+                    ]
+                ],
+                [
+                    0.52,
+                    "symptoms",
+                    [
+                        3488,
+                        3496
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

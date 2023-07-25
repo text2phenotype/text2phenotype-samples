@@ -1,0 +1,274 @@
+{
+    "file": "dietary-consult-hyperlipidemia.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "carbohydrates",
+                "code": null,
+                "cui": null,
+                "tui": null,
+                "vocab": null,
+                "polarity": "positive",
+                "preferredText": null,
+                "range": [
+                    1099,
+                    1112
+                ],
+                "prob": {
+                    "MED": 0.902
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            }
+        ],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "hyperlipidemia",
+                "range": [
+                    58,
+                    72
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "55822004",
+                "cui": "C0020473",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Hyperlipidemia"
+            },
+            {
+                "text": "hypertension",
+                "range": [
+                    74,
+                    86
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "38341003",
+                "cui": "C0020538",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Hypertensive disease"
+            },
+            {
+                "text": "metabolic syndrome",
+                "range": [
+                    101,
+                    119
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "237602007",
+                "cui": "C0524620",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Metabolic Syndrome X"
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.017,
+        "uncertain_count": 6,
+        "narrow_band_ratio": 0.012,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.695,
+                    "fat",
+                    [
+                        1265,
+                        1268
+                    ]
+                ],
+                [
+                    0.509,
+                    "protein",
+                    [
+                        1331,
+                        1338
+                    ]
+                ],
+                [
+                    0.637,
+                    "protein",
+                    [
+                        1797,
+                        1804
+                    ]
+                ],
+                [
+                    0.595,
+                    "carbohydrates",
+                    [
+                        1936,
+                        1949
+                    ]
+                ],
+                [
+                    0.544,
+                    "fats",
+                    [
+                        2316,
+                        2320
+                    ]
+                ]
+            ],
+            "MED": [
+                [
+                    0.597,
+                    "fats",
+                    [
+                        2341,
+                        2345
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "hyperlipidemia",
+                    [
+                        58,
+                        72
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "hypertension",
+                    [
+                        74,
+                        86
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "metabolic",
+                    [
+                        101,
+                        110
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "syndrome",
+                    [
+                        111,
+                        119
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "plan",
+                    [
+                        1362,
+                        1366
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.901,
+                    "hyperlipidemia",
+                    [
+                        58,
+                        72
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.979,
+                    "hypertension",
+                    [
+                        74,
+                        86
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.86,
+                    "metabolic",
+                    [
+                        101,
+                        110
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.902,
+                    "syndrome",
+                    [
+                        111,
+                        119
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.543,
+                    "plan",
+                    [
+                        1362,
+                        1366
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.089,
+        "uncertain_token_count": 4,
+        "narrow_band_ratio": 0.008,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.527,
+                    "meal",
+                    [
+                        202,
+                        206
+                    ]
+                ],
+                [
+                    0.468,
+                    "plan",
+                    [
+                        207,
+                        211
+                    ]
+                ],
+                [
+                    0.469,
+                    "gain",
+                    [
+                        518,
+                        522
+                    ]
+                ],
+                [
+                    0.416,
+                    "eating",
+                    [
+                        780,
+                        786
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

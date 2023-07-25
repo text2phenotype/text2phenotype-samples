@@ -1,0 +1,190 @@
+{
+    "file": "coronary-ct-angiography-ccta-5.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "Lopressor",
+                "code": "203344",
+                "cui": "C0700776",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Lopressor",
+                "range": [
+                    132,
+                    141
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.985
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [
+                    "5",
+                    142,
+                    143
+                ],
+                "medStrengthUnit": [
+                    "mg",
+                    144,
+                    146
+                ]
+            },
+            {
+                "text": "Lopressor",
+                "code": "203344",
+                "cui": "C0700776",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Lopressor",
+                "range": [
+                    132,
+                    141
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.985
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [
+                    "5",
+                    142,
+                    143
+                ],
+                "medStrengthUnit": [
+                    "mg",
+                    144,
+                    146
+                ]
+            }
+        ],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "ischemic cardiomyopathy",
+                "range": [
+                    39,
+                    62
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "194849004",
+                "cui": "C0349782",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Ischemic cardiomyopathy"
+            },
+            {
+                "text": "implanted\ndefibrillator",
+                "range": [
+                    67,
+                    90
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.003,
+        "uncertain_count": 0,
+        "narrow_band_ratio": 0.0,
+        "uncertain_tokens": {},
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "ischemic",
+                    [
+                        39,
+                        47
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "cardiomyopathy",
+                    [
+                        48,
+                        62
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "implanted",
+                    [
+                        67,
+                        76
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "defibrillator",
+                    [
+                        77,
+                        90
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.98,
+                    "ischemic",
+                    [
+                        39,
+                        47
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.98,
+                    "cardiomyopathy",
+                    [
+                        48,
+                        62
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.704,
+                    "implanted",
+                    [
+                        67,
+                        76
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.709,
+                    "defibrillator",
+                    [
+                        77,
+                        90
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.048,
+        "uncertain_token_count": 0,
+        "narrow_band_ratio": 0.0,
+        "uncertain_tokens": {},
+        "narrow_band_width": 0.2
+    }
+}

@@ -1,0 +1,875 @@
+{
+    "file": "consult-hydronephrosis.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "metformin",
+                "code": "6809",
+                "cui": "C0025598",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Metformin",
+                "range": [
+                    914,
+                    923
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.995
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [
+                    "day"
+                ],
+                "medStrengthNum": [
+                    "500",
+                    924,
+                    927
+                ],
+                "medStrengthUnit": [
+                    "mg",
+                    928,
+                    930
+                ]
+            },
+            {
+                "text": "metformin",
+                "code": "6809",
+                "cui": "C0025598",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Metformin",
+                "range": [
+                    914,
+                    923
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.995
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [
+                    "day"
+                ],
+                "medStrengthNum": [
+                    "500",
+                    924,
+                    927
+                ],
+                "medStrengthUnit": [
+                    "mg",
+                    928,
+                    930
+                ]
+            }
+        ],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "hydronephrosis",
+                "range": [
+                    25,
+                    39
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "43064006",
+                "cui": "C0020295",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Hydronephrosis"
+            },
+            {
+                "text": "right",
+                "range": [
+                    267,
+                    272
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "dissection",
+                "range": [
+                    330,
+                    340
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "hydronephrosis on the right",
+                "range": [
+                    474,
+                    501
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "43064006",
+                "cui": "C0020295",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Hydronephrosis"
+            },
+            {
+                "text": "of",
+                "range": [
+                    613,
+                    615
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "diabetes",
+                "range": [
+                    797,
+                    805
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "73211009",
+                "cui": "C0011849",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Diabetes Mellitus"
+            },
+            {
+                "text": "hypertension",
+                "range": [
+                    807,
+                    819
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "38341003",
+                "cui": "C0020538",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Hypertensive disease"
+            },
+            {
+                "text": "right hydronephrosis without hydruria",
+                "range": [
+                    1317,
+                    1354
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "of the right kidney",
+                "range": [
+                    1630,
+                    1649
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.004,
+        "uncertain_count": 1,
+        "narrow_band_ratio": 0.002,
+        "uncertain_tokens": {
+            "MED": [
+                [
+                    0.635,
+                    "HCT",
+                    [
+                        892,
+                        895
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "hydronephrosis",
+                    [
+                        25,
+                        39
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "uterine",
+                    [
+                        127,
+                        134
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "cancer",
+                    [
+                        135,
+                        141
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "breast",
+                    [
+                        143,
+                        149
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "cancer",
+                    [
+                        150,
+                        156
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "mesothelioma",
+                    [
+                        158,
+                        170
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "right",
+                    [
+                        267,
+                        272
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "breast",
+                    [
+                        273,
+                        279
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "cancer",
+                    [
+                        280,
+                        286
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "dissection",
+                    [
+                        330,
+                        340
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "hydronephrosis",
+                    [
+                        474,
+                        488
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "on",
+                    [
+                        489,
+                        491
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "the",
+                    [
+                        492,
+                        495
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "right",
+                    [
+                        496,
+                        501
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "obstruction",
+                    [
+                        532,
+                        543
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "of",
+                    [
+                        613,
+                        615
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Uterine",
+                    [
+                        752,
+                        759
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "cancer",
+                    [
+                        760,
+                        766
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "mesothelioma",
+                    [
+                        768,
+                        780
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "breast",
+                    [
+                        782,
+                        788
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "cancer",
+                    [
+                        789,
+                        795
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "diabetes",
+                    [
+                        797,
+                        805
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "hypertension",
+                    [
+                        807,
+                        819
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "right",
+                    [
+                        1317,
+                        1322
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "hydronephrosis",
+                    [
+                        1323,
+                        1337
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "without",
+                    [
+                        1338,
+                        1345
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "hydruria",
+                    [
+                        1346,
+                        1354
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "renal",
+                    [
+                        1615,
+                        1620
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "function",
+                    [
+                        1621,
+                        1629
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "of",
+                    [
+                        1630,
+                        1632
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "the",
+                    [
+                        1633,
+                        1636
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "right",
+                    [
+                        1637,
+                        1642
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "kidney",
+                    [
+                        1643,
+                        1649
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.735,
+                    "hydronephrosis",
+                    [
+                        25,
+                        39
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.927,
+                    "uterine",
+                    [
+                        127,
+                        134
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.936,
+                    "cancer",
+                    [
+                        135,
+                        141
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.888,
+                    "breast",
+                    [
+                        143,
+                        149
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.885,
+                    "cancer",
+                    [
+                        150,
+                        156
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.919,
+                    "mesothelioma",
+                    [
+                        158,
+                        170
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.798,
+                    "right",
+                    [
+                        267,
+                        272
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.918,
+                    "breast",
+                    [
+                        273,
+                        279
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.93,
+                    "cancer",
+                    [
+                        280,
+                        286
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.955,
+                    "hydronephrosis",
+                    [
+                        474,
+                        488
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.773,
+                    "on",
+                    [
+                        489,
+                        491
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.653,
+                    "the",
+                    [
+                        492,
+                        495
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.612,
+                    "right",
+                    [
+                        496,
+                        501
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.555,
+                    "obstruction",
+                    [
+                        532,
+                        543
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.973,
+                    "Uterine",
+                    [
+                        752,
+                        759
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.978,
+                    "cancer",
+                    [
+                        760,
+                        766
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.975,
+                    "mesothelioma",
+                    [
+                        768,
+                        780
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.929,
+                    "breast",
+                    [
+                        782,
+                        788
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.946,
+                    "cancer",
+                    [
+                        789,
+                        795
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.979,
+                    "diabetes",
+                    [
+                        797,
+                        805
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.982,
+                    "hypertension",
+                    [
+                        807,
+                        819
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.855,
+                    "right",
+                    [
+                        1317,
+                        1322
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.926,
+                    "hydronephrosis",
+                    [
+                        1323,
+                        1337
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.706,
+                    "without",
+                    [
+                        1338,
+                        1345
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.62,
+                    "hydruria",
+                    [
+                        1346,
+                        1354
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.449,
+                    "renal",
+                    [
+                        1615,
+                        1620
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.565,
+                    "function",
+                    [
+                        1621,
+                        1629
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.583,
+                    "of",
+                    [
+                        1630,
+                        1632
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.592,
+                    "the",
+                    [
+                        1633,
+                        1636
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.567,
+                    "right",
+                    [
+                        1637,
+                        1642
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.567,
+                    "kidney",
+                    [
+                        1643,
+                        1649
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.14,
+        "uncertain_token_count": 5,
+        "narrow_band_ratio": 0.012,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.449,
+                    "dissection",
+                    [
+                        330,
+                        340
+                    ]
+                ],
+                [
+                    0.51,
+                    "radiation",
+                    [
+                        345,
+                        354
+                    ]
+                ],
+                [
+                    0.525,
+                    "kidney",
+                    [
+                        626,
+                        632
+                    ]
+                ],
+                [
+                    0.514,
+                    "obstruction",
+                    [
+                        1599,
+                        1610
+                    ]
+                ]
+            ],
+            "DIAGNOSIS": [
+                [
+                    0.449,
+                    "renal",
+                    [
+                        1615,
+                        1620
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

@@ -1,0 +1,452 @@
+{
+    "file": "discoid-lupus.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "Plaquenil",
+                "code": "202462",
+                "cui": "C0699177",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Plaquenil",
+                "range": [
+                    2478,
+                    2487
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.997
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "Plaquenil",
+                "code": "202462",
+                "cui": "C0699177",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Plaquenil",
+                "range": [
+                    2478,
+                    2487
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.997
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            }
+        ],
+        "Allergy": [],
+        "Lab": [
+            {
+                "code": "6063",
+                "cui": "C0005910",
+                "tui": "T034",
+                "vocab": "MEDCIN",
+                "polarity": "positive",
+                "text": "weight",
+                "preferredText": "WEIGHT (PHYSICAL FINDING)",
+                "range": [
+                    881,
+                    887
+                ]
+            },
+            {
+                "code": "767002",
+                "cui": "C0023508",
+                "tui": "T034",
+                "vocab": "SNOMEDCT_US",
+                "polarity": "positive",
+                "text": "white blood\ncell count",
+                "preferredText": "WHITE BLOOD CELL COUNT - OBSERVATION",
+                "range": [
+                    2124,
+                    2146
+                ]
+            },
+            {
+                "code": "",
+                "cui": "C0518015",
+                "tui": "T034",
+                "vocab": "LNC",
+                "polarity": "positive",
+                "text": "hemoglobin",
+                "preferredText": "HEMOGLOBIN DETERMINATION (PROCEDURE)",
+                "range": [
+                    2155,
+                    2165
+                ]
+            },
+            {
+                "code": "",
+                "cui": "C0518015",
+                "tui": "T034",
+                "vocab": "LNC",
+                "polarity": "positive",
+                "text": "hemoglobin",
+                "preferredText": "HEMOGLOBIN DETERMINATION (PROCEDURE)",
+                "range": [
+                    2155,
+                    2165
+                ]
+            },
+            {
+                "code": "LP32067-8",
+                "cui": "C0019046",
+                "tui": "T034",
+                "vocab": "LNC",
+                "polarity": "positive",
+                "text": "hemoglobin",
+                "preferredText": "HEMOGLOBIN",
+                "range": [
+                    2155,
+                    2165
+                ]
+            },
+            {
+                "code": "LP32067-8",
+                "cui": "C0019046",
+                "tui": "T034",
+                "vocab": "LNC",
+                "polarity": "positive",
+                "text": "hemoglobin",
+                "preferredText": "HEMOGLOBIN",
+                "range": [
+                    2155,
+                    2165
+                ]
+            },
+            {
+                "code": "",
+                "cui": "C0032181",
+                "tui": "T034",
+                "vocab": "LNC",
+                "polarity": "positive",
+                "text": "platelet count",
+                "preferredText": "PLATELET NUMBERS, BLOOD",
+                "range": [
+                    2175,
+                    2189
+                ]
+            }
+        ],
+        "DiseaseDisorder": [
+            {
+                "text": "discoid lupus",
+                "range": [
+                    119,
+                    132
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "systemic lupus",
+                "range": [
+                    249,
+                    263
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "lupus",
+                "range": [
+                    2350,
+                    2355
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "200936003",
+                "cui": "C0409974",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Lupus Erythematosus"
+            },
+            {
+                "text": "acanthosis\nnigricans",
+                "range": [
+                    2593,
+                    2613
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "72129000",
+                "cui": "C0000889",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Acanthosis Nigricans"
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.006,
+        "uncertain_count": 3,
+        "narrow_band_ratio": 0.005,
+        "uncertain_tokens": {
+            "MED": [
+                [
+                    0.586,
+                    "cream",
+                    [
+                        502,
+                        507
+                    ]
+                ],
+                [
+                    0.7,
+                    "Protopic",
+                    [
+                        2423,
+                        2431
+                    ]
+                ]
+            ],
+            "NA": [
+                [
+                    0.69,
+                    "antinuclear",
+                    [
+                        2266,
+                        2277
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "discoid",
+                    [
+                        119,
+                        126
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "lupus",
+                    [
+                        127,
+                        132
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "conditions",
+                    [
+                        172,
+                        182
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "systemic",
+                    [
+                        249,
+                        257
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "lupus",
+                    [
+                        258,
+                        263
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "lupus",
+                    [
+                        2350,
+                        2355
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "gaining",
+                    [
+                        2574,
+                        2581
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "acanthosis",
+                    [
+                        2593,
+                        2603
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "nigricans",
+                    [
+                        2604,
+                        2613
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.866,
+                    "discoid",
+                    [
+                        119,
+                        126
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.881,
+                    "lupus",
+                    [
+                        127,
+                        132
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.6,
+                    "conditions",
+                    [
+                        172,
+                        182
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.67,
+                    "systemic",
+                    [
+                        249,
+                        257
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.806,
+                    "lupus",
+                    [
+                        258,
+                        263
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.606,
+                    "lupus",
+                    [
+                        2350,
+                        2355
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.454,
+                    "acanthosis",
+                    [
+                        2593,
+                        2603
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.482,
+                    "nigricans",
+                    [
+                        2604,
+                        2613
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.074,
+        "uncertain_token_count": 5,
+        "narrow_band_ratio": 0.009,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.506,
+                    "discoid",
+                    [
+                        2342,
+                        2349
+                    ]
+                ],
+                [
+                    0.414,
+                    "regimen",
+                    [
+                        2384,
+                        2391
+                    ]
+                ],
+                [
+                    0.456,
+                    "gaining",
+                    [
+                        2574,
+                        2581
+                    ]
+                ]
+            ],
+            "PROBLEM": [
+                [
+                    0.454,
+                    "acanthosis",
+                    [
+                        2593,
+                        2603
+                    ]
+                ],
+                [
+                    0.482,
+                    "nigricans",
+                    [
+                        2604,
+                        2613
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

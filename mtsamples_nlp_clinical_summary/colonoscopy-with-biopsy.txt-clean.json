@@ -1,0 +1,502 @@
+{
+    "file": "colonoscopy-with-biopsy.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "Versed",
+                "code": "11177",
+                "cui": "C0042553",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Versed",
+                "range": [
+                    515,
+                    521
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.996
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [
+                    "75",
+                    526,
+                    528
+                ],
+                "medStrengthUnit": [
+                    "mg",
+                    529,
+                    531
+                ]
+            },
+            {
+                "text": "Versed",
+                "code": "11177",
+                "cui": "C0042553",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Versed",
+                "range": [
+                    515,
+                    521
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.996
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [
+                    "75",
+                    526,
+                    528
+                ],
+                "medStrengthUnit": [
+                    "mg",
+                    529,
+                    531
+                ]
+            },
+            {
+                "text": "Demerol",
+                "code": "282381",
+                "cui": "C0935966",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Demerol",
+                "range": [
+                    535,
+                    542
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.959
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "Demerol",
+                "code": "282381",
+                "cui": "C0935966",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Demerol",
+                "range": [
+                    535,
+                    542
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.959
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            }
+        ],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "infection",
+                "range": [
+                    313,
+                    322
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "189822004",
+                "cui": "C0009450",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Communicable Diseases"
+            },
+            {
+                "text": "of medication",
+                "range": [
+                    354,
+                    367
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "colon",
+                "range": [
+                    1217,
+                    1222
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "10743008",
+                "cui": "C0022104",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Irritable Bowel Syndrome"
+            },
+            {
+                "text": "diverticular changes",
+                "range": [
+                    1247,
+                    1267
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "internal hemorrhoids",
+                "range": [
+                    1298,
+                    1318
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "90458007",
+                "cui": "C0265034",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Internal hemorrhoids"
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.009,
+        "uncertain_count": 0,
+        "narrow_band_ratio": 0.0,
+        "uncertain_tokens": {},
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "infection",
+                    [
+                        313,
+                        322
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "perforation",
+                    [
+                        324,
+                        335
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "adverse",
+                    [
+                        337,
+                        344
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "reaction",
+                    [
+                        345,
+                        353
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "of",
+                    [
+                        354,
+                        356
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "medication",
+                    [
+                        357,
+                        367
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "bleeding",
+                    [
+                        373,
+                        381
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "colon",
+                    [
+                        1217,
+                        1222
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "diverticular",
+                    [
+                        1247,
+                        1259
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "changes",
+                    [
+                        1260,
+                        1267
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "internal",
+                    [
+                        1298,
+                        1306
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "hemorrhoids",
+                    [
+                        1307,
+                        1318
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.708,
+                    "infection",
+                    [
+                        313,
+                        322
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.689,
+                    "perforation",
+                    [
+                        324,
+                        335
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.399,
+                    "adverse",
+                    [
+                        337,
+                        344
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.396,
+                    "reaction",
+                    [
+                        345,
+                        353
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.439,
+                    "of",
+                    [
+                        354,
+                        356
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.483,
+                    "medication",
+                    [
+                        357,
+                        367
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.545,
+                    "bleeding",
+                    [
+                        373,
+                        381
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.463,
+                    "spastic",
+                    [
+                        1209,
+                        1216
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.669,
+                    "colon",
+                    [
+                        1217,
+                        1222
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.413,
+                    "diverticular",
+                    [
+                        1247,
+                        1259
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.945,
+                    "internal",
+                    [
+                        1298,
+                        1306
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.963,
+                    "hemorrhoids",
+                    [
+                        1307,
+                        1318
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.137,
+        "uncertain_token_count": 9,
+        "narrow_band_ratio": 0.036,
+        "uncertain_tokens": {
+            "DIAGNOSIS": [
+                [
+                    0.399,
+                    "adverse",
+                    [
+                        337,
+                        344
+                    ]
+                ],
+                [
+                    0.396,
+                    "reaction",
+                    [
+                        345,
+                        353
+                    ]
+                ],
+                [
+                    0.439,
+                    "of",
+                    [
+                        354,
+                        356
+                    ]
+                ],
+                [
+                    0.483,
+                    "medication",
+                    [
+                        357,
+                        367
+                    ]
+                ],
+                [
+                    0.463,
+                    "spastic",
+                    [
+                        1209,
+                        1216
+                    ]
+                ],
+                [
+                    0.413,
+                    "diverticular",
+                    [
+                        1247,
+                        1259
+                    ]
+                ]
+            ],
+            "NA": [
+                [
+                    0.48,
+                    ",",
+                    [
+                        367,
+                        368
+                    ]
+                ],
+                [
+                    0.503,
+                    "and",
+                    [
+                        369,
+                        372
+                    ]
+                ],
+                [
+                    0.39,
+                    "changes",
+                    [
+                        1260,
+                        1267
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

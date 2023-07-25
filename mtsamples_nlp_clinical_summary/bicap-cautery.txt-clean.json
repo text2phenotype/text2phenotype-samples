@@ -1,0 +1,687 @@
+{
+    "file": "bicap-cautery.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "Demerol",
+                "code": "282381",
+                "cui": "C0935966",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Demerol",
+                "range": [
+                    318,
+                    325
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.999
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "Demerol",
+                "code": "282381",
+                "cui": "C0935966",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Demerol",
+                "range": [
+                    318,
+                    325
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.999
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "proton",
+                "code": null,
+                "cui": null,
+                "tui": null,
+                "vocab": null,
+                "polarity": "positive",
+                "preferredText": null,
+                "range": [
+                    1051,
+                    1057
+                ],
+                "prob": {
+                    "MED": 0.997
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "pump",
+                "code": null,
+                "cui": null,
+                "tui": null,
+                "vocab": null,
+                "polarity": "positive",
+                "preferredText": null,
+                "range": [
+                    1058,
+                    1062
+                ],
+                "prob": {
+                    "MED": 0.992
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            }
+        ],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "in",
+                "range": [
+                    38,
+                    40
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "longstanding\ndiabetes",
+                "range": [
+                    56,
+                    77
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "Mallory-Weiss tear",
+                "range": [
+                    105,
+                    123
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "307131005",
+                "cui": "C0024633",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Mallory-Weiss Syndrome"
+            },
+            {
+                "text": "trauma",
+                "range": [
+                    163,
+                    169
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "19130008",
+                "cui": "C3714660",
+                "tui": "T037",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Trauma"
+            },
+            {
+                "text": "and grade 2 esophagitis",
+                "range": [
+                    184,
+                    207
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "Mallory-Weiss tear",
+                "range": [
+                    577,
+                    595
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "307131005",
+                "cui": "C0024633",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Mallory-Weiss Syndrome"
+            },
+            {
+                "text": "trauma from",
+                "range": [
+                    740,
+                    751
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "19130008",
+                "cui": "C3714660",
+                "tui": "T037",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Trauma"
+            },
+            {
+                "text": "Mallory-Weiss tear",
+                "range": [
+                    976,
+                    994
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "307131005",
+                "cui": "C0024633",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Mallory-Weiss Syndrome"
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.018,
+        "uncertain_count": 3,
+        "narrow_band_ratio": 0.016,
+        "uncertain_tokens": {
+            "MED": [
+                [
+                    0.674,
+                    "Versed",
+                    [
+                        308,
+                        314
+                    ]
+                ],
+                [
+                    0.632,
+                    "spray",
+                    [
+                        351,
+                        356
+                    ]
+                ]
+            ],
+            "NA": [
+                [
+                    0.638,
+                    "antiemetics",
+                    [
+                        1102,
+                        1113
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "Hematemesis",
+                    [
+                        26,
+                        37
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "in",
+                    [
+                        38,
+                        40
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "longstanding",
+                    [
+                        56,
+                        68
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "diabetes",
+                    [
+                        69,
+                        77
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Mallory-Weiss",
+                    [
+                        105,
+                        118
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "tear",
+                    [
+                        119,
+                        123
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "trauma",
+                    [
+                        163,
+                        169
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "vomiting",
+                    [
+                        175,
+                        183
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "and",
+                    [
+                        184,
+                        187
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "grade",
+                    [
+                        188,
+                        193
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "2",
+                    [
+                        194,
+                        195
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "esophagitis",
+                    [
+                        196,
+                        207
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Mallory-Weiss",
+                    [
+                        577,
+                        590
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "tear",
+                    [
+                        591,
+                        595
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "submucosal",
+                    [
+                        702,
+                        712
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "hemorrhage",
+                    [
+                        713,
+                        723
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "trauma",
+                    [
+                        740,
+                        746
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "from",
+                    [
+                        747,
+                        751
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "vomiting",
+                    [
+                        752,
+                        760
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Mallory-Weiss",
+                    [
+                        976,
+                        989
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "tear",
+                    [
+                        990,
+                        994
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.734,
+                    "Hematemesis",
+                    [
+                        26,
+                        37
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.552,
+                    "in",
+                    [
+                        38,
+                        40
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.598,
+                    "longstanding",
+                    [
+                        56,
+                        68
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.563,
+                    "diabetes",
+                    [
+                        69,
+                        77
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.902,
+                    "Mallory-Weiss",
+                    [
+                        105,
+                        118
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.957,
+                    "tear",
+                    [
+                        119,
+                        123
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.799,
+                    "trauma",
+                    [
+                        163,
+                        169
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.883,
+                    "vomiting",
+                    [
+                        175,
+                        183
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.707,
+                    "and",
+                    [
+                        184,
+                        187
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.974,
+                    "grade",
+                    [
+                        188,
+                        193
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.901,
+                    "2",
+                    [
+                        194,
+                        195
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.973,
+                    "esophagitis",
+                    [
+                        196,
+                        207
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.641,
+                    "Mallory-Weiss",
+                    [
+                        577,
+                        590
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.663,
+                    "tear",
+                    [
+                        591,
+                        595
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.548,
+                    "submucosal",
+                    [
+                        702,
+                        712
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.593,
+                    "hemorrhage",
+                    [
+                        713,
+                        723
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.493,
+                    "trauma",
+                    [
+                        740,
+                        746
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.439,
+                    "from",
+                    [
+                        747,
+                        751
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.642,
+                    "vomiting",
+                    [
+                        752,
+                        760
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.915,
+                    "Mallory-Weiss",
+                    [
+                        976,
+                        989
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.922,
+                    "tear",
+                    [
+                        990,
+                        994
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.143,
+        "uncertain_token_count": 4,
+        "narrow_band_ratio": 0.021,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.457,
+                    "consistent",
+                    [
+                        724,
+                        734
+                    ]
+                ],
+                [
+                    0.459,
+                    "with",
+                    [
+                        735,
+                        739
+                    ]
+                ]
+            ],
+            "DIAGNOSIS": [
+                [
+                    0.493,
+                    "trauma",
+                    [
+                        740,
+                        746
+                    ]
+                ]
+            ],
+            "PROBLEM": [
+                [
+                    0.439,
+                    "from",
+                    [
+                        747,
+                        751
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

@@ -1,0 +1,354 @@
+{
+    "file": "revocation-admission.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "gemfibrozil",
+                "code": "4719",
+                "cui": "C0017245",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Gemfibrozil",
+                "range": [
+                    721,
+                    732
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.997
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "gemfibrozil",
+                "code": "4719",
+                "cui": "C0017245",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Gemfibrozil",
+                "range": [
+                    721,
+                    732
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.997
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "gemfibrozil",
+                "code": "4719",
+                "cui": "C0017245",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Gemfibrozil",
+                "range": [
+                    2953,
+                    2964
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.983
+                },
+                "medFrequencyNumber": [
+                    "2.0"
+                ],
+                "medFrequencyUnit": [
+                    "day"
+                ],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "gemfibrozil",
+                "code": "4719",
+                "cui": "C0017245",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Gemfibrozil",
+                "range": [
+                    2953,
+                    2964
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.983
+                },
+                "medFrequencyNumber": [
+                    "2.0"
+                ],
+                "medFrequencyUnit": [
+                    "day"
+                ],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            }
+        ],
+        "Allergy": [],
+        "Lab": [
+            {
+                "code": "272170001",
+                "cui": "C0023516",
+                "tui": "T034",
+                "vocab": "SNOMEDCT_US",
+                "polarity": "positive",
+                "text": "white count",
+                "preferredText": "WHITE BLOOD CELL (CELL)",
+                "range": [
+                    2708,
+                    2719
+                ]
+            }
+        ],
+        "DiseaseDisorder": [
+            {
+                "text": "hyperlipidemia",
+                "range": [
+                    701,
+                    715
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "55822004",
+                "cui": "C0020473",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Hyperlipidemia"
+            },
+            {
+                "text": "hyperlipidemia",
+                "range": [
+                    2888,
+                    2902
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "55822004",
+                "cui": "C0020473",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Hyperlipidemia"
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.015,
+        "uncertain_count": 8,
+        "narrow_band_ratio": 0.013,
+        "uncertain_tokens": {
+            "MED": [
+                [
+                    0.604,
+                    "medications",
+                    [
+                        161,
+                        172
+                    ]
+                ],
+                [
+                    0.556,
+                    "medications",
+                    [
+                        194,
+                        205
+                    ]
+                ],
+                [
+                    0.652,
+                    "Invega",
+                    [
+                        544,
+                        550
+                    ]
+                ],
+                [
+                    0.539,
+                    "Risperdal",
+                    [
+                        555,
+                        564
+                    ]
+                ],
+                [
+                    0.564,
+                    "medications",
+                    [
+                        2024,
+                        2035
+                    ]
+                ]
+            ],
+            "NA": [
+                [
+                    0.533,
+                    "medications",
+                    [
+                        782,
+                        793
+                    ]
+                ],
+                [
+                    0.668,
+                    "although",
+                    [
+                        1897,
+                        1905
+                    ]
+                ],
+                [
+                    0.637,
+                    "fluids",
+                    [
+                        2856,
+                        2862
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "schizophrenia",
+                    [
+                        405,
+                        418
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "hyperlipidemia",
+                    [
+                        701,
+                        715
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "drug",
+                    [
+                        1336,
+                        1340
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "use",
+                    [
+                        1341,
+                        1344
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "hyperlipidemia",
+                    [
+                        2888,
+                        2902
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.609,
+                    "schizophrenia",
+                    [
+                        405,
+                        418
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.896,
+                    "hyperlipidemia",
+                    [
+                        701,
+                        715
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.708,
+                    "drug",
+                    [
+                        1336,
+                        1340
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.694,
+                    "use",
+                    [
+                        1341,
+                        1344
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.97,
+                    "hyperlipidemia",
+                    [
+                        2888,
+                        2902
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.04,
+        "uncertain_token_count": 3,
+        "narrow_band_ratio": 0.005,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.367,
+                    "hallucinations",
+                    [
+                        298,
+                        312
+                    ]
+                ],
+                [
+                    0.458,
+                    "confusion",
+                    [
+                        317,
+                        326
+                    ]
+                ],
+                [
+                    0.493,
+                    "recreational",
+                    [
+                        1323,
+                        1335
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

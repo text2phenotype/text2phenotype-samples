@@ -1,0 +1,292 @@
+{
+    "file": "colonoscopy-22.txt-clean.txt",
+    "text2summary": {
+        "Medication": [],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "hypertension",
+                "range": [
+                    242,
+                    254
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "38341003",
+                "cui": "C0020538",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Hypertensive disease"
+            },
+            {
+                "text": "dyslipidemia",
+                "range": [
+                    256,
+                    268
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "370992007",
+                "cui": "C0242339",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Dyslipidemias"
+            },
+            {
+                "text": "gastroesophageal reflux",
+                "range": [
+                    274,
+                    297
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "Diverticulosis",
+                "range": [
+                    463,
+                    477
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "63532004",
+                "cui": "C1510475",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Diverticulosis"
+            },
+            {
+                "text": "the",
+                "range": [
+                    1264,
+                    1267
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "diverticulosis",
+                "range": [
+                    1658,
+                    1672
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "63532004",
+                "cui": "C1510475",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Diverticulosis"
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.003,
+        "uncertain_count": 0,
+        "narrow_band_ratio": 0.0,
+        "uncertain_tokens": {},
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "PROBLEM": [
+                    "movements",
+                    [
+                        156,
+                        165
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "hypertension",
+                    [
+                        242,
+                        254
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "dyslipidemia",
+                    [
+                        256,
+                        268
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "gastroesophageal",
+                    [
+                        274,
+                        290
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "reflux",
+                    [
+                        291,
+                        297
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "disease",
+                    [
+                        298,
+                        305
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Diverticulosis",
+                    [
+                        463,
+                        477
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "the",
+                    [
+                        1264,
+                        1267
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "diverticulosis",
+                    [
+                        1658,
+                        1672
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.952,
+                    "hypertension",
+                    [
+                        242,
+                        254
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.963,
+                    "dyslipidemia",
+                    [
+                        256,
+                        268
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.917,
+                    "gastroesophageal",
+                    [
+                        274,
+                        290
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.937,
+                    "reflux",
+                    [
+                        291,
+                        297
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.949,
+                    "disease",
+                    [
+                        298,
+                        305
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.723,
+                    "Diverticulosis",
+                    [
+                        463,
+                        477
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.489,
+                    "the",
+                    [
+                        1264,
+                        1267
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.831,
+                    "diverticulosis",
+                    [
+                        1658,
+                        1672
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.076,
+        "uncertain_token_count": 2,
+        "narrow_band_ratio": 0.006,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.502,
+                    "movements",
+                    [
+                        156,
+                        165
+                    ]
+                ]
+            ],
+            "DIAGNOSIS": [
+                [
+                    0.489,
+                    "the",
+                    [
+                        1264,
+                        1267
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

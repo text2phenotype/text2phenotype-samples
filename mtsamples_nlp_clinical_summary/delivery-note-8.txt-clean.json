@@ -1,0 +1,457 @@
+{
+    "file": "delivery-note-8.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "Cytotec",
+                "code": "151578",
+                "cui": "C0591321",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Cytotec",
+                "range": [
+                    538,
+                    545
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 1.0
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [
+                    "day"
+                ],
+                "medStrengthNum": [
+                    "25",
+                    546,
+                    548
+                ],
+                "medStrengthUnit": [
+                    "mcg",
+                    549,
+                    552
+                ]
+            },
+            {
+                "text": "Cytotec",
+                "code": "151578",
+                "cui": "C0591321",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Cytotec",
+                "range": [
+                    538,
+                    545
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 1.0
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [
+                    "day"
+                ],
+                "medStrengthNum": [
+                    "25",
+                    546,
+                    548
+                ],
+                "medStrengthUnit": [
+                    "mcg",
+                    549,
+                    552
+                ]
+            }
+        ],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "cervix",
+                "range": [
+                    768,
+                    774
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "intrauterine",
+                "range": [
+                    880,
+                    892
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "catheter",
+                "range": [
+                    902,
+                    910
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "group B",
+                "range": [
+                    1074,
+                    1081
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "suctioning was performed at",
+                "range": [
+                    1455,
+                    1482
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.004,
+        "uncertain_count": 0,
+        "narrow_band_ratio": 0.0,
+        "uncertain_tokens": {},
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "cervix",
+                    [
+                        768,
+                        774
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "membranes",
+                    [
+                        810,
+                        819
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Meconium-stained",
+                    [
+                        838,
+                        854
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "amniotic",
+                    [
+                        855,
+                        863
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "fluid",
+                    [
+                        864,
+                        869
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "intrauterine",
+                    [
+                        880,
+                        892
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "pressure",
+                    [
+                        893,
+                        901
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "catheter",
+                    [
+                        902,
+                        910
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "group",
+                    [
+                        1074,
+                        1079
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "B",
+                    [
+                        1080,
+                        1081
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "suctioning",
+                    [
+                        1455,
+                        1465
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "was",
+                    [
+                        1466,
+                        1469
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "performed",
+                    [
+                        1470,
+                        1479
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "at",
+                    [
+                        1480,
+                        1482
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.45,
+                    "membranes",
+                    [
+                        810,
+                        819
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.726,
+                    "Meconium-stained",
+                    [
+                        838,
+                        854
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.702,
+                    "amniotic",
+                    [
+                        855,
+                        863
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.691,
+                    "fluid",
+                    [
+                        864,
+                        869
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.624,
+                    "intrauterine",
+                    [
+                        880,
+                        892
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.647,
+                    "pressure",
+                    [
+                        893,
+                        901
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.613,
+                    "catheter",
+                    [
+                        902,
+                        910
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.648,
+                    "group",
+                    [
+                        1074,
+                        1079
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.722,
+                    "B",
+                    [
+                        1080,
+                        1081
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.563,
+                    "suctioning",
+                    [
+                        1455,
+                        1465
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.555,
+                    "was",
+                    [
+                        1466,
+                        1469
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.557,
+                    "performed",
+                    [
+                        1470,
+                        1479
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.517,
+                    "at",
+                    [
+                        1480,
+                        1482
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.159,
+        "uncertain_token_count": 5,
+        "narrow_band_ratio": 0.015,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.506,
+                    "contractions",
+                    [
+                        614,
+                        626
+                    ]
+                ],
+                [
+                    0.449,
+                    "cervix",
+                    [
+                        768,
+                        774
+                    ]
+                ],
+                [
+                    0.485,
+                    "rupture",
+                    [
+                        799,
+                        806
+                    ]
+                ]
+            ],
+            "DIAGNOSIS": [
+                [
+                    0.45,
+                    "membranes",
+                    [
+                        810,
+                        819
+                    ]
+                ],
+                [
+                    0.517,
+                    "at",
+                    [
+                        1480,
+                        1482
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

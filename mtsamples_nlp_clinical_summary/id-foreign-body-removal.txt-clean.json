@@ -1,0 +1,443 @@
+{
+    "file": "id-foreign-body-removal.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "Tylenol",
+                "code": "202433",
+                "cui": "C0699142",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Tylenol",
+                "range": [
+                    2673,
+                    2680
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.999
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [
+                    "day"
+                ],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "Tylenol",
+                "code": "202433",
+                "cui": "C0699142",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Tylenol",
+                "range": [
+                    2673,
+                    2680
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.999
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [
+                    "day"
+                ],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "codeine",
+                "code": "2670",
+                "cui": "C0009214",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Codeine",
+                "range": [
+                    2694,
+                    2701
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.981
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "codeine",
+                "code": "2670",
+                "cui": "C0009214",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Codeine",
+                "range": [
+                    2694,
+                    2701
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.981
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            }
+        ],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "Foreign body",
+                "range": [
+                    26,
+                    38
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "19227008",
+                "cui": "C0016542",
+                "tui": "T037",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Foreign Bodies"
+            },
+            {
+                "text": "right",
+                "range": [
+                    40,
+                    45
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "Foreign body",
+                "range": [
+                    78,
+                    90
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "19227008",
+                "cui": "C0016542",
+                "tui": "T037",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Foreign Bodies"
+            },
+            {
+                "text": "right foot",
+                "range": [
+                    92,
+                    102
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "angle",
+                "range": [
+                    356,
+                    361
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "foreign",
+                "range": [
+                    1583,
+                    1590
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.003,
+        "uncertain_count": 1,
+        "narrow_band_ratio": 0.002,
+        "uncertain_tokens": {
+            "MED": [
+                [
+                    0.535,
+                    "sponge",
+                    [
+                        1012,
+                        1018
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "Foreign",
+                    [
+                        26,
+                        33
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "body",
+                    [
+                        34,
+                        38
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "right",
+                    [
+                        40,
+                        45
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Foreign",
+                    [
+                        78,
+                        85
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "body",
+                    [
+                        86,
+                        90
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    ",",
+                    [
+                        90,
+                        91
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "right",
+                    [
+                        92,
+                        97
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "foot",
+                    [
+                        98,
+                        102
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "angle",
+                    [
+                        356,
+                        361
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "foreign",
+                    [
+                        1583,
+                        1590
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.926,
+                    "Foreign",
+                    [
+                        26,
+                        33
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.904,
+                    "body",
+                    [
+                        34,
+                        38
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.491,
+                    ",",
+                    [
+                        38,
+                        39
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.48,
+                    "right",
+                    [
+                        40,
+                        45
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.984,
+                    "Foreign",
+                    [
+                        78,
+                        85
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.986,
+                    "body",
+                    [
+                        86,
+                        90
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.924,
+                    ",",
+                    [
+                        90,
+                        91
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.926,
+                    "right",
+                    [
+                        92,
+                        97
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.866,
+                    "foot",
+                    [
+                        98,
+                        102
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.564,
+                    "foreign",
+                    [
+                        1583,
+                        1590
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.116,
+        "uncertain_token_count": 5,
+        "narrow_band_ratio": 0.01,
+        "uncertain_tokens": {
+            "DIAGNOSIS": [
+                [
+                    0.491,
+                    ",",
+                    [
+                        38,
+                        39
+                    ]
+                ],
+                [
+                    0.48,
+                    "right",
+                    [
+                        40,
+                        45
+                    ]
+                ]
+            ],
+            "NA": [
+                [
+                    0.465,
+                    "foot",
+                    [
+                        46,
+                        50
+                    ]
+                ],
+                [
+                    0.465,
+                    "erythema",
+                    [
+                        1067,
+                        1075
+                    ]
+                ],
+                [
+                    0.43,
+                    "body",
+                    [
+                        1591,
+                        1595
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

@@ -1,0 +1,510 @@
+{
+    "file": "transesophageal-echocardiogram-1.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "lidocaine",
+                "code": "6387",
+                "cui": "C0023660",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Lidocaine",
+                "range": [
+                    235,
+                    244
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 1.0
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "lidocaine",
+                "code": "6387",
+                "cui": "C0023660",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Lidocaine",
+                "range": [
+                    235,
+                    244
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 1.0
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            }
+        ],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "Aortic stenosis",
+                "range": [
+                    14,
+                    29
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "60573004",
+                "cui": "C0003507",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Aortic Valve Stenosis"
+            },
+            {
+                "text": "Aorta essentially",
+                "range": [
+                    1042,
+                    1059
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "planimetry valve",
+                "range": [
+                    1086,
+                    1102
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "aortic stenosis",
+                "range": [
+                    1155,
+                    1170
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "60573004",
+                "cui": "C0003507",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Aortic Valve Stenosis"
+            },
+            {
+                "text": "function",
+                "range": [
+                    1220,
+                    1228
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "Doppler flow pattern",
+                "range": [
+                    1242,
+                    1262
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.008,
+        "uncertain_count": 1,
+        "narrow_band_ratio": 0.004,
+        "uncertain_tokens": {
+            "MED": [
+                [
+                    0.641,
+                    "Subsequently",
+                    [
+                        252,
+                        264
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "Aortic",
+                    [
+                        14,
+                        20
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "stenosis",
+                    [
+                        21,
+                        29
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Atrial",
+                    [
+                        956,
+                        962
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Aorta",
+                    [
+                        1042,
+                        1047
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "essentially",
+                    [
+                        1048,
+                        1059
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "planimetry",
+                    [
+                        1086,
+                        1096
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "valve",
+                    [
+                        1097,
+                        1102
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "aortic",
+                    [
+                        1155,
+                        1161
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "stenosis",
+                    [
+                        1162,
+                        1170
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "function",
+                    [
+                        1220,
+                        1228
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Doppler",
+                    [
+                        1242,
+                        1249
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "flow",
+                    [
+                        1250,
+                        1254
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "pattern",
+                    [
+                        1255,
+                        1262
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.933,
+                    "Aortic",
+                    [
+                        14,
+                        20
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.886,
+                    "stenosis",
+                    [
+                        21,
+                        29
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.564,
+                    "Atrial",
+                    [
+                        956,
+                        962
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.67,
+                    "Aorta",
+                    [
+                        1042,
+                        1047
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.433,
+                    "essentially",
+                    [
+                        1048,
+                        1059
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.388,
+                    "planimetry",
+                    [
+                        1086,
+                        1096
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.822,
+                    "aortic",
+                    [
+                        1155,
+                        1161
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.86,
+                    "stenosis",
+                    [
+                        1162,
+                        1170
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.388,
+                    "function",
+                    [
+                        1220,
+                        1228
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.403,
+                    "Doppler",
+                    [
+                        1242,
+                        1249
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.397,
+                    "flow",
+                    [
+                        1250,
+                        1254
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.515,
+                    "pattern",
+                    [
+                        1255,
+                        1262
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.21,
+        "uncertain_token_count": 13,
+        "narrow_band_ratio": 0.057,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.496,
+                    "excursion",
+                    [
+                        870,
+                        879
+                    ]
+                ],
+                [
+                    0.396,
+                    "septum",
+                    [
+                        963,
+                        969
+                    ]
+                ],
+                [
+                    0.388,
+                    "benign",
+                    [
+                        1060,
+                        1066
+                    ]
+                ],
+                [
+                    0.48,
+                    "valve",
+                    [
+                        1080,
+                        1085
+                    ]
+                ],
+                [
+                    0.371,
+                    "valve",
+                    [
+                        1097,
+                        1102
+                    ]
+                ],
+                [
+                    0.49,
+                    "valve",
+                    [
+                        1276,
+                        1281
+                    ]
+                ],
+                [
+                    0.505,
+                    "cm2",
+                    [
+                        1294,
+                        1297
+                    ]
+                ]
+            ],
+            "DIAGNOSIS": [
+                [
+                    0.433,
+                    "essentially",
+                    [
+                        1048,
+                        1059
+                    ]
+                ],
+                [
+                    0.403,
+                    "Doppler",
+                    [
+                        1242,
+                        1249
+                    ]
+                ],
+                [
+                    0.397,
+                    "flow",
+                    [
+                        1250,
+                        1254
+                    ]
+                ],
+                [
+                    0.515,
+                    "pattern",
+                    [
+                        1255,
+                        1262
+                    ]
+                ]
+            ],
+            "PROBLEM": [
+                [
+                    0.388,
+                    "planimetry",
+                    [
+                        1086,
+                        1096
+                    ]
+                ],
+                [
+                    0.388,
+                    "function",
+                    [
+                        1220,
+                        1228
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

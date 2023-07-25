@@ -1,0 +1,666 @@
+{
+    "file": "angina.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "nitroglycerin",
+                "code": "4917",
+                "cui": "C0017887",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Nitroglycerin",
+                "range": [
+                    2306,
+                    2319
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.926
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "nitroglycerin",
+                "code": "4917",
+                "cui": "C0017887",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Nitroglycerin",
+                "range": [
+                    2306,
+                    2319
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.926
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "nitroglycerin",
+                "code": "4917",
+                "cui": "C0017887",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Nitroglycerin",
+                "range": [
+                    2411,
+                    2424
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.999
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "nitroglycerin",
+                "code": "4917",
+                "cui": "C0017887",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Nitroglycerin",
+                "range": [
+                    2411,
+                    2424
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.999
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            }
+        ],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "heart",
+                "range": [
+                    54,
+                    59
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "breast",
+                "range": [
+                    168,
+                    174
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "heavy meals",
+                "range": [
+                    230,
+                    241
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "heart",
+                "range": [
+                    347,
+                    352
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "anemia",
+                "range": [
+                    596,
+                    602
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "271737000",
+                "cui": "C0002871",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Anemia"
+            },
+            {
+                "text": "emotional",
+                "range": [
+                    1711,
+                    1720
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.012,
+        "uncertain_count": 2,
+        "narrow_band_ratio": 0.004,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.561,
+                    "Nitroglycerin",
+                    [
+                        1231,
+                        1244
+                    ]
+                ]
+            ],
+            "MED": [
+                [
+                    0.589,
+                    "tablet",
+                    [
+                        2320,
+                        2326
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "ANGINA",
+                    [
+                        2,
+                        8
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "chest",
+                    [
+                        12,
+                        17
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "pain",
+                    [
+                        18,
+                        22
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "heart",
+                    [
+                        54,
+                        59
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "breast",
+                    [
+                        168,
+                        174
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "emotional",
+                    [
+                        194,
+                        203
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "stress",
+                    [
+                        204,
+                        210
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "eating",
+                    [
+                        223,
+                        229
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "heavy",
+                    [
+                        230,
+                        235
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "meals",
+                    [
+                        236,
+                        241
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "heart",
+                    [
+                        347,
+                        352
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "anemia",
+                    [
+                        596,
+                        602
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "angina",
+                    [
+                        631,
+                        637
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "pressure",
+                    [
+                        903,
+                        911
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "aching",
+                    [
+                        913,
+                        919
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "emotional",
+                    [
+                        1711,
+                        1720
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.764,
+                    "ANGINA",
+                    [
+                        2,
+                        8
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.889,
+                    "chest",
+                    [
+                        12,
+                        17
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.737,
+                    "pain",
+                    [
+                        18,
+                        22
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.463,
+                    "oxygen",
+                    [
+                        40,
+                        46
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.461,
+                    "the",
+                    [
+                        50,
+                        53
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.479,
+                    "heart",
+                    [
+                        54,
+                        59
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.524,
+                    "breast",
+                    [
+                        168,
+                        174
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.63,
+                    "emotional",
+                    [
+                        194,
+                        203
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.635,
+                    "stress",
+                    [
+                        204,
+                        210
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.514,
+                    "eating",
+                    [
+                        223,
+                        229
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.467,
+                    "heavy",
+                    [
+                        230,
+                        235
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.502,
+                    "meals",
+                    [
+                        236,
+                        241
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.421,
+                    "heart",
+                    [
+                        347,
+                        352
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.568,
+                    "anemia",
+                    [
+                        596,
+                        602
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.411,
+                    "angina",
+                    [
+                        631,
+                        637
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.635,
+                    "pressure",
+                    [
+                        903,
+                        911
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.584,
+                    "aching",
+                    [
+                        913,
+                        919
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.408,
+                    "emotional",
+                    [
+                        1711,
+                        1720
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.421,
+                    "stresses",
+                    [
+                        1721,
+                        1729
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.212,
+        "uncertain_token_count": 14,
+        "narrow_band_ratio": 0.029,
+        "uncertain_tokens": {
+            "DIAGNOSIS": [
+                [
+                    0.463,
+                    "oxygen",
+                    [
+                        40,
+                        46
+                    ]
+                ],
+                [
+                    0.461,
+                    "the",
+                    [
+                        50,
+                        53
+                    ]
+                ],
+                [
+                    0.479,
+                    "heart",
+                    [
+                        54,
+                        59
+                    ]
+                ],
+                [
+                    0.524,
+                    "breast",
+                    [
+                        168,
+                        174
+                    ]
+                ],
+                [
+                    0.411,
+                    "angina",
+                    [
+                        631,
+                        637
+                    ]
+                ],
+                [
+                    0.408,
+                    "emotional",
+                    [
+                        1711,
+                        1720
+                    ]
+                ],
+                [
+                    0.421,
+                    "stresses",
+                    [
+                        1721,
+                        1729
+                    ]
+                ]
+            ],
+            "NA": [
+                [
+                    0.495,
+                    "to",
+                    [
+                        47,
+                        49
+                    ]
+                ],
+                [
+                    0.519,
+                    "angina",
+                    [
+                        1741,
+                        1747
+                    ]
+                ],
+                [
+                    0.508,
+                    "cold",
+                    [
+                        1826,
+                        1830
+                    ]
+                ]
+            ],
+            "PROBLEM": [
+                [
+                    0.514,
+                    "eating",
+                    [
+                        223,
+                        229
+                    ]
+                ],
+                [
+                    0.467,
+                    "heavy",
+                    [
+                        230,
+                        235
+                    ]
+                ],
+                [
+                    0.502,
+                    "meals",
+                    [
+                        236,
+                        241
+                    ]
+                ],
+                [
+                    0.421,
+                    "heart",
+                    [
+                        347,
+                        352
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

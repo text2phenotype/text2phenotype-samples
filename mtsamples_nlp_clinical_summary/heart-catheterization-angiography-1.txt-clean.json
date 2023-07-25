@@ -1,0 +1,271 @@
+{
+    "file": "heart-catheterization-angiography-1.txt-clean.txt",
+    "text2summary": {
+        "Medication": [],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "LAD",
+                "range": [
+                    1059,
+                    1062
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "234582006",
+                "cui": "C0398738",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Leukocyte adhesion deficiency type 1"
+            },
+            {
+                "text": "coronary artery disease",
+                "range": [
+                    1333,
+                    1356
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "53741008",
+                "cui": "C1956346",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Coronary Artery Disease"
+            },
+            {
+                "text": "LAD",
+                "range": [
+                    1358,
+                    1361
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "234582006",
+                "cui": "C0398738",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Leukocyte adhesion deficiency type 1"
+            },
+            {
+                "text": "proximal",
+                "range": [
+                    1463,
+                    1471
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.005,
+        "uncertain_count": 1,
+        "narrow_band_ratio": 0.003,
+        "uncertain_tokens": {
+            "MED": [
+                [
+                    0.524,
+                    "lidocaine",
+                    [
+                        473,
+                        482
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "LAD",
+                    [
+                        1059,
+                        1062
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "disease",
+                    [
+                        1164,
+                        1171
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "coronary",
+                    [
+                        1333,
+                        1341
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "artery",
+                    [
+                        1342,
+                        1348
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "disease",
+                    [
+                        1349,
+                        1356
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "LAD",
+                    [
+                        1358,
+                        1361
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "proximal",
+                    [
+                        1463,
+                        1471
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "stenosis",
+                    [
+                        1472,
+                        1480
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.596,
+                    "LAD",
+                    [
+                        1059,
+                        1062
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.517,
+                    "disease",
+                    [
+                        1164,
+                        1171
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.746,
+                    "coronary",
+                    [
+                        1333,
+                        1341
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.828,
+                    "artery",
+                    [
+                        1342,
+                        1348
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.88,
+                    "disease",
+                    [
+                        1349,
+                        1356
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.511,
+                    "LAD",
+                    [
+                        1358,
+                        1361
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.097,
+        "uncertain_token_count": 5,
+        "narrow_band_ratio": 0.014,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.519,
+                    "Proximal",
+                    [
+                        1050,
+                        1058
+                    ]
+                ],
+                [
+                    0.51,
+                    "proximal",
+                    [
+                        1463,
+                        1471
+                    ]
+                ],
+                [
+                    0.37,
+                    "stenosis",
+                    [
+                        1472,
+                        1480
+                    ]
+                ]
+            ],
+            "DIAGNOSIS": [
+                [
+                    0.517,
+                    "disease",
+                    [
+                        1164,
+                        1171
+                    ]
+                ],
+                [
+                    0.511,
+                    "LAD",
+                    [
+                        1358,
+                        1361
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

@@ -1,0 +1,212 @@
+{
+    "file": "ttriple-lumen-central-line.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "Xylocaine",
+                "code": "202398",
+                "cui": "C0699094",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Xylocaine",
+                "range": [
+                    585,
+                    594
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.975
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [
+                    "1",
+                    595,
+                    596
+                ],
+                "medStrengthUnit": [
+                    "%",
+                    596,
+                    597
+                ]
+            },
+            {
+                "text": "Xylocaine",
+                "code": "202398",
+                "cui": "C0699094",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Xylocaine",
+                "range": [
+                    585,
+                    594
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.975
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [
+                    "1",
+                    595,
+                    596
+                ],
+                "medStrengthUnit": [
+                    "%",
+                    596,
+                    597
+                ]
+            }
+        ],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "Bowel obstruction",
+                "range": [
+                    30,
+                    47
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "81060008",
+                "cui": "C0021843",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Intestinal Obstruction"
+            },
+            {
+                "text": "Bowel obstruction",
+                "range": [
+                    107,
+                    124
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "81060008",
+                "cui": "C0021843",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Intestinal Obstruction"
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.004,
+        "uncertain_count": 0,
+        "narrow_band_ratio": 0.0,
+        "uncertain_tokens": {},
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "Bowel",
+                    [
+                        30,
+                        35
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "obstruction",
+                    [
+                        36,
+                        47
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Bowel",
+                    [
+                        107,
+                        112
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "obstruction",
+                    [
+                        113,
+                        124
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.587,
+                    "Bowel",
+                    [
+                        30,
+                        35
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.611,
+                    "obstruction",
+                    [
+                        36,
+                        47
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.589,
+                    "Bowel",
+                    [
+                        107,
+                        112
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.578,
+                    "obstruction",
+                    [
+                        113,
+                        124
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.499,
+                    "obstruction",
+                    [
+                        313,
+                        324
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.076,
+        "uncertain_token_count": 1,
+        "narrow_band_ratio": 0.005,
+        "uncertain_tokens": {
+            "DIAGNOSIS": [
+                [
+                    0.499,
+                    "obstruction",
+                    [
+                        313,
+                        324
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

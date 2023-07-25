@@ -1,0 +1,464 @@
+{
+    "file": "gen-med-progress-note-3.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "Accu",
+                "code": "583344",
+                "cui": "C1620450",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Accu",
+                "range": [
+                    199,
+                    203
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.902
+                },
+                "medFrequencyNumber": [
+                    "1",
+                    220,
+                    224
+                ],
+                "medFrequencyUnit": [
+                    "day",
+                    227,
+                    230
+                ],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            }
+        ],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "diabetes mellitus",
+                "range": [
+                    31,
+                    48
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "73211009",
+                "cui": "C0011849",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Diabetes Mellitus"
+            },
+            {
+                "text": "hypercholesterolemia",
+                "range": [
+                    50,
+                    70
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "13644009",
+                "cui": "C0020443",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Hypercholesterolemia"
+            },
+            {
+                "text": "sinusitis",
+                "range": [
+                    76,
+                    85
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "36971009",
+                "cui": "C0037199",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Sinusitis"
+            },
+            {
+                "text": "diabetes mellitus\nlast",
+                "range": [
+                    144,
+                    166
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "73211009",
+                "cui": "C0011849",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Diabetes Mellitus"
+            },
+            {
+                "text": "Hypercholesterolemia",
+                "range": [
+                    1363,
+                    1383
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "13644009",
+                "cui": "C0020443",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Hypercholesterolemia"
+            },
+            {
+                "text": "Diabetes mellitus",
+                "range": [
+                    1390,
+                    1407
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "73211009",
+                "cui": "C0011849",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Diabetes Mellitus"
+            },
+            {
+                "text": "Sinusitis",
+                "range": [
+                    1414,
+                    1423
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "36971009",
+                "cui": "C0037199",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Sinusitis"
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.009,
+        "uncertain_count": 2,
+        "narrow_band_ratio": 0.005,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.624,
+                    "Allegra",
+                    [
+                        1476,
+                        1483
+                    ]
+                ]
+            ],
+            "MED": [
+                [
+                    0.647,
+                    "TSH",
+                    [
+                        1546,
+                        1549
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "diabetes",
+                    [
+                        31,
+                        39
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "mellitus",
+                    [
+                        40,
+                        48
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "hypercholesterolemia",
+                    [
+                        50,
+                        70
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "sinusitis",
+                    [
+                        76,
+                        85
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "diabetes",
+                    [
+                        144,
+                        152
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "mellitus",
+                    [
+                        153,
+                        161
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "last",
+                    [
+                        162,
+                        166
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "fall",
+                    [
+                        167,
+                        171
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "sinus",
+                    [
+                        423,
+                        428
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "congestion",
+                    [
+                        429,
+                        439
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Hypercholesterolemia",
+                    [
+                        1363,
+                        1383
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Diabetes",
+                    [
+                        1390,
+                        1398
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "mellitus",
+                    [
+                        1399,
+                        1407
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Sinusitis",
+                    [
+                        1414,
+                        1423
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.923,
+                    "diabetes",
+                    [
+                        31,
+                        39
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.921,
+                    "mellitus",
+                    [
+                        40,
+                        48
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.969,
+                    "hypercholesterolemia",
+                    [
+                        50,
+                        70
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.905,
+                    "sinusitis",
+                    [
+                        76,
+                        85
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.917,
+                    "diabetes",
+                    [
+                        144,
+                        152
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.822,
+                    "mellitus",
+                    [
+                        153,
+                        161
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.646,
+                    "last",
+                    [
+                        162,
+                        166
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.683,
+                    "fall",
+                    [
+                        167,
+                        171
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.392,
+                    "sinus",
+                    [
+                        423,
+                        428
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.374,
+                    "congestion",
+                    [
+                        429,
+                        439
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.904,
+                    "Hypercholesterolemia",
+                    [
+                        1363,
+                        1383
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.993,
+                    "Diabetes",
+                    [
+                        1390,
+                        1398
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.952,
+                    "mellitus",
+                    [
+                        1399,
+                        1407
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.974,
+                    "Sinusitis",
+                    [
+                        1414,
+                        1423
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.073,
+        "uncertain_token_count": 2,
+        "narrow_band_ratio": 0.005,
+        "uncertain_tokens": {
+            "DIAGNOSIS": [
+                [
+                    0.392,
+                    "sinus",
+                    [
+                        423,
+                        428
+                    ]
+                ]
+            ],
+            "PROBLEM": [
+                [
+                    0.374,
+                    "congestion",
+                    [
+                        429,
+                        439
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

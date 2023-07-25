@@ -1,0 +1,619 @@
+{
+    "file": "elbow-manipulation.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "Marcaine",
+                "code": "1012397",
+                "cui": "C2945665",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Marcaine",
+                "range": [
+                    2572,
+                    2580
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.947
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            }
+        ],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "Left elbow",
+                "range": [
+                    87,
+                    97
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "left elbow fracture dislocation",
+                "range": [
+                    856,
+                    887
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "nondisplaced right glenoid neck fracture",
+                "range": [
+                    918,
+                    958
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "'s fracture",
+                "range": [
+                    972,
+                    983
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "fracture",
+                "range": [
+                    1213,
+                    1221
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "125605004",
+                "cui": "C0016658",
+                "tui": "T037",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Fracture"
+            },
+            {
+                "text": "infection",
+                "range": [
+                    1450,
+                    1459
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "189822004",
+                "cui": "C0009450",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Communicable Diseases"
+            },
+            {
+                "text": "changes",
+                "range": [
+                    1471,
+                    1478
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "extremities",
+                "range": [
+                    1510,
+                    1521
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.01,
+        "uncertain_count": 3,
+        "narrow_band_ratio": 0.005,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.649,
+                    "LOCAL",
+                    [
+                        625,
+                        630
+                    ]
+                ],
+                [
+                    0.643,
+                    "sustained",
+                    [
+                        906,
+                        915
+                    ]
+                ]
+            ],
+            "MED": [
+                [
+                    0.665,
+                    "Steri-Strips",
+                    [
+                        2493,
+                        2505
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "Left",
+                    [
+                        87,
+                        91
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "elbow",
+                    [
+                        92,
+                        97
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "left",
+                    [
+                        856,
+                        860
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "elbow",
+                    [
+                        861,
+                        866
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "fracture",
+                    [
+                        867,
+                        875
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "dislocation",
+                    [
+                        876,
+                        887
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "nondisplaced",
+                    [
+                        918,
+                        930
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "right",
+                    [
+                        931,
+                        936
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "glenoid",
+                    [
+                        937,
+                        944
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "neck",
+                    [
+                        945,
+                        949
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "fracture",
+                    [
+                        950,
+                        958
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "'s",
+                    [
+                        972,
+                        974
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "fracture",
+                    [
+                        975,
+                        983
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "fracture",
+                    [
+                        1213,
+                        1221
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "infection",
+                    [
+                        1450,
+                        1459
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "bleeding",
+                    [
+                        1461,
+                        1469
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "changes",
+                    [
+                        1471,
+                        1478
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "extremities",
+                    [
+                        1510,
+                        1521
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "pain",
+                    [
+                        3277,
+                        3281
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.605,
+                    "Left",
+                    [
+                        87,
+                        91
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.604,
+                    "elbow",
+                    [
+                        92,
+                        97
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.938,
+                    "left",
+                    [
+                        856,
+                        860
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.979,
+                    "elbow",
+                    [
+                        861,
+                        866
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.964,
+                    "fracture",
+                    [
+                        867,
+                        875
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.936,
+                    "dislocation",
+                    [
+                        876,
+                        887
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.753,
+                    "right",
+                    [
+                        931,
+                        936
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.804,
+                    "glenoid",
+                    [
+                        937,
+                        944
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.859,
+                    "neck",
+                    [
+                        945,
+                        949
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.868,
+                    "fracture",
+                    [
+                        950,
+                        958
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.57,
+                    "'s",
+                    [
+                        972,
+                        974
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.756,
+                    "fracture",
+                    [
+                        975,
+                        983
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.784,
+                    "fracture",
+                    [
+                        1213,
+                        1221
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.521,
+                    "infection",
+                    [
+                        1450,
+                        1459
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.513,
+                    "bleeding",
+                    [
+                        1461,
+                        1469
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.587,
+                    "extremities",
+                    [
+                        1510,
+                        1521
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.431,
+                    "pain",
+                    [
+                        3277,
+                        3281
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.101,
+        "uncertain_token_count": 11,
+        "narrow_band_ratio": 0.019,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.516,
+                    "nondisplaced",
+                    [
+                        918,
+                        930
+                    ]
+                ],
+                [
+                    0.46,
+                    "stiffness",
+                    [
+                        1055,
+                        1064
+                    ]
+                ],
+                [
+                    0.474,
+                    "changes",
+                    [
+                        1471,
+                        1478
+                    ]
+                ],
+                [
+                    0.452,
+                    "sensation",
+                    [
+                        1482,
+                        1491
+                    ]
+                ],
+                [
+                    0.474,
+                    "the",
+                    [
+                        1506,
+                        1509
+                    ]
+                ],
+                [
+                    0.513,
+                    "hardware",
+                    [
+                        1541,
+                        1549
+                    ]
+                ],
+                [
+                    0.411,
+                    "stiffness",
+                    [
+                        1600,
+                        1609
+                    ]
+                ],
+                [
+                    0.495,
+                    "scar",
+                    [
+                        2008,
+                        2012
+                    ]
+                ]
+            ],
+            "DIAGNOSIS": [
+                [
+                    0.521,
+                    "infection",
+                    [
+                        1450,
+                        1459
+                    ]
+                ],
+                [
+                    0.513,
+                    "bleeding",
+                    [
+                        1461,
+                        1469
+                    ]
+                ],
+                [
+                    0.431,
+                    "pain",
+                    [
+                        3277,
+                        3281
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

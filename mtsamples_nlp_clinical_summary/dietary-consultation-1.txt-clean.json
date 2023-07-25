@@ -1,0 +1,211 @@
+{
+    "file": "dietary-consultation-1.txt-clean.txt",
+    "text2summary": {
+        "Medication": [],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "polycystic ovarian\nsyndrome",
+                "range": [
+                    58,
+                    85
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "69878008",
+                "cui": "C0032460",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Polycystic Ovary Syndrome"
+            },
+            {
+                "text": "hyperlipidemia",
+                "range": [
+                    90,
+                    104
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "55822004",
+                "cui": "C0020473",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Hyperlipidemia"
+            },
+            {
+                "text": "sluggish",
+                "range": [
+                    1014,
+                    1022
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.01,
+        "uncertain_count": 1,
+        "narrow_band_ratio": 0.003,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.654,
+                    "nuts",
+                    [
+                        1485,
+                        1489
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "polycystic",
+                    [
+                        58,
+                        68
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "ovarian",
+                    [
+                        69,
+                        76
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "syndrome",
+                    [
+                        77,
+                        85
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "hyperlipidemia",
+                    [
+                        90,
+                        104
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "sluggish",
+                    [
+                        1014,
+                        1022
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "problems",
+                    [
+                        1034,
+                        1042
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.688,
+                    "polycystic",
+                    [
+                        58,
+                        68
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.843,
+                    "ovarian",
+                    [
+                        69,
+                        76
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.901,
+                    "syndrome",
+                    [
+                        77,
+                        85
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.914,
+                    "hyperlipidemia",
+                    [
+                        90,
+                        104
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.566,
+                    "sluggish",
+                    [
+                        1014,
+                        1022
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.121,
+        "uncertain_token_count": 3,
+        "narrow_band_ratio": 0.009,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.451,
+                    "physical",
+                    [
+                        226,
+                        234
+                    ]
+                ],
+                [
+                    0.411,
+                    "activity",
+                    [
+                        235,
+                        243
+                    ]
+                ],
+                [
+                    0.509,
+                    "problems",
+                    [
+                        1034,
+                        1042
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

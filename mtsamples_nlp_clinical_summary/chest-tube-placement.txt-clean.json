@@ -1,0 +1,194 @@
+{
+    "file": "chest-tube-placement.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "Activase",
+                "code": "204210",
+                "cui": "C0701942",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Activase",
+                "range": [
+                    1084,
+                    1092
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.999
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            }
+        ],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "Left pleural effusion",
+                "range": [
+                    26,
+                    47
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "pleural effusion",
+                "range": [
+                    106,
+                    122
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "60046008",
+                "cui": "C0032227",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Pleural effusion disorder"
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.019,
+        "uncertain_count": 1,
+        "narrow_band_ratio": 0.005,
+        "uncertain_tokens": {
+            "MED": [
+                [
+                    0.557,
+                    "lidocaine",
+                    [
+                        432,
+                        441
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "Left",
+                    [
+                        26,
+                        30
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "pleural",
+                    [
+                        31,
+                        38
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "effusion",
+                    [
+                        39,
+                        47
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "pleural",
+                    [
+                        106,
+                        113
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "effusion",
+                    [
+                        114,
+                        122
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.88,
+                    "Left",
+                    [
+                        26,
+                        30
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.925,
+                    "pleural",
+                    [
+                        31,
+                        38
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.86,
+                    "effusion",
+                    [
+                        39,
+                        47
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.692,
+                    "pleural",
+                    [
+                        106,
+                        113
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.734,
+                    "effusion",
+                    [
+                        114,
+                        122
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.086,
+        "uncertain_token_count": 1,
+        "narrow_band_ratio": 0.005,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.473,
+                    "parapneumonic",
+                    [
+                        49,
+                        62
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

@@ -1,0 +1,333 @@
+{
+    "file": "endoscopy-with-biopsy.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "Versed",
+                "code": "11177",
+                "cui": "C0042553",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Versed",
+                "range": [
+                    469,
+                    475
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.984
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [
+                    "4",
+                    476,
+                    477
+                ],
+                "medStrengthUnit": [
+                    "mg",
+                    478,
+                    480
+                ]
+            },
+            {
+                "text": "Versed",
+                "code": "11177",
+                "cui": "C0042553",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Versed",
+                "range": [
+                    469,
+                    475
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.984
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [
+                    "4",
+                    476,
+                    477
+                ],
+                "medStrengthUnit": [
+                    "mg",
+                    478,
+                    480
+                ]
+            },
+            {
+                "text": "fentanyl",
+                "code": "4337",
+                "cui": "C0015846",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Fentanyl",
+                "range": [
+                    493,
+                    501
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.999
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [
+                    "75",
+                    502,
+                    504
+                ],
+                "medStrengthUnit": [
+                    "mcg",
+                    505,
+                    508
+                ]
+            },
+            {
+                "text": "fentanyl",
+                "code": "4337",
+                "cui": "C0015846",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Fentanyl",
+                "range": [
+                    493,
+                    501
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.999
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [
+                    "75",
+                    502,
+                    504
+                ],
+                "medStrengthUnit": [
+                    "mcg",
+                    505,
+                    508
+                ]
+            }
+        ],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "duodenum",
+                "range": [
+                    1656,
+                    1664
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "Ulcerated fungating",
+                "range": [
+                    1671,
+                    1690
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "255321001",
+                "cui": "C0041582",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Ulcer"
+            },
+            {
+                "text": "at the",
+                "range": [
+                    1696,
+                    1702
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.015,
+        "uncertain_count": 2,
+        "narrow_band_ratio": 0.006,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.611,
+                    "Medications",
+                    [
+                        721,
+                        732
+                    ]
+                ]
+            ],
+            "MED": [
+                [
+                    0.571,
+                    "biopsy",
+                    [
+                        1865,
+                        1871
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "PROBLEM": [
+                    "duodenum",
+                    [
+                        1656,
+                        1664
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "Ulcerated",
+                    [
+                        1671,
+                        1680
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "fungating",
+                    [
+                        1681,
+                        1690
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "mass",
+                    [
+                        1691,
+                        1695
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "at",
+                    [
+                        1696,
+                        1698
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "the",
+                    [
+                        1699,
+                        1702
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "PROBLEM": [
+                    0.787,
+                    "Ulcerated",
+                    [
+                        1671,
+                        1680
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.823,
+                    "fungating",
+                    [
+                        1681,
+                        1690
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.793,
+                    "mass",
+                    [
+                        1691,
+                        1695
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.07,
+        "uncertain_token_count": 5,
+        "narrow_band_ratio": 0.014,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.49,
+                    "carcinoma",
+                    [
+                        1300,
+                        1309
+                    ]
+                ],
+                [
+                    0.387,
+                    "duodenum",
+                    [
+                        1656,
+                        1664
+                    ]
+                ],
+                [
+                    0.358,
+                    "at",
+                    [
+                        1696,
+                        1698
+                    ]
+                ],
+                [
+                    0.445,
+                    "the",
+                    [
+                        1699,
+                        1702
+                    ]
+                ],
+                [
+                    0.521,
+                    "cardia",
+                    [
+                        1703,
+                        1709
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

@@ -1,0 +1,151 @@
+{
+    "file": "ophthalmology-letter-4.txt-clean.txt",
+    "text2summary": {
+        "Medication": [],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "diabetic retinopathy",
+                "range": [
+                    165,
+                    185
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "4855003",
+                "cui": "C0011884",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Diabetic Retinopathy"
+            },
+            {
+                "text": "diabetes",
+                "range": [
+                    223,
+                    231
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "73211009",
+                "cui": "C0011849",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Diabetes Mellitus"
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.001,
+        "uncertain_count": 0,
+        "narrow_band_ratio": 0.0,
+        "uncertain_tokens": {},
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "diabetic",
+                    [
+                        165,
+                        173
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "retinopathy",
+                    [
+                        174,
+                        185
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "diabetes",
+                    [
+                        223,
+                        231
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "check-ups",
+                    [
+                        1034,
+                        1043
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.833,
+                    "diabetic",
+                    [
+                        165,
+                        173
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.907,
+                    "retinopathy",
+                    [
+                        174,
+                        185
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.51,
+                    "diabetes",
+                    [
+                        223,
+                        231
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.429,
+                    "check-ups",
+                    [
+                        1034,
+                        1043
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.088,
+        "uncertain_token_count": 2,
+        "narrow_band_ratio": 0.009,
+        "uncertain_tokens": {
+            "DIAGNOSIS": [
+                [
+                    0.51,
+                    "diabetes",
+                    [
+                        223,
+                        231
+                    ]
+                ],
+                [
+                    0.429,
+                    "check-ups",
+                    [
+                        1034,
+                        1043
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

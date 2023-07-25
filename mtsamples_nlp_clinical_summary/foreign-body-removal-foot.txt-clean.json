@@ -1,0 +1,755 @@
+{
+    "file": "foreign-body-removal-foot.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "Celebrex",
+                "code": "215927",
+                "cui": "C0719198",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Celebrex",
+                "range": [
+                    4937,
+                    4945
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.947
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [
+                    "day"
+                ],
+                "medStrengthNum": [
+                    "200",
+                    4946,
+                    4949
+                ],
+                "medStrengthUnit": [
+                    "mg",
+                    4950,
+                    4952
+                ]
+            },
+            {
+                "text": "Celebrex",
+                "code": "215927",
+                "cui": "C0719198",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Celebrex",
+                "range": [
+                    4937,
+                    4945
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.947
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [
+                    "day"
+                ],
+                "medStrengthNum": [
+                    "200",
+                    4946,
+                    4949
+                ],
+                "medStrengthUnit": [
+                    "mg",
+                    4950,
+                    4952
+                ]
+            }
+        ],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "Foreign body",
+                "range": [
+                    26,
+                    38
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "19227008",
+                "cui": "C0016542",
+                "tui": "T037",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Foreign Bodies"
+            },
+            {
+                "text": "right foot",
+                "range": [
+                    40,
+                    50
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "Foreign body in the right foot",
+                "range": [
+                    78,
+                    108
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "19227008",
+                "cui": "C0016542",
+                "tui": "T037",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Foreign Bodies"
+            },
+            {
+                "text": "retained\nforeign body in his right foot",
+                "range": [
+                    361,
+                    400
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "142661000119102",
+                "cui": "C0865505",
+                "tui": "T037",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Retained foreign body"
+            },
+            {
+                "text": "on",
+                "range": [
+                    2663,
+                    2665
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "of the",
+                "range": [
+                    2685,
+                    2691
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.011,
+        "uncertain_count": 4,
+        "narrow_band_ratio": 0.004,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.515,
+                    "blade",
+                    [
+                        2969,
+                        2974
+                    ]
+                ],
+                [
+                    0.671,
+                    "gentamicin",
+                    [
+                        3548,
+                        3558
+                    ]
+                ],
+                [
+                    0.585,
+                    "Next",
+                    [
+                        3677,
+                        3681
+                    ]
+                ],
+                [
+                    0.594,
+                    "sutures",
+                    [
+                        3743,
+                        3750
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "Foreign",
+                    [
+                        26,
+                        33
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "body",
+                    [
+                        34,
+                        38
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    ",",
+                    [
+                        38,
+                        39
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "right",
+                    [
+                        40,
+                        45
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "foot",
+                    [
+                        46,
+                        50
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Foreign",
+                    [
+                        78,
+                        85
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "body",
+                    [
+                        86,
+                        90
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "in",
+                    [
+                        91,
+                        93
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "the",
+                    [
+                        94,
+                        97
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "right",
+                    [
+                        98,
+                        103
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "foot",
+                    [
+                        104,
+                        108
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    ".",
+                    [
+                        108,
+                        109
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "painful",
+                    [
+                        353,
+                        360
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "retained",
+                    [
+                        361,
+                        369
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "foreign",
+                    [
+                        370,
+                        377
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "body",
+                    [
+                        378,
+                        382
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "in",
+                    [
+                        383,
+                        385
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "his",
+                    [
+                        386,
+                        389
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "right",
+                    [
+                        390,
+                        395
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "foot",
+                    [
+                        396,
+                        400
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "constant",
+                    [
+                        730,
+                        738
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "ambulation",
+                    [
+                        749,
+                        759
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "on",
+                    [
+                        2663,
+                        2665
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "of",
+                    [
+                        2685,
+                        2687
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "the",
+                    [
+                        2688,
+                        2691
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.878,
+                    "Foreign",
+                    [
+                        26,
+                        33
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.83,
+                    "body",
+                    [
+                        34,
+                        38
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.589,
+                    ",",
+                    [
+                        38,
+                        39
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.494,
+                    "right",
+                    [
+                        40,
+                        45
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.406,
+                    "foot",
+                    [
+                        46,
+                        50
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.977,
+                    "Foreign",
+                    [
+                        78,
+                        85
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.982,
+                    "body",
+                    [
+                        86,
+                        90
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.98,
+                    "in",
+                    [
+                        91,
+                        93
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.976,
+                    "the",
+                    [
+                        94,
+                        97
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.947,
+                    "right",
+                    [
+                        98,
+                        103
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.899,
+                    "foot",
+                    [
+                        104,
+                        108
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.531,
+                    ".",
+                    [
+                        108,
+                        109
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.615,
+                    "painful",
+                    [
+                        353,
+                        360
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.781,
+                    "retained",
+                    [
+                        361,
+                        369
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.81,
+                    "foreign",
+                    [
+                        370,
+                        377
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.789,
+                    "body",
+                    [
+                        378,
+                        382
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.672,
+                    "in",
+                    [
+                        383,
+                        385
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.627,
+                    "his",
+                    [
+                        386,
+                        389
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.644,
+                    "right",
+                    [
+                        390,
+                        395
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.627,
+                    "foot",
+                    [
+                        396,
+                        400
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.42,
+                    "constant",
+                    [
+                        730,
+                        738
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.373,
+                    "pain",
+                    [
+                        739,
+                        743
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.537,
+                    "ambulation",
+                    [
+                        749,
+                        759
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.496,
+                    "on",
+                    [
+                        2663,
+                        2665
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.583,
+                    "of",
+                    [
+                        2685,
+                        2687
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.478,
+                    "the",
+                    [
+                        2688,
+                        2691
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.089,
+        "uncertain_token_count": 7,
+        "narrow_band_ratio": 0.007,
+        "uncertain_tokens": {
+            "DIAGNOSIS": [
+                [
+                    0.494,
+                    "right",
+                    [
+                        40,
+                        45
+                    ]
+                ],
+                [
+                    0.406,
+                    "foot",
+                    [
+                        46,
+                        50
+                    ]
+                ],
+                [
+                    0.496,
+                    "on",
+                    [
+                        2663,
+                        2665
+                    ]
+                ],
+                [
+                    0.478,
+                    "the",
+                    [
+                        2688,
+                        2691
+                    ]
+                ]
+            ],
+            "NA": [
+                [
+                    0.518,
+                    "wound",
+                    [
+                        655,
+                        660
+                    ]
+                ]
+            ],
+            "PROBLEM": [
+                [
+                    0.42,
+                    "constant",
+                    [
+                        730,
+                        738
+                    ]
+                ],
+                [
+                    0.373,
+                    "pain",
+                    [
+                        739,
+                        743
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

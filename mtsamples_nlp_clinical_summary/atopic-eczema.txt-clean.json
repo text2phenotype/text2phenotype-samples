@@ -1,0 +1,114 @@
+{
+    "file": "atopic-eczema.txt-clean.txt",
+    "text2summary": {
+        "Medication": [],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "ABC",
+                "range": [
+                    95,
+                    98
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "203468000",
+                "cui": "C0152244",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Bone Cysts, Aneurysmal"
+            },
+            {
+                "text": "atopic eczema",
+                "range": [
+                    156,
+                    169
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "200775004",
+                "cui": "C0011615",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Dermatitis, Atopic"
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.025,
+        "uncertain_count": 0,
+        "narrow_band_ratio": 0.0,
+        "uncertain_tokens": {},
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "ABC",
+                    [
+                        95,
+                        98
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "atopic",
+                    [
+                        156,
+                        162
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "eczema",
+                    [
+                        163,
+                        169
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.781,
+                    "atopic",
+                    [
+                        156,
+                        162
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.851,
+                    "eczema",
+                    [
+                        163,
+                        169
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.189,
+        "uncertain_token_count": 1,
+        "narrow_band_ratio": 0.029,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.478,
+                    "ABC",
+                    [
+                        95,
+                        98
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

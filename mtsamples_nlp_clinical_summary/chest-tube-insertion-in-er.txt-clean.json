@@ -1,0 +1,513 @@
+{
+    "file": "chest-tube-insertion-in-er.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "Xylocaine",
+                "code": "202398",
+                "cui": "C0699094",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Xylocaine",
+                "range": [
+                    597,
+                    606
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.931
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "Xylocaine",
+                "code": "202398",
+                "cui": "C0699094",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Xylocaine",
+                "range": [
+                    597,
+                    606
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.931
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            }
+        ],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "spontaneous pneumothorax",
+                "range": [
+                    37,
+                    61
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "80423007",
+                "cui": "C0149781",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Spontaneous pneumothorax"
+            },
+            {
+                "text": "barometric trauma",
+                "range": [
+                    75,
+                    92
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "Respiratory failure",
+                "range": [
+                    99,
+                    118
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "409622000",
+                "cui": "C1145670",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Respiratory Failure"
+            },
+            {
+                "text": "Pneumonia",
+                "range": [
+                    125,
+                    134
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "233604007",
+                "cui": "C0032285",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Pneumonia"
+            },
+            {
+                "text": "sepsis",
+                "range": [
+                    140,
+                    146
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "91302008",
+                "cui": "C0243026",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Sepsis"
+            },
+            {
+                "text": "spontaneous pneumothorax",
+                "range": [
+                    185,
+                    209
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "80423007",
+                "cui": "C0149781",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Spontaneous pneumothorax"
+            },
+            {
+                "text": "barometric trauma",
+                "range": [
+                    223,
+                    240
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "Respiratory failure",
+                "range": [
+                    247,
+                    266
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "409622000",
+                "cui": "C1145670",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Respiratory Failure"
+            },
+            {
+                "text": "Pneumonia",
+                "range": [
+                    273,
+                    282
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "233604007",
+                "cui": "C0032285",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Pneumonia"
+            },
+            {
+                "text": "sepsis",
+                "range": [
+                    288,
+                    294
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "91302008",
+                "cui": "C0243026",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Sepsis"
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.001,
+        "uncertain_count": 0,
+        "narrow_band_ratio": 0.0,
+        "uncertain_tokens": {},
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "spontaneous",
+                    [
+                        37,
+                        48
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "pneumothorax",
+                    [
+                        49,
+                        61
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "barometric",
+                    [
+                        75,
+                        85
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "trauma",
+                    [
+                        86,
+                        92
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Respiratory",
+                    [
+                        99,
+                        110
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "failure",
+                    [
+                        111,
+                        118
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Pneumonia",
+                    [
+                        125,
+                        134
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "sepsis",
+                    [
+                        140,
+                        146
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "spontaneous",
+                    [
+                        185,
+                        196
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "pneumothorax",
+                    [
+                        197,
+                        209
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "barometric",
+                    [
+                        223,
+                        233
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "trauma",
+                    [
+                        234,
+                        240
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Respiratory",
+                    [
+                        247,
+                        258
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "failure",
+                    [
+                        259,
+                        266
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Pneumonia",
+                    [
+                        273,
+                        282
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "sepsis",
+                    [
+                        288,
+                        294
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.583,
+                    "spontaneous",
+                    [
+                        37,
+                        48
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.765,
+                    "pneumothorax",
+                    [
+                        49,
+                        61
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.595,
+                    "barometric",
+                    [
+                        75,
+                        85
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.763,
+                    "trauma",
+                    [
+                        86,
+                        92
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.893,
+                    "Respiratory",
+                    [
+                        99,
+                        110
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.911,
+                    "failure",
+                    [
+                        111,
+                        118
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.811,
+                    "Pneumonia",
+                    [
+                        125,
+                        134
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.616,
+                    "sepsis",
+                    [
+                        140,
+                        146
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.597,
+                    "spontaneous",
+                    [
+                        185,
+                        196
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.77,
+                    "pneumothorax",
+                    [
+                        197,
+                        209
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.717,
+                    "barometric",
+                    [
+                        223,
+                        233
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.835,
+                    "trauma",
+                    [
+                        234,
+                        240
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.936,
+                    "Respiratory",
+                    [
+                        247,
+                        258
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.958,
+                    "failure",
+                    [
+                        259,
+                        266
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.931,
+                    "Pneumonia",
+                    [
+                        273,
+                        282
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.82,
+                    "sepsis",
+                    [
+                        288,
+                        294
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.085,
+        "uncertain_token_count": 0,
+        "narrow_band_ratio": 0.0,
+        "uncertain_tokens": {},
+        "narrow_band_width": 0.2
+    }
+}

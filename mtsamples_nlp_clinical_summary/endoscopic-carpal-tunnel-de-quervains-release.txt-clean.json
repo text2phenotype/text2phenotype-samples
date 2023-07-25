@@ -1,0 +1,325 @@
+{
+    "file": "endoscopic-carpal-tunnel-de-quervains-release.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "Xylocaine",
+                "code": "202398",
+                "cui": "C0699094",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Xylocaine",
+                "range": [
+                    2500,
+                    2509
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.983
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "Xylocaine",
+                "code": "202398",
+                "cui": "C0699094",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Xylocaine",
+                "range": [
+                    2500,
+                    2509
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.983
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            }
+        ],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "carpal tunnel",
+                "range": [
+                    130,
+                    143
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "Quervain's tenosynovitis",
+                "range": [
+                    162,
+                    186
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "21794005",
+                "cui": "C0149870",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "De Quervain Disease"
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.011,
+        "uncertain_count": 3,
+        "narrow_band_ratio": 0.005,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.645,
+                    "blade",
+                    [
+                        1746,
+                        1751
+                    ]
+                ],
+                [
+                    0.663,
+                    "Steri-Strips",
+                    [
+                        3302,
+                        3314
+                    ]
+                ]
+            ],
+            "MED": [
+                [
+                    0.613,
+                    "condition",
+                    [
+                        3505,
+                        3514
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "syndrome",
+                    [
+                        50,
+                        58
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "carpal",
+                    [
+                        130,
+                        136
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "tunnel",
+                    [
+                        137,
+                        143
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "syndrome",
+                    [
+                        144,
+                        152
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Quervain",
+                    [
+                        162,
+                        170
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "'s",
+                    [
+                        170,
+                        172
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "tenosynovitis",
+                    [
+                        173,
+                        186
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.472,
+                    "tunnel",
+                    [
+                        43,
+                        49
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.623,
+                    "syndrome",
+                    [
+                        50,
+                        58
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.503,
+                    "tenosynovitis",
+                    [
+                        79,
+                        92
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.529,
+                    "carpal",
+                    [
+                        130,
+                        136
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.595,
+                    "tunnel",
+                    [
+                        137,
+                        143
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.743,
+                    "syndrome",
+                    [
+                        144,
+                        152
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.773,
+                    "Quervain",
+                    [
+                        162,
+                        170
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.798,
+                    "'s",
+                    [
+                        170,
+                        172
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.8,
+                    "tenosynovitis",
+                    [
+                        173,
+                        186
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.071,
+        "uncertain_token_count": 5,
+        "narrow_band_ratio": 0.008,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.442,
+                    "carpal",
+                    [
+                        36,
+                        42
+                    ]
+                ],
+                [
+                    0.517,
+                    "condition",
+                    [
+                        2340,
+                        2349
+                    ]
+                ]
+            ],
+            "DIAGNOSIS": [
+                [
+                    0.472,
+                    "tunnel",
+                    [
+                        43,
+                        49
+                    ]
+                ],
+                [
+                    0.503,
+                    "tenosynovitis",
+                    [
+                        79,
+                        92
+                    ]
+                ],
+                [
+                    0.529,
+                    "carpal",
+                    [
+                        130,
+                        136
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

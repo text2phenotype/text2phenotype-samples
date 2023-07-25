@@ -1,0 +1,169 @@
+{
+    "file": "colon-cancer-screening.txt-clean.txt",
+    "text2summary": {
+        "Medication": [],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "screening",
+                "range": [
+                    199,
+                    208
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "infection",
+                "range": [
+                    1782,
+                    1791
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "189822004",
+                "cui": "C0009450",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Communicable Diseases"
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.001,
+        "uncertain_count": 0,
+        "narrow_band_ratio": 0.0,
+        "uncertain_tokens": {},
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "screening",
+                    [
+                        199,
+                        208
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "loose",
+                    [
+                        258,
+                        263
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "stools",
+                    [
+                        264,
+                        270
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "infection",
+                    [
+                        1782,
+                        1791
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "conscious",
+                    [
+                        1917,
+                        1926
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "PROBLEM": [
+                    0.601,
+                    "loose",
+                    [
+                        258,
+                        263
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.741,
+                    "stools",
+                    [
+                        264,
+                        270
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.551,
+                    "infection",
+                    [
+                        1782,
+                        1791
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.492,
+                    "conscious",
+                    [
+                        1917,
+                        1926
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.493,
+                    "sedation",
+                    [
+                        1927,
+                        1935
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.058,
+        "uncertain_token_count": 2,
+        "narrow_band_ratio": 0.006,
+        "uncertain_tokens": {
+            "DIAGNOSIS": [
+                [
+                    0.492,
+                    "conscious",
+                    [
+                        1917,
+                        1926
+                    ]
+                ],
+                [
+                    0.493,
+                    "sedation",
+                    [
+                        1927,
+                        1935
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

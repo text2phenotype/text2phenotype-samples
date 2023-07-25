@@ -1,0 +1,592 @@
+{
+    "file": "bladder-tumor.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "Atenolol",
+                "code": "1202",
+                "cui": "C0004147",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Atenolol",
+                "range": [
+                    645,
+                    653
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.999
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [
+                    "day"
+                ],
+                "medStrengthNum": [
+                    "5",
+                    654,
+                    655
+                ],
+                "medStrengthUnit": [
+                    "mg",
+                    656,
+                    658
+                ]
+            },
+            {
+                "text": "Atenolol",
+                "code": "1202",
+                "cui": "C0004147",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Atenolol",
+                "range": [
+                    645,
+                    653
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.999
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [
+                    "day"
+                ],
+                "medStrengthNum": [
+                    "5",
+                    654,
+                    655
+                ],
+                "medStrengthUnit": [
+                    "mg",
+                    656,
+                    658
+                ]
+            }
+        ],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "Recurrent",
+                "range": [
+                    19,
+                    28
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "on the",
+                "range": [
+                    385,
+                    391
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "Recurrent",
+                "range": [
+                    1135,
+                    1144
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.004,
+        "uncertain_count": 1,
+        "narrow_band_ratio": 0.004,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.61,
+                    "BCG",
+                    [
+                        459,
+                        462
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "Recurrent",
+                    [
+                        19,
+                        28
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "bladder",
+                    [
+                        29,
+                        36
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "tumor",
+                    [
+                        37,
+                        42
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "transitional",
+                    [
+                        169,
+                        181
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "cell",
+                    [
+                        182,
+                        186
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "of",
+                    [
+                        198,
+                        200
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "the",
+                    [
+                        201,
+                        204
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "papillomatosis",
+                    [
+                        251,
+                        265
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "transitional",
+                    [
+                        341,
+                        353
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "cell",
+                    [
+                        354,
+                        358
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "carcinomas",
+                    [
+                        359,
+                        369
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "of",
+                    [
+                        370,
+                        372
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "the",
+                    [
+                        373,
+                        376
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "bladder",
+                    [
+                        377,
+                        384
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "on",
+                    [
+                        385,
+                        387
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "the",
+                    [
+                        388,
+                        391
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "tumors",
+                    [
+                        599,
+                        605
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Recurrent",
+                    [
+                        1135,
+                        1144
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "bladder",
+                    [
+                        1145,
+                        1152
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "tumors",
+                    [
+                        1153,
+                        1159
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.79,
+                    "Recurrent",
+                    [
+                        19,
+                        28
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.896,
+                    "bladder",
+                    [
+                        29,
+                        36
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.928,
+                    "tumor",
+                    [
+                        37,
+                        42
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.529,
+                    "transitional",
+                    [
+                        169,
+                        181
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.537,
+                    "cell",
+                    [
+                        182,
+                        186
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.423,
+                    "carcinomas",
+                    [
+                        187,
+                        197
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.565,
+                    "of",
+                    [
+                        198,
+                        200
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.614,
+                    "the",
+                    [
+                        201,
+                        204
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.467,
+                    "papillomatosis",
+                    [
+                        251,
+                        265
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.647,
+                    "transitional",
+                    [
+                        341,
+                        353
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.694,
+                    "cell",
+                    [
+                        354,
+                        358
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.667,
+                    "carcinomas",
+                    [
+                        359,
+                        369
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.777,
+                    "of",
+                    [
+                        370,
+                        372
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.821,
+                    "the",
+                    [
+                        373,
+                        376
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.665,
+                    "bladder",
+                    [
+                        377,
+                        384
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.742,
+                    "on",
+                    [
+                        385,
+                        387
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.684,
+                    "the",
+                    [
+                        388,
+                        391
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.69,
+                    "tumors",
+                    [
+                        599,
+                        605
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.508,
+                    "Recurrent",
+                    [
+                        1135,
+                        1144
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.842,
+                    "bladder",
+                    [
+                        1145,
+                        1152
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.873,
+                    "tumors",
+                    [
+                        1153,
+                        1159
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.144,
+        "uncertain_token_count": 7,
+        "narrow_band_ratio": 0.03,
+        "uncertain_tokens": {
+            "DIAGNOSIS": [
+                [
+                    0.529,
+                    "transitional",
+                    [
+                        169,
+                        181
+                    ]
+                ],
+                [
+                    0.423,
+                    "carcinomas",
+                    [
+                        187,
+                        197
+                    ]
+                ],
+                [
+                    0.467,
+                    "papillomatosis",
+                    [
+                        251,
+                        265
+                    ]
+                ],
+                [
+                    0.508,
+                    "Recurrent",
+                    [
+                        1135,
+                        1144
+                    ]
+                ]
+            ],
+            "NA": [
+                [
+                    0.462,
+                    "bladder",
+                    [
+                        205,
+                        212
+                    ]
+                ],
+                [
+                    0.453,
+                    "bladder",
+                    [
+                        392,
+                        399
+                    ]
+                ],
+                [
+                    0.51,
+                    "recurrent",
+                    [
+                        589,
+                        598
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

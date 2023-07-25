@@ -1,0 +1,142 @@
+{
+    "file": "constipation-1.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "Fleet enema",
+                "code": "50088",
+                "cui": "C0117857",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Fleet Enema",
+                "range": [
+                    667,
+                    678
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.997
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            }
+        ],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "CAD/angina",
+                "range": [
+                    560,
+                    570
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "53741008",
+                "cui": "C1956346",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Coronary Artery Disease"
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.022,
+        "uncertain_count": 3,
+        "narrow_band_ratio": 0.023,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.647,
+                    "Milk",
+                    [
+                        477,
+                        481
+                    ]
+                ],
+                [
+                    0.53,
+                    "suppository",
+                    [
+                        523,
+                        534
+                    ]
+                ]
+            ],
+            "MED": [
+                [
+                    0.557,
+                    "Dulcolax",
+                    [
+                        514,
+                        522
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "PROBLEM": [
+                    "constipation",
+                    [
+                        23,
+                        35
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "CAD/angina",
+                    [
+                        560,
+                        570
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "PROBLEM": [
+                    0.572,
+                    "constipation",
+                    [
+                        23,
+                        35
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.723,
+                    "CAD/angina",
+                    [
+                        560,
+                        570
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.051,
+        "uncertain_token_count": 1,
+        "narrow_band_ratio": 0.008,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.366,
+                    "Constipation",
+                    [
+                        463,
+                        475
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

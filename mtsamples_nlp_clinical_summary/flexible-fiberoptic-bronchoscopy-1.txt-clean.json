@@ -1,0 +1,660 @@
+{
+    "file": "flexible-fiberoptic-bronchoscopy-1.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "Demerol",
+                "code": "282381",
+                "cui": "C0935966",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Demerol",
+                "range": [
+                    1232,
+                    1239
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 1.0
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [
+                    "50",
+                    1223,
+                    1225
+                ],
+                "medStrengthUnit": [
+                    "mg",
+                    1226,
+                    1228
+                ]
+            },
+            {
+                "text": "Demerol",
+                "code": "282381",
+                "cui": "C0935966",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Demerol",
+                "range": [
+                    1232,
+                    1239
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 1.0
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [
+                    "50",
+                    1223,
+                    1225
+                ],
+                "medStrengthUnit": [
+                    "mg",
+                    1226,
+                    1228
+                ]
+            }
+        ],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "tracheobronchitis",
+                "range": [
+                    32,
+                    49
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "13617004",
+                "cui": "C0040586",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Tracheobronchitis"
+            },
+            {
+                "text": "granulomatous disease",
+                "range": [
+                    66,
+                    87
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "TB",
+                "range": [
+                    92,
+                    94
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "TB",
+                "range": [
+                    543,
+                    545
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "56717001",
+                "cui": "C0041296",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Tuberculosis"
+            },
+            {
+                "text": "interstitial lung disease and question\ntuberculosis",
+                "range": [
+                    609,
+                    660
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "233703007",
+                "cui": "C0206062",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Lung Diseases, Interstitial"
+            },
+            {
+                "text": "frothy\nsecretions",
+                "range": [
+                    1975,
+                    1992
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "tracheobronchitis",
+                "range": [
+                    2234,
+                    2251
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "13617004",
+                "cui": "C0040586",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Tracheobronchitis"
+            },
+            {
+                "text": "friability",
+                "range": [
+                    2262,
+                    2272
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "segmental distortion",
+                "range": [
+                    2603,
+                    2623
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "bronchitis",
+                "range": [
+                    2884,
+                    2894
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "32398004",
+                "cui": "C0006277",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Bronchitis"
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.01,
+        "uncertain_count": 3,
+        "narrow_band_ratio": 0.005,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.654,
+                    "Xylocaine",
+                    [
+                        1371,
+                        1380
+                    ]
+                ],
+                [
+                    0.625,
+                    "bronchoalveolar",
+                    [
+                        3190,
+                        3205
+                    ]
+                ]
+            ],
+            "MED": [
+                [
+                    0.652,
+                    "Xylocaine",
+                    [
+                        1716,
+                        1725
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "tracheobronchitis",
+                    [
+                        32,
+                        49
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "granulomatous",
+                    [
+                        66,
+                        79
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "disease",
+                    [
+                        80,
+                        87
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "TB",
+                    [
+                        92,
+                        94
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "TB",
+                    [
+                        543,
+                        545
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "caseating",
+                    [
+                        550,
+                        559
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "granulomata",
+                    [
+                        560,
+                        571
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "interstitial",
+                    [
+                        609,
+                        621
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "lung",
+                    [
+                        622,
+                        626
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "disease",
+                    [
+                        627,
+                        634
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "and",
+                    [
+                        635,
+                        638
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "question",
+                    [
+                        639,
+                        647
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "tuberculosis",
+                    [
+                        648,
+                        660
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "frothy",
+                    [
+                        1975,
+                        1981
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "secretions",
+                    [
+                        1982,
+                        1992
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "tracheobronchitis",
+                    [
+                        2234,
+                        2251
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "friability",
+                    [
+                        2262,
+                        2272
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "segmental",
+                    [
+                        2603,
+                        2612
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "distortion",
+                    [
+                        2613,
+                        2623
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "bronchitis",
+                    [
+                        2884,
+                        2894
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.868,
+                    "tracheobronchitis",
+                    [
+                        32,
+                        49
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.81,
+                    "granulomatous",
+                    [
+                        66,
+                        79
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.819,
+                    "disease",
+                    [
+                        80,
+                        87
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.818,
+                    "TB",
+                    [
+                        92,
+                        94
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.893,
+                    "TB",
+                    [
+                        543,
+                        545
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.412,
+                    "caseating",
+                    [
+                        550,
+                        559
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.663,
+                    "granulomata",
+                    [
+                        560,
+                        571
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.915,
+                    "interstitial",
+                    [
+                        609,
+                        621
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.969,
+                    "lung",
+                    [
+                        622,
+                        626
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.968,
+                    "disease",
+                    [
+                        627,
+                        634
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.519,
+                    "and",
+                    [
+                        635,
+                        638
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.743,
+                    "question",
+                    [
+                        639,
+                        647
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.877,
+                    "tuberculosis",
+                    [
+                        648,
+                        660
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.672,
+                    "tracheobronchitis",
+                    [
+                        2234,
+                        2251
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.727,
+                    "distortion",
+                    [
+                        2613,
+                        2623
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.53,
+                    "bronchitis",
+                    [
+                        2884,
+                        2894
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.109,
+        "uncertain_token_count": 8,
+        "narrow_band_ratio": 0.012,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.494,
+                    "Mild",
+                    [
+                        27,
+                        31
+                    ]
+                ],
+                [
+                    0.433,
+                    "frothy",
+                    [
+                        1975,
+                        1981
+                    ]
+                ],
+                [
+                    0.427,
+                    "secretions",
+                    [
+                        1982,
+                        1992
+                    ]
+                ],
+                [
+                    0.444,
+                    "friability",
+                    [
+                        2262,
+                        2272
+                    ]
+                ],
+                [
+                    0.495,
+                    "segmental",
+                    [
+                        2603,
+                        2612
+                    ]
+                ]
+            ],
+            "DIAGNOSIS": [
+                [
+                    0.412,
+                    "caseating",
+                    [
+                        550,
+                        559
+                    ]
+                ],
+                [
+                    0.519,
+                    "and",
+                    [
+                        635,
+                        638
+                    ]
+                ],
+                [
+                    0.53,
+                    "bronchitis",
+                    [
+                        2884,
+                        2894
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

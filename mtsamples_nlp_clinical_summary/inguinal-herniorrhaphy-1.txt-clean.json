@@ -1,0 +1,319 @@
+{
+    "file": "inguinal-herniorrhaphy-1.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "benzoin",
+                "code": "1406",
+                "cui": "C0005070",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Benzoin",
+                "range": [
+                    2361,
+                    2368
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 1.0
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "benzoin",
+                "code": "1406",
+                "cui": "C0005070",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Benzoin",
+                "range": [
+                    2361,
+                    2368
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 1.0
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "Steri-Strips",
+                "code": null,
+                "cui": null,
+                "tui": null,
+                "vocab": null,
+                "polarity": "positive",
+                "preferredText": null,
+                "range": [
+                    2374,
+                    2386
+                ],
+                "prob": {
+                    "MED": 0.909
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            }
+        ],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "Inguinal hernia",
+                "range": [
+                    26,
+                    41
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "396232000",
+                "cui": "C0019294",
+                "tui": "T190",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Hernia, Inguinal"
+            },
+            {
+                "text": "Direct inguinal hernia",
+                "range": [
+                    69,
+                    91
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "73147001",
+                "cui": "C0019295",
+                "tui": "T190",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Inguinal Hernia, Direct"
+            },
+            {
+                "text": "surgical infection",
+                "range": [
+                    463,
+                    481
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "hernia",
+                "range": [
+                    1445,
+                    1451
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "414403008",
+                "cui": "C0019270",
+                "tui": "T190",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Hernia"
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.013,
+        "uncertain_count": 2,
+        "narrow_band_ratio": 0.005,
+        "uncertain_tokens": {
+            "MED": [
+                [
+                    0.683,
+                    "antibiotics",
+                    [
+                        416,
+                        427
+                    ]
+                ]
+            ],
+            "NA": [
+                [
+                    0.669,
+                    "Prolene",
+                    [
+                        1886,
+                        1893
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "PROBLEM": [
+                    "Inguinal",
+                    [
+                        26,
+                        34
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "hernia",
+                    [
+                        35,
+                        41
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Direct",
+                    [
+                        69,
+                        75
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "inguinal",
+                    [
+                        76,
+                        84
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "hernia",
+                    [
+                        85,
+                        91
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "surgical",
+                    [
+                        463,
+                        471
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "infection",
+                    [
+                        472,
+                        481
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "hernia",
+                    [
+                        1445,
+                        1451
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "PROBLEM": [
+                    0.535,
+                    "Inguinal",
+                    [
+                        26,
+                        34
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.571,
+                    "hernia",
+                    [
+                        35,
+                        41
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.78,
+                    "Direct",
+                    [
+                        69,
+                        75
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.775,
+                    "inguinal",
+                    [
+                        76,
+                        84
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.739,
+                    "hernia",
+                    [
+                        85,
+                        91
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.682,
+                    "surgical",
+                    [
+                        463,
+                        471
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.787,
+                    "infection",
+                    [
+                        472,
+                        481
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.595,
+                    "hernia",
+                    [
+                        1445,
+                        1451
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.067,
+        "uncertain_token_count": 0,
+        "narrow_band_ratio": 0.0,
+        "uncertain_tokens": {},
+        "narrow_band_width": 0.2
+    }
+}

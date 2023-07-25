@@ -1,0 +1,150 @@
+{
+    "file": "sacral-alar-notch-injection.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "Betadine",
+                "code": "202750",
+                "cui": "C0699524",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Betadine",
+                "range": [
+                    396,
+                    404
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.96
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "Betadine",
+                "code": "202750",
+                "cui": "C0699524",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Betadine",
+                "range": [
+                    396,
+                    404
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.96
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            }
+        ],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "distal third",
+                "range": [
+                    854,
+                    866
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.016,
+        "uncertain_count": 2,
+        "narrow_band_ratio": 0.009,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.536,
+                    "Depo-Medrol",
+                    [
+                        619,
+                        630
+                    ]
+                ],
+                [
+                    0.5,
+                    "steroid",
+                    [
+                        1049,
+                        1056
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "distal",
+                    [
+                        854,
+                        860
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "third",
+                    [
+                        861,
+                        866
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    ")",
+                    [
+                        866,
+                        867
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.605,
+                    "distal",
+                    [
+                        854,
+                        860
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.682,
+                    "third",
+                    [
+                        861,
+                        866
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.058,
+        "uncertain_token_count": 0,
+        "narrow_band_ratio": 0.0,
+        "uncertain_tokens": {},
+        "narrow_band_width": 0.2
+    }
+}

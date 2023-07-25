@@ -1,0 +1,775 @@
+{
+    "file": "tarsectomy.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "Marcaine",
+                "code": "1012397",
+                "cui": "C2945665",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Marcaine",
+                "range": [
+                    1318,
+                    1326
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.902
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            }
+        ],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "enlarged navicula",
+                "range": [
+                    39,
+                    56
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "right foot",
+                "range": [
+                    58,
+                    68
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "of right fifth",
+                "range": [
+                    90,
+                    104
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "enlarged",
+                "range": [
+                    156,
+                    164
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "right foot",
+                "range": [
+                    175,
+                    185
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "right fifth",
+                "range": [
+                    210,
+                    221
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "hereditary",
+                "range": [
+                    651,
+                    661
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "of the fifth\nmetatarsal",
+                "range": [
+                    3869,
+                    3892
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.014,
+        "uncertain_count": 9,
+        "narrow_band_ratio": 0.009,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.69,
+                    "lidocaine",
+                    [
+                        1293,
+                        1302
+                    ]
+                ],
+                [
+                    0.661,
+                    "incision",
+                    [
+                        1947,
+                        1955
+                    ]
+                ],
+                [
+                    0.621,
+                    "incision",
+                    [
+                        3586,
+                        3594
+                    ]
+                ]
+            ],
+            "MED": [
+                [
+                    0.663,
+                    "lidocaine",
+                    [
+                        2061,
+                        2070
+                    ]
+                ],
+                [
+                    0.631,
+                    "capsule",
+                    [
+                        2266,
+                        2273
+                    ]
+                ],
+                [
+                    0.614,
+                    "capsule",
+                    [
+                        3426,
+                        3433
+                    ]
+                ],
+                [
+                    0.653,
+                    "capsule",
+                    [
+                        4107,
+                        4114
+                    ]
+                ],
+                [
+                    0.639,
+                    "Capsule",
+                    [
+                        4160,
+                        4167
+                    ]
+                ],
+                [
+                    0.569,
+                    "Steri-Strips",
+                    [
+                        4939,
+                        4951
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "Painful",
+                    [
+                        31,
+                        38
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "enlarged",
+                    [
+                        39,
+                        47
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "navicula",
+                    [
+                        48,
+                        56
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "right",
+                    [
+                        58,
+                        63
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "foot",
+                    [
+                        64,
+                        68
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Osteochondroma",
+                    [
+                        75,
+                        89
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "of",
+                    [
+                        90,
+                        92
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "right",
+                    [
+                        93,
+                        98
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "fifth",
+                    [
+                        99,
+                        104
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Painful",
+                    [
+                        148,
+                        155
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "enlarged",
+                    [
+                        156,
+                        164
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "right",
+                    [
+                        175,
+                        180
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "foot",
+                    [
+                        181,
+                        185
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Osteochondroma",
+                    [
+                        192,
+                        206
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "right",
+                    [
+                        210,
+                        215
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "fifth",
+                    [
+                        216,
+                        221
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "pain",
+                    [
+                        497,
+                        501
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "multiple",
+                    [
+                        563,
+                        571
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "osteochondromas",
+                    [
+                        572,
+                        587
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "hereditary",
+                    [
+                        651,
+                        661
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "osteochondromas",
+                    [
+                        662,
+                        677
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "of",
+                    [
+                        3869,
+                        3871
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "the",
+                    [
+                        3872,
+                        3875
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "fifth",
+                    [
+                        3876,
+                        3881
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "metatarsal",
+                    [
+                        3882,
+                        3892
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.776,
+                    "Painful",
+                    [
+                        31,
+                        38
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.701,
+                    "enlarged",
+                    [
+                        39,
+                        47
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.581,
+                    "navicula",
+                    [
+                        48,
+                        56
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.857,
+                    "right",
+                    [
+                        58,
+                        63
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.868,
+                    "foot",
+                    [
+                        64,
+                        68
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.932,
+                    "Osteochondroma",
+                    [
+                        75,
+                        89
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.64,
+                    "of",
+                    [
+                        90,
+                        92
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.667,
+                    "right",
+                    [
+                        93,
+                        98
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.399,
+                    "fifth",
+                    [
+                        99,
+                        104
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.521,
+                    "Painful",
+                    [
+                        148,
+                        155
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.55,
+                    "right",
+                    [
+                        175,
+                        180
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.586,
+                    "foot",
+                    [
+                        181,
+                        185
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.816,
+                    "Osteochondroma",
+                    [
+                        192,
+                        206
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.652,
+                    "right",
+                    [
+                        210,
+                        215
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.477,
+                    "fifth",
+                    [
+                        216,
+                        221
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.471,
+                    "extreme",
+                    [
+                        489,
+                        496
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.524,
+                    "pain",
+                    [
+                        497,
+                        501
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.562,
+                    "multiple",
+                    [
+                        563,
+                        571
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.763,
+                    "osteochondromas",
+                    [
+                        572,
+                        587
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.592,
+                    "hereditary",
+                    [
+                        651,
+                        661
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.869,
+                    "osteochondromas",
+                    [
+                        662,
+                        677
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.661,
+                    "of",
+                    [
+                        3869,
+                        3871
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.704,
+                    "the",
+                    [
+                        3872,
+                        3875
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.579,
+                    "fifth",
+                    [
+                        3876,
+                        3881
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.617,
+                    "metatarsal",
+                    [
+                        3882,
+                        3892
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.099,
+        "uncertain_token_count": 8,
+        "narrow_band_ratio": 0.008,
+        "uncertain_tokens": {
+            "DIAGNOSIS": [
+                [
+                    0.399,
+                    "fifth",
+                    [
+                        99,
+                        104
+                    ]
+                ],
+                [
+                    0.521,
+                    "Painful",
+                    [
+                        148,
+                        155
+                    ]
+                ],
+                [
+                    0.477,
+                    "fifth",
+                    [
+                        216,
+                        221
+                    ]
+                ],
+                [
+                    0.471,
+                    "extreme",
+                    [
+                        489,
+                        496
+                    ]
+                ],
+                [
+                    0.524,
+                    "pain",
+                    [
+                        497,
+                        501
+                    ]
+                ]
+            ],
+            "NA": [
+                [
+                    0.515,
+                    "enlarged",
+                    [
+                        156,
+                        164
+                    ]
+                ],
+                [
+                    0.514,
+                    "osteochondromas",
+                    [
+                        714,
+                        729
+                    ]
+                ],
+                [
+                    0.516,
+                    "as",
+                    [
+                        1415,
+                        1417
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

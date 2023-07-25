@@ -1,0 +1,593 @@
+{
+    "file": "status-post-liver-transplant.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "Prograf",
+                "code": "196463",
+                "cui": "C0678125",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Prograf",
+                "range": [
+                    2512,
+                    2519
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.994
+                },
+                "medFrequencyNumber": [
+                    "2.0"
+                ],
+                "medFrequencyUnit": [
+                    "day"
+                ],
+                "medStrengthNum": [
+                    "0.5",
+                    2520,
+                    2523
+                ],
+                "medStrengthUnit": [
+                    "mg",
+                    2524,
+                    2526
+                ]
+            },
+            {
+                "text": "Prograf",
+                "code": "196463",
+                "cui": "C0678125",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Prograf",
+                "range": [
+                    2512,
+                    2519
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.994
+                },
+                "medFrequencyNumber": [
+                    "2.0"
+                ],
+                "medFrequencyUnit": [
+                    "day"
+                ],
+                "medStrengthNum": [
+                    "0.5",
+                    2520,
+                    2523
+                ],
+                "medStrengthUnit": [
+                    "mg",
+                    2524,
+                    2526
+                ]
+            },
+            {
+                "text": "Valganciclovir",
+                "code": "275891",
+                "cui": "C0909381",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "valganciclovir",
+                "range": [
+                    2544,
+                    2558
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.997
+                },
+                "medFrequencyNumber": [
+                    "2.0"
+                ],
+                "medFrequencyUnit": [
+                    "day"
+                ],
+                "medStrengthNum": [
+                    "420",
+                    2559,
+                    2562
+                ],
+                "medStrengthUnit": [
+                    "mg",
+                    2563,
+                    2565
+                ]
+            },
+            {
+                "text": "Valganciclovir",
+                "code": "275891",
+                "cui": "C0909381",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "valganciclovir",
+                "range": [
+                    2544,
+                    2558
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.997
+                },
+                "medFrequencyNumber": [
+                    "2.0"
+                ],
+                "medFrequencyUnit": [
+                    "day"
+                ],
+                "medStrengthNum": [
+                    "420",
+                    2559,
+                    2562
+                ],
+                "medStrengthUnit": [
+                    "mg",
+                    2563,
+                    2565
+                ]
+            }
+        ],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "biliary atresia",
+                "range": [
+                    71,
+                    86
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "dental cavities",
+                "range": [
+                    318,
+                    333
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "upper molar",
+                "range": [
+                    411,
+                    422
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "Dental cavities",
+                "range": [
+                    2357,
+                    2372
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.005,
+        "uncertain_count": 1,
+        "narrow_band_ratio": 0.002,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.619,
+                    "dental",
+                    [
+                        2719,
+                        2725
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "biliary",
+                    [
+                        71,
+                        78
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "atresia",
+                    [
+                        79,
+                        86
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "food",
+                    [
+                        286,
+                        290
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "allergies",
+                    [
+                        291,
+                        300
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "dental",
+                    [
+                        318,
+                        324
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "cavities",
+                    [
+                        325,
+                        333
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "upper",
+                    [
+                        411,
+                        416
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "molar",
+                    [
+                        417,
+                        422
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "pain",
+                    [
+                        423,
+                        427
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Biliary",
+                    [
+                        2284,
+                        2291
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "atresia",
+                    [
+                        2292,
+                        2299
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Dental",
+                    [
+                        2357,
+                        2363
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "cavities",
+                    [
+                        2364,
+                        2372
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Food",
+                    [
+                        2379,
+                        2383
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "allergies",
+                    [
+                        2384,
+                        2393
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "urinary",
+                    [
+                        2411,
+                        2418
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "tract",
+                    [
+                        2419,
+                        2424
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "infections",
+                    [
+                        2425,
+                        2435
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.879,
+                    "biliary",
+                    [
+                        71,
+                        78
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.915,
+                    "atresia",
+                    [
+                        79,
+                        86
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.495,
+                    "food",
+                    [
+                        286,
+                        290
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.6,
+                    "allergies",
+                    [
+                        291,
+                        300
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.651,
+                    "dental",
+                    [
+                        318,
+                        324
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.747,
+                    "cavities",
+                    [
+                        325,
+                        333
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.513,
+                    "molar",
+                    [
+                        417,
+                        422
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.516,
+                    "pain",
+                    [
+                        423,
+                        427
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.786,
+                    "Biliary",
+                    [
+                        2284,
+                        2291
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.773,
+                    "atresia",
+                    [
+                        2292,
+                        2299
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.737,
+                    "Dental",
+                    [
+                        2357,
+                        2363
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.595,
+                    "cavities",
+                    [
+                        2364,
+                        2372
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.622,
+                    "Food",
+                    [
+                        2379,
+                        2383
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.612,
+                    "allergies",
+                    [
+                        2384,
+                        2393
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.953,
+                    "urinary",
+                    [
+                        2411,
+                        2418
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.965,
+                    "tract",
+                    [
+                        2419,
+                        2424
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.95,
+                    "infections",
+                    [
+                        2425,
+                        2435
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.049,
+        "uncertain_token_count": 4,
+        "narrow_band_ratio": 0.008,
+        "uncertain_tokens": {
+            "DIAGNOSIS": [
+                [
+                    0.495,
+                    "food",
+                    [
+                        286,
+                        290
+                    ]
+                ],
+                [
+                    0.513,
+                    "molar",
+                    [
+                        417,
+                        422
+                    ]
+                ],
+                [
+                    0.516,
+                    "pain",
+                    [
+                        423,
+                        427
+                    ]
+                ]
+            ],
+            "NA": [
+                [
+                    0.412,
+                    "upper",
+                    [
+                        411,
+                        416
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

@@ -1,0 +1,412 @@
+{
+    "file": "weight-loss-evaluation.txt-clean.txt",
+    "text2summary": {
+        "Medication": [],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "obesity",
+                "range": [
+                    127,
+                    134
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "414915002",
+                "cui": "C0028754",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Obesity"
+            },
+            {
+                "text": "while",
+                "range": [
+                    141,
+                    146
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "lobectomy",
+                "range": [
+                    294,
+                    303
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "morbid obesity",
+                "range": [
+                    1283,
+                    1297
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "83911000119104",
+                "cui": "C0028756",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Obesity, Morbid"
+            },
+            {
+                "text": "lobe lobectomy",
+                "range": [
+                    1354,
+                    1368
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "pulmonary embolus",
+                "range": [
+                    1448,
+                    1465
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "59282003",
+                "cui": "C0034065",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Pulmonary Embolism"
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.002,
+        "uncertain_count": 1,
+        "narrow_band_ratio": 0.002,
+        "uncertain_tokens": {
+            "MED": [
+                [
+                    0.653,
+                    "patches",
+                    [
+                        771,
+                        778
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "obesity",
+                    [
+                        127,
+                        134
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "while",
+                    [
+                        141,
+                        146
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "pulmonary",
+                    [
+                        253,
+                        262
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "embolus",
+                    [
+                        263,
+                        270
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "lobectomy",
+                    [
+                        294,
+                        303
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "morbid",
+                    [
+                        1283,
+                        1289
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "obesity",
+                    [
+                        1290,
+                        1297
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "pulmonary",
+                    [
+                        1320,
+                        1329
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "embolus",
+                    [
+                        1330,
+                        1337
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "lobe",
+                    [
+                        1354,
+                        1358
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "lobectomy",
+                    [
+                        1359,
+                        1368
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "pulmonary",
+                    [
+                        1448,
+                        1457
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "embolus",
+                    [
+                        1458,
+                        1465
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.771,
+                    "obesity",
+                    [
+                        127,
+                        134
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.601,
+                    "while",
+                    [
+                        141,
+                        146
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.866,
+                    "pulmonary",
+                    [
+                        253,
+                        262
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.844,
+                    "embolus",
+                    [
+                        263,
+                        270
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.535,
+                    "lobectomy",
+                    [
+                        294,
+                        303
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.931,
+                    "morbid",
+                    [
+                        1283,
+                        1289
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.951,
+                    "obesity",
+                    [
+                        1290,
+                        1297
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.893,
+                    "pulmonary",
+                    [
+                        1320,
+                        1329
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.896,
+                    "embolus",
+                    [
+                        1330,
+                        1337
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.506,
+                    "lobe",
+                    [
+                        1354,
+                        1358
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.636,
+                    "lobectomy",
+                    [
+                        1359,
+                        1368
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.883,
+                    "pulmonary",
+                    [
+                        1448,
+                        1457
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.916,
+                    "embolus",
+                    [
+                        1458,
+                        1465
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.115,
+        "uncertain_token_count": 5,
+        "narrow_band_ratio": 0.011,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.427,
+                    "suffered",
+                    [
+                        113,
+                        121
+                    ]
+                ],
+                [
+                    0.517,
+                    "lobe",
+                    [
+                        289,
+                        293
+                    ]
+                ],
+                [
+                    0.461,
+                    "issues",
+                    [
+                        421,
+                        427
+                    ]
+                ],
+                [
+                    0.53,
+                    "stomach",
+                    [
+                        459,
+                        466
+                    ]
+                ]
+            ],
+            "DIAGNOSIS": [
+                [
+                    0.506,
+                    "lobe",
+                    [
+                        1354,
+                        1358
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

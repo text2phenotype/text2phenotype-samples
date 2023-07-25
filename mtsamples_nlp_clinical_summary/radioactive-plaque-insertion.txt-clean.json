@@ -1,0 +1,237 @@
+{
+    "file": "radioactive-plaque-insertion.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "Neosporin",
+                "code": "31607",
+                "cui": "C0068536",
+                "tui": "T195",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Neosporin",
+                "range": [
+                    846,
+                    855
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.992
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "Neosporin",
+                "code": "31607",
+                "cui": "C0068536",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Neosporin",
+                "range": [
+                    846,
+                    855
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.992
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            }
+        ],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "Macular edema",
+                "range": [
+                    26,
+                    39
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "37231002",
+                "cui": "C0271051",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Macular retinal edema"
+            },
+            {
+                "text": "Macular edema",
+                "range": [
+                    78,
+                    91
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "37231002",
+                "cui": "C0271051",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Macular retinal edema"
+            },
+            {
+                "text": "right eye",
+                "range": [
+                    93,
+                    102
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.008,
+        "uncertain_count": 0,
+        "narrow_band_ratio": 0.0,
+        "uncertain_tokens": {},
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "Macular",
+                    [
+                        26,
+                        33
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "edema",
+                    [
+                        34,
+                        39
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Macular",
+                    [
+                        78,
+                        85
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "edema",
+                    [
+                        86,
+                        91
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "right",
+                    [
+                        93,
+                        98
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "eye",
+                    [
+                        99,
+                        102
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.649,
+                    "Macular",
+                    [
+                        26,
+                        33
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.685,
+                    "edema",
+                    [
+                        34,
+                        39
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.876,
+                    "Macular",
+                    [
+                        78,
+                        85
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.926,
+                    "edema",
+                    [
+                        86,
+                        91
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.581,
+                    "right",
+                    [
+                        93,
+                        98
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.555,
+                    "eye",
+                    [
+                        99,
+                        102
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.061,
+        "uncertain_token_count": 1,
+        "narrow_band_ratio": 0.005,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.501,
+                    ",",
+                    [
+                        91,
+                        92
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

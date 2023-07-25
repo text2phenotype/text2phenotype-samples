@@ -1,0 +1,260 @@
+{
+    "file": "esophagogastroduodenoscopy-2.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "Prevacid",
+                "code": "83156",
+                "cui": "C0286036",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Prevacid",
+                "range": [
+                    268,
+                    276
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 1.0
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [
+                    "7.5",
+                    277,
+                    280
+                ],
+                "medStrengthUnit": [
+                    "mg",
+                    281,
+                    283
+                ]
+            },
+            {
+                "text": "Prevacid",
+                "code": "83156",
+                "cui": "C0286036",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Prevacid",
+                "range": [
+                    268,
+                    276
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 1.0
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [
+                    "7.5",
+                    277,
+                    280
+                ],
+                "medStrengthUnit": [
+                    "mg",
+                    281,
+                    283
+                ]
+            }
+        ],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "gastroesophageal reflux",
+                "range": [
+                    133,
+                    156
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "stomach",
+                "range": [
+                    2123,
+                    2130
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "29384001",
+                "cui": "C0038354",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Stomach Diseases"
+            },
+            {
+                "text": "duodenum",
+                "range": [
+                    2136,
+                    2144
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.005,
+        "uncertain_count": 0,
+        "narrow_band_ratio": 0.0,
+        "uncertain_tokens": {},
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "irritability",
+                    [
+                        102,
+                        114
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "gastroesophageal",
+                    [
+                        133,
+                        149
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "reflux",
+                    [
+                        150,
+                        156
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "esophagus",
+                    [
+                        2112,
+                        2121
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "stomach",
+                    [
+                        2123,
+                        2130
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "duodenum",
+                    [
+                        2136,
+                        2144
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.592,
+                    "irritability",
+                    [
+                        102,
+                        114
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.621,
+                    "gastroesophageal",
+                    [
+                        133,
+                        149
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.795,
+                    "reflux",
+                    [
+                        150,
+                        156
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.654,
+                    "esophagus",
+                    [
+                        2112,
+                        2121
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.744,
+                    "stomach",
+                    [
+                        2123,
+                        2130
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.541,
+                    "duodenum",
+                    [
+                        2136,
+                        2144
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.124,
+        "uncertain_token_count": 2,
+        "narrow_band_ratio": 0.005,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.426,
+                    "diarrhea",
+                    [
+                        119,
+                        127
+                    ]
+                ],
+                [
+                    0.471,
+                    "condition",
+                    [
+                        2081,
+                        2090
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

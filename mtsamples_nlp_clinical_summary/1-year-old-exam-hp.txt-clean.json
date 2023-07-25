@@ -1,0 +1,215 @@
+{
+    "file": "1-year-old-exam-hp.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "Tobramycin",
+                "code": "10627",
+                "cui": "C0040341",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Tobramycin",
+                "range": [
+                    4564,
+                    4574
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.937
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [
+                    "day"
+                ],
+                "medStrengthNum": [
+                    "0.3",
+                    4594,
+                    4597
+                ],
+                "medStrengthUnit": [
+                    "%",
+                    4597,
+                    4598
+                ]
+            },
+            {
+                "text": "Tobramycin",
+                "code": "10627",
+                "cui": "C0040341",
+                "tui": "T195",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Tobramycin",
+                "range": [
+                    4564,
+                    4574
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.937
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [
+                    "day"
+                ],
+                "medStrengthNum": [
+                    "0.3",
+                    4594,
+                    4597
+                ],
+                "medStrengthUnit": [
+                    "%",
+                    4597,
+                    4598
+                ]
+            }
+        ],
+        "Allergy": [],
+        "Lab": [
+            {
+                "code": "6071",
+                "cui": "C0489786",
+                "tui": "T034",
+                "vocab": "MEDCIN",
+                "polarity": "positive",
+                "text": "Height",
+                "preferredText": "HEIGHT (PHYSICAL FINDING)",
+                "range": [
+                    1273,
+                    1279
+                ]
+            },
+            {
+                "code": "6063",
+                "cui": "C0005910",
+                "tui": "T034",
+                "vocab": "MEDCIN",
+                "polarity": "positive",
+                "text": "Weight",
+                "preferredText": "WEIGHT (PHYSICAL FINDING)",
+                "range": [
+                    1294,
+                    1300
+                ]
+            },
+            {
+                "code": "9300",
+                "cui": "C1305855",
+                "tui": "T034",
+                "vocab": "MEDCIN",
+                "polarity": "positive",
+                "text": "BMI",
+                "preferredText": "BODY MASS INDEX (PHYSICAL FINDING)",
+                "range": [
+                    1310,
+                    1313
+                ]
+            },
+            {
+                "code": "LP32067-8",
+                "cui": "C0019046",
+                "tui": "T034",
+                "vocab": "LNC",
+                "polarity": "positive",
+                "text": "Hb",
+                "preferredText": "HEMOGLOBIN",
+                "range": [
+                    3297,
+                    3299
+                ]
+            }
+        ],
+        "DiseaseDisorder": [
+            {
+                "text": "Acute conjunctivitis",
+                "range": [
+                    3348,
+                    3368
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "53726008",
+                "cui": "C0155141",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Acute conjunctivitis"
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.005,
+        "uncertain_count": 2,
+        "narrow_band_ratio": 0.002,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.509,
+                    "lead",
+                    [
+                        3417,
+                        3421
+                    ]
+                ],
+                [
+                    0.552,
+                    "Generic",
+                    [
+                        4674,
+                        4681
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "Acute",
+                    [
+                        3348,
+                        3353
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "conjunctivitis",
+                    [
+                        3354,
+                        3368
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.705,
+                    "Acute",
+                    [
+                        3348,
+                        3353
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.856,
+                    "conjunctivitis",
+                    [
+                        3354,
+                        3368
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.042,
+        "uncertain_token_count": 0,
+        "narrow_band_ratio": 0.0,
+        "uncertain_tokens": {},
+        "narrow_band_width": 0.2
+    }
+}

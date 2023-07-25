@@ -1,0 +1,458 @@
+{
+    "file": "fiberoptic-bronchoscopy-1.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "epinephrine",
+                "code": "3992",
+                "cui": "C0014563",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Epinephrine",
+                "range": [
+                    2340,
+                    2351
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.973
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "epinephrine",
+                "code": "3992",
+                "cui": "C0014563",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Epinephrine",
+                "range": [
+                    2340,
+                    2351
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.973
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            }
+        ],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "right middle",
+                "range": [
+                    114,
+                    126
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "friability",
+                "range": [
+                    137,
+                    147
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "acute",
+                "range": [
+                    445,
+                    450
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "associated",
+                "range": [
+                    467,
+                    477
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.006,
+        "uncertain_count": 2,
+        "narrow_band_ratio": 0.004,
+        "uncertain_tokens": {
+            "MED": [
+                [
+                    0.505,
+                    "clot",
+                    [
+                        1236,
+                        1240
+                    ]
+                ]
+            ],
+            "NA": [
+                [
+                    0.538,
+                    "clot",
+                    [
+                        1388,
+                        1392
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "Hemoptysis",
+                    [
+                        31,
+                        41
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "lung",
+                    [
+                        59,
+                        63
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "cancer",
+                    [
+                        64,
+                        70
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Tumor",
+                    [
+                        98,
+                        103
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "occluding",
+                    [
+                        104,
+                        113
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "right",
+                    [
+                        114,
+                        119
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "middle",
+                    [
+                        120,
+                        126
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "friability",
+                    [
+                        137,
+                        147
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "lung",
+                    [
+                        429,
+                        433
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "cancer",
+                    [
+                        434,
+                        440
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "acute",
+                    [
+                        445,
+                        450
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "hemoptysis",
+                    [
+                        451,
+                        461
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "associated",
+                    [
+                        467,
+                        477
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "chest",
+                    [
+                        478,
+                        483
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "pain",
+                    [
+                        484,
+                        488
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.657,
+                    "Hemoptysis",
+                    [
+                        31,
+                        41
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.938,
+                    "lung",
+                    [
+                        59,
+                        63
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.908,
+                    "cancer",
+                    [
+                        64,
+                        70
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.906,
+                    "Tumor",
+                    [
+                        98,
+                        103
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.469,
+                    "occluding",
+                    [
+                        104,
+                        113
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.611,
+                    "right",
+                    [
+                        114,
+                        119
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.604,
+                    "middle",
+                    [
+                        120,
+                        126
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.532,
+                    "friability",
+                    [
+                        137,
+                        147
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.887,
+                    "lung",
+                    [
+                        429,
+                        433
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.925,
+                    "cancer",
+                    [
+                        434,
+                        440
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.689,
+                    "acute",
+                    [
+                        445,
+                        450
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.675,
+                    "hemoptysis",
+                    [
+                        451,
+                        461
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.875,
+                    "associated",
+                    [
+                        467,
+                        477
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.897,
+                    "chest",
+                    [
+                        478,
+                        483
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.844,
+                    "pain",
+                    [
+                        484,
+                        488
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.116,
+        "uncertain_token_count": 3,
+        "narrow_band_ratio": 0.006,
+        "uncertain_tokens": {
+            "DIAGNOSIS": [
+                [
+                    0.469,
+                    "occluding",
+                    [
+                        104,
+                        113
+                    ]
+                ]
+            ],
+            "NA": [
+                [
+                    0.488,
+                    "with",
+                    [
+                        462,
+                        466
+                    ]
+                ],
+                [
+                    0.507,
+                    "history",
+                    [
+                        507,
+                        514
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

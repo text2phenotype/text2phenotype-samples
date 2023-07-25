@@ -1,0 +1,541 @@
+{
+    "file": "laparoscopic-cholecystectomy-8.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "lidocaine",
+                "code": "6387",
+                "cui": "C0023660",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Lidocaine",
+                "range": [
+                    1193,
+                    1202
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.907
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [
+                    "0.5",
+                    1207,
+                    1210
+                ],
+                "medStrengthUnit": [
+                    "%",
+                    1210,
+                    1211
+                ]
+            },
+            {
+                "text": "lidocaine",
+                "code": "6387",
+                "cui": "C0023660",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Lidocaine",
+                "range": [
+                    1193,
+                    1202
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.907
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [
+                    "0.5",
+                    1207,
+                    1210
+                ],
+                "medStrengthUnit": [
+                    "%",
+                    1210,
+                    1211
+                ]
+            }
+        ],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "Chronic cholecystitis",
+                "range": [
+                    26,
+                    47
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "20824003",
+                "cui": "C0085694",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Chronic cholecystitis"
+            },
+            {
+                "text": "Chronic cholecystitis",
+                "range": [
+                    75,
+                    96
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "20824003",
+                "cui": "C0085694",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Chronic cholecystitis"
+            },
+            {
+                "text": "chronic cholecystitis",
+                "range": [
+                    368,
+                    389
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "20824003",
+                "cui": "C0085694",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Chronic cholecystitis"
+            },
+            {
+                "text": "frequent right upper quadrant",
+                "range": [
+                    533,
+                    562
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "biliary\nsludge",
+                "range": [
+                    639,
+                    653
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "27123005",
+                "cui": "C0282074",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Biliary Sludge"
+            },
+            {
+                "text": "TED",
+                "range": [
+                    1020,
+                    1023
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "of the",
+                "range": [
+                    2098,
+                    2104
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.012,
+        "uncertain_count": 1,
+        "narrow_band_ratio": 0.002,
+        "uncertain_tokens": {
+            "MED": [
+                [
+                    0.504,
+                    "carbon",
+                    [
+                        1549,
+                        1555
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "Chronic",
+                    [
+                        26,
+                        33
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "cholecystitis",
+                    [
+                        34,
+                        47
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Chronic",
+                    [
+                        75,
+                        82
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "cholecystitis",
+                    [
+                        83,
+                        96
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "chronic",
+                    [
+                        368,
+                        375
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "cholecystitis",
+                    [
+                        376,
+                        389
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "frequent",
+                    [
+                        533,
+                        541
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "right",
+                    [
+                        542,
+                        547
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "upper",
+                    [
+                        548,
+                        553
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "quadrant",
+                    [
+                        554,
+                        562
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "abdominal",
+                    [
+                        563,
+                        572
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "pain",
+                    [
+                        573,
+                        577
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "biliary",
+                    [
+                        639,
+                        646
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "sludge",
+                    [
+                        647,
+                        653
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "TED",
+                    [
+                        1020,
+                        1023
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "of",
+                    [
+                        2098,
+                        2100
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "the",
+                    [
+                        2101,
+                        2104
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.658,
+                    "Chronic",
+                    [
+                        26,
+                        33
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.557,
+                    "cholecystitis",
+                    [
+                        34,
+                        47
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.843,
+                    "Chronic",
+                    [
+                        75,
+                        82
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.814,
+                    "cholecystitis",
+                    [
+                        83,
+                        96
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.863,
+                    "chronic",
+                    [
+                        368,
+                        375
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.926,
+                    "cholecystitis",
+                    [
+                        376,
+                        389
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.479,
+                    "right",
+                    [
+                        542,
+                        547
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.54,
+                    "upper",
+                    [
+                        548,
+                        553
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.505,
+                    "quadrant",
+                    [
+                        554,
+                        562
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.532,
+                    "abdominal",
+                    [
+                        563,
+                        572
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.527,
+                    "pain",
+                    [
+                        573,
+                        577
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.816,
+                    "biliary",
+                    [
+                        639,
+                        646
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.848,
+                    "sludge",
+                    [
+                        647,
+                        653
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.597,
+                    "TED",
+                    [
+                        1020,
+                        1023
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.1,
+        "uncertain_token_count": 6,
+        "narrow_band_ratio": 0.011,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.462,
+                    "frequent",
+                    [
+                        533,
+                        541
+                    ]
+                ],
+                [
+                    0.513,
+                    "hose",
+                    [
+                        1024,
+                        1028
+                    ]
+                ],
+                [
+                    0.458,
+                    "adhesions",
+                    [
+                        1795,
+                        1804
+                    ]
+                ]
+            ],
+            "PROBLEM": [
+                [
+                    0.479,
+                    "right",
+                    [
+                        542,
+                        547
+                    ]
+                ]
+            ],
+            "DIAGNOSIS": [
+                [
+                    0.505,
+                    "quadrant",
+                    [
+                        554,
+                        562
+                    ]
+                ],
+                [
+                    0.527,
+                    "pain",
+                    [
+                        573,
+                        577
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

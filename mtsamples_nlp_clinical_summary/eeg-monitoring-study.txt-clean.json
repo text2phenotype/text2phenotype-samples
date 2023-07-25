@@ -1,0 +1,129 @@
+{
+    "file": "eeg-monitoring-study.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "Keppra",
+                "code": "261547",
+                "cui": "C0876060",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Keppra",
+                "range": [
+                    388,
+                    394
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.919
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "Keppra",
+                "code": "261547",
+                "cui": "C0876060",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Keppra",
+                "range": [
+                    388,
+                    394
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.919
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            }
+        ],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": []
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.008,
+        "uncertain_count": 2,
+        "narrow_band_ratio": 0.004,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.543,
+                    "acid",
+                    [
+                        368,
+                        372
+                    ]
+                ]
+            ],
+            "MED": [
+                [
+                    0.64,
+                    "placebo",
+                    [
+                        910,
+                        917
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "findings",
+                    [
+                        2266,
+                        2274
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.547,
+                    "findings",
+                    [
+                        2266,
+                        2274
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.061,
+        "uncertain_token_count": 2,
+        "narrow_band_ratio": 0.004,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.518,
+                    "her",
+                    [
+                        1500,
+                        1503
+                    ]
+                ],
+                [
+                    0.509,
+                    "eyes",
+                    [
+                        1504,
+                        1508
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

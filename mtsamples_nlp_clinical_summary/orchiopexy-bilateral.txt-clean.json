@@ -1,0 +1,407 @@
+{
+    "file": "orchiopexy-bilateral.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "Betadine",
+                "code": "202750",
+                "cui": "C0699524",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Betadine",
+                "range": [
+                    1032,
+                    1040
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.986
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "Betadine",
+                "code": "202750",
+                "cui": "C0699524",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Betadine",
+                "range": [
+                    1032,
+                    1040
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.986
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "Marcaine",
+                "code": "1012397",
+                "cui": "C2945665",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Marcaine",
+                "range": [
+                    1073,
+                    1081
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.962
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            }
+        ],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "Bilateral",
+                "range": [
+                    26,
+                    35
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "Bilateral",
+                "range": [
+                    82,
+                    91
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "hernia sac",
+                "range": [
+                    1545,
+                    1555
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "112640005",
+                "cui": "C0333062",
+                "tui": "T190",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Hernia sac"
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.007,
+        "uncertain_count": 2,
+        "narrow_band_ratio": 0.003,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.595,
+                    "Steri-Strips",
+                    [
+                        3432,
+                        3444
+                    ]
+                ]
+            ],
+            "MED": [
+                [
+                    0.662,
+                    "sponge",
+                    [
+                        3666,
+                        3672
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "PROBLEM": [
+                    "Bilateral",
+                    [
+                        26,
+                        35
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "undescended",
+                    [
+                        36,
+                        47
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "testes",
+                    [
+                        48,
+                        54
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Bilateral",
+                    [
+                        82,
+                        91
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "undescended",
+                    [
+                        92,
+                        103
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "testes",
+                    [
+                        104,
+                        110
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "undescended",
+                    [
+                        258,
+                        269
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "testes",
+                    [
+                        270,
+                        276
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "hernia",
+                    [
+                        1545,
+                        1551
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "sac",
+                    [
+                        1552,
+                        1555
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "condition",
+                    [
+                        3640,
+                        3649
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "PROBLEM": [
+                    0.437,
+                    "Bilateral",
+                    [
+                        26,
+                        35
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.527,
+                    "undescended",
+                    [
+                        36,
+                        47
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.66,
+                    "testes",
+                    [
+                        48,
+                        54
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.809,
+                    "Bilateral",
+                    [
+                        82,
+                        91
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.775,
+                    "undescended",
+                    [
+                        92,
+                        103
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.678,
+                    "testes",
+                    [
+                        104,
+                        110
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.623,
+                    "undescended",
+                    [
+                        258,
+                        269
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.66,
+                    "testes",
+                    [
+                        270,
+                        276
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.528,
+                    "hernia",
+                    [
+                        1545,
+                        1551
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.492,
+                    "correct",
+                    [
+                        3685,
+                        3692
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.088,
+        "uncertain_token_count": 6,
+        "narrow_band_ratio": 0.009,
+        "uncertain_tokens": {
+            "PROBLEM": [
+                [
+                    0.437,
+                    "Bilateral",
+                    [
+                        26,
+                        35
+                    ]
+                ],
+                [
+                    0.527,
+                    "undescended",
+                    [
+                        36,
+                        47
+                    ]
+                ]
+            ],
+            "DIAGNOSIS": [
+                [
+                    0.528,
+                    "hernia",
+                    [
+                        1545,
+                        1551
+                    ]
+                ],
+                [
+                    0.492,
+                    "correct",
+                    [
+                        3685,
+                        3692
+                    ]
+                ]
+            ],
+            "NA": [
+                [
+                    0.511,
+                    "sac",
+                    [
+                        1552,
+                        1555
+                    ]
+                ],
+                [
+                    0.474,
+                    "condition",
+                    [
+                        3640,
+                        3649
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

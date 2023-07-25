@@ -1,0 +1,681 @@
+{
+    "file": "dorsal-ramus-branch-block.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "Betadine",
+                "code": "202750",
+                "cui": "C0699524",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Betadine",
+                "range": [
+                    1446,
+                    1454
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.998
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "Betadine",
+                "code": "202750",
+                "cui": "C0699524",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Betadine",
+                "range": [
+                    1446,
+                    1454
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.998
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "Lidocaine",
+                "code": "6387",
+                "cui": "C0023660",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Lidocaine",
+                "range": [
+                    1780,
+                    1789
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.977
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "Lidocaine",
+                "code": "6387",
+                "cui": "C0023660",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Lidocaine",
+                "range": [
+                    1780,
+                    1789
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.977
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            }
+        ],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "infection",
+                "range": [
+                    401,
+                    410
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "189822004",
+                "cui": "C0009450",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Communicable Diseases"
+            },
+            {
+                "text": "dural puncture",
+                "range": [
+                    441,
+                    455
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "nerve injuries",
+                "range": [
+                    467,
+                    481
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "57182000",
+                "cui": "C0161479",
+                "tui": "T037",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Nerve injury"
+            },
+            {
+                "text": "CNS",
+                "range": [
+                    526,
+                    529
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.012,
+        "uncertain_count": 3,
+        "narrow_band_ratio": 0.006,
+        "uncertain_tokens": {
+            "MED": [
+                [
+                    0.609,
+                    "bupivacaine",
+                    [
+                        2287,
+                        2298
+                    ]
+                ]
+            ],
+            "NA": [
+                [
+                    0.685,
+                    "medications",
+                    [
+                        2339,
+                        2350
+                    ]
+                ],
+                [
+                    0.581,
+                    "15-20",
+                    [
+                        2662,
+                        2667
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "Sacroiliac",
+                    [
+                        109,
+                        119
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "joint",
+                    [
+                        120,
+                        125
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "pain",
+                    [
+                        126,
+                        130
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "infection",
+                    [
+                        401,
+                        410
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "bleeding",
+                    [
+                        412,
+                        420
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "allergic",
+                    [
+                        422,
+                        430
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "reaction",
+                    [
+                        431,
+                        439
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "dural",
+                    [
+                        441,
+                        446
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "puncture",
+                    [
+                        447,
+                        455
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "headache",
+                    [
+                        457,
+                        465
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "nerve",
+                    [
+                        467,
+                        472
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "injuries",
+                    [
+                        473,
+                        481
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    ",",
+                    [
+                        481,
+                        482
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "CNS",
+                    [
+                        526,
+                        529
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "shortness",
+                    [
+                        2937,
+                        2946
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "of",
+                    [
+                        2947,
+                        2949
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "breath",
+                    [
+                        2950,
+                        2956
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "chest",
+                    [
+                        2958,
+                        2963
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "pain",
+                    [
+                        2964,
+                        2968
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "fever",
+                    [
+                        2970,
+                        2975
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.703,
+                    "Sacroiliac",
+                    [
+                        109,
+                        119
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.539,
+                    "joint",
+                    [
+                        120,
+                        125
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.648,
+                    "pain",
+                    [
+                        126,
+                        130
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.787,
+                    "infection",
+                    [
+                        401,
+                        410
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.783,
+                    "bleeding",
+                    [
+                        412,
+                        420
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.706,
+                    "allergic",
+                    [
+                        422,
+                        430
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.799,
+                    "reaction",
+                    [
+                        431,
+                        439
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.786,
+                    "dural",
+                    [
+                        441,
+                        446
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.902,
+                    "puncture",
+                    [
+                        447,
+                        455
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.775,
+                    "headache",
+                    [
+                        457,
+                        465
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.503,
+                    "nerve",
+                    [
+                        467,
+                        472
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.483,
+                    "injuries",
+                    [
+                        473,
+                        481
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.501,
+                    "spinal",
+                    [
+                        483,
+                        489
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.545,
+                    "cord",
+                    [
+                        490,
+                        494
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.5,
+                    "injury",
+                    [
+                        495,
+                        501
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.489,
+                    "side",
+                    [
+                        530,
+                        534
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.453,
+                    "shortness",
+                    [
+                        2937,
+                        2946
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.542,
+                    "of",
+                    [
+                        2947,
+                        2949
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.493,
+                    "breath",
+                    [
+                        2950,
+                        2956
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.462,
+                    "chest",
+                    [
+                        2958,
+                        2963
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.551,
+                    "pain",
+                    [
+                        2964,
+                        2968
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.692,
+                    "fever",
+                    [
+                        2970,
+                        2975
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.109,
+        "uncertain_token_count": 10,
+        "narrow_band_ratio": 0.018,
+        "uncertain_tokens": {
+            "DIAGNOSIS": [
+                [
+                    0.503,
+                    "nerve",
+                    [
+                        467,
+                        472
+                    ]
+                ],
+                [
+                    0.483,
+                    "injuries",
+                    [
+                        473,
+                        481
+                    ]
+                ],
+                [
+                    0.501,
+                    "spinal",
+                    [
+                        483,
+                        489
+                    ]
+                ],
+                [
+                    0.5,
+                    "injury",
+                    [
+                        495,
+                        501
+                    ]
+                ],
+                [
+                    0.489,
+                    "side",
+                    [
+                        530,
+                        534
+                    ]
+                ],
+                [
+                    0.453,
+                    "shortness",
+                    [
+                        2937,
+                        2946
+                    ]
+                ],
+                [
+                    0.493,
+                    "breath",
+                    [
+                        2950,
+                        2956
+                    ]
+                ],
+                [
+                    0.462,
+                    "chest",
+                    [
+                        2958,
+                        2963
+                    ]
+                ]
+            ],
+            "NA": [
+                [
+                    0.504,
+                    "Postprocedure",
+                    [
+                        2525,
+                        2538
+                    ]
+                ],
+                [
+                    0.512,
+                    "chills",
+                    [
+                        2977,
+                        2983
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

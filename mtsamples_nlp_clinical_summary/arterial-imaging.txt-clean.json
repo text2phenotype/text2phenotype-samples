@@ -1,0 +1,185 @@
+{
+    "file": "arterial-imaging.txt-clean.txt",
+    "text2summary": {
+        "Medication": [],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "Peripheral vascular disease",
+                "range": [
+                    15,
+                    42
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "400047006",
+                "cui": "C0085096",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Peripheral Vascular Diseases"
+            },
+            {
+                "text": "claudication",
+                "range": [
+                    48,
+                    60
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "275520000",
+                "cui": "C1456822",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Claudication (finding)"
+            },
+            {
+                "text": "extremities",
+                "range": [
+                    528,
+                    539
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.001,
+        "uncertain_count": 0,
+        "narrow_band_ratio": 0.0,
+        "uncertain_tokens": {},
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "Peripheral",
+                    [
+                        15,
+                        25
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "vascular",
+                    [
+                        26,
+                        34
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "disease",
+                    [
+                        35,
+                        42
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "claudication",
+                    [
+                        48,
+                        60
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "extremities",
+                    [
+                        528,
+                        539
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.935,
+                    "Peripheral",
+                    [
+                        15,
+                        25
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.911,
+                    "vascular",
+                    [
+                        26,
+                        34
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.828,
+                    "disease",
+                    [
+                        35,
+                        42
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.54,
+                    "claudication",
+                    [
+                        48,
+                        60
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.348,
+                    "extremities",
+                    [
+                        528,
+                        539
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.251,
+        "uncertain_token_count": 2,
+        "narrow_band_ratio": 0.02,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.434,
+                    "lower",
+                    [
+                        522,
+                        527
+                    ]
+                ]
+            ],
+            "DIAGNOSIS": [
+                [
+                    0.348,
+                    "extremities",
+                    [
+                        528,
+                        539
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

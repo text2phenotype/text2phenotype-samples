@@ -1,0 +1,206 @@
+{
+    "file": "well-child-check-1.txt-clean.txt",
+    "text2summary": {
+        "Medication": [],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "tear duct",
+                "range": [
+                    278,
+                    287
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "231839000",
+                "cui": "C0339127",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Complete obstruction of lacrimal canaliculus"
+            },
+            {
+                "text": "secretions",
+                "range": [
+                    351,
+                    361
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.011,
+        "uncertain_count": 1,
+        "narrow_band_ratio": 0.007,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.567,
+                    "drainage",
+                    [
+                        203,
+                        211
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "tear",
+                    [
+                        278,
+                        282
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "duct",
+                    [
+                        283,
+                        287
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "birth",
+                    [
+                        315,
+                        320
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "crusted",
+                    [
+                        343,
+                        350
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "secretions",
+                    [
+                        351,
+                        361
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.61,
+                    "tear",
+                    [
+                        278,
+                        282
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.609,
+                    "duct",
+                    [
+                        283,
+                        287
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.476,
+                    "birth",
+                    [
+                        315,
+                        320
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.513,
+                    "crusted",
+                    [
+                        343,
+                        350
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.498,
+                    "secretions",
+                    [
+                        351,
+                        361
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.449,
+                    "cold",
+                    [
+                        422,
+                        426
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.156,
+        "uncertain_token_count": 4,
+        "narrow_band_ratio": 0.027,
+        "uncertain_tokens": {
+            "DIAGNOSIS": [
+                [
+                    0.476,
+                    "birth",
+                    [
+                        315,
+                        320
+                    ]
+                ],
+                [
+                    0.513,
+                    "crusted",
+                    [
+                        343,
+                        350
+                    ]
+                ],
+                [
+                    0.498,
+                    "secretions",
+                    [
+                        351,
+                        361
+                    ]
+                ],
+                [
+                    0.449,
+                    "cold",
+                    [
+                        422,
+                        426
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

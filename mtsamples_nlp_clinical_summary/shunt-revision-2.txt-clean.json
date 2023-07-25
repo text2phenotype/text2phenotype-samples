@@ -1,0 +1,190 @@
+{
+    "file": "shunt-revision-2.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "Diamox",
+                "code": "151619",
+                "cui": "C0591362",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Diamox",
+                "range": [
+                    456,
+                    462
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.997
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "Diamox",
+                "code": "151619",
+                "cui": "C0591362",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Diamox",
+                "range": [
+                    456,
+                    462
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.997
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            }
+        ],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "Partial proximal",
+                "range": [
+                    71,
+                    87
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.007,
+        "uncertain_count": 2,
+        "narrow_band_ratio": 0.004,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.599,
+                    "CSF",
+                    [
+                        1088,
+                        1091
+                    ]
+                ],
+                [
+                    0.619,
+                    "Steri-Strips",
+                    [
+                        2496,
+                        2508
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "Shunt",
+                    [
+                        26,
+                        31
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Partial",
+                    [
+                        71,
+                        78
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "proximal",
+                    [
+                        79,
+                        87
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "obstruction",
+                    [
+                        88,
+                        99
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.704,
+                    "Shunt",
+                    [
+                        26,
+                        31
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.927,
+                    "Partial",
+                    [
+                        71,
+                        78
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.907,
+                    "proximal",
+                    [
+                        79,
+                        87
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.871,
+                    "obstruction",
+                    [
+                        88,
+                        99
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.063,
+        "uncertain_token_count": 1,
+        "narrow_band_ratio": 0.002,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.428,
+                    "malfunction",
+                    [
+                        32,
+                        43
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

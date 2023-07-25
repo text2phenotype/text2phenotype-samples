@@ -1,0 +1,621 @@
+{
+    "file": "bunionectomy-arthrodesis.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "Naprosyn",
+                "code": "203012",
+                "cui": "C0700017",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Naprosyn",
+                "range": [
+                    12413,
+                    12421
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 1.0
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [
+                    "375",
+                    12422,
+                    12425
+                ],
+                "medStrengthUnit": [
+                    "mg",
+                    12426,
+                    12428
+                ]
+            },
+            {
+                "text": "Naprosyn",
+                "code": "203012",
+                "cui": "C0700017",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Naprosyn",
+                "range": [
+                    12413,
+                    12421
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 1.0
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [
+                    "375",
+                    12422,
+                    12425
+                ],
+                "medStrengthUnit": [
+                    "mg",
+                    12426,
+                    12428
+                ]
+            }
+        ],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "Hallux abductovalgus",
+                "range": [
+                    31,
+                    51
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "122480009",
+                "cui": "C0018536",
+                "tui": "T190",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Hallux Valgus"
+            },
+            {
+                "text": "Rheumatoid arthritis",
+                "range": [
+                    247,
+                    267
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "69896004",
+                "cui": "C0003873",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Rheumatoid Arthritis"
+            },
+            {
+                "text": "Hallux abductovalgus",
+                "range": [
+                    356,
+                    376
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "122480009",
+                "cui": "C0018536",
+                "tui": "T190",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Hallux Valgus"
+            },
+            {
+                "text": "Hammer",
+                "range": [
+                    395,
+                    401
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "122481008",
+                "cui": "C1136179",
+                "tui": "T190",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Hammer Toe"
+            },
+            {
+                "text": "Rheumatoid arthritis",
+                "range": [
+                    572,
+                    592
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "69896004",
+                "cui": "C0003873",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Rheumatoid Arthritis"
+            },
+            {
+                "text": "right foot",
+                "range": [
+                    1204,
+                    1214
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "rheumatoid arthritis",
+                "range": [
+                    1309,
+                    1329
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "69896004",
+                "cui": "C0003873",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Rheumatoid Arthritis"
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.009,
+        "uncertain_count": 9,
+        "narrow_band_ratio": 0.004,
+        "uncertain_tokens": {
+            "MED": [
+                [
+                    0.546,
+                    "capsule",
+                    [
+                        3554,
+                        3561
+                    ]
+                ],
+                [
+                    0.512,
+                    "capsule",
+                    [
+                        3722,
+                        3729
+                    ]
+                ],
+                [
+                    0.679,
+                    "blade",
+                    [
+                        11405,
+                        11410
+                    ]
+                ],
+                [
+                    0.582,
+                    "suture",
+                    [
+                        11647,
+                        11653
+                    ]
+                ],
+                [
+                    0.672,
+                    "instructions",
+                    [
+                        12659,
+                        12671
+                    ]
+                ]
+            ],
+            "NA": [
+                [
+                    0.635,
+                    "implant",
+                    [
+                        5267,
+                        5274
+                    ]
+                ],
+                [
+                    0.678,
+                    "arthrodesis",
+                    [
+                        7916,
+                        7927
+                    ]
+                ],
+                [
+                    0.627,
+                    "sutures",
+                    [
+                        11059,
+                        11066
+                    ]
+                ],
+                [
+                    0.638,
+                    "nylon",
+                    [
+                        11641,
+                        11646
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "Hallux",
+                    [
+                        31,
+                        37
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "abductovalgus",
+                    [
+                        38,
+                        51
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Rheumatoid",
+                    [
+                        247,
+                        257
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "arthritis",
+                    [
+                        258,
+                        267
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Hallux",
+                    [
+                        356,
+                        362
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "abductovalgus",
+                    [
+                        363,
+                        376
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Hammer",
+                    [
+                        395,
+                        401
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Rheumatoid",
+                    [
+                        572,
+                        582
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "arthritis",
+                    [
+                        583,
+                        592
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "right",
+                    [
+                        1204,
+                        1209
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "foot",
+                    [
+                        1210,
+                        1214
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "bunion",
+                    [
+                        1215,
+                        1221
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "bunion",
+                    [
+                        1250,
+                        1256
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "rheumatoid",
+                    [
+                        1309,
+                        1319
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "arthritis",
+                    [
+                        1320,
+                        1329
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "pain",
+                    [
+                        1339,
+                        1343
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "nodules",
+                    [
+                        3651,
+                        3658
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.786,
+                    "Rheumatoid",
+                    [
+                        247,
+                        257
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.783,
+                    "arthritis",
+                    [
+                        258,
+                        267
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.734,
+                    "Hallux",
+                    [
+                        356,
+                        362
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.728,
+                    "abductovalgus",
+                    [
+                        363,
+                        376
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.744,
+                    "Rheumatoid",
+                    [
+                        572,
+                        582
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.717,
+                    "arthritis",
+                    [
+                        583,
+                        592
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.577,
+                    "right",
+                    [
+                        1204,
+                        1209
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.569,
+                    "foot",
+                    [
+                        1210,
+                        1214
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.584,
+                    "bunion",
+                    [
+                        1215,
+                        1221
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.615,
+                    "bunion",
+                    [
+                        1250,
+                        1256
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.765,
+                    "rheumatoid",
+                    [
+                        1309,
+                        1319
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.792,
+                    "arthritis",
+                    [
+                        1320,
+                        1329
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.397,
+                    "pain",
+                    [
+                        1339,
+                        1343
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.075,
+        "uncertain_token_count": 9,
+        "narrow_band_ratio": 0.004,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.491,
+                    "Hammer",
+                    [
+                        395,
+                        401
+                    ]
+                ],
+                [
+                    0.507,
+                    "toe",
+                    [
+                        402,
+                        405
+                    ]
+                ],
+                [
+                    0.483,
+                    "painful",
+                    [
+                        1196,
+                        1203
+                    ]
+                ],
+                [
+                    0.466,
+                    "rheumatoid",
+                    [
+                        3640,
+                        3650
+                    ]
+                ],
+                [
+                    0.413,
+                    "nodules",
+                    [
+                        3651,
+                        3658
+                    ]
+                ],
+                [
+                    0.518,
+                    "bony",
+                    [
+                        4694,
+                        4698
+                    ]
+                ],
+                [
+                    0.425,
+                    "tissue",
+                    [
+                        4699,
+                        4705
+                    ]
+                ],
+                [
+                    0.52,
+                    "status",
+                    [
+                        12311,
+                        12317
+                    ]
+                ]
+            ],
+            "DIAGNOSIS": [
+                [
+                    0.397,
+                    "pain",
+                    [
+                        1339,
+                        1343
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

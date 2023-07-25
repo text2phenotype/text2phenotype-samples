@@ -1,0 +1,232 @@
+{
+    "file": "laparoscopic-cholecystectomy-7.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "Ancef",
+                "code": "203483",
+                "cui": "C0700926",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Ancef",
+                "range": [
+                    404,
+                    409
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.98
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "Ancef",
+                "code": "203483",
+                "cui": "C0700926",
+                "tui": "T195",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Ancef",
+                "range": [
+                    404,
+                    409
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.98
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            }
+        ],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "Cholecystitis",
+                "range": [
+                    26,
+                    39
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "76581006",
+                "cui": "C0008325",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Cholecystitis"
+            },
+            {
+                "text": "cholelithiasis",
+                "range": [
+                    44,
+                    58
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "266474003",
+                "cui": "C0008350",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Cholelithiasis"
+            },
+            {
+                "text": "Cholecystitis",
+                "range": [
+                    86,
+                    99
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "76581006",
+                "cui": "C0008325",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Cholecystitis"
+            },
+            {
+                "text": "cholelithiasis",
+                "range": [
+                    104,
+                    118
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "266474003",
+                "cui": "C0008350",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Cholelithiasis"
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.011,
+        "uncertain_count": 3,
+        "narrow_band_ratio": 0.007,
+        "uncertain_tokens": {
+            "MED": [
+                [
+                    0.541,
+                    "anesthetic",
+                    [
+                        360,
+                        370
+                    ]
+                ]
+            ],
+            "NA": [
+                [
+                    0.606,
+                    "pneumoperitoneum",
+                    [
+                        616,
+                        632
+                    ]
+                ],
+                [
+                    0.558,
+                    "solution",
+                    [
+                        2034,
+                        2042
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "Cholecystitis",
+                    [
+                        26,
+                        39
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "cholelithiasis",
+                    [
+                        44,
+                        58
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Cholecystitis",
+                    [
+                        86,
+                        99
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "cholelithiasis",
+                    [
+                        104,
+                        118
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.572,
+                    "Cholecystitis",
+                    [
+                        26,
+                        39
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.633,
+                    "cholelithiasis",
+                    [
+                        44,
+                        58
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.821,
+                    "Cholecystitis",
+                    [
+                        86,
+                        99
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.817,
+                    "cholelithiasis",
+                    [
+                        104,
+                        118
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.065,
+        "uncertain_token_count": 0,
+        "narrow_band_ratio": 0.0,
+        "uncertain_tokens": {},
+        "narrow_band_width": 0.2
+    }
+}

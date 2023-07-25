@@ -1,0 +1,633 @@
+{
+    "file": "abscess-excision.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "Betadine",
+                "code": "202750",
+                "cui": "C0699524",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Betadine",
+                "range": [
+                    1303,
+                    1311
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.998
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "Betadine",
+                "code": "202750",
+                "cui": "C0699524",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Betadine",
+                "range": [
+                    1303,
+                    1311
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.998
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            }
+        ],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "sebaceous",
+                "range": [
+                    48,
+                    57
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "419603000",
+                "cui": "C0014511",
+                "tui": "T190",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Epithelial cyst"
+            },
+            {
+                "text": "of abdomen",
+                "range": [
+                    63,
+                    73
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "446064000",
+                "cui": "C2158560",
+                "tui": "T190",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Cyst of abdomen"
+            },
+            {
+                "text": "Abscess",
+                "range": [
+                    106,
+                    113
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "44132006",
+                "cui": "C0000833",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Abscess"
+            },
+            {
+                "text": "retained foreign body",
+                "range": [
+                    127,
+                    148
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "142661000119102",
+                "cui": "C0865505",
+                "tui": "T037",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Retained foreign body"
+            },
+            {
+                "text": "abscess",
+                "range": [
+                    203,
+                    210
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "44132006",
+                "cui": "C0000833",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Abscess"
+            },
+            {
+                "text": "trauma",
+                "range": [
+                    413,
+                    419
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "19130008",
+                "cui": "C3714660",
+                "tui": "T037",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Trauma"
+            },
+            {
+                "text": "hernia",
+                "range": [
+                    1067,
+                    1073
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "414403008",
+                "cui": "C0019270",
+                "tui": "T190",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Hernia"
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.005,
+        "uncertain_count": 0,
+        "narrow_band_ratio": 0.0,
+        "uncertain_tokens": {},
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "sebaceous",
+                    [
+                        48,
+                        57
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "of",
+                    [
+                        63,
+                        65
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "abdomen",
+                    [
+                        66,
+                        73
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Abscess",
+                    [
+                        106,
+                        113
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "retained",
+                    [
+                        127,
+                        135
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "foreign",
+                    [
+                        136,
+                        143
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "body",
+                    [
+                        144,
+                        148
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Incisional",
+                    [
+                        155,
+                        165
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "hernia",
+                    [
+                        166,
+                        172
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "abscess",
+                    [
+                        203,
+                        210
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "trauma",
+                    [
+                        413,
+                        419
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "cyst",
+                    [
+                        464,
+                        468
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "mass",
+                    [
+                        476,
+                        480
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "cyst",
+                    [
+                        924,
+                        928
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "hernia",
+                    [
+                        1067,
+                        1073
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "wound",
+                    [
+                        1638,
+                        1643
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "cyst",
+                    [
+                        1662,
+                        1666
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "hernia",
+                    [
+                        1778,
+                        1784
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "cyst",
+                    [
+                        1790,
+                        1794
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.382,
+                    "sebaceous",
+                    [
+                        48,
+                        57
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.385,
+                    "cyst",
+                    [
+                        58,
+                        62
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.478,
+                    "of",
+                    [
+                        63,
+                        65
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.671,
+                    "abdomen",
+                    [
+                        66,
+                        73
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.802,
+                    "Abscess",
+                    [
+                        106,
+                        113
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.865,
+                    "retained",
+                    [
+                        127,
+                        135
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.88,
+                    "foreign",
+                    [
+                        136,
+                        143
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.86,
+                    "body",
+                    [
+                        144,
+                        148
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.611,
+                    "Incisional",
+                    [
+                        155,
+                        165
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.708,
+                    "hernia",
+                    [
+                        166,
+                        172
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.517,
+                    "abscess",
+                    [
+                        203,
+                        210
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.88,
+                    "trauma",
+                    [
+                        413,
+                        419
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.44,
+                    "mass",
+                    [
+                        476,
+                        480
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.847,
+                    "cyst",
+                    [
+                        924,
+                        928
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.558,
+                    "hernia",
+                    [
+                        1067,
+                        1073
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.639,
+                    "wound",
+                    [
+                        1638,
+                        1643
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.672,
+                    "cyst",
+                    [
+                        1662,
+                        1666
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.472,
+                    "hernia",
+                    [
+                        1778,
+                        1784
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.451,
+                    "cyst",
+                    [
+                        1790,
+                        1794
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.168,
+        "uncertain_token_count": 12,
+        "narrow_band_ratio": 0.03,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.41,
+                    "re-infected",
+                    [
+                        36,
+                        47
+                    ]
+                ],
+                [
+                    0.516,
+                    "related",
+                    [
+                        402,
+                        409
+                    ]
+                ],
+                [
+                    0.376,
+                    "cyst",
+                    [
+                        464,
+                        468
+                    ]
+                ],
+                [
+                    0.471,
+                    "hernia",
+                    [
+                        1055,
+                        1061
+                    ]
+                ],
+                [
+                    0.444,
+                    "lesion",
+                    [
+                        1437,
+                        1443
+                    ]
+                ]
+            ],
+            "DIAGNOSIS": [
+                [
+                    0.382,
+                    "sebaceous",
+                    [
+                        48,
+                        57
+                    ]
+                ],
+                [
+                    0.517,
+                    "abscess",
+                    [
+                        203,
+                        210
+                    ]
+                ],
+                [
+                    0.472,
+                    "hernia",
+                    [
+                        1778,
+                        1784
+                    ]
+                ],
+                [
+                    0.451,
+                    "cyst",
+                    [
+                        1790,
+                        1794
+                    ]
+                ]
+            ],
+            "PROBLEM": [
+                [
+                    0.385,
+                    "cyst",
+                    [
+                        58,
+                        62
+                    ]
+                ],
+                [
+                    0.478,
+                    "of",
+                    [
+                        63,
+                        65
+                    ]
+                ],
+                [
+                    0.44,
+                    "mass",
+                    [
+                        476,
+                        480
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

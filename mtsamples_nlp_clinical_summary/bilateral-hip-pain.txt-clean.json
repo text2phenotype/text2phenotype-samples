@@ -1,0 +1,541 @@
+{
+    "file": "bilateral-hip-pain.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "duration",
+                "code": "1001007",
+                "cui": "C2926735",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Duration",
+                "range": [
+                    186,
+                    194
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.959
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            }
+        ],
+        "Allergy": [],
+        "Lab": [
+            {
+                "code": "",
+                "cui": "C0002059",
+                "tui": "T034",
+                "vocab": "LNC",
+                "polarity": "positive",
+                "text": "AP",
+                "preferredText": "ALP - ALKALINE PHOSPHATASE",
+                "range": [
+                    2037,
+                    2039
+                ]
+            }
+        ],
+        "DiseaseDisorder": [
+            {
+                "text": "into the",
+                "range": [
+                    396,
+                    404
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "reflux",
+                "range": [
+                    704,
+                    710
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "698065002",
+                "cui": "C0017168",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Gastroesophageal reflux disease"
+            },
+            {
+                "text": "Bilateral",
+                "range": [
+                    2372,
+                    2381
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "on",
+                "range": [
+                    2470,
+                    2472
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "labral tear",
+                "range": [
+                    2538,
+                    2549
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.002,
+        "uncertain_count": 0,
+        "narrow_band_ratio": 0.0,
+        "uncertain_tokens": {},
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "hip",
+                    [
+                        127,
+                        130
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "pain",
+                    [
+                        131,
+                        135
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "right",
+                    [
+                        235,
+                        240
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "hip",
+                    [
+                        241,
+                        244
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "pain",
+                    [
+                        245,
+                        249
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "into",
+                    [
+                        396,
+                        400
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "the",
+                    [
+                        401,
+                        404
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "depression",
+                    [
+                        689,
+                        699
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "reflux",
+                    [
+                        704,
+                        710
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "disease",
+                    [
+                        711,
+                        718
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Bilateral",
+                    [
+                        2372,
+                        2381
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "hip",
+                    [
+                        2382,
+                        2385
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "pain",
+                    [
+                        2386,
+                        2390
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "femoroacetabular",
+                    [
+                        2435,
+                        2451
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "impingement",
+                    [
+                        2452,
+                        2463
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "on",
+                    [
+                        2470,
+                        2472
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "labral",
+                    [
+                        2538,
+                        2544
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "tear",
+                    [
+                        2545,
+                        2549
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.545,
+                    "hip",
+                    [
+                        127,
+                        130
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.619,
+                    "pain",
+                    [
+                        131,
+                        135
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.501,
+                    "right",
+                    [
+                        235,
+                        240
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.694,
+                    "hip",
+                    [
+                        241,
+                        244
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.665,
+                    "pain",
+                    [
+                        245,
+                        249
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.495,
+                    "into",
+                    [
+                        396,
+                        400
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.906,
+                    "depression",
+                    [
+                        689,
+                        699
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.864,
+                    "reflux",
+                    [
+                        704,
+                        710
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.791,
+                    "disease",
+                    [
+                        711,
+                        718
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.849,
+                    "Bilateral",
+                    [
+                        2372,
+                        2381
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.843,
+                    "hip",
+                    [
+                        2382,
+                        2385
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.806,
+                    "pain",
+                    [
+                        2386,
+                        2390
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.714,
+                    "femoroacetabular",
+                    [
+                        2435,
+                        2451
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.756,
+                    "impingement",
+                    [
+                        2452,
+                        2463
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.485,
+                    "on",
+                    [
+                        2470,
+                        2472
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.775,
+                    "labral",
+                    [
+                        2538,
+                        2544
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.882,
+                    "tear",
+                    [
+                        2545,
+                        2549
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.111,
+        "uncertain_token_count": 9,
+        "narrow_band_ratio": 0.017,
+        "uncertain_tokens": {
+            "PROBLEM": [
+                [
+                    0.501,
+                    "right",
+                    [
+                        235,
+                        240
+                    ]
+                ]
+            ],
+            "DIAGNOSIS": [
+                [
+                    0.495,
+                    "into",
+                    [
+                        396,
+                        400
+                    ]
+                ],
+                [
+                    0.485,
+                    "on",
+                    [
+                        2470,
+                        2472
+                    ]
+                ]
+            ],
+            "NA": [
+                [
+                    0.435,
+                    "the",
+                    [
+                        401,
+                        404
+                    ]
+                ],
+                [
+                    0.492,
+                    "groin",
+                    [
+                        405,
+                        410
+                    ]
+                ],
+                [
+                    0.511,
+                    "hip",
+                    [
+                        547,
+                        550
+                    ]
+                ],
+                [
+                    0.477,
+                    "anxiety",
+                    [
+                        1283,
+                        1290
+                    ]
+                ],
+                [
+                    0.476,
+                    "right",
+                    [
+                        2392,
+                        2397
+                    ]
+                ],
+                [
+                    0.528,
+                    "worse",
+                    [
+                        2398,
+                        2403
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

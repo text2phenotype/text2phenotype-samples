@@ -1,0 +1,612 @@
+{
+    "file": "coronary-ct-angiography-ccta-2.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "Ultravist",
+                "code": "224899",
+                "cui": "C0728741",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Ultravist",
+                "range": [
+                    640,
+                    649
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.943
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            }
+        ],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "hypercholesterolemia",
+                "range": [
+                    238,
+                    258
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "13644009",
+                "cui": "C0020443",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Hypercholesterolemia"
+            },
+            {
+                "text": "noncalcified",
+                "range": [
+                    1646,
+                    1658
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "atherosclerosis",
+                "range": [
+                    2175,
+                    2190
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "38716007",
+                "cui": "C0004153",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Atherosclerosis"
+            },
+            {
+                "text": "atherosclerosis within the coronary vessels",
+                "range": [
+                    2403,
+                    2446
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "38716007",
+                "cui": "C0004153",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Atherosclerosis"
+            },
+            {
+                "text": "coronary artery disease",
+                "range": [
+                    2504,
+                    2527
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "53741008",
+                "cui": "C1956346",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Coronary Artery Disease"
+            },
+            {
+                "text": "modifications",
+                "range": [
+                    2676,
+                    2689
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "statin therapy",
+                "range": [
+                    2694,
+                    2708
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.011,
+        "uncertain_count": 3,
+        "narrow_band_ratio": 0.006,
+        "uncertain_tokens": {
+            "MED": [
+                [
+                    0.618,
+                    "ABC",
+                    [
+                        17,
+                        20
+                    ]
+                ],
+                [
+                    0.684,
+                    "nitroglycerin",
+                    [
+                        768,
+                        781
+                    ]
+                ]
+            ],
+            "NA": [
+                [
+                    0.689,
+                    "calcium",
+                    [
+                        2339,
+                        2346
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "PROBLEM": [
+                    "discomfort",
+                    [
+                        179,
+                        189
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "coronary",
+                    [
+                        209,
+                        217
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "artery",
+                    [
+                        218,
+                        224
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "disease",
+                    [
+                        225,
+                        232
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "hypercholesterolemia",
+                    [
+                        238,
+                        258
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "noncalcified",
+                    [
+                        1646,
+                        1658
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "lesion",
+                    [
+                        1659,
+                        1665
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "atherosclerosis",
+                    [
+                        2175,
+                        2190
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "atherosclerosis",
+                    [
+                        2403,
+                        2418
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "within",
+                    [
+                        2419,
+                        2425
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "the",
+                    [
+                        2426,
+                        2429
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "coronary",
+                    [
+                        2430,
+                        2438
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "vessels",
+                    [
+                        2439,
+                        2446
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "coronary",
+                    [
+                        2504,
+                        2512
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "artery",
+                    [
+                        2513,
+                        2519
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "disease",
+                    [
+                        2520,
+                        2527
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "modifications",
+                    [
+                        2676,
+                        2689
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "statin",
+                    [
+                        2694,
+                        2700
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "therapy",
+                    [
+                        2701,
+                        2708
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "PROBLEM": [
+                    0.45,
+                    "coronary",
+                    [
+                        209,
+                        217
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.432,
+                    "artery",
+                    [
+                        218,
+                        224
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.413,
+                    "disease",
+                    [
+                        225,
+                        232
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.529,
+                    "hypercholesterolemia",
+                    [
+                        238,
+                        258
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.46,
+                    "noncalcified",
+                    [
+                        1646,
+                        1658
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.599,
+                    "lesion",
+                    [
+                        1659,
+                        1665
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.69,
+                    "atherosclerosis",
+                    [
+                        2175,
+                        2190
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.839,
+                    "atherosclerosis",
+                    [
+                        2403,
+                        2418
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.74,
+                    "within",
+                    [
+                        2419,
+                        2425
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.857,
+                    "the",
+                    [
+                        2426,
+                        2429
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.814,
+                    "coronary",
+                    [
+                        2430,
+                        2438
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.731,
+                    "vessels",
+                    [
+                        2439,
+                        2446
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.967,
+                    "coronary",
+                    [
+                        2504,
+                        2512
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.964,
+                    "artery",
+                    [
+                        2513,
+                        2519
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.959,
+                    "disease",
+                    [
+                        2520,
+                        2527
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.637,
+                    "modifications",
+                    [
+                        2676,
+                        2689
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.499,
+                    "statin",
+                    [
+                        2694,
+                        2700
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.797,
+                    "therapy",
+                    [
+                        2701,
+                        2708
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.143,
+        "uncertain_token_count": 10,
+        "narrow_band_ratio": 0.021,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.508,
+                    "discomfort",
+                    [
+                        179,
+                        189
+                    ]
+                ],
+                [
+                    0.489,
+                    "calcified",
+                    [
+                        2165,
+                        2174
+                    ]
+                ],
+                [
+                    0.478,
+                    "aggressive",
+                    [
+                        2655,
+                        2665
+                    ]
+                ],
+                [
+                    0.419,
+                    "lifestyle",
+                    [
+                        2666,
+                        2675
+                    ]
+                ]
+            ],
+            "PROBLEM": [
+                [
+                    0.45,
+                    "coronary",
+                    [
+                        209,
+                        217
+                    ]
+                ],
+                [
+                    0.432,
+                    "artery",
+                    [
+                        218,
+                        224
+                    ]
+                ],
+                [
+                    0.413,
+                    "disease",
+                    [
+                        225,
+                        232
+                    ]
+                ],
+                [
+                    0.529,
+                    "hypercholesterolemia",
+                    [
+                        238,
+                        258
+                    ]
+                ]
+            ],
+            "DIAGNOSIS": [
+                [
+                    0.46,
+                    "noncalcified",
+                    [
+                        1646,
+                        1658
+                    ]
+                ],
+                [
+                    0.499,
+                    "statin",
+                    [
+                        2694,
+                        2700
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

@@ -1,0 +1,193 @@
+{
+    "file": "cysto-double-j-stent-insersion.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "Contrast",
+                "code": null,
+                "cui": null,
+                "tui": null,
+                "vocab": null,
+                "polarity": "positive",
+                "preferredText": null,
+                "range": [
+                    1771,
+                    1779
+                ],
+                "prob": {
+                    "MED": 0.998
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            }
+        ],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "Residual stone",
+                "range": [
+                    26,
+                    40
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "Residual stone",
+                "range": [
+                    116,
+                    130
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.01,
+        "uncertain_count": 1,
+        "narrow_band_ratio": 0.003,
+        "uncertain_tokens": {
+            "MED": [
+                [
+                    0.587,
+                    "condition",
+                    [
+                        2247,
+                        2256
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "Residual",
+                    [
+                        26,
+                        34
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "stone",
+                    [
+                        35,
+                        40
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Residual",
+                    [
+                        116,
+                        124
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "stone",
+                    [
+                        125,
+                        130
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.741,
+                    "Residual",
+                    [
+                        26,
+                        34
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.567,
+                    "stone",
+                    [
+                        35,
+                        40
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.76,
+                    "Residual",
+                    [
+                        116,
+                        124
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.649,
+                    "stone",
+                    [
+                        125,
+                        130
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.471,
+                    "nephrolithotomy",
+                    [
+                        201,
+                        216
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.084,
+        "uncertain_token_count": 2,
+        "narrow_band_ratio": 0.005,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.512,
+                    "status",
+                    [
+                        131,
+                        137
+                    ]
+                ]
+            ],
+            "DIAGNOSIS": [
+                [
+                    0.471,
+                    "nephrolithotomy",
+                    [
+                        201,
+                        216
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

@@ -1,0 +1,319 @@
+{
+    "file": "autopsy-3.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "hypochlorite",
+                "code": "1483317",
+                "cui": "C0122922",
+                "tui": "T196",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Hypochlorite",
+                "range": [
+                    1750,
+                    1762
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.906
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            }
+        ],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "A",
+                "range": [
+                    1252,
+                    1253
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "V",
+                "range": [
+                    1372,
+                    1373
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "B",
+                "range": [
+                    1861,
+                    1862
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "B",
+                "range": [
+                    2218,
+                    2219
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.006,
+        "uncertain_count": 5,
+        "narrow_band_ratio": 0.004,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.688,
+                    "bleach",
+                    [
+                        1667,
+                        1673
+                    ]
+                ],
+                [
+                    0.525,
+                    "hypochlorite",
+                    [
+                        5774,
+                        5786
+                    ]
+                ]
+            ],
+            "MED": [
+                [
+                    0.582,
+                    "Ligature",
+                    [
+                        2492,
+                        2500
+                    ]
+                ],
+                [
+                    0.517,
+                    "EDTA",
+                    [
+                        4902,
+                        4906
+                    ]
+                ],
+                [
+                    0.669,
+                    "YCSD",
+                    [
+                        6356,
+                        6360
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "mark",
+                    [
+                        1205,
+                        1209
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "A",
+                    [
+                        1252,
+                        1253
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "V",
+                    [
+                        1372,
+                        1373
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "B",
+                    [
+                        1861,
+                        1862
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "B",
+                    [
+                        2218,
+                        2219
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "livor",
+                    [
+                        5935,
+                        5940
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "mortis",
+                    [
+                        5941,
+                        5947
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.564,
+                    "mark",
+                    [
+                        1205,
+                        1209
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.688,
+                    "A",
+                    [
+                        1252,
+                        1253
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.626,
+                    "V",
+                    [
+                        1372,
+                        1373
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.54,
+                    "B",
+                    [
+                        1861,
+                        1862
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.489,
+                    "B",
+                    [
+                        2218,
+                        2219
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.522,
+                    "livor",
+                    [
+                        5935,
+                        5940
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.458,
+                    "mortis",
+                    [
+                        5941,
+                        5947
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.093,
+        "uncertain_token_count": 4,
+        "narrow_band_ratio": 0.003,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.507,
+                    "ligature",
+                    [
+                        1196,
+                        1204
+                    ]
+                ]
+            ],
+            "DIAGNOSIS": [
+                [
+                    0.489,
+                    "B",
+                    [
+                        2218,
+                        2219
+                    ]
+                ],
+                [
+                    0.458,
+                    "mortis",
+                    [
+                        5941,
+                        5947
+                    ]
+                ]
+            ],
+            "PROBLEM": [
+                [
+                    0.522,
+                    "livor",
+                    [
+                        5935,
+                        5940
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

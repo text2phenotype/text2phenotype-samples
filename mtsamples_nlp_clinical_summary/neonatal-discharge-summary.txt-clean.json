@@ -1,0 +1,176 @@
+{
+    "file": "neonatal-discharge-summary.txt-clean.txt",
+    "text2summary": {
+        "Medication": [],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "Respiratory distress",
+                "range": [
+                    1648,
+                    1668
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.01,
+        "uncertain_count": 2,
+        "narrow_band_ratio": 0.005,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.638,
+                    "Ampicillin",
+                    [
+                        864,
+                        874
+                    ]
+                ],
+                [
+                    0.603,
+                    "gentamicin",
+                    [
+                        1057,
+                        1067
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "PROBLEM": [
+                    "para",
+                    [
+                        106,
+                        110
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "2",
+                    [
+                        111,
+                        112
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "gestation",
+                    [
+                        128,
+                        137
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Respiratory",
+                    [
+                        1648,
+                        1659
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "distress",
+                    [
+                        1660,
+                        1668
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "PROBLEM": [
+                    0.469,
+                    "gravida",
+                    [
+                        95,
+                        102
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.578,
+                    "para",
+                    [
+                        106,
+                        110
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.602,
+                    "2",
+                    [
+                        111,
+                        112
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.777,
+                    "Respiratory",
+                    [
+                        1648,
+                        1659
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.827,
+                    "distress",
+                    [
+                        1660,
+                        1668
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.058,
+        "uncertain_token_count": 2,
+        "narrow_band_ratio": 0.005,
+        "uncertain_tokens": {
+            "PROBLEM": [
+                [
+                    0.469,
+                    "gravida",
+                    [
+                        95,
+                        102
+                    ]
+                ]
+            ],
+            "NA": [
+                [
+                    0.415,
+                    "gestation",
+                    [
+                        128,
+                        137
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

@@ -1,0 +1,677 @@
+{
+    "file": "coronary-angiography.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "fentanyl",
+                "code": "4337",
+                "cui": "C0015846",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Fentanyl",
+                "range": [
+                    464,
+                    472
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.951
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "fentanyl",
+                "code": "4337",
+                "cui": "C0015846",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Fentanyl",
+                "range": [
+                    464,
+                    472
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.951
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            }
+        ],
+        "Allergy": [],
+        "Lab": [
+            {
+                "code": "",
+                "cui": "C0002059",
+                "tui": "T034",
+                "vocab": "LNC",
+                "polarity": "positive",
+                "text": "AP",
+                "preferredText": "ALP - ALKALINE PHOSPHATASE",
+                "range": [
+                    967,
+                    969
+                ]
+            }
+        ],
+        "DiseaseDisorder": [
+            {
+                "text": "Patent coronary arteries",
+                "range": [
+                    3129,
+                    3153
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "anterior",
+                "range": [
+                    3171,
+                    3179
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "51742006",
+                "cui": "C0751437",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Adenohypophyseal Diseases"
+            },
+            {
+                "text": "Nondominant right",
+                "range": [
+                    3251,
+                    3268
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "Minimal",
+                "range": [
+                    3313,
+                    3320
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "diagonal branch II",
+                "range": [
+                    3335,
+                    3353
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "obtuse",
+                "range": [
+                    3363,
+                    3369
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "marginal branch",
+                "range": [
+                    3372,
+                    3387
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.009,
+        "uncertain_count": 4,
+        "narrow_band_ratio": 0.006,
+        "uncertain_tokens": {
+            "MED": [
+                [
+                    0.628,
+                    "lidocaine",
+                    [
+                        600,
+                        609
+                    ]
+                ],
+                [
+                    0.535,
+                    "solution",
+                    [
+                        610,
+                        618
+                    ]
+                ],
+                [
+                    0.642,
+                    "contrast",
+                    [
+                        1405,
+                        1413
+                    ]
+                ]
+            ],
+            "NA": [
+                [
+                    0.599,
+                    "stick",
+                    [
+                        714,
+                        719
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "Patent",
+                    [
+                        3129,
+                        3135
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "coronary",
+                    [
+                        3136,
+                        3144
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "arteries",
+                    [
+                        3145,
+                        3153
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "anterior",
+                    [
+                        3171,
+                        3179
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Nondominant",
+                    [
+                        3251,
+                        3262
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "right",
+                    [
+                        3263,
+                        3268
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "atheromatous",
+                    [
+                        3287,
+                        3299
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "plaque",
+                    [
+                        3300,
+                        3306
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Minimal",
+                    [
+                        3313,
+                        3320
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "plaque",
+                    [
+                        3321,
+                        3327
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "diagonal",
+                    [
+                        3335,
+                        3343
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "branch",
+                    [
+                        3344,
+                        3350
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "II",
+                    [
+                        3351,
+                        3353
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "obtuse",
+                    [
+                        3363,
+                        3369
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "marginal",
+                    [
+                        3372,
+                        3380
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "branch",
+                    [
+                        3381,
+                        3387
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "left",
+                    [
+                        3429,
+                        3433
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "ventricular",
+                    [
+                        3434,
+                        3445
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "function",
+                    [
+                        3446,
+                        3454
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "noncardiac",
+                    [
+                        3476,
+                        3486
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "chest",
+                    [
+                        3487,
+                        3492
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "pain",
+                    [
+                        3493,
+                        3497
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.631,
+                    "Patent",
+                    [
+                        3129,
+                        3135
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.843,
+                    "coronary",
+                    [
+                        3136,
+                        3144
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.703,
+                    "arteries",
+                    [
+                        3145,
+                        3153
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.536,
+                    "anterior",
+                    [
+                        3171,
+                        3179
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.589,
+                    "Nondominant",
+                    [
+                        3251,
+                        3262
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.541,
+                    "right",
+                    [
+                        3263,
+                        3268
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.479,
+                    "atheromatous",
+                    [
+                        3287,
+                        3299
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.69,
+                    "plaque",
+                    [
+                        3300,
+                        3306
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.629,
+                    "Minimal",
+                    [
+                        3313,
+                        3320
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.787,
+                    "plaque",
+                    [
+                        3321,
+                        3327
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.531,
+                    "diagonal",
+                    [
+                        3335,
+                        3343
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.665,
+                    "branch",
+                    [
+                        3344,
+                        3350
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.731,
+                    "II",
+                    [
+                        3351,
+                        3353
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.522,
+                    "obtuse",
+                    [
+                        3363,
+                        3369
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.71,
+                    "marginal",
+                    [
+                        3372,
+                        3380
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.614,
+                    "branch",
+                    [
+                        3381,
+                        3387
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.793,
+                    "left",
+                    [
+                        3429,
+                        3433
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.712,
+                    "ventricular",
+                    [
+                        3434,
+                        3445
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.635,
+                    "function",
+                    [
+                        3446,
+                        3454
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.533,
+                    "noncardiac",
+                    [
+                        3476,
+                        3486
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.638,
+                    "chest",
+                    [
+                        3487,
+                        3492
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.654,
+                    "pain",
+                    [
+                        3493,
+                        3497
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.073,
+        "uncertain_token_count": 5,
+        "narrow_band_ratio": 0.008,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.527,
+                    "left",
+                    [
+                        3166,
+                        3170
+                    ]
+                ],
+                [
+                    0.519,
+                    "the",
+                    [
+                        3331,
+                        3334
+                    ]
+                ],
+                [
+                    0.511,
+                    "III",
+                    [
+                        3388,
+                        3391
+                    ]
+                ]
+            ],
+            "DIAGNOSIS": [
+                [
+                    0.479,
+                    "atheromatous",
+                    [
+                        3287,
+                        3299
+                    ]
+                ],
+                [
+                    0.522,
+                    "obtuse",
+                    [
+                        3363,
+                        3369
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

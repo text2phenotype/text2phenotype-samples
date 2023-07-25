@@ -1,0 +1,181 @@
+{
+    "file": "gen-med-consult-24.txt-clean.txt",
+    "text2summary": {
+        "Medication": [],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "AIDS (CD4 -67",
+                "range": [
+                    138,
+                    151
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "62479008",
+                "cui": "C0001175",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Acquired Immunodeficiency Syndrome"
+            },
+            {
+                "text": "VL -341K",
+                "range": [
+                    153,
+                    161
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.003,
+        "uncertain_count": 0,
+        "narrow_band_ratio": 0.0,
+        "uncertain_tokens": {},
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "AIDS",
+                    [
+                        138,
+                        142
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "CD4",
+                    [
+                        144,
+                        147
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "-67",
+                    [
+                        148,
+                        151
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "VL",
+                    [
+                        153,
+                        155
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "-341K",
+                    [
+                        156,
+                        161
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "PROBLEM": [
+                    0.376,
+                    "Headache",
+                    [
+                        19,
+                        27
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.769,
+                    "AIDS",
+                    [
+                        138,
+                        142
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.629,
+                    "CD4",
+                    [
+                        144,
+                        147
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.613,
+                    "-67",
+                    [
+                        148,
+                        151
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.518,
+                    "VL",
+                    [
+                        153,
+                        155
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.61,
+                    "-341K",
+                    [
+                        156,
+                        161
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.274,
+        "uncertain_token_count": 2,
+        "narrow_band_ratio": 0.053,
+        "uncertain_tokens": {
+            "PROBLEM": [
+                [
+                    0.376,
+                    "Headache",
+                    [
+                        19,
+                        27
+                    ]
+                ]
+            ],
+            "DIAGNOSIS": [
+                [
+                    0.518,
+                    "VL",
+                    [
+                        153,
+                        155
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

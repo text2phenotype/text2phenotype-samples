@@ -1,0 +1,462 @@
+{
+    "file": "gen-med-soap-2.txt-clean.txt",
+    "text2summary": {
+        "Medication": [],
+        "Allergy": [],
+        "Lab": [
+            {
+                "code": "LP32534-7",
+                "cui": "C0017725",
+                "tui": "T034",
+                "vocab": "LNC",
+                "polarity": "positive",
+                "text": "glucose",
+                "preferredText": "GLUCOSE",
+                "range": [
+                    117,
+                    124
+                ]
+            }
+        ],
+        "DiseaseDisorder": [
+            {
+                "text": "NIDDM",
+                "range": [
+                    500,
+                    505
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "44054006",
+                "cui": "C0011860",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Diabetes Mellitus, Non-Insulin-Dependent"
+            },
+            {
+                "text": "Hypertension",
+                "range": [
+                    534,
+                    546
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "38341003",
+                "cui": "C0020538",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Hypertensive disease"
+            },
+            {
+                "text": "Coronary artery disease",
+                "range": [
+                    553,
+                    576
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "53741008",
+                "cui": "C1956346",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Coronary Artery Disease"
+            },
+            {
+                "text": "Degenerative arthritis",
+                "range": [
+                    624,
+                    646
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "225655006",
+                "cui": "C0029408",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Degenerative polyarthritis"
+            },
+            {
+                "text": "Hyperlipidemia",
+                "range": [
+                    653,
+                    667
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "55822004",
+                "cui": "C0020473",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Hyperlipidemia"
+            },
+            {
+                "text": "Hyperuricemia",
+                "range": [
+                    674,
+                    687
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "35885006",
+                "cui": "C0740394",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Hyperuricemia"
+            },
+            {
+                "text": "Renal azotemia",
+                "range": [
+                    694,
+                    708
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "371019009",
+                "cui": "C0235446",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Azotemia due to intrarenal disease"
+            },
+            {
+                "text": "Anemia",
+                "range": [
+                    715,
+                    721
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "271737000",
+                "cui": "C0002871",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Anemia"
+            },
+            {
+                "text": "breasts",
+                "range": [
+                    743,
+                    750
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.016,
+        "uncertain_count": 3,
+        "narrow_band_ratio": 0.014,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.518,
+                    "glucose",
+                    [
+                        117,
+                        124
+                    ]
+                ],
+                [
+                    0.638,
+                    "Accu-Chek",
+                    [
+                        181,
+                        190
+                    ]
+                ],
+                [
+                    0.698,
+                    "medications",
+                    [
+                        823,
+                        834
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "NIDDM",
+                    [
+                        500,
+                        505
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Hypertension",
+                    [
+                        534,
+                        546
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Coronary",
+                    [
+                        553,
+                        561
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "artery",
+                    [
+                        562,
+                        568
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "disease",
+                    [
+                        569,
+                        576
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Degenerative",
+                    [
+                        624,
+                        636
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "arthritis",
+                    [
+                        637,
+                        646
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Hyperlipidemia",
+                    [
+                        653,
+                        667
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Hyperuricemia",
+                    [
+                        674,
+                        687
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Renal",
+                    [
+                        694,
+                        699
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "azotemia",
+                    [
+                        700,
+                        708
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Anemia",
+                    [
+                        715,
+                        721
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "breasts",
+                    [
+                        743,
+                        750
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.984,
+                    "NIDDM",
+                    [
+                        500,
+                        505
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.985,
+                    "Hypertension",
+                    [
+                        534,
+                        546
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.943,
+                    "Coronary",
+                    [
+                        553,
+                        561
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.962,
+                    "artery",
+                    [
+                        562,
+                        568
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.962,
+                    "disease",
+                    [
+                        569,
+                        576
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.888,
+                    "Degenerative",
+                    [
+                        624,
+                        636
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.924,
+                    "arthritis",
+                    [
+                        637,
+                        646
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.899,
+                    "Hyperlipidemia",
+                    [
+                        653,
+                        667
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.929,
+                    "Hyperuricemia",
+                    [
+                        674,
+                        687
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.927,
+                    "Renal",
+                    [
+                        694,
+                        699
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.895,
+                    "azotemia",
+                    [
+                        700,
+                        708
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.911,
+                    "Anemia",
+                    [
+                        715,
+                        721
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.476,
+                    "breasts",
+                    [
+                        743,
+                        750
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.058,
+        "uncertain_token_count": 2,
+        "narrow_band_ratio": 0.009,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.43,
+                    "Fibroglandular",
+                    [
+                        728,
+                        742
+                    ]
+                ]
+            ],
+            "PROBLEM": [
+                [
+                    0.476,
+                    "breasts",
+                    [
+                        743,
+                        750
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

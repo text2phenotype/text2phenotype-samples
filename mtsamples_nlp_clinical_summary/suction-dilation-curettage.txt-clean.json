@@ -1,0 +1,719 @@
+{
+    "file": "suction-dilation-curettage.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "misoprostol",
+                "code": "42331",
+                "cui": "C0085174",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Misoprostol",
+                "range": [
+                    1011,
+                    1022
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.998
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "misoprostol",
+                "code": "42331",
+                "cui": "C0085174",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Misoprostol",
+                "range": [
+                    1011,
+                    1022
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.998
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "Sponge",
+                "code": null,
+                "cui": null,
+                "tui": null,
+                "vocab": null,
+                "polarity": "positive",
+                "preferredText": null,
+                "range": [
+                    2257,
+                    2263
+                ],
+                "prob": {
+                    "MED": 0.956
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            }
+        ],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "Missed abortion",
+                "range": [
+                    26,
+                    41
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "16607004",
+                "cui": "C0000814",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Missed abortion"
+            },
+            {
+                "text": "Missed abortion",
+                "range": [
+                    69,
+                    84
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "16607004",
+                "cui": "C0000814",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Missed abortion"
+            },
+            {
+                "text": "a crown-rump length",
+                "range": [
+                    642,
+                    661
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "infection",
+                "range": [
+                    1246,
+                    1255
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "189822004",
+                "cui": "C0009450",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Communicable Diseases"
+            },
+            {
+                "text": "surrounding organs",
+                "range": [
+                    1277,
+                    1295
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.003,
+        "uncertain_count": 0,
+        "narrow_band_ratio": 0.0,
+        "uncertain_tokens": {},
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "Missed",
+                    [
+                        26,
+                        32
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "abortion",
+                    [
+                        33,
+                        41
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Missed",
+                    [
+                        69,
+                        75
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "abortion",
+                    [
+                        76,
+                        84
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "menstrual",
+                    [
+                        390,
+                        399
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "period",
+                    [
+                        400,
+                        406
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "intrauterine",
+                    [
+                        614,
+                        626
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "pregnancy",
+                    [
+                        627,
+                        636
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "a",
+                    [
+                        642,
+                        643
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "crown-rump",
+                    [
+                        644,
+                        654
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "length",
+                    [
+                        655,
+                        661
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "pregnancy",
+                    [
+                        697,
+                        706
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "bleeding",
+                    [
+                        796,
+                        804
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "findings",
+                    [
+                        878,
+                        886
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "management",
+                    [
+                        950,
+                        960
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "management",
+                    [
+                        995,
+                        1005
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "management",
+                    [
+                        1039,
+                        1049
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "infection",
+                    [
+                        1246,
+                        1255
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "bleeding",
+                    [
+                        1257,
+                        1265
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "injury",
+                    [
+                        1267,
+                        1273
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "surrounding",
+                    [
+                        1277,
+                        1288
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "organs",
+                    [
+                        1289,
+                        1295
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "perforation",
+                    [
+                        1314,
+                        1325
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.489,
+                    "Missed",
+                    [
+                        26,
+                        32
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.542,
+                    "abortion",
+                    [
+                        33,
+                        41
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.925,
+                    "Missed",
+                    [
+                        69,
+                        75
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.929,
+                    "abortion",
+                    [
+                        76,
+                        84
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.472,
+                    "menstrual",
+                    [
+                        390,
+                        399
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.573,
+                    "period",
+                    [
+                        400,
+                        406
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.498,
+                    "intrauterine",
+                    [
+                        614,
+                        626
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.628,
+                    "pregnancy",
+                    [
+                        627,
+                        636
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.365,
+                    "crown-rump",
+                    [
+                        644,
+                        654
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.407,
+                    "length",
+                    [
+                        655,
+                        661
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.563,
+                    "pregnancy",
+                    [
+                        697,
+                        706
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.691,
+                    "bleeding",
+                    [
+                        796,
+                        804
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.43,
+                    "findings",
+                    [
+                        878,
+                        886
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.598,
+                    "management",
+                    [
+                        950,
+                        960
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.551,
+                    "management",
+                    [
+                        995,
+                        1005
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.425,
+                    "management",
+                    [
+                        1039,
+                        1049
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.556,
+                    "infection",
+                    [
+                        1246,
+                        1255
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.633,
+                    "bleeding",
+                    [
+                        1257,
+                        1265
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.506,
+                    "injury",
+                    [
+                        1267,
+                        1273
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.478,
+                    "organs",
+                    [
+                        1289,
+                        1295
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.718,
+                    "perforation",
+                    [
+                        1314,
+                        1325
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.183,
+        "uncertain_token_count": 17,
+        "narrow_band_ratio": 0.043,
+        "uncertain_tokens": {
+            "DIAGNOSIS": [
+                [
+                    0.489,
+                    "Missed",
+                    [
+                        26,
+                        32
+                    ]
+                ],
+                [
+                    0.472,
+                    "menstrual",
+                    [
+                        390,
+                        399
+                    ]
+                ],
+                [
+                    0.498,
+                    "intrauterine",
+                    [
+                        614,
+                        626
+                    ]
+                ],
+                [
+                    0.407,
+                    "length",
+                    [
+                        655,
+                        661
+                    ]
+                ],
+                [
+                    0.43,
+                    "findings",
+                    [
+                        878,
+                        886
+                    ]
+                ],
+                [
+                    0.425,
+                    "management",
+                    [
+                        1039,
+                        1049
+                    ]
+                ],
+                [
+                    0.506,
+                    "injury",
+                    [
+                        1267,
+                        1273
+                    ]
+                ],
+                [
+                    0.478,
+                    "organs",
+                    [
+                        1289,
+                        1295
+                    ]
+                ]
+            ],
+            "NA": [
+                [
+                    0.47,
+                    "a",
+                    [
+                        642,
+                        643
+                    ]
+                ],
+                [
+                    0.397,
+                    "consistent",
+                    [
+                        662,
+                        672
+                    ]
+                ],
+                [
+                    0.504,
+                    "amount",
+                    [
+                        786,
+                        792
+                    ]
+                ],
+                [
+                    0.479,
+                    "of",
+                    [
+                        793,
+                        795
+                    ]
+                ],
+                [
+                    0.451,
+                    "dilation",
+                    [
+                        965,
+                        973
+                    ]
+                ],
+                [
+                    0.507,
+                    "versus",
+                    [
+                        988,
+                        994
+                    ]
+                ],
+                [
+                    0.481,
+                    "versus",
+                    [
+                        1023,
+                        1029
+                    ]
+                ],
+                [
+                    0.354,
+                    "surrounding",
+                    [
+                        1277,
+                        1288
+                    ]
+                ]
+            ],
+            "PROBLEM": [
+                [
+                    0.365,
+                    "crown-rump",
+                    [
+                        644,
+                        654
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

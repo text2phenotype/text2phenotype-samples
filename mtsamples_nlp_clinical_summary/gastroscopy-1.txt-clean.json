@@ -1,0 +1,374 @@
+{
+    "file": "gastroscopy-1.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "pump",
+                "code": null,
+                "cui": null,
+                "tui": null,
+                "vocab": null,
+                "polarity": "positive",
+                "preferredText": null,
+                "range": [
+                    1481,
+                    1485
+                ],
+                "prob": {
+                    "MED": 0.994
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "inhibitors",
+                "code": null,
+                "cui": null,
+                "tui": null,
+                "vocab": null,
+                "polarity": "positive",
+                "preferredText": null,
+                "range": [
+                    1486,
+                    1496
+                ],
+                "prob": {
+                    "MED": 0.937
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "Reglan",
+                "code": "9230",
+                "cui": "C0034977",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Reglan",
+                "range": [
+                    1507,
+                    1513
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 1.0
+                },
+                "medFrequencyNumber": [
+                    "3",
+                    1520,
+                    1525
+                ],
+                "medFrequencyUnit": [
+                    "day",
+                    1542,
+                    1545
+                ],
+                "medStrengthNum": [
+                    "10",
+                    1514,
+                    1516
+                ],
+                "medStrengthUnit": [
+                    "mg",
+                    1517,
+                    1519
+                ]
+            },
+            {
+                "text": "Reglan",
+                "code": "9230",
+                "cui": "C0034977",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Reglan",
+                "range": [
+                    1507,
+                    1513
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 1.0
+                },
+                "medFrequencyNumber": [
+                    "3",
+                    1520,
+                    1525
+                ],
+                "medFrequencyUnit": [
+                    "day",
+                    1542,
+                    1545
+                ],
+                "medStrengthNum": [
+                    "10",
+                    1514,
+                    1516
+                ],
+                "medStrengthUnit": [
+                    "mg",
+                    1517,
+                    1519
+                ]
+            }
+        ],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "Dysphagia",
+                "range": [
+                    51,
+                    60
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "40739000",
+                "cui": "C0011168",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Deglutition Disorders"
+            },
+            {
+                "text": "Gastroparesis",
+                "range": [
+                    108,
+                    121
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "196753007",
+                "cui": "C0152020",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Gastroparesis"
+            },
+            {
+                "text": "Retained gastric",
+                "range": [
+                    1295,
+                    1311
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "partial bezoar",
+                "range": [
+                    1331,
+                    1345
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "gastroparesis",
+                "range": [
+                    1361,
+                    1374
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "196753007",
+                "cui": "C0152020",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Gastroparesis"
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.005,
+        "uncertain_count": 0,
+        "narrow_band_ratio": 0.0,
+        "uncertain_tokens": {},
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "Dysphagia",
+                    [
+                        51,
+                        60
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Gastroparesis",
+                    [
+                        108,
+                        121
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Retained",
+                    [
+                        1295,
+                        1303
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "gastric",
+                    [
+                        1304,
+                        1311
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "contents",
+                    [
+                        1312,
+                        1320
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "partial",
+                    [
+                        1331,
+                        1338
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "bezoar",
+                    [
+                        1339,
+                        1345
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "gastroparesis",
+                    [
+                        1361,
+                        1374
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.925,
+                    "Dysphagia",
+                    [
+                        51,
+                        60
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.874,
+                    "Gastroparesis",
+                    [
+                        108,
+                        121
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.595,
+                    "Retained",
+                    [
+                        1295,
+                        1303
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.6,
+                    "gastric",
+                    [
+                        1304,
+                        1311
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.495,
+                    "contents",
+                    [
+                        1312,
+                        1320
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.562,
+                    "partial",
+                    [
+                        1331,
+                        1338
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.728,
+                    "bezoar",
+                    [
+                        1339,
+                        1345
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.877,
+                    "gastroparesis",
+                    [
+                        1361,
+                        1374
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.091,
+        "uncertain_token_count": 1,
+        "narrow_band_ratio": 0.004,
+        "uncertain_tokens": {
+            "DIAGNOSIS": [
+                [
+                    0.495,
+                    "contents",
+                    [
+                        1312,
+                        1320
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

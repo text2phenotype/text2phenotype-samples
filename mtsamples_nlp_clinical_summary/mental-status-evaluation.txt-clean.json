@@ -1,0 +1,843 @@
+{
+    "file": "mental-status-evaluation.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "Effexor",
+                "code": "151692",
+                "cui": "C0591437",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Effexor",
+                "range": [
+                    1952,
+                    1959
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.994
+                },
+                "medFrequencyNumber": [
+                    "2.0"
+                ],
+                "medFrequencyUnit": [
+                    "day"
+                ],
+                "medStrengthNum": [
+                    "75",
+                    1960,
+                    1962
+                ],
+                "medStrengthUnit": [
+                    "mg",
+                    1963,
+                    1965
+                ]
+            },
+            {
+                "text": "Effexor",
+                "code": "151692",
+                "cui": "C0591437",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Effexor",
+                "range": [
+                    1952,
+                    1959
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.994
+                },
+                "medFrequencyNumber": [
+                    "2.0"
+                ],
+                "medFrequencyUnit": [
+                    "day"
+                ],
+                "medStrengthNum": [
+                    "75",
+                    1960,
+                    1962
+                ],
+                "medStrengthUnit": [
+                    "mg",
+                    1963,
+                    1965
+                ]
+            }
+        ],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "serious",
+                "range": [
+                    801,
+                    808
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "Very hard to concentrate",
+                "range": [
+                    821,
+                    845
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "wrist",
+                "range": [
+                    1654,
+                    1659
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "EVALUATION",
+                "range": [
+                    30,
+                    40
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.003,
+        "uncertain_count": 2,
+        "narrow_band_ratio": 0.001,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.678,
+                    "pace",
+                    [
+                        7620,
+                        7624
+                    ]
+                ]
+            ],
+            "MED": [
+                [
+                    0.598,
+                    "basis",
+                    [
+                        7822,
+                        7827
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "Disability",
+                    [
+                        223,
+                        233
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "dressed",
+                    [
+                        488,
+                        495
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "serious",
+                    [
+                        801,
+                        808
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "depression",
+                    [
+                        809,
+                        819
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "Very",
+                    [
+                        821,
+                        825
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "hard",
+                    [
+                        826,
+                        830
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "to",
+                    [
+                        831,
+                        833
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "concentrate",
+                    [
+                        834,
+                        845
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "depression",
+                    [
+                        948,
+                        958
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "emotional",
+                    [
+                        1406,
+                        1415
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "problems",
+                    [
+                        1416,
+                        1424
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "wrist",
+                    [
+                        1654,
+                        1659
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "depression",
+                    [
+                        1730,
+                        1740
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "emotional",
+                    [
+                        2358,
+                        2367
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "problems",
+                    [
+                        2368,
+                        2376
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "emotional",
+                    [
+                        2618,
+                        2627
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "issues",
+                    [
+                        2628,
+                        2634
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "MENTAL",
+                    [
+                        16,
+                        22
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "STATUS",
+                    [
+                        23,
+                        29
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "EVALUATION",
+                    [
+                        30,
+                        40
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Major",
+                    [
+                        6963,
+                        6968
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Depression",
+                    [
+                        6969,
+                        6979
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Panic",
+                    [
+                        7002,
+                        7007
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "disorder",
+                    [
+                        7008,
+                        7016
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "depression",
+                    [
+                        7250,
+                        7260
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "anxiety",
+                    [
+                        7265,
+                        7272
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "panic",
+                    [
+                        7326,
+                        7331
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "attacks",
+                    [
+                        7332,
+                        7339
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.734,
+                    "Disability",
+                    [
+                        223,
+                        233
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.63,
+                    "dressed",
+                    [
+                        488,
+                        495
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.457,
+                    "serious",
+                    [
+                        801,
+                        808
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.533,
+                    "depression",
+                    [
+                        809,
+                        819
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.443,
+                    "Very",
+                    [
+                        821,
+                        825
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.6,
+                    "hard",
+                    [
+                        826,
+                        830
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.476,
+                    "to",
+                    [
+                        831,
+                        833
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.583,
+                    "concentrate",
+                    [
+                        834,
+                        845
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.606,
+                    "depression",
+                    [
+                        948,
+                        958
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.509,
+                    "problems",
+                    [
+                        1416,
+                        1424
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.467,
+                    "wrist",
+                    [
+                        1654,
+                        1659
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.816,
+                    "depression",
+                    [
+                        1730,
+                        1740
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.357,
+                    "probation",
+                    [
+                        1822,
+                        1831
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.786,
+                    "emotional",
+                    [
+                        2358,
+                        2367
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.858,
+                    "problems",
+                    [
+                        2368,
+                        2376
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.652,
+                    "emotional",
+                    [
+                        2618,
+                        2627
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.658,
+                    "issues",
+                    [
+                        2628,
+                        2634
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.784,
+                    "MENTAL",
+                    [
+                        16,
+                        22
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.776,
+                    "STATUS",
+                    [
+                        23,
+                        29
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.5,
+                    "EVALUATION",
+                    [
+                        30,
+                        40
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.86,
+                    "Major",
+                    [
+                        6963,
+                        6968
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.921,
+                    "Depression",
+                    [
+                        6969,
+                        6979
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.499,
+                    "Panic",
+                    [
+                        7002,
+                        7007
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.483,
+                    "disorder",
+                    [
+                        7008,
+                        7016
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.936,
+                    "depression",
+                    [
+                        7250,
+                        7260
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.88,
+                    "anxiety",
+                    [
+                        7265,
+                        7272
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.592,
+                    "panic",
+                    [
+                        7326,
+                        7331
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.703,
+                    "attacks",
+                    [
+                        7332,
+                        7339
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.108,
+        "uncertain_token_count": 17,
+        "narrow_band_ratio": 0.011,
+        "uncertain_tokens": {
+            "DIAGNOSIS": [
+                [
+                    0.457,
+                    "serious",
+                    [
+                        801,
+                        808
+                    ]
+                ],
+                [
+                    0.467,
+                    "wrist",
+                    [
+                        1654,
+                        1659
+                    ]
+                ],
+                [
+                    0.357,
+                    "probation",
+                    [
+                        1822,
+                        1831
+                    ]
+                ],
+                [
+                    0.5,
+                    "EVALUATION",
+                    [
+                        30,
+                        40
+                    ]
+                ],
+                [
+                    0.499,
+                    "Panic",
+                    [
+                        7002,
+                        7007
+                    ]
+                ],
+                [
+                    0.483,
+                    "disorder",
+                    [
+                        7008,
+                        7016
+                    ]
+                ]
+            ],
+            "NA": [
+                [
+                    0.437,
+                    ".",
+                    [
+                        819,
+                        820
+                    ]
+                ],
+                [
+                    0.433,
+                    "emotional",
+                    [
+                        1406,
+                        1415
+                    ]
+                ],
+                [
+                    0.501,
+                    "cut",
+                    [
+                        1646,
+                        1649
+                    ]
+                ],
+                [
+                    0.486,
+                    "assault",
+                    [
+                        1787,
+                        1794
+                    ]
+                ],
+                [
+                    0.4,
+                    "on",
+                    [
+                        1819,
+                        1821
+                    ]
+                ],
+                [
+                    0.459,
+                    "sexual",
+                    [
+                        1891,
+                        1897
+                    ]
+                ],
+                [
+                    0.468,
+                    "assault",
+                    [
+                        1898,
+                        1905
+                    ]
+                ],
+                [
+                    0.462,
+                    "recurrent",
+                    [
+                        6981,
+                        6990
+                    ]
+                ]
+            ],
+            "PROBLEM": [
+                [
+                    0.443,
+                    "Very",
+                    [
+                        821,
+                        825
+                    ]
+                ],
+                [
+                    0.476,
+                    "to",
+                    [
+                        831,
+                        833
+                    ]
+                ],
+                [
+                    0.509,
+                    "problems",
+                    [
+                        1416,
+                        1424
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

@@ -1,0 +1,334 @@
+{
+    "file": "burn-consult.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "Demerol",
+                "code": "282381",
+                "cui": "C0935966",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Demerol",
+                "range": [
+                    1214,
+                    1221
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.997
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [
+                    "50",
+                    1222,
+                    1224
+                ],
+                "medStrengthUnit": [
+                    "mg",
+                    1225,
+                    1227
+                ]
+            },
+            {
+                "text": "Demerol",
+                "code": "282381",
+                "cui": "C0935966",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Demerol",
+                "range": [
+                    1214,
+                    1221
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.997
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [
+                    "50",
+                    1222,
+                    1224
+                ],
+                "medStrengthUnit": [
+                    "mg",
+                    1225,
+                    1227
+                ]
+            },
+            {
+                "text": "Neosporin\nointment",
+                "code": "93450",
+                "cui": "C0306959",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Neosporin Ointment",
+                "range": [
+                    1322,
+                    1340
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 1.0
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "Neosporin\nointment",
+                "code": "93450",
+                "cui": "C0306959",
+                "tui": "T195",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Neosporin Ointment",
+                "range": [
+                    1322,
+                    1340
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 1.0
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            }
+        ],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "Burn",
+                "range": [
+                    19,
+                    23
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "48333001",
+                "cui": "C0006434",
+                "tui": "T037",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Burn injury"
+            },
+            {
+                "text": "burns",
+                "range": [
+                    1017,
+                    1022
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "403191005",
+                "cui": "C0332687",
+                "tui": "T037",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Second degree burn"
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.005,
+        "uncertain_count": 0,
+        "narrow_band_ratio": 0.0,
+        "uncertain_tokens": {},
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "Burn",
+                    [
+                        19,
+                        23
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "shop",
+                    [
+                        156,
+                        160
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "burns",
+                    [
+                        1017,
+                        1022
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "'",
+                    [
+                        1074,
+                        1075
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Compensation",
+                    [
+                        1076,
+                        1088
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "injury",
+                    [
+                        1100,
+                        1106
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.571,
+                    "Burn",
+                    [
+                        19,
+                        23
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.511,
+                    "shop",
+                    [
+                        156,
+                        160
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.442,
+                    "burns",
+                    [
+                        1017,
+                        1022
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.564,
+                    "'",
+                    [
+                        1074,
+                        1075
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.64,
+                    "Compensation",
+                    [
+                        1076,
+                        1088
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.391,
+                    "injury",
+                    [
+                        1100,
+                        1106
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.098,
+        "uncertain_token_count": 7,
+        "narrow_band_ratio": 0.021,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.492,
+                    "right",
+                    [
+                        25,
+                        30
+                    ]
+                ],
+                [
+                    0.451,
+                    "arm",
+                    [
+                        31,
+                        34
+                    ]
+                ],
+                [
+                    0.415,
+                    "second-degree",
+                    [
+                        1003,
+                        1016
+                    ]
+                ],
+                [
+                    0.43,
+                    "industrial",
+                    [
+                        1089,
+                        1099
+                    ]
+                ]
+            ],
+            "PROBLEM": [
+                [
+                    0.511,
+                    "shop",
+                    [
+                        156,
+                        160
+                    ]
+                ]
+            ],
+            "DIAGNOSIS": [
+                [
+                    0.442,
+                    "burns",
+                    [
+                        1017,
+                        1022
+                    ]
+                ],
+                [
+                    0.391,
+                    "injury",
+                    [
+                        1100,
+                        1106
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

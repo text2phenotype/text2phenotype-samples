@@ -1,0 +1,582 @@
+{
+    "file": "orchiopexy.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "anesthetic",
+                "code": null,
+                "cui": null,
+                "tui": null,
+                "vocab": null,
+                "polarity": "positive",
+                "preferredText": null,
+                "range": [
+                    735,
+                    745
+                ],
+                "prob": {
+                    "MED": 0.946
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "bupivacaine",
+                "code": "1815",
+                "cui": "C0006400",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Bupivacaine",
+                "range": [
+                    4490,
+                    4501
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 1.0
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "bupivacaine",
+                "code": "1815",
+                "cui": "C0006400",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Bupivacaine",
+                "range": [
+                    4490,
+                    4501
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 1.0
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "Keflex",
+                "code": "203167",
+                "cui": "C0700517",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Keflex",
+                "range": [
+                    4638,
+                    4644
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.999
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "Keflex",
+                "code": "203167",
+                "cui": "C0700517",
+                "tui": "T195",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Keflex",
+                "range": [
+                    4638,
+                    4644
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.999
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            }
+        ],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "Ectopic",
+                "range": [
+                    26,
+                    33
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "Ectopic left testis",
+                "range": [
+                    73,
+                    92
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "left testis",
+                "range": [
+                    275,
+                    286
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "located near\nthe",
+                "range": [
+                    400,
+                    416
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "cord",
+                "range": [
+                    1757,
+                    1761
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.013,
+        "uncertain_count": 6,
+        "narrow_band_ratio": 0.007,
+        "uncertain_tokens": {
+            "MED": [
+                [
+                    0.547,
+                    "Ancef",
+                    [
+                        179,
+                        184
+                    ]
+                ],
+                [
+                    0.623,
+                    "Motrin",
+                    [
+                        4713,
+                        4719
+                    ]
+                ]
+            ],
+            "NA": [
+                [
+                    0.568,
+                    "Ancef",
+                    [
+                        634,
+                        639
+                    ]
+                ],
+                [
+                    0.591,
+                    "blade",
+                    [
+                        2484,
+                        2489
+                    ]
+                ],
+                [
+                    0.651,
+                    "posterolateral",
+                    [
+                        3235,
+                        3249
+                    ]
+                ],
+                [
+                    0.615,
+                    "Prolene",
+                    [
+                        3313,
+                        3320
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "PROBLEM": [
+                    "Ectopic",
+                    [
+                        26,
+                        33
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Ectopic",
+                    [
+                        73,
+                        80
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "left",
+                    [
+                        81,
+                        85
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "testis",
+                    [
+                        86,
+                        92
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "left",
+                    [
+                        275,
+                        279
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "testis",
+                    [
+                        280,
+                        286
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "ectopic",
+                    [
+                        385,
+                        392
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "testis",
+                    [
+                        393,
+                        399
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "located",
+                    [
+                        400,
+                        407
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "near",
+                    [
+                        408,
+                        412
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "the",
+                    [
+                        413,
+                        416
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "cord",
+                    [
+                        1757,
+                        1761
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "moderate",
+                    [
+                        4724,
+                        4732
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "pain",
+                    [
+                        4733,
+                        4737
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "PROBLEM": [
+                    0.493,
+                    "Ectopic",
+                    [
+                        26,
+                        33
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.443,
+                    "left",
+                    [
+                        34,
+                        38
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.813,
+                    "Ectopic",
+                    [
+                        73,
+                        80
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.823,
+                    "left",
+                    [
+                        81,
+                        85
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.664,
+                    "testis",
+                    [
+                        86,
+                        92
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.482,
+                    "left",
+                    [
+                        275,
+                        279
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.911,
+                    "ectopic",
+                    [
+                        385,
+                        392
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.864,
+                    "testis",
+                    [
+                        393,
+                        399
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.675,
+                    "located",
+                    [
+                        400,
+                        407
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.667,
+                    "near",
+                    [
+                        408,
+                        412
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.535,
+                    "the",
+                    [
+                        413,
+                        416
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.541,
+                    "the",
+                    [
+                        1743,
+                        1746
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.554,
+                    "cord",
+                    [
+                        1757,
+                        1761
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.589,
+                    "moderate",
+                    [
+                        4724,
+                        4732
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.602,
+                    "pain",
+                    [
+                        4733,
+                        4737
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.076,
+        "uncertain_token_count": 6,
+        "narrow_band_ratio": 0.007,
+        "uncertain_tokens": {
+            "PROBLEM": [
+                [
+                    0.493,
+                    "Ectopic",
+                    [
+                        26,
+                        33
+                    ]
+                ],
+                [
+                    0.443,
+                    "left",
+                    [
+                        34,
+                        38
+                    ]
+                ]
+            ],
+            "NA": [
+                [
+                    0.508,
+                    "testis",
+                    [
+                        39,
+                        45
+                    ]
+                ],
+                [
+                    0.458,
+                    "testis",
+                    [
+                        280,
+                        286
+                    ]
+                ],
+                [
+                    0.525,
+                    "spermatic",
+                    [
+                        1747,
+                        1756
+                    ]
+                ]
+            ],
+            "DIAGNOSIS": [
+                [
+                    0.482,
+                    "left",
+                    [
+                        275,
+                        279
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

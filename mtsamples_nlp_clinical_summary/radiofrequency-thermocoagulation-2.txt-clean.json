@@ -1,0 +1,300 @@
+{
+    "file": "radiofrequency-thermocoagulation-2.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "Betadine",
+                "code": "202750",
+                "cui": "C0699524",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Betadine",
+                "range": [
+                    799,
+                    807
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.935
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "Betadine",
+                "code": "202750",
+                "cui": "C0699524",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Betadine",
+                "range": [
+                    799,
+                    807
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.935
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            }
+        ],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "Complex Regional Pain Syndrome Type",
+                "range": [
+                    26,
+                    61
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "50642008",
+                "cui": "C0034931",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Reflex Sympathetic Dystrophy"
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.014,
+        "uncertain_count": 5,
+        "narrow_band_ratio": 0.009,
+        "uncertain_tokens": {
+            "MED": [
+                [
+                    0.63,
+                    "blades",
+                    [
+                        664,
+                        670
+                    ]
+                ]
+            ],
+            "NA": [
+                [
+                    0.595,
+                    "solution",
+                    [
+                        1908,
+                        1916
+                    ]
+                ],
+                [
+                    0.516,
+                    "Marcaine",
+                    [
+                        1954,
+                        1962
+                    ]
+                ],
+                [
+                    0.515,
+                    "triamcinolone",
+                    [
+                        1972,
+                        1985
+                    ]
+                ],
+                [
+                    0.696,
+                    "seconds",
+                    [
+                        2228,
+                        2235
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "Complex",
+                    [
+                        26,
+                        33
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Regional",
+                    [
+                        34,
+                        42
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Pain",
+                    [
+                        43,
+                        47
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Syndrome",
+                    [
+                        48,
+                        56
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Type",
+                    [
+                        57,
+                        61
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "allodynia",
+                    [
+                        401,
+                        410
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "pain",
+                    [
+                        412,
+                        416
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.976,
+                    "Complex",
+                    [
+                        26,
+                        33
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.986,
+                    "Regional",
+                    [
+                        34,
+                        42
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.973,
+                    "Pain",
+                    [
+                        43,
+                        47
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.917,
+                    "Syndrome",
+                    [
+                        48,
+                        56
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.685,
+                    "Type",
+                    [
+                        57,
+                        61
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.535,
+                    "allodynia",
+                    [
+                        401,
+                        410
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.497,
+                    "pain",
+                    [
+                        412,
+                        416
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.095,
+        "uncertain_token_count": 4,
+        "narrow_band_ratio": 0.007,
+        "uncertain_tokens": {
+            "DIAGNOSIS": [
+                [
+                    0.497,
+                    "pain",
+                    [
+                        412,
+                        416
+                    ]
+                ]
+            ],
+            "NA": [
+                [
+                    0.519,
+                    "mottled",
+                    [
+                        418,
+                        425
+                    ]
+                ],
+                [
+                    0.462,
+                    "swelling",
+                    [
+                        480,
+                        488
+                    ]
+                ],
+                [
+                    0.517,
+                    "ganglion",
+                    [
+                        2389,
+                        2397
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

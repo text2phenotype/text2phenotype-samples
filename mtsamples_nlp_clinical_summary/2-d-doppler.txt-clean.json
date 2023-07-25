@@ -1,0 +1,950 @@
+{
+    "file": "2-d-doppler.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "STUDY",
+                "code": null,
+                "cui": null,
+                "tui": null,
+                "vocab": null,
+                "polarity": "positive",
+                "preferredText": null,
+                "range": [
+                    6,
+                    11
+                ],
+                "prob": {
+                    "MED": 0.981
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            }
+        ],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "aortic stenosis",
+                "range": [
+                    22,
+                    37
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "60573004",
+                "cui": "C0003507",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Aortic Valve Stenosis"
+            },
+            {
+                "text": "left ventricular hypertrophy",
+                "range": [
+                    89,
+                    117
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "55827005",
+                "cui": "C0149721",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Left Ventricular Hypertrophy"
+            },
+            {
+                "text": "biatrial enlargement",
+                "range": [
+                    162,
+                    182
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "right ventricle",
+                "range": [
+                    196,
+                    211
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "tricuspid",
+                "range": [
+                    243,
+                    252
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "valves",
+                "range": [
+                    264,
+                    270
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "left ventricle",
+                "range": [
+                    284,
+                    298
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "aortic regurgitation",
+                "range": [
+                    370,
+                    390
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "60234000",
+                "cui": "C0003504",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Aortic Valve Insufficiency"
+            },
+            {
+                "text": "tricuspid regurgitation",
+                "range": [
+                    438,
+                    461
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "111287006",
+                "cui": "C0040961",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Tricuspid Valve Insufficiency"
+            },
+            {
+                "text": "right heart",
+                "range": [
+                    489,
+                    500
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "left ventricle",
+                "range": [
+                    553,
+                    567
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "Moderate biatrial enlargement",
+                "range": [
+                    574,
+                    603
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "tricuspid regurgitation",
+                "range": [
+                    615,
+                    638
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "111287006",
+                "cui": "C0040961",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Tricuspid Valve Insufficiency"
+            },
+            {
+                "text": "right heart",
+                "range": [
+                    666,
+                    677
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.007,
+        "uncertain_count": 1,
+        "narrow_band_ratio": 0.008,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.63,
+                    "2-D",
+                    [
+                        2,
+                        5
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "Mild",
+                    [
+                        17,
+                        21
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "aortic",
+                    [
+                        22,
+                        28
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "stenosis",
+                    [
+                        29,
+                        37
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "left",
+                    [
+                        89,
+                        93
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "ventricular",
+                    [
+                        94,
+                        105
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "hypertrophy",
+                    [
+                        106,
+                        117
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "biatrial",
+                    [
+                        162,
+                        170
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "enlargement",
+                    [
+                        171,
+                        182
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "right",
+                    [
+                        196,
+                        201
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "ventricle",
+                    [
+                        202,
+                        211
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "appearance",
+                    [
+                        225,
+                        235
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "tricuspid",
+                    [
+                        243,
+                        252
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "valves",
+                    [
+                        264,
+                        270
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "left",
+                    [
+                        284,
+                        288
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "ventricle",
+                    [
+                        289,
+                        298
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "aortic",
+                    [
+                        370,
+                        376
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "regurgitation",
+                    [
+                        377,
+                        390
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "tricuspid",
+                    [
+                        438,
+                        447
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "regurgitation",
+                    [
+                        448,
+                        461
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "right",
+                    [
+                        489,
+                        494
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "heart",
+                    [
+                        495,
+                        500
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "pressures",
+                    [
+                        501,
+                        510
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "left",
+                    [
+                        553,
+                        557
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "ventricle",
+                    [
+                        558,
+                        567
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Moderate",
+                    [
+                        574,
+                        582
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "biatrial",
+                    [
+                        583,
+                        591
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "enlargement",
+                    [
+                        592,
+                        603
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "tricuspid",
+                    [
+                        615,
+                        624
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "regurgitation",
+                    [
+                        625,
+                        638
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "right",
+                    [
+                        666,
+                        671
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "heart",
+                    [
+                        672,
+                        677
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "pressures",
+                    [
+                        678,
+                        687
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.602,
+                    "Mild",
+                    [
+                        17,
+                        21
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.95,
+                    "aortic",
+                    [
+                        22,
+                        28
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.855,
+                    "stenosis",
+                    [
+                        29,
+                        37
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.905,
+                    "left",
+                    [
+                        89,
+                        93
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.872,
+                    "ventricular",
+                    [
+                        94,
+                        105
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.882,
+                    "hypertrophy",
+                    [
+                        106,
+                        117
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.462,
+                    "Moderate",
+                    [
+                        153,
+                        161
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.447,
+                    "biatrial",
+                    [
+                        162,
+                        170
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.553,
+                    "enlargement",
+                    [
+                        171,
+                        182
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.751,
+                    "right",
+                    [
+                        196,
+                        201
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.683,
+                    "ventricle",
+                    [
+                        202,
+                        211
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.515,
+                    "appearance",
+                    [
+                        225,
+                        235
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.404,
+                    "tricuspid",
+                    [
+                        243,
+                        252
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.417,
+                    "valves",
+                    [
+                        264,
+                        270
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.61,
+                    "left",
+                    [
+                        284,
+                        288
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.388,
+                    "aortic",
+                    [
+                        370,
+                        376
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.499,
+                    "regurgitation",
+                    [
+                        377,
+                        390
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.729,
+                    "tricuspid",
+                    [
+                        438,
+                        447
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.622,
+                    "regurgitation",
+                    [
+                        448,
+                        461
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.633,
+                    "right",
+                    [
+                        489,
+                        494
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.746,
+                    "heart",
+                    [
+                        495,
+                        500
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.748,
+                    "pressures",
+                    [
+                        501,
+                        510
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.624,
+                    "left",
+                    [
+                        553,
+                        557
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.532,
+                    "ventricle",
+                    [
+                        558,
+                        567
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.54,
+                    "Moderate",
+                    [
+                        574,
+                        582
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.49,
+                    "biatrial",
+                    [
+                        583,
+                        591
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.664,
+                    "enlargement",
+                    [
+                        592,
+                        603
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.872,
+                    "tricuspid",
+                    [
+                        615,
+                        624
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.881,
+                    "regurgitation",
+                    [
+                        625,
+                        638
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.552,
+                    "right",
+                    [
+                        666,
+                        671
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.624,
+                    "heart",
+                    [
+                        672,
+                        677
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.647,
+                    "pressures",
+                    [
+                        678,
+                        687
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.409,
+        "uncertain_token_count": 11,
+        "narrow_band_ratio": 0.089,
+        "uncertain_tokens": {
+            "DIAGNOSIS": [
+                [
+                    0.462,
+                    "Moderate",
+                    [
+                        153,
+                        161
+                    ]
+                ],
+                [
+                    0.447,
+                    "biatrial",
+                    [
+                        162,
+                        170
+                    ]
+                ],
+                [
+                    0.515,
+                    "appearance",
+                    [
+                        225,
+                        235
+                    ]
+                ],
+                [
+                    0.404,
+                    "tricuspid",
+                    [
+                        243,
+                        252
+                    ]
+                ],
+                [
+                    0.388,
+                    "aortic",
+                    [
+                        370,
+                        376
+                    ]
+                ],
+                [
+                    0.49,
+                    "biatrial",
+                    [
+                        583,
+                        591
+                    ]
+                ]
+            ],
+            "NA": [
+                [
+                    0.45,
+                    "mitral",
+                    [
+                        257,
+                        263
+                    ]
+                ],
+                [
+                    0.453,
+                    "ventricle",
+                    [
+                        289,
+                        298
+                    ]
+                ],
+                [
+                    0.521,
+                    "function",
+                    [
+                        329,
+                        337
+                    ]
+                ]
+            ],
+            "PROBLEM": [
+                [
+                    0.417,
+                    "valves",
+                    [
+                        264,
+                        270
+                    ]
+                ],
+                [
+                    0.499,
+                    "regurgitation",
+                    [
+                        377,
+                        390
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

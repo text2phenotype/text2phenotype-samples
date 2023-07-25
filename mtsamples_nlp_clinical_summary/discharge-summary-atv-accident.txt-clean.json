@@ -1,0 +1,780 @@
+{
+    "file": "discharge-summary-atv-accident.txt-clean.txt",
+    "text2summary": {
+        "Medication": [],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "Trauma/ATV accident resulting in left open humerus\nfracture",
+                "range": [
+                    23,
+                    82
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "19130008",
+                "cui": "C3714660",
+                "tui": "T037",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Trauma"
+            },
+            {
+                "text": "Trauma/ATV accident resulting in left open humerus\nfracture",
+                "range": [
+                    106,
+                    165
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "19130008",
+                "cui": "C3714660",
+                "tui": "T037",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Trauma"
+            },
+            {
+                "text": "ATV accident",
+                "range": [
+                    424,
+                    436
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "left humerus fracture",
+                "range": [
+                    1482,
+                    1503
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "distal humerus\nfracture",
+                "range": [
+                    1648,
+                    1671
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "closed",
+                "range": [
+                    2385,
+                    2391
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "451000119106",
+                "cui": "C0085094",
+                "tui": "T037",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Closed head injuries"
+            },
+            {
+                "text": "a closed head injury",
+                "range": [
+                    2751,
+                    2771
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.006,
+        "uncertain_count": 4,
+        "narrow_band_ratio": 0.005,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.57,
+                    "ATV",
+                    [
+                        472,
+                        475
+                    ]
+                ],
+                [
+                    0.644,
+                    "pain",
+                    [
+                        2291,
+                        2295
+                    ]
+                ]
+            ],
+            "MED": [
+                [
+                    0.576,
+                    "ATV",
+                    [
+                        513,
+                        516
+                    ]
+                ],
+                [
+                    0.599,
+                    "medication",
+                    [
+                        2296,
+                        2306
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "Trauma/ATV",
+                    [
+                        23,
+                        33
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "accident",
+                    [
+                        34,
+                        42
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "resulting",
+                    [
+                        43,
+                        52
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "in",
+                    [
+                        53,
+                        55
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "left",
+                    [
+                        56,
+                        60
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "open",
+                    [
+                        61,
+                        65
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "humerus",
+                    [
+                        66,
+                        73
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "fracture",
+                    [
+                        74,
+                        82
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Trauma/ATV",
+                    [
+                        106,
+                        116
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "accident",
+                    [
+                        117,
+                        125
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "resulting",
+                    [
+                        126,
+                        135
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "in",
+                    [
+                        136,
+                        138
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "left",
+                    [
+                        139,
+                        143
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "open",
+                    [
+                        144,
+                        148
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "humerus",
+                    [
+                        149,
+                        156
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "fracture",
+                    [
+                        157,
+                        165
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "ATV",
+                    [
+                        424,
+                        427
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "accident",
+                    [
+                        428,
+                        436
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "left",
+                    [
+                        1482,
+                        1486
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "humerus",
+                    [
+                        1487,
+                        1494
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "fracture",
+                    [
+                        1495,
+                        1503
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "distal",
+                    [
+                        1648,
+                        1654
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "humerus",
+                    [
+                        1655,
+                        1662
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "fracture",
+                    [
+                        1663,
+                        1671
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "closed",
+                    [
+                        2385,
+                        2391
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "absence",
+                    [
+                        2740,
+                        2747
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "a",
+                    [
+                        2751,
+                        2752
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "closed",
+                    [
+                        2753,
+                        2759
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "head",
+                    [
+                        2760,
+                        2764
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "injury",
+                    [
+                        2765,
+                        2771
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.922,
+                    "Trauma/ATV",
+                    [
+                        23,
+                        33
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.773,
+                    "accident",
+                    [
+                        34,
+                        42
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.762,
+                    "resulting",
+                    [
+                        43,
+                        52
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.726,
+                    "in",
+                    [
+                        53,
+                        55
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.982,
+                    "left",
+                    [
+                        56,
+                        60
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.947,
+                    "open",
+                    [
+                        61,
+                        65
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.949,
+                    "humerus",
+                    [
+                        66,
+                        73
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.957,
+                    "fracture",
+                    [
+                        74,
+                        82
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.78,
+                    "Trauma/ATV",
+                    [
+                        106,
+                        116
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.586,
+                    "accident",
+                    [
+                        117,
+                        125
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.618,
+                    "resulting",
+                    [
+                        126,
+                        135
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.631,
+                    "in",
+                    [
+                        136,
+                        138
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.986,
+                    "left",
+                    [
+                        139,
+                        143
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.955,
+                    "open",
+                    [
+                        144,
+                        148
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.972,
+                    "humerus",
+                    [
+                        149,
+                        156
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.979,
+                    "fracture",
+                    [
+                        157,
+                        165
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.461,
+                    "ATV",
+                    [
+                        424,
+                        427
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.522,
+                    "accident",
+                    [
+                        428,
+                        436
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.898,
+                    "left",
+                    [
+                        1482,
+                        1486
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.924,
+                    "humerus",
+                    [
+                        1487,
+                        1494
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.915,
+                    "fracture",
+                    [
+                        1495,
+                        1503
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.568,
+                    "distal",
+                    [
+                        1648,
+                        1654
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.691,
+                    "humerus",
+                    [
+                        1655,
+                        1662
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.654,
+                    "fracture",
+                    [
+                        1663,
+                        1671
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.545,
+                    "closed",
+                    [
+                        2385,
+                        2391
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.601,
+                    "absence",
+                    [
+                        2740,
+                        2747
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.802,
+                    "closed",
+                    [
+                        2753,
+                        2759
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.753,
+                    "head",
+                    [
+                        2760,
+                        2764
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.698,
+                    "injury",
+                    [
+                        2765,
+                        2771
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.085,
+        "uncertain_token_count": 7,
+        "narrow_band_ratio": 0.008,
+        "uncertain_tokens": {
+            "DIAGNOSIS": [
+                [
+                    0.461,
+                    "ATV",
+                    [
+                        424,
+                        427
+                    ]
+                ],
+                [
+                    0.522,
+                    "accident",
+                    [
+                        428,
+                        436
+                    ]
+                ]
+            ],
+            "NA": [
+                [
+                    0.48,
+                    "injuries",
+                    [
+                        799,
+                        807
+                    ]
+                ],
+                [
+                    0.522,
+                    "fracture",
+                    [
+                        1316,
+                        1324
+                    ]
+                ],
+                [
+                    0.432,
+                    "head",
+                    [
+                        2392,
+                        2396
+                    ]
+                ],
+                [
+                    0.526,
+                    "a",
+                    [
+                        2751,
+                        2752
+                    ]
+                ],
+                [
+                    0.52,
+                    "wound",
+                    [
+                        3047,
+                        3052
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

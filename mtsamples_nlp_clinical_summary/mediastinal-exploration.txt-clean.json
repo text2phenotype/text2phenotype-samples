@@ -1,0 +1,198 @@
+{
+    "file": "mediastinal-exploration.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "titanium",
+                "code": "1305547",
+                "cui": "C0040302",
+                "tui": "T196",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Titanium",
+                "range": [
+                    1640,
+                    1648
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.992
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "vancomycin",
+                "code": "11124",
+                "cui": "C0042313",
+                "tui": "T195",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Vancomycin",
+                "range": [
+                    1853,
+                    1863
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.971
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            }
+        ],
+        "Allergy": [
+            {
+                "code": "11124",
+                "cui": "C0042313",
+                "tui": "T195",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "text": "vancomycin",
+                "preferredText": "Vancomycin",
+                "range": [
+                    1853,
+                    1863
+                ]
+            }
+        ],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "unexplained cardiac arrest",
+                "range": [
+                    249,
+                    275
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "procedure",
+                "range": [
+                    709,
+                    718
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.008,
+        "uncertain_count": 1,
+        "narrow_band_ratio": 0.003,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.623,
+                    "antibiotic",
+                    [
+                        1496,
+                        1506
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "unexplained",
+                    [
+                        249,
+                        260
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "cardiac",
+                    [
+                        261,
+                        268
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "arrest",
+                    [
+                        269,
+                        275
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "procedure",
+                    [
+                        709,
+                        718
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.649,
+                    "unexplained",
+                    [
+                        249,
+                        260
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.821,
+                    "cardiac",
+                    [
+                        261,
+                        268
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.706,
+                    "arrest",
+                    [
+                        269,
+                        275
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.54,
+                    "procedure",
+                    [
+                        709,
+                        718
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.123,
+        "uncertain_token_count": 0,
+        "narrow_band_ratio": 0.0,
+        "uncertain_tokens": {},
+        "narrow_band_width": 0.2
+    }
+}

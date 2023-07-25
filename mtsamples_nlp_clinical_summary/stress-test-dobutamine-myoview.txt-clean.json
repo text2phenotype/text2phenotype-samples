@@ -1,0 +1,751 @@
+{
+    "file": "stress-test-dobutamine-myoview.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "Atropine",
+                "code": "1223",
+                "cui": "C0004259",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Atropine",
+                "range": [
+                    322,
+                    330
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.978
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [
+                    "0.25",
+                    331,
+                    335
+                ],
+                "medStrengthUnit": [
+                    "mg",
+                    336,
+                    338
+                ]
+            },
+            {
+                "text": "Atropine",
+                "code": "1223",
+                "cui": "C0004259",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Atropine",
+                "range": [
+                    322,
+                    330
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.978
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [
+                    "0.25",
+                    331,
+                    335
+                ],
+                "medStrengthUnit": [
+                    "mg",
+                    336,
+                    338
+                ]
+            }
+        ],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "hypertension",
+                "range": [
+                    27,
+                    39
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "38341003",
+                "cui": "C0020538",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Hypertensive disease"
+            },
+            {
+                "text": "type II diabetes mellitus",
+                "range": [
+                    41,
+                    66
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "44054006",
+                "cui": "C0011860",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Diabetes Mellitus, Non-Insulin-Dependent"
+            },
+            {
+                "text": "86\nbeats",
+                "range": [
+                    487,
+                    495
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "QS pattern in",
+                "range": [
+                    508,
+                    521
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "during\ndobutamine infusion",
+                "range": [
+                    857,
+                    883
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "ischemic ST segment",
+                "range": [
+                    888,
+                    907
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "fraction",
+                "range": [
+                    1568,
+                    1576
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.018,
+        "uncertain_count": 4,
+        "narrow_band_ratio": 0.015,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.535,
+                    "dobutamine",
+                    [
+                        166,
+                        176
+                    ]
+                ],
+                [
+                    0.665,
+                    "Tc-99m",
+                    [
+                        1092,
+                        1098
+                    ]
+                ]
+            ],
+            "MED": [
+                [
+                    0.668,
+                    "Tc-99m",
+                    [
+                        1206,
+                        1212
+                    ]
+                ],
+                [
+                    0.519,
+                    "Myoview",
+                    [
+                        1213,
+                        1220
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "Chest",
+                    [
+                        15,
+                        20
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "pain",
+                    [
+                        21,
+                        25
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "hypertension",
+                    [
+                        27,
+                        39
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "type",
+                    [
+                        41,
+                        45
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "II",
+                    [
+                        46,
+                        48
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "diabetes",
+                    [
+                        49,
+                        57
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "mellitus",
+                    [
+                        58,
+                        66
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "rhythm",
+                    [
+                        461,
+                        467
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "86",
+                    [
+                        487,
+                        489
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "beats",
+                    [
+                        490,
+                        495
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "QS",
+                    [
+                        508,
+                        510
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "pattern",
+                    [
+                        511,
+                        518
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "in",
+                    [
+                        519,
+                        521
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "sloping",
+                    [
+                        837,
+                        844
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "ST",
+                    [
+                        845,
+                        847
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "segments",
+                    [
+                        848,
+                        856
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "during",
+                    [
+                        857,
+                        863
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "dobutamine",
+                    [
+                        864,
+                        874
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "infusion",
+                    [
+                        875,
+                        883
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "ischemic",
+                    [
+                        888,
+                        896
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "ST",
+                    [
+                        897,
+                        899
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "segment",
+                    [
+                        900,
+                        907
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "mCi",
+                    [
+                        1199,
+                        1202
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "ejection",
+                    [
+                        1559,
+                        1567
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "fraction",
+                    [
+                        1568,
+                        1576
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.983,
+                    "Chest",
+                    [
+                        15,
+                        20
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.983,
+                    "pain",
+                    [
+                        21,
+                        25
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.996,
+                    "hypertension",
+                    [
+                        27,
+                        39
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.992,
+                    "type",
+                    [
+                        41,
+                        45
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.995,
+                    "II",
+                    [
+                        46,
+                        48
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.987,
+                    "diabetes",
+                    [
+                        49,
+                        57
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.893,
+                    "mellitus",
+                    [
+                        58,
+                        66
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.453,
+                    "rhythm",
+                    [
+                        461,
+                        467
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.512,
+                    "86",
+                    [
+                        487,
+                        489
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.541,
+                    "beats",
+                    [
+                        490,
+                        495
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.548,
+                    "pattern",
+                    [
+                        511,
+                        518
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.551,
+                    "in",
+                    [
+                        519,
+                        521
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.737,
+                    "ST",
+                    [
+                        845,
+                        847
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.622,
+                    "segments",
+                    [
+                        848,
+                        856
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.56,
+                    "during",
+                    [
+                        857,
+                        863
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.511,
+                    "dobutamine",
+                    [
+                        864,
+                        874
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.602,
+                    "infusion",
+                    [
+                        875,
+                        883
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.598,
+                    "ischemic",
+                    [
+                        888,
+                        896
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.616,
+                    "ST",
+                    [
+                        897,
+                        899
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.558,
+                    "segment",
+                    [
+                        900,
+                        907
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.564,
+                    "mCi",
+                    [
+                        1199,
+                        1202
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.611,
+                    "ejection",
+                    [
+                        1559,
+                        1567
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.451,
+                    "fraction",
+                    [
+                        1568,
+                        1576
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.201,
+        "uncertain_token_count": 9,
+        "narrow_band_ratio": 0.033,
+        "uncertain_tokens": {
+            "DIAGNOSIS": [
+                [
+                    0.453,
+                    "rhythm",
+                    [
+                        461,
+                        467
+                    ]
+                ],
+                [
+                    0.512,
+                    "86",
+                    [
+                        487,
+                        489
+                    ]
+                ],
+                [
+                    0.511,
+                    "dobutamine",
+                    [
+                        864,
+                        874
+                    ]
+                ]
+            ],
+            "NA": [
+                [
+                    0.485,
+                    "of",
+                    [
+                        484,
+                        486
+                    ]
+                ],
+                [
+                    0.505,
+                    "minute",
+                    [
+                        500,
+                        506
+                    ]
+                ],
+                [
+                    0.499,
+                    "QS",
+                    [
+                        508,
+                        510
+                    ]
+                ],
+                [
+                    0.501,
+                    "sloping",
+                    [
+                        837,
+                        844
+                    ]
+                ],
+                [
+                    0.514,
+                    "mCi",
+                    [
+                        1085,
+                        1088
+                    ]
+                ]
+            ],
+            "PROBLEM": [
+                [
+                    0.451,
+                    "fraction",
+                    [
+                        1568,
+                        1576
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

@@ -1,0 +1,483 @@
+{
+    "file": "laparoscopy-4.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "Marcaine",
+                "code": "1012397",
+                "cui": "C2945665",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Marcaine",
+                "range": [
+                    756,
+                    764
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 1.0
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "CO2",
+                "code": null,
+                "cui": null,
+                "tui": null,
+                "vocab": null,
+                "polarity": "positive",
+                "preferredText": null,
+                "range": [
+                    847,
+                    850
+                ],
+                "prob": {
+                    "MED": 0.923
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "Marcaine",
+                "code": "1012397",
+                "cui": "C2945665",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Marcaine",
+                "range": [
+                    1185,
+                    1193
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 1.0
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            }
+        ],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "Endometriosis",
+                "range": [
+                    69,
+                    82
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "129103003",
+                "cui": "C0014175",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Endometriosis"
+            },
+            {
+                "text": "endometriosis",
+                "range": [
+                    231,
+                    244
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "129103003",
+                "cui": "C0014175",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Endometriosis"
+            },
+            {
+                "text": "ligament",
+                "range": [
+                    372,
+                    380
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "mL of blood tinged fluid",
+                "range": [
+                    397,
+                    421
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "cul-de-",
+                "range": [
+                    429,
+                    436
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "endometriosis",
+                "range": [
+                    1457,
+                    1470
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "129103003",
+                "cui": "C0014175",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Endometriosis"
+            },
+            {
+                "text": "the",
+                "range": [
+                    1695,
+                    1698
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "endometriosis",
+                "range": [
+                    1782,
+                    1795
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "129103003",
+                "cui": "C0014175",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Endometriosis"
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.009,
+        "uncertain_count": 1,
+        "narrow_band_ratio": 0.003,
+        "uncertain_tokens": {
+            "MED": [
+                [
+                    0.654,
+                    "hemostatic",
+                    [
+                        1936,
+                        1946
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "Endometriosis",
+                    [
+                        69,
+                        82
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "endometriosis",
+                    [
+                        231,
+                        244
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "ligament",
+                    [
+                        372,
+                        380
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "mL",
+                    [
+                        397,
+                        399
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "of",
+                    [
+                        400,
+                        402
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "blood",
+                    [
+                        403,
+                        408
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "tinged",
+                    [
+                        409,
+                        415
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "fluid",
+                    [
+                        416,
+                        421
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "cul-de-",
+                    [
+                        429,
+                        436
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "endometriosis",
+                    [
+                        1457,
+                        1470
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "the",
+                    [
+                        1695,
+                        1698
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "endometriosis",
+                    [
+                        1782,
+                        1795
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.855,
+                    "Endometriosis",
+                    [
+                        69,
+                        82
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.704,
+                    "endometriosis",
+                    [
+                        231,
+                        244
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.486,
+                    "right",
+                    [
+                        354,
+                        359
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.554,
+                    "ligament",
+                    [
+                        372,
+                        380
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.649,
+                    "mL",
+                    [
+                        397,
+                        399
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.639,
+                    "of",
+                    [
+                        400,
+                        402
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.807,
+                    "blood",
+                    [
+                        403,
+                        408
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.651,
+                    "tinged",
+                    [
+                        409,
+                        415
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.742,
+                    "fluid",
+                    [
+                        416,
+                        421
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.513,
+                    "cul-de-",
+                    [
+                        429,
+                        436
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.744,
+                    "endometriosis",
+                    [
+                        1457,
+                        1470
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.634,
+                    "endometriosis",
+                    [
+                        1782,
+                        1795
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.145,
+        "uncertain_token_count": 5,
+        "narrow_band_ratio": 0.013,
+        "uncertain_tokens": {
+            "DIAGNOSIS": [
+                [
+                    0.486,
+                    "right",
+                    [
+                        354,
+                        359
+                    ]
+                ],
+                [
+                    0.513,
+                    "cul-de-",
+                    [
+                        429,
+                        436
+                    ]
+                ]
+            ],
+            "NA": [
+                [
+                    0.47,
+                    "uterosacral",
+                    [
+                        360,
+                        371
+                    ]
+                ],
+                [
+                    0.517,
+                    "the",
+                    [
+                        425,
+                        428
+                    ]
+                ],
+                [
+                    0.521,
+                    "the",
+                    [
+                        1695,
+                        1698
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

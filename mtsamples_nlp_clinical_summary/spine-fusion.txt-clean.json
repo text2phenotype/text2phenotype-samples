@@ -1,0 +1,518 @@
+{
+    "file": "spine-fusion.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "antibiotics",
+                "code": null,
+                "cui": null,
+                "tui": null,
+                "vocab": null,
+                "polarity": "positive",
+                "preferredText": null,
+                "range": [
+                    1090,
+                    1101
+                ],
+                "prob": {
+                    "MED": 0.906
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "bacitracin",
+                "code": "1291",
+                "cui": "C0004599",
+                "tui": "T195",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Bacitracin",
+                "range": [
+                    4364,
+                    4374
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.989
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            }
+        ],
+        "Allergy": [],
+        "Lab": [
+            {
+                "code": "",
+                "cui": "C0002059",
+                "tui": "T034",
+                "vocab": "LNC",
+                "polarity": "positive",
+                "text": "AP",
+                "preferredText": "ALP - ALKALINE PHOSPHATASE",
+                "range": [
+                    521,
+                    523
+                ]
+            }
+        ],
+        "DiseaseDisorder": [
+            {
+                "text": "neurologic or neurogenic scoliosis",
+                "range": [
+                    102,
+                    136
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "Anterior",
+                "range": [
+                    156,
+                    164
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "51742006",
+                "cui": "C0751437",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Adenohypophyseal Diseases"
+            },
+            {
+                "text": "scoliosis",
+                "range": [
+                    421,
+                    430
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "298382003",
+                "cui": "C0036439",
+                "tui": "T190",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Scoliosis, unspecified"
+            },
+            {
+                "text": "neurogenic scoliosis",
+                "range": [
+                    617,
+                    637
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "anterior",
+                "range": [
+                    660,
+                    668
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "51742006",
+                "cui": "C0751437",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Adenohypophyseal Diseases"
+            },
+            {
+                "text": "tissue and ligamentum\nflavum",
+                "range": [
+                    3531,
+                    3559
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.013,
+        "uncertain_count": 5,
+        "narrow_band_ratio": 0.006,
+        "uncertain_tokens": {
+            "MED": [
+                [
+                    0.62,
+                    "autograft",
+                    [
+                        1537,
+                        1546
+                    ]
+                ],
+                [
+                    0.685,
+                    "L3-T3",
+                    [
+                        3782,
+                        3787
+                    ]
+                ],
+                [
+                    0.698,
+                    "autograft",
+                    [
+                        4241,
+                        4250
+                    ]
+                ],
+                [
+                    0.586,
+                    "allograft",
+                    [
+                        4255,
+                        4264
+                    ]
+                ]
+            ],
+            "NA": [
+                [
+                    0.519,
+                    "Steri-Strips",
+                    [
+                        4659,
+                        4671
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "neurologic",
+                    [
+                        102,
+                        112
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "or",
+                    [
+                        113,
+                        115
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "neurogenic",
+                    [
+                        116,
+                        126
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "scoliosis",
+                    [
+                        127,
+                        136
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Anterior",
+                    [
+                        156,
+                        164
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "scoliosis",
+                    [
+                        421,
+                        430
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "neurogenic",
+                    [
+                        617,
+                        627
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "scoliosis",
+                    [
+                        628,
+                        637
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "anterior",
+                    [
+                        660,
+                        668
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "tissue",
+                    [
+                        3531,
+                        3537
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "and",
+                    [
+                        3538,
+                        3541
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "ligamentum",
+                    [
+                        3542,
+                        3552
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "flavum",
+                    [
+                        3553,
+                        3559
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.724,
+                    "neurologic",
+                    [
+                        102,
+                        112
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.669,
+                    "or",
+                    [
+                        113,
+                        115
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.795,
+                    "neurogenic",
+                    [
+                        116,
+                        126
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.825,
+                    "scoliosis",
+                    [
+                        127,
+                        136
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.533,
+                    "T11-L3",
+                    [
+                        183,
+                        189
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.811,
+                    "scoliosis",
+                    [
+                        421,
+                        430
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.688,
+                    "neurogenic",
+                    [
+                        617,
+                        627
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.898,
+                    "scoliosis",
+                    [
+                        628,
+                        637
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.627,
+                    "anterior",
+                    [
+                        660,
+                        668
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.496,
+                    "tissue",
+                    [
+                        3531,
+                        3537
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.398,
+                    "and",
+                    [
+                        3538,
+                        3541
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.462,
+                    "ligamentum",
+                    [
+                        3542,
+                        3552
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.431,
+                    "flavum",
+                    [
+                        3553,
+                        3559
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.083,
+        "uncertain_token_count": 7,
+        "narrow_band_ratio": 0.008,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.507,
+                    "scoliosis",
+                    [
+                        58,
+                        67
+                    ]
+                ],
+                [
+                    0.508,
+                    "Anterior",
+                    [
+                        156,
+                        164
+                    ]
+                ],
+                [
+                    0.526,
+                    "soft",
+                    [
+                        3526,
+                        3530
+                    ]
+                ]
+            ],
+            "PROBLEM": [
+                [
+                    0.496,
+                    "tissue",
+                    [
+                        3531,
+                        3537
+                    ]
+                ],
+                [
+                    0.398,
+                    "and",
+                    [
+                        3538,
+                        3541
+                    ]
+                ],
+                [
+                    0.462,
+                    "ligamentum",
+                    [
+                        3542,
+                        3552
+                    ]
+                ],
+                [
+                    0.431,
+                    "flavum",
+                    [
+                        3553,
+                        3559
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

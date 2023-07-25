@@ -1,0 +1,415 @@
+{
+    "file": "mri-c3-cord-compression.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "Elavil",
+                "code": "42940",
+                "cui": "C0087119",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Elavil",
+                "range": [
+                    1630,
+                    1636
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 1.0
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "Elavil",
+                "code": "42940",
+                "cui": "C0087119",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Elavil",
+                "range": [
+                    1630,
+                    1636
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 1.0
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            }
+        ],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "digit",
+                "range": [
+                    17,
+                    22
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "Carpal Tunnel",
+                "range": [
+                    1206,
+                    1219
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "spondylosis",
+                "range": [
+                    1349,
+                    1360
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "8847002",
+                "cui": "C0038019",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Spondylosis"
+            },
+            {
+                "text": "central",
+                "range": [
+                    1425,
+                    1432
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.004,
+        "uncertain_count": 0,
+        "narrow_band_ratio": 0.0,
+        "uncertain_tokens": {},
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "PROBLEM": [
+                    "digit",
+                    [
+                        17,
+                        22
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "numbness",
+                    [
+                        23,
+                        31
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "wrist",
+                    [
+                        36,
+                        41
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "pain",
+                    [
+                        42,
+                        46
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "numbness",
+                    [
+                        107,
+                        115
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "pain",
+                    [
+                        120,
+                        124
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Carpal",
+                    [
+                        1206,
+                        1212
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Tunnel",
+                    [
+                        1213,
+                        1219
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Syndrome",
+                    [
+                        1220,
+                        1228
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "spondylosis",
+                    [
+                        1349,
+                        1360
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "central",
+                    [
+                        1425,
+                        1432
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "spinal",
+                    [
+                        1433,
+                        1439
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "PROBLEM": [
+                    0.587,
+                    "digit",
+                    [
+                        17,
+                        22
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.783,
+                    "numbness",
+                    [
+                        23,
+                        31
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.822,
+                    "wrist",
+                    [
+                        36,
+                        41
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.773,
+                    "pain",
+                    [
+                        42,
+                        46
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.526,
+                    "numbness",
+                    [
+                        107,
+                        115
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.539,
+                    "pain",
+                    [
+                        120,
+                        124
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.459,
+                    "finger",
+                    [
+                        144,
+                        150
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.591,
+                    "Carpal",
+                    [
+                        1206,
+                        1212
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.727,
+                    "Tunnel",
+                    [
+                        1213,
+                        1219
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.702,
+                    "Syndrome",
+                    [
+                        1220,
+                        1228
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.823,
+                    "spondylosis",
+                    [
+                        1349,
+                        1360
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.605,
+                    "central",
+                    [
+                        1425,
+                        1432
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.704,
+                    "spinal",
+                    [
+                        1433,
+                        1439
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.15,
+        "uncertain_token_count": 6,
+        "narrow_band_ratio": 0.019,
+        "uncertain_tokens": {
+            "DIAGNOSIS": [
+                [
+                    0.526,
+                    "numbness",
+                    [
+                        107,
+                        115
+                    ]
+                ],
+                [
+                    0.459,
+                    "finger",
+                    [
+                        144,
+                        150
+                    ]
+                ]
+            ],
+            "NA": [
+                [
+                    0.464,
+                    "wrist",
+                    [
+                        155,
+                        160
+                    ]
+                ],
+                [
+                    0.437,
+                    "wrist",
+                    [
+                        330,
+                        335
+                    ]
+                ],
+                [
+                    0.498,
+                    "cut",
+                    [
+                        371,
+                        374
+                    ]
+                ],
+                [
+                    0.496,
+                    "stenosis",
+                    [
+                        1440,
+                        1448
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

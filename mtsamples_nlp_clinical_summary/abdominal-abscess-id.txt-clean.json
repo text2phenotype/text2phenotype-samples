@@ -1,0 +1,543 @@
+{
+    "file": "abdominal-abscess-id.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "Betadine",
+                "code": "202750",
+                "cui": "C0699524",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Betadine",
+                "range": [
+                    1297,
+                    1305
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.999
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "Betadine",
+                "code": "202750",
+                "cui": "C0699524",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Betadine",
+                "range": [
+                    1297,
+                    1305
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.999
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            }
+        ],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "Abdominal wall abscess",
+                "range": [
+                    26,
+                    48
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "80437003",
+                "cui": "C0263105",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Abscess of abdominal wall"
+            },
+            {
+                "text": "Abdominal wall abscess",
+                "range": [
+                    76,
+                    98
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "80437003",
+                "cui": "C0263105",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Abscess of abdominal wall"
+            },
+            {
+                "text": "abdominal abscess",
+                "range": [
+                    144,
+                    161
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "75100008",
+                "cui": "C0243001",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Abdominal Abscess"
+            },
+            {
+                "text": "diverticular abscess",
+                "range": [
+                    397,
+                    417
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "235774002",
+                "cui": "C0581275",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Colonic diverticular abscess"
+            },
+            {
+                "text": "lower abdomen",
+                "range": [
+                    524,
+                    537
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "abscess",
+                "range": [
+                    575,
+                    582
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "44132006",
+                "cui": "C0000833",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Abscess"
+            },
+            {
+                "text": "abscess",
+                "range": [
+                    875,
+                    882
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "44132006",
+                "cui": "C0000833",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Abscess"
+            },
+            {
+                "text": "suture",
+                "range": [
+                    1091,
+                    1097
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.005,
+        "uncertain_count": 1,
+        "narrow_band_ratio": 0.003,
+        "uncertain_tokens": {
+            "MED": [
+                [
+                    0.591,
+                    "antibiotic-soaked",
+                    [
+                        1856,
+                        1873
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "Abdominal",
+                    [
+                        26,
+                        35
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "wall",
+                    [
+                        36,
+                        40
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "abscess",
+                    [
+                        41,
+                        48
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Abdominal",
+                    [
+                        76,
+                        85
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "wall",
+                    [
+                        86,
+                        90
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "abscess",
+                    [
+                        91,
+                        98
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "abdominal",
+                    [
+                        144,
+                        153
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "abscess",
+                    [
+                        154,
+                        161
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "diverticular",
+                    [
+                        397,
+                        409
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "abscess",
+                    [
+                        410,
+                        417
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "dehiscence",
+                    [
+                        438,
+                        448
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "lower",
+                    [
+                        524,
+                        529
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "abdomen",
+                    [
+                        530,
+                        537
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "abscess",
+                    [
+                        575,
+                        582
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "abscess",
+                    [
+                        875,
+                        882
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "suture",
+                    [
+                        1091,
+                        1097
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.958,
+                    "Abdominal",
+                    [
+                        26,
+                        35
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.866,
+                    "wall",
+                    [
+                        36,
+                        40
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.874,
+                    "abscess",
+                    [
+                        41,
+                        48
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.959,
+                    "Abdominal",
+                    [
+                        76,
+                        85
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.883,
+                    "wall",
+                    [
+                        86,
+                        90
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.912,
+                    "abscess",
+                    [
+                        91,
+                        98
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.682,
+                    "abdominal",
+                    [
+                        144,
+                        153
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.612,
+                    "abscess",
+                    [
+                        154,
+                        161
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.906,
+                    "diverticular",
+                    [
+                        397,
+                        409
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.962,
+                    "abscess",
+                    [
+                        410,
+                        417
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.466,
+                    "dehiscence",
+                    [
+                        438,
+                        448
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.442,
+                    "lower",
+                    [
+                        524,
+                        529
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.512,
+                    "abdomen",
+                    [
+                        530,
+                        537
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.578,
+                    "abscess",
+                    [
+                        575,
+                        582
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.708,
+                    "abscess",
+                    [
+                        875,
+                        882
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.404,
+                    "suture",
+                    [
+                        1091,
+                        1097
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.129,
+        "uncertain_token_count": 5,
+        "narrow_band_ratio": 0.014,
+        "uncertain_tokens": {
+            "DIAGNOSIS": [
+                [
+                    0.466,
+                    "dehiscence",
+                    [
+                        438,
+                        448
+                    ]
+                ],
+                [
+                    0.442,
+                    "lower",
+                    [
+                        524,
+                        529
+                    ]
+                ],
+                [
+                    0.512,
+                    "abdomen",
+                    [
+                        530,
+                        537
+                    ]
+                ]
+            ],
+            "PROBLEM": [
+                [
+                    0.404,
+                    "suture",
+                    [
+                        1091,
+                        1097
+                    ]
+                ]
+            ],
+            "NA": [
+                [
+                    0.473,
+                    "wound",
+                    [
+                        1109,
+                        1114
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

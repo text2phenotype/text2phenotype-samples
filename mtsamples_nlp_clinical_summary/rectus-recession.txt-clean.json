@@ -1,0 +1,256 @@
+{
+    "file": "rectus-recession.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "TobraDex",
+                "code": "220330",
+                "cui": "C0723765",
+                "tui": "T195",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Tobradex",
+                "range": [
+                    1935,
+                    1943
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.969
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "TobraDex",
+                "code": "220330",
+                "cui": "C0723765",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Tobradex",
+                "range": [
+                    1935,
+                    1943
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.969
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            }
+        ],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "Congenital bilateral esotropia",
+                "range": [
+                    26,
+                    56
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "Congenital bilateral esotropia",
+                "range": [
+                    189,
+                    219
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.014,
+        "uncertain_count": 5,
+        "narrow_band_ratio": 0.013,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.69,
+                    "limbus",
+                    [
+                        809,
+                        815
+                    ]
+                ],
+                [
+                    0.695,
+                    "incision",
+                    [
+                        869,
+                        877
+                    ]
+                ],
+                [
+                    0.601,
+                    "capsule",
+                    [
+                        898,
+                        905
+                    ]
+                ],
+                [
+                    0.542,
+                    "eye",
+                    [
+                        1944,
+                        1947
+                    ]
+                ]
+            ],
+            "MED": [
+                [
+                    0.587,
+                    "capsule",
+                    [
+                        1122,
+                        1129
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "Congenital",
+                    [
+                        26,
+                        36
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "bilateral",
+                    [
+                        37,
+                        46
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "esotropia",
+                    [
+                        47,
+                        56
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Congenital",
+                    [
+                        189,
+                        199
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "bilateral",
+                    [
+                        200,
+                        209
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "esotropia",
+                    [
+                        210,
+                        219
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.887,
+                    "Congenital",
+                    [
+                        26,
+                        36
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.88,
+                    "bilateral",
+                    [
+                        37,
+                        46
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.848,
+                    "esotropia",
+                    [
+                        47,
+                        56
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.855,
+                    "Congenital",
+                    [
+                        189,
+                        199
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.866,
+                    "bilateral",
+                    [
+                        200,
+                        209
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.895,
+                    "esotropia",
+                    [
+                        210,
+                        219
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.076,
+        "uncertain_token_count": 0,
+        "narrow_band_ratio": 0.0,
+        "uncertain_tokens": {},
+        "narrow_band_width": 0.2
+    }
+}

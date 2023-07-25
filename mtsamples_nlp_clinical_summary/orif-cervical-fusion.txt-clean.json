@@ -1,0 +1,359 @@
+{
+    "file": "orif-cervical-fusion.txt-clean.txt",
+    "text2summary": {
+        "Medication": [],
+        "Allergy": [],
+        "Lab": [
+            {
+                "code": "",
+                "cui": "C0002059",
+                "tui": "T034",
+                "vocab": "LNC",
+                "polarity": "positive",
+                "text": "AP",
+                "preferredText": "ALP - ALKALINE PHOSPHATASE",
+                "range": [
+                    2462,
+                    2464
+                ]
+            }
+        ],
+        "DiseaseDisorder": [
+            {
+                "text": "Fracture dislocation",
+                "range": [
+                    26,
+                    46
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "125605004",
+                "cui": "C0016658",
+                "tui": "T037",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Fracture"
+            },
+            {
+                "text": "Fracture dislocation",
+                "range": [
+                    78,
+                    98
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "125605004",
+                "cui": "C0016658",
+                "tui": "T037",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Fracture"
+            },
+            {
+                "text": "comminuted C2 fracture",
+                "range": [
+                    177,
+                    199
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "13321001",
+                "cui": "C0476171",
+                "tui": "T037",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Comminuted Fracture type"
+            },
+            {
+                "text": "C2 comminuted fracture",
+                "range": [
+                    729,
+                    751
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "C2 fracture",
+                "range": [
+                    3773,
+                    3784
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.011,
+        "uncertain_count": 2,
+        "narrow_band_ratio": 0.002,
+        "uncertain_tokens": {
+            "MED": [
+                [
+                    0.548,
+                    "Schanz",
+                    [
+                        3490,
+                        3496
+                    ]
+                ]
+            ],
+            "NA": [
+                [
+                    0.601,
+                    "Bacitracin",
+                    [
+                        4898,
+                        4908
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "Fracture",
+                    [
+                        26,
+                        34
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "dislocation",
+                    [
+                        35,
+                        46
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Fracture",
+                    [
+                        78,
+                        86
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "dislocation",
+                    [
+                        87,
+                        98
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "comminuted",
+                    [
+                        177,
+                        187
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "C2",
+                    [
+                        188,
+                        190
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "fracture",
+                    [
+                        191,
+                        199
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "C2",
+                    [
+                        729,
+                        731
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "comminuted",
+                    [
+                        732,
+                        742
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "fracture",
+                    [
+                        743,
+                        751
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "C2",
+                    [
+                        3773,
+                        3775
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "fracture",
+                    [
+                        3776,
+                        3784
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.97,
+                    "Fracture",
+                    [
+                        26,
+                        34
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.958,
+                    "dislocation",
+                    [
+                        35,
+                        46
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.951,
+                    "Fracture",
+                    [
+                        78,
+                        86
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.944,
+                    "dislocation",
+                    [
+                        87,
+                        98
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.584,
+                    "comminuted",
+                    [
+                        177,
+                        187
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.759,
+                    "C2",
+                    [
+                        188,
+                        190
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.848,
+                    "fracture",
+                    [
+                        191,
+                        199
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.596,
+                    "C2",
+                    [
+                        729,
+                        731
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.756,
+                    "comminuted",
+                    [
+                        732,
+                        742
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.884,
+                    "fracture",
+                    [
+                        743,
+                        751
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.665,
+                    "C2",
+                    [
+                        3773,
+                        3775
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.707,
+                    "fracture",
+                    [
+                        3776,
+                        3784
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.058,
+        "uncertain_token_count": 0,
+        "narrow_band_ratio": 0.0,
+        "uncertain_tokens": {},
+        "narrow_band_width": 0.2
+    }
+}

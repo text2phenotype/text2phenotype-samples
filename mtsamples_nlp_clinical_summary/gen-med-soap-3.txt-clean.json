@@ -1,0 +1,448 @@
+{
+    "file": "gen-med-soap-3.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "Keflex",
+                "code": "203167",
+                "cui": "C0700517",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Keflex",
+                "range": [
+                    395,
+                    401
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.987
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "Keflex",
+                "code": "203167",
+                "cui": "C0700517",
+                "tui": "T195",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Keflex",
+                "range": [
+                    395,
+                    401
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.987
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "Motrin",
+                "code": "202488",
+                "cui": "C0699203",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Motrin",
+                "range": [
+                    1192,
+                    1198
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.992
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "Motrin",
+                "code": "202488",
+                "cui": "C0699203",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Motrin",
+                "range": [
+                    1192,
+                    1198
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.992
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            }
+        ],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "bodyaches",
+                "range": [
+                    86,
+                    95
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "green",
+                "range": [
+                    192,
+                    197
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "Bronchitis/URI",
+                "range": [
+                    1167,
+                    1181
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "32398004",
+                "cui": "C0006277",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Bronchitis"
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.006,
+        "uncertain_count": 0,
+        "narrow_band_ratio": 0.0,
+        "uncertain_tokens": {},
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "PROBLEM": [
+                    "bodyaches",
+                    [
+                        86,
+                        95
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "coughing",
+                    [
+                        104,
+                        112
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "sore",
+                    [
+                        124,
+                        128
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "coughs",
+                    [
+                        157,
+                        163
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "cough",
+                    [
+                        169,
+                        174
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "green",
+                    [
+                        192,
+                        197
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "colored",
+                    [
+                        198,
+                        205
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "sputum",
+                    [
+                        206,
+                        212
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "tearful",
+                    [
+                        487,
+                        494
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Bronchitis/URI",
+                    [
+                        1167,
+                        1181
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "fever",
+                    [
+                        1213,
+                        1218
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "discomfort",
+                    [
+                        1223,
+                        1233
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "PROBLEM": [
+                    0.561,
+                    "bodyaches",
+                    [
+                        86,
+                        95
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.536,
+                    "coughing",
+                    [
+                        104,
+                        112
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.493,
+                    "sore",
+                    [
+                        124,
+                        128
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.585,
+                    "coughs",
+                    [
+                        157,
+                        163
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.628,
+                    "cough",
+                    [
+                        169,
+                        174
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.439,
+                    "green",
+                    [
+                        192,
+                        197
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.6,
+                    "colored",
+                    [
+                        198,
+                        205
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.536,
+                    "sputum",
+                    [
+                        206,
+                        212
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.434,
+                    "cough",
+                    [
+                        337,
+                        342
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.923,
+                    "Bronchitis/URI",
+                    [
+                        1167,
+                        1181
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.455,
+                    "fever",
+                    [
+                        1213,
+                        1218
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.107,
+        "uncertain_token_count": 9,
+        "narrow_band_ratio": 0.032,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.51,
+                    "not",
+                    [
+                        21,
+                        24
+                    ]
+                ],
+                [
+                    0.468,
+                    "throat",
+                    [
+                        129,
+                        135
+                    ]
+                ],
+                [
+                    0.509,
+                    "Her",
+                    [
+                        165,
+                        168
+                    ]
+                ],
+                [
+                    0.503,
+                    "tearful",
+                    [
+                        487,
+                        494
+                    ]
+                ],
+                [
+                    0.417,
+                    "discomfort",
+                    [
+                        1223,
+                        1233
+                    ]
+                ]
+            ],
+            "PROBLEM": [
+                [
+                    0.493,
+                    "sore",
+                    [
+                        124,
+                        128
+                    ]
+                ],
+                [
+                    0.439,
+                    "green",
+                    [
+                        192,
+                        197
+                    ]
+                ],
+                [
+                    0.434,
+                    "cough",
+                    [
+                        337,
+                        342
+                    ]
+                ],
+                [
+                    0.455,
+                    "fever",
+                    [
+                        1213,
+                        1218
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

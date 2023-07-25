@@ -1,0 +1,304 @@
+{
+    "file": "craniotomy-frontal-zygomatic.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "Xylocaine with epinephrine",
+                "code": "746946",
+                "cui": "C1968032",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Xylocaine with Epinephrine",
+                "range": [
+                    829,
+                    855
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.97
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            }
+        ],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "Metopic",
+                "range": [
+                    26,
+                    33
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "Metopic synostosis",
+                "range": [
+                    92,
+                    110
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "in",
+                "range": [
+                    4752,
+                    4754
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.008,
+        "uncertain_count": 6,
+        "narrow_band_ratio": 0.006,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.591,
+                    "foam",
+                    [
+                        728,
+                        732
+                    ]
+                ],
+                [
+                    0.578,
+                    "with",
+                    [
+                        839,
+                        843
+                    ]
+                ],
+                [
+                    0.538,
+                    "Bone",
+                    [
+                        2795,
+                        2799
+                    ]
+                ],
+                [
+                    0.644,
+                    "gentle",
+                    [
+                        3275,
+                        3281
+                    ]
+                ],
+                [
+                    0.523,
+                    "bacitracin",
+                    [
+                        5050,
+                        5060
+                    ]
+                ]
+            ],
+            "MED": [
+                [
+                    0.554,
+                    "antibiotics",
+                    [
+                        882,
+                        893
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "Metopic",
+                    [
+                        26,
+                        33
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "trigonocephaly",
+                    [
+                        50,
+                        64
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Metopic",
+                    [
+                        92,
+                        99
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "synostosis",
+                    [
+                        100,
+                        110
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "trigonocephaly",
+                    [
+                        116,
+                        130
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "cut",
+                    [
+                        1894,
+                        1897
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "in",
+                    [
+                        4752,
+                        4754
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.53,
+                    "Metopic",
+                    [
+                        26,
+                        33
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.394,
+                    "synostosis",
+                    [
+                        34,
+                        44
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.575,
+                    "trigonocephaly",
+                    [
+                        50,
+                        64
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.82,
+                    "Metopic",
+                    [
+                        92,
+                        99
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.766,
+                    "synostosis",
+                    [
+                        100,
+                        110
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.846,
+                    "trigonocephaly",
+                    [
+                        116,
+                        130
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.519,
+                    "cut",
+                    [
+                        1894,
+                        1897
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.087,
+        "uncertain_token_count": 3,
+        "narrow_band_ratio": 0.003,
+        "uncertain_tokens": {
+            "DIAGNOSIS": [
+                [
+                    0.394,
+                    "synostosis",
+                    [
+                        34,
+                        44
+                    ]
+                ],
+                [
+                    0.519,
+                    "cut",
+                    [
+                        1894,
+                        1897
+                    ]
+                ]
+            ],
+            "NA": [
+                [
+                    0.524,
+                    "with",
+                    [
+                        111,
+                        115
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

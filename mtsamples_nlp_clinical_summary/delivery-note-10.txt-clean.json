@@ -1,0 +1,149 @@
+{
+    "file": "delivery-note-10.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "ampicillin",
+                "code": "733",
+                "cui": "C0002680",
+                "tui": "T195",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Ampicillin",
+                "range": [
+                    505,
+                    515
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.987
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "ampicillin",
+                "code": "733",
+                "cui": "C0002680",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Ampicillin",
+                "range": [
+                    505,
+                    515
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.987
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "Pitocin",
+                "code": "227199",
+                "cui": "C0733348",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Pitocin",
+                "range": [
+                    1369,
+                    1376
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 1.0
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            }
+        ],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": []
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.011,
+        "uncertain_count": 1,
+        "narrow_band_ratio": 0.004,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.644,
+                    "100.7",
+                    [
+                        1515,
+                        1520
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "Rupture",
+                    [
+                        328,
+                        335
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "membranes",
+                    [
+                        410,
+                        419
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.537,
+                    "Rupture",
+                    [
+                        328,
+                        335
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.098,
+        "uncertain_token_count": 2,
+        "narrow_band_ratio": 0.007,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.481,
+                    "membranes",
+                    [
+                        410,
+                        419
+                    ]
+                ],
+                [
+                    0.447,
+                    "membranes",
+                    [
+                        546,
+                        555
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

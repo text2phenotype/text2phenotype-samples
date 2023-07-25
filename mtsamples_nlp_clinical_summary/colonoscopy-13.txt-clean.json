@@ -1,0 +1,305 @@
+{
+    "file": "colonoscopy-13.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "Demerol",
+                "code": "282381",
+                "cui": "C0935966",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Demerol",
+                "range": [
+                    498,
+                    505
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 1.0
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [
+                    "3",
+                    507,
+                    508
+                ],
+                "medStrengthUnit": [
+                    "mg",
+                    509,
+                    511
+                ]
+            },
+            {
+                "text": "Demerol",
+                "code": "282381",
+                "cui": "C0935966",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Demerol",
+                "range": [
+                    498,
+                    505
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 1.0
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [
+                    "3",
+                    507,
+                    508
+                ],
+                "medStrengthUnit": [
+                    "mg",
+                    509,
+                    511
+                ]
+            }
+        ],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "polyps",
+                "range": [
+                    37,
+                    43
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "441456002",
+                "cui": "C0032584",
+                "tui": "T190",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "polyps"
+            },
+            {
+                "text": "colonic diverticular disease",
+                "range": [
+                    101,
+                    129
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "398050005",
+                "cui": "C0012819",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Diverticular disease of colon"
+            },
+            {
+                "text": "benign prostatic hypertrophy",
+                "range": [
+                    139,
+                    167
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "polyps",
+                "range": [
+                    322,
+                    328
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "441456002",
+                "cui": "C0032584",
+                "tui": "T190",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "polyps"
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.005,
+        "uncertain_count": 0,
+        "narrow_band_ratio": 0.0,
+        "uncertain_tokens": {},
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "polyps",
+                    [
+                        37,
+                        43
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "colonic",
+                    [
+                        101,
+                        108
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "diverticular",
+                    [
+                        109,
+                        121
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "disease",
+                    [
+                        122,
+                        129
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "benign",
+                    [
+                        139,
+                        145
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "prostatic",
+                    [
+                        146,
+                        155
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "hypertrophy",
+                    [
+                        156,
+                        167
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "polyps",
+                    [
+                        322,
+                        328
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.64,
+                    "polyps",
+                    [
+                        37,
+                        43
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.825,
+                    "colonic",
+                    [
+                        101,
+                        108
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.838,
+                    "diverticular",
+                    [
+                        109,
+                        121
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.922,
+                    "disease",
+                    [
+                        122,
+                        129
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.504,
+                    "benign",
+                    [
+                        139,
+                        145
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.705,
+                    "prostatic",
+                    [
+                        146,
+                        155
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.712,
+                    "hypertrophy",
+                    [
+                        156,
+                        167
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.685,
+                    "polyps",
+                    [
+                        322,
+                        328
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.08,
+        "uncertain_token_count": 1,
+        "narrow_band_ratio": 0.005,
+        "uncertain_tokens": {
+            "DIAGNOSIS": [
+                [
+                    0.504,
+                    "benign",
+                    [
+                        139,
+                        145
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

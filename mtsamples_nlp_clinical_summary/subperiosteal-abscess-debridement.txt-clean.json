@@ -1,0 +1,448 @@
+{
+    "file": "subperiosteal-abscess-debridement.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "bacitracin",
+                "code": "1291",
+                "cui": "C0004599",
+                "tui": "T195",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Bacitracin",
+                "range": [
+                    1633,
+                    1643
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.995
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "bacitracin",
+                "code": "1291",
+                "cui": "C0004599",
+                "tui": "T195",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Bacitracin",
+                "range": [
+                    1776,
+                    1786
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.999
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            }
+        ],
+        "Allergy": [],
+        "Lab": [
+            {
+                "code": "272170001",
+                "cui": "C0023516",
+                "tui": "T034",
+                "vocab": "SNOMEDCT_US",
+                "polarity": "positive",
+                "text": "white count",
+                "preferredText": "WHITE BLOOD CELL (CELL)",
+                "range": [
+                    742,
+                    753
+                ]
+            }
+        ],
+        "DiseaseDisorder": [
+            {
+                "text": "Right",
+                "range": [
+                    26,
+                    31
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "Right distal femoral",
+                "range": [
+                    97,
+                    117
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "subperiosteal abscess",
+                "range": [
+                    119,
+                    140
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "burns",
+                "range": [
+                    413,
+                    418
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "48333001",
+                "cui": "C0006434",
+                "tui": "T037",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Burn injury"
+            },
+            {
+                "text": "abscess",
+                "range": [
+                    453,
+                    460
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "44132006",
+                "cui": "C0000833",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Abscess"
+            },
+            {
+                "text": "right distal femur",
+                "range": [
+                    468,
+                    486
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.012,
+        "uncertain_count": 4,
+        "narrow_band_ratio": 0.009,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.526,
+                    "C-reactive",
+                    [
+                        781,
+                        791
+                    ]
+                ],
+                [
+                    0.627,
+                    "antibiotics",
+                    [
+                        1300,
+                        1311
+                    ]
+                ],
+                [
+                    0.57,
+                    "containing",
+                    [
+                        1765,
+                        1775
+                    ]
+                ],
+                [
+                    0.65,
+                    "skin",
+                    [
+                        2205,
+                        2209
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "Right",
+                    [
+                        26,
+                        31
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Right",
+                    [
+                        97,
+                        102
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "distal",
+                    [
+                        103,
+                        109
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "femoral",
+                    [
+                        110,
+                        117
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "subperiosteal",
+                    [
+                        119,
+                        132
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "abscess",
+                    [
+                        133,
+                        140
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "burns",
+                    [
+                        413,
+                        418
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "abscess",
+                    [
+                        453,
+                        460
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "right",
+                    [
+                        468,
+                        473
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "distal",
+                    [
+                        474,
+                        480
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "femur",
+                    [
+                        481,
+                        486
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.672,
+                    "Right",
+                    [
+                        26,
+                        31
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.507,
+                    "distal",
+                    [
+                        32,
+                        38
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.787,
+                    "Right",
+                    [
+                        97,
+                        102
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.737,
+                    "distal",
+                    [
+                        103,
+                        109
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.614,
+                    "femoral",
+                    [
+                        110,
+                        117
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.658,
+                    "subperiosteal",
+                    [
+                        119,
+                        132
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.74,
+                    "abscess",
+                    [
+                        133,
+                        140
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.932,
+                    "burns",
+                    [
+                        413,
+                        418
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.479,
+                    "subperiosteal",
+                    [
+                        439,
+                        452
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.67,
+                    "abscess",
+                    [
+                        453,
+                        460
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.678,
+                    "right",
+                    [
+                        468,
+                        473
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.676,
+                    "distal",
+                    [
+                        474,
+                        480
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.637,
+                    "femur",
+                    [
+                        481,
+                        486
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.073,
+        "uncertain_token_count": 2,
+        "narrow_band_ratio": 0.005,
+        "uncertain_tokens": {
+            "DIAGNOSIS": [
+                [
+                    0.507,
+                    "distal",
+                    [
+                        32,
+                        38
+                    ]
+                ],
+                [
+                    0.479,
+                    "subperiosteal",
+                    [
+                        439,
+                        452
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

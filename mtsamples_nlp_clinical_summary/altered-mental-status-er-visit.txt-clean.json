@@ -1,0 +1,532 @@
+{
+    "file": "altered-mental-status-er-visit.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "mannitol",
+                "code": "6628",
+                "cui": "C0024730",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Mannitol",
+                "range": [
+                    2322,
+                    2330
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.983
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [
+                    "am",
+                    951,
+                    953
+                ],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "mannitol",
+                "code": "6628",
+                "cui": "C0024730",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Mannitol",
+                "range": [
+                    2322,
+                    2330
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.983
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [
+                    "am",
+                    951,
+                    953
+                ],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            }
+        ],
+        "Allergy": [],
+        "Lab": [
+            {
+                "code": "",
+                "cui": "C0518015",
+                "tui": "T034",
+                "vocab": "LNC",
+                "polarity": "positive",
+                "text": "hemoglobin",
+                "preferredText": "HEMOGLOBIN DETERMINATION (PROCEDURE)",
+                "range": [
+                    2404,
+                    2414
+                ]
+            },
+            {
+                "code": "LP32067-8",
+                "cui": "C0019046",
+                "tui": "T034",
+                "vocab": "LNC",
+                "polarity": "positive",
+                "text": "hemoglobin",
+                "preferredText": "HEMOGLOBIN",
+                "range": [
+                    2404,
+                    2414
+                ]
+            },
+            {
+                "code": "",
+                "cui": "C0201931",
+                "tui": "T059",
+                "vocab": "CPT",
+                "polarity": "positive",
+                "text": "pCO2",
+                "preferredText": "PACO2 MEASUREMENT",
+                "range": [
+                    2556,
+                    2560
+                ]
+            }
+        ],
+        "DiseaseDisorder": [
+            {
+                "text": "intracranial bleeding",
+                "range": [
+                    163,
+                    184
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "1386000",
+                "cui": "C0151699",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Intracranial Hemorrhages"
+            },
+            {
+                "text": "stroke",
+                "range": [
+                    2877,
+                    2883
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "230690007",
+                "cui": "C0038454",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Cerebrovascular accident"
+            },
+            {
+                "text": "traumatic\ninjury",
+                "range": [
+                    2885,
+                    2901
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "19130008",
+                "cui": "C3714660",
+                "tui": "T037",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Trauma"
+            },
+            {
+                "text": "of",
+                "range": [
+                    2941,
+                    2943
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.002,
+        "uncertain_count": 0,
+        "narrow_band_ratio": 0.0,
+        "uncertain_tokens": {},
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "Altered",
+                    [
+                        19,
+                        26
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "mental",
+                    [
+                        27,
+                        33
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "status",
+                    [
+                        34,
+                        40
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "intracranial",
+                    [
+                        163,
+                        175
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "bleeding",
+                    [
+                        176,
+                        184
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "gastroesophageal",
+                    [
+                        1058,
+                        1074
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "reflux",
+                    [
+                        1075,
+                        1081
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "disease",
+                    [
+                        1082,
+                        1089
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Arteriovenous",
+                    [
+                        2849,
+                        2862
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "malformation",
+                    [
+                        2863,
+                        2875
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "stroke",
+                    [
+                        2877,
+                        2883
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "traumatic",
+                    [
+                        2885,
+                        2894
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "injury",
+                    [
+                        2895,
+                        2901
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Intracerebral",
+                    [
+                        2916,
+                        2929
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "hemorrhage",
+                    [
+                        2930,
+                        2940
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "of",
+                    [
+                        2941,
+                        2943
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "uncertain",
+                    [
+                        2944,
+                        2953
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.843,
+                    "Altered",
+                    [
+                        19,
+                        26
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.864,
+                    "mental",
+                    [
+                        27,
+                        33
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.897,
+                    "status",
+                    [
+                        34,
+                        40
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.681,
+                    "intracranial",
+                    [
+                        163,
+                        175
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.694,
+                    "bleeding",
+                    [
+                        176,
+                        184
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.912,
+                    "gastroesophageal",
+                    [
+                        1058,
+                        1074
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.917,
+                    "reflux",
+                    [
+                        1075,
+                        1081
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.917,
+                    "disease",
+                    [
+                        1082,
+                        1089
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.894,
+                    "Arteriovenous",
+                    [
+                        2849,
+                        2862
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.929,
+                    "malformation",
+                    [
+                        2863,
+                        2875
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.878,
+                    "stroke",
+                    [
+                        2877,
+                        2883
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.708,
+                    "traumatic",
+                    [
+                        2885,
+                        2894
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.735,
+                    "injury",
+                    [
+                        2895,
+                        2901
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.882,
+                    "Intracerebral",
+                    [
+                        2916,
+                        2929
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.903,
+                    "hemorrhage",
+                    [
+                        2930,
+                        2940
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.712,
+                    "of",
+                    [
+                        2941,
+                        2943
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.784,
+                    "uncertain",
+                    [
+                        2944,
+                        2953
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.05,
+        "uncertain_token_count": 4,
+        "narrow_band_ratio": 0.006,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.486,
+                    "child",
+                    [
+                        1112,
+                        1117
+                    ]
+                ],
+                [
+                    0.461,
+                    "critical",
+                    [
+                        2804,
+                        2812
+                    ]
+                ],
+                [
+                    0.465,
+                    "condition",
+                    [
+                        2813,
+                        2822
+                    ]
+                ],
+                [
+                    0.517,
+                    "etiology",
+                    [
+                        2954,
+                        2962
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

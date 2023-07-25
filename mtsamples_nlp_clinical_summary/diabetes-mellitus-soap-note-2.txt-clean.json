@@ -1,0 +1,279 @@
+{
+    "file": "diabetes-mellitus-soap-note-2.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "Lantus",
+                "code": "261551",
+                "cui": "C0876064",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Lantus",
+                "range": [
+                    177,
+                    183
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.989
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "insulin",
+                "code": null,
+                "cui": null,
+                "tui": null,
+                "vocab": null,
+                "polarity": "positive",
+                "preferredText": null,
+                "range": [
+                    184,
+                    191
+                ],
+                "prob": {
+                    "MED": 0.977
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "Humalog",
+                "code": "135805",
+                "cui": "C0528249",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Humalog",
+                "range": [
+                    256,
+                    263
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.999
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "Lantus",
+                "code": "261551",
+                "cui": "C0876064",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Lantus",
+                "range": [
+                    480,
+                    486
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 1.0
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [
+                    "84",
+                    507,
+                    509
+                ],
+                "medStrengthUnit": [
+                    "units",
+                    510,
+                    515
+                ]
+            },
+            {
+                "text": "insulin",
+                "code": null,
+                "cui": null,
+                "tui": null,
+                "vocab": null,
+                "polarity": "positive",
+                "preferredText": null,
+                "range": [
+                    487,
+                    494
+                ],
+                "prob": {
+                    "MED": 0.963
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "Lantus",
+                "code": "261551",
+                "cui": "C0876064",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Lantus",
+                "range": [
+                    1126,
+                    1132
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 1.0
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "Humalog",
+                "code": "135805",
+                "cui": "C0528249",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Humalog",
+                "range": [
+                    1295,
+                    1302
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.975
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            }
+        ],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "Diabetes",
+                "range": [
+                    989,
+                    997
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "73211009",
+                "cui": "C0011849",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Diabetes Mellitus"
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.027,
+        "uncertain_count": 4,
+        "narrow_band_ratio": 0.015,
+        "uncertain_tokens": {
+            "MED": [
+                [
+                    0.669,
+                    "insulins",
+                    [
+                        158,
+                        166
+                    ]
+                ],
+                [
+                    0.521,
+                    "glucoses",
+                    [
+                        599,
+                        607
+                    ]
+                ]
+            ],
+            "NA": [
+                [
+                    0.512,
+                    "insulin",
+                    [
+                        264,
+                        271
+                    ]
+                ],
+                [
+                    0.691,
+                    "frequent",
+                    [
+                        296,
+                        304
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "Diabetes",
+                    [
+                        989,
+                        997
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.935,
+                    "Diabetes",
+                    [
+                        989,
+                        997
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.104,
+        "uncertain_token_count": 3,
+        "narrow_band_ratio": 0.011,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.498,
+                    "scale",
+                    [
+                        250,
+                        255
+                    ]
+                ],
+                [
+                    0.478,
+                    "Humalog",
+                    [
+                        256,
+                        263
+                    ]
+                ],
+                [
+                    0.478,
+                    "regimen",
+                    [
+                        330,
+                        337
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

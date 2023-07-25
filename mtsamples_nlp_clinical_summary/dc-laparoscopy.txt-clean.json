@@ -1,0 +1,363 @@
+{
+    "file": "dc-laparoscopy.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "indigo carmine",
+                "code": "227312",
+                "cui": "C0021219",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Indigo Carmine",
+                "range": [
+                    2110,
+                    2124
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.93
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            }
+        ],
+        "Allergy": [
+            {
+                "code": "227312",
+                "cui": "C0021219",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "text": "indigo carmine",
+                "preferredText": "Indigo Carmine",
+                "range": [
+                    2110,
+                    2124
+                ]
+            }
+        ],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "bilateral tubal",
+                "range": [
+                    189,
+                    204
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.013,
+        "uncertain_count": 4,
+        "narrow_band_ratio": 0.008,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.503,
+                    "air",
+                    [
+                        1181,
+                        1184
+                    ]
+                ],
+                [
+                    0.668,
+                    "dye",
+                    [
+                        2125,
+                        2128
+                    ]
+                ],
+                [
+                    0.655,
+                    "intraperitoneal",
+                    [
+                        2210,
+                        2225
+                    ]
+                ]
+            ],
+            "MED": [
+                [
+                    0.52,
+                    "carmine",
+                    [
+                        1228,
+                        1235
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "Hypermenorrhea",
+                    [
+                        31,
+                        45
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Pelvic",
+                    [
+                        52,
+                        58
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "pain",
+                    [
+                        59,
+                        63
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "Infertility",
+                    [
+                        70,
+                        81
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "fibroid",
+                    [
+                        123,
+                        130
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "uterus",
+                    [
+                        131,
+                        137
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Infertility",
+                    [
+                        144,
+                        155
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Pelvic",
+                    [
+                        162,
+                        168
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "pain",
+                    [
+                        169,
+                        173
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "bilateral",
+                    [
+                        189,
+                        198
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "tubal",
+                    [
+                        199,
+                        204
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "fibroids",
+                    [
+                        2007,
+                        2015
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.559,
+                    "Hypermenorrhea",
+                    [
+                        31,
+                        45
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.719,
+                    "Pelvic",
+                    [
+                        52,
+                        58
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.535,
+                    "pain",
+                    [
+                        59,
+                        63
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.677,
+                    "Infertility",
+                    [
+                        70,
+                        81
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.491,
+                    "fibroid",
+                    [
+                        123,
+                        130
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.674,
+                    "uterus",
+                    [
+                        131,
+                        137
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.821,
+                    "Infertility",
+                    [
+                        144,
+                        155
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.602,
+                    "Pelvic",
+                    [
+                        162,
+                        168
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.535,
+                    "pain",
+                    [
+                        169,
+                        173
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.582,
+                    "bilateral",
+                    [
+                        189,
+                        198
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.586,
+                    "tubal",
+                    [
+                        199,
+                        204
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.534,
+                    "fibroids",
+                    [
+                        2007,
+                        2015
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.104,
+        "uncertain_token_count": 2,
+        "narrow_band_ratio": 0.004,
+        "uncertain_tokens": {
+            "DIAGNOSIS": [
+                [
+                    0.491,
+                    "fibroid",
+                    [
+                        123,
+                        130
+                    ]
+                ]
+            ],
+            "NA": [
+                [
+                    0.5,
+                    "occlusion",
+                    [
+                        205,
+                        214
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

@@ -1,0 +1,609 @@
+{
+    "file": "lumbar-epidural-steroid-injection-3.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "Lidocaine",
+                "code": "6387",
+                "cui": "C0023660",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Lidocaine",
+                "range": [
+                    1524,
+                    1533
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 1.0
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "Lidocaine",
+                "code": "6387",
+                "cui": "C0023660",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Lidocaine",
+                "range": [
+                    1524,
+                    1533
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 1.0
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            }
+        ],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "Lumbar radiculopathy",
+                "range": [
+                    26,
+                    46
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "128196005",
+                "cui": "C1263855",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Lumbar radiculopathy"
+            },
+            {
+                "text": "Lumbar radiculopathy",
+                "range": [
+                    81,
+                    101
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "128196005",
+                "cui": "C1263855",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Lumbar radiculopathy"
+            },
+            {
+                "text": "dural puncture",
+                "range": [
+                    618,
+                    632
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "neurological",
+                "range": [
+                    706,
+                    718
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "and/or nerve root injury",
+                "range": [
+                    731,
+                    755
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "infection",
+                "range": [
+                    757,
+                    766
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "189822004",
+                "cui": "C0009450",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Communicable Diseases"
+            },
+            {
+                "text": "even",
+                "range": [
+                    781,
+                    785
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "neurological injury",
+                "range": [
+                    1038,
+                    1057
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "128239009",
+                "cui": "C0751792",
+                "tui": "T037",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Trauma, Nervous System"
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.007,
+        "uncertain_count": 2,
+        "narrow_band_ratio": 0.006,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.537,
+                    "lidocaine",
+                    [
+                        233,
+                        242
+                    ]
+                ]
+            ],
+            "MED": [
+                [
+                    0.574,
+                    "preservative",
+                    [
+                        2010,
+                        2022
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "Lumbar",
+                    [
+                        26,
+                        32
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "radiculopathy",
+                    [
+                        33,
+                        46
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Lumbar",
+                    [
+                        81,
+                        87
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "radiculopathy",
+                    [
+                        88,
+                        101
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "dural",
+                    [
+                        618,
+                        623
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "puncture",
+                    [
+                        624,
+                        632
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "headache",
+                    [
+                        633,
+                        641
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "neurological",
+                    [
+                        706,
+                        718
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "dysfunction",
+                    [
+                        719,
+                        730
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "and/or",
+                    [
+                        731,
+                        737
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "nerve",
+                    [
+                        738,
+                        743
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "root",
+                    [
+                        744,
+                        748
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "injury",
+                    [
+                        749,
+                        755
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "infection",
+                    [
+                        757,
+                        766
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "bleeding",
+                    [
+                        768,
+                        776
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "even",
+                    [
+                        781,
+                        785
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "death",
+                    [
+                        786,
+                        791
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "movement",
+                    [
+                        990,
+                        998
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "neurological",
+                    [
+                        1038,
+                        1050
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "injury",
+                    [
+                        1051,
+                        1057
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.947,
+                    "Lumbar",
+                    [
+                        26,
+                        32
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.916,
+                    "radiculopathy",
+                    [
+                        33,
+                        46
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.867,
+                    "Lumbar",
+                    [
+                        81,
+                        87
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.756,
+                    "radiculopathy",
+                    [
+                        88,
+                        101
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.496,
+                    "dural",
+                    [
+                        618,
+                        623
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.75,
+                    "puncture",
+                    [
+                        624,
+                        632
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.597,
+                    "headache",
+                    [
+                        633,
+                        641
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.732,
+                    "neurological",
+                    [
+                        706,
+                        718
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.793,
+                    "dysfunction",
+                    [
+                        719,
+                        730
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.765,
+                    "and/or",
+                    [
+                        731,
+                        737
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.824,
+                    "nerve",
+                    [
+                        738,
+                        743
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.751,
+                    "root",
+                    [
+                        744,
+                        748
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.668,
+                    "injury",
+                    [
+                        749,
+                        755
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.797,
+                    "infection",
+                    [
+                        757,
+                        766
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.641,
+                    "bleeding",
+                    [
+                        768,
+                        776
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.599,
+                    "even",
+                    [
+                        781,
+                        785
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.652,
+                    "death",
+                    [
+                        786,
+                        791
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.56,
+                    "movement",
+                    [
+                        990,
+                        998
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.507,
+                    "neurological",
+                    [
+                        1038,
+                        1050
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.611,
+                    "injury",
+                    [
+                        1051,
+                        1057
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.104,
+        "uncertain_token_count": 3,
+        "narrow_band_ratio": 0.008,
+        "uncertain_tokens": {
+            "DIAGNOSIS": [
+                [
+                    0.496,
+                    "dural",
+                    [
+                        618,
+                        623
+                    ]
+                ],
+                [
+                    0.507,
+                    "neurological",
+                    [
+                        1038,
+                        1050
+                    ]
+                ]
+            ],
+            "NA": [
+                [
+                    0.528,
+                    "increased",
+                    [
+                        696,
+                        705
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

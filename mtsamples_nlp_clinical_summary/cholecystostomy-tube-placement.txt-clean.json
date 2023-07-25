@@ -1,0 +1,303 @@
+{
+    "file": "cholecystostomy-tube-placement.txt-clean.txt",
+    "text2summary": {
+        "Medication": [],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "Acute acalculous cholecystitis",
+                "range": [
+                    26,
+                    56
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "34346002",
+                "cui": "C0267842",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Acute cholecystitis without calculus"
+            },
+            {
+                "text": "Acute acalculous cholecystitis",
+                "range": [
+                    84,
+                    114
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "34346002",
+                "cui": "C0267842",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Acute cholecystitis without calculus"
+            },
+            {
+                "text": "acute MI",
+                "range": [
+                    328,
+                    336
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "57054005",
+                "cui": "C0155626",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Acute myocardial infarction"
+            },
+            {
+                "text": "acute cholecystitis",
+                "range": [
+                    350,
+                    369
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "65275009",
+                "cui": "C0149520",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Acute Cholecystitis"
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.024,
+        "uncertain_count": 3,
+        "narrow_band_ratio": 0.014,
+        "uncertain_tokens": {
+            "MED": [
+                [
+                    0.606,
+                    "Xylocaine",
+                    [
+                        202,
+                        211
+                    ]
+                ]
+            ],
+            "NA": [
+                [
+                    0.523,
+                    "Betadine",
+                    [
+                        812,
+                        820
+                    ]
+                ],
+                [
+                    0.57,
+                    "solution",
+                    [
+                        821,
+                        829
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "Acute",
+                    [
+                        26,
+                        31
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "acalculous",
+                    [
+                        32,
+                        42
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "cholecystitis",
+                    [
+                        43,
+                        56
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Acute",
+                    [
+                        84,
+                        89
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "acalculous",
+                    [
+                        90,
+                        100
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "cholecystitis",
+                    [
+                        101,
+                        114
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "acute",
+                    [
+                        328,
+                        333
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "MI",
+                    [
+                        334,
+                        336
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "acute",
+                    [
+                        350,
+                        355
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "cholecystitis",
+                    [
+                        356,
+                        369
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.883,
+                    "Acute",
+                    [
+                        26,
+                        31
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.653,
+                    "acalculous",
+                    [
+                        32,
+                        42
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.708,
+                    "cholecystitis",
+                    [
+                        43,
+                        56
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.851,
+                    "Acute",
+                    [
+                        84,
+                        89
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.668,
+                    "acalculous",
+                    [
+                        90,
+                        100
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.825,
+                    "cholecystitis",
+                    [
+                        101,
+                        114
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.97,
+                    "acute",
+                    [
+                        328,
+                        333
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.995,
+                    "MI",
+                    [
+                        334,
+                        336
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.707,
+                    "acute",
+                    [
+                        350,
+                        355
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.834,
+                    "cholecystitis",
+                    [
+                        356,
+                        369
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.071,
+        "uncertain_token_count": 0,
+        "narrow_band_ratio": 0.0,
+        "uncertain_tokens": {},
+        "narrow_band_width": 0.2
+    }
+}

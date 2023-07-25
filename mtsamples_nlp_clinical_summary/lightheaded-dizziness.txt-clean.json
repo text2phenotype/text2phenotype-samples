@@ -1,0 +1,410 @@
+{
+    "file": "lightheaded-dizziness.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "beta-blocker",
+                "code": null,
+                "cui": null,
+                "tui": null,
+                "vocab": null,
+                "polarity": "positive",
+                "preferredText": null,
+                "range": [
+                    3299,
+                    3311
+                ],
+                "prob": {
+                    "MED": 0.968
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "basis",
+                "code": "1046801",
+                "cui": "C1874451",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Basis",
+                "range": [
+                    3519,
+                    3524
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.999
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            }
+        ],
+        "Allergy": [],
+        "Lab": [
+            {
+                "code": "LP14355-9",
+                "cui": "C0010294",
+                "tui": "T034",
+                "vocab": "LNC",
+                "polarity": "positive",
+                "text": "creatinine",
+                "preferredText": "CREATININE",
+                "range": [
+                    2728,
+                    2738
+                ]
+            }
+        ],
+        "DiseaseDisorder": [
+            {
+                "text": "chest",
+                "range": [
+                    384,
+                    389
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "palpitation",
+                "range": [
+                    2932,
+                    2943
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.005,
+        "uncertain_count": 0,
+        "narrow_band_ratio": 0.0,
+        "uncertain_tokens": {},
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "PROBLEM": [
+                    "Lightheaded",
+                    [
+                        27,
+                        38
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "dizziness",
+                    [
+                        40,
+                        49
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "palpitation",
+                    [
+                        55,
+                        66
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "lightheaded",
+                    [
+                        215,
+                        226
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "dizziness",
+                    [
+                        228,
+                        237
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "chest",
+                    [
+                        384,
+                        389
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "chest",
+                    [
+                        1312,
+                        1317
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "pain",
+                    [
+                        1318,
+                        1322
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "lightheaded",
+                    [
+                        1601,
+                        1612
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "dizziness",
+                    [
+                        1614,
+                        1623
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "palpitation",
+                    [
+                        1629,
+                        1640
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Lightheaded",
+                    [
+                        2838,
+                        2849
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "palpitation",
+                    [
+                        2932,
+                        2943
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "PROBLEM": [
+                    0.465,
+                    "Lightheaded",
+                    [
+                        27,
+                        38
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.719,
+                    "dizziness",
+                    [
+                        40,
+                        49
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.622,
+                    "palpitation",
+                    [
+                        55,
+                        66
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.626,
+                    "lightheaded",
+                    [
+                        215,
+                        226
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.741,
+                    "dizziness",
+                    [
+                        228,
+                        237
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.365,
+                    "chest",
+                    [
+                        384,
+                        389
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.922,
+                    "chest",
+                    [
+                        1312,
+                        1317
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.92,
+                    "pain",
+                    [
+                        1318,
+                        1322
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.607,
+                    "lightheaded",
+                    [
+                        1601,
+                        1612
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.706,
+                    "dizziness",
+                    [
+                        1614,
+                        1623
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.453,
+                    "palpitation",
+                    [
+                        1629,
+                        1640
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.666,
+                    "Lightheaded",
+                    [
+                        2838,
+                        2849
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.69,
+                    "palpitation",
+                    [
+                        2932,
+                        2943
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.073,
+        "uncertain_token_count": 6,
+        "narrow_band_ratio": 0.009,
+        "uncertain_tokens": {
+            "PROBLEM": [
+                [
+                    0.465,
+                    "Lightheaded",
+                    [
+                        27,
+                        38
+                    ]
+                ],
+                [
+                    0.365,
+                    "chest",
+                    [
+                        384,
+                        389
+                    ]
+                ],
+                [
+                    0.453,
+                    "palpitation",
+                    [
+                        1629,
+                        1640
+                    ]
+                ]
+            ],
+            "NA": [
+                [
+                    0.428,
+                    "palpitation",
+                    [
+                        354,
+                        365
+                    ]
+                ],
+                [
+                    0.4,
+                    "of",
+                    [
+                        381,
+                        383
+                    ]
+                ],
+                [
+                    0.524,
+                    "dizziness",
+                    [
+                        2851,
+                        2860
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

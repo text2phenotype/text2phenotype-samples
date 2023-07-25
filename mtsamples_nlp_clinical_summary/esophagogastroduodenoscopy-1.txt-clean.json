@@ -1,0 +1,510 @@
+{
+    "file": "esophagogastroduodenoscopy-1.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "omeprazole",
+                "code": "7646",
+                "cui": "C0028978",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Omeprazole",
+                "range": [
+                    2403,
+                    2413
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.999
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [
+                    "day",
+                    2422,
+                    2425
+                ],
+                "medStrengthNum": [
+                    "20",
+                    2414,
+                    2416
+                ],
+                "medStrengthUnit": [
+                    "mg",
+                    2417,
+                    2419
+                ]
+            },
+            {
+                "text": "omeprazole",
+                "code": "7646",
+                "cui": "C0028978",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Omeprazole",
+                "range": [
+                    2403,
+                    2413
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.999
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [
+                    "day",
+                    2422,
+                    2425
+                ],
+                "medStrengthNum": [
+                    "20",
+                    2414,
+                    2416
+                ],
+                "medStrengthUnit": [
+                    "mg",
+                    2417,
+                    2419
+                ]
+            }
+        ],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "dysphagia",
+                "range": [
+                    118,
+                    127
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "40739000",
+                "cui": "C0011168",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Deglutition Disorders"
+            },
+            {
+                "text": "Loose lower esophageal sphincter and duodenal\nulcers",
+                "range": [
+                    217,
+                    269
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "of the",
+                "range": [
+                    1523,
+                    1529
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "Duodenal ulcers",
+                "range": [
+                    2326,
+                    2341
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "51868009",
+                "cui": "C0013295",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Duodenal Ulcer"
+            },
+            {
+                "text": "lower esophageal",
+                "range": [
+                    2354,
+                    2370
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.009,
+        "uncertain_count": 3,
+        "narrow_band_ratio": 0.006,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.679,
+                    "solids",
+                    [
+                        131,
+                        137
+                    ]
+                ],
+                [
+                    0.647,
+                    "medications",
+                    [
+                        933,
+                        944
+                    ]
+                ],
+                [
+                    0.575,
+                    "air",
+                    [
+                        2145,
+                        2148
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "dysphagia",
+                    [
+                        118,
+                        127
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Loose",
+                    [
+                        217,
+                        222
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "lower",
+                    [
+                        223,
+                        228
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "esophageal",
+                    [
+                        229,
+                        239
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "sphincter",
+                    [
+                        240,
+                        249
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "and",
+                    [
+                        250,
+                        253
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "duodenal",
+                    [
+                        254,
+                        262
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "ulcers",
+                    [
+                        263,
+                        269
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "of",
+                    [
+                        1523,
+                        1525
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "the",
+                    [
+                        1526,
+                        1529
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Duodenal",
+                    [
+                        2326,
+                        2334
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "ulcers",
+                    [
+                        2335,
+                        2341
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "lower",
+                    [
+                        2354,
+                        2359
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "esophageal",
+                    [
+                        2360,
+                        2370
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.545,
+                    "dysphagia",
+                    [
+                        118,
+                        127
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.902,
+                    "Loose",
+                    [
+                        217,
+                        222
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.891,
+                    "lower",
+                    [
+                        223,
+                        228
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.898,
+                    "esophageal",
+                    [
+                        229,
+                        239
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.82,
+                    "sphincter",
+                    [
+                        240,
+                        249
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.489,
+                    "and",
+                    [
+                        250,
+                        253
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.843,
+                    "duodenal",
+                    [
+                        254,
+                        262
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.83,
+                    "ulcers",
+                    [
+                        263,
+                        269
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.47,
+                    "perforation",
+                    [
+                        568,
+                        579
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.568,
+                    "of",
+                    [
+                        1523,
+                        1525
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.509,
+                    "the",
+                    [
+                        1526,
+                        1529
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.755,
+                    "Duodenal",
+                    [
+                        2326,
+                        2334
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.753,
+                    "ulcers",
+                    [
+                        2335,
+                        2341
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.563,
+                    "lower",
+                    [
+                        2354,
+                        2359
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.62,
+                    "esophageal",
+                    [
+                        2360,
+                        2370
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.081,
+        "uncertain_token_count": 5,
+        "narrow_band_ratio": 0.011,
+        "uncertain_tokens": {
+            "DIAGNOSIS": [
+                [
+                    0.489,
+                    "and",
+                    [
+                        250,
+                        253
+                    ]
+                ],
+                [
+                    0.47,
+                    "perforation",
+                    [
+                        568,
+                        579
+                    ]
+                ],
+                [
+                    0.509,
+                    "the",
+                    [
+                        1526,
+                        1529
+                    ]
+                ]
+            ],
+            "NA": [
+                [
+                    0.508,
+                    "bleeding",
+                    [
+                        558,
+                        566
+                    ]
+                ],
+                [
+                    0.434,
+                    "sphincter",
+                    [
+                        2371,
+                        2380
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

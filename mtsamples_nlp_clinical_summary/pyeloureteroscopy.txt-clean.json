@@ -1,0 +1,981 @@
+{
+    "file": "pyeloureteroscopy.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "Fortaz",
+                "code": "203421",
+                "cui": "C0700859",
+                "tui": "T195",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Fortaz",
+                "range": [
+                    1917,
+                    1923
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.903
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "Fortaz",
+                "code": "203421",
+                "cui": "C0700859",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Fortaz",
+                "range": [
+                    1917,
+                    1923
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.903
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            }
+        ],
+        "Allergy": [],
+        "Lab": [
+            {
+                "code": "LP14355-9",
+                "cui": "C0010294",
+                "tui": "T034",
+                "vocab": "LNC",
+                "polarity": "positive",
+                "text": "creatinine",
+                "preferredText": "CREATININE",
+                "range": [
+                    1221,
+                    1231
+                ]
+            }
+        ],
+        "DiseaseDisorder": [
+            {
+                "text": "pyeloureteroscopy x2",
+                "range": [
+                    136,
+                    156
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "renal\ninsufficiency",
+                "range": [
+                    205,
+                    224
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "236423003",
+                "cui": "C1565489",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Renal Insufficiency"
+            },
+            {
+                "text": "obstructed renal",
+                "range": [
+                    278,
+                    294
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "procedure",
+                "range": [
+                    368,
+                    377
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "pyelonephritis",
+                "range": [
+                    433,
+                    447
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "45816000",
+                "cui": "C0034186",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Pyelonephritis"
+            },
+            {
+                "text": "renal\ninsufficiency",
+                "range": [
+                    452,
+                    471
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "236423003",
+                "cui": "C1565489",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Renal Insufficiency"
+            },
+            {
+                "text": "ureter",
+                "range": [
+                    932,
+                    938
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "renal insufficiency",
+                "range": [
+                    1196,
+                    1215
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "236423003",
+                "cui": "C1565489",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Renal Insufficiency"
+            },
+            {
+                "text": "pyelonephritis",
+                "range": [
+                    1365,
+                    1379
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "45816000",
+                "cui": "C0034186",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Pyelonephritis"
+            },
+            {
+                "text": "placements",
+                "range": [
+                    1403,
+                    1413
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "of the\nsystem",
+                "range": [
+                    1450,
+                    1463
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.005,
+        "uncertain_count": 3,
+        "narrow_band_ratio": 0.002,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.511,
+                    "antibiotics",
+                    [
+                        1900,
+                        1911
+                    ]
+                ],
+                [
+                    0.646,
+                    "thrombin-Gelfoam",
+                    [
+                        6147,
+                        6163
+                    ]
+                ]
+            ],
+            "MED": [
+                [
+                    0.529,
+                    "15-blade",
+                    [
+                        5865,
+                        5873
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "pyeloureteroscopy",
+                    [
+                        136,
+                        153
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "x2",
+                    [
+                        154,
+                        156
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "renal",
+                    [
+                        205,
+                        210
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "insufficiency",
+                    [
+                        211,
+                        224
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "solitary",
+                    [
+                        230,
+                        238
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "kidney",
+                    [
+                        239,
+                        245
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "obstructed",
+                    [
+                        278,
+                        288
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "renal",
+                    [
+                        289,
+                        294
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "ureteropelvic",
+                    [
+                        295,
+                        308
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "junction",
+                    [
+                        309,
+                        317
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "obstruction",
+                    [
+                        318,
+                        329
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "procedure",
+                    [
+                        368,
+                        377
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "pyelonephritis",
+                    [
+                        433,
+                        447
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "renal",
+                    [
+                        452,
+                        457
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "insufficiency",
+                    [
+                        458,
+                        471
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "solitary",
+                    [
+                        477,
+                        485
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "kidney",
+                    [
+                        486,
+                        492
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "dilated",
+                    [
+                        924,
+                        931
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "ureter",
+                    [
+                        932,
+                        938
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "dilated",
+                    [
+                        943,
+                        950
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "renal",
+                    [
+                        951,
+                        956
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "pelvis",
+                    [
+                        957,
+                        963
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "renal",
+                    [
+                        1196,
+                        1201
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "insufficiency",
+                    [
+                        1202,
+                        1215
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "pyelonephritis",
+                    [
+                        1365,
+                        1379
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "placements",
+                    [
+                        1403,
+                        1413
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "dilation",
+                    [
+                        1441,
+                        1449
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "of",
+                    [
+                        1450,
+                        1452
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "the",
+                    [
+                        1453,
+                        1456
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "system",
+                    [
+                        1457,
+                        1463
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "obstruction",
+                    [
+                        1479,
+                        1490
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "dilated",
+                    [
+                        2512,
+                        2519
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.426,
+                    "pyeloureteroscopy",
+                    [
+                        136,
+                        153
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.454,
+                    "x2",
+                    [
+                        154,
+                        156
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.753,
+                    "renal",
+                    [
+                        205,
+                        210
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.701,
+                    "insufficiency",
+                    [
+                        211,
+                        224
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.383,
+                    "kidney",
+                    [
+                        239,
+                        245
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.579,
+                    "obstructed",
+                    [
+                        278,
+                        288
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.801,
+                    "renal",
+                    [
+                        289,
+                        294
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.673,
+                    "ureteropelvic",
+                    [
+                        295,
+                        308
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.76,
+                    "junction",
+                    [
+                        309,
+                        317
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.725,
+                    "obstruction",
+                    [
+                        318,
+                        329
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.475,
+                    "procedure",
+                    [
+                        368,
+                        377
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.515,
+                    "pyelonephritis",
+                    [
+                        433,
+                        447
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.879,
+                    "renal",
+                    [
+                        452,
+                        457
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.864,
+                    "insufficiency",
+                    [
+                        458,
+                        471
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.771,
+                    "solitary",
+                    [
+                        477,
+                        485
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.835,
+                    "kidney",
+                    [
+                        486,
+                        492
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.483,
+                    "dilated",
+                    [
+                        924,
+                        931
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.528,
+                    "ureter",
+                    [
+                        932,
+                        938
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.661,
+                    "dilated",
+                    [
+                        943,
+                        950
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.697,
+                    "renal",
+                    [
+                        951,
+                        956
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.657,
+                    "pelvis",
+                    [
+                        957,
+                        963
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.597,
+                    "renal",
+                    [
+                        1196,
+                        1201
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.591,
+                    "insufficiency",
+                    [
+                        1202,
+                        1215
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.767,
+                    "pyelonephritis",
+                    [
+                        1365,
+                        1379
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.466,
+                    "placements",
+                    [
+                        1403,
+                        1413
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.584,
+                    "dilation",
+                    [
+                        1441,
+                        1449
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.723,
+                    "of",
+                    [
+                        1450,
+                        1452
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.715,
+                    "the",
+                    [
+                        1453,
+                        1456
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.785,
+                    "system",
+                    [
+                        1457,
+                        1463
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.1,
+        "uncertain_token_count": 17,
+        "narrow_band_ratio": 0.014,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.461,
+                    "renal",
+                    [
+                        42,
+                        47
+                    ]
+                ],
+                [
+                    0.492,
+                    "pyelonephritis",
+                    [
+                        186,
+                        200
+                    ]
+                ],
+                [
+                    0.376,
+                    "solitary",
+                    [
+                        230,
+                        238
+                    ]
+                ],
+                [
+                    0.506,
+                    "Left",
+                    [
+                        273,
+                        277
+                    ]
+                ],
+                [
+                    0.398,
+                    "pyeloureteroscopy",
+                    [
+                        383,
+                        400
+                    ]
+                ],
+                [
+                    0.407,
+                    "x2",
+                    [
+                        401,
+                        403
+                    ]
+                ],
+                [
+                    0.459,
+                    "tube",
+                    [
+                        1398,
+                        1402
+                    ]
+                ],
+                [
+                    0.407,
+                    "obstruction",
+                    [
+                        1479,
+                        1490
+                    ]
+                ],
+                [
+                    0.478,
+                    "dilated",
+                    [
+                        2512,
+                        2519
+                    ]
+                ]
+            ],
+            "DIAGNOSIS": [
+                [
+                    0.426,
+                    "pyeloureteroscopy",
+                    [
+                        136,
+                        153
+                    ]
+                ],
+                [
+                    0.454,
+                    "x2",
+                    [
+                        154,
+                        156
+                    ]
+                ],
+                [
+                    0.383,
+                    "kidney",
+                    [
+                        239,
+                        245
+                    ]
+                ],
+                [
+                    0.475,
+                    "procedure",
+                    [
+                        368,
+                        377
+                    ]
+                ],
+                [
+                    0.515,
+                    "pyelonephritis",
+                    [
+                        433,
+                        447
+                    ]
+                ],
+                [
+                    0.483,
+                    "dilated",
+                    [
+                        924,
+                        931
+                    ]
+                ],
+                [
+                    0.528,
+                    "ureter",
+                    [
+                        932,
+                        938
+                    ]
+                ],
+                [
+                    0.466,
+                    "placements",
+                    [
+                        1403,
+                        1413
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

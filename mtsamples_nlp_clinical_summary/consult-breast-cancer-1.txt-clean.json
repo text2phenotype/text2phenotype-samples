@@ -1,0 +1,889 @@
+{
+    "file": "consult-breast-cancer-1.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "omeprazole",
+                "code": "7646",
+                "cui": "C0028978",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Omeprazole",
+                "range": [
+                    1760,
+                    1770
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 1.0
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "omeprazole",
+                "code": "7646",
+                "cui": "C0028978",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Omeprazole",
+                "range": [
+                    1760,
+                    1770
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 1.0
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            }
+        ],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "Left",
+                "range": [
+                    19,
+                    23
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "high histologic grade",
+                "range": [
+                    385,
+                    406
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "involvement",
+                "range": [
+                    1335,
+                    1346
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "of the left breast",
+                "range": [
+                    3278,
+                    3296
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "T1c",
+                "range": [
+                    3298,
+                    3301
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "left",
+                "range": [
+                    3310,
+                    3314
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "left upper extremity\nlymphedema",
+                "range": [
+                    4061,
+                    4092
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.003,
+        "uncertain_count": 1,
+        "narrow_band_ratio": 0.001,
+        "uncertain_tokens": {
+            "MED": [
+                [
+                    0.57,
+                    "injection",
+                    [
+                        3693,
+                        3702
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "Left",
+                    [
+                        19,
+                        23
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "breast",
+                    [
+                        24,
+                        30
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "cancer",
+                    [
+                        31,
+                        37
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "lesion",
+                    [
+                        258,
+                        264
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "infiltrating",
+                    [
+                        355,
+                        367
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "ductal",
+                    [
+                        368,
+                        374
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "carcinoma",
+                    [
+                        375,
+                        384
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "high",
+                    [
+                        385,
+                        389
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "histologic",
+                    [
+                        390,
+                        400
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "grade",
+                    [
+                        401,
+                        406
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "breast",
+                    [
+                        792,
+                        798
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "breast",
+                    [
+                        967,
+                        973
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "cancer",
+                    [
+                        974,
+                        980
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "involvement",
+                    [
+                        1335,
+                        1346
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "invasive",
+                    [
+                        3252,
+                        3260
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "ductal",
+                    [
+                        3261,
+                        3267
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "carcinoma",
+                    [
+                        3268,
+                        3277
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "of",
+                    [
+                        3278,
+                        3280
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "the",
+                    [
+                        3281,
+                        3284
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "left",
+                    [
+                        3285,
+                        3289
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "breast",
+                    [
+                        3290,
+                        3296
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "T1c",
+                    [
+                        3298,
+                        3301
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Nx",
+                    [
+                        3303,
+                        3305
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "M0",
+                    [
+                        3307,
+                        3309
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "left",
+                    [
+                        3310,
+                        3314
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "breast",
+                    [
+                        3315,
+                        3321
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "carcinoma",
+                    [
+                        3322,
+                        3331
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "breast",
+                    [
+                        3418,
+                        3424
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "cancer",
+                    [
+                        3425,
+                        3431
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "left",
+                    [
+                        4061,
+                        4065
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "upper",
+                    [
+                        4066,
+                        4071
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "extremity",
+                    [
+                        4072,
+                        4081
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "lymphedema",
+                    [
+                        4082,
+                        4092
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "breast",
+                    [
+                        4273,
+                        4279
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "cancers",
+                    [
+                        4280,
+                        4287
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.65,
+                    "Left",
+                    [
+                        19,
+                        23
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.87,
+                    "breast",
+                    [
+                        24,
+                        30
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.901,
+                    "cancer",
+                    [
+                        31,
+                        37
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.427,
+                    "lesion",
+                    [
+                        258,
+                        264
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.475,
+                    "infiltrating",
+                    [
+                        355,
+                        367
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.703,
+                    "ductal",
+                    [
+                        368,
+                        374
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.81,
+                    "carcinoma",
+                    [
+                        375,
+                        384
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.566,
+                    "high",
+                    [
+                        385,
+                        389
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.631,
+                    "histologic",
+                    [
+                        390,
+                        400
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.574,
+                    "grade",
+                    [
+                        401,
+                        406
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.879,
+                    "breast",
+                    [
+                        967,
+                        973
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.92,
+                    "cancer",
+                    [
+                        974,
+                        980
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.554,
+                    "involvement",
+                    [
+                        1335,
+                        1346
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.71,
+                    "invasive",
+                    [
+                        3252,
+                        3260
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.638,
+                    "ductal",
+                    [
+                        3261,
+                        3267
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.779,
+                    "carcinoma",
+                    [
+                        3268,
+                        3277
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.748,
+                    "of",
+                    [
+                        3278,
+                        3280
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.829,
+                    "the",
+                    [
+                        3281,
+                        3284
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.8,
+                    "left",
+                    [
+                        3285,
+                        3289
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.746,
+                    "breast",
+                    [
+                        3290,
+                        3296
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.713,
+                    "T1c",
+                    [
+                        3298,
+                        3301
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.746,
+                    "Nx",
+                    [
+                        3303,
+                        3305
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.814,
+                    "M0",
+                    [
+                        3307,
+                        3309
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.912,
+                    "left",
+                    [
+                        3310,
+                        3314
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.93,
+                    "breast",
+                    [
+                        3315,
+                        3321
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.948,
+                    "carcinoma",
+                    [
+                        3322,
+                        3331
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.857,
+                    "breast",
+                    [
+                        3418,
+                        3424
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.843,
+                    "cancer",
+                    [
+                        3425,
+                        3431
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.699,
+                    "left",
+                    [
+                        4061,
+                        4065
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.712,
+                    "upper",
+                    [
+                        4066,
+                        4071
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.725,
+                    "extremity",
+                    [
+                        4072,
+                        4081
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.792,
+                    "lymphedema",
+                    [
+                        4082,
+                        4092
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.761,
+                    "breast",
+                    [
+                        4273,
+                        4279
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.753,
+                    "cancers",
+                    [
+                        4280,
+                        4287
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.125,
+        "uncertain_token_count": 7,
+        "narrow_band_ratio": 0.009,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.515,
+                    "cm",
+                    [
+                        255,
+                        257
+                    ]
+                ],
+                [
+                    0.403,
+                    "breast",
+                    [
+                        792,
+                        798
+                    ]
+                ],
+                [
+                    0.52,
+                    "cancer",
+                    [
+                        799,
+                        805
+                    ]
+                ],
+                [
+                    0.517,
+                    "the",
+                    [
+                        3436,
+                        3439
+                    ]
+                ],
+                [
+                    0.522,
+                    "surgical",
+                    [
+                        3440,
+                        3448
+                    ]
+                ]
+            ],
+            "DIAGNOSIS": [
+                [
+                    0.427,
+                    "lesion",
+                    [
+                        258,
+                        264
+                    ]
+                ],
+                [
+                    0.475,
+                    "infiltrating",
+                    [
+                        355,
+                        367
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

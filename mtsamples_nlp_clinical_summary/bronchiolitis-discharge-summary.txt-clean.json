@@ -1,0 +1,493 @@
+{
+    "file": "bronchiolitis-discharge-summary.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "albuterol",
+                "code": "435",
+                "cui": "C0001927",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Albuterol",
+                "range": [
+                    3035,
+                    3044
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.963
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "albuterol",
+                "code": "435",
+                "cui": "C0001927",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Albuterol",
+                "range": [
+                    3035,
+                    3044
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.963
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            }
+        ],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "Bronchiolitis",
+                "range": [
+                    18,
+                    31
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "4120002",
+                "cui": "C0006271",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Bronchiolitis"
+            },
+            {
+                "text": "acute bronchiolitis",
+                "range": [
+                    282,
+                    301
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "5505005",
+                "cui": "C0001311",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Acute bronchiolitis"
+            },
+            {
+                "text": "early",
+                "range": [
+                    379,
+                    384
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "as RSV bronchiolitis",
+                "range": [
+                    429,
+                    449
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "heart",
+                "range": [
+                    728,
+                    733
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.004,
+        "uncertain_count": 1,
+        "narrow_band_ratio": 0.002,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.515,
+                    "air",
+                    [
+                        338,
+                        341
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "Bronchiolitis",
+                    [
+                        18,
+                        31
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "congestion",
+                    [
+                        193,
+                        203
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "acute",
+                    [
+                        282,
+                        287
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "bronchiolitis",
+                    [
+                        288,
+                        301
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "early",
+                    [
+                        379,
+                        384
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "observation",
+                    [
+                        417,
+                        428
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "as",
+                    [
+                        429,
+                        431
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "RSV",
+                    [
+                        432,
+                        435
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "bronchiolitis",
+                    [
+                        436,
+                        449
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "illness",
+                    [
+                        496,
+                        503
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "heart",
+                    [
+                        728,
+                        733
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "distress",
+                    [
+                        1249,
+                        1257
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "tachypnea",
+                    [
+                        1274,
+                        1283
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.921,
+                    "Bronchiolitis",
+                    [
+                        18,
+                        31
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.489,
+                    "murmur",
+                    [
+                        112,
+                        118
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.407,
+                    "congestion",
+                    [
+                        193,
+                        203
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.733,
+                    "acute",
+                    [
+                        282,
+                        287
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.897,
+                    "bronchiolitis",
+                    [
+                        288,
+                        301
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.568,
+                    "early",
+                    [
+                        379,
+                        384
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.653,
+                    "observation",
+                    [
+                        417,
+                        428
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.735,
+                    "RSV",
+                    [
+                        432,
+                        435
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.797,
+                    "bronchiolitis",
+                    [
+                        436,
+                        449
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.534,
+                    "illness",
+                    [
+                        496,
+                        503
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.479,
+                    "heart",
+                    [
+                        728,
+                        733
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.388,
+                    "respiratory",
+                    [
+                        1237,
+                        1248
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.442,
+                    "distress",
+                    [
+                        1249,
+                        1257
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.445,
+                    "tachypnea",
+                    [
+                        1274,
+                        1283
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.091,
+        "uncertain_token_count": 10,
+        "narrow_band_ratio": 0.016,
+        "uncertain_tokens": {
+            "PROBLEM": [
+                [
+                    0.489,
+                    "murmur",
+                    [
+                        112,
+                        118
+                    ]
+                ],
+                [
+                    0.479,
+                    "heart",
+                    [
+                        728,
+                        733
+                    ]
+                ],
+                [
+                    0.445,
+                    "tachypnea",
+                    [
+                        1274,
+                        1283
+                    ]
+                ]
+            ],
+            "DIAGNOSIS": [
+                [
+                    0.407,
+                    "congestion",
+                    [
+                        193,
+                        203
+                    ]
+                ],
+                [
+                    0.388,
+                    "respiratory",
+                    [
+                        1237,
+                        1248
+                    ]
+                ],
+                [
+                    0.442,
+                    "distress",
+                    [
+                        1249,
+                        1257
+                    ]
+                ]
+            ],
+            "NA": [
+                [
+                    0.48,
+                    "worsens",
+                    [
+                        460,
+                        467
+                    ]
+                ],
+                [
+                    0.457,
+                    "retractions",
+                    [
+                        1295,
+                        1306
+                    ]
+                ],
+                [
+                    0.527,
+                    "nasal",
+                    [
+                        1318,
+                        1323
+                    ]
+                ],
+                [
+                    0.503,
+                    "flaring",
+                    [
+                        1324,
+                        1331
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

@@ -1,0 +1,275 @@
+{
+    "file": "brca-2-mutation.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "Percocet",
+                "code": "42844",
+                "cui": "C0086787",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Percocet",
+                "range": [
+                    1153,
+                    1161
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.993
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "Percocet",
+                "code": "42844",
+                "cui": "C0086787",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Percocet",
+                "range": [
+                    1153,
+                    1161
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.993
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            }
+        ],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "BRCA-2",
+                "range": [
+                    23,
+                    29
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "BRCA-2",
+                "range": [
+                    105,
+                    111
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.001,
+        "uncertain_count": 0,
+        "narrow_band_ratio": 0.0,
+        "uncertain_tokens": {},
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "BRCA-2",
+                    [
+                        23,
+                        29
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "mutation",
+                    [
+                        30,
+                        38
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "BRCA-2",
+                    [
+                        105,
+                        111
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "mutation",
+                    [
+                        112,
+                        120
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "breast",
+                    [
+                        141,
+                        147
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "cancer",
+                    [
+                        148,
+                        154
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "function",
+                    [
+                        498,
+                        506
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.712,
+                    "BRCA-2",
+                    [
+                        23,
+                        29
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.669,
+                    "mutation",
+                    [
+                        30,
+                        38
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.498,
+                    "BRCA-2",
+                    [
+                        105,
+                        111
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.431,
+                    "mutation",
+                    [
+                        112,
+                        120
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.452,
+                    "breast",
+                    [
+                        141,
+                        147
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.47,
+                    "cancer",
+                    [
+                        148,
+                        154
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.359,
+                    "function",
+                    [
+                        498,
+                        506
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.102,
+        "uncertain_token_count": 5,
+        "narrow_band_ratio": 0.023,
+        "uncertain_tokens": {
+            "DIAGNOSIS": [
+                [
+                    0.498,
+                    "BRCA-2",
+                    [
+                        105,
+                        111
+                    ]
+                ],
+                [
+                    0.452,
+                    "breast",
+                    [
+                        141,
+                        147
+                    ]
+                ],
+                [
+                    0.47,
+                    "cancer",
+                    [
+                        148,
+                        154
+                    ]
+                ]
+            ],
+            "PROBLEM": [
+                [
+                    0.431,
+                    "mutation",
+                    [
+                        112,
+                        120
+                    ]
+                ],
+                [
+                    0.359,
+                    "function",
+                    [
+                        498,
+                        506
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

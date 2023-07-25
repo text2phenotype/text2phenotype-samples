@@ -1,0 +1,466 @@
+{
+    "file": "ecstasy-ingestion-er-visit.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "Ecstasy",
+                "code": null,
+                "cui": null,
+                "tui": null,
+                "vocab": null,
+                "polarity": "positive",
+                "preferredText": null,
+                "range": [
+                    4420,
+                    4427
+                ],
+                "prob": {
+                    "MED": 0.993
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            }
+        ],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "nonbloody",
+                "range": [
+                    379,
+                    388
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "nausea",
+                "range": [
+                    528,
+                    534
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "ECSTASY INGESTION",
+                "range": [
+                    4092,
+                    4109
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "ALCOHOL INGESTION",
+                "range": [
+                    4116,
+                    4133
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "SECONDARY TO",
+                "range": [
+                    4149,
+                    4161
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.007,
+        "uncertain_count": 5,
+        "narrow_band_ratio": 0.006,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.632,
+                    "Ecstasy",
+                    [
+                        265,
+                        272
+                    ]
+                ],
+                [
+                    0.661,
+                    "Birth",
+                    [
+                        2039,
+                        2044
+                    ]
+                ],
+                [
+                    0.638,
+                    "control",
+                    [
+                        2045,
+                        2052
+                    ]
+                ]
+            ],
+            "MED": [
+                [
+                    0.626,
+                    "pills",
+                    [
+                        2053,
+                        2058
+                    ]
+                ],
+                [
+                    0.578,
+                    "alcohol",
+                    [
+                        4400,
+                        4407
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "PROBLEM": [
+                    "agitated",
+                    [
+                        335,
+                        343
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "shaking",
+                    [
+                        348,
+                        355
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "nonbloody",
+                    [
+                        379,
+                        388
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "emesis",
+                    [
+                        401,
+                        407
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "nausea",
+                    [
+                        528,
+                        534
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "ECSTASY",
+                    [
+                        4092,
+                        4099
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "INGESTION",
+                    [
+                        4100,
+                        4109
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "ALCOHOL",
+                    [
+                        4116,
+                        4123
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "INGESTION",
+                    [
+                        4124,
+                        4133
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "VOMITING",
+                    [
+                        4140,
+                        4148
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "SECONDARY",
+                    [
+                        4149,
+                        4158
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "TO",
+                    [
+                        4159,
+                        4161
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "STIMULANT",
+                    [
+                        4162,
+                        4171
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "ABUSE",
+                    [
+                        4172,
+                        4177
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "PROBLEM": [
+                    0.528,
+                    "shaking",
+                    [
+                        348,
+                        355
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.422,
+                    "emesis",
+                    [
+                        401,
+                        407
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.607,
+                    "nausea",
+                    [
+                        528,
+                        534
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.902,
+                    "ECSTASY",
+                    [
+                        4092,
+                        4099
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.917,
+                    "INGESTION",
+                    [
+                        4100,
+                        4109
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.788,
+                    "ALCOHOL",
+                    [
+                        4116,
+                        4123
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.832,
+                    "INGESTION",
+                    [
+                        4124,
+                        4133
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.891,
+                    "VOMITING",
+                    [
+                        4140,
+                        4148
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.956,
+                    "SECONDARY",
+                    [
+                        4149,
+                        4158
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.955,
+                    "TO",
+                    [
+                        4159,
+                        4161
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.954,
+                    "STIMULANT",
+                    [
+                        4162,
+                        4171
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.944,
+                    "ABUSE",
+                    [
+                        4172,
+                        4177
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.047,
+        "uncertain_token_count": 7,
+        "narrow_band_ratio": 0.008,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.425,
+                    "mixed",
+                    [
+                        142,
+                        147
+                    ]
+                ],
+                [
+                    0.519,
+                    "drinks",
+                    [
+                        148,
+                        154
+                    ]
+                ],
+                [
+                    0.45,
+                    "agitated",
+                    [
+                        335,
+                        343
+                    ]
+                ],
+                [
+                    0.4,
+                    "nonbloody",
+                    [
+                        379,
+                        388
+                    ]
+                ],
+                [
+                    0.493,
+                    "nonbilious",
+                    [
+                        390,
+                        400
+                    ]
+                ]
+            ],
+            "PROBLEM": [
+                [
+                    0.528,
+                    "shaking",
+                    [
+                        348,
+                        355
+                    ]
+                ],
+                [
+                    0.422,
+                    "emesis",
+                    [
+                        401,
+                        407
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

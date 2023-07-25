@@ -1,0 +1,551 @@
+{
+    "file": "care-conference-with-family.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "morphine",
+                "code": "7052",
+                "cui": "C0026549",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Morphine",
+                "range": [
+                    1940,
+                    1948
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.95
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "morphine",
+                "code": "7052",
+                "cui": "C0026549",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Morphine",
+                "range": [
+                    1940,
+                    1948
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.95
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            }
+        ],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "profound hyponatremia",
+                "range": [
+                    368,
+                    389
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "changes",
+                "range": [
+                    408,
+                    415
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "recurrent aspiration\npneumonia",
+                "range": [
+                    460,
+                    490
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "430969000",
+                "cui": "C0747651",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Recurrent aspiration pneumonia"
+            },
+            {
+                "text": "dysphagia",
+                "range": [
+                    981,
+                    990
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "40739000",
+                "cui": "C0011168",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Deglutition Disorders"
+            },
+            {
+                "text": "hypertension",
+                "range": [
+                    992,
+                    1004
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "38341003",
+                "cui": "C0020538",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Hypertensive disease"
+            },
+            {
+                "text": "aggressive",
+                "range": [
+                    2409,
+                    2419
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "terminal illness",
+                "range": [
+                    2442,
+                    2458
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "300936002",
+                "cui": "C0679247",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Terminal illness"
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.004,
+        "uncertain_count": 0,
+        "narrow_band_ratio": 0.0,
+        "uncertain_tokens": {},
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "profound",
+                    [
+                        368,
+                        376
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "hyponatremia",
+                    [
+                        377,
+                        389
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "mental",
+                    [
+                        394,
+                        400
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "status",
+                    [
+                        401,
+                        407
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "changes",
+                    [
+                        408,
+                        415
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "recurrent",
+                    [
+                        460,
+                        469
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "aspiration",
+                    [
+                        470,
+                        480
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "pneumonia",
+                    [
+                        481,
+                        490
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "malignancy",
+                    [
+                        732,
+                        742
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "CA-125",
+                    [
+                        757,
+                        763
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "mass",
+                    [
+                        778,
+                        782
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "dysphagia",
+                    [
+                        981,
+                        990
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "hypertension",
+                    [
+                        992,
+                        1004
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "aggressive",
+                    [
+                        2409,
+                        2419
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "terminal",
+                    [
+                        2442,
+                        2450
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "illness",
+                    [
+                        2451,
+                        2458
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "ovarian",
+                    [
+                        2464,
+                        2471
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "cancer",
+                    [
+                        2472,
+                        2478
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.753,
+                    "profound",
+                    [
+                        368,
+                        376
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.941,
+                    "hyponatremia",
+                    [
+                        377,
+                        389
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.668,
+                    "mental",
+                    [
+                        394,
+                        400
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.737,
+                    "status",
+                    [
+                        401,
+                        407
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.661,
+                    "changes",
+                    [
+                        408,
+                        415
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.694,
+                    "recurrent",
+                    [
+                        460,
+                        469
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.87,
+                    "aspiration",
+                    [
+                        470,
+                        480
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.894,
+                    "pneumonia",
+                    [
+                        481,
+                        490
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.527,
+                    "malignancy",
+                    [
+                        732,
+                        742
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.462,
+                    "CA-125",
+                    [
+                        757,
+                        763
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.786,
+                    "dysphagia",
+                    [
+                        981,
+                        990
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.906,
+                    "hypertension",
+                    [
+                        992,
+                        1004
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.6,
+                    "aggressive",
+                    [
+                        2409,
+                        2419
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.712,
+                    "terminal",
+                    [
+                        2442,
+                        2450
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.664,
+                    "illness",
+                    [
+                        2451,
+                        2458
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.827,
+                    "ovarian",
+                    [
+                        2464,
+                        2471
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.877,
+                    "cancer",
+                    [
+                        2472,
+                        2478
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.114,
+        "uncertain_token_count": 6,
+        "narrow_band_ratio": 0.013,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.519,
+                    "several",
+                    [
+                        345,
+                        352
+                    ]
+                ],
+                [
+                    0.466,
+                    "ovarian",
+                    [
+                        724,
+                        731
+                    ]
+                ],
+                [
+                    0.498,
+                    "elevated",
+                    [
+                        748,
+                        756
+                    ]
+                ],
+                [
+                    0.457,
+                    "mass",
+                    [
+                        778,
+                        782
+                    ]
+                ]
+            ],
+            "DIAGNOSIS": [
+                [
+                    0.527,
+                    "malignancy",
+                    [
+                        732,
+                        742
+                    ]
+                ],
+                [
+                    0.462,
+                    "CA-125",
+                    [
+                        757,
+                        763
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

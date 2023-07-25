@@ -1,0 +1,711 @@
+{
+    "file": "prematurity-discharge-summary.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "antibiotics",
+                "code": null,
+                "cui": null,
+                "tui": null,
+                "vocab": null,
+                "polarity": "positive",
+                "preferredText": null,
+                "range": [
+                    1003,
+                    1014
+                ],
+                "prob": {
+                    "MED": 0.98
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "ampicillin",
+                "code": "733",
+                "cui": "C0002680",
+                "tui": "T195",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Ampicillin",
+                "range": [
+                    1016,
+                    1026
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.994
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "ampicillin",
+                "code": "733",
+                "cui": "C0002680",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Ampicillin",
+                "range": [
+                    1016,
+                    1026
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.994
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            }
+        ],
+        "Allergy": [],
+        "Lab": [
+            {
+                "code": "LP15448-1",
+                "cui": "C0005437",
+                "tui": "T034",
+                "vocab": "LNC",
+                "polarity": "positive",
+                "text": "bilirubin",
+                "preferredText": "BILIRUBIN",
+                "range": [
+                    1252,
+                    1261
+                ]
+            }
+        ],
+        "DiseaseDisorder": [
+            {
+                "text": "Prematurity",
+                "range": [
+                    27,
+                    38
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "395507008",
+                "cui": "C0021294",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Infant, Premature"
+            },
+            {
+                "text": "Maternal group B",
+                "range": [
+                    83,
+                    99
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "Prematurity",
+                "range": [
+                    158,
+                    169
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "395507008",
+                "cui": "C0021294",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Infant, Premature"
+            },
+            {
+                "text": "34",
+                "range": [
+                    171,
+                    173
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "Group B streptococcus",
+                "range": [
+                    213,
+                    234
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "195886008",
+                "cui": "C0348801",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Group B streptococcal pneumonia"
+            },
+            {
+                "text": "Physiologic",
+                "range": [
+                    265,
+                    276
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "delivered",
+                "range": [
+                    669,
+                    678
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "group B\nstreptococcus",
+                "range": [
+                    1091,
+                    1112
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "195886008",
+                "cui": "C0348801",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Group B streptococcal pneumonia"
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.007,
+        "uncertain_count": 1,
+        "narrow_band_ratio": 0.002,
+        "uncertain_tokens": {
+            "MED": [
+                [
+                    0.539,
+                    "betamethasone",
+                    [
+                        521,
+                        534
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "Prematurity",
+                    [
+                        27,
+                        38
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Maternal",
+                    [
+                        83,
+                        91
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "group",
+                    [
+                        92,
+                        97
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "B",
+                    [
+                        98,
+                        99
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Prematurity",
+                    [
+                        158,
+                        169
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "34",
+                    [
+                        171,
+                        173
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "'",
+                    [
+                        179,
+                        180
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "gestation",
+                    [
+                        181,
+                        190
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Group",
+                    [
+                        213,
+                        218
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "B",
+                    [
+                        219,
+                        220
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "streptococcus",
+                    [
+                        221,
+                        234
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "exposure",
+                    [
+                        235,
+                        243
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Physiologic",
+                    [
+                        265,
+                        276
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "jaundice",
+                    [
+                        277,
+                        285
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "problem",
+                    [
+                        300,
+                        307
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "gravida",
+                    [
+                        384,
+                        391
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "delivered",
+                    [
+                        669,
+                        678
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "cord",
+                    [
+                        710,
+                        714
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "group",
+                    [
+                        1091,
+                        1096
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "B",
+                    [
+                        1097,
+                        1098
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "streptococcus",
+                    [
+                        1099,
+                        1112
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "condition",
+                    [
+                        2758,
+                        2767
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.854,
+                    "Prematurity",
+                    [
+                        27,
+                        38
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.818,
+                    "Maternal",
+                    [
+                        83,
+                        91
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.93,
+                    "group",
+                    [
+                        92,
+                        97
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.911,
+                    "B",
+                    [
+                        98,
+                        99
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.963,
+                    "Prematurity",
+                    [
+                        158,
+                        169
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.632,
+                    "'",
+                    [
+                        179,
+                        180
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.779,
+                    "gestation",
+                    [
+                        181,
+                        190
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.932,
+                    "Group",
+                    [
+                        213,
+                        218
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.96,
+                    "B",
+                    [
+                        219,
+                        220
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.911,
+                    "streptococcus",
+                    [
+                        221,
+                        234
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.927,
+                    "exposure",
+                    [
+                        235,
+                        243
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.559,
+                    "Physiologic",
+                    [
+                        265,
+                        276
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.452,
+                    "jaundice",
+                    [
+                        277,
+                        285
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.498,
+                    "problem",
+                    [
+                        300,
+                        307
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.526,
+                    "gravida",
+                    [
+                        384,
+                        391
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.484,
+                    "B",
+                    [
+                        457,
+                        458
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.533,
+                    "cord",
+                    [
+                        710,
+                        714
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.839,
+                    "group",
+                    [
+                        1091,
+                        1096
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.955,
+                    "B",
+                    [
+                        1097,
+                        1098
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.891,
+                    "streptococcus",
+                    [
+                        1099,
+                        1112
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.468,
+                    "condition",
+                    [
+                        2758,
+                        2767
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.085,
+        "uncertain_token_count": 9,
+        "narrow_band_ratio": 0.017,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.505,
+                    "streptococcus",
+                    [
+                        100,
+                        113
+                    ]
+                ],
+                [
+                    0.515,
+                    "34",
+                    [
+                        171,
+                        173
+                    ]
+                ],
+                [
+                    0.392,
+                    "Feeding",
+                    [
+                        292,
+                        299
+                    ]
+                ],
+                [
+                    0.441,
+                    "delivered",
+                    [
+                        669,
+                        678
+                    ]
+                ]
+            ],
+            "DIAGNOSIS": [
+                [
+                    0.452,
+                    "jaundice",
+                    [
+                        277,
+                        285
+                    ]
+                ],
+                [
+                    0.498,
+                    "problem",
+                    [
+                        300,
+                        307
+                    ]
+                ],
+                [
+                    0.484,
+                    "B",
+                    [
+                        457,
+                        458
+                    ]
+                ],
+                [
+                    0.468,
+                    "condition",
+                    [
+                        2758,
+                        2767
+                    ]
+                ]
+            ],
+            "PROBLEM": [
+                [
+                    0.526,
+                    "gravida",
+                    [
+                        384,
+                        391
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

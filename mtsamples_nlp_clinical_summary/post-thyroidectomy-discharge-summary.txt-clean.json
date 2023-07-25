@@ -1,0 +1,491 @@
+{
+    "file": "post-thyroidectomy-discharge-summary.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "Vicodin",
+                "code": "128793",
+                "cui": "C0483514",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Vicodin",
+                "range": [
+                    1110,
+                    1117
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 1.0
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "Vicodin",
+                "code": "128793",
+                "cui": "C0483514",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Vicodin",
+                "range": [
+                    1110,
+                    1117
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 1.0
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            }
+        ],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "Symptomatic thyroid",
+                "range": [
+                    23,
+                    42
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "Symptomatic thyroid",
+                "range": [
+                    73,
+                    92
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "large nodular thyroid",
+                "range": [
+                    286,
+                    307
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "postoperative",
+                "range": [
+                    587,
+                    600
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "stable vital",
+                "range": [
+                    728,
+                    740
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "hormone",
+                "range": [
+                    1149,
+                    1156
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.017,
+        "uncertain_count": 1,
+        "narrow_band_ratio": 0.005,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.568,
+                    "care",
+                    [
+                        1194,
+                        1198
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "Symptomatic",
+                    [
+                        23,
+                        34
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "thyroid",
+                    [
+                        35,
+                        42
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "goiter",
+                    [
+                        43,
+                        49
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Symptomatic",
+                    [
+                        73,
+                        84
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "thyroid",
+                    [
+                        85,
+                        92
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "goiter",
+                    [
+                        93,
+                        99
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "large",
+                    [
+                        286,
+                        291
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "nodular",
+                    [
+                        292,
+                        299
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "thyroid",
+                    [
+                        300,
+                        307
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "goiter",
+                    [
+                        308,
+                        314
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "postoperative",
+                    [
+                        587,
+                        600
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "afebrile",
+                    [
+                        714,
+                        722
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "stable",
+                    [
+                        728,
+                        734
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "vital",
+                    [
+                        735,
+                        740
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "signs",
+                    [
+                        741,
+                        746
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "hormone",
+                    [
+                        1149,
+                        1156
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.565,
+                    "Symptomatic",
+                    [
+                        23,
+                        34
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.698,
+                    "thyroid",
+                    [
+                        35,
+                        42
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.719,
+                    "goiter",
+                    [
+                        43,
+                        49
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.798,
+                    "Symptomatic",
+                    [
+                        73,
+                        84
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.73,
+                    "thyroid",
+                    [
+                        85,
+                        92
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.631,
+                    "goiter",
+                    [
+                        93,
+                        99
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.617,
+                    "nodular",
+                    [
+                        292,
+                        299
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.573,
+                    "thyroid",
+                    [
+                        300,
+                        307
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.568,
+                    "goiter",
+                    [
+                        308,
+                        314
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.467,
+                    "postoperative",
+                    [
+                        587,
+                        600
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.657,
+                    "afebrile",
+                    [
+                        714,
+                        722
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.589,
+                    "stable",
+                    [
+                        728,
+                        734
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.641,
+                    "vital",
+                    [
+                        735,
+                        740
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.621,
+                    "signs",
+                    [
+                        741,
+                        746
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.531,
+                    "hormone",
+                    [
+                        1149,
+                        1156
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.156,
+        "uncertain_token_count": 4,
+        "narrow_band_ratio": 0.019,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.517,
+                    "symptomatic",
+                    [
+                        274,
+                        285
+                    ]
+                ],
+                [
+                    0.436,
+                    "large",
+                    [
+                        286,
+                        291
+                    ]
+                ],
+                [
+                    0.468,
+                    "with",
+                    [
+                        723,
+                        727
+                    ]
+                ]
+            ],
+            "DIAGNOSIS": [
+                [
+                    0.467,
+                    "postoperative",
+                    [
+                        587,
+                        600
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

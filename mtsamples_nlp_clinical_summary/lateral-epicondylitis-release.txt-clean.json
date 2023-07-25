@@ -1,0 +1,204 @@
+{
+    "file": "lateral-epicondylitis-release.txt-clean.txt",
+    "text2summary": {
+        "Medication": [],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "Lateral epicondylitis",
+                "range": [
+                    26,
+                    47
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "202855006",
+                "cui": "C0039516",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Tennis Elbow"
+            },
+            {
+                "text": "Lateral epicondylitis",
+                "range": [
+                    75,
+                    96
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "202855006",
+                "cui": "C0039516",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Tennis Elbow"
+            },
+            {
+                "text": "of",
+                "range": [
+                    1092,
+                    1094
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.014,
+        "uncertain_count": 3,
+        "narrow_band_ratio": 0.009,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.586,
+                    ".025",
+                    [
+                        1736,
+                        1740
+                    ]
+                ],
+                [
+                    0.68,
+                    "procedure",
+                    [
+                        1977,
+                        1986
+                    ]
+                ]
+            ],
+            "MED": [
+                [
+                    0.681,
+                    "Marcaine",
+                    [
+                        1742,
+                        1750
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "Lateral",
+                    [
+                        26,
+                        33
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "epicondylitis",
+                    [
+                        34,
+                        47
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "Lateral",
+                    [
+                        75,
+                        82
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "epicondylitis",
+                    [
+                        83,
+                        96
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "of",
+                    [
+                        1092,
+                        1094
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.459,
+                    "Lateral",
+                    [
+                        26,
+                        33
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.462,
+                    "epicondylitis",
+                    [
+                        34,
+                        47
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.623,
+                    "Lateral",
+                    [
+                        75,
+                        82
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.607,
+                    "epicondylitis",
+                    [
+                        83,
+                        96
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.096,
+        "uncertain_token_count": 2,
+        "narrow_band_ratio": 0.006,
+        "uncertain_tokens": {
+            "DIAGNOSIS": [
+                [
+                    0.459,
+                    "Lateral",
+                    [
+                        26,
+                        33
+                    ]
+                ]
+            ],
+            "PROBLEM": [
+                [
+                    0.462,
+                    "epicondylitis",
+                    [
+                        34,
+                        47
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

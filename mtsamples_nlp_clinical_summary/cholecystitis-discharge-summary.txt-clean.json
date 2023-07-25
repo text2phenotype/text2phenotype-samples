@@ -1,0 +1,793 @@
+{
+    "file": "cholecystitis-discharge-summary.txt-clean.txt",
+    "text2summary": {
+        "Medication": [],
+        "Allergy": [],
+        "Lab": [
+            {
+                "code": "LP15448-1",
+                "cui": "C0005437",
+                "tui": "T034",
+                "vocab": "LNC",
+                "polarity": "positive",
+                "text": "bilirubin",
+                "preferredText": "BILIRUBIN",
+                "range": [
+                    597,
+                    606
+                ]
+            }
+        ],
+        "DiseaseDisorder": [
+            {
+                "text": "Cholecystitis",
+                "range": [
+                    24,
+                    37
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "76581006",
+                "cui": "C0008325",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Cholecystitis"
+            },
+            {
+                "text": "choledocholithiasis",
+                "range": [
+                    43,
+                    62
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "Cholecystitis",
+                "range": [
+                    86,
+                    99
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "76581006",
+                "cui": "C0008325",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Cholecystitis"
+            },
+            {
+                "text": "sleep apnea",
+                "range": [
+                    290,
+                    301
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "73430006",
+                "cui": "C0037315",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Sleep Apnea Syndromes"
+            },
+            {
+                "text": "Morbid obesity",
+                "range": [
+                    350,
+                    364
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "83911000119104",
+                "cui": "C0028756",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Obesity, Morbid"
+            },
+            {
+                "text": "common bile duct stone",
+                "range": [
+                    620,
+                    642
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "gallstones",
+                "range": [
+                    733,
+                    743
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "235919008",
+                "cui": "C0947622",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Cholecystolithiasis"
+            },
+            {
+                "text": "bile duct\nblockage",
+                "range": [
+                    951,
+                    969
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "stone",
+                "range": [
+                    1268,
+                    1273
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "incisional",
+                "range": [
+                    1610,
+                    1620
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.012,
+        "uncertain_count": 3,
+        "narrow_band_ratio": 0.006,
+        "uncertain_tokens": {
+            "MED": [
+                [
+                    0.585,
+                    "liquid",
+                    [
+                        1857,
+                        1863
+                    ]
+                ],
+                [
+                    0.513,
+                    "oral",
+                    [
+                        2172,
+                        2176
+                    ]
+                ]
+            ],
+            "NA": [
+                [
+                    0.642,
+                    "iron",
+                    [
+                        2599,
+                        2603
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "Cholecystitis",
+                    [
+                        24,
+                        37
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "choledocholithiasis",
+                    [
+                        43,
+                        62
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Cholecystitis",
+                    [
+                        86,
+                        99
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "sleep",
+                    [
+                        290,
+                        295
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "apnea",
+                    [
+                        296,
+                        301
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Morbid",
+                    [
+                        350,
+                        356
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "obesity",
+                    [
+                        357,
+                        364
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "common",
+                    [
+                        620,
+                        626
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "bile",
+                    [
+                        627,
+                        631
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "duct",
+                    [
+                        632,
+                        636
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "stone",
+                    [
+                        637,
+                        642
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "abdominal",
+                    [
+                        693,
+                        702
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "pain",
+                    [
+                        703,
+                        707
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "bilirubin",
+                    [
+                        718,
+                        727
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "gallstones",
+                    [
+                        733,
+                        743
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "bile",
+                    [
+                        951,
+                        955
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "duct",
+                    [
+                        956,
+                        960
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "blockage",
+                    [
+                        961,
+                        969
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "stone",
+                    [
+                        1268,
+                        1273
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "incisional",
+                    [
+                        1610,
+                        1620
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "pain",
+                    [
+                        1621,
+                        1625
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "nausea",
+                    [
+                        1652,
+                        1658
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "discontinued",
+                    [
+                        1889,
+                        1901
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "pain",
+                    [
+                        2154,
+                        2158
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.964,
+                    "Cholecystitis",
+                    [
+                        24,
+                        37
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.558,
+                    "choledocholithiasis",
+                    [
+                        43,
+                        62
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.969,
+                    "Cholecystitis",
+                    [
+                        86,
+                        99
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.906,
+                    "sleep",
+                    [
+                        290,
+                        295
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.918,
+                    "apnea",
+                    [
+                        296,
+                        301
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.975,
+                    "Morbid",
+                    [
+                        350,
+                        356
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.946,
+                    "obesity",
+                    [
+                        357,
+                        364
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.417,
+                    "common",
+                    [
+                        620,
+                        626
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.529,
+                    "bile",
+                    [
+                        627,
+                        631
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.436,
+                    "duct",
+                    [
+                        632,
+                        636
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.482,
+                    "stone",
+                    [
+                        637,
+                        642
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.657,
+                    "abdominal",
+                    [
+                        693,
+                        702
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.65,
+                    "pain",
+                    [
+                        703,
+                        707
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.43,
+                    "bilirubin",
+                    [
+                        718,
+                        727
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.525,
+                    "gallstones",
+                    [
+                        733,
+                        743
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.494,
+                    "bile",
+                    [
+                        951,
+                        955
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.47,
+                    "duct",
+                    [
+                        956,
+                        960
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.458,
+                    "blockage",
+                    [
+                        961,
+                        969
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.535,
+                    "stone",
+                    [
+                        1268,
+                        1273
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.506,
+                    "incisional",
+                    [
+                        1610,
+                        1620
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.399,
+                    "pain",
+                    [
+                        1621,
+                        1625
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.483,
+                    "pain",
+                    [
+                        2154,
+                        2158
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.153,
+        "uncertain_token_count": 18,
+        "narrow_band_ratio": 0.038,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.507,
+                    "hernia",
+                    [
+                        257,
+                        263
+                    ]
+                ],
+                [
+                    0.524,
+                    "cholecystitis",
+                    [
+                        841,
+                        854
+                    ]
+                ],
+                [
+                    0.488,
+                    "nausea",
+                    [
+                        1652,
+                        1658
+                    ]
+                ],
+                [
+                    0.466,
+                    "discontinued",
+                    [
+                        1889,
+                        1901
+                    ]
+                ],
+                [
+                    0.452,
+                    "diet",
+                    [
+                        2084,
+                        2088
+                    ]
+                ],
+                [
+                    0.521,
+                    "pain",
+                    [
+                        2670,
+                        2674
+                    ]
+                ]
+            ],
+            "DIAGNOSIS": [
+                [
+                    0.417,
+                    "common",
+                    [
+                        620,
+                        626
+                    ]
+                ],
+                [
+                    0.529,
+                    "bile",
+                    [
+                        627,
+                        631
+                    ]
+                ],
+                [
+                    0.436,
+                    "duct",
+                    [
+                        632,
+                        636
+                    ]
+                ],
+                [
+                    0.482,
+                    "stone",
+                    [
+                        637,
+                        642
+                    ]
+                ],
+                [
+                    0.494,
+                    "bile",
+                    [
+                        951,
+                        955
+                    ]
+                ],
+                [
+                    0.47,
+                    "duct",
+                    [
+                        956,
+                        960
+                    ]
+                ],
+                [
+                    0.458,
+                    "blockage",
+                    [
+                        961,
+                        969
+                    ]
+                ],
+                [
+                    0.506,
+                    "incisional",
+                    [
+                        1610,
+                        1620
+                    ]
+                ],
+                [
+                    0.483,
+                    "pain",
+                    [
+                        2154,
+                        2158
+                    ]
+                ]
+            ],
+            "PROBLEM": [
+                [
+                    0.43,
+                    "bilirubin",
+                    [
+                        718,
+                        727
+                    ]
+                ],
+                [
+                    0.525,
+                    "gallstones",
+                    [
+                        733,
+                        743
+                    ]
+                ],
+                [
+                    0.399,
+                    "pain",
+                    [
+                        1621,
+                        1625
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

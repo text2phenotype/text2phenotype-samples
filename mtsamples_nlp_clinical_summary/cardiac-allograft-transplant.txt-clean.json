@@ -1,0 +1,440 @@
+{
+    "file": "cardiac-allograft-transplant.txt-clean.txt",
+    "text2summary": {
+        "Medication": [],
+        "Allergy": [],
+        "Lab": [
+            {
+                "code": "MTHU008063",
+                "cui": "C0005821",
+                "tui": "T034",
+                "vocab": "LNC",
+                "polarity": "positive",
+                "text": "platelets",
+                "preferredText": "THROMBOCYTE (PLATELET)",
+                "range": [
+                    4246,
+                    4255
+                ]
+            }
+        ],
+        "DiseaseDisorder": [
+            {
+                "text": "Ischemic cardiomyopathy",
+                "range": [
+                    31,
+                    54
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "194849004",
+                "cui": "C0349782",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Ischemic cardiomyopathy"
+            },
+            {
+                "text": "Ischemic cardiomyopathy",
+                "range": [
+                    184,
+                    207
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "194849004",
+                "cui": "C0349782",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Ischemic cardiomyopathy"
+            },
+            {
+                "text": "Postoperative coagulopathy",
+                "range": [
+                    311,
+                    337
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "right",
+                "range": [
+                    1094,
+                    1099
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "vena",
+                "range": [
+                    1915,
+                    1919
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "postoperative\ncoagulopathy",
+                "range": [
+                    3113,
+                    3139
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "in",
+                "range": [
+                    3175,
+                    3177
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.009,
+        "uncertain_count": 4,
+        "narrow_band_ratio": 0.005,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.669,
+                    "Prolene",
+                    [
+                        2799,
+                        2806
+                    ]
+                ],
+                [
+                    0.644,
+                    "factor",
+                    [
+                        3279,
+                        3285
+                    ]
+                ],
+                [
+                    0.63,
+                    "packed",
+                    [
+                        4220,
+                        4226
+                    ]
+                ]
+            ],
+            "MED": [
+                [
+                    0.527,
+                    "VII",
+                    [
+                        3286,
+                        3289
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "Ischemic",
+                    [
+                        31,
+                        39
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "cardiomyopathy",
+                    [
+                        40,
+                        54
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Ischemic",
+                    [
+                        184,
+                        192
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "cardiomyopathy",
+                    [
+                        193,
+                        207
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Postoperative",
+                    [
+                        311,
+                        324
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "coagulopathy",
+                    [
+                        325,
+                        337
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "right",
+                    [
+                        1094,
+                        1099
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "vena",
+                    [
+                        1915,
+                        1919
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "postoperative",
+                    [
+                        3113,
+                        3126
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "coagulopathy",
+                    [
+                        3127,
+                        3139
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "in",
+                    [
+                        3175,
+                        3177
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.951,
+                    "Ischemic",
+                    [
+                        31,
+                        39
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.936,
+                    "cardiomyopathy",
+                    [
+                        40,
+                        54
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.96,
+                    "Ischemic",
+                    [
+                        184,
+                        192
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.966,
+                    "cardiomyopathy",
+                    [
+                        193,
+                        207
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.899,
+                    "Postoperative",
+                    [
+                        311,
+                        324
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.927,
+                    "coagulopathy",
+                    [
+                        325,
+                        337
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.521,
+                    "vena",
+                    [
+                        1915,
+                        1919
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.638,
+                    "postoperative",
+                    [
+                        3113,
+                        3126
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.557,
+                    "coagulopathy",
+                    [
+                        3127,
+                        3139
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.504,
+                    "coagulopathy",
+                    [
+                        4173,
+                        4185
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.104,
+        "uncertain_token_count": 8,
+        "narrow_band_ratio": 0.01,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.415,
+                    "intraaortic",
+                    [
+                        285,
+                        296
+                    ]
+                ],
+                [
+                    0.474,
+                    "balloon",
+                    [
+                        297,
+                        304
+                    ]
+                ],
+                [
+                    0.499,
+                    "right",
+                    [
+                        1094,
+                        1099
+                    ]
+                ],
+                [
+                    0.428,
+                    "cava",
+                    [
+                        1920,
+                        1924
+                    ]
+                ],
+                [
+                    0.447,
+                    "in",
+                    [
+                        3175,
+                        3177
+                    ]
+                ],
+                [
+                    0.488,
+                    "the",
+                    [
+                        3178,
+                        3181
+                    ]
+                ]
+            ],
+            "DIAGNOSIS": [
+                [
+                    0.521,
+                    "vena",
+                    [
+                        1915,
+                        1919
+                    ]
+                ],
+                [
+                    0.504,
+                    "coagulopathy",
+                    [
+                        4173,
+                        4185
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

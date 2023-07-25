@@ -1,0 +1,865 @@
+{
+    "file": "arthroscopic-subacromial-decompression-shoulder.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "Calcium",
+                "code": "1895",
+                "cui": "C0006675",
+                "tui": "T123",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Calcium",
+                "range": [
+                    2076,
+                    2083
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.938
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "Calcium",
+                "code": "1895",
+                "cui": "C0006675",
+                "tui": "T196",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Calcium",
+                "range": [
+                    2076,
+                    2083
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.938
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "Calcium",
+                "code": "1895",
+                "cui": "C0006675",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Calcium",
+                "range": [
+                    2076,
+                    2083
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.938
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "Marcaine",
+                "code": "1012397",
+                "cui": "C2945665",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Marcaine",
+                "range": [
+                    2552,
+                    2560
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.995
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            }
+        ],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "Impingement syndrome",
+                "range": [
+                    31,
+                    51
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "4106009",
+                "cui": "C0263912",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Rotator cuff syndrome"
+            },
+            {
+                "text": "left shoulder",
+                "range": [
+                    53,
+                    66
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "Impingement syndrome",
+                "range": [
+                    170,
+                    190
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "4106009",
+                "cui": "C0263912",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Rotator cuff syndrome"
+            },
+            {
+                "text": "left shoulder",
+                "range": [
+                    192,
+                    205
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "increasing",
+                "range": [
+                    637,
+                    647
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "number",
+                "range": [
+                    673,
+                    679
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "in the",
+                "range": [
+                    1021,
+                    1027
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "included labrum",
+                "range": [
+                    1034,
+                    1049
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "rotator cuff tear with scuffing",
+                "range": [
+                    1229,
+                    1260
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.01,
+        "uncertain_count": 1,
+        "narrow_band_ratio": 0.002,
+        "uncertain_tokens": {
+            "MED": [
+                [
+                    0.562,
+                    "general",
+                    [
+                        386,
+                        393
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "Impingement",
+                    [
+                        31,
+                        42
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "syndrome",
+                    [
+                        43,
+                        51
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    ",",
+                    [
+                        51,
+                        52
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "left",
+                    [
+                        53,
+                        57
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "shoulder",
+                    [
+                        58,
+                        66
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Impingement",
+                    [
+                        170,
+                        181
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "syndrome",
+                    [
+                        182,
+                        190
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    ",",
+                    [
+                        190,
+                        191
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "left",
+                    [
+                        192,
+                        196
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "shoulder",
+                    [
+                        197,
+                        205
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "increasing",
+                    [
+                        637,
+                        647
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "left",
+                    [
+                        648,
+                        652
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "shoulder",
+                    [
+                        653,
+                        661
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "pain",
+                    [
+                        662,
+                        666
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "number",
+                    [
+                        673,
+                        679
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "scapular",
+                    [
+                        889,
+                        897
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "pain",
+                    [
+                        898,
+                        902
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "findings",
+                    [
+                        1012,
+                        1020
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "in",
+                    [
+                        1021,
+                        1023
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "the",
+                    [
+                        1024,
+                        1027
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "included",
+                    [
+                        1034,
+                        1042
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "labrum",
+                    [
+                        1043,
+                        1049
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "rotator",
+                    [
+                        1229,
+                        1236
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "cuff",
+                    [
+                        1237,
+                        1241
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "tear",
+                    [
+                        1242,
+                        1246
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "with",
+                    [
+                        1247,
+                        1251
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "scuffing",
+                    [
+                        1252,
+                        1260
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "CA",
+                    [
+                        1319,
+                        1321
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "condition",
+                    [
+                        2726,
+                        2735
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.985,
+                    "Impingement",
+                    [
+                        31,
+                        42
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.99,
+                    "syndrome",
+                    [
+                        43,
+                        51
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.777,
+                    ",",
+                    [
+                        51,
+                        52
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.902,
+                    "left",
+                    [
+                        53,
+                        57
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.853,
+                    "shoulder",
+                    [
+                        58,
+                        66
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.78,
+                    "Impingement",
+                    [
+                        170,
+                        181
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.821,
+                    "syndrome",
+                    [
+                        182,
+                        190
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.724,
+                    ",",
+                    [
+                        190,
+                        191
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.826,
+                    "left",
+                    [
+                        192,
+                        196
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.842,
+                    "shoulder",
+                    [
+                        197,
+                        205
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.509,
+                    "increasing",
+                    [
+                        637,
+                        647
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.867,
+                    "left",
+                    [
+                        648,
+                        652
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.845,
+                    "shoulder",
+                    [
+                        653,
+                        661
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.804,
+                    "pain",
+                    [
+                        662,
+                        666
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.493,
+                    "number",
+                    [
+                        673,
+                        679
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.468,
+                    "pain",
+                    [
+                        898,
+                        902
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.655,
+                    "findings",
+                    [
+                        1012,
+                        1020
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.582,
+                    "in",
+                    [
+                        1021,
+                        1023
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.642,
+                    "the",
+                    [
+                        1024,
+                        1027
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.469,
+                    "labrum",
+                    [
+                        1043,
+                        1049
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.669,
+                    "rotator",
+                    [
+                        1229,
+                        1236
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.782,
+                    "cuff",
+                    [
+                        1237,
+                        1241
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.77,
+                    "tear",
+                    [
+                        1242,
+                        1246
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.499,
+                    "with",
+                    [
+                        1247,
+                        1251
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.475,
+                    "CA",
+                    [
+                        1319,
+                        1321
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.492,
+                    "condition",
+                    [
+                        2726,
+                        2735
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.16,
+        "uncertain_token_count": 12,
+        "narrow_band_ratio": 0.026,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.516,
+                    "superior",
+                    [
+                        82,
+                        90
+                    ]
+                ],
+                [
+                    0.437,
+                    "scapular",
+                    [
+                        889,
+                        897
+                    ]
+                ],
+                [
+                    0.428,
+                    "joint",
+                    [
+                        1028,
+                        1033
+                    ]
+                ],
+                [
+                    0.459,
+                    "included",
+                    [
+                        1034,
+                        1042
+                    ]
+                ],
+                [
+                    0.357,
+                    "scuffing",
+                    [
+                        1252,
+                        1260
+                    ]
+                ]
+            ],
+            "DIAGNOSIS": [
+                [
+                    0.509,
+                    "increasing",
+                    [
+                        637,
+                        647
+                    ]
+                ],
+                [
+                    0.493,
+                    "number",
+                    [
+                        673,
+                        679
+                    ]
+                ],
+                [
+                    0.468,
+                    "pain",
+                    [
+                        898,
+                        902
+                    ]
+                ],
+                [
+                    0.469,
+                    "labrum",
+                    [
+                        1043,
+                        1049
+                    ]
+                ],
+                [
+                    0.499,
+                    "with",
+                    [
+                        1247,
+                        1251
+                    ]
+                ],
+                [
+                    0.475,
+                    "CA",
+                    [
+                        1319,
+                        1321
+                    ]
+                ],
+                [
+                    0.492,
+                    "condition",
+                    [
+                        2726,
+                        2735
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

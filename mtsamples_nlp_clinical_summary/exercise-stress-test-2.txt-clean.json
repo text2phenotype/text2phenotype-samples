@@ -1,0 +1,388 @@
+{
+    "file": "exercise-stress-test-2.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "Avodart",
+                "code": "352453",
+                "cui": "C1170079",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Avodart",
+                "range": [
+                    730,
+                    737
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.999
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [
+                    "day"
+                ],
+                "medStrengthNum": [
+                    "0.5",
+                    738,
+                    741
+                ],
+                "medStrengthUnit": [
+                    "mg",
+                    742,
+                    744
+                ]
+            },
+            {
+                "text": "Avodart",
+                "code": "352453",
+                "cui": "C1170079",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Avodart",
+                "range": [
+                    730,
+                    737
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.999
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [
+                    "day"
+                ],
+                "medStrengthNum": [
+                    "0.5",
+                    738,
+                    741
+                ],
+                "medStrengthUnit": [
+                    "mg",
+                    742,
+                    744
+                ]
+            },
+            {
+                "text": "Wellbutrin",
+                "code": "42568",
+                "cui": "C0085934",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Wellbutrin",
+                "range": [
+                    752,
+                    762
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.987
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [
+                    "day"
+                ],
+                "medStrengthNum": [
+                    "300",
+                    763,
+                    766
+                ],
+                "medStrengthUnit": [
+                    "mg",
+                    767,
+                    769
+                ]
+            },
+            {
+                "text": "Wellbutrin",
+                "code": "42568",
+                "cui": "C0085934",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Wellbutrin",
+                "range": [
+                    752,
+                    762
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.987
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [
+                    "day"
+                ],
+                "medStrengthNum": [
+                    "300",
+                    763,
+                    766
+                ],
+                "medStrengthUnit": [
+                    "mg",
+                    767,
+                    769
+                ]
+            },
+            {
+                "text": "omeprazole",
+                "code": "7646",
+                "cui": "C0028978",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Omeprazole",
+                "range": [
+                    826,
+                    836
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.997
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [
+                    "day"
+                ],
+                "medStrengthNum": [
+                    "20",
+                    837,
+                    839
+                ],
+                "medStrengthUnit": [
+                    "mg",
+                    840,
+                    842
+                ]
+            },
+            {
+                "text": "omeprazole",
+                "code": "7646",
+                "cui": "C0028978",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Omeprazole",
+                "range": [
+                    826,
+                    836
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.997
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [
+                    "day"
+                ],
+                "medStrengthNum": [
+                    "20",
+                    837,
+                    839
+                ],
+                "medStrengthUnit": [
+                    "mg",
+                    840,
+                    842
+                ]
+            }
+        ],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "prostatic\nhypertrophy",
+                "range": [
+                    214,
+                    235
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "266569009",
+                "cui": "C1739363",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Prostatic Hypertrophy"
+            },
+            {
+                "text": "chest pain",
+                "range": [
+                    2074,
+                    2084
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.005,
+        "uncertain_count": 1,
+        "narrow_band_ratio": 0.003,
+        "uncertain_tokens": {
+            "MED": [
+                [
+                    0.562,
+                    "Uroxatral",
+                    [
+                        799,
+                        808
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "prostatic",
+                    [
+                        214,
+                        223
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "hypertrophy",
+                    [
+                        224,
+                        235
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "plasmacytoma",
+                    [
+                        294,
+                        306
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "pain",
+                    [
+                        358,
+                        362
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "chest",
+                    [
+                        2074,
+                        2079
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "pain",
+                    [
+                        2080,
+                        2084
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.702,
+                    "prostatic",
+                    [
+                        214,
+                        223
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.826,
+                    "hypertrophy",
+                    [
+                        224,
+                        235
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.813,
+                    "plasmacytoma",
+                    [
+                        294,
+                        306
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.456,
+                    "pain",
+                    [
+                        358,
+                        362
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.602,
+                    "chest",
+                    [
+                        2074,
+                        2079
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.544,
+                    "pain",
+                    [
+                        2080,
+                        2084
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.104,
+        "uncertain_token_count": 2,
+        "narrow_band_ratio": 0.005,
+        "uncertain_tokens": {
+            "DIAGNOSIS": [
+                [
+                    0.456,
+                    "pain",
+                    [
+                        358,
+                        362
+                    ]
+                ]
+            ],
+            "NA": [
+                [
+                    0.502,
+                    "anterior",
+                    [
+                        2065,
+                        2073
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

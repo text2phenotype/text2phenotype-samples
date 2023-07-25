@@ -1,0 +1,199 @@
+{
+    "file": "appendectomy-2.txt-clean.txt",
+    "text2summary": {
+        "Medication": [],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "Acute appendicitis",
+                "range": [
+                    30,
+                    48
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "85189001",
+                "cui": "C0085693",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Acute appendicitis NOS (disorder)"
+            },
+            {
+                "text": "Acute appendicitis",
+                "range": [
+                    104,
+                    122
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "85189001",
+                "cui": "C0085693",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Acute appendicitis NOS (disorder)"
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.018,
+        "uncertain_count": 4,
+        "narrow_band_ratio": 0.014,
+        "uncertain_tokens": {
+            "MED": [
+                [
+                    0.626,
+                    "anesthetic",
+                    [
+                        361,
+                        371
+                    ]
+                ],
+                [
+                    0.668,
+                    "antibiotics",
+                    [
+                        464,
+                        475
+                    ]
+                ]
+            ],
+            "NA": [
+                [
+                    0.648,
+                    "anesthetics",
+                    [
+                        527,
+                        538
+                    ]
+                ],
+                [
+                    0.589,
+                    "Monocryl",
+                    [
+                        1289,
+                        1297
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "Acute",
+                    [
+                        30,
+                        35
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "appendicitis",
+                    [
+                        36,
+                        48
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Acute",
+                    [
+                        104,
+                        109
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "appendicitis",
+                    [
+                        110,
+                        122
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "pregnancy",
+                    [
+                        137,
+                        146
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.981,
+                    "Acute",
+                    [
+                        30,
+                        35
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.968,
+                    "appendicitis",
+                    [
+                        36,
+                        48
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.976,
+                    "Acute",
+                    [
+                        104,
+                        109
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.966,
+                    "appendicitis",
+                    [
+                        110,
+                        122
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.476,
+                    "pregnancy",
+                    [
+                        137,
+                        146
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.05,
+        "uncertain_token_count": 1,
+        "narrow_band_ratio": 0.004,
+        "uncertain_tokens": {
+            "DIAGNOSIS": [
+                [
+                    0.476,
+                    "pregnancy",
+                    [
+                        137,
+                        146
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

@@ -1,0 +1,308 @@
+{
+    "file": "dorsal-ganglion-excision.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "Marcaine",
+                "code": "1012397",
+                "cui": "C2945665",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Marcaine",
+                "range": [
+                    1117,
+                    1125
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.997
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            }
+        ],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "Dorsal ganglion",
+                "range": [
+                    26,
+                    41
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "Dorsal ganglion",
+                "range": [
+                    82,
+                    97
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "right wrist",
+                "range": [
+                    99,
+                    110
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "radial sensory",
+                "range": [
+                    616,
+                    630
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.008,
+        "uncertain_count": 0,
+        "narrow_band_ratio": 0.0,
+        "uncertain_tokens": {},
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "Dorsal",
+                    [
+                        26,
+                        32
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "ganglion",
+                    [
+                        33,
+                        41
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "Dorsal",
+                    [
+                        82,
+                        88
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "ganglion",
+                    [
+                        89,
+                        97
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    ",",
+                    [
+                        97,
+                        98
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "right",
+                    [
+                        99,
+                        104
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "wrist",
+                    [
+                        105,
+                        110
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "radial",
+                    [
+                        616,
+                        622
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "sensory",
+                    [
+                        623,
+                        630
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.63,
+                    "Dorsal",
+                    [
+                        26,
+                        32
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.523,
+                    "ganglion",
+                    [
+                        33,
+                        41
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.57,
+                    "Dorsal",
+                    [
+                        82,
+                        88
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.588,
+                    "ganglion",
+                    [
+                        89,
+                        97
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.526,
+                    ",",
+                    [
+                        97,
+                        98
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.541,
+                    "right",
+                    [
+                        99,
+                        104
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.67,
+                    "wrist",
+                    [
+                        105,
+                        110
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.497,
+                    "radial",
+                    [
+                        616,
+                        622
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.507,
+                    "sensory",
+                    [
+                        623,
+                        630
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.115,
+        "uncertain_token_count": 4,
+        "narrow_band_ratio": 0.017,
+        "uncertain_tokens": {
+            "DIAGNOSIS": [
+                [
+                    0.523,
+                    "ganglion",
+                    [
+                        33,
+                        41
+                    ]
+                ],
+                [
+                    0.526,
+                    ",",
+                    [
+                        97,
+                        98
+                    ]
+                ],
+                [
+                    0.497,
+                    "radial",
+                    [
+                        616,
+                        622
+                    ]
+                ],
+                [
+                    0.507,
+                    "sensory",
+                    [
+                        623,
+                        630
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

@@ -1,0 +1,453 @@
+{
+    "file": "colonoscopy-with-biopsy-3.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "fentanyl",
+                "code": "4337",
+                "cui": "C0015846",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Fentanyl",
+                "range": [
+                    535,
+                    543
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 1.0
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [
+                    "15",
+                    548,
+                    550
+                ],
+                "medStrengthUnit": [
+                    "mg",
+                    551,
+                    553
+                ]
+            },
+            {
+                "text": "fentanyl",
+                "code": "4337",
+                "cui": "C0015846",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Fentanyl",
+                "range": [
+                    535,
+                    543
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 1.0
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [
+                    "15",
+                    548,
+                    550
+                ],
+                "medStrengthUnit": [
+                    "mg",
+                    551,
+                    553
+                ]
+            }
+        ],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "colon",
+                "range": [
+                    229,
+                    234
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "cecum",
+                "range": [
+                    1842,
+                    1847
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "hepatic flexure",
+                "range": [
+                    1849,
+                    1864
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.007,
+        "uncertain_count": 0,
+        "narrow_band_ratio": 0.0,
+        "uncertain_tokens": {},
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "Abdominal",
+                    [
+                        26,
+                        35
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "pain",
+                    [
+                        36,
+                        40
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "colon",
+                    [
+                        229,
+                        234
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "abdominal",
+                    [
+                        302,
+                        311
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "pain",
+                    [
+                        312,
+                        316
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "diarrhea",
+                    [
+                        318,
+                        326
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "fever",
+                    [
+                        332,
+                        337
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "cecum",
+                    [
+                        1842,
+                        1847
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "hepatic",
+                    [
+                        1849,
+                        1856
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "flexure",
+                    [
+                        1857,
+                        1864
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.613,
+                    "Abdominal",
+                    [
+                        26,
+                        35
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.496,
+                    "pain",
+                    [
+                        36,
+                        40
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.564,
+                    "colon",
+                    [
+                        229,
+                        234
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.71,
+                    "abdominal",
+                    [
+                        302,
+                        311
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.577,
+                    "pain",
+                    [
+                        312,
+                        316
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.518,
+                    "diarrhea",
+                    [
+                        318,
+                        326
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.736,
+                    "fever",
+                    [
+                        332,
+                        337
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.523,
+                    "cecum",
+                    [
+                        1842,
+                        1847
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.488,
+                    "hepatic",
+                    [
+                        1849,
+                        1856
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.548,
+                    "flexure",
+                    [
+                        1857,
+                        1864
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.488,
+                    "colon",
+                    [
+                        1878,
+                        1883
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.195,
+        "uncertain_token_count": 15,
+        "narrow_band_ratio": 0.038,
+        "uncertain_tokens": {
+            "DIAGNOSIS": [
+                [
+                    0.496,
+                    "pain",
+                    [
+                        36,
+                        40
+                    ]
+                ],
+                [
+                    0.523,
+                    "cecum",
+                    [
+                        1842,
+                        1847
+                    ]
+                ],
+                [
+                    0.488,
+                    "hepatic",
+                    [
+                        1849,
+                        1856
+                    ]
+                ],
+                [
+                    0.488,
+                    "colon",
+                    [
+                        1878,
+                        1883
+                    ]
+                ]
+            ],
+            "NA": [
+                [
+                    0.478,
+                    "diarrhea",
+                    [
+                        42,
+                        50
+                    ]
+                ],
+                [
+                    0.49,
+                    "fever",
+                    [
+                        56,
+                        61
+                    ]
+                ],
+                [
+                    0.462,
+                    "flexure",
+                    [
+                        208,
+                        215
+                    ]
+                ],
+                [
+                    0.461,
+                    "sigmoid",
+                    [
+                        221,
+                        228
+                    ]
+                ],
+                [
+                    0.495,
+                    "ileum",
+                    [
+                        1007,
+                        1012
+                    ]
+                ],
+                [
+                    0.495,
+                    "flexure",
+                    [
+                        1426,
+                        1433
+                    ]
+                ],
+                [
+                    0.493,
+                    "sigmoid",
+                    [
+                        1568,
+                        1575
+                    ]
+                ],
+                [
+                    0.498,
+                    "narrowing",
+                    [
+                        1587,
+                        1596
+                    ]
+                ],
+                [
+                    0.503,
+                    "findings",
+                    [
+                        1611,
+                        1619
+                    ]
+                ],
+                [
+                    0.488,
+                    "sigmoid",
+                    [
+                        1870,
+                        1877
+                    ]
+                ]
+            ],
+            "PROBLEM": [
+                [
+                    0.518,
+                    "diarrhea",
+                    [
+                        318,
+                        326
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

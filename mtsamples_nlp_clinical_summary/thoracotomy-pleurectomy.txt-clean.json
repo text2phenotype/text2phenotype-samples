@@ -1,0 +1,334 @@
+{
+    "file": "thoracotomy-pleurectomy.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "antibiotics",
+                "code": null,
+                "cui": null,
+                "tui": null,
+                "vocab": null,
+                "polarity": "positive",
+                "preferredText": null,
+                "range": [
+                    449,
+                    460
+                ],
+                "prob": {
+                    "MED": 0.912
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            }
+        ],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "Empyema of the chest",
+                "range": [
+                    26,
+                    46
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "66696003",
+                "cui": "C0014009",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Empyema"
+            },
+            {
+                "text": "Empyema of the chest",
+                "range": [
+                    80,
+                    100
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "66696003",
+                "cui": "C0014009",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Empyema"
+            },
+            {
+                "text": "left",
+                "range": [
+                    102,
+                    106
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "explosion",
+                "range": [
+                    1095,
+                    1104
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "41110003",
+                "cui": "C0005700",
+                "tui": "T037",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Blast Injuries"
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.01,
+        "uncertain_count": 2,
+        "narrow_band_ratio": 0.004,
+        "uncertain_tokens": {
+            "MED": [
+                [
+                    0.643,
+                    "anesthetic",
+                    [
+                        344,
+                        354
+                    ]
+                ]
+            ],
+            "NA": [
+                [
+                    0.577,
+                    "silk",
+                    [
+                        2717,
+                        2721
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "Empyema",
+                    [
+                        26,
+                        33
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "of",
+                    [
+                        34,
+                        36
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "the",
+                    [
+                        37,
+                        40
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "chest",
+                    [
+                        41,
+                        46
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Empyema",
+                    [
+                        80,
+                        87
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "of",
+                    [
+                        88,
+                        90
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "the",
+                    [
+                        91,
+                        94
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "chest",
+                    [
+                        95,
+                        100
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "left",
+                    [
+                        102,
+                        106
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "explosion",
+                    [
+                        1095,
+                        1104
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.927,
+                    "Empyema",
+                    [
+                        26,
+                        33
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.833,
+                    "of",
+                    [
+                        34,
+                        36
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.76,
+                    "the",
+                    [
+                        37,
+                        40
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.685,
+                    "chest",
+                    [
+                        41,
+                        46
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.598,
+                    "Empyema",
+                    [
+                        80,
+                        87
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.537,
+                    "of",
+                    [
+                        88,
+                        90
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.746,
+                    "the",
+                    [
+                        91,
+                        94
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.758,
+                    "chest",
+                    [
+                        95,
+                        100
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.479,
+                    "explosion",
+                    [
+                        1095,
+                        1104
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.096,
+        "uncertain_token_count": 3,
+        "narrow_band_ratio": 0.005,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.513,
+                    "left",
+                    [
+                        102,
+                        106
+                    ]
+                ],
+                [
+                    0.475,
+                    "pleura",
+                    [
+                        1072,
+                        1078
+                    ]
+                ]
+            ],
+            "DIAGNOSIS": [
+                [
+                    0.479,
+                    "explosion",
+                    [
+                        1095,
+                        1104
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

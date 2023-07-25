@@ -1,0 +1,450 @@
+{
+    "file": "gen-med-consult-29.txt-clean.txt",
+    "text2summary": {
+        "Medication": [],
+        "Allergy": [],
+        "Lab": [
+            {
+                "code": "LP14355-9",
+                "cui": "C0010294",
+                "tui": "T034",
+                "vocab": "LNC",
+                "polarity": "positive",
+                "text": "Creatinine",
+                "preferredText": "CREATININE",
+                "range": [
+                    1689,
+                    1699
+                ]
+            },
+            {
+                "code": "272170001",
+                "cui": "C0023516",
+                "tui": "T034",
+                "vocab": "SNOMEDCT_US",
+                "polarity": "positive",
+                "text": "White count",
+                "preferredText": "WHITE BLOOD CELL (CELL)",
+                "range": [
+                    1709,
+                    1720
+                ]
+            }
+        ],
+        "DiseaseDisorder": [
+            {
+                "text": "incarcerated umbilical hernia",
+                "range": [
+                    324,
+                    353
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "196863007",
+                "cui": "C0700253",
+                "tui": "T190",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Irreducible umbilical hernia"
+            },
+            {
+                "text": "hypertension",
+                "range": [
+                    555,
+                    567
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "38341003",
+                "cui": "C0020538",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Hypertensive disease"
+            },
+            {
+                "text": "incarcerated umbilical hernia",
+                "range": [
+                    1860,
+                    1889
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "196863007",
+                "cui": "C0700253",
+                "tui": "T190",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Irreducible umbilical hernia"
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.009,
+        "uncertain_count": 3,
+        "narrow_band_ratio": 0.008,
+        "uncertain_tokens": {
+            "MED": [
+                [
+                    0.699,
+                    "Ziac",
+                    [
+                        608,
+                        612
+                    ]
+                ],
+                [
+                    0.529,
+                    "Remeron",
+                    [
+                        617,
+                        624
+                    ]
+                ]
+            ],
+            "NA": [
+                [
+                    0.596,
+                    "gentle",
+                    [
+                        1373,
+                        1379
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "severe",
+                    [
+                        134,
+                        140
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "nausea",
+                    [
+                        141,
+                        147
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "abdominal",
+                    [
+                        152,
+                        161
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "pain",
+                    [
+                        162,
+                        166
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "pain",
+                    [
+                        229,
+                        233
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "nausea",
+                    [
+                        239,
+                        245
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "vomiting",
+                    [
+                        250,
+                        258
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "incarcerated",
+                    [
+                        324,
+                        336
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "umbilical",
+                    [
+                        337,
+                        346
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "hernia",
+                    [
+                        347,
+                        353
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "depression",
+                    [
+                        540,
+                        550
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "hypertension",
+                    [
+                        555,
+                        567
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "incarcerated",
+                    [
+                        1860,
+                        1872
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "umbilical",
+                    [
+                        1873,
+                        1882
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "hernia",
+                    [
+                        1883,
+                        1889
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.603,
+                    "severe",
+                    [
+                        134,
+                        140
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.621,
+                    "nausea",
+                    [
+                        141,
+                        147
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.376,
+                    "and",
+                    [
+                        148,
+                        151
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.604,
+                    "abdominal",
+                    [
+                        152,
+                        161
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.584,
+                    "pain",
+                    [
+                        162,
+                        166
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.679,
+                    "pain",
+                    [
+                        229,
+                        233
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.592,
+                    "nausea",
+                    [
+                        239,
+                        245
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.68,
+                    "vomiting",
+                    [
+                        250,
+                        258
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.855,
+                    "incarcerated",
+                    [
+                        324,
+                        336
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.93,
+                    "umbilical",
+                    [
+                        337,
+                        346
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.934,
+                    "hernia",
+                    [
+                        347,
+                        353
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.969,
+                    "depression",
+                    [
+                        540,
+                        550
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.981,
+                    "hypertension",
+                    [
+                        555,
+                        567
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.91,
+                    "incarcerated",
+                    [
+                        1860,
+                        1872
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.941,
+                    "umbilical",
+                    [
+                        1873,
+                        1882
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.95,
+                    "hernia",
+                    [
+                        1883,
+                        1889
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.077,
+        "uncertain_token_count": 3,
+        "narrow_band_ratio": 0.008,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.505,
+                    "episodes",
+                    [
+                        122,
+                        130
+                    ]
+                ],
+                [
+                    0.485,
+                    "and",
+                    [
+                        246,
+                        249
+                    ]
+                ]
+            ],
+            "DIAGNOSIS": [
+                [
+                    0.376,
+                    "and",
+                    [
+                        148,
+                        151
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

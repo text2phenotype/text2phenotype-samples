@@ -1,0 +1,284 @@
+{
+    "file": "consult-screening-colonoscopy.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "Reglan",
+                "code": "9230",
+                "cui": "C0034977",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Reglan",
+                "range": [
+                    1248,
+                    1254
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.998
+                },
+                "medFrequencyNumber": [
+                    "1",
+                    1261,
+                    1265
+                ],
+                "medFrequencyUnit": [
+                    "day",
+                    1268,
+                    1271
+                ],
+                "medStrengthNum": [
+                    "10",
+                    1255,
+                    1257
+                ],
+                "medStrengthUnit": [
+                    "mg",
+                    1258,
+                    1260
+                ]
+            },
+            {
+                "text": "Reglan",
+                "code": "9230",
+                "cui": "C0034977",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Reglan",
+                "range": [
+                    1248,
+                    1254
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.998
+                },
+                "medFrequencyNumber": [
+                    "1",
+                    1261,
+                    1265
+                ],
+                "medFrequencyUnit": [
+                    "day",
+                    1268,
+                    1271
+                ],
+                "medStrengthNum": [
+                    "10",
+                    1255,
+                    1257
+                ],
+                "medStrengthUnit": [
+                    "mg",
+                    1258,
+                    1260
+                ]
+            }
+        ],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "ulcer",
+                "range": [
+                    803,
+                    808
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "255321001",
+                "cui": "C0041582",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Ulcer"
+            },
+            {
+                "text": "gastroparesis",
+                "range": [
+                    1209,
+                    1222
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "196753007",
+                "cui": "C0152020",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Gastroparesis"
+            },
+            {
+                "text": "marginal ulcers",
+                "range": [
+                    2667,
+                    2682
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "16121001",
+                "cui": "C0024799",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Marginal ulcer"
+            },
+            {
+                "text": "dehydration",
+                "range": [
+                    2925,
+                    2936
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "34095006",
+                "cui": "C0011175",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Dehydration"
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.002,
+        "uncertain_count": 0,
+        "narrow_band_ratio": 0.0,
+        "uncertain_tokens": {},
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "ulcer",
+                    [
+                        803,
+                        808
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "disease",
+                    [
+                        809,
+                        816
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "gastroparesis",
+                    [
+                        1209,
+                        1222
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "marginal",
+                    [
+                        2667,
+                        2675
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "ulcers",
+                    [
+                        2676,
+                        2682
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "dehydration",
+                    [
+                        2925,
+                        2936
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.72,
+                    "ulcer",
+                    [
+                        803,
+                        808
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.7,
+                    "disease",
+                    [
+                        809,
+                        816
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.599,
+                    "gastroparesis",
+                    [
+                        1209,
+                        1222
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.673,
+                    "marginal",
+                    [
+                        2667,
+                        2675
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.675,
+                    "ulcers",
+                    [
+                        2676,
+                        2682
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.704,
+                    "dehydration",
+                    [
+                        2925,
+                        2936
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.033,
+        "uncertain_token_count": 1,
+        "narrow_band_ratio": 0.002,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.476,
+                    "reflux",
+                    [
+                        2718,
+                        2724
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

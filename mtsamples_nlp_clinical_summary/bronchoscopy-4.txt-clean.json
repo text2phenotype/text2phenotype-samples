@@ -1,0 +1,360 @@
+{
+    "file": "bronchoscopy-4.txt-clean.txt",
+    "text2summary": {
+        "Medication": [],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "Tracheal",
+                "range": [
+                    26,
+                    34
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "11296007",
+                "cui": "C0040583",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Tracheal Stenosis"
+            },
+            {
+                "text": "Tracheal stenosis",
+                "range": [
+                    101,
+                    118
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "11296007",
+                "cui": "C0040583",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Tracheal Stenosis"
+            },
+            {
+                "text": "cords",
+                "range": [
+                    230,
+                    235
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "28835009",
+                "cui": "C0035334",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Retinitis Pigmentosa"
+            },
+            {
+                "text": "Subglottic stenosis",
+                "range": [
+                    242,
+                    261
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "22668006",
+                "cui": "C0238441",
+                "tui": "T190",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Subglottic stenosis"
+            },
+            {
+                "text": "mature",
+                "range": [
+                    280,
+                    286
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "granulation tissue",
+                "range": [
+                    311,
+                    329
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.011,
+        "uncertain_count": 1,
+        "narrow_band_ratio": 0.004,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.614,
+                    "mitomycin-C.",
+                    [
+                        790,
+                        802
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "Tracheal",
+                    [
+                        26,
+                        34
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Tracheal",
+                    [
+                        101,
+                        109
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "stenosis",
+                    [
+                        110,
+                        118
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "cords",
+                    [
+                        230,
+                        235
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Subglottic",
+                    [
+                        242,
+                        252
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "stenosis",
+                    [
+                        253,
+                        261
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "mature",
+                    [
+                        280,
+                        286
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "cicatrix",
+                    [
+                        287,
+                        295
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "granulation",
+                    [
+                        311,
+                        322
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "tissue",
+                    [
+                        323,
+                        329
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.482,
+                    "Tracheal",
+                    [
+                        26,
+                        34
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.814,
+                    "Tracheal",
+                    [
+                        101,
+                        109
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.814,
+                    "stenosis",
+                    [
+                        110,
+                        118
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.409,
+                    "vocal",
+                    [
+                        224,
+                        229
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.629,
+                    "cords",
+                    [
+                        230,
+                        235
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.88,
+                    "Subglottic",
+                    [
+                        242,
+                        252
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.837,
+                    "stenosis",
+                    [
+                        253,
+                        261
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.43,
+                    "mature",
+                    [
+                        280,
+                        286
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.588,
+                    "cicatrix",
+                    [
+                        287,
+                        295
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.736,
+                    "granulation",
+                    [
+                        311,
+                        322
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.775,
+                    "tissue",
+                    [
+                        323,
+                        329
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.13,
+        "uncertain_token_count": 4,
+        "narrow_band_ratio": 0.015,
+        "uncertain_tokens": {
+            "DIAGNOSIS": [
+                [
+                    0.482,
+                    "Tracheal",
+                    [
+                        26,
+                        34
+                    ]
+                ]
+            ],
+            "NA": [
+                [
+                    0.438,
+                    "stenosis",
+                    [
+                        35,
+                        43
+                    ]
+                ]
+            ],
+            "PROBLEM": [
+                [
+                    0.409,
+                    "vocal",
+                    [
+                        224,
+                        229
+                    ]
+                ],
+                [
+                    0.43,
+                    "mature",
+                    [
+                        280,
+                        286
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

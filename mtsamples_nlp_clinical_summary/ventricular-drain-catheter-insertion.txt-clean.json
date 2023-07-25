@@ -1,0 +1,510 @@
+{
+    "file": "ventricular-drain-catheter-insertion.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "Betadine",
+                "code": "202750",
+                "cui": "C0699524",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Betadine",
+                "range": [
+                    388,
+                    396
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.991
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "Betadine",
+                "code": "202750",
+                "cui": "C0699524",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Betadine",
+                "range": [
+                    388,
+                    396
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.991
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "Xylocaine with epinephrine",
+                "code": "746946",
+                "cui": "C1968032",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Xylocaine with Epinephrine",
+                "range": [
+                    432,
+                    458
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.999
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            }
+        ],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "Increased intracranial pressure",
+                "range": [
+                    26,
+                    57
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "271719001",
+                "cui": "C0151740",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Intracranial Hypertension"
+            },
+            {
+                "text": "brain injury",
+                "range": [
+                    91,
+                    103
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "2470005",
+                "cui": "C0270611",
+                "tui": "T037",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Brain Injuries"
+            },
+            {
+                "text": "Increased intracranial pressure",
+                "range": [
+                    131,
+                    162
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "271719001",
+                "cui": "C0151740",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Intracranial Hypertension"
+            },
+            {
+                "text": "brain injury",
+                "range": [
+                    196,
+                    208
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "2470005",
+                "cui": "C0270611",
+                "tui": "T037",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Brain Injuries"
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.01,
+        "uncertain_count": 1,
+        "narrow_band_ratio": 0.004,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.694,
+                    "epinephrine",
+                    [
+                        447,
+                        458
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "Increased",
+                    [
+                        26,
+                        35
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "intracranial",
+                    [
+                        36,
+                        48
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "pressure",
+                    [
+                        49,
+                        57
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "cerebral",
+                    [
+                        62,
+                        70
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "edema",
+                    [
+                        71,
+                        76
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "severe",
+                    [
+                        84,
+                        90
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "brain",
+                    [
+                        91,
+                        96
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "injury",
+                    [
+                        97,
+                        103
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Increased",
+                    [
+                        131,
+                        140
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "intracranial",
+                    [
+                        141,
+                        153
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "pressure",
+                    [
+                        154,
+                        162
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "cerebral",
+                    [
+                        167,
+                        175
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "edema",
+                    [
+                        176,
+                        181
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "severe",
+                    [
+                        189,
+                        195
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "brain",
+                    [
+                        196,
+                        201
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "injury",
+                    [
+                        202,
+                        208
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.642,
+                    "Increased",
+                    [
+                        26,
+                        35
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.56,
+                    "intracranial",
+                    [
+                        36,
+                        48
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.638,
+                    "pressure",
+                    [
+                        49,
+                        57
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.618,
+                    "cerebral",
+                    [
+                        62,
+                        70
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.749,
+                    "edema",
+                    [
+                        71,
+                        76
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.582,
+                    "severe",
+                    [
+                        84,
+                        90
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.863,
+                    "brain",
+                    [
+                        91,
+                        96
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.719,
+                    "injury",
+                    [
+                        97,
+                        103
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.421,
+                    "Increased",
+                    [
+                        131,
+                        140
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.445,
+                    "intracranial",
+                    [
+                        141,
+                        153
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.542,
+                    "pressure",
+                    [
+                        154,
+                        162
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.521,
+                    "cerebral",
+                    [
+                        167,
+                        175
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.561,
+                    "edema",
+                    [
+                        176,
+                        181
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.545,
+                    "severe",
+                    [
+                        189,
+                        195
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.612,
+                    "brain",
+                    [
+                        196,
+                        201
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.466,
+                    "injury",
+                    [
+                        202,
+                        208
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.129,
+        "uncertain_token_count": 5,
+        "narrow_band_ratio": 0.019,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.394,
+                    "and",
+                    [
+                        58,
+                        61
+                    ]
+                ]
+            ],
+            "DIAGNOSIS": [
+                [
+                    0.421,
+                    "Increased",
+                    [
+                        131,
+                        140
+                    ]
+                ],
+                [
+                    0.521,
+                    "cerebral",
+                    [
+                        167,
+                        175
+                    ]
+                ],
+                [
+                    0.466,
+                    "injury",
+                    [
+                        202,
+                        208
+                    ]
+                ]
+            ],
+            "PROBLEM": [
+                [
+                    0.445,
+                    "intracranial",
+                    [
+                        141,
+                        153
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

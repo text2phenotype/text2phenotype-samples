@@ -1,0 +1,687 @@
+{
+    "file": "laparoscopy-3.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "progesterone",
+                "code": "8727",
+                "cui": "C0033308",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Progesterone",
+                "range": [
+                    446,
+                    458
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.975
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "progesterone",
+                "code": "8727",
+                "cui": "C0033308",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Progesterone",
+                "range": [
+                    446,
+                    458
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.975
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "birth",
+                "code": null,
+                "cui": null,
+                "tui": null,
+                "vocab": null,
+                "polarity": "positive",
+                "preferredText": null,
+                "range": [
+                    471,
+                    476
+                ],
+                "prob": {
+                    "MED": 0.959
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "control",
+                "code": null,
+                "cui": null,
+                "tui": null,
+                "vocab": null,
+                "polarity": "positive",
+                "preferredText": null,
+                "range": [
+                    477,
+                    484
+                ],
+                "prob": {
+                    "MED": 0.936
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "bupivacaine",
+                "code": "1815",
+                "cui": "C0006400",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Bupivacaine",
+                "range": [
+                    4783,
+                    4794
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.997
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "bupivacaine",
+                "code": "1815",
+                "cui": "C0006400",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Bupivacaine",
+                "range": [
+                    4783,
+                    4794
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.997
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            }
+        ],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "endometriosis",
+                "range": [
+                    69,
+                    82
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "129103003",
+                "cui": "C0014175",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Endometriosis"
+            },
+            {
+                "text": "pelvic endometriosis",
+                "range": [
+                    115,
+                    135
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "26681001",
+                "cui": "C0241880",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Endometriosis of pelvis"
+            },
+            {
+                "text": "recurrent",
+                "range": [
+                    390,
+                    399
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "both estrogen",
+                "range": [
+                    428,
+                    441
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "progesterone-",
+                "range": [
+                    446,
+                    459
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "uterus with benign\nadnexal area",
+                "range": [
+                    1013,
+                    1044
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "irrigant",
+                "range": [
+                    4162,
+                    4170
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.01,
+        "uncertain_count": 3,
+        "narrow_band_ratio": 0.004,
+        "uncertain_tokens": {
+            "MED": [
+                [
+                    0.516,
+                    "estrogen",
+                    [
+                        433,
+                        441
+                    ]
+                ],
+                [
+                    0.576,
+                    "sutures",
+                    [
+                        2946,
+                        2953
+                    ]
+                ]
+            ],
+            "NA": [
+                [
+                    0.622,
+                    "implants",
+                    [
+                        3670,
+                        3678
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "Chronic",
+                    [
+                        26,
+                        33
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "pelvic",
+                    [
+                        34,
+                        40
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "pain",
+                    [
+                        41,
+                        45
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "endometriosis",
+                    [
+                        69,
+                        82
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Mild",
+                    [
+                        110,
+                        114
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "pelvic",
+                    [
+                        115,
+                        121
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "endometriosis",
+                    [
+                        122,
+                        135
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "recurrent",
+                    [
+                        390,
+                        399
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "pelvic",
+                    [
+                        400,
+                        406
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "pain",
+                    [
+                        407,
+                        411
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "unresponsive",
+                    [
+                        412,
+                        424
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "both",
+                    [
+                        428,
+                        432
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "estrogen",
+                    [
+                        433,
+                        441
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "progesterone-",
+                    [
+                        446,
+                        459
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "normal-sized",
+                    [
+                        1000,
+                        1012
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "uterus",
+                    [
+                        1013,
+                        1019
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "with",
+                    [
+                        1020,
+                        1024
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "benign",
+                    [
+                        1025,
+                        1031
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "adnexal",
+                    [
+                        1032,
+                        1039
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "area",
+                    [
+                        1040,
+                        1044
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "irrigant",
+                    [
+                        4162,
+                        4170
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.799,
+                    "Chronic",
+                    [
+                        26,
+                        33
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.574,
+                    "pelvic",
+                    [
+                        34,
+                        40
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.537,
+                    "pain",
+                    [
+                        41,
+                        45
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.647,
+                    "endometriosis",
+                    [
+                        69,
+                        82
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.546,
+                    "Mild",
+                    [
+                        110,
+                        114
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.975,
+                    "pelvic",
+                    [
+                        115,
+                        121
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.957,
+                    "endometriosis",
+                    [
+                        122,
+                        135
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.383,
+                    "recurrent",
+                    [
+                        390,
+                        399
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.678,
+                    "pelvic",
+                    [
+                        400,
+                        406
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.632,
+                    "pain",
+                    [
+                        407,
+                        411
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.58,
+                    "estrogen",
+                    [
+                        433,
+                        441
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.569,
+                    "normal-sized",
+                    [
+                        1000,
+                        1012
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.691,
+                    "uterus",
+                    [
+                        1013,
+                        1019
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.697,
+                    "with",
+                    [
+                        1020,
+                        1024
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.728,
+                    "benign",
+                    [
+                        1025,
+                        1031
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.686,
+                    "adnexal",
+                    [
+                        1032,
+                        1039
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.689,
+                    "area",
+                    [
+                        1040,
+                        1044
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.092,
+        "uncertain_token_count": 6,
+        "narrow_band_ratio": 0.007,
+        "uncertain_tokens": {
+            "DIAGNOSIS": [
+                [
+                    0.383,
+                    "recurrent",
+                    [
+                        390,
+                        399
+                    ]
+                ]
+            ],
+            "NA": [
+                [
+                    0.493,
+                    "unresponsive",
+                    [
+                        412,
+                        424
+                    ]
+                ],
+                [
+                    0.471,
+                    "both",
+                    [
+                        428,
+                        432
+                    ]
+                ],
+                [
+                    0.5,
+                    "progesterone-",
+                    [
+                        446,
+                        459
+                    ]
+                ],
+                [
+                    0.492,
+                    "pneumoperitoneum",
+                    [
+                        1636,
+                        1652
+                    ]
+                ],
+                [
+                    0.458,
+                    "irrigant",
+                    [
+                        4162,
+                        4170
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

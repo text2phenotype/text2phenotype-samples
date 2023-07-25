@@ -1,0 +1,157 @@
+{
+    "file": "appendectomy.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "benzoin",
+                "code": "1406",
+                "cui": "C0005070",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Benzoin",
+                "range": [
+                    1983,
+                    1990
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 1.0
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "benzoin",
+                "code": "1406",
+                "cui": "C0005070",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Benzoin",
+                "range": [
+                    1983,
+                    1990
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 1.0
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "Steri-Strips",
+                "code": null,
+                "cui": null,
+                "tui": null,
+                "vocab": null,
+                "polarity": "positive",
+                "preferredText": null,
+                "range": [
+                    1996,
+                    2008
+                ],
+                "prob": {
+                    "MED": 0.973
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            }
+        ],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "Appendicitis",
+                "range": [
+                    26,
+                    38
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "74400008",
+                "cui": "C0003615",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Appendicitis"
+            },
+            {
+                "text": "Appendicitis",
+                "range": [
+                    66,
+                    78
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "74400008",
+                "cui": "C0003615",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Appendicitis"
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.007,
+        "uncertain_count": 0,
+        "narrow_band_ratio": 0.0,
+        "uncertain_tokens": {},
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "Appendicitis",
+                    [
+                        26,
+                        38
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Appendicitis",
+                    [
+                        66,
+                        78
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.768,
+                    "Appendicitis",
+                    [
+                        26,
+                        38
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.935,
+                    "Appendicitis",
+                    [
+                        66,
+                        78
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.058,
+        "uncertain_token_count": 0,
+        "narrow_band_ratio": 0.0,
+        "uncertain_tokens": {},
+        "narrow_band_width": 0.2
+    }
+}

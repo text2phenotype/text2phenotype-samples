@@ -1,0 +1,164 @@
+{
+    "file": "consult-prostate-cancer.txt-clean.txt",
+    "text2summary": {
+        "Medication": [],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "incontinence",
+                "range": [
+                    277,
+                    289
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "48340000",
+                "cui": "C0021167",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Incontinence"
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.004,
+        "uncertain_count": 0,
+        "narrow_band_ratio": 0.0,
+        "uncertain_tokens": {},
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "prostate",
+                    [
+                        93,
+                        101
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "cancer",
+                    [
+                        102,
+                        108
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "incontinence",
+                    [
+                        277,
+                        289
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "urinary",
+                    [
+                        1245,
+                        1252
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "incontinence",
+                    [
+                        1253,
+                        1265
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.736,
+                    "prostate",
+                    [
+                        93,
+                        101
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.843,
+                    "cancer",
+                    [
+                        102,
+                        108
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.418,
+                    "incontinence",
+                    [
+                        277,
+                        289
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.514,
+                    "incontinence",
+                    [
+                        1253,
+                        1265
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.115,
+        "uncertain_token_count": 4,
+        "narrow_band_ratio": 0.016,
+        "uncertain_tokens": {
+            "DIAGNOSIS": [
+                [
+                    0.418,
+                    "incontinence",
+                    [
+                        277,
+                        289
+                    ]
+                ],
+                [
+                    0.514,
+                    "incontinence",
+                    [
+                        1253,
+                        1265
+                    ]
+                ]
+            ],
+            "NA": [
+                [
+                    0.489,
+                    "impotence",
+                    [
+                        550,
+                        559
+                    ]
+                ],
+                [
+                    0.505,
+                    "urinary",
+                    [
+                        1245,
+                        1252
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

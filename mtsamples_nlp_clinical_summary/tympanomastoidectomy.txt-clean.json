@@ -1,0 +1,310 @@
+{
+    "file": "tympanomastoidectomy.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "epinephrine",
+                "code": "3992",
+                "cui": "C0014563",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Epinephrine",
+                "range": [
+                    1233,
+                    1244
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.945
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "epinephrine",
+                "code": "3992",
+                "cui": "C0014563",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Epinephrine",
+                "range": [
+                    1233,
+                    1244
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.945
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "medicines",
+                "code": null,
+                "cui": null,
+                "tui": null,
+                "vocab": null,
+                "polarity": "positive",
+                "preferredText": null,
+                "range": [
+                    4117,
+                    4126
+                ],
+                "prob": {
+                    "MED": 0.997
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            }
+        ],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "Left canal cholesteatoma",
+                "range": [
+                    26,
+                    50
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "cholesteatoma",
+                "range": [
+                    89,
+                    102
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "575006",
+                "cui": "C0008373",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Cholesteatoma"
+            },
+            {
+                "text": "disease",
+                "range": [
+                    3067,
+                    3074
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "27624003",
+                "cui": "C0008679",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Chronic disease"
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.01,
+        "uncertain_count": 5,
+        "narrow_band_ratio": 0.007,
+        "uncertain_tokens": {
+            "MED": [
+                [
+                    0.609,
+                    "titanium-PORP",
+                    [
+                        661,
+                        674
+                    ]
+                ],
+                [
+                    0.696,
+                    "anesthetic",
+                    [
+                        801,
+                        811
+                    ]
+                ],
+                [
+                    0.554,
+                    "antibiotics",
+                    [
+                        4096,
+                        4107
+                    ]
+                ]
+            ],
+            "NA": [
+                [
+                    0.678,
+                    "corticosteroid",
+                    [
+                        3095,
+                        3109
+                    ]
+                ],
+                [
+                    0.508,
+                    "titanium-PORP",
+                    [
+                        3506,
+                        3519
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "Left",
+                    [
+                        26,
+                        30
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "canal",
+                    [
+                        31,
+                        36
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "cholesteatoma",
+                    [
+                        37,
+                        50
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "cholesteatoma",
+                    [
+                        89,
+                        102
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "erosion",
+                    [
+                        516,
+                        523
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "disease",
+                    [
+                        3067,
+                        3074
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.744,
+                    "Left",
+                    [
+                        26,
+                        30
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.599,
+                    "canal",
+                    [
+                        31,
+                        36
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.665,
+                    "cholesteatoma",
+                    [
+                        37,
+                        50
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.733,
+                    "cholesteatoma",
+                    [
+                        89,
+                        102
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.745,
+                    "erosion",
+                    [
+                        516,
+                        523
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.54,
+                    "disease",
+                    [
+                        3067,
+                        3074
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.087,
+        "uncertain_token_count": 2,
+        "narrow_band_ratio": 0.003,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.528,
+                    "chronic",
+                    [
+                        3059,
+                        3066
+                    ]
+                ],
+                [
+                    0.515,
+                    "usage",
+                    [
+                        3110,
+                        3115
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

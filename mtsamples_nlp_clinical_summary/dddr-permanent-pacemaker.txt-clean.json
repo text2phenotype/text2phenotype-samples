@@ -1,0 +1,366 @@
+{
+    "file": "dddr-permanent-pacemaker.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "epinephrine",
+                "code": "3992",
+                "cui": "C0014563",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Epinephrine",
+                "range": [
+                    1097,
+                    1108
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.939
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "epinephrine",
+                "code": "3992",
+                "cui": "C0014563",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Epinephrine",
+                "range": [
+                    1097,
+                    1108
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.939
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            }
+        ],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "symptomatic",
+                "range": [
+                    347,
+                    358
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "heart\nfailure",
+                "range": [
+                    416,
+                    429
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "84114007",
+                "cui": "C0018801",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Heart failure"
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.011,
+        "uncertain_count": 5,
+        "narrow_band_ratio": 0.007,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.683,
+                    "lead",
+                    [
+                        189,
+                        193
+                    ]
+                ],
+                [
+                    0.558,
+                    "lead",
+                    [
+                        2099,
+                        2103
+                    ]
+                ],
+                [
+                    0.508,
+                    "implanted",
+                    [
+                        2890,
+                        2899
+                    ]
+                ],
+                [
+                    0.665,
+                    "SDR203",
+                    [
+                        2972,
+                        2978
+                    ]
+                ]
+            ],
+            "MED": [
+                [
+                    0.559,
+                    "LEAD",
+                    [
+                        3107,
+                        3111
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "symptomatic",
+                    [
+                        347,
+                        358
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "bradycardia",
+                    [
+                        359,
+                        370
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "chronotropic",
+                    [
+                        375,
+                        387
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "incompetence",
+                    [
+                        388,
+                        400
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "heart",
+                    [
+                        416,
+                        421
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "failure",
+                    [
+                        422,
+                        429
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "hypoperfusion",
+                    [
+                        446,
+                        459
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "condition",
+                    [
+                        4059,
+                        4068
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.516,
+                    "symptomatic",
+                    [
+                        347,
+                        358
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.513,
+                    "bradycardia",
+                    [
+                        359,
+                        370
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.483,
+                    "chronotropic",
+                    [
+                        375,
+                        387
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.428,
+                    "incompetence",
+                    [
+                        388,
+                        400
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.472,
+                    "heart",
+                    [
+                        416,
+                        421
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.537,
+                    "failure",
+                    [
+                        422,
+                        429
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.699,
+                    "hypoperfusion",
+                    [
+                        446,
+                        459
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.387,
+                    "condition",
+                    [
+                        4059,
+                        4068
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.055,
+        "uncertain_token_count": 8,
+        "narrow_band_ratio": 0.011,
+        "uncertain_tokens": {
+            "DIAGNOSIS": [
+                [
+                    0.516,
+                    "symptomatic",
+                    [
+                        347,
+                        358
+                    ]
+                ],
+                [
+                    0.513,
+                    "bradycardia",
+                    [
+                        359,
+                        370
+                    ]
+                ],
+                [
+                    0.428,
+                    "incompetence",
+                    [
+                        388,
+                        400
+                    ]
+                ]
+            ],
+            "PROBLEM": [
+                [
+                    0.483,
+                    "chronotropic",
+                    [
+                        375,
+                        387
+                    ]
+                ],
+                [
+                    0.472,
+                    "heart",
+                    [
+                        416,
+                        421
+                    ]
+                ],
+                [
+                    0.387,
+                    "condition",
+                    [
+                        4059,
+                        4068
+                    ]
+                ]
+            ],
+            "NA": [
+                [
+                    0.374,
+                    "recurrent",
+                    [
+                        406,
+                        415
+                    ]
+                ],
+                [
+                    0.482,
+                    "suture",
+                    [
+                        2361,
+                        2367
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

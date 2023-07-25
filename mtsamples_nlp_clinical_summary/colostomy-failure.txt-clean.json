@@ -1,0 +1,306 @@
+{
+    "file": "colostomy-failure.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "Accupril",
+                "code": "72210",
+                "cui": "C0244580",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Accupril",
+                "range": [
+                    518,
+                    526
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.993
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "Accupril",
+                "code": "72210",
+                "cui": "C0244580",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Accupril",
+                "range": [
+                    518,
+                    526
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.993
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            }
+        ],
+        "Allergy": [
+            {
+                "code": "661392",
+                "cui": "C0591516",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "text": "Fleet",
+                "preferredText": "Fleet",
+                "range": [
+                    490,
+                    495
+                ]
+            }
+        ],
+        "Lab": [
+            {
+                "code": "272170001",
+                "cui": "C0023516",
+                "tui": "T034",
+                "vocab": "SNOMEDCT_US",
+                "polarity": "positive",
+                "text": "WBC",
+                "preferredText": "WHITE BLOOD CELL (CELL)",
+                "range": [
+                    2604,
+                    2607
+                ]
+            }
+        ],
+        "DiseaseDisorder": [
+            {
+                "text": "hypertension",
+                "range": [
+                    463,
+                    475
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "38341003",
+                "cui": "C0020538",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Hypertensive disease"
+            },
+            {
+                "text": "Bowel obstruction",
+                "range": [
+                    3192,
+                    3209
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "81060008",
+                "cui": "C0021843",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Intestinal Obstruction"
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.004,
+        "uncertain_count": 1,
+        "narrow_band_ratio": 0.002,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.644,
+                    "Amylase",
+                    [
+                        2689,
+                        2696
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "colonic",
+                    [
+                        133,
+                        140
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "carcinoma",
+                    [
+                        141,
+                        150
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "heartburn",
+                    [
+                        260,
+                        269
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "hypertension",
+                    [
+                        463,
+                        475
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "condition",
+                    [
+                        3131,
+                        3140
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Bowel",
+                    [
+                        3192,
+                        3197
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "obstruction",
+                    [
+                        3198,
+                        3209
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.785,
+                    "colonic",
+                    [
+                        133,
+                        140
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.816,
+                    "carcinoma",
+                    [
+                        141,
+                        150
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.89,
+                    "heartburn",
+                    [
+                        260,
+                        269
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.927,
+                    "hypertension",
+                    [
+                        463,
+                        475
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.62,
+                    "condition",
+                    [
+                        3131,
+                        3140
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.729,
+                    "Bowel",
+                    [
+                        3192,
+                        3197
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.692,
+                    "obstruction",
+                    [
+                        3198,
+                        3209
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.046,
+        "uncertain_token_count": 4,
+        "narrow_band_ratio": 0.006,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.413,
+                    "Colostomy",
+                    [
+                        19,
+                        28
+                    ]
+                ],
+                [
+                    0.512,
+                    "failure",
+                    [
+                        29,
+                        36
+                    ]
+                ],
+                [
+                    0.461,
+                    "nausea",
+                    [
+                        2434,
+                        2440
+                    ]
+                ],
+                [
+                    0.525,
+                    "situation",
+                    [
+                        3162,
+                        3171
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

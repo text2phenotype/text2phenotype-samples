@@ -1,0 +1,524 @@
+{
+    "file": "spontaneous-vaginal-delivery.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "Nubain",
+                "code": "7550",
+                "cui": "C0028569",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Nubain",
+                "range": [
+                    1355,
+                    1361
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.992
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "Nubain",
+                "code": "7550",
+                "cui": "C0028569",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Nubain",
+                "range": [
+                    1355,
+                    1361
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.992
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "Narcan",
+                "code": "197117",
+                "cui": "C0684237",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Narcan",
+                "range": [
+                    1948,
+                    1954
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.976
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "Narcan",
+                "code": "197117",
+                "cui": "C0684237",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Narcan",
+                "range": [
+                    1948,
+                    1954
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.976
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            }
+        ],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "sickle cell trait",
+                "range": [
+                    436,
+                    453
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "16402000",
+                "cui": "C0037054",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Sickle Cell Trait"
+            },
+            {
+                "text": "fetal movement",
+                "range": [
+                    644,
+                    658
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "stained fluid",
+                "range": [
+                    1480,
+                    1493
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.004,
+        "uncertain_count": 1,
+        "narrow_band_ratio": 0.002,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.506,
+                    "length",
+                    [
+                        1764,
+                        1770
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "EDC",
+                    [
+                        230,
+                        233
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "sickle",
+                    [
+                        436,
+                        442
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "cell",
+                    [
+                        443,
+                        447
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "trait",
+                    [
+                        448,
+                        453
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "fetal",
+                    [
+                        644,
+                        649
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "movement",
+                    [
+                        650,
+                        658
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "labor",
+                    [
+                        1128,
+                        1133
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "ruptured",
+                    [
+                        1239,
+                        1247
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "contractions",
+                    [
+                        1249,
+                        1261
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "stained",
+                    [
+                        1480,
+                        1487
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "fluid",
+                    [
+                        1488,
+                        1493
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "nuchal",
+                    [
+                        1567,
+                        1573
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "cord",
+                    [
+                        1574,
+                        1578
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "PROBLEM": [
+                    0.486,
+                    "Term",
+                    [
+                        26,
+                        30
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.54,
+                    "EDC",
+                    [
+                        230,
+                        233
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.926,
+                    "sickle",
+                    [
+                        436,
+                        442
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.929,
+                    "cell",
+                    [
+                        443,
+                        447
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.904,
+                    "trait",
+                    [
+                        448,
+                        453
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.544,
+                    "fetal",
+                    [
+                        644,
+                        649
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.485,
+                    "movement",
+                    [
+                        650,
+                        658
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.433,
+                    "labor",
+                    [
+                        1128,
+                        1133
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.505,
+                    "ruptured",
+                    [
+                        1239,
+                        1247
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.533,
+                    "contractions",
+                    [
+                        1249,
+                        1261
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.574,
+                    "stained",
+                    [
+                        1480,
+                        1487
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.727,
+                    "fluid",
+                    [
+                        1488,
+                        1493
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.541,
+                    "nuchal",
+                    [
+                        1567,
+                        1573
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.788,
+                    "cord",
+                    [
+                        1574,
+                        1578
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.168,
+        "uncertain_token_count": 12,
+        "narrow_band_ratio": 0.028,
+        "uncertain_tokens": {
+            "PROBLEM": [
+                [
+                    0.486,
+                    "Term",
+                    [
+                        26,
+                        30
+                    ]
+                ]
+            ],
+            "NA": [
+                [
+                    0.511,
+                    "3/7th",
+                    [
+                        51,
+                        56
+                    ]
+                ],
+                [
+                    0.481,
+                    "gestation",
+                    [
+                        520,
+                        529
+                    ]
+                ],
+                [
+                    0.495,
+                    "contractions",
+                    [
+                        548,
+                        560
+                    ]
+                ],
+                [
+                    0.464,
+                    "spotting",
+                    [
+                        698,
+                        706
+                    ]
+                ],
+                [
+                    0.475,
+                    "meconium",
+                    [
+                        1471,
+                        1479
+                    ]
+                ],
+                [
+                    0.493,
+                    "as",
+                    [
+                        1494,
+                        1496
+                    ]
+                ],
+                [
+                    0.517,
+                    "ROA",
+                    [
+                        1508,
+                        1511
+                    ]
+                ],
+                [
+                    0.514,
+                    "depression",
+                    [
+                        1859,
+                        1869
+                    ]
+                ]
+            ],
+            "DIAGNOSIS": [
+                [
+                    0.485,
+                    "movement",
+                    [
+                        650,
+                        658
+                    ]
+                ],
+                [
+                    0.433,
+                    "labor",
+                    [
+                        1128,
+                        1133
+                    ]
+                ],
+                [
+                    0.505,
+                    "ruptured",
+                    [
+                        1239,
+                        1247
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

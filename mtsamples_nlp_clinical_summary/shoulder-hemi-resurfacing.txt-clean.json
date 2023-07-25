@@ -1,0 +1,609 @@
+{
+    "file": "shoulder-hemi-resurfacing.txt-clean.txt",
+    "text2summary": {
+        "Medication": [],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "degenerative joint disease",
+                "range": [
+                    33,
+                    59
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "225655006",
+                "cui": "C0029408",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Degenerative polyarthritis"
+            },
+            {
+                "text": "presentation of the humeral head",
+                "range": [
+                    643,
+                    675
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "arthrosis of the glenoid",
+                "range": [
+                    686,
+                    710
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "399269003",
+                "cui": "C0022408",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Arthropathy"
+            },
+            {
+                "text": "vessel",
+                "range": [
+                    1019,
+                    1025
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "infection",
+                "range": [
+                    1034,
+                    1043
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "189822004",
+                "cui": "C0009450",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Communicable Diseases"
+            },
+            {
+                "text": "hardware failure",
+                "range": [
+                    1059,
+                    1075
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "padded",
+                "range": [
+                    1591,
+                    1597
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "399957001",
+                "cui": "C1704436",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Peripheral Arterial Diseases"
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.01,
+        "uncertain_count": 5,
+        "narrow_band_ratio": 0.007,
+        "uncertain_tokens": {
+            "MED": [
+                [
+                    0.587,
+                    "Ancef",
+                    [
+                        1275,
+                        1280
+                    ]
+                ],
+                [
+                    0.512,
+                    "antibiotics",
+                    [
+                        3391,
+                        3402
+                    ]
+                ],
+                [
+                    0.587,
+                    "antibiotics",
+                    [
+                        3680,
+                        3691
+                    ]
+                ]
+            ],
+            "NA": [
+                [
+                    0.612,
+                    "anesthetic",
+                    [
+                        1470,
+                        1480
+                    ]
+                ],
+                [
+                    0.562,
+                    "metal",
+                    [
+                        3264,
+                        3269
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "degenerative",
+                    [
+                        33,
+                        45
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "joint",
+                    [
+                        46,
+                        51
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "disease",
+                    [
+                        52,
+                        59
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "presentation",
+                    [
+                        643,
+                        655
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "of",
+                    [
+                        656,
+                        658
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "the",
+                    [
+                        659,
+                        662
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "humeral",
+                    [
+                        663,
+                        670
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "head",
+                    [
+                        671,
+                        675
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "mild",
+                    [
+                        681,
+                        685
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "arthrosis",
+                    [
+                        686,
+                        695
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "of",
+                    [
+                        696,
+                        698
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "the",
+                    [
+                        699,
+                        702
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "glenoid",
+                    [
+                        703,
+                        710
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "vessel",
+                    [
+                        1019,
+                        1025
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "damage",
+                    [
+                        1026,
+                        1032
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "infection",
+                    [
+                        1034,
+                        1043
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "hardware",
+                    [
+                        1059,
+                        1067
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "failure",
+                    [
+                        1068,
+                        1075
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "padded",
+                    [
+                        1591,
+                        1597
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "condition",
+                    [
+                        4228,
+                        4237
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.592,
+                    "degenerative",
+                    [
+                        33,
+                        45
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.609,
+                    "joint",
+                    [
+                        46,
+                        51
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.679,
+                    "disease",
+                    [
+                        52,
+                        59
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.498,
+                    "of",
+                    [
+                        60,
+                        62
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.739,
+                    "presentation",
+                    [
+                        643,
+                        655
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.841,
+                    "of",
+                    [
+                        656,
+                        658
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.836,
+                    "the",
+                    [
+                        659,
+                        662
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.724,
+                    "humeral",
+                    [
+                        663,
+                        670
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.64,
+                    "head",
+                    [
+                        671,
+                        675
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.527,
+                    "mild",
+                    [
+                        681,
+                        685
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.776,
+                    "arthrosis",
+                    [
+                        686,
+                        695
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.75,
+                    "of",
+                    [
+                        696,
+                        698
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.824,
+                    "the",
+                    [
+                        699,
+                        702
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.84,
+                    "glenoid",
+                    [
+                        703,
+                        710
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.727,
+                    "vessel",
+                    [
+                        1019,
+                        1025
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.8,
+                    "damage",
+                    [
+                        1026,
+                        1032
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.675,
+                    "infection",
+                    [
+                        1034,
+                        1043
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.639,
+                    "hardware",
+                    [
+                        1059,
+                        1067
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.645,
+                    "failure",
+                    [
+                        1068,
+                        1075
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.752,
+                    "condition",
+                    [
+                        4228,
+                        4237
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.114,
+        "uncertain_token_count": 7,
+        "narrow_band_ratio": 0.009,
+        "uncertain_tokens": {
+            "DIAGNOSIS": [
+                [
+                    0.498,
+                    "of",
+                    [
+                        60,
+                        62
+                    ]
+                ],
+                [
+                    0.527,
+                    "mild",
+                    [
+                        681,
+                        685
+                    ]
+                ]
+            ],
+            "NA": [
+                [
+                    0.482,
+                    "cuff",
+                    [
+                        738,
+                        742
+                    ]
+                ],
+                [
+                    0.523,
+                    "glenoid",
+                    [
+                        786,
+                        793
+                    ]
+                ],
+                [
+                    0.467,
+                    "potential",
+                    [
+                        1045,
+                        1054
+                    ]
+                ],
+                [
+                    0.474,
+                    "padded",
+                    [
+                        1591,
+                        1597
+                    ]
+                ],
+                [
+                    0.449,
+                    "arthrosis",
+                    [
+                        2288,
+                        2297
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

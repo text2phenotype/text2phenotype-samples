@@ -1,0 +1,176 @@
+{
+    "file": "onychomycosis-hp.txt-clean.txt",
+    "text2summary": {
+        "Medication": [],
+        "Allergy": [
+            {
+                "code": "70618",
+                "cui": "C0220892",
+                "tui": "T195",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "text": "penicillin",
+                "preferredText": "Penicillin",
+                "range": [
+                    282,
+                    292
+                ]
+            },
+            {
+                "code": "70618",
+                "cui": "C0220892",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "text": "penicillin",
+                "preferredText": "Penicillin",
+                "range": [
+                    282,
+                    292
+                ]
+            }
+        ],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "Onychomycosis",
+                "range": [
+                    1603,
+                    1616
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "414941008",
+                "cui": "C0040261",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Onychomycosis"
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.001,
+        "uncertain_count": 0,
+        "narrow_band_ratio": 0.0,
+        "uncertain_tokens": {},
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "PROBLEM": [
+                    "discolored",
+                    [
+                        98,
+                        108
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "painful",
+                    [
+                        125,
+                        132
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Condition",
+                    [
+                        144,
+                        153
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Onychomycosis",
+                    [
+                        1603,
+                        1616
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "PROBLEM": [
+                    0.535,
+                    "discolored",
+                    [
+                        98,
+                        108
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.509,
+                    "thickened",
+                    [
+                        110,
+                        119
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.707,
+                    "painful",
+                    [
+                        125,
+                        132
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.504,
+                    "Condition",
+                    [
+                        144,
+                        153
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.967,
+                    "Onychomycosis",
+                    [
+                        1603,
+                        1616
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.041,
+        "uncertain_token_count": 2,
+        "narrow_band_ratio": 0.006,
+        "uncertain_tokens": {
+            "PROBLEM": [
+                [
+                    0.509,
+                    "thickened",
+                    [
+                        110,
+                        119
+                    ]
+                ]
+            ],
+            "DIAGNOSIS": [
+                [
+                    0.504,
+                    "Condition",
+                    [
+                        144,
+                        153
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

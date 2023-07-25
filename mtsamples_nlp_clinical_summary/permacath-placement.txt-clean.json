@@ -1,0 +1,101 @@
+{
+    "file": "permacath-placement.txt-clean.txt",
+    "text2summary": {
+        "Medication": [],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "Renal failure",
+                "range": [
+                    47,
+                    60
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "42399005",
+                "cui": "C0035078",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Kidney Failure"
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.015,
+        "uncertain_count": 2,
+        "narrow_band_ratio": 0.007,
+        "uncertain_tokens": {
+            "MED": [
+                [
+                    0.54,
+                    "bicarbonate",
+                    [
+                        368,
+                        379
+                    ]
+                ]
+            ],
+            "NA": [
+                [
+                    0.599,
+                    "fluoroscopic",
+                    [
+                        1078,
+                        1090
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "Renal",
+                    [
+                        47,
+                        52
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "failure",
+                    [
+                        53,
+                        60
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.95,
+                    "Renal",
+                    [
+                        47,
+                        52
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.926,
+                    "failure",
+                    [
+                        53,
+                        60
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.05,
+        "uncertain_token_count": 0,
+        "narrow_band_ratio": 0.0,
+        "uncertain_tokens": {},
+        "narrow_band_width": 0.2
+    }
+}

@@ -1,0 +1,423 @@
+{
+    "file": "low-transverse-c-section-2.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "blade",
+                "code": "1043245",
+                "cui": "C2948008",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Blade",
+                "range": [
+                    1910,
+                    1915
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.955
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            }
+        ],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "S",
+                "range": [
+                    117,
+                    118
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "induction",
+                "range": [
+                    683,
+                    692
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "cord",
+                "range": [
+                    2316,
+                    2320
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "28835009",
+                "cui": "C0035334",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Retinitis Pigmentosa"
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.009,
+        "uncertain_count": 2,
+        "narrow_band_ratio": 0.003,
+        "uncertain_tokens": {
+            "MED": [
+                [
+                    0.689,
+                    "blade",
+                    [
+                        1744,
+                        1749
+                    ]
+                ]
+            ],
+            "NA": [
+                [
+                    0.539,
+                    "clots",
+                    [
+                        3460,
+                        3465
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "PROBLEM": [
+                    "rate",
+                    [
+                        98,
+                        102
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "S",
+                    [
+                        117,
+                        118
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Oligohydramnios",
+                    [
+                        129,
+                        144
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "pregnancy",
+                    [
+                        180,
+                        189
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Oligohydramnios",
+                    [
+                        265,
+                        280
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "induction",
+                    [
+                        683,
+                        692
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "oligohydramnios",
+                    [
+                        710,
+                        725
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "fetal",
+                    [
+                        780,
+                        785
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "heart",
+                    [
+                        786,
+                        791
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "rate",
+                    [
+                        792,
+                        796
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "cord",
+                    [
+                        2316,
+                        2320
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.391,
+                    "rate",
+                    [
+                        98,
+                        102
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.365,
+                    "S",
+                    [
+                        117,
+                        118
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.898,
+                    "Oligohydramnios",
+                    [
+                        129,
+                        144
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.391,
+                    "pregnancy",
+                    [
+                        180,
+                        189
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.765,
+                    "Oligohydramnios",
+                    [
+                        265,
+                        280
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.763,
+                    "induction",
+                    [
+                        683,
+                        692
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.483,
+                    "oligohydramnios",
+                    [
+                        710,
+                        725
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.73,
+                    "fetal",
+                    [
+                        780,
+                        785
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.661,
+                    "heart",
+                    [
+                        786,
+                        791
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.442,
+                    "rate",
+                    [
+                        792,
+                        796
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.436,
+                    "IUGR",
+                    [
+                        832,
+                        836
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.119,
+        "uncertain_token_count": 12,
+        "narrow_band_ratio": 0.019,
+        "uncertain_tokens": {
+            "DIAGNOSIS": [
+                [
+                    0.391,
+                    "rate",
+                    [
+                        98,
+                        102
+                    ]
+                ],
+                [
+                    0.391,
+                    "pregnancy",
+                    [
+                        180,
+                        189
+                    ]
+                ],
+                [
+                    0.483,
+                    "oligohydramnios",
+                    [
+                        710,
+                        725
+                    ]
+                ],
+                [
+                    0.442,
+                    "rate",
+                    [
+                        792,
+                        796
+                    ]
+                ],
+                [
+                    0.436,
+                    "IUGR",
+                    [
+                        832,
+                        836
+                    ]
+                ]
+            ],
+            "NA": [
+                [
+                    0.435,
+                    "Protein",
+                    [
+                        109,
+                        116
+                    ]
+                ],
+                [
+                    0.503,
+                    "rate",
+                    [
+                        234,
+                        238
+                    ]
+                ],
+                [
+                    0.495,
+                    "para",
+                    [
+                        621,
+                        625
+                    ]
+                ],
+                [
+                    0.485,
+                    "late",
+                    [
+                        802,
+                        806
+                    ]
+                ],
+                [
+                    0.435,
+                    "deceleration",
+                    [
+                        807,
+                        819
+                    ]
+                ],
+                [
+                    0.518,
+                    "cord",
+                    [
+                        2316,
+                        2320
+                    ]
+                ]
+            ],
+            "PROBLEM": [
+                [
+                    0.365,
+                    "S",
+                    [
+                        117,
+                        118
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

@@ -1,0 +1,601 @@
+{
+    "file": "carpal-tunnel-release-4.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "Decadron",
+                "code": "227682",
+                "cui": "C0740057",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Decadron",
+                "range": [
+                    2853,
+                    2861
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.999
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [
+                    "4",
+                    2862,
+                    2863
+                ],
+                "medStrengthUnit": [
+                    "mg",
+                    2864,
+                    2866
+                ]
+            },
+            {
+                "text": "Decadron",
+                "code": "227682",
+                "cui": "C0740057",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Decadron",
+                "range": [
+                    2853,
+                    2861
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.999
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [
+                    "4",
+                    2862,
+                    2863
+                ],
+                "medStrengthUnit": [
+                    "mg",
+                    2864,
+                    2866
+                ]
+            },
+            {
+                "text": "Depo-Medrol",
+                "code": "22584",
+                "cui": "C0057476",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Depo-Medrol",
+                "range": [
+                    3212,
+                    3223
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.953
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "Depo-Medrol",
+                "code": "22584",
+                "cui": "C0057476",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Depo-Medrol",
+                "range": [
+                    3212,
+                    3223
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.953
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            }
+        ],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "Bilateral carpal tunnel syndrome",
+                "range": [
+                    26,
+                    58
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "12265501000119101",
+                "cui": "C3864035",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Bilateral carpal tunnel syndrome"
+            },
+            {
+                "text": "Bilateral carpal tunnel syndrome",
+                "range": [
+                    86,
+                    118
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "12265501000119101",
+                "cui": "C3864035",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Bilateral carpal tunnel syndrome"
+            },
+            {
+                "text": "bilateral carpal\ntunnel syndrome",
+                "range": [
+                    352,
+                    384
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "12265501000119101",
+                "cui": "C3864035",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Bilateral carpal tunnel syndrome"
+            },
+            {
+                "text": "nerve damage",
+                "range": [
+                    621,
+                    633
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "heal",
+                "range": [
+                    646,
+                    650
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.011,
+        "uncertain_count": 5,
+        "narrow_band_ratio": 0.008,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.674,
+                    "Skin",
+                    [
+                        1609,
+                        1613
+                    ]
+                ],
+                [
+                    0.513,
+                    "normal",
+                    [
+                        2814,
+                        2820
+                    ]
+                ]
+            ],
+            "MED": [
+                [
+                    0.522,
+                    "incision",
+                    [
+                        1614,
+                        1622
+                    ]
+                ],
+                [
+                    0.624,
+                    "saline",
+                    [
+                        2821,
+                        2827
+                    ]
+                ],
+                [
+                    0.582,
+                    "lidocaine",
+                    [
+                        3236,
+                        3245
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "Bilateral",
+                    [
+                        26,
+                        35
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "carpal",
+                    [
+                        36,
+                        42
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "tunnel",
+                    [
+                        43,
+                        49
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "syndrome",
+                    [
+                        50,
+                        58
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Bilateral",
+                    [
+                        86,
+                        95
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "carpal",
+                    [
+                        96,
+                        102
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "tunnel",
+                    [
+                        103,
+                        109
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "syndrome",
+                    [
+                        110,
+                        118
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "bilateral",
+                    [
+                        352,
+                        361
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "carpal",
+                    [
+                        362,
+                        368
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "tunnel",
+                    [
+                        369,
+                        375
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "syndrome",
+                    [
+                        376,
+                        384
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "nerve",
+                    [
+                        621,
+                        626
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "damage",
+                    [
+                        627,
+                        633
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "heal",
+                    [
+                        646,
+                        650
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "condition",
+                    [
+                        3456,
+                        3465
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.937,
+                    "Bilateral",
+                    [
+                        26,
+                        35
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.935,
+                    "carpal",
+                    [
+                        36,
+                        42
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.919,
+                    "tunnel",
+                    [
+                        43,
+                        49
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.875,
+                    "syndrome",
+                    [
+                        50,
+                        58
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.96,
+                    "Bilateral",
+                    [
+                        86,
+                        95
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.936,
+                    "carpal",
+                    [
+                        96,
+                        102
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.89,
+                    "tunnel",
+                    [
+                        103,
+                        109
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.841,
+                    "syndrome",
+                    [
+                        110,
+                        118
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.735,
+                    "bilateral",
+                    [
+                        352,
+                        361
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.833,
+                    "carpal",
+                    [
+                        362,
+                        368
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.859,
+                    "tunnel",
+                    [
+                        369,
+                        375
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.834,
+                    "syndrome",
+                    [
+                        376,
+                        384
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.349,
+                    "nerve",
+                    [
+                        621,
+                        626
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.427,
+                    "damage",
+                    [
+                        627,
+                        633
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.483,
+                    "heal",
+                    [
+                        646,
+                        650
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.513,
+                    "condition",
+                    [
+                        3456,
+                        3465
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.076,
+        "uncertain_token_count": 6,
+        "narrow_band_ratio": 0.01,
+        "uncertain_tokens": {
+            "PROBLEM": [
+                [
+                    0.349,
+                    "nerve",
+                    [
+                        621,
+                        626
+                    ]
+                ],
+                [
+                    0.483,
+                    "heal",
+                    [
+                        646,
+                        650
+                    ]
+                ]
+            ],
+            "DIAGNOSIS": [
+                [
+                    0.427,
+                    "damage",
+                    [
+                        627,
+                        633
+                    ]
+                ],
+                [
+                    0.513,
+                    "condition",
+                    [
+                        3456,
+                        3465
+                    ]
+                ]
+            ],
+            "NA": [
+                [
+                    0.485,
+                    "failure",
+                    [
+                        635,
+                        642
+                    ]
+                ],
+                [
+                    0.508,
+                    "to",
+                    [
+                        643,
+                        645
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

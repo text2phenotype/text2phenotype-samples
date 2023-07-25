@@ -1,0 +1,490 @@
+{
+    "file": "dc-hysteroscopy-1.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "Tylenol",
+                "code": "202433",
+                "cui": "C0699142",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Tylenol",
+                "range": [
+                    3320,
+                    3327
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.987
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "Tylenol",
+                "code": "202433",
+                "cui": "C0699142",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Tylenol",
+                "range": [
+                    3320,
+                    3327
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.987
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "Motrin",
+                "code": "202488",
+                "cui": "C0699203",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Motrin",
+                "range": [
+                    3366,
+                    3372
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.99
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "Motrin",
+                "code": "202488",
+                "cui": "C0699203",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Motrin",
+                "range": [
+                    3366,
+                    3372
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.99
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            }
+        ],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "fevers",
+                "range": [
+                    3570,
+                    3576
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "difficulty with urination",
+                "range": [
+                    3581,
+                    3606
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.005,
+        "uncertain_count": 1,
+        "narrow_band_ratio": 0.002,
+        "uncertain_tokens": {
+            "MED": [
+                [
+                    0.546,
+                    "sedation",
+                    [
+                        887,
+                        895
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "PROBLEM": [
+                    "Abnormal",
+                    [
+                        31,
+                        39
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "uterine",
+                    [
+                        40,
+                        47
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "bleeding",
+                    [
+                        48,
+                        56
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "Abnormal",
+                    [
+                        136,
+                        144
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "uterine",
+                    [
+                        145,
+                        152
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "bleeding",
+                    [
+                        153,
+                        161
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "uterine",
+                    [
+                        565,
+                        572
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "bleeding",
+                    [
+                        573,
+                        581
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "endometrial",
+                    [
+                        697,
+                        708
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "polyp",
+                    [
+                        709,
+                        714
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "fevers",
+                    [
+                        3570,
+                        3576
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "difficulty",
+                    [
+                        3581,
+                        3591
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "with",
+                    [
+                        3592,
+                        3596
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "urination",
+                    [
+                        3597,
+                        3606
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    ".",
+                    [
+                        3606,
+                        3607
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "PROBLEM": [
+                    0.543,
+                    "Abnormal",
+                    [
+                        31,
+                        39
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.598,
+                    "uterine",
+                    [
+                        40,
+                        47
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.52,
+                    "bleeding",
+                    [
+                        48,
+                        56
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.619,
+                    "Abnormal",
+                    [
+                        136,
+                        144
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.668,
+                    "uterine",
+                    [
+                        145,
+                        152
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.591,
+                    "bleeding",
+                    [
+                        153,
+                        161
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.445,
+                    "uterine",
+                    [
+                        565,
+                        572
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.437,
+                    "bleeding",
+                    [
+                        573,
+                        581
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.703,
+                    "endometrial",
+                    [
+                        697,
+                        708
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.74,
+                    "polyp",
+                    [
+                        709,
+                        714
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.474,
+                    "pad",
+                    [
+                        2622,
+                        2625
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.528,
+                    "fevers",
+                    [
+                        3570,
+                        3576
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.863,
+                    "difficulty",
+                    [
+                        3581,
+                        3591
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.738,
+                    "with",
+                    [
+                        3592,
+                        3596
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.879,
+                    "urination",
+                    [
+                        3597,
+                        3606
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.541,
+                    ".",
+                    [
+                        3606,
+                        3607
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.094,
+        "uncertain_token_count": 5,
+        "narrow_band_ratio": 0.008,
+        "uncertain_tokens": {
+            "PROBLEM": [
+                [
+                    0.52,
+                    "bleeding",
+                    [
+                        48,
+                        56
+                    ]
+                ],
+                [
+                    0.528,
+                    "fevers",
+                    [
+                        3570,
+                        3576
+                    ]
+                ]
+            ],
+            "DIAGNOSIS": [
+                [
+                    0.445,
+                    "uterine",
+                    [
+                        565,
+                        572
+                    ]
+                ],
+                [
+                    0.437,
+                    "bleeding",
+                    [
+                        573,
+                        581
+                    ]
+                ],
+                [
+                    0.474,
+                    "pad",
+                    [
+                        2622,
+                        2625
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

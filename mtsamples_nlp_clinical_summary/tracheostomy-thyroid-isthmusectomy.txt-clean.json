@@ -1,0 +1,418 @@
+{
+    "file": "tracheostomy-thyroid-isthmusectomy.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "lidocaine",
+                "code": "6387",
+                "cui": "C0023660",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Lidocaine",
+                "range": [
+                    1210,
+                    1219
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.975
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "lidocaine",
+                "code": "6387",
+                "cui": "C0023660",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Lidocaine",
+                "range": [
+                    1210,
+                    1219
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.975
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            }
+        ],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "Ventilator-dependent respiratory failure",
+                "range": [
+                    31,
+                    71
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "strokes",
+                "range": [
+                    87,
+                    94
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "230690007",
+                "cui": "C0038454",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Cerebrovascular accident"
+            },
+            {
+                "text": "Ventilator-dependent respiratory failure",
+                "range": [
+                    127,
+                    167
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "Multiple strokes",
+                "range": [
+                    174,
+                    190
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "massive strokes",
+                "range": [
+                    457,
+                    472
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.013,
+        "uncertain_count": 7,
+        "narrow_band_ratio": 0.011,
+        "uncertain_tokens": {
+            "MED": [
+                [
+                    0.566,
+                    "anesthesia",
+                    [
+                        937,
+                        947
+                    ]
+                ],
+                [
+                    0.516,
+                    "epinephrine",
+                    [
+                        1234,
+                        1245
+                    ]
+                ],
+                [
+                    0.63,
+                    "solution",
+                    [
+                        1246,
+                        1254
+                    ]
+                ],
+                [
+                    0.639,
+                    "sponge",
+                    [
+                        3489,
+                        3495
+                    ]
+                ]
+            ],
+            "NA": [
+                [
+                    0.652,
+                    "incision",
+                    [
+                        1362,
+                        1370
+                    ]
+                ],
+                [
+                    0.645,
+                    "blade",
+                    [
+                        1396,
+                        1401
+                    ]
+                ],
+                [
+                    0.558,
+                    "CO2",
+                    [
+                        3183,
+                        3186
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "Ventilator-dependent",
+                    [
+                        31,
+                        51
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "respiratory",
+                    [
+                        52,
+                        63
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "failure",
+                    [
+                        64,
+                        71
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "strokes",
+                    [
+                        87,
+                        94
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Ventilator-dependent",
+                    [
+                        127,
+                        147
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "respiratory",
+                    [
+                        148,
+                        159
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "failure",
+                    [
+                        160,
+                        167
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Multiple",
+                    [
+                        174,
+                        182
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "strokes",
+                    [
+                        183,
+                        190
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "massive",
+                    [
+                        457,
+                        464
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "strokes",
+                    [
+                        465,
+                        472
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.586,
+                    "Ventilator-dependent",
+                    [
+                        31,
+                        51
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.71,
+                    "respiratory",
+                    [
+                        52,
+                        63
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.827,
+                    "failure",
+                    [
+                        64,
+                        71
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.587,
+                    "strokes",
+                    [
+                        87,
+                        94
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.69,
+                    "Ventilator-dependent",
+                    [
+                        127,
+                        147
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.883,
+                    "respiratory",
+                    [
+                        148,
+                        159
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.934,
+                    "failure",
+                    [
+                        160,
+                        167
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.582,
+                    "Multiple",
+                    [
+                        174,
+                        182
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.857,
+                    "strokes",
+                    [
+                        183,
+                        190
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.694,
+                    "massive",
+                    [
+                        457,
+                        464
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.723,
+                    "strokes",
+                    [
+                        465,
+                        472
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.063,
+        "uncertain_token_count": 1,
+        "narrow_band_ratio": 0.002,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.434,
+                    "Multiple",
+                    [
+                        78,
+                        86
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

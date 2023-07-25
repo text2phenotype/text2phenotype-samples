@@ -1,0 +1,572 @@
+{
+    "file": "bronchoscopy-fiberoptic.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "Epinephrine",
+                "code": "3992",
+                "cui": "C0014563",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Epinephrine",
+                "range": [
+                    894,
+                    905
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.906
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "Epinephrine",
+                "code": "3992",
+                "cui": "C0014563",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Epinephrine",
+                "range": [
+                    894,
+                    905
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.906
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            }
+        ],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "bilateral hilar adenopathy",
+                "range": [
+                    240,
+                    266
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "264508001",
+                "cui": "C0442838",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Bilateral hilar adenopathy"
+            },
+            {
+                "text": "the subcarinal space",
+                "range": [
+                    285,
+                    305
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "right",
+                "range": [
+                    330,
+                    335
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "primary lung",
+                "range": [
+                    366,
+                    378
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.003,
+        "uncertain_count": 0,
+        "narrow_band_ratio": 0.0,
+        "uncertain_tokens": {},
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "PROBLEM": [
+                    "chest",
+                    [
+                        95,
+                        100
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "pain",
+                    [
+                        101,
+                        105
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "cough",
+                    [
+                        107,
+                        112
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "hemoptysis",
+                    [
+                        114,
+                        124
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    ",",
+                    [
+                        124,
+                        125
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "shortness",
+                    [
+                        126,
+                        135
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "of",
+                    [
+                        136,
+                        138
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "breath",
+                    [
+                        139,
+                        145
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "bilateral",
+                    [
+                        240,
+                        249
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "hilar",
+                    [
+                        250,
+                        255
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "adenopathy",
+                    [
+                        256,
+                        266
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "the",
+                    [
+                        285,
+                        288
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "subcarinal",
+                    [
+                        289,
+                        299
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "space",
+                    [
+                        300,
+                        305
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "6-cm",
+                    [
+                        325,
+                        329
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "right",
+                    [
+                        330,
+                        335
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "hilar",
+                    [
+                        336,
+                        341
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "mass",
+                    [
+                        342,
+                        346
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "primary",
+                    [
+                        366,
+                        373
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "lung",
+                    [
+                        374,
+                        378
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "carcinoma",
+                    [
+                        379,
+                        388
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "PROBLEM": [
+                    0.707,
+                    "chest",
+                    [
+                        95,
+                        100
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.709,
+                    "pain",
+                    [
+                        101,
+                        105
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.91,
+                    "cough",
+                    [
+                        107,
+                        112
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.911,
+                    "hemoptysis",
+                    [
+                        114,
+                        124
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.845,
+                    "shortness",
+                    [
+                        126,
+                        135
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.784,
+                    "of",
+                    [
+                        136,
+                        138
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.79,
+                    "breath",
+                    [
+                        139,
+                        145
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.934,
+                    "bilateral",
+                    [
+                        240,
+                        249
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.951,
+                    "hilar",
+                    [
+                        250,
+                        255
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.931,
+                    "adenopathy",
+                    [
+                        256,
+                        266
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.581,
+                    "subcarinal",
+                    [
+                        289,
+                        299
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.609,
+                    "space",
+                    [
+                        300,
+                        305
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.471,
+                    "6-cm",
+                    [
+                        325,
+                        329
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.666,
+                    "right",
+                    [
+                        330,
+                        335
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.636,
+                    "hilar",
+                    [
+                        336,
+                        341
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.597,
+                    "mass",
+                    [
+                        342,
+                        346
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.688,
+                    "primary",
+                    [
+                        366,
+                        373
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.715,
+                    "lung",
+                    [
+                        374,
+                        378
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.754,
+                    "carcinoma",
+                    [
+                        379,
+                        388
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.197,
+        "uncertain_token_count": 8,
+        "narrow_band_ratio": 0.041,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.513,
+                    ",",
+                    [
+                        124,
+                        125
+                    ]
+                ],
+                [
+                    0.518,
+                    "30-pound",
+                    [
+                        158,
+                        166
+                    ]
+                ],
+                [
+                    0.421,
+                    "weight",
+                    [
+                        167,
+                        173
+                    ]
+                ],
+                [
+                    0.359,
+                    "loss",
+                    [
+                        174,
+                        178
+                    ]
+                ],
+                [
+                    0.511,
+                    "with",
+                    [
+                        267,
+                        271
+                    ]
+                ],
+                [
+                    0.495,
+                    "extension",
+                    [
+                        272,
+                        281
+                    ]
+                ],
+                [
+                    0.495,
+                    "the",
+                    [
+                        285,
+                        288
+                    ]
+                ]
+            ],
+            "DIAGNOSIS": [
+                [
+                    0.471,
+                    "6-cm",
+                    [
+                        325,
+                        329
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

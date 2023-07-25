@@ -1,0 +1,621 @@
+{
+    "file": "bunionectomy-osteotomy.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "Naprosyn",
+                "code": "203012",
+                "cui": "C0700017",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Naprosyn",
+                "range": [
+                    5877,
+                    5885
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.995
+                },
+                "medFrequencyNumber": [
+                    "2.0"
+                ],
+                "medFrequencyUnit": [
+                    "day"
+                ],
+                "medStrengthNum": [
+                    "500",
+                    5902,
+                    5905
+                ],
+                "medStrengthUnit": [
+                    "mg",
+                    5906,
+                    5908
+                ]
+            },
+            {
+                "text": "Naprosyn",
+                "code": "203012",
+                "cui": "C0700017",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Naprosyn",
+                "range": [
+                    5877,
+                    5885
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.995
+                },
+                "medFrequencyNumber": [
+                    "2.0"
+                ],
+                "medFrequencyUnit": [
+                    "day"
+                ],
+                "medStrengthNum": [
+                    "500",
+                    5902,
+                    5905
+                ],
+                "medStrengthUnit": [
+                    "mg",
+                    5906,
+                    5908
+                ]
+            }
+        ],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "Hallux valgus",
+                "range": [
+                    31,
+                    44
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "122480009",
+                "cui": "C0018536",
+                "tui": "T190",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Hallux Valgus"
+            },
+            {
+                "text": "right foot",
+                "range": [
+                    46,
+                    56
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "Hallux valgus",
+                "range": [
+                    130,
+                    143
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "122480009",
+                "cui": "C0018536",
+                "tui": "T190",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Hallux Valgus"
+            },
+            {
+                "text": "right foot",
+                "range": [
+                    145,
+                    155
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "vascular status intact to",
+                "range": [
+                    5593,
+                    5618
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.013,
+        "uncertain_count": 8,
+        "narrow_band_ratio": 0.007,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.516,
+                    "Marcaine",
+                    [
+                        1538,
+                        1546
+                    ]
+                ],
+                [
+                    0.65,
+                    "sponge",
+                    [
+                        1928,
+                        1934
+                    ]
+                ],
+                [
+                    0.63,
+                    "subcutaneous",
+                    [
+                        5022,
+                        5034
+                    ]
+                ],
+                [
+                    0.614,
+                    "contact",
+                    [
+                        5738,
+                        5745
+                    ]
+                ],
+                [
+                    0.605,
+                    "instructions",
+                    [
+                        5758,
+                        5770
+                    ]
+                ]
+            ],
+            "MED": [
+                [
+                    0.677,
+                    "Lidocaine",
+                    [
+                        1560,
+                        1569
+                    ]
+                ],
+                [
+                    0.667,
+                    "Betadine",
+                    [
+                        1885,
+                        1893
+                    ]
+                ],
+                [
+                    0.638,
+                    "ES",
+                    [
+                        5837,
+                        5839
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "Hallux",
+                    [
+                        31,
+                        37
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "valgus",
+                    [
+                        38,
+                        44
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    ",",
+                    [
+                        44,
+                        45
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "right",
+                    [
+                        46,
+                        51
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "foot",
+                    [
+                        52,
+                        56
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Hallux",
+                    [
+                        130,
+                        136
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "valgus",
+                    [
+                        137,
+                        143
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    ",",
+                    [
+                        143,
+                        144
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "right",
+                    [
+                        145,
+                        150
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "foot",
+                    [
+                        151,
+                        155
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "bunion",
+                    [
+                        555,
+                        561
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "painful",
+                    [
+                        634,
+                        641
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "bunion",
+                    [
+                        642,
+                        648
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "vascular",
+                    [
+                        5593,
+                        5601
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "status",
+                    [
+                        5602,
+                        5608
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "intact",
+                    [
+                        5609,
+                        5615
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "to",
+                    [
+                        5616,
+                        5618
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.937,
+                    "Hallux",
+                    [
+                        31,
+                        37
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.936,
+                    "valgus",
+                    [
+                        38,
+                        44
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.715,
+                    ",",
+                    [
+                        44,
+                        45
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.803,
+                    "right",
+                    [
+                        46,
+                        51
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.767,
+                    "foot",
+                    [
+                        52,
+                        56
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.939,
+                    "Hallux",
+                    [
+                        130,
+                        136
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.952,
+                    "valgus",
+                    [
+                        137,
+                        143
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.532,
+                    ",",
+                    [
+                        143,
+                        144
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.738,
+                    "right",
+                    [
+                        145,
+                        150
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.723,
+                    "foot",
+                    [
+                        151,
+                        155
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.578,
+                    "bunion",
+                    [
+                        555,
+                        561
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.652,
+                    "painful",
+                    [
+                        634,
+                        641
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.757,
+                    "bunion",
+                    [
+                        642,
+                        648
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.556,
+                    "status",
+                    [
+                        5602,
+                        5608
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.484,
+                    "intact",
+                    [
+                        5609,
+                        5615
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.515,
+                    "to",
+                    [
+                        5616,
+                        5618
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.08,
+        "uncertain_token_count": 9,
+        "narrow_band_ratio": 0.008,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.486,
+                    "interphalangeus",
+                    [
+                        70,
+                        85
+                    ]
+                ],
+                [
+                    0.508,
+                    "painful",
+                    [
+                        547,
+                        554
+                    ]
+                ],
+                [
+                    0.495,
+                    "foot",
+                    [
+                        580,
+                        584
+                    ]
+                ],
+                [
+                    0.499,
+                    "vascular",
+                    [
+                        5593,
+                        5601
+                    ]
+                ],
+                [
+                    0.492,
+                    "the",
+                    [
+                        5619,
+                        5622
+                    ]
+                ],
+                [
+                    0.498,
+                    "right",
+                    [
+                        5623,
+                        5628
+                    ]
+                ],
+                [
+                    0.491,
+                    "foot",
+                    [
+                        5629,
+                        5633
+                    ]
+                ]
+            ],
+            "DIAGNOSIS": [
+                [
+                    0.484,
+                    "intact",
+                    [
+                        5609,
+                        5615
+                    ]
+                ],
+                [
+                    0.515,
+                    "to",
+                    [
+                        5616,
+                        5618
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

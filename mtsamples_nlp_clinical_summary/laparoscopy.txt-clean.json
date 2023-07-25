@@ -1,0 +1,655 @@
+{
+    "file": "laparoscopy.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "CO2",
+                "code": null,
+                "cui": null,
+                "tui": null,
+                "vocab": null,
+                "polarity": "positive",
+                "preferredText": null,
+                "range": [
+                    2637,
+                    2640
+                ],
+                "prob": {
+                    "MED": 0.965
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "Darvocet",
+                "code": "492810",
+                "cui": "C1514497",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Darvocet",
+                "range": [
+                    4619,
+                    4627
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 1.0
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "Darvocet",
+                "code": "492810",
+                "cui": "C1514497",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Darvocet",
+                "range": [
+                    4619,
+                    4627
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 1.0
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            }
+        ],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "Pelvic endometriosis",
+                "range": [
+                    88,
+                    108
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "26681001",
+                "cui": "C0241880",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Endometriosis of pelvis"
+            },
+            {
+                "text": "Pelvic",
+                "range": [
+                    115,
+                    121
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "endometriosis",
+                "range": [
+                    207,
+                    220
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "129103003",
+                "cui": "C0014175",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Endometriosis"
+            },
+            {
+                "text": "endometriosis",
+                "range": [
+                    1103,
+                    1116
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "129103003",
+                "cui": "C0014175",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Endometriosis"
+            },
+            {
+                "text": "ovarian fossa and",
+                "range": [
+                    1154,
+                    1171
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "endometriosis in the\nposterior cul-de-sac",
+                "range": [
+                    1198,
+                    1239
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "129103003",
+                "cui": "C0014175",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Endometriosis"
+            },
+            {
+                "text": "endometriosis",
+                "range": [
+                    1276,
+                    1289
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "129103003",
+                "cui": "C0014175",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Endometriosis"
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.008,
+        "uncertain_count": 1,
+        "narrow_band_ratio": 0.001,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.636,
+                    "hemostatic",
+                    [
+                        3858,
+                        3868
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "Pelvic",
+                    [
+                        26,
+                        32
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "pain",
+                    [
+                        33,
+                        37
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Pelvic",
+                    [
+                        70,
+                        76
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "pain",
+                    [
+                        77,
+                        81
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Pelvic",
+                    [
+                        88,
+                        94
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "endometriosis",
+                    [
+                        95,
+                        108
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Pelvic",
+                    [
+                        115,
+                        121
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "adhesions",
+                    [
+                        122,
+                        131
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "endometriosis",
+                    [
+                        207,
+                        220
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "endometriosis",
+                    [
+                        1103,
+                        1116
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "ovarian",
+                    [
+                        1154,
+                        1161
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "fossa",
+                    [
+                        1162,
+                        1167
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "and",
+                    [
+                        1168,
+                        1171
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "endometriosis",
+                    [
+                        1198,
+                        1211
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "in",
+                    [
+                        1212,
+                        1214
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "the",
+                    [
+                        1215,
+                        1218
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "posterior",
+                    [
+                        1219,
+                        1228
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "cul-de-sac",
+                    [
+                        1229,
+                        1239
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "endometriosis",
+                    [
+                        1276,
+                        1289
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "lesion",
+                    [
+                        1290,
+                        1296
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.569,
+                    "Pelvic",
+                    [
+                        26,
+                        32
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.435,
+                    "pain",
+                    [
+                        33,
+                        37
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.842,
+                    "Pelvic",
+                    [
+                        70,
+                        76
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.834,
+                    "pain",
+                    [
+                        77,
+                        81
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.958,
+                    "Pelvic",
+                    [
+                        88,
+                        94
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.948,
+                    "endometriosis",
+                    [
+                        95,
+                        108
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.744,
+                    "Pelvic",
+                    [
+                        115,
+                        121
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.602,
+                    "adhesions",
+                    [
+                        122,
+                        131
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.738,
+                    "endometriosis",
+                    [
+                        207,
+                        220
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.707,
+                    "endometriosis",
+                    [
+                        1103,
+                        1116
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.563,
+                    "fossa",
+                    [
+                        1162,
+                        1167
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.798,
+                    "endometriosis",
+                    [
+                        1198,
+                        1211
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.585,
+                    "in",
+                    [
+                        1212,
+                        1214
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.692,
+                    "the",
+                    [
+                        1215,
+                        1218
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.571,
+                    "posterior",
+                    [
+                        1219,
+                        1228
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.496,
+                    "endometriosis",
+                    [
+                        1276,
+                        1289
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.43,
+                    "lesion",
+                    [
+                        1290,
+                        1296
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.473,
+                    "the",
+                    [
+                        1300,
+                        1303
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.41,
+                    "posterior",
+                    [
+                        1304,
+                        1313
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.097,
+        "uncertain_token_count": 10,
+        "narrow_band_ratio": 0.012,
+        "uncertain_tokens": {
+            "PROBLEM": [
+                [
+                    0.435,
+                    "pain",
+                    [
+                        33,
+                        37
+                    ]
+                ]
+            ],
+            "NA": [
+                [
+                    0.529,
+                    "cm",
+                    [
+                        1134,
+                        1136
+                    ]
+                ],
+                [
+                    0.521,
+                    "ovarian",
+                    [
+                        1154,
+                        1161
+                    ]
+                ],
+                [
+                    0.461,
+                    "cul-de-sac",
+                    [
+                        1229,
+                        1239
+                    ]
+                ],
+                [
+                    0.492,
+                    "in",
+                    [
+                        1297,
+                        1299
+                    ]
+                ],
+                [
+                    0.507,
+                    "cul-de-sac",
+                    [
+                        1314,
+                        1324
+                    ]
+                ]
+            ],
+            "DIAGNOSIS": [
+                [
+                    0.496,
+                    "endometriosis",
+                    [
+                        1276,
+                        1289
+                    ]
+                ],
+                [
+                    0.43,
+                    "lesion",
+                    [
+                        1290,
+                        1296
+                    ]
+                ],
+                [
+                    0.473,
+                    "the",
+                    [
+                        1300,
+                        1303
+                    ]
+                ],
+                [
+                    0.41,
+                    "posterior",
+                    [
+                        1304,
+                        1313
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

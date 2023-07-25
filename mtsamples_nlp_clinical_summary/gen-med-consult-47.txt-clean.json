@@ -1,0 +1,738 @@
+{
+    "file": "gen-med-consult-47.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "insulin",
+                "code": null,
+                "cui": null,
+                "tui": null,
+                "vocab": null,
+                "polarity": "positive",
+                "preferredText": null,
+                "range": [
+                    705,
+                    712
+                ],
+                "prob": {
+                    "MED": 1.0
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "Motrin",
+                "code": "202488",
+                "cui": "C0699203",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Motrin",
+                "range": [
+                    3205,
+                    3211
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.972
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [
+                    "day"
+                ],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "Motrin",
+                "code": "202488",
+                "cui": "C0699203",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Motrin",
+                "range": [
+                    3205,
+                    3211
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.972
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [
+                    "day"
+                ],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "Darvocet",
+                "code": "492810",
+                "cui": "C1514497",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Darvocet",
+                "range": [
+                    3216,
+                    3224
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.998
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "Darvocet",
+                "code": "492810",
+                "cui": "C1514497",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Darvocet",
+                "range": [
+                    3216,
+                    3224
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.998
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            }
+        ],
+        "Allergy": [],
+        "Lab": [
+            {
+                "code": "272170001",
+                "cui": "C0023516",
+                "tui": "T034",
+                "vocab": "SNOMEDCT_US",
+                "polarity": "positive",
+                "text": "white\ncount",
+                "preferredText": "WHITE BLOOD CELL (CELL)",
+                "range": [
+                    3019,
+                    3030
+                ]
+            }
+        ],
+        "DiseaseDisorder": [
+            {
+                "text": "left",
+                "range": [
+                    101,
+                    105
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "left sacroiliac type",
+                "range": [
+                    503,
+                    523
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "process",
+                "range": [
+                    949,
+                    956
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "disk",
+                "range": [
+                    985,
+                    989
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "lumbar spine",
+                "range": [
+                    1005,
+                    1017
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "sacral abscess",
+                "range": [
+                    1704,
+                    1718
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "fractures",
+                "range": [
+                    1837,
+                    1846
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.005,
+        "uncertain_count": 1,
+        "narrow_band_ratio": 0.002,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.57,
+                    "medications",
+                    [
+                        1229,
+                        1240
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "fever",
+                    [
+                        82,
+                        87
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "chills",
+                    [
+                        89,
+                        95
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "left",
+                    [
+                        101,
+                        105
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "pelvic",
+                    [
+                        106,
+                        112
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "pain",
+                    [
+                        113,
+                        117
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "fever",
+                    [
+                        351,
+                        356
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "left",
+                    [
+                        503,
+                        507
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "sacroiliac",
+                    [
+                        508,
+                        518
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "type",
+                    [
+                        519,
+                        523
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "hip",
+                    [
+                        524,
+                        527
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "pain",
+                    [
+                        528,
+                        532
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "process",
+                    [
+                        949,
+                        956
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "degenerative",
+                    [
+                        972,
+                        984
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "disk",
+                    [
+                        985,
+                        989
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "disease",
+                    [
+                        990,
+                        997
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "lumbar",
+                    [
+                        1005,
+                        1011
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "spine",
+                    [
+                        1012,
+                        1017
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "sacral",
+                    [
+                        1704,
+                        1710
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "abscess",
+                    [
+                        1711,
+                        1718
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "fractures",
+                    [
+                        1837,
+                        1846
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.752,
+                    "fever",
+                    [
+                        82,
+                        87
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.669,
+                    "chills",
+                    [
+                        89,
+                        95
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.779,
+                    "left",
+                    [
+                        101,
+                        105
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.9,
+                    "pelvic",
+                    [
+                        106,
+                        112
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.88,
+                    "pain",
+                    [
+                        113,
+                        117
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.416,
+                    "fever",
+                    [
+                        351,
+                        356
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.811,
+                    "left",
+                    [
+                        503,
+                        507
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.925,
+                    "sacroiliac",
+                    [
+                        508,
+                        518
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.967,
+                    "type",
+                    [
+                        519,
+                        523
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.976,
+                    "hip",
+                    [
+                        524,
+                        527
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.95,
+                    "pain",
+                    [
+                        528,
+                        532
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.508,
+                    "process",
+                    [
+                        949,
+                        956
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.592,
+                    "degenerative",
+                    [
+                        972,
+                        984
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.511,
+                    "disk",
+                    [
+                        985,
+                        989
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.761,
+                    "disease",
+                    [
+                        990,
+                        997
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.693,
+                    "lumbar",
+                    [
+                        1005,
+                        1011
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.696,
+                    "spine",
+                    [
+                        1012,
+                        1017
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.536,
+                    "sacral",
+                    [
+                        1704,
+                        1710
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.726,
+                    "abscess",
+                    [
+                        1711,
+                        1718
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.514,
+                    "fractures",
+                    [
+                        1837,
+                        1846
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.472,
+                    "brucellosis",
+                    [
+                        3078,
+                        3089
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.118,
+        "uncertain_token_count": 11,
+        "narrow_band_ratio": 0.017,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.51,
+                    "pain",
+                    [
+                        338,
+                        342
+                    ]
+                ],
+                [
+                    0.513,
+                    "her",
+                    [
+                        1001,
+                        1004
+                    ]
+                ],
+                [
+                    0.499,
+                    "inguinal",
+                    [
+                        1056,
+                        1064
+                    ]
+                ],
+                [
+                    0.486,
+                    "nodes",
+                    [
+                        1065,
+                        1070
+                    ]
+                ],
+                [
+                    0.42,
+                    "hypertensive",
+                    [
+                        1199,
+                        1211
+                    ]
+                ],
+                [
+                    0.524,
+                    "hyperlipidemia",
+                    [
+                        1282,
+                        1296
+                    ]
+                ]
+            ],
+            "PROBLEM": [
+                [
+                    0.416,
+                    "fever",
+                    [
+                        351,
+                        356
+                    ]
+                ]
+            ],
+            "DIAGNOSIS": [
+                [
+                    0.508,
+                    "process",
+                    [
+                        949,
+                        956
+                    ]
+                ],
+                [
+                    0.511,
+                    "disk",
+                    [
+                        985,
+                        989
+                    ]
+                ],
+                [
+                    0.514,
+                    "fractures",
+                    [
+                        1837,
+                        1846
+                    ]
+                ],
+                [
+                    0.472,
+                    "brucellosis",
+                    [
+                        3078,
+                        3089
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

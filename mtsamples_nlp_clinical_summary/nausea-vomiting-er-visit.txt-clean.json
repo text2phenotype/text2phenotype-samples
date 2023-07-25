@@ -1,0 +1,560 @@
+{
+    "file": "nausea-vomiting-er-visit.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "Phenergan",
+                "code": "152218",
+                "cui": "C0591971",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Phenergan",
+                "range": [
+                    869,
+                    878
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.998
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "Phenergan",
+                "code": "152218",
+                "cui": "C0591971",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Phenergan",
+                "range": [
+                    869,
+                    878
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.998
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "Zofran",
+                "code": "66981",
+                "cui": "C0206046",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Zofran",
+                "range": [
+                    883,
+                    889
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 1.0
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "Zofran",
+                "code": "66981",
+                "cui": "C0206046",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Zofran",
+                "range": [
+                    883,
+                    889
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 1.0
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "Rocephin",
+                "code": "9449",
+                "cui": "C0035750",
+                "tui": "T195",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Rocephin",
+                "range": [
+                    955,
+                    963
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 1.0
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "Rocephin",
+                "code": "9449",
+                "cui": "C0035750",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Rocephin",
+                "range": [
+                    955,
+                    963
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 1.0
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "Maalox",
+                "code": "29115",
+                "cui": "C0065461",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Maalox",
+                "range": [
+                    1097,
+                    1103
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.987
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            }
+        ],
+        "Allergy": [],
+        "Lab": [
+            {
+                "code": "LP15448-1",
+                "cui": "C0005437",
+                "tui": "T034",
+                "vocab": "LNC",
+                "polarity": "positive",
+                "text": "total bilirubin",
+                "preferredText": "BILIRUBIN",
+                "range": [
+                    653,
+                    668
+                ]
+            }
+        ],
+        "DiseaseDisorder": [
+            {
+                "text": "with blood-tinged",
+                "range": [
+                    132,
+                    149
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "starting approximately",
+                "range": [
+                    156,
+                    178
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "bladder infection",
+                "range": [
+                    973,
+                    990
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "236620008",
+                "cui": "C0600041",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Infective cystitis"
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.015,
+        "uncertain_count": 2,
+        "narrow_band_ratio": 0.007,
+        "uncertain_tokens": {
+            "MED": [
+                [
+                    0.572,
+                    "hydration",
+                    [
+                        918,
+                        927
+                    ]
+                ]
+            ],
+            "NA": [
+                [
+                    0.683,
+                    "ALT",
+                    [
+                        1185,
+                        1188
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "intractable",
+                    [
+                        100,
+                        111
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "nausea",
+                    [
+                        112,
+                        118
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "and",
+                    [
+                        119,
+                        122
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "vomiting",
+                    [
+                        123,
+                        131
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "with",
+                    [
+                        132,
+                        136
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "blood-tinged",
+                    [
+                        137,
+                        149
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "vomit",
+                    [
+                        150,
+                        155
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "starting",
+                    [
+                        156,
+                        164
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "approximately",
+                    [
+                        165,
+                        178
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "bladder",
+                    [
+                        973,
+                        980
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "infection",
+                    [
+                        981,
+                        990
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "gestation",
+                    [
+                        1328,
+                        1337
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "hyperemesis",
+                    [
+                        1347,
+                        1358
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "nausea",
+                    [
+                        1467,
+                        1473
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.704,
+                    "intractable",
+                    [
+                        100,
+                        111
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.672,
+                    "nausea",
+                    [
+                        112,
+                        118
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.424,
+                    "and",
+                    [
+                        119,
+                        122
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.574,
+                    "vomiting",
+                    [
+                        123,
+                        131
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.368,
+                    "with",
+                    [
+                        132,
+                        136
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.569,
+                    "blood-tinged",
+                    [
+                        137,
+                        149
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.742,
+                    "vomit",
+                    [
+                        150,
+                        155
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.667,
+                    "starting",
+                    [
+                        156,
+                        164
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.546,
+                    "approximately",
+                    [
+                        165,
+                        178
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.648,
+                    "bladder",
+                    [
+                        973,
+                        980
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.81,
+                    "infection",
+                    [
+                        981,
+                        990
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.509,
+                    "gestation",
+                    [
+                        1328,
+                        1337
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.734,
+                    "hyperemesis",
+                    [
+                        1347,
+                        1358
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.095,
+        "uncertain_token_count": 6,
+        "narrow_band_ratio": 0.021,
+        "uncertain_tokens": {
+            "DIAGNOSIS": [
+                [
+                    0.424,
+                    "and",
+                    [
+                        119,
+                        122
+                    ]
+                ],
+                [
+                    0.368,
+                    "with",
+                    [
+                        132,
+                        136
+                    ]
+                ],
+                [
+                    0.509,
+                    "gestation",
+                    [
+                        1328,
+                        1337
+                    ]
+                ]
+            ],
+            "NA": [
+                [
+                    0.501,
+                    "worse",
+                    [
+                        179,
+                        184
+                    ]
+                ],
+                [
+                    0.502,
+                    "gravidarum",
+                    [
+                        1359,
+                        1369
+                    ]
+                ],
+                [
+                    0.5,
+                    "nausea",
+                    [
+                        1467,
+                        1473
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

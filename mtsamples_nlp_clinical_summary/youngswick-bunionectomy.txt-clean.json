@@ -1,0 +1,721 @@
+{
+    "file": "youngswick-bunionectomy.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "Vicodin ES",
+                "code": "220822",
+                "cui": "C0724276",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Vicodin ES",
+                "range": [
+                    5504,
+                    5514
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.961
+                },
+                "medFrequencyNumber": [
+                    "4.0"
+                ],
+                "medFrequencyUnit": [
+                    "p.r.n.",
+                    5554,
+                    5560
+                ],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "Vicodin ES",
+                "code": "220822",
+                "cui": "C0724276",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Vicodin ES",
+                "range": [
+                    5504,
+                    5514
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.961
+                },
+                "medFrequencyNumber": [
+                    "4.0"
+                ],
+                "medFrequencyUnit": [
+                    "p.r.n.",
+                    5554,
+                    5560
+                ],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            }
+        ],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "Hallux rigidus",
+                "range": [
+                    31,
+                    45
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "6654000",
+                "cui": "C0264134",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Hallux Rigidus"
+            },
+            {
+                "text": "left foot",
+                "range": [
+                    47,
+                    56
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "Elevated first metatarsal",
+                "range": [
+                    63,
+                    88
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "Hallux rigidus",
+                "range": [
+                    132,
+                    146
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "6654000",
+                "cui": "C0264134",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Hallux Rigidus"
+            },
+            {
+                "text": "left foot",
+                "range": [
+                    148,
+                    157
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "first metatarsal",
+                "range": [
+                    173,
+                    189
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "degenerative joint\ndisease",
+                "range": [
+                    446,
+                    472
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "225655006",
+                "cui": "C0029408",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Degenerative polyarthritis"
+            },
+            {
+                "text": "his left",
+                "range": [
+                    476,
+                    484
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "MPJ",
+                "range": [
+                    491,
+                    494
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.012,
+        "uncertain_count": 4,
+        "narrow_band_ratio": 0.004,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.524,
+                    "Marcaine",
+                    [
+                        1054,
+                        1062
+                    ]
+                ]
+            ],
+            "MED": [
+                [
+                    0.623,
+                    "sponge",
+                    [
+                        1451,
+                        1457
+                    ]
+                ],
+                [
+                    0.518,
+                    "rubber",
+                    [
+                        3645,
+                        3651
+                    ]
+                ],
+                [
+                    0.631,
+                    "implant",
+                    [
+                        3760,
+                        3767
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "Hallux",
+                    [
+                        31,
+                        37
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "rigidus",
+                    [
+                        38,
+                        45
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    ",",
+                    [
+                        45,
+                        46
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "left",
+                    [
+                        47,
+                        51
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "foot",
+                    [
+                        52,
+                        56
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Elevated",
+                    [
+                        63,
+                        71
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "first",
+                    [
+                        72,
+                        77
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "metatarsal",
+                    [
+                        78,
+                        88
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Hallux",
+                    [
+                        132,
+                        138
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "rigidus",
+                    [
+                        139,
+                        146
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    ",",
+                    [
+                        146,
+                        147
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "left",
+                    [
+                        148,
+                        152
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "foot",
+                    [
+                        153,
+                        157
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "first",
+                    [
+                        173,
+                        178
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "metatarsal",
+                    [
+                        179,
+                        189
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "degenerative",
+                    [
+                        446,
+                        458
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "joint",
+                    [
+                        459,
+                        464
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "disease",
+                    [
+                        465,
+                        472
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "his",
+                    [
+                        476,
+                        479
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "left",
+                    [
+                        480,
+                        484
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "MPJ",
+                    [
+                        491,
+                        494
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "rash",
+                    [
+                        4520,
+                        4524
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.979,
+                    "Hallux",
+                    [
+                        31,
+                        37
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.979,
+                    "rigidus",
+                    [
+                        38,
+                        45
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.904,
+                    ",",
+                    [
+                        45,
+                        46
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.969,
+                    "left",
+                    [
+                        47,
+                        51
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.95,
+                    "foot",
+                    [
+                        52,
+                        56
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.537,
+                    "Elevated",
+                    [
+                        63,
+                        71
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.434,
+                    "first",
+                    [
+                        72,
+                        77
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.472,
+                    "metatarsal",
+                    [
+                        78,
+                        88
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.969,
+                    "Hallux",
+                    [
+                        132,
+                        138
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.976,
+                    "rigidus",
+                    [
+                        139,
+                        146
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.833,
+                    ",",
+                    [
+                        146,
+                        147
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.94,
+                    "left",
+                    [
+                        148,
+                        152
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.896,
+                    "foot",
+                    [
+                        153,
+                        157
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.471,
+                    "first",
+                    [
+                        173,
+                        178
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.699,
+                    "metatarsal",
+                    [
+                        179,
+                        189
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.893,
+                    "degenerative",
+                    [
+                        446,
+                        458
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.884,
+                    "joint",
+                    [
+                        459,
+                        464
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.909,
+                    "disease",
+                    [
+                        465,
+                        472
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.422,
+                    "his",
+                    [
+                        476,
+                        479
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.595,
+                    "left",
+                    [
+                        480,
+                        484
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.574,
+                    "MPJ",
+                    [
+                        491,
+                        494
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.449,
+                    "rash",
+                    [
+                        4520,
+                        4524
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.077,
+        "uncertain_token_count": 7,
+        "narrow_band_ratio": 0.007,
+        "uncertain_tokens": {
+            "DIAGNOSIS": [
+                [
+                    0.434,
+                    "first",
+                    [
+                        72,
+                        77
+                    ]
+                ],
+                [
+                    0.472,
+                    "metatarsal",
+                    [
+                        78,
+                        88
+                    ]
+                ],
+                [
+                    0.471,
+                    "first",
+                    [
+                        173,
+                        178
+                    ]
+                ],
+                [
+                    0.422,
+                    "his",
+                    [
+                        476,
+                        479
+                    ]
+                ]
+            ],
+            "NA": [
+                [
+                    0.493,
+                    "left",
+                    [
+                        191,
+                        195
+                    ]
+                ],
+                [
+                    0.523,
+                    "foot",
+                    [
+                        196,
+                        200
+                    ]
+                ]
+            ],
+            "PROBLEM": [
+                [
+                    0.449,
+                    "rash",
+                    [
+                        4520,
+                        4524
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

@@ -1,0 +1,286 @@
+{
+    "file": "chest-closure.txt-clean.txt",
+    "text2summary": {
+        "Medication": [],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "hypoplastic left\nheart",
+                "range": [
+                    101,
+                    123
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "62067003",
+                "cui": "C0152101",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Hypoplastic Left Heart Syndrome"
+            },
+            {
+                "text": "Norwood operation",
+                "range": [
+                    513,
+                    530
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "Norwood operation",
+                "range": [
+                    584,
+                    601
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.019,
+        "uncertain_count": 5,
+        "narrow_band_ratio": 0.014,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.692,
+                    "cultures",
+                    [
+                        1057,
+                        1065
+                    ]
+                ],
+                [
+                    0.507,
+                    "vancomycin",
+                    [
+                        1362,
+                        1372
+                    ]
+                ],
+                [
+                    0.644,
+                    "titanium",
+                    [
+                        1450,
+                        1458
+                    ]
+                ]
+            ],
+            "MED": [
+                [
+                    0.61,
+                    "paste",
+                    [
+                        1373,
+                        1378
+                    ]
+                ],
+                [
+                    0.581,
+                    "steel",
+                    [
+                        1594,
+                        1599
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "hypoplastic",
+                    [
+                        101,
+                        112
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "left",
+                    [
+                        113,
+                        117
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "heart",
+                    [
+                        118,
+                        123
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "syndrome",
+                    [
+                        124,
+                        132
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Norwood",
+                    [
+                        513,
+                        520
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "operation",
+                    [
+                        521,
+                        530
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Norwood",
+                    [
+                        584,
+                        591
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "operation",
+                    [
+                        592,
+                        601
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.917,
+                    "hypoplastic",
+                    [
+                        101,
+                        112
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.98,
+                    "left",
+                    [
+                        113,
+                        117
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.981,
+                    "heart",
+                    [
+                        118,
+                        123
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.947,
+                    "syndrome",
+                    [
+                        124,
+                        132
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.598,
+                    "Norwood",
+                    [
+                        513,
+                        520
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.672,
+                    "operation",
+                    [
+                        521,
+                        530
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.548,
+                    "Norwood",
+                    [
+                        584,
+                        591
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.468,
+                    "operation",
+                    [
+                        592,
+                        601
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.094,
+        "uncertain_token_count": 2,
+        "narrow_band_ratio": 0.006,
+        "uncertain_tokens": {
+            "DIAGNOSIS": [
+                [
+                    0.468,
+                    "operation",
+                    [
+                        592,
+                        601
+                    ]
+                ]
+            ],
+            "NA": [
+                [
+                    0.484,
+                    "condition",
+                    [
+                        1954,
+                        1963
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

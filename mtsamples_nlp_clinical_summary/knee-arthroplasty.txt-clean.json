@@ -1,0 +1,401 @@
+{
+    "file": "knee-arthroplasty.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "Polymethyl",
+                "code": null,
+                "cui": null,
+                "tui": null,
+                "vocab": null,
+                "polarity": "positive",
+                "preferredText": null,
+                "range": [
+                    8064,
+                    8074
+                ],
+                "prob": {
+                    "MED": 0.982
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "methacrylate",
+                "code": "1424906",
+                "cui": "C2828373",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Methacrylate",
+                "range": [
+                    8075,
+                    8087
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 1.0
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            }
+        ],
+        "Allergy": [],
+        "Lab": [
+            {
+                "code": "",
+                "cui": "C0002059",
+                "tui": "T034",
+                "vocab": "LNC",
+                "polarity": "positive",
+                "text": "AP",
+                "preferredText": "ALP - ALKALINE PHOSPHATASE",
+                "range": [
+                    7079,
+                    7081
+                ]
+            }
+        ],
+        "DiseaseDisorder": [
+            {
+                "text": "Bilateral degenerative arthritis",
+                "range": [
+                    26,
+                    58
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "degenerative arthritis of the",
+                "range": [
+                    109,
+                    138
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "225655006",
+                "cui": "C0029408",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Degenerative polyarthritis"
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.009,
+        "uncertain_count": 5,
+        "narrow_band_ratio": 0.003,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.542,
+                    "motion",
+                    [
+                        6036,
+                        6042
+                    ]
+                ],
+                [
+                    0.654,
+                    "methacrylate",
+                    [
+                        7763,
+                        7775
+                    ]
+                ],
+                [
+                    0.635,
+                    "cement",
+                    [
+                        8879,
+                        8885
+                    ]
+                ]
+            ],
+            "MED": [
+                [
+                    0.512,
+                    "methacrylate",
+                    [
+                        8732,
+                        8744
+                    ]
+                ],
+                [
+                    0.662,
+                    "cement",
+                    [
+                        8805,
+                        8811
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "Bilateral",
+                    [
+                        26,
+                        35
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "degenerative",
+                    [
+                        36,
+                        48
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "arthritis",
+                    [
+                        49,
+                        58
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "degenerative",
+                    [
+                        109,
+                        121
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "arthritis",
+                    [
+                        122,
+                        131
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "of",
+                    [
+                        132,
+                        134
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "the",
+                    [
+                        135,
+                        138
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "bilateral",
+                    [
+                        898,
+                        907
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "knee",
+                    [
+                        908,
+                        912
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "pain",
+                    [
+                        913,
+                        917
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.817,
+                    "Bilateral",
+                    [
+                        26,
+                        35
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.801,
+                    "degenerative",
+                    [
+                        36,
+                        48
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.71,
+                    "arthritis",
+                    [
+                        49,
+                        58
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.491,
+                    "of",
+                    [
+                        59,
+                        61
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.515,
+                    "degenerative",
+                    [
+                        109,
+                        121
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.584,
+                    "arthritis",
+                    [
+                        122,
+                        131
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.515,
+                    "of",
+                    [
+                        132,
+                        134
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.482,
+                    "the",
+                    [
+                        135,
+                        138
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.813,
+                    "bilateral",
+                    [
+                        898,
+                        907
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.817,
+                    "knee",
+                    [
+                        908,
+                        912
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.716,
+                    "pain",
+                    [
+                        913,
+                        917
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.073,
+        "uncertain_token_count": 5,
+        "narrow_band_ratio": 0.003,
+        "uncertain_tokens": {
+            "DIAGNOSIS": [
+                [
+                    0.491,
+                    "of",
+                    [
+                        59,
+                        61
+                    ]
+                ],
+                [
+                    0.515,
+                    "degenerative",
+                    [
+                        109,
+                        121
+                    ]
+                ],
+                [
+                    0.515,
+                    "of",
+                    [
+                        132,
+                        134
+                    ]
+                ],
+                [
+                    0.482,
+                    "the",
+                    [
+                        135,
+                        138
+                    ]
+                ]
+            ],
+            "NA": [
+                [
+                    0.506,
+                    "cut",
+                    [
+                        5691,
+                        5694
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

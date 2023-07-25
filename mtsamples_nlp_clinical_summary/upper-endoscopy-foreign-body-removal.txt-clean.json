@@ -1,0 +1,90 @@
+{
+    "file": "upper-endoscopy-foreign-body-removal.txt-clean.txt",
+    "text2summary": {
+        "Medication": [],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "foreign\nbody",
+                "range": [
+                    1016,
+                    1028
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "47609003",
+                "cui": "C0149532",
+                "tui": "T037",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Foreign body in esophagus"
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.002,
+        "uncertain_count": 0,
+        "narrow_band_ratio": 0.0,
+        "uncertain_tokens": {},
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "foreign",
+                    [
+                        1016,
+                        1023
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "body",
+                    [
+                        1024,
+                        1028
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.537,
+                    "esophageal",
+                    [
+                        1005,
+                        1015
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.756,
+                    "foreign",
+                    [
+                        1016,
+                        1023
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.846,
+                    "body",
+                    [
+                        1024,
+                        1028
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.061,
+        "uncertain_token_count": 0,
+        "narrow_band_ratio": 0.0,
+        "uncertain_tokens": {},
+        "narrow_band_width": 0.2
+    }
+}

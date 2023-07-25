@@ -1,0 +1,423 @@
+{
+    "file": "control-of-parapharyngeal-hemorrhage.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "anesthetic",
+                "code": null,
+                "cui": null,
+                "tui": null,
+                "vocab": null,
+                "polarity": "positive",
+                "preferredText": null,
+                "range": [
+                    1736,
+                    1746
+                ],
+                "prob": {
+                    "MED": 0.941
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "Marcaine",
+                "code": "1012397",
+                "cui": "C2945665",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Marcaine",
+                "range": [
+                    1934,
+                    1942
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.988
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            }
+        ],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "chronic pharyngitis",
+                "range": [
+                    434,
+                    453
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "275488008",
+                "cui": "C0155825",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Chronic pharyngitis"
+            },
+            {
+                "text": "obstructive adenotonsillar",
+                "range": [
+                    458,
+                    484
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "type mouth",
+                "range": [
+                    1074,
+                    1084
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.015,
+        "uncertain_count": 4,
+        "narrow_band_ratio": 0.012,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.63,
+                    "general",
+                    [
+                        859,
+                        866
+                    ]
+                ],
+                [
+                    0.629,
+                    "anesthetic",
+                    [
+                        867,
+                        877
+                    ]
+                ],
+                [
+                    0.631,
+                    "general",
+                    [
+                        1728,
+                        1735
+                    ]
+                ]
+            ],
+            "MED": [
+                [
+                    0.677,
+                    "adrenalin",
+                    [
+                        1958,
+                        1967
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "PROBLEM": [
+                    "Postoperative",
+                    [
+                        26,
+                        39
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "hemorrhage",
+                    [
+                        40,
+                        50
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "Postoperative",
+                    [
+                        78,
+                        91
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "hemorrhage",
+                    [
+                        92,
+                        102
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "chronic",
+                    [
+                        434,
+                        441
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "pharyngitis",
+                    [
+                        442,
+                        453
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "obstructive",
+                    [
+                        458,
+                        469
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "adenotonsillar",
+                    [
+                        470,
+                        484
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "hypertrophy",
+                    [
+                        485,
+                        496
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "findings",
+                    [
+                        924,
+                        932
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "hemorrhage",
+                    [
+                        1047,
+                        1057
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "type",
+                    [
+                        1074,
+                        1078
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "mouth",
+                    [
+                        1079,
+                        1084
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "PROBLEM": [
+                    0.516,
+                    "Postoperative",
+                    [
+                        26,
+                        39
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.475,
+                    "hemorrhage",
+                    [
+                        40,
+                        50
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.598,
+                    "Postoperative",
+                    [
+                        78,
+                        91
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.505,
+                    "hemorrhage",
+                    [
+                        92,
+                        102
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.959,
+                    "chronic",
+                    [
+                        434,
+                        441
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.98,
+                    "pharyngitis",
+                    [
+                        442,
+                        453
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.656,
+                    "obstructive",
+                    [
+                        458,
+                        469
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.731,
+                    "adenotonsillar",
+                    [
+                        470,
+                        484
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.745,
+                    "hypertrophy",
+                    [
+                        485,
+                        496
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.155,
+        "uncertain_token_count": 8,
+        "narrow_band_ratio": 0.024,
+        "uncertain_tokens": {
+            "PROBLEM": [
+                [
+                    0.516,
+                    "Postoperative",
+                    [
+                        26,
+                        39
+                    ]
+                ],
+                [
+                    0.475,
+                    "hemorrhage",
+                    [
+                        40,
+                        50
+                    ]
+                ],
+                [
+                    0.505,
+                    "hemorrhage",
+                    [
+                        92,
+                        102
+                    ]
+                ]
+            ],
+            "NA": [
+                [
+                    0.508,
+                    "oropharynx",
+                    [
+                        691,
+                        701
+                    ]
+                ],
+                [
+                    0.451,
+                    "anesthetic",
+                    [
+                        913,
+                        923
+                    ]
+                ],
+                [
+                    0.389,
+                    "findings",
+                    [
+                        924,
+                        932
+                    ]
+                ],
+                [
+                    0.506,
+                    "hemorrhage",
+                    [
+                        1047,
+                        1057
+                    ]
+                ],
+                [
+                    0.497,
+                    "type",
+                    [
+                        1074,
+                        1078
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

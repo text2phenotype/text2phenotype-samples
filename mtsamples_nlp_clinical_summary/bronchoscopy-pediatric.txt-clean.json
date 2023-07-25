@@ -1,0 +1,105 @@
+{
+    "file": "bronchoscopy-pediatric.txt-clean.txt",
+    "text2summary": {
+        "Medication": [],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "of",
+                "range": [
+                    285,
+                    287
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "pneumothorax",
+                "range": [
+                    413,
+                    425
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "36118008",
+                "cui": "C0032326",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Pneumothorax"
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.009,
+        "uncertain_count": 1,
+        "narrow_band_ratio": 0.006,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.686,
+                    "normal",
+                    [
+                        481,
+                        487
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "of",
+                    [
+                        285,
+                        287
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "pneumothorax",
+                    [
+                        413,
+                        425
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.728,
+                    "pneumothorax",
+                    [
+                        413,
+                        425
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.099,
+        "uncertain_token_count": 1,
+        "narrow_band_ratio": 0.006,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.497,
+                    "of",
+                    [
+                        285,
+                        287
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

@@ -1,0 +1,162 @@
+{
+    "file": "deglutition-study-modified-barium-swallow.txt-clean.txt",
+    "text2summary": {
+        "Medication": [],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "Dysphagia",
+                "range": [
+                    43,
+                    52
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "40739000",
+                "cui": "C0011168",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Deglutition Disorders"
+            },
+            {
+                "text": "Penetration",
+                "range": [
+                    557,
+                    568
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.026,
+        "uncertain_count": 1,
+        "narrow_band_ratio": 0.009,
+        "uncertain_tokens": {
+            "MED": [
+                [
+                    0.658,
+                    "liquids",
+                    [
+                        337,
+                        344
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "Dysphagia",
+                    [
+                        43,
+                        52
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Penetration",
+                    [
+                        557,
+                        568
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "deglutition",
+                    [
+                        635,
+                        646
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.97,
+                    "Dysphagia",
+                    [
+                        43,
+                        52
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.763,
+                    "Penetration",
+                    [
+                        557,
+                        568
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.504,
+                    "demonstrated",
+                    [
+                        569,
+                        581
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.431,
+                    "thin",
+                    [
+                        587,
+                        591
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.785,
+                    "deglutition",
+                    [
+                        635,
+                        646
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.164,
+        "uncertain_token_count": 2,
+        "narrow_band_ratio": 0.019,
+        "uncertain_tokens": {
+            "DIAGNOSIS": [
+                [
+                    0.504,
+                    "demonstrated",
+                    [
+                        569,
+                        581
+                    ]
+                ],
+                [
+                    0.431,
+                    "thin",
+                    [
+                        587,
+                        591
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

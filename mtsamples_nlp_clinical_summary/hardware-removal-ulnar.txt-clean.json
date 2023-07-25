@@ -1,0 +1,286 @@
+{
+    "file": "hardware-removal-ulnar.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "Ancef",
+                "code": "203483",
+                "cui": "C0700926",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Ancef",
+                "range": [
+                    1307,
+                    1312
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.918
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "Ancef",
+                "code": "203483",
+                "cui": "C0700926",
+                "tui": "T195",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Ancef",
+                "range": [
+                    1307,
+                    1312
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.918
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "Marcaine",
+                "code": "1012397",
+                "cui": "C2945665",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Marcaine",
+                "range": [
+                    1688,
+                    1696
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.971
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "Tylenol with\nCodeine",
+                "code": "220586",
+                "cui": "C0724034",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Tylenol with Codeine",
+                "range": [
+                    1995,
+                    2015
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.986
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "Tylenol with\nCodeine",
+                "code": "220586",
+                "cui": "C0724034",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Tylenol with Codeine",
+                "range": [
+                    1995,
+                    2015
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.986
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            }
+        ],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "Retained",
+                "range": [
+                    26,
+                    34
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "both-bone forearm fracture",
+                "range": [
+                    402,
+                    428
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.01,
+        "uncertain_count": 0,
+        "narrow_band_ratio": 0.0,
+        "uncertain_tokens": {},
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "Retained",
+                    [
+                        26,
+                        34
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "both-bone",
+                    [
+                        402,
+                        411
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "forearm",
+                    [
+                        412,
+                        419
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "fracture",
+                    [
+                        420,
+                        428
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "fracture",
+                    [
+                        452,
+                        460
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.682,
+                    "Retained",
+                    [
+                        26,
+                        34
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.915,
+                    "both-bone",
+                    [
+                        402,
+                        411
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.933,
+                    "forearm",
+                    [
+                        412,
+                        419
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.907,
+                    "fracture",
+                    [
+                        420,
+                        428
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.595,
+                    "fracture",
+                    [
+                        452,
+                        460
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.48,
+                    "arms",
+                    [
+                        583,
+                        587
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.07,
+        "uncertain_token_count": 2,
+        "narrow_band_ratio": 0.005,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.479,
+                    "hardware",
+                    [
+                        35,
+                        43
+                    ]
+                ]
+            ],
+            "PROBLEM": [
+                [
+                    0.48,
+                    "arms",
+                    [
+                        583,
+                        587
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

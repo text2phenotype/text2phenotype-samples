@@ -1,0 +1,701 @@
+{
+    "file": "rhinectomy-nasal-endoscopy.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "Afrin",
+                "code": "215051",
+                "cui": "C0718291",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Afrin",
+                "range": [
+                    1233,
+                    1238
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.973
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "Afrin",
+                "code": "215051",
+                "cui": "C0718291",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Afrin",
+                "range": [
+                    1233,
+                    1238
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.973
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            }
+        ],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "left",
+                "range": [
+                    51,
+                    55
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "left nasal cavity",
+                "range": [
+                    121,
+                    138
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "skin lesion",
+                "range": [
+                    366,
+                    377
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "95324001",
+                "cui": "C0037284",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Skin lesion"
+            },
+            {
+                "text": "folliculitis",
+                "range": [
+                    611,
+                    623
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "13600006",
+                "cui": "C0016436",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Folliculitis"
+            },
+            {
+                "text": "of the nasal tip",
+                "range": [
+                    639,
+                    655
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "the",
+                "range": [
+                    2562,
+                    2565
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.006,
+        "uncertain_count": 2,
+        "narrow_band_ratio": 0.003,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.665,
+                    "blade",
+                    [
+                        1754,
+                        1759
+                    ]
+                ]
+            ],
+            "MED": [
+                [
+                    0.66,
+                    "Sponge",
+                    [
+                        3840,
+                        3846
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "Squamous",
+                    [
+                        26,
+                        34
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "cell",
+                    [
+                        35,
+                        39
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "carcinoma",
+                    [
+                        40,
+                        49
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "left",
+                    [
+                        51,
+                        55
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Squamous",
+                    [
+                        96,
+                        104
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "cell",
+                    [
+                        105,
+                        109
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "carcinoma",
+                    [
+                        110,
+                        119
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    ",",
+                    [
+                        119,
+                        120
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "left",
+                    [
+                        121,
+                        125
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "nasal",
+                    [
+                        126,
+                        131
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "cavity",
+                    [
+                        132,
+                        138
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "skin",
+                    [
+                        366,
+                        370
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "lesion",
+                    [
+                        371,
+                        377
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "folliculitis",
+                    [
+                        611,
+                        623
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "cellulitis",
+                    [
+                        628,
+                        638
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "of",
+                    [
+                        639,
+                        641
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "the",
+                    [
+                        642,
+                        645
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "nasal",
+                    [
+                        646,
+                        651
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "tip",
+                    [
+                        652,
+                        655
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "squamous",
+                    [
+                        801,
+                        809
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "cell",
+                    [
+                        810,
+                        814
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "carcinoma",
+                    [
+                        815,
+                        824
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "squamous",
+                    [
+                        2527,
+                        2535
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "cell",
+                    [
+                        2536,
+                        2540
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "carcinoma",
+                    [
+                        2541,
+                        2550
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "the",
+                    [
+                        2562,
+                        2565
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.972,
+                    "Squamous",
+                    [
+                        26,
+                        34
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.97,
+                    "cell",
+                    [
+                        35,
+                        39
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.958,
+                    "carcinoma",
+                    [
+                        40,
+                        49
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.609,
+                    "left",
+                    [
+                        51,
+                        55
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.97,
+                    "Squamous",
+                    [
+                        96,
+                        104
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.978,
+                    "cell",
+                    [
+                        105,
+                        109
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.98,
+                    "carcinoma",
+                    [
+                        110,
+                        119
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.689,
+                    ",",
+                    [
+                        119,
+                        120
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.876,
+                    "left",
+                    [
+                        121,
+                        125
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.815,
+                    "nasal",
+                    [
+                        126,
+                        131
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.735,
+                    "cavity",
+                    [
+                        132,
+                        138
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.657,
+                    "skin",
+                    [
+                        366,
+                        370
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.732,
+                    "lesion",
+                    [
+                        371,
+                        377
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.841,
+                    "folliculitis",
+                    [
+                        611,
+                        623
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.667,
+                    "cellulitis",
+                    [
+                        628,
+                        638
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.745,
+                    "of",
+                    [
+                        639,
+                        641
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.809,
+                    "the",
+                    [
+                        642,
+                        645
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.752,
+                    "nasal",
+                    [
+                        646,
+                        651
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.739,
+                    "tip",
+                    [
+                        652,
+                        655
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.59,
+                    "squamous",
+                    [
+                        801,
+                        809
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.649,
+                    "cell",
+                    [
+                        810,
+                        814
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.66,
+                    "carcinoma",
+                    [
+                        815,
+                        824
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.716,
+                    "squamous",
+                    [
+                        2527,
+                        2535
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.669,
+                    "cell",
+                    [
+                        2536,
+                        2540
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.522,
+                    "carcinoma",
+                    [
+                        2541,
+                        2550
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.122,
+        "uncertain_token_count": 5,
+        "narrow_band_ratio": 0.007,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.485,
+                    "nasal",
+                    [
+                        56,
+                        61
+                    ]
+                ],
+                [
+                    0.473,
+                    "tenderness",
+                    [
+                        500,
+                        510
+                    ]
+                ],
+                [
+                    0.495,
+                    "tenderness",
+                    [
+                        934,
+                        944
+                    ]
+                ],
+                [
+                    0.482,
+                    "the",
+                    [
+                        2562,
+                        2565
+                    ]
+                ]
+            ],
+            "DIAGNOSIS": [
+                [
+                    0.522,
+                    "carcinoma",
+                    [
+                        2541,
+                        2550
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

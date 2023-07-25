@@ -1,0 +1,532 @@
+{
+    "file": "ear-examination.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "Xylocaine",
+                "code": "202398",
+                "cui": "C0699094",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Xylocaine",
+                "range": [
+                    958,
+                    967
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.96
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [
+                    "1",
+                    955,
+                    956
+                ],
+                "medStrengthUnit": [
+                    "%",
+                    956,
+                    957
+                ]
+            },
+            {
+                "text": "Xylocaine",
+                "code": "202398",
+                "cui": "C0699094",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Xylocaine",
+                "range": [
+                    958,
+                    967
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.96
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [
+                    "1",
+                    955,
+                    956
+                ],
+                "medStrengthUnit": [
+                    "%",
+                    956,
+                    957
+                ]
+            },
+            {
+                "text": "Floxin",
+                "code": "202458",
+                "cui": "C0699173",
+                "tui": "T195",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Floxin",
+                "range": [
+                    1504,
+                    1510
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.991
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "Floxin",
+                "code": "202458",
+                "cui": "C0699173",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Floxin",
+                "range": [
+                    1504,
+                    1510
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.991
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            }
+        ],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "Right tympanic membrane perforation",
+                "range": [
+                    26,
+                    61
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "Right tympanic membrane perforation",
+                "range": [
+                    89,
+                    124
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "tympanic",
+                "range": [
+                    283,
+                    291
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "60442001",
+                "cui": "C0206504",
+                "tui": "T037",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Tympanic Membrane Perforation"
+            },
+            {
+                "text": "right\nconductive hearing loss",
+                "range": [
+                    349,
+                    378
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "3551000119109",
+                "cui": "C2107101",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Right conductive hearing loss"
+            },
+            {
+                "text": "membrane",
+                "range": [
+                    1261,
+                    1269
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.013,
+        "uncertain_count": 1,
+        "narrow_band_ratio": 0.003,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.654,
+                    "membrane",
+                    [
+                        1261,
+                        1269
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "PROBLEM": [
+                    "Right",
+                    [
+                        26,
+                        31
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "tympanic",
+                    [
+                        32,
+                        40
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "membrane",
+                    [
+                        41,
+                        49
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "perforation",
+                    [
+                        50,
+                        61
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Right",
+                    [
+                        89,
+                        94
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "tympanic",
+                    [
+                        95,
+                        103
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "membrane",
+                    [
+                        104,
+                        112
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "perforation",
+                    [
+                        113,
+                        124
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "tympanic",
+                    [
+                        283,
+                        291
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "right",
+                    [
+                        349,
+                        354
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "conductive",
+                    [
+                        355,
+                        365
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "hearing",
+                    [
+                        366,
+                        373
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "loss",
+                    [
+                        374,
+                        378
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "membrane",
+                    [
+                        1261,
+                        1269
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "PROBLEM": [
+                    0.586,
+                    "Right",
+                    [
+                        26,
+                        31
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.743,
+                    "tympanic",
+                    [
+                        32,
+                        40
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.822,
+                    "membrane",
+                    [
+                        41,
+                        49
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.855,
+                    "perforation",
+                    [
+                        50,
+                        61
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.521,
+                    "tympanic",
+                    [
+                        95,
+                        103
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.523,
+                    "membrane",
+                    [
+                        104,
+                        112
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.633,
+                    "perforation",
+                    [
+                        113,
+                        124
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.822,
+                    "right",
+                    [
+                        349,
+                        354
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.735,
+                    "conductive",
+                    [
+                        355,
+                        365
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.73,
+                    "hearing",
+                    [
+                        366,
+                        373
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.77,
+                    "loss",
+                    [
+                        374,
+                        378
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.496,
+                    "membrane",
+                    [
+                        1261,
+                        1269
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.16,
+        "uncertain_token_count": 9,
+        "narrow_band_ratio": 0.031,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.377,
+                    "Right",
+                    [
+                        89,
+                        94
+                    ]
+                ],
+                [
+                    0.468,
+                    "bleeding",
+                    [
+                        514,
+                        522
+                    ]
+                ],
+                [
+                    0.499,
+                    "loss",
+                    [
+                        552,
+                        556
+                    ]
+                ],
+                [
+                    0.473,
+                    "granuloma",
+                    [
+                        1232,
+                        1241
+                    ]
+                ],
+                [
+                    0.516,
+                    "tympanic",
+                    [
+                        1252,
+                        1260
+                    ]
+                ],
+                [
+                    0.43,
+                    "condition",
+                    [
+                        1600,
+                        1609
+                    ]
+                ]
+            ],
+            "DIAGNOSIS": [
+                [
+                    0.521,
+                    "tympanic",
+                    [
+                        95,
+                        103
+                    ]
+                ],
+                [
+                    0.496,
+                    "membrane",
+                    [
+                        1261,
+                        1269
+                    ]
+                ]
+            ],
+            "PROBLEM": [
+                [
+                    0.523,
+                    "membrane",
+                    [
+                        104,
+                        112
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

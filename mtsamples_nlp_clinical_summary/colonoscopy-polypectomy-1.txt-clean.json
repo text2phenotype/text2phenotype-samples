@@ -1,0 +1,642 @@
+{
+    "file": "colonoscopy-polypectomy-1.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "Versed",
+                "code": "11177",
+                "cui": "C0042553",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Versed",
+                "range": [
+                    169,
+                    175
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.965
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [
+                    "8",
+                    176,
+                    177
+                ],
+                "medStrengthUnit": [
+                    "mcg",
+                    189,
+                    192
+                ]
+            },
+            {
+                "text": "Versed",
+                "code": "11177",
+                "cui": "C0042553",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Versed",
+                "range": [
+                    169,
+                    175
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.965
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [
+                    "8",
+                    176,
+                    177
+                ],
+                "medStrengthUnit": [
+                    "mcg",
+                    189,
+                    192
+                ]
+            },
+            {
+                "text": "fentanyl",
+                "code": "4337",
+                "cui": "C0015846",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Fentanyl",
+                "range": [
+                    199,
+                    207
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.989
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "fentanyl",
+                "code": "4337",
+                "cui": "C0015846",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Fentanyl",
+                "range": [
+                    199,
+                    207
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.989
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            }
+        ],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "Small left colon polyp",
+                "range": [
+                    72,
+                    94
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "colitis",
+                "range": [
+                    263,
+                    270
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "64226004",
+                "cui": "C0009319",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Colitis"
+            },
+            {
+                "text": "polyp",
+                "range": [
+                    390,
+                    395
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "441456002",
+                "cui": "C0032584",
+                "tui": "T190",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "polyps"
+            },
+            {
+                "text": "colitis",
+                "range": [
+                    1019,
+                    1026
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "64226004",
+                "cui": "C0009319",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Colitis"
+            },
+            {
+                "text": "Small",
+                "range": [
+                    1271,
+                    1276
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "left colon polyp",
+                "range": [
+                    1278,
+                    1294
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "intermittent\ncolitis-like symptoms and",
+                "range": [
+                    1313,
+                    1351
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.003,
+        "uncertain_count": 0,
+        "narrow_band_ratio": 0.0,
+        "uncertain_tokens": {},
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "colitis",
+                    [
+                        37,
+                        44
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Small",
+                    [
+                        72,
+                        77
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "left",
+                    [
+                        78,
+                        82
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "colon",
+                    [
+                        83,
+                        88
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "polyp",
+                    [
+                        89,
+                        94
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "colitis",
+                    [
+                        263,
+                        270
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "problems",
+                    [
+                        305,
+                        313
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "bleeding",
+                    [
+                        319,
+                        327
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "polyp",
+                    [
+                        390,
+                        395
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "colitis",
+                    [
+                        1019,
+                        1026
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Small",
+                    [
+                        1271,
+                        1276
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "left",
+                    [
+                        1278,
+                        1282
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "colon",
+                    [
+                        1283,
+                        1288
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "polyp",
+                    [
+                        1289,
+                        1294
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "intermittent",
+                    [
+                        1313,
+                        1325
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "colitis-like",
+                    [
+                        1326,
+                        1338
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "symptoms",
+                    [
+                        1339,
+                        1347
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "and",
+                    [
+                        1348,
+                        1351
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "bleeding",
+                    [
+                        1352,
+                        1360
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    ".",
+                    [
+                        1360,
+                        1361
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.462,
+                    "colitis",
+                    [
+                        37,
+                        44
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.912,
+                    "Small",
+                    [
+                        72,
+                        77
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.912,
+                    "left",
+                    [
+                        78,
+                        82
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.88,
+                    "colon",
+                    [
+                        83,
+                        88
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.87,
+                    "polyp",
+                    [
+                        89,
+                        94
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.711,
+                    "colitis",
+                    [
+                        263,
+                        270
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.537,
+                    "problems",
+                    [
+                        305,
+                        313
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.577,
+                    "bleeding",
+                    [
+                        319,
+                        327
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.627,
+                    "polyp",
+                    [
+                        390,
+                        395
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.576,
+                    "colitis",
+                    [
+                        1019,
+                        1026
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.814,
+                    "Small",
+                    [
+                        1271,
+                        1276
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.588,
+                    "left",
+                    [
+                        1278,
+                        1282
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.78,
+                    "colon",
+                    [
+                        1283,
+                        1288
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.681,
+                    "polyp",
+                    [
+                        1289,
+                        1294
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.479,
+                    "intermittent",
+                    [
+                        1313,
+                        1325
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.746,
+                    "colitis-like",
+                    [
+                        1326,
+                        1338
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.844,
+                    "symptoms",
+                    [
+                        1339,
+                        1347
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.538,
+                    "and",
+                    [
+                        1348,
+                        1351
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.821,
+                    "bleeding",
+                    [
+                        1352,
+                        1360
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.438,
+                    ".",
+                    [
+                        1360,
+                        1361
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.119,
+        "uncertain_token_count": 4,
+        "narrow_band_ratio": 0.016,
+        "uncertain_tokens": {
+            "DIAGNOSIS": [
+                [
+                    0.462,
+                    "colitis",
+                    [
+                        37,
+                        44
+                    ]
+                ]
+            ],
+            "NA": [
+                [
+                    0.517,
+                    "intermittent",
+                    [
+                        292,
+                        304
+                    ]
+                ]
+            ],
+            "PROBLEM": [
+                [
+                    0.479,
+                    "intermittent",
+                    [
+                        1313,
+                        1325
+                    ]
+                ],
+                [
+                    0.438,
+                    ".",
+                    [
+                        1360,
+                        1361
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

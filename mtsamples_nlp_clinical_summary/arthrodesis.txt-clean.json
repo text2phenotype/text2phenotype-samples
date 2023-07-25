@@ -1,0 +1,625 @@
+{
+    "file": "arthrodesis.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "Marcaine",
+                "code": "1012397",
+                "cui": "C2945665",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Marcaine",
+                "range": [
+                    402,
+                    410
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.934
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "Marcaine",
+                "code": "1012397",
+                "cui": "C2945665",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Marcaine",
+                "range": [
+                    3118,
+                    3126
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.999
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            }
+        ],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "Congenital myotonic muscular dystrophy with\nbilateral planovalgus feet",
+                "range": [
+                    26,
+                    96
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "Congenital myotonic muscular dystrophy with\nbilateral planovalgus",
+                "range": [
+                    124,
+                    189
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "feet",
+                "range": [
+                    769,
+                    773
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "planovalgus deformity",
+                "range": [
+                    833,
+                    854
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "casts",
+                "range": [
+                    3481,
+                    3486
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.009,
+        "uncertain_count": 4,
+        "narrow_band_ratio": 0.006,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.634,
+                    "autograft",
+                    [
+                        991,
+                        1000
+                    ]
+                ],
+                [
+                    0.593,
+                    "local",
+                    [
+                        3127,
+                        3132
+                    ]
+                ]
+            ],
+            "MED": [
+                [
+                    0.606,
+                    "Ancef",
+                    [
+                        1653,
+                        1658
+                    ]
+                ],
+                [
+                    0.642,
+                    "Steri-Strips",
+                    [
+                        3191,
+                        3203
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "Congenital",
+                    [
+                        26,
+                        36
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "myotonic",
+                    [
+                        37,
+                        45
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "muscular",
+                    [
+                        46,
+                        54
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "dystrophy",
+                    [
+                        55,
+                        64
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "with",
+                    [
+                        65,
+                        69
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "bilateral",
+                    [
+                        70,
+                        79
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "planovalgus",
+                    [
+                        80,
+                        91
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "feet",
+                    [
+                        92,
+                        96
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Congenital",
+                    [
+                        124,
+                        134
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "myotonic",
+                    [
+                        135,
+                        143
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "muscular",
+                    [
+                        144,
+                        152
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "dystrophy",
+                    [
+                        153,
+                        162
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "with",
+                    [
+                        163,
+                        167
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "bilateral",
+                    [
+                        168,
+                        177
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "planovalgus",
+                    [
+                        178,
+                        189
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "feet",
+                    [
+                        769,
+                        773
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "feet",
+                    [
+                        806,
+                        810
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "pain",
+                    [
+                        811,
+                        815
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "planovalgus",
+                    [
+                        833,
+                        844
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "deformity",
+                    [
+                        845,
+                        854
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "casts",
+                    [
+                        3481,
+                        3486
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.938,
+                    "Congenital",
+                    [
+                        26,
+                        36
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.878,
+                    "myotonic",
+                    [
+                        37,
+                        45
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.841,
+                    "muscular",
+                    [
+                        46,
+                        54
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.739,
+                    "dystrophy",
+                    [
+                        55,
+                        64
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.572,
+                    "with",
+                    [
+                        65,
+                        69
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.59,
+                    "bilateral",
+                    [
+                        70,
+                        79
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.693,
+                    "planovalgus",
+                    [
+                        80,
+                        91
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.549,
+                    "feet",
+                    [
+                        92,
+                        96
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.942,
+                    "Congenital",
+                    [
+                        124,
+                        134
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.898,
+                    "myotonic",
+                    [
+                        135,
+                        143
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.873,
+                    "muscular",
+                    [
+                        144,
+                        152
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.778,
+                    "dystrophy",
+                    [
+                        153,
+                        162
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.66,
+                    "with",
+                    [
+                        163,
+                        167
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.484,
+                    "bilateral",
+                    [
+                        168,
+                        177
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.416,
+                    "planovalgus",
+                    [
+                        178,
+                        189
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.433,
+                    "feet",
+                    [
+                        806,
+                        810
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.57,
+                    "pain",
+                    [
+                        811,
+                        815
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.624,
+                    "planovalgus",
+                    [
+                        833,
+                        844
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.77,
+                    "deformity",
+                    [
+                        845,
+                        854
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.432,
+                    "casts",
+                    [
+                        3481,
+                        3486
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.079,
+        "uncertain_token_count": 7,
+        "narrow_band_ratio": 0.01,
+        "uncertain_tokens": {
+            "DIAGNOSIS": [
+                [
+                    0.484,
+                    "bilateral",
+                    [
+                        168,
+                        177
+                    ]
+                ],
+                [
+                    0.433,
+                    "feet",
+                    [
+                        806,
+                        810
+                    ]
+                ],
+                [
+                    0.432,
+                    "casts",
+                    [
+                        3481,
+                        3486
+                    ]
+                ]
+            ],
+            "PROBLEM": [
+                [
+                    0.416,
+                    "planovalgus",
+                    [
+                        178,
+                        189
+                    ]
+                ]
+            ],
+            "NA": [
+                [
+                    0.415,
+                    "feet",
+                    [
+                        190,
+                        194
+                    ]
+                ],
+                [
+                    0.365,
+                    "feet",
+                    [
+                        769,
+                        773
+                    ]
+                ],
+                [
+                    0.436,
+                    "long-leg",
+                    [
+                        3472,
+                        3480
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

@@ -1,0 +1,123 @@
+{
+    "file": "diagnostic-mammogram.txt-clean.txt",
+    "text2summary": {
+        "Medication": [],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "outer",
+                "range": [
+                    641,
+                    646
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "mm/dd/yy",
+                "range": [
+                    903,
+                    911
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "48611009",
+                "cui": "C0022595",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Keratosis Follicularis"
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.002,
+        "uncertain_count": 0,
+        "narrow_band_ratio": 0.0,
+        "uncertain_tokens": {},
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "nodule",
+                    [
+                        621,
+                        627
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "outer",
+                    [
+                        641,
+                        646
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "mm/dd/yy",
+                    [
+                        903,
+                        911
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.61,
+                    "nodule",
+                    [
+                        621,
+                        627
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.435,
+                    "mm/dd/yy",
+                    [
+                        903,
+                        911
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.197,
+        "uncertain_token_count": 2,
+        "narrow_band_ratio": 0.01,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.519,
+                    "outer",
+                    [
+                        641,
+                        646
+                    ]
+                ]
+            ],
+            "PROBLEM": [
+                [
+                    0.435,
+                    "mm/dd/yy",
+                    [
+                        903,
+                        911
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

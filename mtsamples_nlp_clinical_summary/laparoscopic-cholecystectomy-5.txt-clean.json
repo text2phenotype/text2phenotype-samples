@@ -1,0 +1,164 @@
+{
+    "file": "laparoscopic-cholecystectomy-5.txt-clean.txt",
+    "text2summary": {
+        "Medication": [],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "Biliary colic",
+                "range": [
+                    26,
+                    39
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "102628000",
+                "cui": "C0151824",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Biliary Colic"
+            },
+            {
+                "text": "Biliary colic",
+                "range": [
+                    67,
+                    80
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "37389005",
+                "cui": "C0151824",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Biliary Colic"
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.013,
+        "uncertain_count": 2,
+        "narrow_band_ratio": 0.006,
+        "uncertain_tokens": {
+            "MED": [
+                [
+                    0.652,
+                    "Marcaine",
+                    [
+                        417,
+                        425
+                    ]
+                ]
+            ],
+            "NA": [
+                [
+                    0.502,
+                    "electrocautery",
+                    [
+                        1299,
+                        1313
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "Biliary",
+                    [
+                        26,
+                        33
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "colic",
+                    [
+                        34,
+                        39
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Biliary",
+                    [
+                        67,
+                        74
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "colic",
+                    [
+                        75,
+                        80
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.468,
+                    "Biliary",
+                    [
+                        26,
+                        33
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.656,
+                    "colic",
+                    [
+                        34,
+                        39
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.773,
+                    "Biliary",
+                    [
+                        67,
+                        74
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.68,
+                    "colic",
+                    [
+                        75,
+                        80
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.048,
+        "uncertain_token_count": 1,
+        "narrow_band_ratio": 0.003,
+        "uncertain_tokens": {
+            "DIAGNOSIS": [
+                [
+                    0.468,
+                    "Biliary",
+                    [
+                        26,
+                        33
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

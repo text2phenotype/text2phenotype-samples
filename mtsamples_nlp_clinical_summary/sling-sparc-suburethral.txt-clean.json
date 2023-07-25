@@ -1,0 +1,493 @@
+{
+    "file": "sling-sparc-suburethral.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "Betadine",
+                "code": "202750",
+                "cui": "C0699524",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Betadine",
+                "range": [
+                    647,
+                    655
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.995
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "Betadine",
+                "code": "202750",
+                "cui": "C0699524",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Betadine",
+                "range": [
+                    647,
+                    655
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.995
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "lidocaine",
+                "code": "6387",
+                "cui": "C0023660",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Lidocaine",
+                "range": [
+                    898,
+                    907
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.999
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [
+                    "0.50",
+                    892,
+                    896
+                ],
+                "medStrengthUnit": [
+                    "%",
+                    896,
+                    897
+                ]
+            },
+            {
+                "text": "lidocaine",
+                "code": "6387",
+                "cui": "C0023660",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Lidocaine",
+                "range": [
+                    898,
+                    907
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.999
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [
+                    "0.50",
+                    892,
+                    896
+                ],
+                "medStrengthUnit": [
+                    "%",
+                    896,
+                    897
+                ]
+            }
+        ],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "Stress urinary incontinence",
+                "range": [
+                    19,
+                    46
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "22220005",
+                "cui": "C0042025",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Urinary Stress Incontinence"
+            },
+            {
+                "text": "Stress urinary incontinence",
+                "range": [
+                    67,
+                    94
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "22220005",
+                "cui": "C0042025",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Urinary Stress Incontinence"
+            },
+            {
+                "text": "stress urinary incontinence",
+                "range": [
+                    257,
+                    284
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "22220005",
+                "cui": "C0042025",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Urinary Stress Incontinence"
+            },
+            {
+                "text": "stab",
+                "range": [
+                    1055,
+                    1059
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "425322008",
+                "cui": "C0043255",
+                "tui": "T037",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Wounds, Stab"
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.019,
+        "uncertain_count": 5,
+        "narrow_band_ratio": 0.015,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.545,
+                    "anesthetic",
+                    [
+                        523,
+                        533
+                    ]
+                ],
+                [
+                    0.631,
+                    "anesthetic",
+                    [
+                        1030,
+                        1040
+                    ]
+                ],
+                [
+                    0.531,
+                    "solution",
+                    [
+                        1041,
+                        1049
+                    ]
+                ],
+                [
+                    0.609,
+                    "SPARC",
+                    [
+                        1526,
+                        1531
+                    ]
+                ]
+            ],
+            "MED": [
+                [
+                    0.632,
+                    "epinephrine",
+                    [
+                        929,
+                        940
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "Stress",
+                    [
+                        19,
+                        25
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "urinary",
+                    [
+                        26,
+                        33
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "incontinence",
+                    [
+                        34,
+                        46
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Stress",
+                    [
+                        67,
+                        73
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "urinary",
+                    [
+                        74,
+                        81
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "incontinence",
+                    [
+                        82,
+                        94
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "urethral",
+                    [
+                        233,
+                        241
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "hypermobility",
+                    [
+                        242,
+                        255
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "stress",
+                    [
+                        257,
+                        263
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "urinary",
+                    [
+                        264,
+                        271
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "incontinence",
+                    [
+                        272,
+                        284
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "stab",
+                    [
+                        1055,
+                        1059
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.784,
+                    "Stress",
+                    [
+                        19,
+                        25
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.632,
+                    "urinary",
+                    [
+                        26,
+                        33
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.487,
+                    "incontinence",
+                    [
+                        34,
+                        46
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.742,
+                    "Stress",
+                    [
+                        67,
+                        73
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.602,
+                    "urinary",
+                    [
+                        74,
+                        81
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.476,
+                    "incontinence",
+                    [
+                        82,
+                        94
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.542,
+                    "urethral",
+                    [
+                        233,
+                        241
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.573,
+                    "hypermobility",
+                    [
+                        242,
+                        255
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.517,
+                    "stress",
+                    [
+                        257,
+                        263
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.573,
+                    "urinary",
+                    [
+                        264,
+                        271
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.44,
+                    "incontinence",
+                    [
+                        272,
+                        284
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.547,
+                    "stab",
+                    [
+                        1055,
+                        1059
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.121,
+        "uncertain_token_count": 4,
+        "narrow_band_ratio": 0.012,
+        "uncertain_tokens": {
+            "DIAGNOSIS": [
+                [
+                    0.487,
+                    "incontinence",
+                    [
+                        34,
+                        46
+                    ]
+                ],
+                [
+                    0.476,
+                    "incontinence",
+                    [
+                        82,
+                        94
+                    ]
+                ],
+                [
+                    0.517,
+                    "stress",
+                    [
+                        257,
+                        263
+                    ]
+                ],
+                [
+                    0.44,
+                    "incontinence",
+                    [
+                        272,
+                        284
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

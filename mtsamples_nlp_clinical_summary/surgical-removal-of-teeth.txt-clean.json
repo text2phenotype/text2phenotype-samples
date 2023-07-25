@@ -1,0 +1,445 @@
+{
+    "file": "surgical-removal-of-teeth.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "antibiotics",
+                "code": null,
+                "cui": null,
+                "tui": null,
+                "vocab": null,
+                "polarity": "positive",
+                "preferredText": null,
+                "range": [
+                    946,
+                    957
+                ],
+                "prob": {
+                    "MED": 0.973
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "antibiotics",
+                "code": null,
+                "cui": null,
+                "tui": null,
+                "vocab": null,
+                "polarity": "positive",
+                "preferredText": null,
+                "range": [
+                    1302,
+                    1313
+                ],
+                "prob": {
+                    "MED": 0.983
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "latex",
+                "code": "1314891",
+                "cui": "C0023115",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Latex",
+                "range": [
+                    2512,
+                    2517
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.902
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "peridex",
+                "code": "224891",
+                "cui": "C0728727",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Peridex",
+                "range": [
+                    2697,
+                    2704
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.941
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "peridex",
+                "code": "224891",
+                "cui": "C0728727",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Peridex",
+                "range": [
+                    2697,
+                    2704
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.941
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            }
+        ],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "facial abscess",
+                "range": [
+                    1612,
+                    1626
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "200751004",
+                "cui": "C0263097",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Abscess of face"
+            },
+            {
+                "text": "anesthetics",
+                "range": [
+                    2054,
+                    2065
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "abscess",
+                "range": [
+                    3314,
+                    3321
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "44132006",
+                "cui": "C0000833",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Abscess"
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.013,
+        "uncertain_count": 5,
+        "narrow_band_ratio": 0.006,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.609,
+                    "Oral",
+                    [
+                        1315,
+                        1319
+                    ]
+                ],
+                [
+                    0.587,
+                    "ASA",
+                    [
+                        1896,
+                        1899
+                    ]
+                ]
+            ],
+            "MED": [
+                [
+                    0.627,
+                    "sponge",
+                    [
+                        2518,
+                        2524
+                    ]
+                ],
+                [
+                    0.668,
+                    "pack",
+                    [
+                        2574,
+                        2578
+                    ]
+                ],
+                [
+                    0.697,
+                    "water",
+                    [
+                        3780,
+                        3785
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "toothache",
+                    [
+                        851,
+                        860
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "tooth",
+                    [
+                        865,
+                        870
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "pain",
+                    [
+                        871,
+                        875
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "swelling",
+                    [
+                        1397,
+                        1405
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "tooth",
+                    [
+                        1410,
+                        1415
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "pain",
+                    [
+                        1416,
+                        1420
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "facial",
+                    [
+                        1612,
+                        1618
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "abscess",
+                    [
+                        1619,
+                        1626
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "anesthetics",
+                    [
+                        2054,
+                        2065
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "abscess",
+                    [
+                        3314,
+                        3321
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.737,
+                    "toothache",
+                    [
+                        851,
+                        860
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.602,
+                    "tooth",
+                    [
+                        865,
+                        870
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.549,
+                    "pain",
+                    [
+                        871,
+                        875
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.464,
+                    "swelling",
+                    [
+                        1397,
+                        1405
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.394,
+                    "tooth",
+                    [
+                        1410,
+                        1415
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.457,
+                    "pain",
+                    [
+                        1416,
+                        1420
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.542,
+                    "facial",
+                    [
+                        1612,
+                        1618
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.502,
+                    "anesthetics",
+                    [
+                        2054,
+                        2065
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.568,
+                    "abscess",
+                    [
+                        3314,
+                        3321
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.069,
+        "uncertain_token_count": 5,
+        "narrow_band_ratio": 0.006,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.493,
+                    "facial",
+                    [
+                        1390,
+                        1396
+                    ]
+                ]
+            ],
+            "DIAGNOSIS": [
+                [
+                    0.464,
+                    "swelling",
+                    [
+                        1397,
+                        1405
+                    ]
+                ],
+                [
+                    0.394,
+                    "tooth",
+                    [
+                        1410,
+                        1415
+                    ]
+                ],
+                [
+                    0.502,
+                    "anesthetics",
+                    [
+                        2054,
+                        2065
+                    ]
+                ]
+            ],
+            "PROBLEM": [
+                [
+                    0.457,
+                    "pain",
+                    [
+                        1416,
+                        1420
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

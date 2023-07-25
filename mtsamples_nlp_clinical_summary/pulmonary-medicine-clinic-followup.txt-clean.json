@@ -1,0 +1,254 @@
+{
+    "file": "pulmonary-medicine-clinic-followup.txt-clean.txt",
+    "text2summary": {
+        "Medication": [],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "COPD",
+                "range": [
+                    94,
+                    98
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "13645005",
+                "cui": "C0024117",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Chronic Obstructive Airway Disease"
+            },
+            {
+                "text": "emphysema",
+                "range": [
+                    103,
+                    112
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "87433001",
+                "cui": "C0034067",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Pulmonary Emphysema"
+            },
+            {
+                "text": "pulmonary disease",
+                "range": [
+                    544,
+                    561
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "occasional",
+                "range": [
+                    628,
+                    638
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.0,
+        "uncertain_count": 0,
+        "narrow_band_ratio": 0.0,
+        "uncertain_tokens": {},
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "COPD",
+                    [
+                        94,
+                        98
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "emphysema",
+                    [
+                        103,
+                        112
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "activity",
+                    [
+                        515,
+                        523
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "pulmonary",
+                    [
+                        544,
+                        553
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "disease",
+                    [
+                        554,
+                        561
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "occasional",
+                    [
+                        628,
+                        638
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "cough",
+                    [
+                        639,
+                        644
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.981,
+                    "COPD",
+                    [
+                        94,
+                        98
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.916,
+                    "emphysema",
+                    [
+                        103,
+                        112
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.53,
+                    "activity",
+                    [
+                        515,
+                        523
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.677,
+                    "pulmonary",
+                    [
+                        544,
+                        553
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.693,
+                    "disease",
+                    [
+                        554,
+                        561
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.516,
+                    "occasional",
+                    [
+                        628,
+                        638
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.593,
+                    "cough",
+                    [
+                        639,
+                        644
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.205,
+        "uncertain_token_count": 4,
+        "narrow_band_ratio": 0.029,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.509,
+                    "and",
+                    [
+                        99,
+                        102
+                    ]
+                ],
+                [
+                    0.528,
+                    "psychiatric",
+                    [
+                        208,
+                        219
+                    ]
+                ]
+            ],
+            "PROBLEM": [
+                [
+                    0.53,
+                    "activity",
+                    [
+                        515,
+                        523
+                    ]
+                ]
+            ],
+            "DIAGNOSIS": [
+                [
+                    0.516,
+                    "occasional",
+                    [
+                        628,
+                        638
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

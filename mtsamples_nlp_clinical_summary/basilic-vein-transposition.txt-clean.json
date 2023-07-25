@@ -1,0 +1,305 @@
+{
+    "file": "basilic-vein-transposition.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "luminal",
+                "code": "847470",
+                "cui": "C0699493",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Luminal",
+                "range": [
+                    1522,
+                    1529
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.942
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "luminal",
+                "code": "847470",
+                "cui": "C0699493",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Luminal",
+                "range": [
+                    1522,
+                    1529
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.942
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            }
+        ],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "End-stage renal disease",
+                "range": [
+                    26,
+                    49
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "433146000",
+                "cui": "C2316810",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Chronic kidney disease stage 5"
+            },
+            {
+                "text": "End-stage renal disease",
+                "range": [
+                    123,
+                    146
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "433146000",
+                "cui": "C2316810",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Chronic kidney disease stage 5"
+            },
+            {
+                "text": "brachiobasilic AV fistula",
+                "range": [
+                    496,
+                    521
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.011,
+        "uncertain_count": 1,
+        "narrow_band_ratio": 0.002,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.622,
+                    "fibrin",
+                    [
+                        2014,
+                        2020
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "End-stage",
+                    [
+                        26,
+                        35
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "renal",
+                    [
+                        36,
+                        41
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "disease",
+                    [
+                        42,
+                        49
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "End-stage",
+                    [
+                        123,
+                        132
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "renal",
+                    [
+                        133,
+                        138
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "disease",
+                    [
+                        139,
+                        146
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "brachiobasilic",
+                    [
+                        496,
+                        510
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "AV",
+                    [
+                        511,
+                        513
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "fistula",
+                    [
+                        514,
+                        521
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.929,
+                    "End-stage",
+                    [
+                        26,
+                        35
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.945,
+                    "renal",
+                    [
+                        36,
+                        41
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.91,
+                    "disease",
+                    [
+                        42,
+                        49
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.972,
+                    "End-stage",
+                    [
+                        123,
+                        132
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.968,
+                    "renal",
+                    [
+                        133,
+                        138
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.952,
+                    "disease",
+                    [
+                        139,
+                        146
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.791,
+                    "brachiobasilic",
+                    [
+                        496,
+                        510
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.948,
+                    "AV",
+                    [
+                        511,
+                        513
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.927,
+                    "fistula",
+                    [
+                        514,
+                        521
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.087,
+        "uncertain_token_count": 1,
+        "narrow_band_ratio": 0.002,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.508,
+                    "fistula",
+                    [
+                        363,
+                        370
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

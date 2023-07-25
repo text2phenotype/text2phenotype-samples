@@ -1,0 +1,269 @@
+{
+    "file": "echocardiogram-1.txt-clean.txt",
+    "text2summary": {
+        "Medication": [],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "tricuspid\nregurgitation",
+                "range": [
+                    691,
+                    714
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "111287006",
+                "cui": "C0040961",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Tricuspid Valve Insufficiency"
+            },
+            {
+                "text": "left atrial enlargement",
+                "range": [
+                    849,
+                    872
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "446813000",
+                "cui": "C0238705",
+                "tui": "T190",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Left atrial hypertrophy"
+            },
+            {
+                "text": "tricuspid regurgitation",
+                "range": [
+                    884,
+                    907
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "111287006",
+                "cui": "C0040961",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Tricuspid Valve Insufficiency"
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.0,
+        "uncertain_count": 0,
+        "narrow_band_ratio": 0.0,
+        "uncertain_tokens": {},
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "tricuspid",
+                    [
+                        691,
+                        700
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "regurgitation",
+                    [
+                        701,
+                        714
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "left",
+                    [
+                        849,
+                        853
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "atrial",
+                    [
+                        854,
+                        860
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "enlargement",
+                    [
+                        861,
+                        872
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "tricuspid",
+                    [
+                        884,
+                        893
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "regurgitation",
+                    [
+                        894,
+                        907
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "pulmonary",
+                    [
+                        930,
+                        939
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "systolic",
+                    [
+                        940,
+                        948
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "pressure",
+                    [
+                        949,
+                        957
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.562,
+                    "tricuspid",
+                    [
+                        691,
+                        700
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.839,
+                    "left",
+                    [
+                        849,
+                        853
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.874,
+                    "atrial",
+                    [
+                        854,
+                        860
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.93,
+                    "enlargement",
+                    [
+                        861,
+                        872
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.7,
+                    "tricuspid",
+                    [
+                        884,
+                        893
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.702,
+                    "regurgitation",
+                    [
+                        894,
+                        907
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.422,
+                    "pulmonary",
+                    [
+                        930,
+                        939
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.523,
+                    "systolic",
+                    [
+                        940,
+                        948
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.574,
+                    "pressure",
+                    [
+                        949,
+                        957
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.105,
+        "uncertain_token_count": 2,
+        "narrow_band_ratio": 0.012,
+        "uncertain_tokens": {
+            "PROBLEM": [
+                [
+                    0.422,
+                    "pulmonary",
+                    [
+                        930,
+                        939
+                    ]
+                ],
+                [
+                    0.523,
+                    "systolic",
+                    [
+                        940,
+                        948
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

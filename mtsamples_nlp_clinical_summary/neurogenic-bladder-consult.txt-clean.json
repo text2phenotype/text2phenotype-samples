@@ -1,0 +1,467 @@
+{
+    "file": "neurogenic-bladder-consult.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "Keflex",
+                "code": "203167",
+                "cui": "C0700517",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Keflex",
+                "range": [
+                    1807,
+                    1813
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.97
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "Keflex",
+                "code": "203167",
+                "cui": "C0700517",
+                "tui": "T195",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Keflex",
+                "range": [
+                    1807,
+                    1813
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.97
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            }
+        ],
+        "Allergy": [],
+        "Lab": [
+            {
+                "code": "LP14355-9",
+                "cui": "C0010294",
+                "tui": "T034",
+                "vocab": "LNC",
+                "polarity": "positive",
+                "text": "Creatinine",
+                "preferredText": "CREATININE",
+                "range": [
+                    915,
+                    925
+                ]
+            }
+        ],
+        "DiseaseDisorder": [
+            {
+                "text": "'s",
+                "range": [
+                    88,
+                    90
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "possible urosepsis",
+                "range": [
+                    286,
+                    304
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "Staphylococcus epidermidis",
+                "range": [
+                    353,
+                    379
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "hydronephrosis",
+                "range": [
+                    842,
+                    856
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "43064006",
+                "cui": "C0020295",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Hydronephrosis"
+            },
+            {
+                "text": "Neurogenic bladder",
+                "range": [
+                    1114,
+                    1132
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "397732007",
+                "cui": "C0005697",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Neurogenic Urinary Bladder"
+            },
+            {
+                "text": "urinary tract infection",
+                "range": [
+                    1321,
+                    1344
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "68566005",
+                "cui": "C0042029",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Urinary tract infection"
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.007,
+        "uncertain_count": 1,
+        "narrow_band_ratio": 0.003,
+        "uncertain_tokens": {
+            "MED": [
+                [
+                    0.6,
+                    "steroids",
+                    [
+                        1428,
+                        1436
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "'s",
+                    [
+                        88,
+                        90
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "fever",
+                    [
+                        269,
+                        274
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "weakness",
+                    [
+                        276,
+                        284
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "possible",
+                    [
+                        286,
+                        294
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "urosepsis",
+                    [
+                        295,
+                        304
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Staphylococcus",
+                    [
+                        353,
+                        367
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "epidermidis",
+                    [
+                        368,
+                        379
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "hydronephrosis",
+                    [
+                        842,
+                        856
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Neurogenic",
+                    [
+                        1114,
+                        1124
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "bladder",
+                    [
+                        1125,
+                        1132
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "urinary",
+                    [
+                        1321,
+                        1328
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "tract",
+                    [
+                        1329,
+                        1334
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "infection",
+                    [
+                        1335,
+                        1344
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.52,
+                    "'s",
+                    [
+                        88,
+                        90
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.797,
+                    "fever",
+                    [
+                        269,
+                        274
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.748,
+                    "weakness",
+                    [
+                        276,
+                        284
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.653,
+                    "urosepsis",
+                    [
+                        295,
+                        304
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.54,
+                    "Staphylococcus",
+                    [
+                        353,
+                        367
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.475,
+                    "epidermidis",
+                    [
+                        368,
+                        379
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.539,
+                    "hydronephrosis",
+                    [
+                        842,
+                        856
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.6,
+                    "Neurogenic",
+                    [
+                        1114,
+                        1124
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.564,
+                    "bladder",
+                    [
+                        1125,
+                        1132
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.861,
+                    "urinary",
+                    [
+                        1321,
+                        1328
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.886,
+                    "tract",
+                    [
+                        1329,
+                        1334
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.774,
+                    "infection",
+                    [
+                        1335,
+                        1344
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.098,
+        "uncertain_token_count": 6,
+        "narrow_band_ratio": 0.015,
+        "uncertain_tokens": {
+            "DIAGNOSIS": [
+                [
+                    0.52,
+                    "'s",
+                    [
+                        88,
+                        90
+                    ]
+                ],
+                [
+                    0.475,
+                    "epidermidis",
+                    [
+                        368,
+                        379
+                    ]
+                ]
+            ],
+            "NA": [
+                [
+                    0.463,
+                    "neurogenic",
+                    [
+                        137,
+                        147
+                    ]
+                ],
+                [
+                    0.47,
+                    "bladder",
+                    [
+                        148,
+                        155
+                    ]
+                ],
+                [
+                    0.525,
+                    "ER",
+                    [
+                        256,
+                        258
+                    ]
+                ],
+                [
+                    0.415,
+                    "possible",
+                    [
+                        286,
+                        294
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

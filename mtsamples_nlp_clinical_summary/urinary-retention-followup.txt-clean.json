@@ -1,0 +1,779 @@
+{
+    "file": "urinary-retention-followup.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "Lasix",
+                "code": "202991",
+                "cui": "C0699992",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Lasix",
+                "range": [
+                    325,
+                    330
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.989
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [
+                    "day"
+                ],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "Lasix",
+                "code": "202991",
+                "cui": "C0699992",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Lasix",
+                "range": [
+                    325,
+                    330
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.989
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [
+                    "day"
+                ],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "Flomax",
+                "code": "190283",
+                "cui": "C0662903",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Flomax",
+                "range": [
+                    996,
+                    1002
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.997
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "Flomax",
+                "code": "190283",
+                "cui": "C0662903",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Flomax",
+                "range": [
+                    996,
+                    1002
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.997
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            }
+        ],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "position",
+                "range": [
+                    210,
+                    218
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "her vaginal\ncream",
+                "range": [
+                    516,
+                    533
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "protrusion in the",
+                "range": [
+                    578,
+                    595
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "112639008",
+                "cui": "C0333056",
+                "tui": "T190",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "protrusion"
+            },
+            {
+                "text": "prolapse",
+                "range": [
+                    636,
+                    644
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "29696001",
+                "cui": "C0033377",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Ptosis"
+            },
+            {
+                "text": "vaginal\nreconstruction",
+                "range": [
+                    723,
+                    745
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "possible",
+                "range": [
+                    765,
+                    773
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "lower extremity edema",
+                "range": [
+                    878,
+                    899
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.008,
+        "uncertain_count": 1,
+        "narrow_band_ratio": 0.004,
+        "uncertain_tokens": {
+            "MED": [
+                [
+                    0.635,
+                    "Urecholine",
+                    [
+                        1025,
+                        1035
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "urinary",
+                    [
+                        137,
+                        144
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "incontinence",
+                    [
+                        145,
+                        157
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "position",
+                    [
+                        210,
+                        218
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "urge",
+                    [
+                        231,
+                        235
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "incontinence",
+                    [
+                        236,
+                        248
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "her",
+                    [
+                        516,
+                        519
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "vaginal",
+                    [
+                        520,
+                        527
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "cream",
+                    [
+                        528,
+                        533
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "protrusion",
+                    [
+                        578,
+                        588
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "in",
+                    [
+                        589,
+                        591
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "the",
+                    [
+                        592,
+                        595
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "prolapse",
+                    [
+                        636,
+                        644
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "retention",
+                    [
+                        696,
+                        705
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "of",
+                    [
+                        706,
+                        708
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "urine",
+                    [
+                        709,
+                        714
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "vaginal",
+                    [
+                        723,
+                        730
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "reconstruction",
+                    [
+                        731,
+                        745
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "possible",
+                    [
+                        765,
+                        773
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "vaginal",
+                    [
+                        774,
+                        781
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "prolapse",
+                    [
+                        782,
+                        790
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "lower",
+                    [
+                        878,
+                        883
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "extremity",
+                    [
+                        884,
+                        893
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "edema",
+                    [
+                        894,
+                        899
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.486,
+                    "urinary",
+                    [
+                        137,
+                        144
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.422,
+                    "incontinence",
+                    [
+                        145,
+                        157
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.509,
+                    "position",
+                    [
+                        210,
+                        218
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.526,
+                    "urge",
+                    [
+                        231,
+                        235
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.593,
+                    "incontinence",
+                    [
+                        236,
+                        248
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.522,
+                    "her",
+                    [
+                        516,
+                        519
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.565,
+                    "vaginal",
+                    [
+                        520,
+                        527
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.584,
+                    "protrusion",
+                    [
+                        578,
+                        588
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.432,
+                    "in",
+                    [
+                        589,
+                        591
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.451,
+                    "the",
+                    [
+                        592,
+                        595
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.615,
+                    "prolapse",
+                    [
+                        636,
+                        644
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.362,
+                    "retention",
+                    [
+                        696,
+                        705
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.4,
+                    "of",
+                    [
+                        706,
+                        708
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.596,
+                    "urine",
+                    [
+                        709,
+                        714
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.391,
+                    "vaginal",
+                    [
+                        723,
+                        730
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.554,
+                    "vaginal",
+                    [
+                        774,
+                        781
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.584,
+                    "prolapse",
+                    [
+                        782,
+                        790
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.643,
+                    "lower",
+                    [
+                        878,
+                        883
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.766,
+                    "extremity",
+                    [
+                        884,
+                        893
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.796,
+                    "edema",
+                    [
+                        894,
+                        899
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.209,
+        "uncertain_token_count": 18,
+        "narrow_band_ratio": 0.075,
+        "uncertain_tokens": {
+            "DIAGNOSIS": [
+                [
+                    0.486,
+                    "urinary",
+                    [
+                        137,
+                        144
+                    ]
+                ],
+                [
+                    0.422,
+                    "incontinence",
+                    [
+                        145,
+                        157
+                    ]
+                ],
+                [
+                    0.509,
+                    "position",
+                    [
+                        210,
+                        218
+                    ]
+                ],
+                [
+                    0.526,
+                    "urge",
+                    [
+                        231,
+                        235
+                    ]
+                ],
+                [
+                    0.432,
+                    "in",
+                    [
+                        589,
+                        591
+                    ]
+                ],
+                [
+                    0.451,
+                    "the",
+                    [
+                        592,
+                        595
+                    ]
+                ],
+                [
+                    0.362,
+                    "retention",
+                    [
+                        696,
+                        705
+                    ]
+                ],
+                [
+                    0.4,
+                    "of",
+                    [
+                        706,
+                        708
+                    ]
+                ]
+            ],
+            "NA": [
+                [
+                    0.522,
+                    "to",
+                    [
+                        198,
+                        200
+                    ]
+                ],
+                [
+                    0.451,
+                    "cream",
+                    [
+                        528,
+                        533
+                    ]
+                ],
+                [
+                    0.428,
+                    "difficulty",
+                    [
+                        543,
+                        553
+                    ]
+                ],
+                [
+                    0.448,
+                    "vagina",
+                    [
+                        596,
+                        602
+                    ]
+                ],
+                [
+                    0.425,
+                    "reconstruction",
+                    [
+                        731,
+                        745
+                    ]
+                ],
+                [
+                    0.426,
+                    "possible",
+                    [
+                        765,
+                        773
+                    ]
+                ],
+                [
+                    0.482,
+                    "the",
+                    [
+                        815,
+                        818
+                    ]
+                ],
+                [
+                    0.464,
+                    "ascites",
+                    [
+                        840,
+                        847
+                    ]
+                ]
+            ],
+            "PROBLEM": [
+                [
+                    0.522,
+                    "her",
+                    [
+                        516,
+                        519
+                    ]
+                ],
+                [
+                    0.391,
+                    "vaginal",
+                    [
+                        723,
+                        730
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

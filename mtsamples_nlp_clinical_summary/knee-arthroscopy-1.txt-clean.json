@@ -1,0 +1,189 @@
+{
+    "file": "knee-arthroscopy-1.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "Ancef",
+                "code": "203483",
+                "cui": "C0700926",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Ancef",
+                "range": [
+                    246,
+                    251
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.999
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [
+                    "1",
+                    252,
+                    253
+                ],
+                "medStrengthUnit": [
+                    "g",
+                    254,
+                    255
+                ]
+            },
+            {
+                "text": "Ancef",
+                "code": "203483",
+                "cui": "C0700926",
+                "tui": "T195",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Ancef",
+                "range": [
+                    246,
+                    251
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.999
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [
+                    "1",
+                    252,
+                    253
+                ],
+                "medStrengthUnit": [
+                    "g",
+                    254,
+                    255
+                ]
+            }
+        ],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "loose bodies",
+                "range": [
+                    788,
+                    800
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "20456003",
+                "cui": "C0701805",
+                "tui": "T190",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Loose body"
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.016,
+        "uncertain_count": 3,
+        "narrow_band_ratio": 0.011,
+        "uncertain_tokens": {
+            "MED": [
+                [
+                    0.567,
+                    "anesthetic",
+                    [
+                        233,
+                        243
+                    ]
+                ],
+                [
+                    0.588,
+                    "portal",
+                    [
+                        565,
+                        571
+                    ]
+                ]
+            ],
+            "NA": [
+                [
+                    0.582,
+                    "tools",
+                    [
+                        573,
+                        578
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "loose",
+                    [
+                        788,
+                        793
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "bodies",
+                    [
+                        794,
+                        800
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.547,
+                    "loose",
+                    [
+                        788,
+                        793
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.503,
+                    "bodies",
+                    [
+                        794,
+                        800
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.04,
+        "uncertain_token_count": 2,
+        "narrow_band_ratio": 0.007,
+        "uncertain_tokens": {
+            "DIAGNOSIS": [
+                [
+                    0.503,
+                    "bodies",
+                    [
+                        794,
+                        800
+                    ]
+                ]
+            ],
+            "NA": [
+                [
+                    0.466,
+                    "condition",
+                    [
+                        1388,
+                        1397
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

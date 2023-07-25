@@ -1,0 +1,273 @@
+{
+    "file": "shunt-revision-3.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "Xylocaine with\nepinephrine",
+                "code": "746946",
+                "cui": "C1968032",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Xylocaine with Epinephrine",
+                "range": [
+                    767,
+                    793
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.948
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "bacitracin",
+                "code": "1291",
+                "cui": "C0004599",
+                "tui": "T195",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Bacitracin",
+                "range": [
+                    2201,
+                    2211
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.998
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            }
+        ],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "ventriculoperitoneal",
+                "range": [
+                    34,
+                    54
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "ventriculoperitoneal",
+                "range": [
+                    96,
+                    116
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "increasing",
+                "range": [
+                    387,
+                    397
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.008,
+        "uncertain_count": 0,
+        "narrow_band_ratio": 0.0,
+        "uncertain_tokens": {},
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "PROBLEM": [
+                    "ventriculoperitoneal",
+                    [
+                        34,
+                        54
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "Blocked",
+                    [
+                        88,
+                        95
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "ventriculoperitoneal",
+                    [
+                        96,
+                        116
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "shunt",
+                    [
+                        117,
+                        122
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "irritability",
+                    [
+                        359,
+                        371
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "vomiting",
+                    [
+                        373,
+                        381
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "increasing",
+                    [
+                        387,
+                        397
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "seizures",
+                    [
+                        398,
+                        406
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "PROBLEM": [
+                    0.497,
+                    "ventriculoperitoneal",
+                    [
+                        34,
+                        54
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.657,
+                    "Blocked",
+                    [
+                        88,
+                        95
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.696,
+                    "ventriculoperitoneal",
+                    [
+                        96,
+                        116
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.546,
+                    "shunt",
+                    [
+                        117,
+                        122
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.649,
+                    "irritability",
+                    [
+                        359,
+                        371
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.848,
+                    "vomiting",
+                    [
+                        373,
+                        381
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.689,
+                    "increasing",
+                    [
+                        387,
+                        397
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.731,
+                    "seizures",
+                    [
+                        398,
+                        406
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.113,
+        "uncertain_token_count": 1,
+        "narrow_band_ratio": 0.002,
+        "uncertain_tokens": {
+            "PROBLEM": [
+                [
+                    0.497,
+                    "ventriculoperitoneal",
+                    [
+                        34,
+                        54
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

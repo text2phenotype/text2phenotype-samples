@@ -1,0 +1,227 @@
+{
+    "file": "carotid-endarterectomy-1.txt-clean.txt",
+    "text2summary": {
+        "Medication": [],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "artery\nstenosis",
+                "range": [
+                    70,
+                    85
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "64586002",
+                "cui": "C0007282",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Carotid Stenosis"
+            },
+            {
+                "text": "Right common",
+                "range": [
+                    113,
+                    125
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "artery stenosis",
+                "range": [
+                    157,
+                    172
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "64586002",
+                "cui": "C0007282",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Carotid Stenosis"
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.008,
+        "uncertain_count": 1,
+        "narrow_band_ratio": 0.002,
+        "uncertain_tokens": {
+            "MED": [
+                [
+                    0.547,
+                    "10-blade",
+                    [
+                        828,
+                        836
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "artery",
+                    [
+                        70,
+                        76
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "stenosis",
+                    [
+                        77,
+                        85
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Right",
+                    [
+                        113,
+                        118
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "common",
+                    [
+                        119,
+                        125
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "artery",
+                    [
+                        157,
+                        163
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "stenosis",
+                    [
+                        164,
+                        172
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.65,
+                    "Right",
+                    [
+                        113,
+                        118
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.636,
+                    "common",
+                    [
+                        119,
+                        125
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.522,
+                    "artery",
+                    [
+                        157,
+                        163
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.631,
+                    "stenosis",
+                    [
+                        164,
+                        172
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.049,
+        "uncertain_token_count": 6,
+        "narrow_band_ratio": 0.012,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.511,
+                    "carotid",
+                    [
+                        62,
+                        69
+                    ]
+                ],
+                [
+                    0.52,
+                    "artery",
+                    [
+                        70,
+                        76
+                    ]
+                ],
+                [
+                    0.475,
+                    "stenosis",
+                    [
+                        77,
+                        85
+                    ]
+                ],
+                [
+                    0.493,
+                    "carotid",
+                    [
+                        149,
+                        156
+                    ]
+                ],
+                [
+                    0.486,
+                    "shunt",
+                    [
+                        2424,
+                        2429
+                    ]
+                ]
+            ],
+            "DIAGNOSIS": [
+                [
+                    0.522,
+                    "artery",
+                    [
+                        157,
+                        163
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

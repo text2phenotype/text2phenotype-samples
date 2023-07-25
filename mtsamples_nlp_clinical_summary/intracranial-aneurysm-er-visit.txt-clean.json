@@ -1,0 +1,450 @@
+{
+    "file": "intracranial-aneurysm-er-visit.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "morphine",
+                "code": "7052",
+                "cui": "C0026549",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Morphine",
+                "range": [
+                    1219,
+                    1227
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.998
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "morphine",
+                "code": "7052",
+                "cui": "C0026549",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Morphine",
+                "range": [
+                    1219,
+                    1227
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.998
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            }
+        ],
+        "Allergy": [
+            {
+                "code": "7052",
+                "cui": "C0026549",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "text": "morphine",
+                "preferredText": "Morphine",
+                "range": [
+                    1219,
+                    1227
+                ]
+            }
+        ],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "aneurysm",
+                "range": [
+                    284,
+                    292
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "432119003",
+                "cui": "C0002940",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Aneurysm"
+            },
+            {
+                "text": "intracranial\nbleed",
+                "range": [
+                    1068,
+                    1086
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "mass",
+                "range": [
+                    1111,
+                    1115
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "no",
+                "range": [
+                    1117,
+                    1119
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "ED",
+                "range": [
+                    1390,
+                    1392
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "397803000",
+                "cui": "C0242350",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Erectile dysfunction"
+            },
+            {
+                "text": "Intracranial aneurysm",
+                "range": [
+                    1445,
+                    1466
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "128609009",
+                "cui": "C0007766",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Intracranial Aneurysm"
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.002,
+        "uncertain_count": 0,
+        "narrow_band_ratio": 0.0,
+        "uncertain_tokens": {},
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "Headache",
+                    [
+                        19,
+                        27
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "headache",
+                    [
+                        109,
+                        117
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "aneurysm",
+                    [
+                        284,
+                        292
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "intracranial",
+                    [
+                        1068,
+                        1080
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "bleed",
+                    [
+                        1081,
+                        1086
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "mass",
+                    [
+                        1111,
+                        1115
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    ",",
+                    [
+                        1115,
+                        1116
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "no",
+                    [
+                        1117,
+                        1119
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "headache",
+                    [
+                        1245,
+                        1253
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "ED",
+                    [
+                        1390,
+                        1392
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "Headache",
+                    [
+                        1425,
+                        1433
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Intracranial",
+                    [
+                        1445,
+                        1457
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "aneurysm",
+                    [
+                        1458,
+                        1466
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.587,
+                    "Headache",
+                    [
+                        19,
+                        27
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.803,
+                    "headache",
+                    [
+                        109,
+                        117
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.882,
+                    "aneurysm",
+                    [
+                        284,
+                        292
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.749,
+                    "intracranial",
+                    [
+                        1068,
+                        1080
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.745,
+                    "bleed",
+                    [
+                        1081,
+                        1086
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.751,
+                    "mass",
+                    [
+                        1111,
+                        1115
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.522,
+                    "no",
+                    [
+                        1117,
+                        1119
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.511,
+                    "headache",
+                    [
+                        1245,
+                        1253
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.549,
+                    "ED",
+                    [
+                        1390,
+                        1392
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.505,
+                    "Headache",
+                    [
+                        1425,
+                        1433
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.581,
+                    "Intracranial",
+                    [
+                        1445,
+                        1457
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.635,
+                    "aneurysm",
+                    [
+                        1458,
+                        1466
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.069,
+        "uncertain_token_count": 5,
+        "narrow_band_ratio": 0.016,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.507,
+                    "headaches",
+                    [
+                        379,
+                        388
+                    ]
+                ],
+                [
+                    0.521,
+                    ",",
+                    [
+                        1115,
+                        1116
+                    ]
+                ]
+            ],
+            "DIAGNOSIS": [
+                [
+                    0.522,
+                    "no",
+                    [
+                        1117,
+                        1119
+                    ]
+                ]
+            ],
+            "PROBLEM": [
+                [
+                    0.511,
+                    "headache",
+                    [
+                        1245,
+                        1253
+                    ]
+                ],
+                [
+                    0.505,
+                    "Headache",
+                    [
+                        1425,
+                        1433
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

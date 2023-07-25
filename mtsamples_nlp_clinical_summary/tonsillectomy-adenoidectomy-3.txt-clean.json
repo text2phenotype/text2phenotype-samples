@@ -1,0 +1,966 @@
+{
+    "file": "tonsillectomy-adenoidectomy-3.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "ropivacaine",
+                "code": "35780",
+                "cui": "C0073571",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "ropivacaine",
+                "range": [
+                    1950,
+                    1961
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.906
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [
+                    "0.5",
+                    1945,
+                    1948
+                ],
+                "medStrengthUnit": [
+                    "%",
+                    1948,
+                    1949
+                ]
+            },
+            {
+                "text": "ropivacaine",
+                "code": "35780",
+                "cui": "C0073571",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "ropivacaine",
+                "range": [
+                    1950,
+                    1961
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.906
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [
+                    "0.5",
+                    1945,
+                    1948
+                ],
+                "medStrengthUnit": [
+                    "%",
+                    1948,
+                    1949
+                ]
+            }
+        ],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "Obstructive adenotonsillar",
+                "range": [
+                    26,
+                    52
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "chronic recurrent pharyngitis",
+                "range": [
+                    70,
+                    99
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "Obstructive adenotonsillar",
+                "range": [
+                    127,
+                    153
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "chronic recurrent pharyngitis",
+                "range": [
+                    171,
+                    200
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "adenoid pads",
+                "range": [
+                    396,
+                    408
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "difficulty swallowing",
+                "range": [
+                    514,
+                    535
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "40739000",
+                "cui": "C0011168",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Deglutition Disorders"
+            },
+            {
+                "text": "recurrent pharyngitis",
+                "range": [
+                    537,
+                    558
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "respiratory disturbance",
+                "range": [
+                    578,
+                    601
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "of the\nuvula",
+                "range": [
+                    2163,
+                    2175
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "postoperative",
+                "range": [
+                    2183,
+                    2196
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "pad",
+                "range": [
+                    2631,
+                    2634
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "399957001",
+                "cui": "C1704436",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Peripheral Arterial Diseases"
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.015,
+        "uncertain_count": 2,
+        "narrow_band_ratio": 0.005,
+        "uncertain_tokens": {
+            "MED": [
+                [
+                    0.691,
+                    "normal",
+                    [
+                        2285,
+                        2291
+                    ]
+                ]
+            ],
+            "NA": [
+                [
+                    0.689,
+                    "saline",
+                    [
+                        2292,
+                        2298
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "Obstructive",
+                    [
+                        26,
+                        37
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "adenotonsillar",
+                    [
+                        38,
+                        52
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "hypertrophy",
+                    [
+                        53,
+                        64
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "chronic",
+                    [
+                        70,
+                        77
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "recurrent",
+                    [
+                        78,
+                        87
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "pharyngitis",
+                    [
+                        88,
+                        99
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Obstructive",
+                    [
+                        127,
+                        138
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "adenotonsillar",
+                    [
+                        139,
+                        153
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "hypertrophy",
+                    [
+                        154,
+                        165
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "chronic",
+                    [
+                        171,
+                        178
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "recurrent",
+                    [
+                        179,
+                        188
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "pharyngitis",
+                    [
+                        189,
+                        200
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "adenoid",
+                    [
+                        396,
+                        403
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "pads",
+                    [
+                        404,
+                        408
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "enlarged",
+                    [
+                        484,
+                        492
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "tonsils",
+                    [
+                        493,
+                        500
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "difficulty",
+                    [
+                        514,
+                        524
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "swallowing",
+                    [
+                        525,
+                        535
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "recurrent",
+                    [
+                        537,
+                        546
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "pharyngitis",
+                    [
+                        547,
+                        558
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "sleep-induced",
+                    [
+                        564,
+                        577
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "respiratory",
+                    [
+                        578,
+                        589
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "disturbance",
+                    [
+                        590,
+                        601
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "swelling",
+                    [
+                        2154,
+                        2162
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "of",
+                    [
+                        2163,
+                        2165
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "the",
+                    [
+                        2166,
+                        2169
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "uvula",
+                    [
+                        2170,
+                        2175
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "postoperative",
+                    [
+                        2183,
+                        2196
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Estimated",
+                    [
+                        2508,
+                        2517
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "blood",
+                    [
+                        2518,
+                        2523
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "loss",
+                    [
+                        2524,
+                        2528
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "pad",
+                    [
+                        2631,
+                        2634
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.803,
+                    "Obstructive",
+                    [
+                        26,
+                        37
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.698,
+                    "adenotonsillar",
+                    [
+                        38,
+                        52
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.655,
+                    "hypertrophy",
+                    [
+                        53,
+                        64
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.45,
+                    "chronic",
+                    [
+                        70,
+                        77
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.489,
+                    "recurrent",
+                    [
+                        78,
+                        87
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.578,
+                    "pharyngitis",
+                    [
+                        88,
+                        99
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.699,
+                    "Obstructive",
+                    [
+                        127,
+                        138
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.777,
+                    "adenotonsillar",
+                    [
+                        139,
+                        153
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.783,
+                    "hypertrophy",
+                    [
+                        154,
+                        165
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.748,
+                    "chronic",
+                    [
+                        171,
+                        178
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.867,
+                    "recurrent",
+                    [
+                        179,
+                        188
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.923,
+                    "pharyngitis",
+                    [
+                        189,
+                        200
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.518,
+                    "adenoid",
+                    [
+                        396,
+                        403
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.637,
+                    "pads",
+                    [
+                        404,
+                        408
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.389,
+                    "tonsils",
+                    [
+                        493,
+                        500
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.766,
+                    "difficulty",
+                    [
+                        514,
+                        524
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.868,
+                    "swallowing",
+                    [
+                        525,
+                        535
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.719,
+                    "recurrent",
+                    [
+                        537,
+                        546
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.928,
+                    "pharyngitis",
+                    [
+                        547,
+                        558
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.413,
+                    "sleep-induced",
+                    [
+                        564,
+                        577
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.467,
+                    "respiratory",
+                    [
+                        578,
+                        589
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.427,
+                    "disturbance",
+                    [
+                        590,
+                        601
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.526,
+                    "swelling",
+                    [
+                        2154,
+                        2162
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.516,
+                    "of",
+                    [
+                        2163,
+                        2165
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.498,
+                    "the",
+                    [
+                        2166,
+                        2169
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.542,
+                    "postoperative",
+                    [
+                        2183,
+                        2196
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.669,
+                    "blood",
+                    [
+                        2518,
+                        2523
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.543,
+                    "loss",
+                    [
+                        2524,
+                        2528
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.499,
+                    "pad",
+                    [
+                        2631,
+                        2634
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.18,
+        "uncertain_token_count": 16,
+        "narrow_band_ratio": 0.038,
+        "uncertain_tokens": {
+            "DIAGNOSIS": [
+                [
+                    0.45,
+                    "chronic",
+                    [
+                        70,
+                        77
+                    ]
+                ],
+                [
+                    0.518,
+                    "adenoid",
+                    [
+                        396,
+                        403
+                    ]
+                ],
+                [
+                    0.389,
+                    "tonsils",
+                    [
+                        493,
+                        500
+                    ]
+                ],
+                [
+                    0.413,
+                    "sleep-induced",
+                    [
+                        564,
+                        577
+                    ]
+                ],
+                [
+                    0.467,
+                    "respiratory",
+                    [
+                        578,
+                        589
+                    ]
+                ],
+                [
+                    0.427,
+                    "disturbance",
+                    [
+                        590,
+                        601
+                    ]
+                ],
+                [
+                    0.526,
+                    "swelling",
+                    [
+                        2154,
+                        2162
+                    ]
+                ],
+                [
+                    0.516,
+                    "of",
+                    [
+                        2163,
+                        2165
+                    ]
+                ],
+                [
+                    0.498,
+                    "the",
+                    [
+                        2166,
+                        2169
+                    ]
+                ],
+                [
+                    0.499,
+                    "pad",
+                    [
+                        2631,
+                        2634
+                    ]
+                ]
+            ],
+            "PROBLEM": [
+                [
+                    0.489,
+                    "recurrent",
+                    [
+                        78,
+                        87
+                    ]
+                ]
+            ],
+            "NA": [
+                [
+                    0.463,
+                    "enlarged",
+                    [
+                        484,
+                        492
+                    ]
+                ],
+                [
+                    0.492,
+                    "uvula",
+                    [
+                        2170,
+                        2175
+                    ]
+                ],
+                [
+                    0.513,
+                    "period",
+                    [
+                        2197,
+                        2203
+                    ]
+                ],
+                [
+                    0.502,
+                    "oropharynx",
+                    [
+                        2219,
+                        2229
+                    ]
+                ],
+                [
+                    0.442,
+                    "Estimated",
+                    [
+                        2508,
+                        2517
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

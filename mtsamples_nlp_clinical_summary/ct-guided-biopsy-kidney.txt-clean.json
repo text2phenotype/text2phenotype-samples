@@ -1,0 +1,305 @@
+{
+    "file": "ct-guided-biopsy-kidney.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "Versed",
+                "code": "11177",
+                "cui": "C0042553",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Versed",
+                "range": [
+                    828,
+                    834
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.999
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "Versed",
+                "code": "11177",
+                "cui": "C0042553",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Versed",
+                "range": [
+                    828,
+                    834
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.999
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            }
+        ],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "active",
+                "range": [
+                    2842,
+                    2848
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "the",
+                "range": [
+                    2866,
+                    2869
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.008,
+        "uncertain_count": 2,
+        "narrow_band_ratio": 0.004,
+        "uncertain_tokens": {
+            "MED": [
+                [
+                    0.604,
+                    "solution",
+                    [
+                        1150,
+                        1158
+                    ]
+                ],
+                [
+                    0.656,
+                    "formalin",
+                    [
+                        2731,
+                        2739
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "mass",
+                    [
+                        207,
+                        211
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "renal",
+                    [
+                        2645,
+                        2650
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "mass",
+                    [
+                        2651,
+                        2655
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "active",
+                    [
+                        2842,
+                        2848
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "bleeding",
+                    [
+                        2849,
+                        2857
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "the",
+                    [
+                        2866,
+                        2869
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.377,
+                    "mass",
+                    [
+                        207,
+                        211
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.459,
+                    "renal",
+                    [
+                        2645,
+                        2650
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.591,
+                    "bleeding",
+                    [
+                        2849,
+                        2857
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.544,
+                    "pledgets",
+                    [
+                        2927,
+                        2935
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.171,
+        "uncertain_token_count": 11,
+        "narrow_band_ratio": 0.022,
+        "uncertain_tokens": {
+            "DIAGNOSIS": [
+                [
+                    0.377,
+                    "mass",
+                    [
+                        207,
+                        211
+                    ]
+                ]
+            ],
+            "NA": [
+                [
+                    0.472,
+                    "kidney",
+                    [
+                        2448,
+                        2454
+                    ]
+                ],
+                [
+                    0.43,
+                    "in",
+                    [
+                        2455,
+                        2457
+                    ]
+                ],
+                [
+                    0.451,
+                    "its",
+                    [
+                        2458,
+                        2461
+                    ]
+                ],
+                [
+                    0.525,
+                    "to",
+                    [
+                        2485,
+                        2487
+                    ]
+                ],
+                [
+                    0.505,
+                    "pole",
+                    [
+                        2634,
+                        2638
+                    ]
+                ],
+                [
+                    0.414,
+                    "right",
+                    [
+                        2639,
+                        2644
+                    ]
+                ],
+                [
+                    0.397,
+                    "mass",
+                    [
+                        2651,
+                        2655
+                    ]
+                ],
+                [
+                    0.494,
+                    "kidney",
+                    [
+                        2830,
+                        2836
+                    ]
+                ],
+                [
+                    0.463,
+                    "active",
+                    [
+                        2842,
+                        2848
+                    ]
+                ]
+            ],
+            "PROBLEM": [
+                [
+                    0.459,
+                    "renal",
+                    [
+                        2645,
+                        2650
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

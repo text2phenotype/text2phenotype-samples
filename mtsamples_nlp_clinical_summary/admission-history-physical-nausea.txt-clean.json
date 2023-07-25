@@ -1,0 +1,313 @@
+{
+    "file": "admission-history-physical-nausea.txt-clean.txt",
+    "text2summary": {
+        "Medication": [],
+        "Allergy": [],
+        "Lab": [
+            {
+                "code": "LP15448-1",
+                "cui": "C0005437",
+                "tui": "T034",
+                "vocab": "LNC",
+                "polarity": "positive",
+                "text": "bilirubin",
+                "preferredText": "BILIRUBIN",
+                "range": [
+                    1921,
+                    1930
+                ]
+            }
+        ],
+        "DiseaseDisorder": [
+            {
+                "text": "hypertension",
+                "range": [
+                    650,
+                    662
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "38341003",
+                "cui": "C0020538",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Hypertensive disease"
+            },
+            {
+                "text": "morbid obesity",
+                "range": [
+                    667,
+                    681
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "83911000119104",
+                "cui": "C0028756",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Obesity, Morbid"
+            },
+            {
+                "text": "cholecystitis",
+                "range": [
+                    2039,
+                    2052
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "76581006",
+                "cui": "C0008325",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Cholecystitis"
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.003,
+        "uncertain_count": 0,
+        "narrow_band_ratio": 0.0,
+        "uncertain_tokens": {},
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "PROBLEM": [
+                    "Nausea",
+                    [
+                        19,
+                        25
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "nausea",
+                    [
+                        255,
+                        261
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "right",
+                    [
+                        266,
+                        271
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "upper",
+                    [
+                        272,
+                        277
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "quadrant",
+                    [
+                        278,
+                        286
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "pain",
+                    [
+                        287,
+                        291
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "hypertension",
+                    [
+                        650,
+                        662
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "morbid",
+                    [
+                        667,
+                        673
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "obesity",
+                    [
+                        674,
+                        681
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "cholecystitis",
+                    [
+                        2039,
+                        2052
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "PROBLEM": [
+                    0.521,
+                    "Nausea",
+                    [
+                        19,
+                        25
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.61,
+                    "nausea",
+                    [
+                        255,
+                        261
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.5,
+                    "right",
+                    [
+                        266,
+                        271
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.657,
+                    "upper",
+                    [
+                        272,
+                        277
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.701,
+                    "quadrant",
+                    [
+                        278,
+                        286
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.652,
+                    "pain",
+                    [
+                        287,
+                        291
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.987,
+                    "hypertension",
+                    [
+                        650,
+                        662
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.948,
+                    "morbid",
+                    [
+                        667,
+                        673
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.857,
+                    "obesity",
+                    [
+                        674,
+                        681
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.502,
+                    "cholecystitis",
+                    [
+                        2039,
+                        2052
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.044,
+        "uncertain_token_count": 4,
+        "narrow_band_ratio": 0.009,
+        "uncertain_tokens": {
+            "PROBLEM": [
+                [
+                    0.521,
+                    "Nausea",
+                    [
+                        19,
+                        25
+                    ]
+                ]
+            ],
+            "DIAGNOSIS": [
+                [
+                    0.5,
+                    "right",
+                    [
+                        266,
+                        271
+                    ]
+                ],
+                [
+                    0.502,
+                    "cholecystitis",
+                    [
+                        2039,
+                        2052
+                    ]
+                ]
+            ],
+            "NA": [
+                [
+                    0.461,
+                    "Choledocholithiasis",
+                    [
+                        2016,
+                        2035
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

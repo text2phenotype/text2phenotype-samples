@@ -1,0 +1,224 @@
+{
+    "file": "radioactive-plaque-removal.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "Neosporin solution",
+                "code": "750188",
+                "cui": "C1995123",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Neosporin Solution",
+                "range": [
+                    877,
+                    895
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.996
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            }
+        ],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "macular edema",
+                "range": [
+                    45,
+                    58
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "37231002",
+                "cui": "C0271051",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Macular retinal edema"
+            },
+            {
+                "text": "macular edema",
+                "range": [
+                    105,
+                    118
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "37231002",
+                "cui": "C0271051",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Macular retinal edema"
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.007,
+        "uncertain_count": 1,
+        "narrow_band_ratio": 0.006,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.694,
+                    "Xylocaine",
+                    [
+                        356,
+                        365
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "PROBLEM": [
+                    "plaque",
+                    [
+                        38,
+                        44
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "macular",
+                    [
+                        45,
+                        52
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "edema",
+                    [
+                        53,
+                        58
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "plaque",
+                    [
+                        98,
+                        104
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "macular",
+                    [
+                        105,
+                        112
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "edema",
+                    [
+                        113,
+                        118
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "PROBLEM": [
+                    0.629,
+                    "plaque",
+                    [
+                        38,
+                        44
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.706,
+                    "macular",
+                    [
+                        45,
+                        52
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.689,
+                    "edema",
+                    [
+                        53,
+                        58
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.549,
+                    "plaque",
+                    [
+                        98,
+                        104
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.494,
+                    "macular",
+                    [
+                        105,
+                        112
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.63,
+                    "edema",
+                    [
+                        113,
+                        118
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.071,
+        "uncertain_token_count": 2,
+        "narrow_band_ratio": 0.011,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.409,
+                    "Radioactive",
+                    [
+                        26,
+                        37
+                    ]
+                ]
+            ],
+            "DIAGNOSIS": [
+                [
+                    0.494,
+                    "macular",
+                    [
+                        105,
+                        112
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

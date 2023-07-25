@@ -1,0 +1,478 @@
+{
+    "file": "transesophageal-echocardiogram-2.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "lidocaine",
+                "code": "6387",
+                "cui": "C0023660",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Lidocaine",
+                "range": [
+                    300,
+                    309
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.989
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "lidocaine",
+                "code": "6387",
+                "cui": "C0023660",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Lidocaine",
+                "range": [
+                    300,
+                    309
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.989
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            }
+        ],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "Vegetation",
+                "range": [
+                    19,
+                    29
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "363564008",
+                "cui": "C1285498",
+                "tui": "T190",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Vegetation"
+            },
+            {
+                "text": "bacteremia",
+                "range": [
+                    34,
+                    44
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "5758002",
+                "cui": "C0004610",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Bacteremia"
+            },
+            {
+                "text": "vegetation",
+                "range": [
+                    985,
+                    995
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "363564008",
+                "cui": "C1285498",
+                "tui": "T190",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Vegetation"
+            },
+            {
+                "text": "aortic regurgitation",
+                "range": [
+                    1117,
+                    1137
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "60234000",
+                "cui": "C0003504",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Aortic Valve Insufficiency"
+            },
+            {
+                "text": "Echodensity",
+                "range": [
+                    1227,
+                    1238
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "endocarditis",
+                "range": [
+                    1280,
+                    1292
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "56819008",
+                "cui": "C0014118",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Endocarditis"
+            },
+            {
+                "text": "vegetation",
+                "range": [
+                    1297,
+                    1307
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "363564008",
+                "cui": "C1285498",
+                "tui": "T190",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Vegetation"
+            },
+            {
+                "text": "aortic\ninsufficiency",
+                "range": [
+                    1378,
+                    1398
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "60234000",
+                "cui": "C0003504",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Aortic Valve Insufficiency"
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.013,
+        "uncertain_count": 1,
+        "narrow_band_ratio": 0.004,
+        "uncertain_tokens": {
+            "MED": [
+                [
+                    0.552,
+                    "insufficiency",
+                    [
+                        1385,
+                        1398
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "Vegetation",
+                    [
+                        19,
+                        29
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "bacteremia",
+                    [
+                        34,
+                        44
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "vegetation",
+                    [
+                        985,
+                        995
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "regurgitation",
+                    [
+                        1080,
+                        1093
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "moderate-to-severe",
+                    [
+                        1098,
+                        1116
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "aortic",
+                    [
+                        1117,
+                        1123
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "regurgitation",
+                    [
+                        1124,
+                        1137
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Echodensity",
+                    [
+                        1227,
+                        1238
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "endocarditis",
+                    [
+                        1280,
+                        1292
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "vegetation",
+                    [
+                        1297,
+                        1307
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "aortic",
+                    [
+                        1378,
+                        1384
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "insufficiency",
+                    [
+                        1385,
+                        1398
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.705,
+                    "Vegetation",
+                    [
+                        19,
+                        29
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.588,
+                    "bacteremia",
+                    [
+                        34,
+                        44
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.558,
+                    "vegetation",
+                    [
+                        985,
+                        995
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.5,
+                    "regurgitation",
+                    [
+                        1080,
+                        1093
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.746,
+                    "aortic",
+                    [
+                        1117,
+                        1123
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.729,
+                    "regurgitation",
+                    [
+                        1124,
+                        1137
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.77,
+                    "endocarditis",
+                    [
+                        1280,
+                        1292
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.748,
+                    "vegetation",
+                    [
+                        1297,
+                        1307
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.527,
+                    "aortic",
+                    [
+                        1378,
+                        1384
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.562,
+                    "insufficiency",
+                    [
+                        1385,
+                        1398
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.178,
+        "uncertain_token_count": 9,
+        "narrow_band_ratio": 0.037,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.454,
+                    "mitral",
+                    [
+                        1073,
+                        1079
+                    ]
+                ],
+                [
+                    0.443,
+                    "moderate-to-severe",
+                    [
+                        1098,
+                        1116
+                    ]
+                ],
+                [
+                    0.442,
+                    "Aorta",
+                    [
+                        1144,
+                        1149
+                    ]
+                ],
+                [
+                    0.449,
+                    "benign",
+                    [
+                        1153,
+                        1159
+                    ]
+                ],
+                [
+                    0.371,
+                    "Echodensity",
+                    [
+                        1227,
+                        1238
+                    ]
+                ],
+                [
+                    0.505,
+                    "involving",
+                    [
+                        1239,
+                        1248
+                    ]
+                ],
+                [
+                    0.475,
+                    "aortic",
+                    [
+                        1253,
+                        1259
+                    ]
+                ]
+            ],
+            "DIAGNOSIS": [
+                [
+                    0.5,
+                    "regurgitation",
+                    [
+                        1080,
+                        1093
+                    ]
+                ],
+                [
+                    0.527,
+                    "aortic",
+                    [
+                        1378,
+                        1384
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

@@ -1,0 +1,483 @@
+{
+    "file": "renal-transplant-cadaveric.txt-clean.txt",
+    "text2summary": {
+        "Medication": [],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "hypertension",
+                "range": [
+                    125,
+                    137
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "38341003",
+                "cui": "C0020538",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Hypertensive disease"
+            },
+            {
+                "text": "endstage\nrenal disease",
+                "range": [
+                    142,
+                    164
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "on hemodialysis",
+                "range": [
+                    166,
+                    181
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "renal disease",
+                "range": [
+                    204,
+                    217
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "90708001",
+                "cui": "C0022658",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Kidney Diseases"
+            },
+            {
+                "text": "Endstage renal disease",
+                "range": [
+                    545,
+                    567
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "Endstage renal disease",
+                "range": [
+                    595,
+                    617
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.01,
+        "uncertain_count": 5,
+        "narrow_band_ratio": 0.004,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.666,
+                    "electrocautery",
+                    [
+                        1584,
+                        1598
+                    ]
+                ],
+                [
+                    0.646,
+                    "Prolene",
+                    [
+                        4185,
+                        4192
+                    ]
+                ],
+                [
+                    0.617,
+                    "Prolene",
+                    [
+                        4530,
+                        4537
+                    ]
+                ],
+                [
+                    0.638,
+                    "Prolene",
+                    [
+                        7040,
+                        7047
+                    ]
+                ]
+            ],
+            "MED": [
+                [
+                    0.579,
+                    "silk",
+                    [
+                        2656,
+                        2660
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "hypertension",
+                    [
+                        125,
+                        137
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "endstage",
+                    [
+                        142,
+                        150
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "renal",
+                    [
+                        151,
+                        156
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "disease",
+                    [
+                        157,
+                        164
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    ",",
+                    [
+                        164,
+                        165
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "on",
+                    [
+                        166,
+                        168
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "hemodialysis",
+                    [
+                        169,
+                        181
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "renal",
+                    [
+                        204,
+                        209
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "disease",
+                    [
+                        210,
+                        217
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Endstage",
+                    [
+                        545,
+                        553
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "renal",
+                    [
+                        554,
+                        559
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "disease",
+                    [
+                        560,
+                        567
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Endstage",
+                    [
+                        595,
+                        603
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "renal",
+                    [
+                        604,
+                        609
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "disease",
+                    [
+                        610,
+                        617
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.996,
+                    "hypertension",
+                    [
+                        125,
+                        137
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.957,
+                    "endstage",
+                    [
+                        142,
+                        150
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.983,
+                    "renal",
+                    [
+                        151,
+                        156
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.97,
+                    "disease",
+                    [
+                        157,
+                        164
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.517,
+                    ",",
+                    [
+                        164,
+                        165
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.519,
+                    "on",
+                    [
+                        166,
+                        168
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.485,
+                    "hemodialysis",
+                    [
+                        169,
+                        181
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.571,
+                    "renal",
+                    [
+                        204,
+                        209
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.62,
+                    "disease",
+                    [
+                        210,
+                        217
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.813,
+                    "Endstage",
+                    [
+                        545,
+                        553
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.909,
+                    "renal",
+                    [
+                        554,
+                        559
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.898,
+                    "disease",
+                    [
+                        560,
+                        567
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.887,
+                    "Endstage",
+                    [
+                        595,
+                        603
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.944,
+                    "renal",
+                    [
+                        604,
+                        609
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.959,
+                    "disease",
+                    [
+                        610,
+                        617
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.075,
+        "uncertain_token_count": 5,
+        "narrow_band_ratio": 0.004,
+        "uncertain_tokens": {
+            "DIAGNOSIS": [
+                [
+                    0.517,
+                    ",",
+                    [
+                        164,
+                        165
+                    ]
+                ],
+                [
+                    0.519,
+                    "on",
+                    [
+                        166,
+                        168
+                    ]
+                ],
+                [
+                    0.485,
+                    "hemodialysis",
+                    [
+                        169,
+                        181
+                    ]
+                ]
+            ],
+            "NA": [
+                [
+                    0.51,
+                    "endstage",
+                    [
+                        195,
+                        203
+                    ]
+                ],
+                [
+                    0.486,
+                    "poles",
+                    [
+                        4700,
+                        4705
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

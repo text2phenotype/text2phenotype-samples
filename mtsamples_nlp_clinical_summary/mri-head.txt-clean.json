@@ -1,0 +1,179 @@
+{
+    "file": "mri-head.txt-clean.txt",
+    "text2summary": {
+        "Medication": [],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "Diffuse cortical volume loss",
+                "range": [
+                    990,
+                    1018
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "dictation",
+                "range": [
+                    1101,
+                    1110
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.012,
+        "uncertain_count": 1,
+        "narrow_band_ratio": 0.005,
+        "uncertain_tokens": {
+            "MED": [
+                [
+                    0.524,
+                    "gadolinium",
+                    [
+                        146,
+                        156
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "Diffuse",
+                    [
+                        990,
+                        997
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "cortical",
+                    [
+                        998,
+                        1006
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "volume",
+                    [
+                        1007,
+                        1013
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "loss",
+                    [
+                        1014,
+                        1018
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "issued",
+                    [
+                        1079,
+                        1085
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "dictation",
+                    [
+                        1101,
+                        1110
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.573,
+                    "Diffuse",
+                    [
+                        990,
+                        997
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.777,
+                    "cortical",
+                    [
+                        998,
+                        1006
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.75,
+                    "volume",
+                    [
+                        1007,
+                        1013
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.651,
+                    "loss",
+                    [
+                        1014,
+                        1018
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.617,
+                    "issued",
+                    [
+                        1079,
+                        1085
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.628,
+                    "dictation",
+                    [
+                        1101,
+                        1110
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.101,
+        "uncertain_token_count": 0,
+        "narrow_band_ratio": 0.0,
+        "uncertain_tokens": {},
+        "narrow_band_width": 0.2
+    }
+}

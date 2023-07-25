@@ -1,0 +1,494 @@
+{
+    "file": "hypospadias-repair.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "Marcaine",
+                "code": "1012397",
+                "cui": "C2945665",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Marcaine",
+                "range": [
+                    287,
+                    295
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.902
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "antibiotics",
+                "code": null,
+                "cui": null,
+                "tui": null,
+                "vocab": null,
+                "polarity": "positive",
+                "preferredText": null,
+                "range": [
+                    773,
+                    784
+                ],
+                "prob": {
+                    "MED": 0.99
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "blade",
+                "code": "1043245",
+                "cui": "C2948008",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Blade",
+                "range": [
+                    1220,
+                    1225
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.992
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "Toradol",
+                "code": "57309",
+                "cui": "C0146226",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Toradol",
+                "range": [
+                    3635,
+                    3642
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 1.0
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "Toradol",
+                "code": "57309",
+                "cui": "C0146226",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Toradol",
+                "range": [
+                    3635,
+                    3642
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 1.0
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            }
+        ],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "chordee",
+                "range": [
+                    51,
+                    58
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "4287008",
+                "cui": "C0221182",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Chordee"
+            },
+            {
+                "text": "with chordee",
+                "range": [
+                    106,
+                    118
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "with chordee",
+                "range": [
+                    554,
+                    566
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.009,
+        "uncertain_count": 3,
+        "narrow_band_ratio": 0.004,
+        "uncertain_tokens": {
+            "MED": [
+                [
+                    0.513,
+                    "chordee",
+                    [
+                        559,
+                        566
+                    ]
+                ],
+                [
+                    0.588,
+                    "blade",
+                    [
+                        2119,
+                        2124
+                    ]
+                ],
+                [
+                    0.599,
+                    "sutures",
+                    [
+                        2898,
+                        2905
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "Coronal",
+                    [
+                        26,
+                        33
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "hypospadias",
+                    [
+                        34,
+                        45
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "chordee",
+                    [
+                        51,
+                        58
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Coronal",
+                    [
+                        86,
+                        93
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "hypospadias",
+                    [
+                        94,
+                        105
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "with",
+                    [
+                        106,
+                        110
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "chordee",
+                    [
+                        111,
+                        118
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "coronal",
+                    [
+                        534,
+                        541
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "hypospadias",
+                    [
+                        542,
+                        553
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "with",
+                    [
+                        554,
+                        558
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "chordee",
+                    [
+                        559,
+                        566
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    ".",
+                    [
+                        566,
+                        567
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Plan",
+                    [
+                        568,
+                        572
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.715,
+                    "Coronal",
+                    [
+                        26,
+                        33
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.798,
+                    "hypospadias",
+                    [
+                        34,
+                        45
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.424,
+                    "chordee",
+                    [
+                        51,
+                        58
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.638,
+                    "Coronal",
+                    [
+                        86,
+                        93
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.726,
+                    "hypospadias",
+                    [
+                        94,
+                        105
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.503,
+                    "with",
+                    [
+                        106,
+                        110
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.662,
+                    "chordee",
+                    [
+                        111,
+                        118
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.902,
+                    "coronal",
+                    [
+                        534,
+                        541
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.961,
+                    "hypospadias",
+                    [
+                        542,
+                        553
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.722,
+                    "with",
+                    [
+                        554,
+                        558
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.943,
+                    "chordee",
+                    [
+                        559,
+                        566
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.526,
+                    ".",
+                    [
+                        566,
+                        567
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.581,
+                    "Plan",
+                    [
+                        568,
+                        572
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.427,
+                    "chordee",
+                    [
+                        1610,
+                        1617
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.069,
+        "uncertain_token_count": 4,
+        "narrow_band_ratio": 0.006,
+        "uncertain_tokens": {
+            "PROBLEM": [
+                [
+                    0.424,
+                    "chordee",
+                    [
+                        51,
+                        58
+                    ]
+                ]
+            ],
+            "DIAGNOSIS": [
+                [
+                    0.503,
+                    "with",
+                    [
+                        106,
+                        110
+                    ]
+                ],
+                [
+                    0.526,
+                    ".",
+                    [
+                        566,
+                        567
+                    ]
+                ],
+                [
+                    0.427,
+                    "chordee",
+                    [
+                        1610,
+                        1617
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

@@ -1,0 +1,864 @@
+{
+    "file": "hysterectomy-discharge-summary-2.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "Vicodin",
+                "code": "128793",
+                "cui": "C0483514",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Vicodin",
+                "range": [
+                    1656,
+                    1663
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 1.0
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "Vicodin",
+                "code": "128793",
+                "cui": "C0483514",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Vicodin",
+                "range": [
+                    1656,
+                    1663
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 1.0
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "Motrin",
+                "code": "202488",
+                "cui": "C0699203",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Motrin",
+                "range": [
+                    1665,
+                    1671
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 1.0
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "Motrin",
+                "code": "202488",
+                "cui": "C0699203",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Motrin",
+                "range": [
+                    1665,
+                    1671
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 1.0
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "Macrodantin",
+                "code": "203054",
+                "cui": "C0700187",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Macrodantin",
+                "range": [
+                    1677,
+                    1688
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.98
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [
+                    "day"
+                ],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "Macrodantin",
+                "code": "203054",
+                "cui": "C0700187",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Macrodantin",
+                "range": [
+                    1677,
+                    1688
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.98
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [
+                    "day"
+                ],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            }
+        ],
+        "Allergy": [],
+        "Lab": [
+            {
+                "code": "",
+                "cui": "C0518015",
+                "tui": "T034",
+                "vocab": "LNC",
+                "polarity": "positive",
+                "text": "hemoglobin",
+                "preferredText": "HEMOGLOBIN DETERMINATION (PROCEDURE)",
+                "range": [
+                    1035,
+                    1045
+                ]
+            },
+            {
+                "code": "LP32067-8",
+                "cui": "C0019046",
+                "tui": "T034",
+                "vocab": "LNC",
+                "polarity": "positive",
+                "text": "hemoglobin",
+                "preferredText": "HEMOGLOBIN",
+                "range": [
+                    1035,
+                    1045
+                ]
+            }
+        ],
+        "DiseaseDisorder": [
+            {
+                "text": "mm",
+                "range": [
+                    553,
+                    555
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "vaginal",
+                "range": [
+                    614,
+                    621
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "vaginal hysterectomy",
+                "range": [
+                    1134,
+                    1154
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "cystogram",
+                "range": [
+                    1559,
+                    1568
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.008,
+        "uncertain_count": 1,
+        "narrow_band_ratio": 0.003,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.668,
+                    "flap",
+                    [
+                        1272,
+                        1276
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "Microinvasive",
+                    [
+                        23,
+                        36
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "carcinoma",
+                    [
+                        37,
+                        46
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "of",
+                    [
+                        47,
+                        49
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "the",
+                    [
+                        50,
+                        53
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "cervix",
+                    [
+                        54,
+                        60
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Microinvasive",
+                    [
+                        84,
+                        97
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "carcinoma",
+                    [
+                        98,
+                        107
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "of",
+                    [
+                        108,
+                        110
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "the",
+                    [
+                        111,
+                        114
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "cervix",
+                    [
+                        115,
+                        121
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "gravida",
+                    [
+                        246,
+                        253
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "para",
+                    [
+                        257,
+                        261
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "microinvasive",
+                    [
+                        423,
+                        436
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "carcinoma",
+                    [
+                        437,
+                        446
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "of",
+                    [
+                        447,
+                        449
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "the",
+                    [
+                        450,
+                        453
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "cervix",
+                    [
+                        454,
+                        460
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "microinvasive",
+                    [
+                        520,
+                        533
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "carcinoma",
+                    [
+                        534,
+                        543
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "mm",
+                    [
+                        553,
+                        555
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "vaginal",
+                    [
+                        614,
+                        621
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "tobacco",
+                    [
+                        811,
+                        818
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "use",
+                    [
+                        819,
+                        822
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "vaginal",
+                    [
+                        1134,
+                        1141
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "hysterectomy",
+                    [
+                        1142,
+                        1154
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "bladder",
+                    [
+                        1377,
+                        1384
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "understood",
+                    [
+                        1512,
+                        1522
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "cystogram",
+                    [
+                        1559,
+                        1568
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.906,
+                    "Microinvasive",
+                    [
+                        23,
+                        36
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.96,
+                    "carcinoma",
+                    [
+                        37,
+                        46
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.947,
+                    "of",
+                    [
+                        47,
+                        49
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.946,
+                    "the",
+                    [
+                        50,
+                        53
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.85,
+                    "cervix",
+                    [
+                        54,
+                        60
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.919,
+                    "Microinvasive",
+                    [
+                        84,
+                        97
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.962,
+                    "carcinoma",
+                    [
+                        98,
+                        107
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.952,
+                    "of",
+                    [
+                        108,
+                        110
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.975,
+                    "the",
+                    [
+                        111,
+                        114
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.941,
+                    "cervix",
+                    [
+                        115,
+                        121
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.761,
+                    "gravida",
+                    [
+                        246,
+                        253
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.496,
+                    "para",
+                    [
+                        257,
+                        261
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.661,
+                    "microinvasive",
+                    [
+                        423,
+                        436
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.749,
+                    "carcinoma",
+                    [
+                        437,
+                        446
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.72,
+                    "of",
+                    [
+                        447,
+                        449
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.707,
+                    "the",
+                    [
+                        450,
+                        453
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.65,
+                    "cervix",
+                    [
+                        454,
+                        460
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.86,
+                    "microinvasive",
+                    [
+                        520,
+                        533
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.924,
+                    "carcinoma",
+                    [
+                        534,
+                        543
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.494,
+                    "mm",
+                    [
+                        553,
+                        555
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.474,
+                    "invasion",
+                    [
+                        556,
+                        564
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.552,
+                    "tobacco",
+                    [
+                        811,
+                        818
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.658,
+                    "use",
+                    [
+                        819,
+                        822
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.55,
+                    "hysterectomy",
+                    [
+                        1142,
+                        1154
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.41,
+                    "understood",
+                    [
+                        1512,
+                        1522
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.582,
+                    "cystogram",
+                    [
+                        1559,
+                        1568
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.213,
+        "uncertain_token_count": 12,
+        "narrow_band_ratio": 0.038,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.356,
+                    "7",
+                    [
+                        254,
+                        255
+                    ]
+                ],
+                [
+                    0.512,
+                    "definitive",
+                    [
+                        582,
+                        592
+                    ]
+                ],
+                [
+                    0.529,
+                    "vaginal",
+                    [
+                        614,
+                        621
+                    ]
+                ],
+                [
+                    0.52,
+                    "small",
+                    [
+                        922,
+                        927
+                    ]
+                ],
+                [
+                    0.495,
+                    "cervix",
+                    [
+                        928,
+                        934
+                    ]
+                ],
+                [
+                    0.497,
+                    "vaginal",
+                    [
+                        1134,
+                        1141
+                    ]
+                ],
+                [
+                    0.4,
+                    "bladder",
+                    [
+                        1377,
+                        1384
+                    ]
+                ],
+                [
+                    0.412,
+                    "function",
+                    [
+                        1385,
+                        1393
+                    ]
+                ]
+            ],
+            "PROBLEM": [
+                [
+                    0.496,
+                    "para",
+                    [
+                        257,
+                        261
+                    ]
+                ]
+            ],
+            "DIAGNOSIS": [
+                [
+                    0.494,
+                    "mm",
+                    [
+                        553,
+                        555
+                    ]
+                ],
+                [
+                    0.474,
+                    "invasion",
+                    [
+                        556,
+                        564
+                    ]
+                ],
+                [
+                    0.41,
+                    "understood",
+                    [
+                        1512,
+                        1522
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}

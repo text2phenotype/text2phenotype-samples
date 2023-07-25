@@ -1,0 +1,287 @@
+{
+    "file": "tethered-cord-evaluation.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "Advil",
+                "code": "153010",
+                "cui": "C0593507",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Advil",
+                "range": [
+                    457,
+                    462
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.981
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "Advil",
+                "code": "153010",
+                "cui": "C0593507",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Advil",
+                "range": [
+                    457,
+                    462
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.981
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "Motrin",
+                "code": "202488",
+                "cui": "C0699203",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Motrin",
+                "range": [
+                    464,
+                    470
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.999
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "Motrin",
+                "code": "202488",
+                "cui": "C0699203",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Motrin",
+                "range": [
+                    464,
+                    470
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.999
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            }
+        ],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "tethered cord",
+                "range": [
+                    81,
+                    94
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "70534000",
+                "cui": "C0080218",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Tethered Cord Syndrome"
+            },
+            {
+                "text": "S1",
+                "range": [
+                    610,
+                    612
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            },
+            {
+                "text": "tethered cord",
+                "range": [
+                    1004,
+                    1017
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "70534000",
+                "cui": "C0080218",
+                "tui": "T047",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Tethered Cord Syndrome"
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.005,
+        "uncertain_count": 0,
+        "narrow_band_ratio": 0.0,
+        "uncertain_tokens": {},
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "tethered",
+                    [
+                        81,
+                        89
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "cord",
+                    [
+                        90,
+                        94
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "leg",
+                    [
+                        387,
+                        390
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "pain",
+                    [
+                        391,
+                        395
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "S1",
+                    [
+                        610,
+                        612
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "tethered",
+                    [
+                        1004,
+                        1012
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "cord",
+                    [
+                        1013,
+                        1017
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.779,
+                    "tethered",
+                    [
+                        81,
+                        89
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.876,
+                    "cord",
+                    [
+                        90,
+                        94
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.562,
+                    "leg",
+                    [
+                        387,
+                        390
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.536,
+                    "pain",
+                    [
+                        391,
+                        395
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.533,
+                    "S1",
+                    [
+                        610,
+                        612
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.648,
+                    "tethered",
+                    [
+                        1004,
+                        1012
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.794,
+                    "cord",
+                    [
+                        1013,
+                        1017
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.124,
+        "uncertain_token_count": 0,
+        "narrow_band_ratio": 0.0,
+        "uncertain_tokens": {},
+        "narrow_band_width": 0.2
+    }
+}

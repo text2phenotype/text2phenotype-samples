@@ -1,0 +1,232 @@
+{
+    "file": "antibiotic-impregnated-beads-placement.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "gentamicin",
+                "code": "142438",
+                "cui": "C0546866",
+                "tui": "T195",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Gentamicin Sulfate (USP)",
+                "range": [
+                    1125,
+                    1135
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.982
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            },
+            {
+                "text": "gentamicin",
+                "code": "142438",
+                "cui": "C0546866",
+                "tui": "T109",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Gentamicin Sulfate (USP)",
+                "range": [
+                    1125,
+                    1135
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 0.982
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            }
+        ],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "calcaneus",
+                "range": [
+                    31,
+                    40
+                ],
+                "polarity": "positive",
+                "lstm_prob": 1.0,
+                "code": "263247007",
+                "cui": "C0281926",
+                "tui": "T037",
+                "vocab": "SNOMEDCT_US",
+                "preferredText": "Fracture of calcaneus"
+            },
+            {
+                "text": "Open calcaneus fracture",
+                "range": [
+                    90,
+                    113
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.018,
+        "uncertain_count": 3,
+        "narrow_band_ratio": 0.012,
+        "uncertain_tokens": {
+            "MED": [
+                [
+                    0.617,
+                    "beads",
+                    [
+                        841,
+                        846
+                    ]
+                ],
+                [
+                    0.586,
+                    "sponge",
+                    [
+                        1428,
+                        1434
+                    ]
+                ]
+            ],
+            "NA": [
+                [
+                    0.558,
+                    "tobramycin",
+                    [
+                        1140,
+                        1150
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "DIAGNOSIS": [
+                    "calcaneus",
+                    [
+                        31,
+                        40
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "Open",
+                    [
+                        90,
+                        94
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "calcaneus",
+                    [
+                        95,
+                        104
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "fracture",
+                    [
+                        105,
+                        113
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    "tension",
+                    [
+                        1253,
+                        1260
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "DIAGNOSIS": [
+                    0.675,
+                    "calcaneus",
+                    [
+                        31,
+                        40
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.562,
+                    "fracture",
+                    [
+                        41,
+                        49
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.557,
+                    "Open",
+                    [
+                        90,
+                        94
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.804,
+                    "calcaneus",
+                    [
+                        95,
+                        104
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.67,
+                    "fracture",
+                    [
+                        105,
+                        113
+                    ]
+                ]
+            },
+            {
+                "DIAGNOSIS": [
+                    0.629,
+                    "tension",
+                    [
+                        1253,
+                        1260
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.081,
+        "uncertain_token_count": 0,
+        "narrow_band_ratio": 0.0,
+        "uncertain_tokens": {},
+        "narrow_band_width": 0.2
+    }
+}

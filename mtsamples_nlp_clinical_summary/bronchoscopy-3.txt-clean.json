@@ -1,0 +1,151 @@
+{
+    "file": "bronchoscopy-3.txt-clean.txt",
+    "text2summary": {
+        "Medication": [
+            {
+                "text": "Mucomyst",
+                "code": "202536",
+                "cui": "C0699252",
+                "tui": "T121",
+                "vocab": "RXNORM",
+                "polarity": "positive",
+                "preferredText": "Mucomyst",
+                "range": [
+                    1086,
+                    1094
+                ],
+                "prob": {
+                    "lstm_pred": "MED",
+                    "prob": 1.0
+                },
+                "medFrequencyNumber": [],
+                "medFrequencyUnit": [],
+                "medStrengthNum": [],
+                "medStrengthUnit": []
+            }
+        ],
+        "Allergy": [],
+        "Lab": [],
+        "DiseaseDisorder": [
+            {
+                "text": "Right lung",
+                "range": [
+                    63,
+                    73
+                ],
+                "lstm_prob": 1.0,
+                "attributes": {
+                    "polarity": "positive"
+                },
+                "polarity": "positive",
+                "umlsConcept": []
+            }
+        ]
+    },
+    "medication_uncertainty": {
+        "average_entropy": 0.009,
+        "uncertain_count": 1,
+        "narrow_band_ratio": 0.004,
+        "uncertain_tokens": {
+            "MED": [
+                [
+                    0.603,
+                    "oxygen",
+                    [
+                        372,
+                        378
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    },
+    "problem_uncertainty": {
+        "majority": [
+            {
+                "PROBLEM": [
+                    "Right",
+                    [
+                        63,
+                        68
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "lung",
+                    [
+                        69,
+                        73
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "atelectasis",
+                    [
+                        74,
+                        85
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    "mucus",
+                    [
+                        123,
+                        128
+                    ]
+                ]
+            }
+        ],
+        "weighted": [
+            {
+                "PROBLEM": [
+                    0.734,
+                    "Right",
+                    [
+                        63,
+                        68
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.849,
+                    "lung",
+                    [
+                        69,
+                        73
+                    ]
+                ]
+            },
+            {
+                "PROBLEM": [
+                    0.831,
+                    "atelectasis",
+                    [
+                        74,
+                        85
+                    ]
+                ]
+            }
+        ],
+        "average_entropy": 0.094,
+        "uncertain_token_count": 1,
+        "narrow_band_ratio": 0.004,
+        "uncertain_tokens": {
+            "NA": [
+                [
+                    0.411,
+                    "mucus",
+                    [
+                        123,
+                        128
+                    ]
+                ]
+            ]
+        },
+        "narrow_band_width": 0.2
+    }
+}
