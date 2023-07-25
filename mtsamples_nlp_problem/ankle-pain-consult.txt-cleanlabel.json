@@ -1,0 +1,7494 @@
+[
+    {
+        "token": "IDENTIFICATION",
+        "len": 14,
+        "speech": "NN",
+        "speech_bin": "Nouns",
+        "range": [
+            2,
+            16
+        ],
+        "aspect": "demographics",
+        "header": [
+            {
+                "IDENTIFICATION": "Aspect.demographics"
+            }
+        ],
+        "event": [
+            {
+                "event": "IDENTIFICATION"
+            }
+        ]
+    },
+    {
+        "token": ":",
+        "len": 1,
+        "speech": ":",
+        "speech_bin": "unknown",
+        "range": [
+            16,
+            17
+        ],
+        "aspect": null,
+        "regex": [
+            {
+                "$COLON": ":"
+            }
+        ]
+    },
+    {
+        "token": "The",
+        "len": 3,
+        "speech": "DT",
+        "speech_bin": "com-dep-wd",
+        "range": [
+            18,
+            21
+        ],
+        "aspect": "demographics"
+    },
+    {
+        "token": "patient",
+        "len": 7,
+        "speech": "NN",
+        "speech_bin": "Nouns",
+        "range": [
+            22,
+            29
+        ],
+        "aspect": "demographics"
+    },
+    {
+        "token": "is",
+        "len": 2,
+        "speech": "VBZ",
+        "speech_bin": "Verbs",
+        "range": [
+            30,
+            32
+        ],
+        "aspect": "demographics"
+    },
+    {
+        "token": "a",
+        "len": 1,
+        "speech": "DT",
+        "speech_bin": "com-dep-wd",
+        "range": [
+            33,
+            34
+        ],
+        "aspect": "demographics"
+    },
+    {
+        "token": "15-year-old",
+        "len": 11,
+        "speech": "JJ",
+        "speech_bin": "Adjectives",
+        "range": [
+            35,
+            46
+        ],
+        "aspect": "demographics",
+        "regex": [
+            {
+                "$AGE5": "15-year-old female"
+            },
+            {
+                "$AGE6": " 15-year"
+            }
+        ]
+    },
+    {
+        "token": "female",
+        "len": 6,
+        "speech": "NN",
+        "speech_bin": "Nouns",
+        "range": [
+            47,
+            53
+        ],
+        "aspect": "demographics",
+        "regex": [
+            {
+                "$AGE5": "15-year-old female"
+            }
+        ]
+    },
+    {
+        "token": ".",
+        "len": 1,
+        "speech": ".",
+        "speech_bin": "unknown",
+        "range": [
+            53,
+            54
+        ],
+        "aspect": "demographics"
+    },
+    {
+        "token": "CHIEF",
+        "len": 5,
+        "speech": "JJ",
+        "speech_bin": "Adjectives",
+        "range": [
+            56,
+            61
+        ],
+        "aspect": "diagnosis",
+        "header": [
+            {
+                "CHIEF COMPLAINT": "Aspect.diagnosis"
+            }
+        ]
+    },
+    {
+        "token": "COMPLAINT",
+        "len": 9,
+        "speech": "NN",
+        "speech_bin": "Nouns",
+        "range": [
+            62,
+            71
+        ],
+        "aspect": "diagnosis",
+        "header": [
+            {
+                "CHIEF COMPLAINT": "Aspect.diagnosis"
+            }
+        ],
+        "clinical": [
+            {
+                "SignSymptom": [
+                    {
+                        "code": "33962009",
+                        "tui": "T033",
+                        "codingScheme": "SNOMEDCT_US",
+                        "cui": "C0277786",
+                        "preferredText": "Complaint"
+                    },
+                    {
+                        "code": "409586006",
+                        "tui": "T033",
+                        "codingScheme": "SNOMEDCT_US",
+                        "cui": "C0277786",
+                        "preferredText": "Complaint"
+                    }
+                ],
+                "polarity": "positive"
+            }
+        ],
+        "event": [
+            {
+                "event": "COMPLAINT"
+            }
+        ]
+    },
+    {
+        "token": ":",
+        "len": 1,
+        "speech": ":",
+        "speech_bin": "unknown",
+        "range": [
+            71,
+            72
+        ],
+        "aspect": null,
+        "regex": [
+            {
+                "$COLON": ":"
+            }
+        ]
+    },
+    {
+        "token": "Right",
+        "len": 5,
+        "speech": "JJ",
+        "speech_bin": "Adjectives",
+        "range": [
+            73,
+            78
+        ],
+        "aspect": "diagnosis",
+        "clinical": [
+            {
+                "AnatomicalSite": [
+                    {
+                        "code": "6685009",
+                        "tui": "T029",
+                        "codingScheme": "SNOMEDCT_US",
+                        "cui": "C0230447",
+                        "preferredText": "Structure of right ankle"
+                    }
+                ],
+                "polarity": "positive"
+            }
+        ],
+        "label": "diagnosis"
+    },
+    {
+        "token": "ankle",
+        "len": 5,
+        "speech": "NN",
+        "speech_bin": "Nouns",
+        "range": [
+            79,
+            84
+        ],
+        "aspect": "diagnosis",
+        "clinical": [
+            {
+                "AnatomicalSite": [
+                    {
+                        "code": "6685009",
+                        "tui": "T029",
+                        "codingScheme": "SNOMEDCT_US",
+                        "cui": "C0230447",
+                        "preferredText": "Structure of right ankle"
+                    }
+                ],
+                "polarity": "positive"
+            },
+            {
+                "SignSymptom": [
+                    {
+                        "code": "247373008",
+                        "tui": "T184",
+                        "codingScheme": "SNOMEDCT_US",
+                        "cui": "C0238656",
+                        "preferredText": "Ankle pain"
+                    },
+                    {
+                        "code": "202490009",
+                        "tui": "T184",
+                        "codingScheme": "SNOMEDCT_US",
+                        "cui": "C0238656",
+                        "preferredText": "Ankle pain"
+                    }
+                ],
+                "polarity": "positive"
+            },
+            {
+                "AnatomicalSite": [
+                    {
+                        "code": "344001",
+                        "tui": "T030",
+                        "codingScheme": "SNOMEDCT_US",
+                        "cui": "C0003086",
+                        "preferredText": "Ankle"
+                    }
+                ],
+                "polarity": "positive"
+            }
+        ],
+        "event": [
+            {
+                "event": "ankle pain"
+            }
+        ],
+        "label": "diagnosis"
+    },
+    {
+        "token": "pain",
+        "len": 4,
+        "speech": "NN",
+        "speech_bin": "Nouns",
+        "range": [
+            85,
+            89
+        ],
+        "aspect": "diagnosis",
+        "clinical": [
+            {
+                "SignSymptom": [
+                    {
+                        "code": "247373008",
+                        "tui": "T184",
+                        "codingScheme": "SNOMEDCT_US",
+                        "cui": "C0238656",
+                        "preferredText": "Ankle pain"
+                    },
+                    {
+                        "code": "202490009",
+                        "tui": "T184",
+                        "codingScheme": "SNOMEDCT_US",
+                        "cui": "C0238656",
+                        "preferredText": "Ankle pain"
+                    }
+                ],
+                "polarity": "positive"
+            },
+            {
+                "SignSymptom": [
+                    {
+                        "code": "22253000",
+                        "tui": "T184",
+                        "codingScheme": "SNOMEDCT_US",
+                        "cui": "C0030193",
+                        "preferredText": "Pain"
+                    }
+                ],
+                "polarity": "positive"
+            }
+        ],
+        "event": [
+            {
+                "event": "ankle pain"
+            },
+            {
+                "event": "pain"
+            }
+        ],
+        "PAIN_MIN": [
+            {
+                "pain": null
+            }
+        ],
+        "SEVERIRTY": [
+            {
+                "pain": null
+            }
+        ],
+        "label": "diagnosis"
+    },
+    {
+        "token": ".",
+        "len": 1,
+        "speech": ".",
+        "speech_bin": "unknown",
+        "range": [
+            89,
+            90
+        ],
+        "aspect": "diagnosis"
+    },
+    {
+        "token": "HISTORY",
+        "len": 7,
+        "speech": "NNP",
+        "speech_bin": "Nouns",
+        "range": [
+            92,
+            99
+        ],
+        "aspect": "problem",
+        "header": [
+            {
+                "HISTORY OF PRESENT ILLNESS": "Aspect.problem"
+            }
+        ],
+        "clinical": [
+            {
+                "SignSymptom": [
+                    {
+                        "code": "392521001",
+                        "tui": "T033",
+                        "codingScheme": "SNOMEDCT_US",
+                        "cui": "C0262926",
+                        "preferredText": "History of"
+                    }
+                ],
+                "polarity": "positive"
+            }
+        ],
+        "event": [
+            {
+                "event": "HISTORY"
+            }
+        ],
+        "PERSONAL_HISTORY": [
+            {
+                "HISTORY OF PRESENT ILLNESS": null
+            }
+        ]
+    },
+    {
+        "token": "OF",
+        "len": 2,
+        "speech": "NNP",
+        "speech_bin": "Nouns",
+        "range": [
+            100,
+            102
+        ],
+        "aspect": "problem",
+        "header": [
+            {
+                "HISTORY OF PRESENT ILLNESS": "Aspect.problem"
+            }
+        ],
+        "PERSONAL_HISTORY": [
+            {
+                "HISTORY OF PRESENT ILLNESS": null
+            }
+        ]
+    },
+    {
+        "token": "PRESENT",
+        "len": 7,
+        "speech": "NNP",
+        "speech_bin": "Nouns",
+        "range": [
+            103,
+            110
+        ],
+        "aspect": "problem",
+        "header": [
+            {
+                "HISTORY OF PRESENT ILLNESS": "Aspect.problem"
+            }
+        ],
+        "PERSONAL_HISTORY": [
+            {
+                "HISTORY OF PRESENT ILLNESS": null
+            }
+        ]
+    },
+    {
+        "token": "ILLNESS",
+        "len": 7,
+        "speech": "NNP",
+        "speech_bin": "Nouns",
+        "range": [
+            111,
+            118
+        ],
+        "aspect": "problem",
+        "header": [
+            {
+                "HISTORY OF PRESENT ILLNESS": "Aspect.problem"
+            }
+        ],
+        "clinical": [
+            {
+                "SignSymptom": [
+                    {
+                        "code": "39104002",
+                        "tui": "T184",
+                        "codingScheme": "SNOMEDCT_US",
+                        "cui": "C0221423",
+                        "preferredText": "Illness"
+                    }
+                ],
+                "polarity": "positive"
+            }
+        ],
+        "event": [
+            {
+                "event": "ILLNESS"
+            }
+        ],
+        "PERSONAL_HISTORY": [
+            {
+                "HISTORY OF PRESENT ILLNESS": null
+            }
+        ]
+    },
+    {
+        "token": ":",
+        "len": 1,
+        "speech": ":",
+        "speech_bin": "unknown",
+        "range": [
+            118,
+            119
+        ],
+        "aspect": null,
+        "regex": [
+            {
+                "$COLON": ":"
+            }
+        ]
+    },
+    {
+        "token": "The",
+        "len": 3,
+        "speech": "DT",
+        "speech_bin": "com-dep-wd",
+        "range": [
+            120,
+            123
+        ],
+        "aspect": "problem"
+    },
+    {
+        "token": "patient",
+        "len": 7,
+        "speech": "NN",
+        "speech_bin": "Nouns",
+        "range": [
+            124,
+            131
+        ],
+        "aspect": "problem"
+    },
+    {
+        "token": "was",
+        "len": 3,
+        "speech": "VBD",
+        "speech_bin": "Verbs",
+        "range": [
+            132,
+            135
+        ],
+        "aspect": "problem"
+    },
+    {
+        "token": "running",
+        "len": 7,
+        "speech": "VBG",
+        "speech_bin": "Verbs",
+        "range": [
+            136,
+            143
+        ],
+        "aspect": "problem",
+        "clinical": [
+            {
+                "SignSymptom": [
+                    {
+                        "code": "418060005",
+                        "tui": "T056",
+                        "codingScheme": "SNOMEDCT_US",
+                        "cui": "C0035953",
+                        "preferredText": "Running"
+                    }
+                ],
+                "polarity": "positive"
+            }
+        ],
+        "event": [
+            {
+                "event": "running"
+            }
+        ]
+    },
+    {
+        "token": "and",
+        "len": 3,
+        "speech": "CC",
+        "speech_bin": "com-dep-wd",
+        "range": [
+            144,
+            147
+        ],
+        "aspect": "problem"
+    },
+    {
+        "token": "twisted",
+        "len": 7,
+        "speech": "VBD",
+        "speech_bin": "Verbs",
+        "range": [
+            148,
+            155
+        ],
+        "aspect": "problem",
+        "event": [
+            {
+                "event": "twisted"
+            }
+        ]
+    },
+    {
+        "token": "her",
+        "len": 3,
+        "speech": "PRP$",
+        "speech_bin": "Pronouns",
+        "range": [
+            156,
+            159
+        ],
+        "aspect": "problem"
+    },
+    {
+        "token": "right",
+        "len": 5,
+        "speech": "JJ",
+        "speech_bin": "Adjectives",
+        "range": [
+            160,
+            165
+        ],
+        "aspect": "problem",
+        "clinical": [
+            {
+                "AnatomicalSite": [
+                    {
+                        "code": "6685009",
+                        "tui": "T029",
+                        "codingScheme": "SNOMEDCT_US",
+                        "cui": "C0230447",
+                        "preferredText": "Structure of right ankle"
+                    }
+                ],
+                "polarity": "positive"
+            }
+        ]
+    },
+    {
+        "token": "ankle",
+        "len": 5,
+        "speech": "NN",
+        "speech_bin": "Nouns",
+        "range": [
+            166,
+            171
+        ],
+        "aspect": "problem",
+        "clinical": [
+            {
+                "AnatomicalSite": [
+                    {
+                        "code": "6685009",
+                        "tui": "T029",
+                        "codingScheme": "SNOMEDCT_US",
+                        "cui": "C0230447",
+                        "preferredText": "Structure of right ankle"
+                    }
+                ],
+                "polarity": "positive"
+            },
+            {
+                "AnatomicalSite": [
+                    {
+                        "code": "344001",
+                        "tui": "T030",
+                        "codingScheme": "SNOMEDCT_US",
+                        "cui": "C0003086",
+                        "preferredText": "Ankle"
+                    }
+                ],
+                "polarity": "positive"
+            }
+        ]
+    },
+    {
+        "token": ".",
+        "len": 1,
+        "speech": ".",
+        "speech_bin": "unknown",
+        "range": [
+            171,
+            172
+        ],
+        "aspect": "problem"
+    },
+    {
+        "token": "There",
+        "len": 5,
+        "speech": "EX",
+        "speech_bin": "com-dep-wd",
+        "range": [
+            173,
+            178
+        ],
+        "aspect": "problem"
+    },
+    {
+        "token": "were",
+        "len": 4,
+        "speech": "VBD",
+        "speech_bin": "Verbs",
+        "range": [
+            179,
+            183
+        ],
+        "aspect": "problem"
+    },
+    {
+        "token": "no",
+        "len": 2,
+        "speech": "DT",
+        "speech_bin": "com-dep-wd",
+        "range": [
+            184,
+            186
+        ],
+        "aspect": "problem",
+        "NO": [
+            {
+                "no": null
+            }
+        ],
+        "UNCERTAIN": [
+            {
+                "no other": null
+            }
+        ]
+    },
+    {
+        "token": "other",
+        "len": 5,
+        "speech": "JJ",
+        "speech_bin": "Adjectives",
+        "range": [
+            187,
+            192
+        ],
+        "aspect": "problem",
+        "UNCERTAIN": [
+            {
+                "no other": null
+            }
+        ]
+    },
+    {
+        "token": "injuries",
+        "len": 8,
+        "speech": "NNS",
+        "speech_bin": "Nouns",
+        "range": [
+            193,
+            201
+        ],
+        "aspect": "problem",
+        "clinical": [
+            {
+                "DiseaseDisorder": [
+                    {
+                        "code": "417746004",
+                        "tui": "T037",
+                        "codingScheme": "SNOMEDCT_US",
+                        "cui": "C3263723",
+                        "preferredText": "Traumatic injury"
+                    },
+                    {
+                        "code": "19130008",
+                        "tui": "T037",
+                        "codingScheme": "SNOMEDCT_US",
+                        "cui": "C3263723",
+                        "preferredText": "Traumatic injury"
+                    }
+                ],
+                "polarity": "negative"
+            }
+        ],
+        "event": [
+            {
+                "event": "injuries"
+            }
+        ]
+    },
+    {
+        "token": ".",
+        "len": 1,
+        "speech": ".",
+        "speech_bin": "unknown",
+        "range": [
+            201,
+            202
+        ],
+        "aspect": "problem"
+    },
+    {
+        "token": "She",
+        "len": 3,
+        "speech": "PRP",
+        "speech_bin": "Pronouns",
+        "range": [
+            203,
+            206
+        ],
+        "aspect": "problem"
+    },
+    {
+        "token": "complains",
+        "len": 9,
+        "speech": "VBZ",
+        "speech_bin": "Verbs",
+        "range": [
+            207,
+            216
+        ],
+        "aspect": "problem"
+    },
+    {
+        "token": "of",
+        "len": 2,
+        "speech": "IN",
+        "speech_bin": "com-dep-wd",
+        "range": [
+            217,
+            219
+        ],
+        "aspect": "problem"
+    },
+    {
+        "token": "right",
+        "len": 5,
+        "speech": "JJ",
+        "speech_bin": "Adjectives",
+        "range": [
+            220,
+            225
+        ],
+        "aspect": "problem",
+        "clinical": [
+            {
+                "AnatomicalSite": [
+                    {
+                        "code": "6685009",
+                        "tui": "T029",
+                        "codingScheme": "SNOMEDCT_US",
+                        "cui": "C0230447",
+                        "preferredText": "Structure of right ankle"
+                    }
+                ],
+                "polarity": "positive"
+            }
+        ]
+    },
+    {
+        "token": "ankle",
+        "len": 5,
+        "speech": "NN",
+        "speech_bin": "Nouns",
+        "range": [
+            226,
+            231
+        ],
+        "aspect": "problem",
+        "clinical": [
+            {
+                "AnatomicalSite": [
+                    {
+                        "code": "6685009",
+                        "tui": "T029",
+                        "codingScheme": "SNOMEDCT_US",
+                        "cui": "C0230447",
+                        "preferredText": "Structure of right ankle"
+                    }
+                ],
+                "polarity": "positive"
+            },
+            {
+                "SignSymptom": [
+                    {
+                        "code": "247373008",
+                        "tui": "T184",
+                        "codingScheme": "SNOMEDCT_US",
+                        "cui": "C0238656",
+                        "preferredText": "Ankle pain"
+                    },
+                    {
+                        "code": "202490009",
+                        "tui": "T184",
+                        "codingScheme": "SNOMEDCT_US",
+                        "cui": "C0238656",
+                        "preferredText": "Ankle pain"
+                    }
+                ],
+                "polarity": "positive"
+            },
+            {
+                "AnatomicalSite": [
+                    {
+                        "code": "344001",
+                        "tui": "T030",
+                        "codingScheme": "SNOMEDCT_US",
+                        "cui": "C0003086",
+                        "preferredText": "Ankle"
+                    }
+                ],
+                "polarity": "positive"
+            }
+        ],
+        "event": [
+            {
+                "event": "ankle pain"
+            }
+        ]
+    },
+    {
+        "token": "pain",
+        "len": 4,
+        "speech": "NN",
+        "speech_bin": "Nouns",
+        "range": [
+            232,
+            236
+        ],
+        "aspect": "problem",
+        "clinical": [
+            {
+                "SignSymptom": [
+                    {
+                        "code": "247373008",
+                        "tui": "T184",
+                        "codingScheme": "SNOMEDCT_US",
+                        "cui": "C0238656",
+                        "preferredText": "Ankle pain"
+                    },
+                    {
+                        "code": "202490009",
+                        "tui": "T184",
+                        "codingScheme": "SNOMEDCT_US",
+                        "cui": "C0238656",
+                        "preferredText": "Ankle pain"
+                    }
+                ],
+                "polarity": "positive"
+            },
+            {
+                "SignSymptom": [
+                    {
+                        "code": "22253000",
+                        "tui": "T184",
+                        "codingScheme": "SNOMEDCT_US",
+                        "cui": "C0030193",
+                        "preferredText": "Pain"
+                    }
+                ],
+                "polarity": "positive"
+            }
+        ],
+        "event": [
+            {
+                "event": "ankle pain"
+            },
+            {
+                "event": "pain"
+            }
+        ],
+        "PAIN_MIN": [
+            {
+                "pain": null
+            }
+        ],
+        "SEVERIRTY": [
+            {
+                "pain": null
+            }
+        ]
+    },
+    {
+        "token": "on",
+        "len": 2,
+        "speech": "IN",
+        "speech_bin": "com-dep-wd",
+        "range": [
+            237,
+            239
+        ],
+        "aspect": "problem"
+    },
+    {
+        "token": "the",
+        "len": 3,
+        "speech": "DT",
+        "speech_bin": "com-dep-wd",
+        "range": [
+            240,
+            243
+        ],
+        "aspect": "problem"
+    },
+    {
+        "token": "lateral",
+        "len": 7,
+        "speech": "JJ",
+        "speech_bin": "Adjectives",
+        "range": [
+            244,
+            251
+        ],
+        "aspect": "problem"
+    },
+    {
+        "token": "aspect",
+        "len": 6,
+        "speech": "NN",
+        "speech_bin": "Nouns",
+        "range": [
+            252,
+            258
+        ],
+        "aspect": "problem"
+    },
+    {
+        "token": ".",
+        "len": 1,
+        "speech": ".",
+        "speech_bin": "unknown",
+        "range": [
+            258,
+            259
+        ],
+        "aspect": "problem"
+    },
+    {
+        "token": "She",
+        "len": 3,
+        "speech": "PRP",
+        "speech_bin": "Pronouns",
+        "range": [
+            260,
+            263
+        ],
+        "aspect": "problem"
+    },
+    {
+        "token": "is",
+        "len": 2,
+        "speech": "VBZ",
+        "speech_bin": "Verbs",
+        "range": [
+            264,
+            266
+        ],
+        "aspect": "problem"
+    },
+    {
+        "token": "brought",
+        "len": 7,
+        "speech": "VBN",
+        "speech_bin": "Verbs",
+        "range": [
+            267,
+            274
+        ],
+        "aspect": "problem"
+    },
+    {
+        "token": "in",
+        "len": 2,
+        "speech": "IN",
+        "speech_bin": "com-dep-wd",
+        "range": [
+            275,
+            277
+        ],
+        "aspect": "problem"
+    },
+    {
+        "token": "by",
+        "len": 2,
+        "speech": "IN",
+        "speech_bin": "com-dep-wd",
+        "range": [
+            278,
+            280
+        ],
+        "aspect": "problem"
+    },
+    {
+        "token": "her",
+        "len": 3,
+        "speech": "PRP$",
+        "speech_bin": "Pronouns",
+        "range": [
+            281,
+            284
+        ],
+        "aspect": "problem"
+    },
+    {
+        "token": "mother",
+        "len": 6,
+        "speech": "NN",
+        "speech_bin": "Nouns",
+        "range": [
+            285,
+            291
+        ],
+        "aspect": "problem",
+        "MATERNAL": [
+            {
+                "mother": null
+            }
+        ]
+    },
+    {
+        "token": ".",
+        "len": 1,
+        "speech": ".",
+        "speech_bin": "unknown",
+        "range": [
+            291,
+            292
+        ],
+        "aspect": "problem"
+    },
+    {
+        "token": "Her",
+        "len": 3,
+        "speech": "PRP$",
+        "speech_bin": "Pronouns",
+        "range": [
+            293,
+            296
+        ],
+        "aspect": "problem"
+    },
+    {
+        "token": "primary",
+        "len": 7,
+        "speech": "JJ",
+        "speech_bin": "Adjectives",
+        "range": [
+            297,
+            304
+        ],
+        "aspect": "problem",
+        "clinical": [
+            {
+                "Procedure": [
+                    {
+                        "code": "261424001",
+                        "tui": "T061",
+                        "codingScheme": "SNOMEDCT_US",
+                        "cui": "C0439631",
+                        "preferredText": "Primary operation"
+                    }
+                ],
+                "polarity": "positive"
+            }
+        ],
+        "event": [
+            {
+                "event": "primary"
+            }
+        ]
+    },
+    {
+        "token": "care",
+        "len": 4,
+        "speech": "NN",
+        "speech_bin": "Nouns",
+        "range": [
+            305,
+            309
+        ],
+        "aspect": "problem"
+    },
+    {
+        "token": "physician",
+        "len": 9,
+        "speech": "NN",
+        "speech_bin": "Nouns",
+        "range": [
+            310,
+            319
+        ],
+        "aspect": "problem"
+    },
+    {
+        "token": "is",
+        "len": 2,
+        "speech": "VBZ",
+        "speech_bin": "Verbs",
+        "range": [
+            320,
+            322
+        ],
+        "aspect": "problem"
+    },
+    {
+        "token": "Dr.",
+        "len": 3,
+        "speech": "NNP",
+        "speech_bin": "Nouns",
+        "range": [
+            323,
+            326
+        ],
+        "aspect": "problem",
+        "regex": [
+            {
+                "$DOCTOR0_1": "Dr. Brown"
+            },
+            {
+                "$DOCTOR1": "Dr. Brown."
+            },
+            {
+                "$DOCTOR_OLDER": "Dr. Brown.\n\nREVIEW OF "
+            },
+            {
+                "$DOCTOR_GEN": "Dr. Brown.\n\nREVIEW OF SYSTEMS: Otherwise "
+            }
+        ]
+    },
+    {
+        "token": "Brown",
+        "len": 5,
+        "speech": "NNP",
+        "speech_bin": "Nouns",
+        "range": [
+            327,
+            332
+        ],
+        "aspect": "problem",
+        "regex": [
+            {
+                "$DOCTOR0_1": "Dr. Brown"
+            },
+            {
+                "$DOCTOR1": "Dr. Brown."
+            },
+            {
+                "$DOCTOR_OLDER": "Dr. Brown.\n\nREVIEW OF "
+            },
+            {
+                "$DOCTOR_GEN": "Dr. Brown.\n\nREVIEW OF SYSTEMS: Otherwise "
+            }
+        ]
+    },
+    {
+        "token": ".",
+        "len": 1,
+        "speech": ".",
+        "speech_bin": "unknown",
+        "range": [
+            332,
+            333
+        ],
+        "aspect": "problem",
+        "regex": [
+            {
+                "$DOCTOR1": "Dr. Brown."
+            },
+            {
+                "$DOCTOR_OLDER": "Dr. Brown.\n\nREVIEW OF "
+            },
+            {
+                "$DOCTOR_GEN": "Dr. Brown.\n\nREVIEW OF SYSTEMS: Otherwise "
+            }
+        ]
+    },
+    {
+        "token": "REVIEW",
+        "len": 6,
+        "speech": "NNP",
+        "speech_bin": "Nouns",
+        "range": [
+            335,
+            341
+        ],
+        "aspect": "problem",
+        "regex": [
+            {
+                "$DOCTOR_OLDER": "Dr. Brown.\n\nREVIEW OF "
+            },
+            {
+                "$DOCTOR_GEN": "Dr. Brown.\n\nREVIEW OF SYSTEMS: Otherwise "
+            }
+        ],
+        "header": [
+            {
+                "REVIEW OF SYSTEMS": "Aspect.problem"
+            }
+        ]
+    },
+    {
+        "token": "OF",
+        "len": 2,
+        "speech": "NNPS",
+        "speech_bin": "Nouns",
+        "range": [
+            342,
+            344
+        ],
+        "aspect": "problem",
+        "regex": [
+            {
+                "$DOCTOR_OLDER": "Dr. Brown.\n\nREVIEW OF "
+            },
+            {
+                "$DOCTOR_GEN": "Dr. Brown.\n\nREVIEW OF SYSTEMS: Otherwise "
+            }
+        ],
+        "header": [
+            {
+                "REVIEW OF SYSTEMS": "Aspect.problem"
+            }
+        ]
+    },
+    {
+        "token": "SYSTEMS",
+        "len": 7,
+        "speech": "NNP",
+        "speech_bin": "Nouns",
+        "range": [
+            345,
+            352
+        ],
+        "aspect": "problem",
+        "regex": [
+            {
+                "$DOCTOR_GEN": "Dr. Brown.\n\nREVIEW OF SYSTEMS: Otherwise "
+            }
+        ],
+        "header": [
+            {
+                "REVIEW OF SYSTEMS": "Aspect.problem"
+            }
+        ]
+    },
+    {
+        "token": ":",
+        "len": 1,
+        "speech": ":",
+        "speech_bin": "unknown",
+        "range": [
+            352,
+            353
+        ],
+        "aspect": null,
+        "regex": [
+            {
+                "$DOCTOR_GEN": "Dr. Brown.\n\nREVIEW OF SYSTEMS: Otherwise "
+            },
+            {
+                "$COLON": ":"
+            }
+        ]
+    },
+    {
+        "token": "Otherwise",
+        "len": 9,
+        "speech": "RB",
+        "speech_bin": "Adverbs",
+        "range": [
+            354,
+            363
+        ],
+        "aspect": "problem",
+        "regex": [
+            {
+                "$DOCTOR_GEN": "Dr. Brown.\n\nREVIEW OF SYSTEMS: Otherwise "
+            }
+        ]
+    },
+    {
+        "token": "negative",
+        "len": 8,
+        "speech": "JJ",
+        "speech_bin": "Adjectives",
+        "range": [
+            364,
+            372
+        ],
+        "aspect": "problem",
+        "event": [
+            {
+                "event": "negative"
+            }
+        ],
+        "NEGATIVE": [
+            {
+                "negative": null
+            }
+        ]
+    },
+    {
+        "token": "except",
+        "len": 6,
+        "speech": "IN",
+        "speech_bin": "com-dep-wd",
+        "range": [
+            373,
+            379
+        ],
+        "aspect": "problem"
+    },
+    {
+        "token": "as",
+        "len": 2,
+        "speech": "IN",
+        "speech_bin": "com-dep-wd",
+        "range": [
+            380,
+            382
+        ],
+        "aspect": "problem"
+    },
+    {
+        "token": "stated",
+        "len": 6,
+        "speech": "VBN",
+        "speech_bin": "Verbs",
+        "range": [
+            383,
+            389
+        ],
+        "aspect": "problem"
+    },
+    {
+        "token": "above",
+        "len": 5,
+        "speech": "IN",
+        "speech_bin": "com-dep-wd",
+        "range": [
+            390,
+            395
+        ],
+        "aspect": "problem"
+    },
+    {
+        "token": ".",
+        "len": 1,
+        "speech": ".",
+        "speech_bin": "unknown",
+        "range": [
+            395,
+            396
+        ],
+        "aspect": "problem"
+    },
+    {
+        "token": "PAST",
+        "len": 4,
+        "speech": "NNP",
+        "speech_bin": "Nouns",
+        "range": [
+            398,
+            402
+        ],
+        "aspect": "diagnosis",
+        "header": [
+            {
+                "PAST MEDICAL HISTORY": "Aspect.diagnosis"
+            }
+        ],
+        "clinical": [
+            {
+                "SignSymptom": [
+                    {
+                        "code": "417662000",
+                        "tui": "T033",
+                        "codingScheme": "SNOMEDCT_US",
+                        "cui": "C0455458",
+                        "preferredText": "PMH - past medical history"
+                    }
+                ],
+                "polarity": "negative"
+            }
+        ],
+        "event": [
+            {
+                "event": "PAST MEDICAL HISTORY"
+            }
+        ],
+        "PERSONAL_HISTORY": [
+            {
+                "PAST MEDICAL HISTORY": null
+            }
+        ]
+    },
+    {
+        "token": "MEDICAL",
+        "len": 7,
+        "speech": "NNP",
+        "speech_bin": "Nouns",
+        "range": [
+            403,
+            410
+        ],
+        "aspect": "diagnosis",
+        "header": [
+            {
+                "PAST MEDICAL HISTORY": "Aspect.diagnosis"
+            }
+        ],
+        "clinical": [
+            {
+                "SignSymptom": [
+                    {
+                        "code": "417662000",
+                        "tui": "T033",
+                        "codingScheme": "SNOMEDCT_US",
+                        "cui": "C0455458",
+                        "preferredText": "PMH - past medical history"
+                    }
+                ],
+                "polarity": "negative"
+            }
+        ],
+        "event": [
+            {
+                "event": "PAST MEDICAL HISTORY"
+            }
+        ],
+        "PERSONAL_HISTORY": [
+            {
+                "PAST MEDICAL HISTORY": null
+            }
+        ]
+    },
+    {
+        "token": "HISTORY",
+        "len": 7,
+        "speech": "NNP",
+        "speech_bin": "Nouns",
+        "range": [
+            411,
+            418
+        ],
+        "aspect": "diagnosis",
+        "header": [
+            {
+                "PAST MEDICAL HISTORY": "Aspect.diagnosis"
+            }
+        ],
+        "clinical": [
+            {
+                "SignSymptom": [
+                    {
+                        "code": "417662000",
+                        "tui": "T033",
+                        "codingScheme": "SNOMEDCT_US",
+                        "cui": "C0455458",
+                        "preferredText": "PMH - past medical history"
+                    }
+                ],
+                "polarity": "negative"
+            },
+            {
+                "SignSymptom": [
+                    {
+                        "code": "392521001",
+                        "tui": "T033",
+                        "codingScheme": "SNOMEDCT_US",
+                        "cui": "C0262926",
+                        "preferredText": "History of"
+                    }
+                ],
+                "polarity": "negative"
+            }
+        ],
+        "event": [
+            {
+                "event": "PAST MEDICAL HISTORY"
+            },
+            {
+                "event": "HISTORY"
+            }
+        ],
+        "PERSONAL_HISTORY": [
+            {
+                "PAST MEDICAL HISTORY": null
+            }
+        ]
+    },
+    {
+        "token": ":",
+        "len": 1,
+        "speech": ":",
+        "speech_bin": "unknown",
+        "range": [
+            418,
+            419
+        ],
+        "aspect": null,
+        "regex": [
+            {
+                "$COLON": ":"
+            }
+        ]
+    },
+    {
+        "token": "None",
+        "len": 4,
+        "speech": "NN",
+        "speech_bin": "Nouns",
+        "range": [
+            420,
+            424
+        ],
+        "aspect": "diagnosis",
+        "NO": [
+            {
+                "None": null
+            }
+        ]
+    },
+    {
+        "token": ".",
+        "len": 1,
+        "speech": ".",
+        "speech_bin": "unknown",
+        "range": [
+            424,
+            425
+        ],
+        "aspect": "diagnosis"
+    },
+    {
+        "token": "PAST",
+        "len": 4,
+        "speech": "JJ",
+        "speech_bin": "Adjectives",
+        "range": [
+            427,
+            431
+        ],
+        "aspect": "procedure",
+        "header": [
+            {
+                "PAST SURGICAL HISTORY": "Aspect.procedure"
+            }
+        ],
+        "PERSONAL_HISTORY": [
+            {
+                "PAST SURGICAL HISTORY": null
+            }
+        ]
+    },
+    {
+        "token": "SURGICAL",
+        "len": 8,
+        "speech": "JJ",
+        "speech_bin": "Adjectives",
+        "range": [
+            432,
+            440
+        ],
+        "aspect": "procedure",
+        "header": [
+            {
+                "PAST SURGICAL HISTORY": "Aspect.procedure"
+            }
+        ],
+        "PERSONAL_HISTORY": [
+            {
+                "SURGICAL HISTORY": null
+            }
+        ]
+    },
+    {
+        "token": "HISTORY",
+        "len": 7,
+        "speech": "NN",
+        "speech_bin": "Nouns",
+        "range": [
+            441,
+            448
+        ],
+        "aspect": "procedure",
+        "header": [
+            {
+                "HISTORY": "Aspect.other"
+            }
+        ],
+        "clinical": [
+            {
+                "SignSymptom": [
+                    {
+                        "code": "392521001",
+                        "tui": "T033",
+                        "codingScheme": "SNOMEDCT_US",
+                        "cui": "C0262926",
+                        "preferredText": "History of"
+                    }
+                ],
+                "polarity": "negative"
+            }
+        ],
+        "event": [
+            {
+                "event": "HISTORY"
+            }
+        ],
+        "PERSONAL_HISTORY": [
+            {
+                "SURGICAL HISTORY": null
+            }
+        ]
+    },
+    {
+        "token": ":",
+        "len": 1,
+        "speech": ":",
+        "speech_bin": "unknown",
+        "range": [
+            448,
+            449
+        ],
+        "aspect": null,
+        "regex": [
+            {
+                "$COLON": ":"
+            }
+        ]
+    },
+    {
+        "token": "None",
+        "len": 4,
+        "speech": "NN",
+        "speech_bin": "Nouns",
+        "range": [
+            450,
+            454
+        ],
+        "aspect": "diagnosis",
+        "NO": [
+            {
+                "None": null
+            }
+        ]
+    },
+    {
+        "token": ".",
+        "len": 1,
+        "speech": ".",
+        "speech_bin": "unknown",
+        "range": [
+            454,
+            455
+        ],
+        "aspect": "diagnosis"
+    },
+    {
+        "token": "MEDICATIONS",
+        "len": 11,
+        "speech": "NN",
+        "speech_bin": "Nouns",
+        "range": [
+            457,
+            468
+        ],
+        "aspect": "medication",
+        "header": [
+            {
+                "MEDICATIONS": "Aspect.medication"
+            }
+        ],
+        "clinical": [
+            {
+                "Medication": [
+                    {
+                        "code": "105903003",
+                        "tui": "T121",
+                        "codingScheme": "SNOMEDCT_US",
+                        "cui": "C0013227",
+                        "preferredText": "General drug type"
+                    },
+                    {
+                        "code": "373873005",
+                        "tui": "T121",
+                        "codingScheme": "SNOMEDCT_US",
+                        "cui": "C0013227",
+                        "preferredText": "General drug type"
+                    },
+                    {
+                        "code": "410942007",
+                        "tui": "T121",
+                        "codingScheme": "SNOMEDCT_US",
+                        "cui": "C0013227",
+                        "preferredText": "General drug type"
+                    }
+                ],
+                "polarity": "negative"
+            }
+        ],
+        "event": [
+            {
+                "event": "MEDICATIONS"
+            }
+        ]
+    },
+    {
+        "token": ":",
+        "len": 1,
+        "speech": ":",
+        "speech_bin": "unknown",
+        "range": [
+            468,
+            469
+        ],
+        "aspect": null,
+        "regex": [
+            {
+                "$COLON": ":"
+            }
+        ]
+    },
+    {
+        "token": "None",
+        "len": 4,
+        "speech": "NN",
+        "speech_bin": "Nouns",
+        "range": [
+            470,
+            474
+        ],
+        "aspect": "diagnosis",
+        "NO": [
+            {
+                "None": null
+            }
+        ]
+    },
+    {
+        "token": ".",
+        "len": 1,
+        "speech": ".",
+        "speech_bin": "unknown",
+        "range": [
+            474,
+            475
+        ],
+        "aspect": "diagnosis"
+    },
+    {
+        "token": "SOCIAL",
+        "len": 6,
+        "speech": "NNP",
+        "speech_bin": "Nouns",
+        "range": [
+            477,
+            483
+        ],
+        "aspect": "social",
+        "header": [
+            {
+                "SOCIAL HISTORY": "Aspect.social"
+            }
+        ],
+        "clinical": [
+            {
+                "SignSymptom": [
+                    {
+                        "code": "160476009",
+                        "tui": "T033",
+                        "codingScheme": "SNOMEDCT_US",
+                        "cui": "C0424945",
+                        "preferredText": "Social / personal history observable"
+                    }
+                ],
+                "polarity": "positive"
+            }
+        ],
+        "event": [
+            {
+                "event": "SOCIAL HISTORY"
+            }
+        ]
+    },
+    {
+        "token": "HISTORY",
+        "len": 7,
+        "speech": "NNP",
+        "speech_bin": "Nouns",
+        "range": [
+            484,
+            491
+        ],
+        "aspect": "social",
+        "header": [
+            {
+                "SOCIAL HISTORY": "Aspect.social"
+            }
+        ],
+        "clinical": [
+            {
+                "SignSymptom": [
+                    {
+                        "code": "160476009",
+                        "tui": "T033",
+                        "codingScheme": "SNOMEDCT_US",
+                        "cui": "C0424945",
+                        "preferredText": "Social / personal history observable"
+                    }
+                ],
+                "polarity": "positive"
+            },
+            {
+                "SignSymptom": [
+                    {
+                        "code": "392521001",
+                        "tui": "T033",
+                        "codingScheme": "SNOMEDCT_US",
+                        "cui": "C0262926",
+                        "preferredText": "History of"
+                    }
+                ],
+                "polarity": "positive"
+            }
+        ],
+        "event": [
+            {
+                "event": "SOCIAL HISTORY"
+            },
+            {
+                "event": "HISTORY"
+            }
+        ]
+    },
+    {
+        "token": ":",
+        "len": 1,
+        "speech": ":",
+        "speech_bin": "unknown",
+        "range": [
+            491,
+            492
+        ],
+        "aspect": null,
+        "regex": [
+            {
+                "$COLON": ":"
+            }
+        ]
+    },
+    {
+        "token": "Mother",
+        "len": 6,
+        "speech": "NN",
+        "speech_bin": "Nouns",
+        "range": [
+            493,
+            499
+        ],
+        "aspect": "social",
+        "MATERNAL": [
+            {
+                "Mother": null
+            }
+        ]
+    },
+    {
+        "token": "appears",
+        "len": 7,
+        "speech": "VBZ",
+        "speech_bin": "Verbs",
+        "range": [
+            500,
+            507
+        ],
+        "aspect": "social"
+    },
+    {
+        "token": "loving",
+        "len": 6,
+        "speech": "VBG",
+        "speech_bin": "Verbs",
+        "range": [
+            508,
+            514
+        ],
+        "aspect": "social"
+    },
+    {
+        "token": "and",
+        "len": 3,
+        "speech": "CC",
+        "speech_bin": "com-dep-wd",
+        "range": [
+            515,
+            518
+        ],
+        "aspect": "social"
+    },
+    {
+        "token": "caring",
+        "len": 6,
+        "speech": "VBG",
+        "speech_bin": "Verbs",
+        "range": [
+            519,
+            525
+        ],
+        "aspect": "social"
+    },
+    {
+        "token": ".",
+        "len": 1,
+        "speech": ".",
+        "speech_bin": "unknown",
+        "range": [
+            525,
+            526
+        ],
+        "aspect": "social"
+    },
+    {
+        "token": "There",
+        "len": 5,
+        "speech": "EX",
+        "speech_bin": "com-dep-wd",
+        "range": [
+            527,
+            532
+        ],
+        "aspect": "social"
+    },
+    {
+        "token": "is",
+        "len": 2,
+        "speech": "VBZ",
+        "speech_bin": "Verbs",
+        "range": [
+            533,
+            535
+        ],
+        "aspect": "social"
+    },
+    {
+        "token": "no",
+        "len": 2,
+        "speech": "DT",
+        "speech_bin": "com-dep-wd",
+        "range": [
+            536,
+            538
+        ],
+        "aspect": "social",
+        "NO": [
+            {
+                "no": null
+            }
+        ]
+    },
+    {
+        "token": "evidence",
+        "len": 8,
+        "speech": "NN",
+        "speech_bin": "Nouns",
+        "range": [
+            539,
+            547
+        ],
+        "aspect": "social",
+        "EVIDENCE": [
+            {
+                "evidence": null
+            }
+        ]
+    },
+    {
+        "token": "of",
+        "len": 2,
+        "speech": "IN",
+        "speech_bin": "com-dep-wd",
+        "range": [
+            548,
+            550
+        ],
+        "aspect": "social"
+    },
+    {
+        "token": "abuse",
+        "len": 5,
+        "speech": "NN",
+        "speech_bin": "Nouns",
+        "range": [
+            551,
+            556
+        ],
+        "aspect": "social",
+        "clinical": [
+            {
+                "SignSymptom": [
+                    {
+                        "code": "386702006",
+                        "tui": "T033",
+                        "codingScheme": "SNOMEDCT_US",
+                        "cui": "C0562381",
+                        "preferredText": "Victim of abuse"
+                    }
+                ],
+                "polarity": "negative"
+            }
+        ],
+        "event": [
+            {
+                "event": "abuse"
+            }
+        ]
+    },
+    {
+        "token": ".",
+        "len": 1,
+        "speech": ".",
+        "speech_bin": "unknown",
+        "range": [
+            556,
+            557
+        ],
+        "aspect": "social"
+    },
+    {
+        "token": "ALLERGIES",
+        "len": 9,
+        "speech": "NNP",
+        "speech_bin": "Nouns",
+        "range": [
+            559,
+            568
+        ],
+        "aspect": "allergy",
+        "header": [
+            {
+                "ALLERGIES": "Aspect.allergy"
+            }
+        ],
+        "clinical": [
+            {
+                "SignSymptom": [
+                    {
+                        "code": "418634005",
+                        "tui": "T046",
+                        "codingScheme": "SNOMEDCT_US",
+                        "cui": "C0020517",
+                        "preferredText": "Hypersensitivity reaction"
+                    },
+                    {
+                        "code": "421961002",
+                        "tui": "T046",
+                        "codingScheme": "SNOMEDCT_US",
+                        "cui": "C0020517",
+                        "preferredText": "Hypersensitivity reaction"
+                    }
+                ],
+                "polarity": "negative"
+            }
+        ],
+        "event": [
+            {
+                "event": "ALLERGIES"
+            }
+        ]
+    },
+    {
+        "token": ":",
+        "len": 1,
+        "speech": ":",
+        "speech_bin": "unknown",
+        "range": [
+            568,
+            569
+        ],
+        "aspect": null,
+        "regex": [
+            {
+                "$COLON": ":"
+            }
+        ]
+    },
+    {
+        "token": "No",
+        "len": 2,
+        "speech": "DT",
+        "speech_bin": "com-dep-wd",
+        "range": [
+            570,
+            572
+        ],
+        "aspect": "allergy",
+        "clinical": [
+            {
+                "SignSymptom": [
+                    {
+                        "code": "409137002",
+                        "tui": "T033",
+                        "codingScheme": "SNOMEDCT_US",
+                        "cui": "C0262581",
+                        "preferredText": "No known drug allergies"
+                    }
+                ],
+                "polarity": "positive"
+            }
+        ],
+        "event": [
+            {
+                "event": "No known drug allergies"
+            }
+        ],
+        "NO": [
+            {
+                "No": null
+            }
+        ],
+        "UNCERTAIN": [
+            {
+                "No known": null
+            }
+        ]
+    },
+    {
+        "token": "known",
+        "len": 5,
+        "speech": "JJ",
+        "speech_bin": "Adjectives",
+        "range": [
+            573,
+            578
+        ],
+        "aspect": "allergy",
+        "clinical": [
+            {
+                "SignSymptom": [
+                    {
+                        "code": "409137002",
+                        "tui": "T033",
+                        "codingScheme": "SNOMEDCT_US",
+                        "cui": "C0262581",
+                        "preferredText": "No known drug allergies"
+                    }
+                ],
+                "polarity": "positive"
+            }
+        ],
+        "event": [
+            {
+                "event": "No known drug allergies"
+            }
+        ],
+        "UNCERTAIN": [
+            {
+                "No known": null
+            }
+        ]
+    },
+    {
+        "token": "drug",
+        "len": 4,
+        "speech": "NN",
+        "speech_bin": "Nouns",
+        "range": [
+            579,
+            583
+        ],
+        "aspect": "allergy",
+        "clinical": [
+            {
+                "SignSymptom": [
+                    {
+                        "code": "409137002",
+                        "tui": "T033",
+                        "codingScheme": "SNOMEDCT_US",
+                        "cui": "C0262581",
+                        "preferredText": "No known drug allergies"
+                    }
+                ],
+                "polarity": "positive"
+            },
+            {
+                "DiseaseDisorder": [
+                    {
+                        "code": "416098002",
+                        "tui": "T047",
+                        "codingScheme": "SNOMEDCT_US",
+                        "cui": "C0013182",
+                        "preferredText": "Allergic reaction to drug"
+                    },
+                    {
+                        "code": "609398007",
+                        "tui": "T047",
+                        "codingScheme": "SNOMEDCT_US",
+                        "cui": "C3662272",
+                        "preferredText": "Drug pseudoallergy"
+                    },
+                    {
+                        "code": "416093006",
+                        "tui": "T047",
+                        "codingScheme": "SNOMEDCT_US",
+                        "cui": "C0013182",
+                        "preferredText": "Allergic reaction to drug"
+                    }
+                ],
+                "polarity": "negative"
+            },
+            {
+                "Medication": [
+                    {
+                        "code": "105903003",
+                        "tui": "T121",
+                        "codingScheme": "SNOMEDCT_US",
+                        "cui": "C0013227",
+                        "preferredText": "General drug type"
+                    },
+                    {
+                        "code": "373873005",
+                        "tui": "T121",
+                        "codingScheme": "SNOMEDCT_US",
+                        "cui": "C0013227",
+                        "preferredText": "General drug type"
+                    },
+                    {
+                        "code": "410942007",
+                        "tui": "T121",
+                        "codingScheme": "SNOMEDCT_US",
+                        "cui": "C0013227",
+                        "preferredText": "General drug type"
+                    }
+                ],
+                "polarity": "negative"
+            }
+        ],
+        "event": [
+            {
+                "event": "No known drug allergies"
+            },
+            {
+                "event": "drug allergies"
+            },
+            {
+                "event": "drug"
+            }
+        ]
+    },
+    {
+        "token": "allergies",
+        "len": 9,
+        "speech": "NNS",
+        "speech_bin": "Nouns",
+        "range": [
+            584,
+            593
+        ],
+        "aspect": "allergy",
+        "clinical": [
+            {
+                "SignSymptom": [
+                    {
+                        "code": "409137002",
+                        "tui": "T033",
+                        "codingScheme": "SNOMEDCT_US",
+                        "cui": "C0262581",
+                        "preferredText": "No known drug allergies"
+                    }
+                ],
+                "polarity": "positive"
+            },
+            {
+                "DiseaseDisorder": [
+                    {
+                        "code": "416098002",
+                        "tui": "T047",
+                        "codingScheme": "SNOMEDCT_US",
+                        "cui": "C0013182",
+                        "preferredText": "Allergic reaction to drug"
+                    },
+                    {
+                        "code": "609398007",
+                        "tui": "T047",
+                        "codingScheme": "SNOMEDCT_US",
+                        "cui": "C3662272",
+                        "preferredText": "Drug pseudoallergy"
+                    },
+                    {
+                        "code": "416093006",
+                        "tui": "T047",
+                        "codingScheme": "SNOMEDCT_US",
+                        "cui": "C0013182",
+                        "preferredText": "Allergic reaction to drug"
+                    }
+                ],
+                "polarity": "negative"
+            },
+            {
+                "SignSymptom": [
+                    {
+                        "code": "418634005",
+                        "tui": "T046",
+                        "codingScheme": "SNOMEDCT_US",
+                        "cui": "C0020517",
+                        "preferredText": "Hypersensitivity reaction"
+                    },
+                    {
+                        "code": "421961002",
+                        "tui": "T046",
+                        "codingScheme": "SNOMEDCT_US",
+                        "cui": "C0020517",
+                        "preferredText": "Hypersensitivity reaction"
+                    }
+                ],
+                "polarity": "negative"
+            }
+        ],
+        "event": [
+            {
+                "event": "No known drug allergies"
+            },
+            {
+                "event": "drug allergies"
+            },
+            {
+                "event": "allergies"
+            }
+        ]
+    },
+    {
+        "token": ".",
+        "len": 1,
+        "speech": ".",
+        "speech_bin": "unknown",
+        "range": [
+            593,
+            594
+        ],
+        "aspect": "allergy"
+    },
+    {
+        "token": "PHYSICAL",
+        "len": 8,
+        "speech": "JJ",
+        "speech_bin": "Adjectives",
+        "range": [
+            596,
+            604
+        ],
+        "aspect": "physical_exam",
+        "header": [
+            {
+                "PHYSICAL EXAMINATION": "Aspect.physical_exam"
+            }
+        ],
+        "event": [
+            {
+                "event": "PHYSICAL"
+            }
+        ]
+    },
+    {
+        "token": "EXAMINATION",
+        "len": 11,
+        "speech": "NN",
+        "speech_bin": "Nouns",
+        "range": [
+            605,
+            616
+        ],
+        "aspect": "physical_exam",
+        "header": [
+            {
+                "PHYSICAL EXAMINATION": "Aspect.physical_exam"
+            }
+        ]
+    },
+    {
+        "token": ":",
+        "len": 1,
+        "speech": ":",
+        "speech_bin": "unknown",
+        "range": [
+            616,
+            617
+        ],
+        "aspect": null,
+        "regex": [
+            {
+                "$COLON": ":"
+            }
+        ]
+    },
+    {
+        "token": "General",
+        "len": 7,
+        "speech": "JJ",
+        "speech_bin": "Adjectives",
+        "range": [
+            618,
+            625
+        ],
+        "aspect": "physical_exam"
+    },
+    {
+        "token": ":",
+        "len": 1,
+        "speech": ":",
+        "speech_bin": "unknown",
+        "range": [
+            625,
+            626
+        ],
+        "aspect": "physical_exam",
+        "regex": [
+            {
+                "$COLON": ":"
+            }
+        ]
+    },
+    {
+        "token": "The",
+        "len": 3,
+        "speech": "DT",
+        "speech_bin": "com-dep-wd",
+        "range": [
+            627,
+            630
+        ],
+        "aspect": "physical_exam"
+    },
+    {
+        "token": "patient",
+        "len": 7,
+        "speech": "NN",
+        "speech_bin": "Nouns",
+        "range": [
+            631,
+            638
+        ],
+        "aspect": "physical_exam"
+    },
+    {
+        "token": "is",
+        "len": 2,
+        "speech": "VBZ",
+        "speech_bin": "Verbs",
+        "range": [
+            639,
+            641
+        ],
+        "aspect": "physical_exam"
+    },
+    {
+        "token": "alert",
+        "len": 5,
+        "speech": "JJ",
+        "speech_bin": "Adjectives",
+        "range": [
+            642,
+            647
+        ],
+        "aspect": "physical_exam"
+    },
+    {
+        "token": "and",
+        "len": 3,
+        "speech": "CC",
+        "speech_bin": "com-dep-wd",
+        "range": [
+            648,
+            651
+        ],
+        "aspect": "physical_exam"
+    },
+    {
+        "token": "oriented",
+        "len": 8,
+        "speech": "JJ",
+        "speech_bin": "Adjectives",
+        "range": [
+            652,
+            660
+        ],
+        "aspect": "physical_exam",
+        "clinical": [
+            {
+                "SignSymptom": [
+                    {
+                        "code": "427161009",
+                        "tui": "T033",
+                        "codingScheme": "SNOMEDCT_US",
+                        "cui": "C1961028",
+                        "preferredText": "Oriented to place"
+                    }
+                ],
+                "polarity": "negative"
+            }
+        ],
+        "event": [
+            {
+                "event": "oriented"
+            }
+        ]
+    },
+    {
+        "token": "x4",
+        "len": 2,
+        "speech": "NN",
+        "speech_bin": "Nouns",
+        "range": [
+            661,
+            663
+        ],
+        "aspect": "physical_exam",
+        "event": [
+            {
+                "event": "x4"
+            }
+        ]
+    },
+    {
+        "token": "in",
+        "len": 2,
+        "speech": "IN",
+        "speech_bin": "com-dep-wd",
+        "range": [
+            664,
+            666
+        ],
+        "aspect": "physical_exam"
+    },
+    {
+        "token": "mild",
+        "len": 4,
+        "speech": "JJ",
+        "speech_bin": "Adjectives",
+        "range": [
+            667,
+            671
+        ],
+        "aspect": "physical_exam",
+        "event": [
+            {
+                "event": "mild"
+            }
+        ],
+        "SEVERIRTY": [
+            {
+                "mild": null
+            }
+        ]
+    },
+    {
+        "token": "distress",
+        "len": 8,
+        "speech": "NN",
+        "speech_bin": "Nouns",
+        "range": [
+            672,
+            680
+        ],
+        "aspect": "physical_exam",
+        "clinical": [
+            {
+                "SignSymptom": [
+                    {
+                        "code": "69328002",
+                        "tui": "T041",
+                        "codingScheme": "SNOMEDCT_US",
+                        "cui": "C0231303",
+                        "preferredText": "Distress"
+                    }
+                ],
+                "polarity": "negative"
+            }
+        ],
+        "event": [
+            {
+                "event": "distress"
+            }
+        ]
+    },
+    {
+        "token": "without",
+        "len": 7,
+        "speech": "IN",
+        "speech_bin": "com-dep-wd",
+        "range": [
+            681,
+            688
+        ],
+        "aspect": "physical_exam",
+        "WITHOUT": [
+            {
+                "without": null
+            }
+        ]
+    },
+    {
+        "token": "diaphoresis",
+        "len": 11,
+        "speech": "NN",
+        "speech_bin": "Nouns",
+        "range": [
+            689,
+            700
+        ],
+        "aspect": "physical_exam",
+        "clinical": [
+            {
+                "SignSymptom": [
+                    {
+                        "code": "415691001",
+                        "tui": "T184",
+                        "codingScheme": "SNOMEDCT_US",
+                        "cui": "C0700590",
+                        "preferredText": "Excessive sweating"
+                    },
+                    {
+                        "code": "52613005",
+                        "tui": "T184",
+                        "codingScheme": "SNOMEDCT_US",
+                        "cui": "C0700590",
+                        "preferredText": "Excessive sweating"
+                    }
+                ],
+                "polarity": "negative"
+            }
+        ],
+        "event": [
+            {
+                "event": "diaphoresis"
+            }
+        ]
+    },
+    {
+        "token": ".",
+        "len": 1,
+        "speech": ".",
+        "speech_bin": "unknown",
+        "range": [
+            700,
+            701
+        ],
+        "aspect": "physical_exam"
+    },
+    {
+        "token": "She",
+        "len": 3,
+        "speech": "PRP",
+        "speech_bin": "Pronouns",
+        "range": [
+            702,
+            705
+        ],
+        "aspect": "physical_exam"
+    },
+    {
+        "token": "is",
+        "len": 2,
+        "speech": "VBZ",
+        "speech_bin": "Verbs",
+        "range": [
+            706,
+            708
+        ],
+        "aspect": "physical_exam"
+    },
+    {
+        "token": "nonlethargic",
+        "len": 12,
+        "speech": "JJ",
+        "speech_bin": "Adjectives",
+        "range": [
+            709,
+            721
+        ],
+        "aspect": "physical_exam"
+    },
+    {
+        "token": "and",
+        "len": 3,
+        "speech": "CC",
+        "speech_bin": "com-dep-wd",
+        "range": [
+            722,
+            725
+        ],
+        "aspect": "physical_exam"
+    },
+    {
+        "token": "nontoxic",
+        "len": 8,
+        "speech": "JJ",
+        "speech_bin": "Adjectives",
+        "range": [
+            726,
+            734
+        ],
+        "aspect": "physical_exam"
+    },
+    {
+        "token": ".",
+        "len": 1,
+        "speech": ".",
+        "speech_bin": "unknown",
+        "range": [
+            734,
+            735
+        ],
+        "aspect": "physical_exam"
+    },
+    {
+        "token": "Vitals",
+        "len": 6,
+        "speech": "NNS",
+        "speech_bin": "Nouns",
+        "range": [
+            736,
+            742
+        ],
+        "aspect": "physical_exam"
+    },
+    {
+        "token": ":",
+        "len": 1,
+        "speech": ":",
+        "speech_bin": "unknown",
+        "range": [
+            742,
+            743
+        ],
+        "aspect": "physical_exam",
+        "regex": [
+            {
+                "$COLON": ":"
+            }
+        ]
+    },
+    {
+        "token": "Within",
+        "len": 6,
+        "speech": "NNP",
+        "speech_bin": "Nouns",
+        "range": [
+            744,
+            750
+        ],
+        "aspect": "physical_exam",
+        "clinical": [
+            {
+                "SignSymptom": [
+                    {
+                        "code": "125112009",
+                        "tui": "T033",
+                        "codingScheme": "SNOMEDCT_US",
+                        "cui": "C1265570",
+                        "preferredText": "Morphology within normal limits"
+                    }
+                ],
+                "polarity": "positive"
+            }
+        ],
+        "event": [
+            {
+                "event": "Within normal limits"
+            }
+        ]
+    },
+    {
+        "token": "normal",
+        "len": 6,
+        "speech": "JJ",
+        "speech_bin": "Adjectives",
+        "range": [
+            751,
+            757
+        ],
+        "aspect": "physical_exam",
+        "clinical": [
+            {
+                "SignSymptom": [
+                    {
+                        "code": "125112009",
+                        "tui": "T033",
+                        "codingScheme": "SNOMEDCT_US",
+                        "cui": "C1265570",
+                        "preferredText": "Morphology within normal limits"
+                    }
+                ],
+                "polarity": "positive"
+            }
+        ],
+        "event": [
+            {
+                "event": "Within normal limits"
+            },
+            {
+                "event": "normal"
+            }
+        ],
+        "SEVERIRTY": [
+            {
+                "normal": null
+            }
+        ]
+    },
+    {
+        "token": "limits",
+        "len": 6,
+        "speech": "NNS",
+        "speech_bin": "Nouns",
+        "range": [
+            758,
+            764
+        ],
+        "aspect": "physical_exam",
+        "clinical": [
+            {
+                "SignSymptom": [
+                    {
+                        "code": "125112009",
+                        "tui": "T033",
+                        "codingScheme": "SNOMEDCT_US",
+                        "cui": "C1265570",
+                        "preferredText": "Morphology within normal limits"
+                    }
+                ],
+                "polarity": "positive"
+            }
+        ],
+        "event": [
+            {
+                "event": "Within normal limits"
+            }
+        ]
+    },
+    {
+        "token": ".",
+        "len": 1,
+        "speech": ".",
+        "speech_bin": "unknown",
+        "range": [
+            764,
+            765
+        ],
+        "aspect": "physical_exam"
+    },
+    {
+        "token": "The",
+        "len": 3,
+        "speech": "DT",
+        "speech_bin": "com-dep-wd",
+        "range": [
+            766,
+            769
+        ],
+        "aspect": "physical_exam"
+    },
+    {
+        "token": "right",
+        "len": 5,
+        "speech": "JJ",
+        "speech_bin": "Adjectives",
+        "range": [
+            770,
+            775
+        ],
+        "aspect": "physical_exam",
+        "clinical": [
+            {
+                "AnatomicalSite": [
+                    {
+                        "code": "6685009",
+                        "tui": "T029",
+                        "codingScheme": "SNOMEDCT_US",
+                        "cui": "C0230447",
+                        "preferredText": "Structure of right ankle"
+                    }
+                ],
+                "polarity": "negative"
+            }
+        ]
+    },
+    {
+        "token": "ankle",
+        "len": 5,
+        "speech": "NN",
+        "speech_bin": "Nouns",
+        "range": [
+            776,
+            781
+        ],
+        "aspect": "physical_exam",
+        "clinical": [
+            {
+                "AnatomicalSite": [
+                    {
+                        "code": "6685009",
+                        "tui": "T029",
+                        "codingScheme": "SNOMEDCT_US",
+                        "cui": "C0230447",
+                        "preferredText": "Structure of right ankle"
+                    }
+                ],
+                "polarity": "negative"
+            },
+            {
+                "AnatomicalSite": [
+                    {
+                        "code": "344001",
+                        "tui": "T030",
+                        "codingScheme": "SNOMEDCT_US",
+                        "cui": "C0003086",
+                        "preferredText": "Ankle"
+                    }
+                ],
+                "polarity": "negative"
+            }
+        ]
+    },
+    {
+        "token": "shows",
+        "len": 5,
+        "speech": "VBZ",
+        "speech_bin": "Verbs",
+        "range": [
+            782,
+            787
+        ],
+        "aspect": "physical_exam"
+    },
+    {
+        "token": "no",
+        "len": 2,
+        "speech": "DT",
+        "speech_bin": "com-dep-wd",
+        "range": [
+            788,
+            790
+        ],
+        "aspect": "physical_exam",
+        "NO": [
+            {
+                "no": null
+            }
+        ]
+    },
+    {
+        "token": "significant",
+        "len": 11,
+        "speech": "JJ",
+        "speech_bin": "Adjectives",
+        "range": [
+            791,
+            802
+        ],
+        "aspect": "physical_exam",
+        "SEVERIRTY": [
+            {
+                "significant": null
+            }
+        ]
+    },
+    {
+        "token": "swelling",
+        "len": 8,
+        "speech": "NN",
+        "speech_bin": "Nouns",
+        "range": [
+            803,
+            811
+        ],
+        "aspect": "physical_exam",
+        "clinical": [
+            {
+                "SignSymptom": [
+                    {
+                        "code": "442672001",
+                        "tui": "T033",
+                        "codingScheme": "SNOMEDCT_US",
+                        "cui": "C0038999",
+                        "preferredText": "Swelling"
+                    },
+                    {
+                        "code": "65124004",
+                        "tui": "T033",
+                        "codingScheme": "SNOMEDCT_US",
+                        "cui": "C0038999",
+                        "preferredText": "Swelling"
+                    },
+                    {
+                        "code": "413269001",
+                        "tui": "T033",
+                        "codingScheme": "SNOMEDCT_US",
+                        "cui": "C0038999",
+                        "preferredText": "Swelling"
+                    }
+                ],
+                "polarity": "negative"
+            }
+        ],
+        "event": [
+            {
+                "event": "swelling"
+            }
+        ]
+    },
+    {
+        "token": ".",
+        "len": 1,
+        "speech": ".",
+        "speech_bin": "unknown",
+        "range": [
+            811,
+            812
+        ],
+        "aspect": "physical_exam"
+    },
+    {
+        "token": "There",
+        "len": 5,
+        "speech": "EX",
+        "speech_bin": "com-dep-wd",
+        "range": [
+            813,
+            818
+        ],
+        "aspect": "physical_exam"
+    },
+    {
+        "token": "is",
+        "len": 2,
+        "speech": "VBZ",
+        "speech_bin": "Verbs",
+        "range": [
+            819,
+            821
+        ],
+        "aspect": "physical_exam"
+    },
+    {
+        "token": "no",
+        "len": 2,
+        "speech": "DT",
+        "speech_bin": "com-dep-wd",
+        "range": [
+            822,
+            824
+        ],
+        "aspect": "physical_exam",
+        "NO": [
+            {
+                "no": null
+            }
+        ]
+    },
+    {
+        "token": "ecchymosis",
+        "len": 10,
+        "speech": "NN",
+        "speech_bin": "Nouns",
+        "range": [
+            825,
+            835
+        ],
+        "aspect": "physical_exam",
+        "clinical": [
+            {
+                "SignSymptom": [
+                    {
+                        "code": "77643000",
+                        "tui": "T046",
+                        "codingScheme": "SNOMEDCT_US",
+                        "cui": "C0013491",
+                        "preferredText": "Ecchymosis"
+                    },
+                    {
+                        "code": "302227002",
+                        "tui": "T046",
+                        "codingScheme": "SNOMEDCT_US",
+                        "cui": "C0013491",
+                        "preferredText": "Ecchymosis"
+                    }
+                ],
+                "polarity": "negative"
+            }
+        ],
+        "event": [
+            {
+                "event": "ecchymosis"
+            }
+        ]
+    },
+    {
+        "token": ".",
+        "len": 1,
+        "speech": ".",
+        "speech_bin": "unknown",
+        "range": [
+            835,
+            836
+        ],
+        "aspect": "physical_exam"
+    },
+    {
+        "token": "There",
+        "len": 5,
+        "speech": "EX",
+        "speech_bin": "com-dep-wd",
+        "range": [
+            837,
+            842
+        ],
+        "aspect": "physical_exam"
+    },
+    {
+        "token": "is",
+        "len": 2,
+        "speech": "VBZ",
+        "speech_bin": "Verbs",
+        "range": [
+            843,
+            845
+        ],
+        "aspect": "physical_exam"
+    },
+    {
+        "token": "no",
+        "len": 2,
+        "speech": "DT",
+        "speech_bin": "com-dep-wd",
+        "range": [
+            846,
+            848
+        ],
+        "aspect": "physical_exam",
+        "NO": [
+            {
+                "no": null
+            }
+        ]
+    },
+    {
+        "token": "significant",
+        "len": 11,
+        "speech": "JJ",
+        "speech_bin": "Adjectives",
+        "range": [
+            849,
+            860
+        ],
+        "aspect": "physical_exam",
+        "SEVERIRTY": [
+            {
+                "significant": null
+            }
+        ]
+    },
+    {
+        "token": "tenderness",
+        "len": 10,
+        "speech": "NN",
+        "speech_bin": "Nouns",
+        "range": [
+            861,
+            871
+        ],
+        "aspect": "physical_exam",
+        "clinical": [
+            {
+                "SignSymptom": [
+                    {
+                        "code": "71393004",
+                        "tui": "T184",
+                        "codingScheme": "SNOMEDCT_US",
+                        "cui": "C0234233",
+                        "preferredText": "Soreness"
+                    },
+                    {
+                        "code": "247348008",
+                        "tui": "T184",
+                        "codingScheme": "SNOMEDCT_US",
+                        "cui": "C0234233",
+                        "preferredText": "Soreness"
+                    }
+                ],
+                "polarity": "negative"
+            }
+        ],
+        "event": [
+            {
+                "event": "tenderness"
+            }
+        ]
+    },
+    {
+        "token": "to",
+        "len": 2,
+        "speech": "TO",
+        "speech_bin": "com-dep-wd",
+        "range": [
+            872,
+            874
+        ],
+        "aspect": "physical_exam"
+    },
+    {
+        "token": "palpation",
+        "len": 9,
+        "speech": "NN",
+        "speech_bin": "Nouns",
+        "range": [
+            875,
+            884
+        ],
+        "aspect": "physical_exam",
+        "clinical": [
+            {
+                "Procedure": [
+                    {
+                        "code": "113011001",
+                        "tui": "T060",
+                        "codingScheme": "SNOMEDCT_US",
+                        "cui": "C0030247",
+                        "preferredText": "Palpation"
+                    }
+                ],
+                "polarity": "negative"
+            }
+        ],
+        "event": [
+            {
+                "event": "palpation"
+            }
+        ]
+    },
+    {
+        "token": ".",
+        "len": 1,
+        "speech": ".",
+        "speech_bin": "unknown",
+        "range": [
+            884,
+            885
+        ],
+        "aspect": "physical_exam"
+    },
+    {
+        "token": "The",
+        "len": 3,
+        "speech": "DT",
+        "speech_bin": "com-dep-wd",
+        "range": [
+            886,
+            889
+        ],
+        "aspect": "physical_exam"
+    },
+    {
+        "token": "ankle",
+        "len": 5,
+        "speech": "NN",
+        "speech_bin": "Nouns",
+        "range": [
+            890,
+            895
+        ],
+        "aspect": "physical_exam",
+        "clinical": [
+            {
+                "AnatomicalSite": [
+                    {
+                        "code": "344001",
+                        "tui": "T030",
+                        "codingScheme": "SNOMEDCT_US",
+                        "cui": "C0003086",
+                        "preferredText": "Ankle"
+                    }
+                ],
+                "polarity": "positive"
+            }
+        ]
+    },
+    {
+        "token": "has",
+        "len": 3,
+        "speech": "VBZ",
+        "speech_bin": "Verbs",
+        "range": [
+            896,
+            899
+        ],
+        "aspect": "physical_exam"
+    },
+    {
+        "token": "good",
+        "len": 4,
+        "speech": "JJ",
+        "speech_bin": "Adjectives",
+        "range": [
+            900,
+            904
+        ],
+        "aspect": "physical_exam"
+    },
+    {
+        "token": "range",
+        "len": 5,
+        "speech": "NN",
+        "speech_bin": "Nouns",
+        "range": [
+            905,
+            910
+        ],
+        "aspect": "physical_exam"
+    },
+    {
+        "token": "of",
+        "len": 2,
+        "speech": "IN",
+        "speech_bin": "com-dep-wd",
+        "range": [
+            911,
+            913
+        ],
+        "aspect": "physical_exam"
+    },
+    {
+        "token": "motion",
+        "len": 6,
+        "speech": "NN",
+        "speech_bin": "Nouns",
+        "range": [
+            914,
+            920
+        ],
+        "aspect": "physical_exam"
+    },
+    {
+        "token": ".",
+        "len": 1,
+        "speech": ".",
+        "speech_bin": "unknown",
+        "range": [
+            920,
+            921
+        ],
+        "aspect": "physical_exam"
+    },
+    {
+        "token": "The",
+        "len": 3,
+        "speech": "DT",
+        "speech_bin": "com-dep-wd",
+        "range": [
+            922,
+            925
+        ],
+        "aspect": "physical_exam"
+    },
+    {
+        "token": "foot",
+        "len": 4,
+        "speech": "NN",
+        "speech_bin": "Nouns",
+        "range": [
+            926,
+            930
+        ],
+        "aspect": "physical_exam",
+        "clinical": [
+            {
+                "AnatomicalSite": [
+                    {
+                        "code": "56459004",
+                        "tui": "T023",
+                        "codingScheme": "SNOMEDCT_US",
+                        "cui": "C0016504",
+                        "preferredText": "Foot structure"
+                    }
+                ],
+                "polarity": "positive"
+            }
+        ]
+    },
+    {
+        "token": "is",
+        "len": 2,
+        "speech": "VBZ",
+        "speech_bin": "Verbs",
+        "range": [
+            931,
+            933
+        ],
+        "aspect": "physical_exam"
+    },
+    {
+        "token": "nontender",
+        "len": 9,
+        "speech": "JJ",
+        "speech_bin": "Adjectives",
+        "range": [
+            934,
+            943
+        ],
+        "aspect": "physical_exam"
+    },
+    {
+        "token": ".",
+        "len": 1,
+        "speech": ".",
+        "speech_bin": "unknown",
+        "range": [
+            943,
+            944
+        ],
+        "aspect": "physical_exam"
+    },
+    {
+        "token": "Vascular",
+        "len": 8,
+        "speech": "JJ",
+        "speech_bin": "Adjectives",
+        "range": [
+            945,
+            953
+        ],
+        "aspect": "physical_exam",
+        "clinical": [
+            {
+                "AnatomicalSite": [
+                    {
+                        "code": "59820001",
+                        "tui": "T023",
+                        "codingScheme": "SNOMEDCT_US",
+                        "cui": "C0005847",
+                        "preferredText": "Blood vessel structure"
+                    }
+                ],
+                "polarity": "positive"
+            }
+        ],
+        "event": [
+            {
+                "event": "Vascular"
+            }
+        ]
+    },
+    {
+        "token": ":",
+        "len": 1,
+        "speech": ":",
+        "speech_bin": "unknown",
+        "range": [
+            953,
+            954
+        ],
+        "aspect": "physical_exam",
+        "regex": [
+            {
+                "$COLON": ":"
+            }
+        ]
+    },
+    {
+        "token": "+2/2",
+        "len": 4,
+        "speech": "NN",
+        "speech_bin": "Nouns",
+        "range": [
+            955,
+            959
+        ],
+        "aspect": "physical_exam"
+    },
+    {
+        "token": "dorsalis",
+        "len": 8,
+        "speech": "NN",
+        "speech_bin": "Nouns",
+        "range": [
+            960,
+            968
+        ],
+        "aspect": "physical_exam",
+        "clinical": [
+            {
+                "SignSymptom": [
+                    {
+                        "code": "421811005",
+                        "tui": "T042",
+                        "codingScheme": "SNOMEDCT_US",
+                        "cui": "C1706488",
+                        "preferredText": "Dorsalis pedis pulse"
+                    }
+                ],
+                "polarity": "positive"
+            }
+        ],
+        "event": [
+            {
+                "event": "dorsalis pedis\npulse"
+            }
+        ]
+    },
+    {
+        "token": "pedis",
+        "len": 5,
+        "speech": "NN",
+        "speech_bin": "Nouns",
+        "range": [
+            969,
+            974
+        ],
+        "aspect": "physical_exam",
+        "clinical": [
+            {
+                "SignSymptom": [
+                    {
+                        "code": "421811005",
+                        "tui": "T042",
+                        "codingScheme": "SNOMEDCT_US",
+                        "cui": "C1706488",
+                        "preferredText": "Dorsalis pedis pulse"
+                    }
+                ],
+                "polarity": "positive"
+            }
+        ],
+        "event": [
+            {
+                "event": "dorsalis pedis\npulse"
+            }
+        ]
+    },
+    {
+        "token": "pulse",
+        "len": 5,
+        "speech": "NN",
+        "speech_bin": "Nouns",
+        "range": [
+            975,
+            980
+        ],
+        "aspect": "physical_exam",
+        "clinical": [
+            {
+                "SignSymptom": [
+                    {
+                        "code": "421811005",
+                        "tui": "T042",
+                        "codingScheme": "SNOMEDCT_US",
+                        "cui": "C1706488",
+                        "preferredText": "Dorsalis pedis pulse"
+                    }
+                ],
+                "polarity": "positive"
+            }
+        ],
+        "event": [
+            {
+                "event": "dorsalis pedis\npulse"
+            }
+        ]
+    },
+    {
+        "token": ".",
+        "len": 1,
+        "speech": ".",
+        "speech_bin": "unknown",
+        "range": [
+            980,
+            981
+        ],
+        "aspect": "physical_exam"
+    },
+    {
+        "token": "All",
+        "len": 3,
+        "speech": "DT",
+        "speech_bin": "com-dep-wd",
+        "range": [
+            982,
+            985
+        ],
+        "aspect": "physical_exam"
+    },
+    {
+        "token": "compartments",
+        "len": 12,
+        "speech": "NNS",
+        "speech_bin": "Nouns",
+        "range": [
+            986,
+            998
+        ],
+        "aspect": "physical_exam"
+    },
+    {
+        "token": "are",
+        "len": 3,
+        "speech": "VBP",
+        "speech_bin": "Verbs",
+        "range": [
+            999,
+            1002
+        ],
+        "aspect": "physical_exam"
+    },
+    {
+        "token": "soft",
+        "len": 4,
+        "speech": "JJ",
+        "speech_bin": "Adjectives",
+        "range": [
+            1003,
+            1007
+        ],
+        "aspect": "physical_exam"
+    },
+    {
+        "token": ".",
+        "len": 1,
+        "speech": ".",
+        "speech_bin": "unknown",
+        "range": [
+            1007,
+            1008
+        ],
+        "aspect": "physical_exam"
+    },
+    {
+        "token": "Capillary",
+        "len": 9,
+        "speech": "NNP",
+        "speech_bin": "Nouns",
+        "range": [
+            1009,
+            1018
+        ],
+        "aspect": "physical_exam",
+        "clinical": [
+            {
+                "SignSymptom": [
+                    {
+                        "code": "248753002",
+                        "tui": "T042",
+                        "codingScheme": "SNOMEDCT_US",
+                        "cui": "C0425716",
+                        "preferredText": "Capillary filling"
+                    },
+                    {
+                        "code": "15527001",
+                        "tui": "T042",
+                        "codingScheme": "SNOMEDCT_US",
+                        "cui": "C0425716",
+                        "preferredText": "Capillary filling"
+                    }
+                ],
+                "polarity": "positive"
+            },
+            {
+                "AnatomicalSite": [
+                    {
+                        "code": "20982000",
+                        "tui": "T023",
+                        "codingScheme": "SNOMEDCT_US",
+                        "cui": "C0006901",
+                        "preferredText": "Structure of capillary blood vessel (organ)"
+                    }
+                ],
+                "polarity": "positive"
+            }
+        ],
+        "event": [
+            {
+                "event": "Capillary refill"
+            }
+        ]
+    },
+    {
+        "token": "refill",
+        "len": 6,
+        "speech": "NN",
+        "speech_bin": "Nouns",
+        "range": [
+            1019,
+            1025
+        ],
+        "aspect": "physical_exam",
+        "clinical": [
+            {
+                "SignSymptom": [
+                    {
+                        "code": "248753002",
+                        "tui": "T042",
+                        "codingScheme": "SNOMEDCT_US",
+                        "cui": "C0425716",
+                        "preferredText": "Capillary filling"
+                    },
+                    {
+                        "code": "15527001",
+                        "tui": "T042",
+                        "codingScheme": "SNOMEDCT_US",
+                        "cui": "C0425716",
+                        "preferredText": "Capillary filling"
+                    }
+                ],
+                "polarity": "positive"
+            }
+        ],
+        "event": [
+            {
+                "event": "Capillary refill"
+            }
+        ]
+    },
+    {
+        "token": "less",
+        "len": 4,
+        "speech": "JJR",
+        "speech_bin": "Adjectives",
+        "range": [
+            1026,
+            1030
+        ],
+        "aspect": "physical_exam"
+    },
+    {
+        "token": "than",
+        "len": 4,
+        "speech": "IN",
+        "speech_bin": "com-dep-wd",
+        "range": [
+            1031,
+            1035
+        ],
+        "aspect": "physical_exam"
+    },
+    {
+        "token": "2",
+        "len": 1,
+        "speech": "CD",
+        "speech_bin": "Numbers",
+        "range": [
+            1036,
+            1037
+        ],
+        "aspect": "physical_exam"
+    },
+    {
+        "token": "seconds",
+        "len": 7,
+        "speech": "NNS",
+        "speech_bin": "Nouns",
+        "range": [
+            1038,
+            1045
+        ],
+        "aspect": "physical_exam"
+    },
+    {
+        "token": ".",
+        "len": 1,
+        "speech": ".",
+        "speech_bin": "unknown",
+        "range": [
+            1045,
+            1046
+        ],
+        "aspect": "physical_exam"
+    },
+    {
+        "token": "DIAGNOSTIC",
+        "len": 10,
+        "speech": "NNP",
+        "speech_bin": "Nouns",
+        "range": [
+            1048,
+            1058
+        ],
+        "aspect": "physical_exam",
+        "event": [
+            {
+                "event": "DIAGNOSTIC TEST"
+            },
+            {
+                "event": "DIAGNOSTIC"
+            },
+            {
+                "event": "DIAGNOSTIC"
+            }
+        ]
+    },
+    {
+        "token": "TEST",
+        "len": 4,
+        "speech": "NN",
+        "speech_bin": "Nouns",
+        "range": [
+            1059,
+            1063
+        ],
+        "aspect": "physical_exam",
+        "lab": [
+            {
+                "Lab": [
+                    {
+                        "code": "269814003",
+                        "tui": null,
+                        "codingScheme": "SNOMEDCT_US",
+                        "cui": "C0022885",
+                        "preferredText": "Laboratory Procedures"
+                    },
+                    {
+                        "code": "108252007",
+                        "tui": null,
+                        "codingScheme": "SNOMEDCT_US",
+                        "cui": "C0022885",
+                        "preferredText": "Laboratory Procedures"
+                    },
+                    {
+                        "code": "TCGA",
+                        "tui": null,
+                        "codingScheme": "NCI",
+                        "cui": "C0022885",
+                        "preferredText": "Laboratory Procedures"
+                    },
+                    {
+                        "code": "15220000",
+                        "tui": null,
+                        "codingScheme": "SNOMEDCT_US",
+                        "cui": "C0022885",
+                        "preferredText": "Laboratory Procedures"
+                    },
+                    {
+                        "code": "C25294",
+                        "tui": null,
+                        "codingScheme": "NCI",
+                        "cui": "C0022885",
+                        "preferredText": "Laboratory Procedures"
+                    }
+                ],
+                "polarity": "positive"
+            }
+        ],
+        "clinical": [
+            {
+                "SignSymptom": [
+                    {
+                        "code": "277775005",
+                        "tui": "T033",
+                        "codingScheme": "SNOMEDCT_US",
+                        "cui": "C0456984",
+                        "preferredText": "Test finding"
+                    }
+                ],
+                "polarity": "positive"
+            }
+        ],
+        "event": [
+            {
+                "event": "DIAGNOSTIC TEST"
+            },
+            {
+                "event": "TEST"
+            },
+            {
+                "event": "TEST"
+            }
+        ]
+    },
+    {
+        "token": ":",
+        "len": 1,
+        "speech": ":",
+        "speech_bin": "unknown",
+        "range": [
+            1063,
+            1064
+        ],
+        "aspect": "physical_exam",
+        "regex": [
+            {
+                "$COLON": ":"
+            }
+        ]
+    },
+    {
+        "token": "The",
+        "len": 3,
+        "speech": "DT",
+        "speech_bin": "com-dep-wd",
+        "range": [
+            1065,
+            1068
+        ],
+        "aspect": "physical_exam"
+    },
+    {
+        "token": "patient",
+        "len": 7,
+        "speech": "NN",
+        "speech_bin": "Nouns",
+        "range": [
+            1069,
+            1076
+        ],
+        "aspect": "physical_exam"
+    },
+    {
+        "token": "had",
+        "len": 3,
+        "speech": "VBD",
+        "speech_bin": "Verbs",
+        "range": [
+            1077,
+            1080
+        ],
+        "aspect": "physical_exam"
+    },
+    {
+        "token": "an",
+        "len": 2,
+        "speech": "DT",
+        "speech_bin": "com-dep-wd",
+        "range": [
+            1081,
+            1083
+        ],
+        "aspect": "physical_exam"
+    },
+    {
+        "token": "x-ray",
+        "len": 5,
+        "speech": "NN",
+        "speech_bin": "Nouns",
+        "range": [
+            1084,
+            1089
+        ],
+        "aspect": "physical_exam",
+        "clinical": [
+            {
+                "Procedure": [
+                    {
+                        "code": "363680008",
+                        "tui": "T060",
+                        "codingScheme": "SNOMEDCT_US",
+                        "cui": "C1962945",
+                        "preferredText": "Radiographic imaging procedure"
+                    },
+                    {
+                        "code": "168537006",
+                        "tui": "T060",
+                        "codingScheme": "SNOMEDCT_US",
+                        "cui": "C1306645",
+                        "preferredText": "Plain radiography"
+                    }
+                ],
+                "polarity": "positive"
+            }
+        ],
+        "event": [
+            {
+                "event": "x-ray"
+            }
+        ]
+    },
+    {
+        "token": "of",
+        "len": 2,
+        "speech": "IN",
+        "speech_bin": "com-dep-wd",
+        "range": [
+            1090,
+            1092
+        ],
+        "aspect": "physical_exam"
+    },
+    {
+        "token": "the",
+        "len": 3,
+        "speech": "DT",
+        "speech_bin": "com-dep-wd",
+        "range": [
+            1093,
+            1096
+        ],
+        "aspect": "physical_exam"
+    },
+    {
+        "token": "right",
+        "len": 5,
+        "speech": "JJ",
+        "speech_bin": "Adjectives",
+        "range": [
+            1097,
+            1102
+        ],
+        "aspect": "physical_exam",
+        "clinical": [
+            {
+                "AnatomicalSite": [
+                    {
+                        "code": "6685009",
+                        "tui": "T029",
+                        "codingScheme": "SNOMEDCT_US",
+                        "cui": "C0230447",
+                        "preferredText": "Structure of right ankle"
+                    }
+                ],
+                "polarity": "positive"
+            }
+        ]
+    },
+    {
+        "token": "ankle",
+        "len": 5,
+        "speech": "NN",
+        "speech_bin": "Nouns",
+        "range": [
+            1103,
+            1108
+        ],
+        "aspect": "physical_exam",
+        "clinical": [
+            {
+                "AnatomicalSite": [
+                    {
+                        "code": "6685009",
+                        "tui": "T029",
+                        "codingScheme": "SNOMEDCT_US",
+                        "cui": "C0230447",
+                        "preferredText": "Structure of right ankle"
+                    }
+                ],
+                "polarity": "positive"
+            },
+            {
+                "AnatomicalSite": [
+                    {
+                        "code": "344001",
+                        "tui": "T030",
+                        "codingScheme": "SNOMEDCT_US",
+                        "cui": "C0003086",
+                        "preferredText": "Ankle"
+                    }
+                ],
+                "polarity": "positive"
+            }
+        ]
+    },
+    {
+        "token": ",",
+        "len": 1,
+        "speech": ",",
+        "speech_bin": "unknown",
+        "range": [
+            1108,
+            1109
+        ],
+        "aspect": "physical_exam",
+        "regex": [
+            {
+                "$COMMA": ","
+            }
+        ]
+    },
+    {
+        "token": "which",
+        "len": 5,
+        "speech": "WDT",
+        "speech_bin": "com-dep-wd",
+        "range": [
+            1110,
+            1115
+        ],
+        "aspect": "physical_exam"
+    },
+    {
+        "token": "interpreted",
+        "len": 11,
+        "speech": "VBN",
+        "speech_bin": "Verbs",
+        "range": [
+            1116,
+            1127
+        ],
+        "aspect": "physical_exam"
+    },
+    {
+        "token": "by",
+        "len": 2,
+        "speech": "IN",
+        "speech_bin": "com-dep-wd",
+        "range": [
+            1128,
+            1130
+        ],
+        "aspect": "physical_exam"
+    },
+    {
+        "token": "myself",
+        "len": 6,
+        "speech": "PRP",
+        "speech_bin": "Pronouns",
+        "range": [
+            1131,
+            1137
+        ],
+        "aspect": "physical_exam"
+    },
+    {
+        "token": "shows",
+        "len": 5,
+        "speech": "VBZ",
+        "speech_bin": "Verbs",
+        "range": [
+            1138,
+            1143
+        ],
+        "aspect": "physical_exam"
+    },
+    {
+        "token": "no",
+        "len": 2,
+        "speech": "DT",
+        "speech_bin": "com-dep-wd",
+        "range": [
+            1144,
+            1146
+        ],
+        "aspect": "physical_exam",
+        "NO": [
+            {
+                "no": null
+            }
+        ]
+    },
+    {
+        "token": "acute",
+        "len": 5,
+        "speech": "JJ",
+        "speech_bin": "Adjectives",
+        "range": [
+            1147,
+            1152
+        ],
+        "aspect": "physical_exam",
+        "SEVERIRTY": [
+            {
+                "acute": null
+            }
+        ]
+    },
+    {
+        "token": "fracture",
+        "len": 8,
+        "speech": "NN",
+        "speech_bin": "Nouns",
+        "range": [
+            1153,
+            1161
+        ],
+        "aspect": "physical_exam",
+        "clinical": [
+            {
+                "DiseaseDisorder": [
+                    {
+                        "code": "125605004",
+                        "tui": "T037",
+                        "codingScheme": "SNOMEDCT_US",
+                        "cui": "C0016658",
+                        "preferredText": "Fracture"
+                    },
+                    {
+                        "code": "72704001",
+                        "tui": "T037",
+                        "codingScheme": "SNOMEDCT_US",
+                        "cui": "C0016658",
+                        "preferredText": "Fracture"
+                    }
+                ],
+                "polarity": "negative"
+            }
+        ],
+        "event": [
+            {
+                "event": "fracture"
+            }
+        ]
+    },
+    {
+        "token": "or",
+        "len": 2,
+        "speech": "CC",
+        "speech_bin": "com-dep-wd",
+        "range": [
+            1162,
+            1164
+        ],
+        "aspect": "physical_exam"
+    },
+    {
+        "token": "dislocation",
+        "len": 11,
+        "speech": "NN",
+        "speech_bin": "Nouns",
+        "range": [
+            1165,
+            1176
+        ],
+        "aspect": "physical_exam",
+        "clinical": [
+            {
+                "DiseaseDisorder": [
+                    {
+                        "code": "108367008",
+                        "tui": "T037",
+                        "codingScheme": "SNOMEDCT_US",
+                        "cui": "C0012691",
+                        "preferredText": "Dislocation of joint"
+                    },
+                    {
+                        "code": "87642003",
+                        "tui": "T037",
+                        "codingScheme": "SNOMEDCT_US",
+                        "cui": "C0012691",
+                        "preferredText": "Dislocation of joint"
+                    }
+                ],
+                "polarity": "negative"
+            }
+        ],
+        "event": [
+            {
+                "event": "dislocation"
+            }
+        ]
+    },
+    {
+        "token": ".",
+        "len": 1,
+        "speech": ".",
+        "speech_bin": "unknown",
+        "range": [
+            1176,
+            1177
+        ],
+        "aspect": "physical_exam"
+    },
+    {
+        "token": "MEDICAL",
+        "len": 7,
+        "speech": "NNP",
+        "speech_bin": "Nouns",
+        "range": [
+            1179,
+            1186
+        ],
+        "aspect": "physical_exam",
+        "event": [
+            {
+                "event": "MEDICAL DECISION MAKING"
+            }
+        ]
+    },
+    {
+        "token": "DECISION",
+        "len": 8,
+        "speech": "NNP",
+        "speech_bin": "Nouns",
+        "range": [
+            1187,
+            1195
+        ],
+        "aspect": "physical_exam",
+        "clinical": [
+            {
+                "SignSymptom": [
+                    {
+                        "code": "247583006",
+                        "tui": "T041",
+                        "codingScheme": "SNOMEDCT_US",
+                        "cui": "C0011109",
+                        "preferredText": "Decision making"
+                    }
+                ],
+                "polarity": "negative"
+            }
+        ],
+        "event": [
+            {
+                "event": "MEDICAL DECISION MAKING"
+            },
+            {
+                "event": "DECISION MAKING"
+            },
+            {
+                "event": "DECISION"
+            }
+        ]
+    },
+    {
+        "token": "MAKING",
+        "len": 6,
+        "speech": "NN",
+        "speech_bin": "Nouns",
+        "range": [
+            1196,
+            1202
+        ],
+        "aspect": "physical_exam",
+        "clinical": [
+            {
+                "SignSymptom": [
+                    {
+                        "code": "247583006",
+                        "tui": "T041",
+                        "codingScheme": "SNOMEDCT_US",
+                        "cui": "C0011109",
+                        "preferredText": "Decision making"
+                    }
+                ],
+                "polarity": "negative"
+            }
+        ],
+        "event": [
+            {
+                "event": "MEDICAL DECISION MAKING"
+            },
+            {
+                "event": "DECISION MAKING"
+            }
+        ]
+    },
+    {
+        "token": ":",
+        "len": 1,
+        "speech": ":",
+        "speech_bin": "unknown",
+        "range": [
+            1202,
+            1203
+        ],
+        "aspect": "physical_exam",
+        "regex": [
+            {
+                "$COLON": ":"
+            }
+        ]
+    },
+    {
+        "token": "Due",
+        "len": 3,
+        "speech": "JJ",
+        "speech_bin": "Adjectives",
+        "range": [
+            1204,
+            1207
+        ],
+        "aspect": "physical_exam"
+    },
+    {
+        "token": "to",
+        "len": 2,
+        "speech": "TO",
+        "speech_bin": "com-dep-wd",
+        "range": [
+            1208,
+            1210
+        ],
+        "aspect": "physical_exam"
+    },
+    {
+        "token": "the",
+        "len": 3,
+        "speech": "DT",
+        "speech_bin": "com-dep-wd",
+        "range": [
+            1211,
+            1214
+        ],
+        "aspect": "physical_exam"
+    },
+    {
+        "token": "fact",
+        "len": 4,
+        "speech": "NN",
+        "speech_bin": "Nouns",
+        "range": [
+            1215,
+            1219
+        ],
+        "aspect": "physical_exam"
+    },
+    {
+        "token": "this",
+        "len": 4,
+        "speech": "DT",
+        "speech_bin": "com-dep-wd",
+        "range": [
+            1220,
+            1224
+        ],
+        "aspect": "physical_exam"
+    },
+    {
+        "token": "patient",
+        "len": 7,
+        "speech": "NN",
+        "speech_bin": "Nouns",
+        "range": [
+            1225,
+            1232
+        ],
+        "aspect": "physical_exam"
+    },
+    {
+        "token": "has",
+        "len": 3,
+        "speech": "VBZ",
+        "speech_bin": "Verbs",
+        "range": [
+            1233,
+            1236
+        ],
+        "aspect": "physical_exam"
+    },
+    {
+        "token": "no",
+        "len": 2,
+        "speech": "DT",
+        "speech_bin": "com-dep-wd",
+        "range": [
+            1237,
+            1239
+        ],
+        "aspect": "physical_exam",
+        "NO": [
+            {
+                "no": null
+            }
+        ]
+    },
+    {
+        "token": "evidence",
+        "len": 8,
+        "speech": "NN",
+        "speech_bin": "Nouns",
+        "range": [
+            1240,
+            1248
+        ],
+        "aspect": "physical_exam",
+        "EVIDENCE": [
+            {
+                "evidence": null
+            }
+        ]
+    },
+    {
+        "token": "of",
+        "len": 2,
+        "speech": "IN",
+        "speech_bin": "com-dep-wd",
+        "range": [
+            1249,
+            1251
+        ],
+        "aspect": "physical_exam"
+    },
+    {
+        "token": "an",
+        "len": 2,
+        "speech": "DT",
+        "speech_bin": "com-dep-wd",
+        "range": [
+            1252,
+            1254
+        ],
+        "aspect": "physical_exam"
+    },
+    {
+        "token": "ankle",
+        "len": 5,
+        "speech": "JJ",
+        "speech_bin": "Adjectives",
+        "range": [
+            1255,
+            1260
+        ],
+        "aspect": "physical_exam",
+        "clinical": [
+            {
+                "DiseaseDisorder": [
+                    {
+                        "code": "16114001",
+                        "tui": "T037",
+                        "codingScheme": "SNOMEDCT_US",
+                        "cui": "C0159877",
+                        "preferredText": "Fracture of ankle"
+                    }
+                ],
+                "polarity": "negative"
+            },
+            {
+                "AnatomicalSite": [
+                    {
+                        "code": "344001",
+                        "tui": "T030",
+                        "codingScheme": "SNOMEDCT_US",
+                        "cui": "C0003086",
+                        "preferredText": "Ankle"
+                    }
+                ],
+                "polarity": "negative"
+            }
+        ],
+        "event": [
+            {
+                "event": "ankle fracture"
+            }
+        ]
+    },
+    {
+        "token": "fracture",
+        "len": 8,
+        "speech": "NN",
+        "speech_bin": "Nouns",
+        "range": [
+            1261,
+            1269
+        ],
+        "aspect": "physical_exam",
+        "clinical": [
+            {
+                "DiseaseDisorder": [
+                    {
+                        "code": "16114001",
+                        "tui": "T037",
+                        "codingScheme": "SNOMEDCT_US",
+                        "cui": "C0159877",
+                        "preferredText": "Fracture of ankle"
+                    }
+                ],
+                "polarity": "negative"
+            },
+            {
+                "DiseaseDisorder": [
+                    {
+                        "code": "125605004",
+                        "tui": "T037",
+                        "codingScheme": "SNOMEDCT_US",
+                        "cui": "C0016658",
+                        "preferredText": "Fracture"
+                    },
+                    {
+                        "code": "72704001",
+                        "tui": "T037",
+                        "codingScheme": "SNOMEDCT_US",
+                        "cui": "C0016658",
+                        "preferredText": "Fracture"
+                    }
+                ],
+                "polarity": "negative"
+            }
+        ],
+        "event": [
+            {
+                "event": "ankle fracture"
+            },
+            {
+                "event": "fracture"
+            }
+        ]
+    },
+    {
+        "token": ",",
+        "len": 1,
+        "speech": ",",
+        "speech_bin": "unknown",
+        "range": [
+            1269,
+            1270
+        ],
+        "aspect": "physical_exam",
+        "regex": [
+            {
+                "$COMMA": ","
+            }
+        ]
+    },
+    {
+        "token": "she",
+        "len": 3,
+        "speech": "PRP",
+        "speech_bin": "Pronouns",
+        "range": [
+            1271,
+            1274
+        ],
+        "aspect": "physical_exam"
+    },
+    {
+        "token": "can",
+        "len": 3,
+        "speech": "MD",
+        "speech_bin": "com-dep-wd",
+        "range": [
+            1275,
+            1278
+        ],
+        "aspect": "physical_exam"
+    },
+    {
+        "token": "be",
+        "len": 2,
+        "speech": "VB",
+        "speech_bin": "Verbs",
+        "range": [
+            1279,
+            1281
+        ],
+        "aspect": "physical_exam"
+    },
+    {
+        "token": "safely",
+        "len": 6,
+        "speech": "RB",
+        "speech_bin": "Adverbs",
+        "range": [
+            1282,
+            1288
+        ],
+        "aspect": "physical_exam"
+    },
+    {
+        "token": "discharged",
+        "len": 10,
+        "speech": "VBN",
+        "speech_bin": "Verbs",
+        "range": [
+            1289,
+            1299
+        ],
+        "aspect": "physical_exam",
+        "clinical": [
+            {
+                "Procedure": [
+                    {
+                        "code": "65537008",
+                        "tui": "T061",
+                        "codingScheme": "SNOMEDCT_US",
+                        "cui": "C0184713",
+                        "preferredText": "Discharge to home"
+                    },
+                    {
+                        "code": "306689006",
+                        "tui": "T061",
+                        "codingScheme": "SNOMEDCT_US",
+                        "cui": "C0184713",
+                        "preferredText": "Discharge to home"
+                    }
+                ],
+                "polarity": "positive"
+            }
+        ],
+        "event": [
+            {
+                "event": "discharged to home"
+            }
+        ]
+    },
+    {
+        "token": "to",
+        "len": 2,
+        "speech": "TO",
+        "speech_bin": "com-dep-wd",
+        "range": [
+            1300,
+            1302
+        ],
+        "aspect": "physical_exam",
+        "clinical": [
+            {
+                "Procedure": [
+                    {
+                        "code": "65537008",
+                        "tui": "T061",
+                        "codingScheme": "SNOMEDCT_US",
+                        "cui": "C0184713",
+                        "preferredText": "Discharge to home"
+                    },
+                    {
+                        "code": "306689006",
+                        "tui": "T061",
+                        "codingScheme": "SNOMEDCT_US",
+                        "cui": "C0184713",
+                        "preferredText": "Discharge to home"
+                    }
+                ],
+                "polarity": "positive"
+            }
+        ],
+        "event": [
+            {
+                "event": "discharged to home"
+            }
+        ]
+    },
+    {
+        "token": "home",
+        "len": 4,
+        "speech": "NN",
+        "speech_bin": "Nouns",
+        "range": [
+            1303,
+            1307
+        ],
+        "aspect": "physical_exam",
+        "clinical": [
+            {
+                "Procedure": [
+                    {
+                        "code": "65537008",
+                        "tui": "T061",
+                        "codingScheme": "SNOMEDCT_US",
+                        "cui": "C0184713",
+                        "preferredText": "Discharge to home"
+                    },
+                    {
+                        "code": "306689006",
+                        "tui": "T061",
+                        "codingScheme": "SNOMEDCT_US",
+                        "cui": "C0184713",
+                        "preferredText": "Discharge to home"
+                    }
+                ],
+                "polarity": "positive"
+            }
+        ],
+        "event": [
+            {
+                "event": "discharged to home"
+            }
+        ]
+    },
+    {
+        "token": ".",
+        "len": 1,
+        "speech": ".",
+        "speech_bin": "unknown",
+        "range": [
+            1307,
+            1308
+        ],
+        "aspect": "physical_exam"
+    },
+    {
+        "token": "She",
+        "len": 3,
+        "speech": "PRP",
+        "speech_bin": "Pronouns",
+        "range": [
+            1309,
+            1312
+        ],
+        "aspect": "physical_exam"
+    },
+    {
+        "token": "is",
+        "len": 2,
+        "speech": "VBZ",
+        "speech_bin": "Verbs",
+        "range": [
+            1313,
+            1315
+        ],
+        "aspect": "physical_exam"
+    },
+    {
+        "token": "able",
+        "len": 4,
+        "speech": "JJ",
+        "speech_bin": "Adjectives",
+        "range": [
+            1316,
+            1320
+        ],
+        "aspect": "physical_exam",
+        "clinical": [
+            {
+                "SignSymptom": [
+                    {
+                        "code": "371150009",
+                        "tui": "T033",
+                        "codingScheme": "SNOMEDCT_US",
+                        "cui": "C1299581",
+                        "preferredText": "Able"
+                    }
+                ],
+                "polarity": "negative"
+            }
+        ],
+        "event": [
+            {
+                "event": "able"
+            }
+        ]
+    },
+    {
+        "token": "to",
+        "len": 2,
+        "speech": "TO",
+        "speech_bin": "com-dep-wd",
+        "range": [
+            1321,
+            1323
+        ],
+        "aspect": "physical_exam"
+    },
+    {
+        "token": "walk",
+        "len": 4,
+        "speech": "VB",
+        "speech_bin": "Verbs",
+        "range": [
+            1324,
+            1328
+        ],
+        "aspect": "physical_exam"
+    },
+    {
+        "token": "on",
+        "len": 2,
+        "speech": "IN",
+        "speech_bin": "com-dep-wd",
+        "range": [
+            1329,
+            1331
+        ],
+        "aspect": "physical_exam"
+    },
+    {
+        "token": "it",
+        "len": 2,
+        "speech": "PRP",
+        "speech_bin": "Pronouns",
+        "range": [
+            1332,
+            1334
+        ],
+        "aspect": "physical_exam"
+    },
+    {
+        "token": "without",
+        "len": 7,
+        "speech": "IN",
+        "speech_bin": "com-dep-wd",
+        "range": [
+            1335,
+            1342
+        ],
+        "aspect": "physical_exam",
+        "WITHOUT": [
+            {
+                "without": null
+            }
+        ]
+    },
+    {
+        "token": "significant",
+        "len": 11,
+        "speech": "JJ",
+        "speech_bin": "Adjectives",
+        "range": [
+            1343,
+            1354
+        ],
+        "aspect": "physical_exam",
+        "SEVERIRTY": [
+            {
+                "significant": null
+            }
+        ]
+    },
+    {
+        "token": "pain",
+        "len": 4,
+        "speech": "NN",
+        "speech_bin": "Nouns",
+        "range": [
+            1355,
+            1359
+        ],
+        "aspect": "physical_exam",
+        "clinical": [
+            {
+                "SignSymptom": [
+                    {
+                        "code": "22253000",
+                        "tui": "T184",
+                        "codingScheme": "SNOMEDCT_US",
+                        "cui": "C0030193",
+                        "preferredText": "Pain"
+                    }
+                ],
+                "polarity": "negative"
+            }
+        ],
+        "event": [
+            {
+                "event": "pain"
+            }
+        ],
+        "PAIN_MIN": [
+            {
+                "pain": null
+            }
+        ],
+        "SEVERIRTY": [
+            {
+                "pain": null
+            }
+        ]
+    },
+    {
+        "token": ",",
+        "len": 1,
+        "speech": ",",
+        "speech_bin": "unknown",
+        "range": [
+            1359,
+            1360
+        ],
+        "aspect": "physical_exam",
+        "regex": [
+            {
+                "$COMMA": ","
+            }
+        ]
+    },
+    {
+        "token": "thus",
+        "len": 4,
+        "speech": "RB",
+        "speech_bin": "Adverbs",
+        "range": [
+            1361,
+            1365
+        ],
+        "aspect": "physical_exam"
+    },
+    {
+        "token": "I",
+        "len": 1,
+        "speech": "PRP",
+        "speech_bin": "Pronouns",
+        "range": [
+            1366,
+            1367
+        ],
+        "aspect": "physical_exam"
+    },
+    {
+        "token": "recommend",
+        "len": 9,
+        "speech": "VBP",
+        "speech_bin": "Verbs",
+        "range": [
+            1368,
+            1377
+        ],
+        "aspect": "physical_exam"
+    },
+    {
+        "token": "rest",
+        "len": 4,
+        "speech": "NN",
+        "speech_bin": "Nouns",
+        "range": [
+            1378,
+            1382
+        ],
+        "aspect": "physical_exam",
+        "clinical": [
+            {
+                "SignSymptom": [
+                    {
+                        "code": "258157001",
+                        "tui": "T056",
+                        "codingScheme": "SNOMEDCT_US",
+                        "cui": "C0035253",
+                        "preferredText": "Rest"
+                    }
+                ],
+                "polarity": "positive"
+            }
+        ],
+        "event": [
+            {
+                "event": "rest"
+            }
+        ]
+    },
+    {
+        "token": "for",
+        "len": 3,
+        "speech": "IN",
+        "speech_bin": "com-dep-wd",
+        "range": [
+            1383,
+            1386
+        ],
+        "aspect": "physical_exam"
+    },
+    {
+        "token": "1",
+        "len": 1,
+        "speech": "CD",
+        "speech_bin": "Numbers",
+        "range": [
+            1387,
+            1388
+        ],
+        "aspect": "physical_exam",
+        "regex": [
+            {
+                "$AGE6": " 1 week"
+            }
+        ]
+    },
+    {
+        "token": "week",
+        "len": 4,
+        "speech": "NN",
+        "speech_bin": "Nouns",
+        "range": [
+            1389,
+            1393
+        ],
+        "aspect": "physical_exam",
+        "regex": [
+            {
+                "$AGE6": " 1 week"
+            }
+        ]
+    },
+    {
+        "token": "and",
+        "len": 3,
+        "speech": "CC",
+        "speech_bin": "com-dep-wd",
+        "range": [
+            1394,
+            1397
+        ],
+        "aspect": "physical_exam"
+    },
+    {
+        "token": "follow",
+        "len": 6,
+        "speech": "VB",
+        "speech_bin": "Verbs",
+        "range": [
+            1398,
+            1404
+        ],
+        "aspect": "physical_exam"
+    },
+    {
+        "token": "up",
+        "len": 2,
+        "speech": "RP",
+        "speech_bin": "com-dep-wd",
+        "range": [
+            1405,
+            1407
+        ],
+        "aspect": "physical_exam"
+    },
+    {
+        "token": "with",
+        "len": 4,
+        "speech": "IN",
+        "speech_bin": "com-dep-wd",
+        "range": [
+            1408,
+            1412
+        ],
+        "aspect": "physical_exam"
+    },
+    {
+        "token": "the",
+        "len": 3,
+        "speech": "DT",
+        "speech_bin": "com-dep-wd",
+        "range": [
+            1413,
+            1416
+        ],
+        "aspect": "physical_exam"
+    },
+    {
+        "token": "doctor",
+        "len": 6,
+        "speech": "NN",
+        "speech_bin": "Nouns",
+        "range": [
+            1417,
+            1423
+        ],
+        "aspect": "physical_exam",
+        "regex": [
+            {
+                "$DOCTOR_OLDER": "doctor if she has "
+            }
+        ]
+    },
+    {
+        "token": "if",
+        "len": 2,
+        "speech": "IN",
+        "speech_bin": "com-dep-wd",
+        "range": [
+            1424,
+            1426
+        ],
+        "aspect": "physical_exam",
+        "regex": [
+            {
+                "$DOCTOR_OLDER": "doctor if she has "
+            }
+        ],
+        "lab": [
+            {
+                "Lab": [
+                    {
+                        "code": "LP6323-2",
+                        "tui": null,
+                        "codingScheme": "LNC",
+                        "cui": "C1442775",
+                        "preferredText": "IMMUNE FLUORESCENCE"
+                    }
+                ],
+                "polarity": "positive"
+            }
+        ],
+        "event": [
+            {
+                "event": "if"
+            }
+        ]
+    },
+    {
+        "token": "she",
+        "len": 3,
+        "speech": "PRP",
+        "speech_bin": "Pronouns",
+        "range": [
+            1427,
+            1430
+        ],
+        "aspect": "physical_exam",
+        "regex": [
+            {
+                "$DOCTOR_OLDER": "doctor if she has "
+            }
+        ]
+    },
+    {
+        "token": "has",
+        "len": 3,
+        "speech": "VBZ",
+        "speech_bin": "Verbs",
+        "range": [
+            1431,
+            1434
+        ],
+        "aspect": "physical_exam",
+        "regex": [
+            {
+                "$DOCTOR_OLDER": "doctor if she has "
+            }
+        ]
+    },
+    {
+        "token": "persistent",
+        "len": 10,
+        "speech": "JJ",
+        "speech_bin": "Adjectives",
+        "range": [
+            1435,
+            1445
+        ],
+        "aspect": "physical_exam",
+        "SEVERIRTY": [
+            {
+                "persistent": null
+            }
+        ]
+    },
+    {
+        "token": "pain",
+        "len": 4,
+        "speech": "NN",
+        "speech_bin": "Nouns",
+        "range": [
+            1446,
+            1450
+        ],
+        "aspect": "physical_exam",
+        "clinical": [
+            {
+                "SignSymptom": [
+                    {
+                        "code": "22253000",
+                        "tui": "T184",
+                        "codingScheme": "SNOMEDCT_US",
+                        "cui": "C0030193",
+                        "preferredText": "Pain"
+                    }
+                ],
+                "polarity": "positive"
+            }
+        ],
+        "event": [
+            {
+                "event": "pain"
+            }
+        ],
+        "PAIN_MIN": [
+            {
+                "pain": null
+            }
+        ],
+        "SEVERIRTY": [
+            {
+                "pain": null
+            }
+        ]
+    },
+    {
+        "token": ".",
+        "len": 1,
+        "speech": ".",
+        "speech_bin": "unknown",
+        "range": [
+            1450,
+            1451
+        ],
+        "aspect": "physical_exam"
+    },
+    {
+        "token": "She",
+        "len": 3,
+        "speech": "PRP",
+        "speech_bin": "Pronouns",
+        "range": [
+            1452,
+            1455
+        ],
+        "aspect": "physical_exam"
+    },
+    {
+        "token": "may",
+        "len": 3,
+        "speech": "MD",
+        "speech_bin": "com-dep-wd",
+        "range": [
+            1456,
+            1459
+        ],
+        "aspect": "physical_exam"
+    },
+    {
+        "token": "need",
+        "len": 4,
+        "speech": "VB",
+        "speech_bin": "Verbs",
+        "range": [
+            1460,
+            1464
+        ],
+        "aspect": "physical_exam"
+    },
+    {
+        "token": "to",
+        "len": 2,
+        "speech": "TO",
+        "speech_bin": "com-dep-wd",
+        "range": [
+            1465,
+            1467
+        ],
+        "aspect": "physical_exam"
+    },
+    {
+        "token": "see",
+        "len": 3,
+        "speech": "VB",
+        "speech_bin": "Verbs",
+        "range": [
+            1468,
+            1471
+        ],
+        "aspect": "physical_exam"
+    },
+    {
+        "token": "a",
+        "len": 1,
+        "speech": "DT",
+        "speech_bin": "com-dep-wd",
+        "range": [
+            1472,
+            1473
+        ],
+        "aspect": "physical_exam"
+    },
+    {
+        "token": "specialist",
+        "len": 10,
+        "speech": "NN",
+        "speech_bin": "Nouns",
+        "range": [
+            1474,
+            1484
+        ],
+        "aspect": "physical_exam"
+    },
+    {
+        "token": ",",
+        "len": 1,
+        "speech": ",",
+        "speech_bin": "unknown",
+        "range": [
+            1484,
+            1485
+        ],
+        "aspect": "physical_exam",
+        "regex": [
+            {
+                "$COMMA": ","
+            }
+        ]
+    },
+    {
+        "token": "but",
+        "len": 3,
+        "speech": "CC",
+        "speech_bin": "com-dep-wd",
+        "range": [
+            1486,
+            1489
+        ],
+        "aspect": "physical_exam"
+    },
+    {
+        "token": "at",
+        "len": 2,
+        "speech": "IN",
+        "speech_bin": "com-dep-wd",
+        "range": [
+            1490,
+            1492
+        ],
+        "aspect": "physical_exam"
+    },
+    {
+        "token": "this",
+        "len": 4,
+        "speech": "DT",
+        "speech_bin": "com-dep-wd",
+        "range": [
+            1493,
+            1497
+        ],
+        "aspect": "physical_exam"
+    },
+    {
+        "token": "time",
+        "len": 4,
+        "speech": "NN",
+        "speech_bin": "Nouns",
+        "range": [
+            1498,
+            1502
+        ],
+        "aspect": "physical_exam"
+    },
+    {
+        "token": "this",
+        "len": 4,
+        "speech": "DT",
+        "speech_bin": "com-dep-wd",
+        "range": [
+            1503,
+            1507
+        ],
+        "aspect": "physical_exam"
+    },
+    {
+        "token": "is",
+        "len": 2,
+        "speech": "VBZ",
+        "speech_bin": "Verbs",
+        "range": [
+            1508,
+            1510
+        ],
+        "aspect": "physical_exam"
+    },
+    {
+        "token": "a",
+        "len": 1,
+        "speech": "DT",
+        "speech_bin": "com-dep-wd",
+        "range": [
+            1511,
+            1512
+        ],
+        "aspect": "physical_exam"
+    },
+    {
+        "token": "very",
+        "len": 4,
+        "speech": "RB",
+        "speech_bin": "Adverbs",
+        "range": [
+            1513,
+            1517
+        ],
+        "aspect": "physical_exam",
+        "event": [
+            {
+                "event": "very mild"
+            }
+        ]
+    },
+    {
+        "token": "mild",
+        "len": 4,
+        "speech": "JJ",
+        "speech_bin": "Adjectives",
+        "range": [
+            1518,
+            1522
+        ],
+        "aspect": "physical_exam",
+        "event": [
+            {
+                "event": "very mild"
+            },
+            {
+                "event": "mild"
+            }
+        ],
+        "SEVERIRTY": [
+            {
+                "mild": null
+            }
+        ]
+    },
+    {
+        "token": "ankle",
+        "len": 5,
+        "speech": "JJ",
+        "speech_bin": "Adjectives",
+        "range": [
+            1523,
+            1528
+        ],
+        "aspect": "physical_exam",
+        "clinical": [
+            {
+                "DiseaseDisorder": [
+                    {
+                        "code": "125603006",
+                        "tui": "T037",
+                        "codingScheme": "SNOMEDCT_US",
+                        "cui": "C0085111",
+                        "preferredText": "Injury of ankle"
+                    }
+                ],
+                "polarity": "positive"
+            },
+            {
+                "AnatomicalSite": [
+                    {
+                        "code": "344001",
+                        "tui": "T030",
+                        "codingScheme": "SNOMEDCT_US",
+                        "cui": "C0003086",
+                        "preferredText": "Ankle"
+                    }
+                ],
+                "polarity": "positive"
+            }
+        ],
+        "event": [
+            {
+                "event": "ankle injury"
+            }
+        ]
+    },
+    {
+        "token": "injury",
+        "len": 6,
+        "speech": "NN",
+        "speech_bin": "Nouns",
+        "range": [
+            1529,
+            1535
+        ],
+        "aspect": "physical_exam",
+        "clinical": [
+            {
+                "DiseaseDisorder": [
+                    {
+                        "code": "125603006",
+                        "tui": "T037",
+                        "codingScheme": "SNOMEDCT_US",
+                        "cui": "C0085111",
+                        "preferredText": "Injury of ankle"
+                    }
+                ],
+                "polarity": "positive"
+            },
+            {
+                "DiseaseDisorder": [
+                    {
+                        "code": "417746004",
+                        "tui": "T037",
+                        "codingScheme": "SNOMEDCT_US",
+                        "cui": "C3263723",
+                        "preferredText": "Traumatic injury"
+                    },
+                    {
+                        "code": "19130008",
+                        "tui": "T037",
+                        "codingScheme": "SNOMEDCT_US",
+                        "cui": "C3263723",
+                        "preferredText": "Traumatic injury"
+                    }
+                ],
+                "polarity": "positive"
+            }
+        ],
+        "event": [
+            {
+                "event": "ankle injury"
+            },
+            {
+                "event": "injury"
+            }
+        ]
+    },
+    {
+        "token": ".",
+        "len": 1,
+        "speech": ".",
+        "speech_bin": "unknown",
+        "range": [
+            1535,
+            1536
+        ],
+        "aspect": "physical_exam"
+    },
+    {
+        "token": "There",
+        "len": 5,
+        "speech": "EX",
+        "speech_bin": "com-dep-wd",
+        "range": [
+            1537,
+            1542
+        ],
+        "aspect": "physical_exam"
+    },
+    {
+        "token": "is",
+        "len": 2,
+        "speech": "VBZ",
+        "speech_bin": "Verbs",
+        "range": [
+            1543,
+            1545
+        ],
+        "aspect": "physical_exam"
+    },
+    {
+        "token": "no",
+        "len": 2,
+        "speech": "DT",
+        "speech_bin": "com-dep-wd",
+        "range": [
+            1546,
+            1548
+        ],
+        "aspect": "physical_exam",
+        "NO": [
+            {
+                "no": null
+            }
+        ]
+    },
+    {
+        "token": "significant",
+        "len": 11,
+        "speech": "JJ",
+        "speech_bin": "Adjectives",
+        "range": [
+            1549,
+            1560
+        ],
+        "aspect": "physical_exam",
+        "SEVERIRTY": [
+            {
+                "significant": null
+            }
+        ]
+    },
+    {
+        "token": "physical",
+        "len": 8,
+        "speech": "JJ",
+        "speech_bin": "Adjectives",
+        "range": [
+            1561,
+            1569
+        ],
+        "aspect": "physical_exam",
+        "clinical": [
+            {
+                "SignSymptom": [
+                    {
+                        "code": "72670004",
+                        "tui": "T033",
+                        "codingScheme": "SNOMEDCT_US",
+                        "cui": "C0311392",
+                        "preferredText": "Sign"
+                    }
+                ],
+                "polarity": "negative"
+            }
+        ],
+        "event": [
+            {
+                "event": "physical finding"
+            },
+            {
+                "event": "physical"
+            }
+        ]
+    },
+    {
+        "token": "finding",
+        "len": 7,
+        "speech": "NN",
+        "speech_bin": "Nouns",
+        "range": [
+            1570,
+            1577
+        ],
+        "aspect": "physical_exam",
+        "clinical": [
+            {
+                "SignSymptom": [
+                    {
+                        "code": "72670004",
+                        "tui": "T033",
+                        "codingScheme": "SNOMEDCT_US",
+                        "cui": "C0311392",
+                        "preferredText": "Sign"
+                    }
+                ],
+                "polarity": "negative"
+            }
+        ],
+        "event": [
+            {
+                "event": "physical finding"
+            },
+            {
+                "event": "finding"
+            }
+        ]
+    },
+    {
+        "token": ",",
+        "len": 1,
+        "speech": ",",
+        "speech_bin": "unknown",
+        "range": [
+            1577,
+            1578
+        ],
+        "aspect": "physical_exam",
+        "regex": [
+            {
+                "$COMMA": ","
+            }
+        ]
+    },
+    {
+        "token": "and",
+        "len": 3,
+        "speech": "CC",
+        "speech_bin": "com-dep-wd",
+        "range": [
+            1579,
+            1582
+        ],
+        "aspect": "physical_exam"
+    },
+    {
+        "token": "I",
+        "len": 1,
+        "speech": "PRP",
+        "speech_bin": "Pronouns",
+        "range": [
+            1583,
+            1584
+        ],
+        "aspect": "physical_exam"
+    },
+    {
+        "token": "foresee",
+        "len": 7,
+        "speech": "VBP",
+        "speech_bin": "Verbs",
+        "range": [
+            1585,
+            1592
+        ],
+        "aspect": "physical_exam"
+    },
+    {
+        "token": "no",
+        "len": 2,
+        "speech": "DT",
+        "speech_bin": "com-dep-wd",
+        "range": [
+            1593,
+            1595
+        ],
+        "aspect": "physical_exam",
+        "NO": [
+            {
+                "no": null
+            }
+        ]
+    },
+    {
+        "token": "complications",
+        "len": 13,
+        "speech": "NNS",
+        "speech_bin": "Nouns",
+        "range": [
+            1596,
+            1609
+        ],
+        "aspect": "physical_exam",
+        "clinical": [
+            {
+                "SignSymptom": [
+                    {
+                        "code": "116223007",
+                        "tui": "T046",
+                        "codingScheme": "SNOMEDCT_US",
+                        "cui": "C0009566",
+                        "preferredText": "Complication"
+                    }
+                ],
+                "polarity": "negative"
+            }
+        ],
+        "event": [
+            {
+                "event": "complications"
+            }
+        ]
+    },
+    {
+        "token": ".",
+        "len": 1,
+        "speech": ".",
+        "speech_bin": "unknown",
+        "range": [
+            1609,
+            1610
+        ],
+        "aspect": "physical_exam"
+    },
+    {
+        "token": "I",
+        "len": 1,
+        "speech": "PRP",
+        "speech_bin": "Pronouns",
+        "range": [
+            1611,
+            1612
+        ],
+        "aspect": "physical_exam"
+    },
+    {
+        "token": "will",
+        "len": 4,
+        "speech": "MD",
+        "speech_bin": "com-dep-wd",
+        "range": [
+            1613,
+            1617
+        ],
+        "aspect": "physical_exam"
+    },
+    {
+        "token": "give",
+        "len": 4,
+        "speech": "VB",
+        "speech_bin": "Verbs",
+        "range": [
+            1618,
+            1622
+        ],
+        "aspect": "physical_exam"
+    },
+    {
+        "token": "her",
+        "len": 3,
+        "speech": "PRP$",
+        "speech_bin": "Pronouns",
+        "range": [
+            1623,
+            1626
+        ],
+        "aspect": "physical_exam"
+    },
+    {
+        "token": "1",
+        "len": 1,
+        "speech": "CD",
+        "speech_bin": "Numbers",
+        "range": [
+            1627,
+            1628
+        ],
+        "aspect": "physical_exam",
+        "regex": [
+            {
+                "$AGE6": " 1 week"
+            }
+        ]
+    },
+    {
+        "token": "week",
+        "len": 4,
+        "speech": "NN",
+        "speech_bin": "Nouns",
+        "range": [
+            1629,
+            1633
+        ],
+        "aspect": "physical_exam",
+        "regex": [
+            {
+                "$AGE6": " 1 week"
+            }
+        ]
+    },
+    {
+        "token": "off",
+        "len": 3,
+        "speech": "IN",
+        "speech_bin": "com-dep-wd",
+        "range": [
+            1634,
+            1637
+        ],
+        "aspect": "physical_exam"
+    },
+    {
+        "token": "of",
+        "len": 2,
+        "speech": "IN",
+        "speech_bin": "com-dep-wd",
+        "range": [
+            1638,
+            1640
+        ],
+        "aspect": "physical_exam"
+    },
+    {
+        "token": "PE",
+        "len": 2,
+        "speech": "NNP",
+        "speech_bin": "Nouns",
+        "range": [
+            1641,
+            1643
+        ],
+        "aspect": "physical_exam",
+        "event": [
+            {
+                "event": "PE"
+            },
+            {
+                "event": "PE"
+            }
+        ]
+    },
+    {
+        "token": ".",
+        "len": 1,
+        "speech": ".",
+        "speech_bin": "unknown",
+        "range": [
+            1643,
+            1644
+        ],
+        "aspect": "physical_exam"
+    },
+    {
+        "token": "MORBIDITY/MORTALITY",
+        "len": 19,
+        "speech": "NN",
+        "speech_bin": "Nouns",
+        "range": [
+            1646,
+            1665
+        ],
+        "aspect": "diagnosis"
+    },
+    {
+        "token": ":",
+        "len": 1,
+        "speech": ":",
+        "speech_bin": "unknown",
+        "range": [
+            1665,
+            1666
+        ],
+        "aspect": "diagnosis",
+        "regex": [
+            {
+                "$COLON": ":"
+            }
+        ]
+    },
+    {
+        "token": "I",
+        "len": 1,
+        "speech": "PRP",
+        "speech_bin": "Pronouns",
+        "range": [
+            1667,
+            1668
+        ],
+        "aspect": "diagnosis"
+    },
+    {
+        "token": "expect",
+        "len": 6,
+        "speech": "VBP",
+        "speech_bin": "Verbs",
+        "range": [
+            1669,
+            1675
+        ],
+        "aspect": "diagnosis"
+    },
+    {
+        "token": "no",
+        "len": 2,
+        "speech": "DT",
+        "speech_bin": "com-dep-wd",
+        "range": [
+            1676,
+            1678
+        ],
+        "aspect": "diagnosis",
+        "NO": [
+            {
+                "no": null
+            }
+        ]
+    },
+    {
+        "token": "acute",
+        "len": 5,
+        "speech": "JJ",
+        "speech_bin": "Adjectives",
+        "range": [
+            1679,
+            1684
+        ],
+        "aspect": "diagnosis",
+        "SEVERIRTY": [
+            {
+                "acute": null
+            }
+        ]
+    },
+    {
+        "token": "complications",
+        "len": 13,
+        "speech": "NNS",
+        "speech_bin": "Nouns",
+        "range": [
+            1685,
+            1698
+        ],
+        "aspect": "diagnosis",
+        "clinical": [
+            {
+                "SignSymptom": [
+                    {
+                        "code": "116223007",
+                        "tui": "T046",
+                        "codingScheme": "SNOMEDCT_US",
+                        "cui": "C0009566",
+                        "preferredText": "Complication"
+                    }
+                ],
+                "polarity": "negative"
+            }
+        ],
+        "event": [
+            {
+                "event": "complications"
+            }
+        ]
+    },
+    {
+        "token": ".",
+        "len": 1,
+        "speech": ".",
+        "speech_bin": "unknown",
+        "range": [
+            1698,
+            1699
+        ],
+        "aspect": "diagnosis"
+    },
+    {
+        "token": "A",
+        "len": 1,
+        "speech": "DT",
+        "speech_bin": "com-dep-wd",
+        "range": [
+            1700,
+            1701
+        ],
+        "aspect": "diagnosis"
+    },
+    {
+        "token": "full",
+        "len": 4,
+        "speech": "JJ",
+        "speech_bin": "Adjectives",
+        "range": [
+            1702,
+            1706
+        ],
+        "aspect": "diagnosis"
+    },
+    {
+        "token": "medical",
+        "len": 7,
+        "speech": "JJ",
+        "speech_bin": "Adjectives",
+        "range": [
+            1707,
+            1714
+        ],
+        "aspect": "diagnosis"
+    },
+    {
+        "token": "screening",
+        "len": 9,
+        "speech": "VBG",
+        "speech_bin": "Verbs",
+        "range": [
+            1715,
+            1724
+        ],
+        "aspect": "diagnosis",
+        "event": [
+            {
+                "event": "screening"
+            }
+        ]
+    },
+    {
+        "token": "exam",
+        "len": 4,
+        "speech": "NN",
+        "speech_bin": "Nouns",
+        "range": [
+            1725,
+            1729
+        ],
+        "aspect": "diagnosis"
+    },
+    {
+        "token": "was",
+        "len": 3,
+        "speech": "VBD",
+        "speech_bin": "Verbs",
+        "range": [
+            1730,
+            1733
+        ],
+        "aspect": "diagnosis"
+    },
+    {
+        "token": "done",
+        "len": 4,
+        "speech": "VBN",
+        "speech_bin": "Verbs",
+        "range": [
+            1734,
+            1738
+        ],
+        "aspect": "diagnosis"
+    },
+    {
+        "token": "and",
+        "len": 3,
+        "speech": "CC",
+        "speech_bin": "com-dep-wd",
+        "range": [
+            1739,
+            1742
+        ],
+        "aspect": "diagnosis"
+    },
+    {
+        "token": "no",
+        "len": 2,
+        "speech": "DT",
+        "speech_bin": "com-dep-wd",
+        "range": [
+            1743,
+            1745
+        ],
+        "aspect": "diagnosis",
+        "NO": [
+            {
+                "no": null
+            }
+        ]
+    },
+    {
+        "token": "emergency",
+        "len": 9,
+        "speech": "NN",
+        "speech_bin": "Nouns",
+        "range": [
+            1746,
+            1755
+        ],
+        "aspect": "diagnosis",
+        "event": [
+            {
+                "event": "emergency"
+            }
+        ]
+    },
+    {
+        "token": "medical",
+        "len": 7,
+        "speech": "JJ",
+        "speech_bin": "Adjectives",
+        "range": [
+            1756,
+            1763
+        ],
+        "aspect": "diagnosis"
+    },
+    {
+        "token": "condition",
+        "len": 9,
+        "speech": "NN",
+        "speech_bin": "Nouns",
+        "range": [
+            1764,
+            1773
+        ],
+        "aspect": "diagnosis",
+        "event": [
+            {
+                "event": "condition"
+            }
+        ]
+    },
+    {
+        "token": "exists",
+        "len": 6,
+        "speech": "VBZ",
+        "speech_bin": "Verbs",
+        "range": [
+            1774,
+            1780
+        ],
+        "aspect": "diagnosis"
+    },
+    {
+        "token": "upon",
+        "len": 4,
+        "speech": "IN",
+        "speech_bin": "com-dep-wd",
+        "range": [
+            1781,
+            1785
+        ],
+        "aspect": "diagnosis"
+    },
+    {
+        "token": "discharge",
+        "len": 9,
+        "speech": "NN",
+        "speech_bin": "Nouns",
+        "range": [
+            1786,
+            1795
+        ],
+        "aspect": "diagnosis"
+    },
+    {
+        "token": ".",
+        "len": 1,
+        "speech": ".",
+        "speech_bin": "unknown",
+        "range": [
+            1795,
+            1796
+        ],
+        "aspect": "diagnosis"
+    },
+    {
+        "token": "COMPLEXITY",
+        "len": 10,
+        "speech": "NN",
+        "speech_bin": "Nouns",
+        "range": [
+            1798,
+            1808
+        ],
+        "aspect": "problem"
+    },
+    {
+        "token": ":",
+        "len": 1,
+        "speech": ":",
+        "speech_bin": "unknown",
+        "range": [
+            1808,
+            1809
+        ],
+        "aspect": "problem",
+        "regex": [
+            {
+                "$COLON": ":"
+            }
+        ]
+    },
+    {
+        "token": "Moderate",
+        "len": 8,
+        "speech": "NNP",
+        "speech_bin": "Nouns",
+        "range": [
+            1810,
+            1818
+        ],
+        "aspect": "problem",
+        "event": [
+            {
+                "event": "Moderate"
+            }
+        ],
+        "SEVERIRTY": [
+            {
+                "Moderate": null
+            }
+        ]
+    },
+    {
+        "token": ".",
+        "len": 1,
+        "speech": ".",
+        "speech_bin": "unknown",
+        "range": [
+            1818,
+            1819
+        ],
+        "aspect": "problem"
+    },
+    {
+        "token": "The",
+        "len": 3,
+        "speech": "DT",
+        "speech_bin": "com-dep-wd",
+        "range": [
+            1820,
+            1823
+        ],
+        "aspect": "problem"
+    },
+    {
+        "token": "differential",
+        "len": 12,
+        "speech": "JJ",
+        "speech_bin": "Adjectives",
+        "range": [
+            1824,
+            1836
+        ],
+        "aspect": "problem"
+    },
+    {
+        "token": "includes",
+        "len": 8,
+        "speech": "VBZ",
+        "speech_bin": "Verbs",
+        "range": [
+            1837,
+            1845
+        ],
+        "aspect": "problem"
+    },
+    {
+        "token": "fracture",
+        "len": 8,
+        "speech": "NN",
+        "speech_bin": "Nouns",
+        "range": [
+            1846,
+            1854
+        ],
+        "aspect": "problem",
+        "clinical": [
+            {
+                "DiseaseDisorder": [
+                    {
+                        "code": "125605004",
+                        "tui": "T037",
+                        "codingScheme": "SNOMEDCT_US",
+                        "cui": "C0016658",
+                        "preferredText": "Fracture"
+                    },
+                    {
+                        "code": "72704001",
+                        "tui": "T037",
+                        "codingScheme": "SNOMEDCT_US",
+                        "cui": "C0016658",
+                        "preferredText": "Fracture"
+                    }
+                ],
+                "polarity": "positive"
+            }
+        ],
+        "event": [
+            {
+                "event": "fracture"
+            }
+        ]
+    },
+    {
+        "token": ",",
+        "len": 1,
+        "speech": ",",
+        "speech_bin": "unknown",
+        "range": [
+            1854,
+            1855
+        ],
+        "aspect": "problem",
+        "regex": [
+            {
+                "$COMMA": ","
+            }
+        ]
+    },
+    {
+        "token": "contusion",
+        "len": 9,
+        "speech": "NN",
+        "speech_bin": "Nouns",
+        "range": [
+            1856,
+            1865
+        ],
+        "aspect": "problem",
+        "clinical": [
+            {
+                "DiseaseDisorder": [
+                    {
+                        "code": "308492005",
+                        "tui": "T037",
+                        "codingScheme": "SNOMEDCT_US",
+                        "cui": "C0009938",
+                        "preferredText": "Contusion - lesion"
+                    },
+                    {
+                        "code": "77643000",
+                        "tui": "T037",
+                        "codingScheme": "SNOMEDCT_US",
+                        "cui": "C0009938",
+                        "preferredText": "Contusion - lesion"
+                    },
+                    {
+                        "code": "125667009",
+                        "tui": "T037",
+                        "codingScheme": "SNOMEDCT_US",
+                        "cui": "C0009938",
+                        "preferredText": "Contusion - lesion"
+                    }
+                ],
+                "polarity": "positive"
+            }
+        ],
+        "event": [
+            {
+                "event": "contusion"
+            }
+        ]
+    },
+    {
+        "token": ",",
+        "len": 1,
+        "speech": ",",
+        "speech_bin": "unknown",
+        "range": [
+            1865,
+            1866
+        ],
+        "aspect": "problem",
+        "regex": [
+            {
+                "$COMMA": ","
+            }
+        ]
+    },
+    {
+        "token": "abrasion",
+        "len": 8,
+        "speech": "NN",
+        "speech_bin": "Nouns",
+        "range": [
+            1867,
+            1875
+        ],
+        "aspect": "problem",
+        "clinical": [
+            {
+                "DiseaseDisorder": [
+                    {
+                        "code": "400061001",
+                        "tui": "T037",
+                        "codingScheme": "SNOMEDCT_US",
+                        "cui": "C1302752",
+                        "preferredText": "Abrasion"
+                    },
+                    {
+                        "code": "399963005",
+                        "tui": "T037",
+                        "codingScheme": "SNOMEDCT_US",
+                        "cui": "C1302752",
+                        "preferredText": "Abrasion"
+                    }
+                ],
+                "polarity": "positive"
+            },
+            {
+                "Procedure": [
+                    {
+                        "code": "8420001",
+                        "tui": "T061",
+                        "codingScheme": "SNOMEDCT_US",
+                        "cui": "C0580209",
+                        "preferredText": null
+                    }
+                ],
+                "polarity": "positive"
+            }
+        ],
+        "event": [
+            {
+                "event": "abrasion"
+            },
+            {
+                "event": "abrasion"
+            }
+        ]
+    },
+    {
+        "token": ",",
+        "len": 1,
+        "speech": ",",
+        "speech_bin": "unknown",
+        "range": [
+            1875,
+            1876
+        ],
+        "aspect": "problem",
+        "regex": [
+            {
+                "$COMMA": ","
+            }
+        ]
+    },
+    {
+        "token": "laceration",
+        "len": 10,
+        "speech": "NN",
+        "speech_bin": "Nouns",
+        "range": [
+            1877,
+            1887
+        ],
+        "aspect": "problem",
+        "clinical": [
+            {
+                "DiseaseDisorder": [
+                    {
+                        "code": "125671007",
+                        "tui": "T037",
+                        "codingScheme": "SNOMEDCT_US",
+                        "cui": "C0043246",
+                        "preferredText": "Laceration"
+                    },
+                    {
+                        "code": "35933005",
+                        "tui": "T037",
+                        "codingScheme": "SNOMEDCT_US",
+                        "cui": "C0043246",
+                        "preferredText": "Laceration"
+                    },
+                    {
+                        "code": "312608009",
+                        "tui": "T037",
+                        "codingScheme": "SNOMEDCT_US",
+                        "cui": "C0043246",
+                        "preferredText": "Laceration"
+                    }
+                ],
+                "polarity": "positive"
+            }
+        ],
+        "event": [
+            {
+                "event": "laceration"
+            }
+        ]
+    },
+    {
+        "token": ",",
+        "len": 1,
+        "speech": ",",
+        "speech_bin": "unknown",
+        "range": [
+            1887,
+            1888
+        ],
+        "aspect": "problem",
+        "regex": [
+            {
+                "$COMMA": ","
+            }
+        ]
+    },
+    {
+        "token": "and",
+        "len": 3,
+        "speech": "CC",
+        "speech_bin": "com-dep-wd",
+        "range": [
+            1889,
+            1892
+        ],
+        "aspect": "problem"
+    },
+    {
+        "token": "sprain",
+        "len": 6,
+        "speech": "NN",
+        "speech_bin": "Nouns",
+        "range": [
+            1893,
+            1899
+        ],
+        "aspect": "problem",
+        "clinical": [
+            {
+                "DiseaseDisorder": [
+                    {
+                        "code": "384709000",
+                        "tui": "T037",
+                        "codingScheme": "SNOMEDCT_US",
+                        "cui": "C0038045",
+                        "preferredText": "Sprain"
+                    }
+                ],
+                "polarity": "positive"
+            }
+        ],
+        "event": [
+            {
+                "event": "sprain"
+            }
+        ]
+    },
+    {
+        "token": ".",
+        "len": 1,
+        "speech": ".",
+        "speech_bin": "unknown",
+        "range": [
+            1899,
+            1900
+        ],
+        "aspect": "problem"
+    },
+    {
+        "token": "ASSESSMENT",
+        "len": 10,
+        "speech": "NN",
+        "speech_bin": "Nouns",
+        "range": [
+            1902,
+            1912
+        ],
+        "aspect": "problem",
+        "header": [
+            {
+                "ASSESSMENT": "Aspect.problem"
+            }
+        ]
+    },
+    {
+        "token": ":",
+        "len": 1,
+        "speech": ":",
+        "speech_bin": "unknown",
+        "range": [
+            1912,
+            1913
+        ],
+        "aspect": null,
+        "regex": [
+            {
+                "$COLON": ":"
+            }
+        ]
+    },
+    {
+        "token": "Right",
+        "len": 5,
+        "speech": "JJ",
+        "speech_bin": "Adjectives",
+        "range": [
+            1914,
+            1919
+        ],
+        "aspect": "problem",
+        "clinical": [
+            {
+                "AnatomicalSite": [
+                    {
+                        "code": "6685009",
+                        "tui": "T029",
+                        "codingScheme": "SNOMEDCT_US",
+                        "cui": "C0230447",
+                        "preferredText": "Structure of right ankle"
+                    }
+                ],
+                "polarity": "positive"
+            }
+        ],
+        "label": "diagnosis"
+    },
+    {
+        "token": "ankle",
+        "len": 5,
+        "speech": "NN",
+        "speech_bin": "Nouns",
+        "range": [
+            1920,
+            1925
+        ],
+        "aspect": "problem",
+        "clinical": [
+            {
+                "AnatomicalSite": [
+                    {
+                        "code": "6685009",
+                        "tui": "T029",
+                        "codingScheme": "SNOMEDCT_US",
+                        "cui": "C0230447",
+                        "preferredText": "Structure of right ankle"
+                    }
+                ],
+                "polarity": "positive"
+            },
+            {
+                "DiseaseDisorder": [
+                    {
+                        "code": "44465007",
+                        "tui": "T037",
+                        "codingScheme": "SNOMEDCT_US",
+                        "cui": "C0160087",
+                        "preferredText": "Sprain of ankle"
+                    }
+                ],
+                "polarity": "positive"
+            },
+            {
+                "AnatomicalSite": [
+                    {
+                        "code": "344001",
+                        "tui": "T030",
+                        "codingScheme": "SNOMEDCT_US",
+                        "cui": "C0003086",
+                        "preferredText": "Ankle"
+                    }
+                ],
+                "polarity": "positive"
+            }
+        ],
+        "event": [
+            {
+                "event": "ankle sprain"
+            }
+        ],
+        "label": "diagnosis"
+    },
+    {
+        "token": "sprain",
+        "len": 6,
+        "speech": "NN",
+        "speech_bin": "Nouns",
+        "range": [
+            1926,
+            1932
+        ],
+        "aspect": "problem",
+        "clinical": [
+            {
+                "DiseaseDisorder": [
+                    {
+                        "code": "44465007",
+                        "tui": "T037",
+                        "codingScheme": "SNOMEDCT_US",
+                        "cui": "C0160087",
+                        "preferredText": "Sprain of ankle"
+                    }
+                ],
+                "polarity": "positive"
+            },
+            {
+                "DiseaseDisorder": [
+                    {
+                        "code": "384709000",
+                        "tui": "T037",
+                        "codingScheme": "SNOMEDCT_US",
+                        "cui": "C0038045",
+                        "preferredText": "Sprain"
+                    }
+                ],
+                "polarity": "positive"
+            }
+        ],
+        "event": [
+            {
+                "event": "ankle sprain"
+            },
+            {
+                "event": "sprain"
+            }
+        ],
+        "label": "diagnosis"
+    },
+    {
+        "token": ".",
+        "len": 1,
+        "speech": ".",
+        "speech_bin": "unknown",
+        "range": [
+            1932,
+            1933
+        ],
+        "aspect": "problem"
+    },
+    {
+        "token": "PLAN",
+        "len": 4,
+        "speech": "NN",
+        "speech_bin": "Nouns",
+        "range": [
+            1935,
+            1939
+        ],
+        "aspect": "physical_exam",
+        "header": [
+            {
+                "PLAN": "Aspect.physical_exam"
+            }
+        ]
+    },
+    {
+        "token": ":",
+        "len": 1,
+        "speech": ":",
+        "speech_bin": "unknown",
+        "range": [
+            1939,
+            1940
+        ],
+        "aspect": null,
+        "regex": [
+            {
+                "$COLON": ":"
+            }
+        ]
+    },
+    {
+        "token": "Discharge",
+        "len": 9,
+        "speech": "VB",
+        "speech_bin": "Verbs",
+        "range": [
+            1941,
+            1950
+        ],
+        "aspect": "physical_exam"
+    },
+    {
+        "token": "the",
+        "len": 3,
+        "speech": "DT",
+        "speech_bin": "com-dep-wd",
+        "range": [
+            1951,
+            1954
+        ],
+        "aspect": "physical_exam"
+    },
+    {
+        "token": "patient",
+        "len": 7,
+        "speech": "NN",
+        "speech_bin": "Nouns",
+        "range": [
+            1955,
+            1962
+        ],
+        "aspect": "physical_exam"
+    },
+    {
+        "token": "home",
+        "len": 4,
+        "speech": "NN",
+        "speech_bin": "Nouns",
+        "range": [
+            1963,
+            1967
+        ],
+        "aspect": "physical_exam"
+    },
+    {
+        "token": "and",
+        "len": 3,
+        "speech": "CC",
+        "speech_bin": "com-dep-wd",
+        "range": [
+            1968,
+            1971
+        ],
+        "aspect": "physical_exam"
+    },
+    {
+        "token": "have",
+        "len": 4,
+        "speech": "VBP",
+        "speech_bin": "Verbs",
+        "range": [
+            1972,
+            1976
+        ],
+        "aspect": "physical_exam"
+    },
+    {
+        "token": "her",
+        "len": 3,
+        "speech": "PRP$",
+        "speech_bin": "Pronouns",
+        "range": [
+            1977,
+            1980
+        ],
+        "aspect": "physical_exam"
+    },
+    {
+        "token": "follow",
+        "len": 6,
+        "speech": "JJ",
+        "speech_bin": "Adjectives",
+        "range": [
+            1981,
+            1987
+        ],
+        "aspect": "physical_exam"
+    },
+    {
+        "token": "up",
+        "len": 2,
+        "speech": "RP",
+        "speech_bin": "com-dep-wd",
+        "range": [
+            1988,
+            1990
+        ],
+        "aspect": "physical_exam"
+    },
+    {
+        "token": "with",
+        "len": 4,
+        "speech": "IN",
+        "speech_bin": "com-dep-wd",
+        "range": [
+            1991,
+            1995
+        ],
+        "aspect": "physical_exam"
+    },
+    {
+        "token": "her",
+        "len": 3,
+        "speech": "PRP$",
+        "speech_bin": "Pronouns",
+        "range": [
+            1996,
+            1999
+        ],
+        "aspect": "physical_exam"
+    },
+    {
+        "token": "doctor",
+        "len": 6,
+        "speech": "NN",
+        "speech_bin": "Nouns",
+        "range": [
+            2000,
+            2006
+        ],
+        "aspect": "physical_exam",
+        "regex": [
+            {
+                "$DOCTOR_OLDER": "doctor in\n1 week "
+            }
+        ]
+    },
+    {
+        "token": "in",
+        "len": 2,
+        "speech": "IN",
+        "speech_bin": "com-dep-wd",
+        "range": [
+            2007,
+            2009
+        ],
+        "aspect": "physical_exam",
+        "regex": [
+            {
+                "$DOCTOR_OLDER": "doctor in\n1 week "
+            }
+        ]
+    },
+    {
+        "token": "1",
+        "len": 1,
+        "speech": "CD",
+        "speech_bin": "Numbers",
+        "range": [
+            2010,
+            2011
+        ],
+        "aspect": "physical_exam",
+        "regex": [
+            {
+                "$AGE6": "\n1 week"
+            },
+            {
+                "$DOCTOR_OLDER": "doctor in\n1 week "
+            }
+        ],
+        "labValue": [
+            {
+                "labValue": "1"
+            }
+        ]
+    },
+    {
+        "token": "week",
+        "len": 4,
+        "speech": "NN",
+        "speech_bin": "Nouns",
+        "range": [
+            2012,
+            2016
+        ],
+        "aspect": "physical_exam",
+        "regex": [
+            {
+                "$AGE6": "\n1 week"
+            },
+            {
+                "$DOCTOR_OLDER": "doctor in\n1 week "
+            }
+        ]
+    },
+    {
+        "token": "if",
+        "len": 2,
+        "speech": "IN",
+        "speech_bin": "com-dep-wd",
+        "range": [
+            2017,
+            2019
+        ],
+        "aspect": "physical_exam",
+        "lab": [
+            {
+                "Lab": [
+                    {
+                        "code": "LP6323-2",
+                        "tui": null,
+                        "codingScheme": "LNC",
+                        "cui": "C1442775",
+                        "preferredText": "IMMUNE FLUORESCENCE"
+                    }
+                ],
+                "polarity": "positive"
+            }
+        ],
+        "event": [
+            {
+                "event": "if"
+            }
+        ]
+    },
+    {
+        "token": "symptoms",
+        "len": 8,
+        "speech": "NNS",
+        "speech_bin": "Nouns",
+        "range": [
+            2020,
+            2028
+        ],
+        "aspect": "physical_exam",
+        "regex": [
+            {
+                "$MS": "ms persist"
+            }
+        ],
+        "event": [
+            {
+                "event": "symptoms"
+            }
+        ]
+    },
+    {
+        "token": "persist",
+        "len": 7,
+        "speech": "VBP",
+        "speech_bin": "Verbs",
+        "range": [
+            2029,
+            2036
+        ],
+        "aspect": "physical_exam",
+        "regex": [
+            {
+                "$MS": "ms persist"
+            }
+        ]
+    },
+    {
+        "token": ".",
+        "len": 1,
+        "speech": ".",
+        "speech_bin": "unknown",
+        "range": [
+            2036,
+            2037
+        ],
+        "aspect": "physical_exam"
+    },
+    {
+        "token": "She",
+        "len": 3,
+        "speech": "PRP",
+        "speech_bin": "Pronouns",
+        "range": [
+            2038,
+            2041
+        ],
+        "aspect": "physical_exam"
+    },
+    {
+        "token": "is",
+        "len": 2,
+        "speech": "VBZ",
+        "speech_bin": "Verbs",
+        "range": [
+            2042,
+            2044
+        ],
+        "aspect": "physical_exam"
+    },
+    {
+        "token": "advised",
+        "len": 7,
+        "speech": "VBN",
+        "speech_bin": "Verbs",
+        "range": [
+            2045,
+            2052
+        ],
+        "aspect": "physical_exam"
+    },
+    {
+        "token": "to",
+        "len": 2,
+        "speech": "TO",
+        "speech_bin": "com-dep-wd",
+        "range": [
+            2053,
+            2055
+        ],
+        "aspect": "physical_exam"
+    },
+    {
+        "token": "return",
+        "len": 6,
+        "speech": "VB",
+        "speech_bin": "Verbs",
+        "range": [
+            2056,
+            2062
+        ],
+        "aspect": "physical_exam"
+    },
+    {
+        "token": "immediately",
+        "len": 11,
+        "speech": "RB",
+        "speech_bin": "Adverbs",
+        "range": [
+            2063,
+            2074
+        ],
+        "aspect": "physical_exam"
+    },
+    {
+        "token": "p.r.n",
+        "len": 5,
+        "speech": "NN",
+        "speech_bin": "Nouns",
+        "range": [
+            2075,
+            2080
+        ],
+        "aspect": "physical_exam"
+    },
+    {
+        "token": ".",
+        "len": 1,
+        "speech": ".",
+        "speech_bin": "unknown",
+        "range": [
+            2080,
+            2081
+        ],
+        "aspect": "physical_exam"
+    },
+    {
+        "token": "severe",
+        "len": 6,
+        "speech": "JJ",
+        "speech_bin": "Adjectives",
+        "range": [
+            2082,
+            2088
+        ],
+        "aspect": "physical_exam",
+        "clinical": [
+            {
+                "SignSymptom": [
+                    {
+                        "code": "76948002",
+                        "tui": "T033",
+                        "codingScheme": "SNOMEDCT_US",
+                        "cui": "C0278140",
+                        "preferredText": "Severe pain"
+                    }
+                ],
+                "polarity": "negative"
+            }
+        ],
+        "event": [
+            {
+                "event": "severe\npain"
+            },
+            {
+                "event": "severe"
+            }
+        ],
+        "SEVERIRTY": [
+            {
+                "severe": null
+            }
+        ]
+    },
+    {
+        "token": "pain",
+        "len": 4,
+        "speech": "NN",
+        "speech_bin": "Nouns",
+        "range": [
+            2089,
+            2093
+        ],
+        "aspect": "physical_exam",
+        "clinical": [
+            {
+                "SignSymptom": [
+                    {
+                        "code": "76948002",
+                        "tui": "T033",
+                        "codingScheme": "SNOMEDCT_US",
+                        "cui": "C0278140",
+                        "preferredText": "Severe pain"
+                    }
+                ],
+                "polarity": "negative"
+            },
+            {
+                "SignSymptom": [
+                    {
+                        "code": "22253000",
+                        "tui": "T184",
+                        "codingScheme": "SNOMEDCT_US",
+                        "cui": "C0030193",
+                        "preferredText": "Pain"
+                    }
+                ],
+                "polarity": "negative"
+            }
+        ],
+        "event": [
+            {
+                "event": "severe\npain"
+            },
+            {
+                "event": "pain"
+            }
+        ],
+        "PAIN_MIN": [
+            {
+                "pain": null
+            }
+        ],
+        "SEVERIRTY": [
+            {
+                "pain": null
+            }
+        ]
+    },
+    {
+        "token": ",",
+        "len": 1,
+        "speech": ",",
+        "speech_bin": "unknown",
+        "range": [
+            2093,
+            2094
+        ],
+        "aspect": "physical_exam",
+        "regex": [
+            {
+                "$COMMA": ","
+            }
+        ]
+    },
+    {
+        "token": "worsening",
+        "len": 9,
+        "speech": "VBG",
+        "speech_bin": "Verbs",
+        "range": [
+            2095,
+            2104
+        ],
+        "aspect": "physical_exam"
+    },
+    {
+        "token": ",",
+        "len": 1,
+        "speech": ",",
+        "speech_bin": "unknown",
+        "range": [
+            2104,
+            2105
+        ],
+        "aspect": "physical_exam",
+        "regex": [
+            {
+                "$COMMA": ","
+            }
+        ]
+    },
+    {
+        "token": "not",
+        "len": 3,
+        "speech": "RB",
+        "speech_bin": "Adverbs",
+        "range": [
+            2106,
+            2109
+        ],
+        "aspect": "physical_exam",
+        "event": [
+            {
+                "event": "not better"
+            }
+        ],
+        "NO": [
+            {
+                "not": null
+            }
+        ]
+    },
+    {
+        "token": "better",
+        "len": 6,
+        "speech": "RBR",
+        "speech_bin": "Adverbs",
+        "range": [
+            2110,
+            2116
+        ],
+        "aspect": "physical_exam",
+        "event": [
+            {
+                "event": "not better"
+            }
+        ],
+        "CHANGE": [
+            {
+                "better": null
+            }
+        ]
+    },
+    {
+        "token": ",",
+        "len": 1,
+        "speech": ",",
+        "speech_bin": "unknown",
+        "range": [
+            2116,
+            2117
+        ],
+        "aspect": "physical_exam",
+        "regex": [
+            {
+                "$COMMA": ","
+            }
+        ]
+    },
+    {
+        "token": "etc",
+        "len": 3,
+        "speech": "FW",
+        "speech_bin": "FW-Symb",
+        "range": [
+            2118,
+            2121
+        ],
+        "aspect": "physical_exam"
+    },
+    {
+        "token": ".",
+        "len": 1,
+        "speech": ".",
+        "speech_bin": "unknown",
+        "range": [
+            2121,
+            2122
+        ],
+        "aspect": "physical_exam"
+    }
+]

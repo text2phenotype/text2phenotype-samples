@@ -1,0 +1,3473 @@
+[
+    {
+        "token": "INDICATION",
+        "len": 10,
+        "speech": "NN",
+        "speech_bin": "Nouns",
+        "range": [
+            2,
+            12
+        ],
+        "aspect": "problem",
+        "header": [
+            {
+                "INDICATION": "Aspect.problem"
+            }
+        ]
+    },
+    {
+        "token": ":",
+        "len": 1,
+        "speech": ":",
+        "speech_bin": "unknown",
+        "range": [
+            12,
+            13
+        ],
+        "aspect": null,
+        "regex": [
+            {
+                "$COLON": ":"
+            }
+        ]
+    },
+    {
+        "token": "Chest",
+        "len": 5,
+        "speech": "NNP",
+        "speech_bin": "Nouns",
+        "range": [
+            14,
+            19
+        ],
+        "aspect": "diagnosis",
+        "clinical": [
+            {
+                "SignSymptom": [
+                    {
+                        "code": "29857009",
+                        "tui": "T184",
+                        "codingScheme": "SNOMEDCT_US",
+                        "cui": "C0008031",
+                        "preferredText": "Chest pain"
+                    }
+                ],
+                "polarity": "positive"
+            },
+            {
+                "AnatomicalSite": [
+                    {
+                        "code": "51185008",
+                        "tui": "T029",
+                        "codingScheme": "SNOMEDCT_US",
+                        "cui": "C0817096",
+                        "preferredText": "Thoracic"
+                    },
+                    {
+                        "code": "261179002",
+                        "tui": "T029",
+                        "codingScheme": "SNOMEDCT_US",
+                        "cui": "C0817096",
+                        "preferredText": "Thoracic"
+                    }
+                ],
+                "polarity": "positive"
+            }
+        ],
+        "event": [
+            {
+                "event": "Chest pain"
+            }
+        ],
+        "label": "problem"
+    },
+    {
+        "token": "pain",
+        "len": 4,
+        "speech": "NN",
+        "speech_bin": "Nouns",
+        "range": [
+            20,
+            24
+        ],
+        "aspect": "diagnosis",
+        "clinical": [
+            {
+                "SignSymptom": [
+                    {
+                        "code": "29857009",
+                        "tui": "T184",
+                        "codingScheme": "SNOMEDCT_US",
+                        "cui": "C0008031",
+                        "preferredText": "Chest pain"
+                    }
+                ],
+                "polarity": "positive"
+            },
+            {
+                "SignSymptom": [
+                    {
+                        "code": "22253000",
+                        "tui": "T184",
+                        "codingScheme": "SNOMEDCT_US",
+                        "cui": "C0030193",
+                        "preferredText": "Pain"
+                    }
+                ],
+                "polarity": "positive"
+            }
+        ],
+        "event": [
+            {
+                "event": "Chest pain"
+            },
+            {
+                "event": "pain"
+            }
+        ],
+        "PAIN_MIN": [
+            {
+                "pain": null
+            }
+        ],
+        "SEVERIRTY": [
+            {
+                "pain": null
+            }
+        ],
+        "label": "problem"
+    },
+    {
+        "token": ".",
+        "len": 1,
+        "speech": ".",
+        "speech_bin": "unknown",
+        "range": [
+            24,
+            25
+        ],
+        "aspect": "diagnosis"
+    },
+    {
+        "token": "TYPE",
+        "len": 4,
+        "speech": "NNP",
+        "speech_bin": "Nouns",
+        "range": [
+            27,
+            31
+        ],
+        "aspect": "physical_exam"
+    },
+    {
+        "token": "OF",
+        "len": 2,
+        "speech": "IN",
+        "speech_bin": "com-dep-wd",
+        "range": [
+            32,
+            34
+        ],
+        "aspect": "physical_exam"
+    },
+    {
+        "token": "TEST",
+        "len": 4,
+        "speech": "NN",
+        "speech_bin": "Nouns",
+        "range": [
+            35,
+            39
+        ],
+        "aspect": "physical_exam",
+        "lab": [
+            {
+                "Lab": [
+                    {
+                        "code": "269814003",
+                        "tui": null,
+                        "codingScheme": "SNOMEDCT_US",
+                        "cui": "C0022885",
+                        "preferredText": "Laboratory Procedures"
+                    },
+                    {
+                        "code": "108252007",
+                        "tui": null,
+                        "codingScheme": "SNOMEDCT_US",
+                        "cui": "C0022885",
+                        "preferredText": "Laboratory Procedures"
+                    },
+                    {
+                        "code": "TCGA",
+                        "tui": null,
+                        "codingScheme": "NCI",
+                        "cui": "C0022885",
+                        "preferredText": "Laboratory Procedures"
+                    },
+                    {
+                        "code": "15220000",
+                        "tui": null,
+                        "codingScheme": "SNOMEDCT_US",
+                        "cui": "C0022885",
+                        "preferredText": "Laboratory Procedures"
+                    },
+                    {
+                        "code": "C25294",
+                        "tui": null,
+                        "codingScheme": "NCI",
+                        "cui": "C0022885",
+                        "preferredText": "Laboratory Procedures"
+                    }
+                ],
+                "polarity": "positive"
+            }
+        ],
+        "clinical": [
+            {
+                "SignSymptom": [
+                    {
+                        "code": "277775005",
+                        "tui": "T033",
+                        "codingScheme": "SNOMEDCT_US",
+                        "cui": "C0456984",
+                        "preferredText": "Test finding"
+                    }
+                ],
+                "polarity": "positive"
+            }
+        ],
+        "event": [
+            {
+                "event": "TEST"
+            },
+            {
+                "event": "TEST"
+            }
+        ]
+    },
+    {
+        "token": ":",
+        "len": 1,
+        "speech": ":",
+        "speech_bin": "unknown",
+        "range": [
+            39,
+            40
+        ],
+        "aspect": "physical_exam",
+        "regex": [
+            {
+                "$COLON": ":"
+            }
+        ]
+    },
+    {
+        "token": "Adenosine",
+        "len": 9,
+        "speech": "NN",
+        "speech_bin": "Nouns",
+        "range": [
+            41,
+            50
+        ],
+        "aspect": "physical_exam",
+        "drug_rxnorm": [
+            {
+                "Medication": [
+                    {
+                        "code": "296",
+                        "tui": "T114",
+                        "codingScheme": "RXNORM",
+                        "cui": "C0001443",
+                        "preferredText": "Adenosine"
+                    },
+                    {
+                        "code": "296",
+                        "tui": "T123",
+                        "codingScheme": "RXNORM",
+                        "cui": "C0001443",
+                        "preferredText": "Adenosine"
+                    },
+                    {
+                        "code": "296",
+                        "tui": "T121",
+                        "codingScheme": "RXNORM",
+                        "cui": "C0001443",
+                        "preferredText": "Adenosine"
+                    }
+                ],
+                "polarity": "positive",
+                "dosage": [],
+                "unit": []
+            }
+        ],
+        "clinical": [
+            {
+                "Medication": [
+                    {
+                        "code": "296",
+                        "tui": "T114",
+                        "codingScheme": "RXNORM",
+                        "cui": "C0001443",
+                        "preferredText": "Adenosine"
+                    },
+                    {
+                        "code": "296",
+                        "tui": "T123",
+                        "codingScheme": "RXNORM",
+                        "cui": "C0001443",
+                        "preferredText": "Adenosine"
+                    },
+                    {
+                        "code": "108502004",
+                        "tui": "T121",
+                        "codingScheme": "SNOMEDCT_US",
+                        "cui": "C0001443",
+                        "preferredText": "Adenosine"
+                    },
+                    {
+                        "code": "35431001",
+                        "tui": "T114",
+                        "codingScheme": "SNOMEDCT_US",
+                        "cui": "C0001443",
+                        "preferredText": "Adenosine"
+                    },
+                    {
+                        "code": "108502004",
+                        "tui": "T123",
+                        "codingScheme": "SNOMEDCT_US",
+                        "cui": "C0001443",
+                        "preferredText": "Adenosine"
+                    },
+                    {
+                        "code": "296",
+                        "tui": "T121",
+                        "codingScheme": "RXNORM",
+                        "cui": "C0001443",
+                        "preferredText": "Adenosine"
+                    },
+                    {
+                        "code": "35431001",
+                        "tui": "T123",
+                        "codingScheme": "SNOMEDCT_US",
+                        "cui": "C0001443",
+                        "preferredText": "Adenosine"
+                    },
+                    {
+                        "code": "35431001",
+                        "tui": "T121",
+                        "codingScheme": "SNOMEDCT_US",
+                        "cui": "C0001443",
+                        "preferredText": "Adenosine"
+                    },
+                    {
+                        "code": "108502004",
+                        "tui": "T114",
+                        "codingScheme": "SNOMEDCT_US",
+                        "cui": "C0001443",
+                        "preferredText": "Adenosine"
+                    }
+                ],
+                "polarity": "positive"
+            }
+        ],
+        "event": [
+            {
+                "event": "Adenosine"
+            }
+        ]
+    },
+    {
+        "token": "with",
+        "len": 4,
+        "speech": "IN",
+        "speech_bin": "com-dep-wd",
+        "range": [
+            51,
+            55
+        ],
+        "aspect": "physical_exam"
+    },
+    {
+        "token": "nuclear",
+        "len": 7,
+        "speech": "JJ",
+        "speech_bin": "Adjectives",
+        "range": [
+            56,
+            63
+        ],
+        "aspect": "physical_exam"
+    },
+    {
+        "token": "scan",
+        "len": 4,
+        "speech": "JJ",
+        "speech_bin": "Adjectives",
+        "range": [
+            64,
+            68
+        ],
+        "aspect": "physical_exam",
+        "event": [
+            {
+                "event": "scan"
+            }
+        ]
+    },
+    {
+        "token": "as",
+        "len": 2,
+        "speech": "IN",
+        "speech_bin": "com-dep-wd",
+        "range": [
+            69,
+            71
+        ],
+        "aspect": "physical_exam"
+    },
+    {
+        "token": "the",
+        "len": 3,
+        "speech": "DT",
+        "speech_bin": "com-dep-wd",
+        "range": [
+            72,
+            75
+        ],
+        "aspect": "physical_exam"
+    },
+    {
+        "token": "patient",
+        "len": 7,
+        "speech": "NN",
+        "speech_bin": "Nouns",
+        "range": [
+            76,
+            83
+        ],
+        "aspect": "physical_exam"
+    },
+    {
+        "token": "unable",
+        "len": 6,
+        "speech": "JJ",
+        "speech_bin": "Adjectives",
+        "range": [
+            84,
+            90
+        ],
+        "aspect": "physical_exam",
+        "clinical": [
+            {
+                "SignSymptom": [
+                    {
+                        "code": "371151008",
+                        "tui": "T033",
+                        "codingScheme": "SNOMEDCT_US",
+                        "cui": "C1299582",
+                        "preferredText": "Unable"
+                    }
+                ],
+                "polarity": "positive"
+            }
+        ],
+        "event": [
+            {
+                "event": "unable"
+            }
+        ]
+    },
+    {
+        "token": "to",
+        "len": 2,
+        "speech": "TO",
+        "speech_bin": "com-dep-wd",
+        "range": [
+            91,
+            93
+        ],
+        "aspect": "physical_exam"
+    },
+    {
+        "token": "walk",
+        "len": 4,
+        "speech": "VB",
+        "speech_bin": "Verbs",
+        "range": [
+            94,
+            98
+        ],
+        "aspect": "physical_exam"
+    },
+    {
+        "token": "on",
+        "len": 2,
+        "speech": "IN",
+        "speech_bin": "com-dep-wd",
+        "range": [
+            99,
+            101
+        ],
+        "aspect": "physical_exam"
+    },
+    {
+        "token": "a",
+        "len": 1,
+        "speech": "DT",
+        "speech_bin": "com-dep-wd",
+        "range": [
+            102,
+            103
+        ],
+        "aspect": "physical_exam"
+    },
+    {
+        "token": "treadmill",
+        "len": 9,
+        "speech": "NN",
+        "speech_bin": "Nouns",
+        "range": [
+            104,
+            113
+        ],
+        "aspect": "physical_exam",
+        "event": [
+            {
+                "event": "treadmill"
+            }
+        ]
+    },
+    {
+        "token": ".",
+        "len": 1,
+        "speech": ".",
+        "speech_bin": "unknown",
+        "range": [
+            113,
+            114
+        ],
+        "aspect": "physical_exam"
+    },
+    {
+        "token": "INTERPRETATION",
+        "len": 14,
+        "speech": "NN",
+        "speech_bin": "Nouns",
+        "range": [
+            116,
+            130
+        ],
+        "aspect": "procedure",
+        "header": [
+            {
+                "INTERPRETATION": "Aspect.procedure"
+            }
+        ]
+    },
+    {
+        "token": ":",
+        "len": 1,
+        "speech": ":",
+        "speech_bin": "unknown",
+        "range": [
+            130,
+            131
+        ],
+        "aspect": null,
+        "regex": [
+            {
+                "$COLON": ":"
+            }
+        ]
+    },
+    {
+        "token": "Resting",
+        "len": 7,
+        "speech": "JJ",
+        "speech_bin": "Adjectives",
+        "range": [
+            132,
+            139
+        ],
+        "aspect": "procedure",
+        "clinical": [
+            {
+                "SignSymptom": [
+                    {
+                        "code": "444981005",
+                        "tui": "T033",
+                        "codingScheme": "SNOMEDCT_US",
+                        "cui": "C1821417",
+                        "preferredText": "Resting heart rate"
+                    }
+                ],
+                "polarity": "positive"
+            },
+            {
+                "SignSymptom": [
+                    {
+                        "code": "258157001",
+                        "tui": "T056",
+                        "codingScheme": "SNOMEDCT_US",
+                        "cui": "C0035253",
+                        "preferredText": "Rest"
+                    }
+                ],
+                "polarity": "positive"
+            }
+        ],
+        "event": [
+            {
+                "event": "Resting heart rate"
+            },
+            {
+                "event": "Resting"
+            }
+        ]
+    },
+    {
+        "token": "heart",
+        "len": 5,
+        "speech": "NN",
+        "speech_bin": "Nouns",
+        "range": [
+            140,
+            145
+        ],
+        "aspect": "procedure",
+        "clinical": [
+            {
+                "SignSymptom": [
+                    {
+                        "code": "444981005",
+                        "tui": "T033",
+                        "codingScheme": "SNOMEDCT_US",
+                        "cui": "C1821417",
+                        "preferredText": "Resting heart rate"
+                    }
+                ],
+                "polarity": "positive"
+            },
+            {
+                "AnatomicalSite": [
+                    {
+                        "code": "80891009",
+                        "tui": "T023",
+                        "codingScheme": "SNOMEDCT_US",
+                        "cui": "C0018787",
+                        "preferredText": "Heart structure"
+                    }
+                ],
+                "polarity": "positive"
+            }
+        ],
+        "event": [
+            {
+                "event": "Resting heart rate"
+            }
+        ]
+    },
+    {
+        "token": "rate",
+        "len": 4,
+        "speech": "NN",
+        "speech_bin": "Nouns",
+        "range": [
+            146,
+            150
+        ],
+        "aspect": "procedure",
+        "clinical": [
+            {
+                "SignSymptom": [
+                    {
+                        "code": "444981005",
+                        "tui": "T033",
+                        "codingScheme": "SNOMEDCT_US",
+                        "cui": "C1821417",
+                        "preferredText": "Resting heart rate"
+                    }
+                ],
+                "polarity": "positive"
+            }
+        ],
+        "event": [
+            {
+                "event": "Resting heart rate"
+            }
+        ]
+    },
+    {
+        "token": "of",
+        "len": 2,
+        "speech": "IN",
+        "speech_bin": "com-dep-wd",
+        "range": [
+            151,
+            153
+        ],
+        "aspect": "procedure"
+    },
+    {
+        "token": "67",
+        "len": 2,
+        "speech": "CD",
+        "speech_bin": "Numbers",
+        "range": [
+            154,
+            156
+        ],
+        "aspect": "procedure"
+    },
+    {
+        "token": ",",
+        "len": 1,
+        "speech": ",",
+        "speech_bin": "unknown",
+        "range": [
+            156,
+            157
+        ],
+        "aspect": "procedure",
+        "regex": [
+            {
+                "$COMMA": ","
+            }
+        ]
+    },
+    {
+        "token": "blood",
+        "len": 5,
+        "speech": "NN",
+        "speech_bin": "Nouns",
+        "range": [
+            158,
+            163
+        ],
+        "aspect": "procedure",
+        "clinical": [
+            {
+                "SignSymptom": [
+                    {
+                        "code": "75367002",
+                        "tui": "T040",
+                        "codingScheme": "SNOMEDCT_US",
+                        "cui": "C0005823",
+                        "preferredText": "Blood pressure"
+                    }
+                ],
+                "polarity": "positive"
+            },
+            {
+                "AnatomicalSite": [
+                    {
+                        "code": "87612001",
+                        "tui": "T024",
+                        "codingScheme": "SNOMEDCT_US",
+                        "cui": "C0005767",
+                        "preferredText": "Blood"
+                    }
+                ],
+                "polarity": "positive"
+            }
+        ],
+        "event": [
+            {
+                "event": "blood pressure"
+            }
+        ]
+    },
+    {
+        "token": "pressure",
+        "len": 8,
+        "speech": "NN",
+        "speech_bin": "Nouns",
+        "range": [
+            164,
+            172
+        ],
+        "aspect": "procedure",
+        "clinical": [
+            {
+                "SignSymptom": [
+                    {
+                        "code": "75367002",
+                        "tui": "T040",
+                        "codingScheme": "SNOMEDCT_US",
+                        "cui": "C0005823",
+                        "preferredText": "Blood pressure"
+                    }
+                ],
+                "polarity": "positive"
+            },
+            {
+                "SignSymptom": [
+                    {
+                        "code": "13543005",
+                        "tui": "T033",
+                        "codingScheme": "SNOMEDCT_US",
+                        "cui": "C0460139",
+                        "preferredText": "Pressure"
+                    }
+                ],
+                "polarity": "positive"
+            }
+        ],
+        "event": [
+            {
+                "event": "blood pressure"
+            },
+            {
+                "event": "pressure"
+            }
+        ]
+    },
+    {
+        "token": "of",
+        "len": 2,
+        "speech": "IN",
+        "speech_bin": "com-dep-wd",
+        "range": [
+            173,
+            175
+        ],
+        "aspect": "procedure"
+    },
+    {
+        "token": "129/86",
+        "len": 6,
+        "speech": "CD",
+        "speech_bin": "Numbers",
+        "range": [
+            176,
+            182
+        ],
+        "aspect": "procedure",
+        "regex": [
+            {
+                "$BLOOD_PRESSURE_CHART": "129/86"
+            }
+        ]
+    },
+    {
+        "token": ".",
+        "len": 1,
+        "speech": ".",
+        "speech_bin": "unknown",
+        "range": [
+            182,
+            183
+        ],
+        "aspect": "procedure"
+    },
+    {
+        "token": "EKG",
+        "len": 3,
+        "speech": "NNP",
+        "speech_bin": "Nouns",
+        "range": [
+            184,
+            187
+        ],
+        "aspect": "procedure",
+        "header": [
+            {
+                "EKG": "Aspect.lab"
+            }
+        ],
+        "clinical": [
+            {
+                "Procedure": [
+                    {
+                        "code": "46825001",
+                        "tui": "T060",
+                        "codingScheme": "SNOMEDCT_US",
+                        "cui": "C1623258",
+                        "preferredText": "Electrocardiographic procedure"
+                    },
+                    {
+                        "code": "29303009",
+                        "tui": "T060",
+                        "codingScheme": "SNOMEDCT_US",
+                        "cui": "C1623258",
+                        "preferredText": "Electrocardiographic procedure"
+                    }
+                ],
+                "polarity": "positive"
+            }
+        ],
+        "event": [
+            {
+                "event": "EKG"
+            }
+        ]
+    },
+    {
+        "token": ",",
+        "len": 1,
+        "speech": ",",
+        "speech_bin": "unknown",
+        "range": [
+            187,
+            188
+        ],
+        "aspect": "procedure",
+        "regex": [
+            {
+                "$COMMA": ","
+            }
+        ]
+    },
+    {
+        "token": "normal",
+        "len": 6,
+        "speech": "JJ",
+        "speech_bin": "Adjectives",
+        "range": [
+            189,
+            195
+        ],
+        "aspect": "procedure",
+        "clinical": [
+            {
+                "SignSymptom": [
+                    {
+                        "code": "64730000",
+                        "tui": "T033",
+                        "codingScheme": "SNOMEDCT_US",
+                        "cui": "C0232202",
+                        "preferredText": "Normal sinus rhythm"
+                    }
+                ],
+                "polarity": "positive"
+            }
+        ],
+        "event": [
+            {
+                "event": "normal sinus rhythm"
+            },
+            {
+                "event": "normal"
+            }
+        ],
+        "SEVERIRTY": [
+            {
+                "normal": null
+            }
+        ]
+    },
+    {
+        "token": "sinus",
+        "len": 5,
+        "speech": "NN",
+        "speech_bin": "Nouns",
+        "range": [
+            196,
+            201
+        ],
+        "aspect": "procedure",
+        "clinical": [
+            {
+                "SignSymptom": [
+                    {
+                        "code": "64730000",
+                        "tui": "T033",
+                        "codingScheme": "SNOMEDCT_US",
+                        "cui": "C0232202",
+                        "preferredText": "Normal sinus rhythm"
+                    }
+                ],
+                "polarity": "positive"
+            },
+            {
+                "SignSymptom": [
+                    {
+                        "code": "251150006",
+                        "tui": "T033",
+                        "codingScheme": "SNOMEDCT_US",
+                        "cui": "C0232201",
+                        "preferredText": "Sinus rhythm"
+                    },
+                    {
+                        "code": "106067008",
+                        "tui": "T033",
+                        "codingScheme": "SNOMEDCT_US",
+                        "cui": "C0232201",
+                        "preferredText": "Sinus rhythm"
+                    }
+                ],
+                "polarity": "positive"
+            },
+            {
+                "AnatomicalSite": [
+                    {
+                        "code": "2095001",
+                        "tui": "T030",
+                        "codingScheme": "SNOMEDCT_US",
+                        "cui": "C0030471",
+                        "preferredText": "Nasal sinus structure"
+                    },
+                    {
+                        "code": "55111001",
+                        "tui": "T030",
+                        "codingScheme": "SNOMEDCT_US",
+                        "cui": "C0030471",
+                        "preferredText": "Nasal sinus structure"
+                    }
+                ],
+                "polarity": "positive"
+            }
+        ],
+        "event": [
+            {
+                "event": "normal sinus rhythm"
+            },
+            {
+                "event": "sinus rhythm"
+            }
+        ]
+    },
+    {
+        "token": "rhythm",
+        "len": 6,
+        "speech": "NN",
+        "speech_bin": "Nouns",
+        "range": [
+            202,
+            208
+        ],
+        "aspect": "procedure",
+        "clinical": [
+            {
+                "SignSymptom": [
+                    {
+                        "code": "64730000",
+                        "tui": "T033",
+                        "codingScheme": "SNOMEDCT_US",
+                        "cui": "C0232202",
+                        "preferredText": "Normal sinus rhythm"
+                    }
+                ],
+                "polarity": "positive"
+            },
+            {
+                "SignSymptom": [
+                    {
+                        "code": "251150006",
+                        "tui": "T033",
+                        "codingScheme": "SNOMEDCT_US",
+                        "cui": "C0232201",
+                        "preferredText": "Sinus rhythm"
+                    },
+                    {
+                        "code": "106067008",
+                        "tui": "T033",
+                        "codingScheme": "SNOMEDCT_US",
+                        "cui": "C0232201",
+                        "preferredText": "Sinus rhythm"
+                    }
+                ],
+                "polarity": "positive"
+            }
+        ],
+        "event": [
+            {
+                "event": "normal sinus rhythm"
+            },
+            {
+                "event": "sinus rhythm"
+            },
+            {
+                "event": "rhythm"
+            }
+        ]
+    },
+    {
+        "token": ".",
+        "len": 1,
+        "speech": ".",
+        "speech_bin": "unknown",
+        "range": [
+            208,
+            209
+        ],
+        "aspect": "procedure"
+    },
+    {
+        "token": "Post-Lexiscan",
+        "len": 13,
+        "speech": "JJ",
+        "speech_bin": "Adjectives",
+        "range": [
+            210,
+            223
+        ],
+        "aspect": "procedure"
+    },
+    {
+        "token": "0.4",
+        "len": 3,
+        "speech": "CD",
+        "speech_bin": "Numbers",
+        "range": [
+            224,
+            227
+        ],
+        "aspect": "procedure"
+    },
+    {
+        "token": "mg",
+        "len": 2,
+        "speech": "NN",
+        "speech_bin": "Nouns",
+        "range": [
+            228,
+            230
+        ],
+        "aspect": "procedure"
+    },
+    {
+        "token": ",",
+        "len": 1,
+        "speech": ",",
+        "speech_bin": "unknown",
+        "range": [
+            230,
+            231
+        ],
+        "aspect": "procedure",
+        "regex": [
+            {
+                "$COMMA": ","
+            }
+        ]
+    },
+    {
+        "token": "heart",
+        "len": 5,
+        "speech": "NN",
+        "speech_bin": "Nouns",
+        "range": [
+            232,
+            237
+        ],
+        "aspect": "procedure",
+        "clinical": [
+            {
+                "AnatomicalSite": [
+                    {
+                        "code": "80891009",
+                        "tui": "T023",
+                        "codingScheme": "SNOMEDCT_US",
+                        "cui": "C0018787",
+                        "preferredText": "Heart structure"
+                    }
+                ],
+                "polarity": "positive"
+            }
+        ]
+    },
+    {
+        "token": "rate",
+        "len": 4,
+        "speech": "NN",
+        "speech_bin": "Nouns",
+        "range": [
+            238,
+            242
+        ],
+        "aspect": "procedure"
+    },
+    {
+        "token": "was",
+        "len": 3,
+        "speech": "VBD",
+        "speech_bin": "Verbs",
+        "range": [
+            243,
+            246
+        ],
+        "aspect": "procedure"
+    },
+    {
+        "token": "83",
+        "len": 2,
+        "speech": "CD",
+        "speech_bin": "Numbers",
+        "range": [
+            247,
+            249
+        ],
+        "aspect": "procedure"
+    },
+    {
+        "token": ",",
+        "len": 1,
+        "speech": ",",
+        "speech_bin": "unknown",
+        "range": [
+            249,
+            250
+        ],
+        "aspect": "procedure",
+        "regex": [
+            {
+                "$COMMA": ","
+            }
+        ]
+    },
+    {
+        "token": "blood",
+        "len": 5,
+        "speech": "NN",
+        "speech_bin": "Nouns",
+        "range": [
+            251,
+            256
+        ],
+        "aspect": "procedure",
+        "clinical": [
+            {
+                "SignSymptom": [
+                    {
+                        "code": "75367002",
+                        "tui": "T040",
+                        "codingScheme": "SNOMEDCT_US",
+                        "cui": "C0005823",
+                        "preferredText": "Blood pressure"
+                    }
+                ],
+                "polarity": "positive"
+            },
+            {
+                "AnatomicalSite": [
+                    {
+                        "code": "87612001",
+                        "tui": "T024",
+                        "codingScheme": "SNOMEDCT_US",
+                        "cui": "C0005767",
+                        "preferredText": "Blood"
+                    }
+                ],
+                "polarity": "positive"
+            }
+        ],
+        "event": [
+            {
+                "event": "blood pressure"
+            }
+        ]
+    },
+    {
+        "token": "pressure",
+        "len": 8,
+        "speech": "NN",
+        "speech_bin": "Nouns",
+        "range": [
+            257,
+            265
+        ],
+        "aspect": "procedure",
+        "clinical": [
+            {
+                "SignSymptom": [
+                    {
+                        "code": "75367002",
+                        "tui": "T040",
+                        "codingScheme": "SNOMEDCT_US",
+                        "cui": "C0005823",
+                        "preferredText": "Blood pressure"
+                    }
+                ],
+                "polarity": "positive"
+            },
+            {
+                "SignSymptom": [
+                    {
+                        "code": "13543005",
+                        "tui": "T033",
+                        "codingScheme": "SNOMEDCT_US",
+                        "cui": "C0460139",
+                        "preferredText": "Pressure"
+                    }
+                ],
+                "polarity": "positive"
+            }
+        ],
+        "event": [
+            {
+                "event": "blood pressure"
+            },
+            {
+                "event": "pressure"
+            }
+        ]
+    },
+    {
+        "token": "142/74",
+        "len": 6,
+        "speech": "CD",
+        "speech_bin": "Numbers",
+        "range": [
+            266,
+            272
+        ],
+        "aspect": "procedure",
+        "regex": [
+            {
+                "$BLOOD_PRESSURE_CHART": "142/74"
+            }
+        ]
+    },
+    {
+        "token": ".",
+        "len": 1,
+        "speech": ".",
+        "speech_bin": "unknown",
+        "range": [
+            272,
+            273
+        ],
+        "aspect": "procedure"
+    },
+    {
+        "token": "EKG",
+        "len": 3,
+        "speech": "NN",
+        "speech_bin": "Nouns",
+        "range": [
+            274,
+            277
+        ],
+        "aspect": "procedure",
+        "header": [
+            {
+                "EKG": "Aspect.lab"
+            }
+        ],
+        "clinical": [
+            {
+                "Procedure": [
+                    {
+                        "code": "46825001",
+                        "tui": "T060",
+                        "codingScheme": "SNOMEDCT_US",
+                        "cui": "C1623258",
+                        "preferredText": "Electrocardiographic procedure"
+                    },
+                    {
+                        "code": "29303009",
+                        "tui": "T060",
+                        "codingScheme": "SNOMEDCT_US",
+                        "cui": "C1623258",
+                        "preferredText": "Electrocardiographic procedure"
+                    }
+                ],
+                "polarity": "positive"
+            }
+        ],
+        "event": [
+            {
+                "event": "EKG"
+            }
+        ]
+    },
+    {
+        "token": "remained",
+        "len": 8,
+        "speech": "VBD",
+        "speech_bin": "Verbs",
+        "range": [
+            278,
+            286
+        ],
+        "aspect": "procedure"
+    },
+    {
+        "token": "the",
+        "len": 3,
+        "speech": "DT",
+        "speech_bin": "com-dep-wd",
+        "range": [
+            287,
+            290
+        ],
+        "aspect": "procedure"
+    },
+    {
+        "token": "same",
+        "len": 4,
+        "speech": "JJ",
+        "speech_bin": "Adjectives",
+        "range": [
+            291,
+            295
+        ],
+        "aspect": "procedure"
+    },
+    {
+        "token": ".",
+        "len": 1,
+        "speech": ".",
+        "speech_bin": "unknown",
+        "range": [
+            295,
+            296
+        ],
+        "aspect": "procedure"
+    },
+    {
+        "token": "No",
+        "len": 2,
+        "speech": "DT",
+        "speech_bin": "com-dep-wd",
+        "range": [
+            297,
+            299
+        ],
+        "aspect": "procedure",
+        "event": [
+            {
+                "event": "No symptoms"
+            }
+        ],
+        "NO": [
+            {
+                "No": null
+            }
+        ]
+    },
+    {
+        "token": "symptoms",
+        "len": 8,
+        "speech": "NNS",
+        "speech_bin": "Nouns",
+        "range": [
+            300,
+            308
+        ],
+        "aspect": "procedure",
+        "regex": [
+            {
+                "$MS": "ms were"
+            }
+        ],
+        "event": [
+            {
+                "event": "No symptoms"
+            },
+            {
+                "event": "symptoms"
+            }
+        ]
+    },
+    {
+        "token": "were",
+        "len": 4,
+        "speech": "VBD",
+        "speech_bin": "Verbs",
+        "range": [
+            309,
+            313
+        ],
+        "aspect": "procedure",
+        "regex": [
+            {
+                "$MS": "ms were"
+            }
+        ]
+    },
+    {
+        "token": "noted",
+        "len": 5,
+        "speech": "VBN",
+        "speech_bin": "Verbs",
+        "range": [
+            314,
+            319
+        ],
+        "aspect": "procedure"
+    },
+    {
+        "token": ".",
+        "len": 1,
+        "speech": ".",
+        "speech_bin": "unknown",
+        "range": [
+            319,
+            320
+        ],
+        "aspect": "procedure"
+    },
+    {
+        "token": "SUMMARY",
+        "len": 7,
+        "speech": "NN",
+        "speech_bin": "Nouns",
+        "range": [
+            322,
+            329
+        ],
+        "aspect": "problem",
+        "header": [
+            {
+                "SUMMARY": "Aspect.problem"
+            }
+        ]
+    },
+    {
+        "token": ":",
+        "len": 1,
+        "speech": ":",
+        "speech_bin": "unknown",
+        "range": [
+            329,
+            330
+        ],
+        "aspect": null,
+        "regex": [
+            {
+                "$COLON": ":"
+            }
+        ]
+    },
+    {
+        "token": "1",
+        "len": 1,
+        "speech": "CD",
+        "speech_bin": "Numbers",
+        "range": [
+            333,
+            334
+        ],
+        "aspect": "problem",
+        "regex": [
+            {
+                "$ADDRESS7": "1. Nondiagnostic adenosine st"
+            }
+        ],
+        "labValue": [
+            {
+                "labValue": "1."
+            }
+        ]
+    },
+    {
+        "token": ".",
+        "len": 1,
+        "speech": ".",
+        "speech_bin": "unknown",
+        "range": [
+            334,
+            335
+        ],
+        "aspect": "problem",
+        "regex": [
+            {
+                "$ADDRESS7": "1. Nondiagnostic adenosine st"
+            }
+        ],
+        "labValue": [
+            {
+                "labValue": "1."
+            }
+        ]
+    },
+    {
+        "token": "Nondiagnostic",
+        "len": 13,
+        "speech": "JJ",
+        "speech_bin": "Adjectives",
+        "range": [
+            336,
+            349
+        ],
+        "aspect": "problem",
+        "regex": [
+            {
+                "$ADDRESS7": "1. Nondiagnostic adenosine st"
+            }
+        ]
+    },
+    {
+        "token": "adenosine",
+        "len": 9,
+        "speech": "NN",
+        "speech_bin": "Nouns",
+        "range": [
+            350,
+            359
+        ],
+        "aspect": "problem",
+        "regex": [
+            {
+                "$ADDRESS7": "1. Nondiagnostic adenosine st"
+            }
+        ],
+        "drug_rxnorm": [
+            {
+                "Medication": [
+                    {
+                        "code": "296",
+                        "tui": "T114",
+                        "codingScheme": "RXNORM",
+                        "cui": "C0001443",
+                        "preferredText": "Adenosine"
+                    },
+                    {
+                        "code": "296",
+                        "tui": "T123",
+                        "codingScheme": "RXNORM",
+                        "cui": "C0001443",
+                        "preferredText": "Adenosine"
+                    },
+                    {
+                        "code": "296",
+                        "tui": "T121",
+                        "codingScheme": "RXNORM",
+                        "cui": "C0001443",
+                        "preferredText": "Adenosine"
+                    }
+                ],
+                "polarity": "positive",
+                "dosage": [],
+                "unit": []
+            }
+        ],
+        "clinical": [
+            {
+                "Medication": [
+                    {
+                        "code": "296",
+                        "tui": "T114",
+                        "codingScheme": "RXNORM",
+                        "cui": "C0001443",
+                        "preferredText": "Adenosine"
+                    },
+                    {
+                        "code": "296",
+                        "tui": "T123",
+                        "codingScheme": "RXNORM",
+                        "cui": "C0001443",
+                        "preferredText": "Adenosine"
+                    },
+                    {
+                        "code": "108502004",
+                        "tui": "T121",
+                        "codingScheme": "SNOMEDCT_US",
+                        "cui": "C0001443",
+                        "preferredText": "Adenosine"
+                    },
+                    {
+                        "code": "35431001",
+                        "tui": "T114",
+                        "codingScheme": "SNOMEDCT_US",
+                        "cui": "C0001443",
+                        "preferredText": "Adenosine"
+                    },
+                    {
+                        "code": "108502004",
+                        "tui": "T123",
+                        "codingScheme": "SNOMEDCT_US",
+                        "cui": "C0001443",
+                        "preferredText": "Adenosine"
+                    },
+                    {
+                        "code": "35431001",
+                        "tui": "T123",
+                        "codingScheme": "SNOMEDCT_US",
+                        "cui": "C0001443",
+                        "preferredText": "Adenosine"
+                    },
+                    {
+                        "code": "296",
+                        "tui": "T121",
+                        "codingScheme": "RXNORM",
+                        "cui": "C0001443",
+                        "preferredText": "Adenosine"
+                    },
+                    {
+                        "code": "35431001",
+                        "tui": "T121",
+                        "codingScheme": "SNOMEDCT_US",
+                        "cui": "C0001443",
+                        "preferredText": "Adenosine"
+                    },
+                    {
+                        "code": "108502004",
+                        "tui": "T114",
+                        "codingScheme": "SNOMEDCT_US",
+                        "cui": "C0001443",
+                        "preferredText": "Adenosine"
+                    }
+                ],
+                "polarity": "positive"
+            }
+        ],
+        "event": [
+            {
+                "event": "adenosine"
+            }
+        ]
+    },
+    {
+        "token": "stress",
+        "len": 6,
+        "speech": "NN",
+        "speech_bin": "Nouns",
+        "range": [
+            360,
+            366
+        ],
+        "aspect": "problem",
+        "regex": [
+            {
+                "$ADDRESS7": "1. Nondiagnostic adenosine st"
+            }
+        ],
+        "clinical": [
+            {
+                "SignSymptom": [
+                    {
+                        "code": "73595000",
+                        "tui": "T033",
+                        "codingScheme": "SNOMEDCT_US",
+                        "cui": "C0038435",
+                        "preferredText": "Stress"
+                    },
+                    {
+                        "code": "262188008",
+                        "tui": "T033",
+                        "codingScheme": "SNOMEDCT_US",
+                        "cui": "C0038435",
+                        "preferredText": "Stress"
+                    }
+                ],
+                "polarity": "positive"
+            }
+        ],
+        "event": [
+            {
+                "event": "stress test"
+            },
+            {
+                "event": "stress"
+            }
+        ]
+    },
+    {
+        "token": "test",
+        "len": 4,
+        "speech": "NN",
+        "speech_bin": "Nouns",
+        "range": [
+            367,
+            371
+        ],
+        "aspect": "problem",
+        "lab": [
+            {
+                "Lab": [
+                    {
+                        "code": "269814003",
+                        "tui": null,
+                        "codingScheme": "SNOMEDCT_US",
+                        "cui": "C0022885",
+                        "preferredText": "Laboratory Procedures"
+                    },
+                    {
+                        "code": "108252007",
+                        "tui": null,
+                        "codingScheme": "SNOMEDCT_US",
+                        "cui": "C0022885",
+                        "preferredText": "Laboratory Procedures"
+                    },
+                    {
+                        "code": "TCGA",
+                        "tui": null,
+                        "codingScheme": "NCI",
+                        "cui": "C0022885",
+                        "preferredText": "Laboratory Procedures"
+                    },
+                    {
+                        "code": "15220000",
+                        "tui": null,
+                        "codingScheme": "SNOMEDCT_US",
+                        "cui": "C0022885",
+                        "preferredText": "Laboratory Procedures"
+                    },
+                    {
+                        "code": "C25294",
+                        "tui": null,
+                        "codingScheme": "NCI",
+                        "cui": "C0022885",
+                        "preferredText": "Laboratory Procedures"
+                    }
+                ],
+                "polarity": "positive"
+            }
+        ],
+        "clinical": [
+            {
+                "SignSymptom": [
+                    {
+                        "code": "277775005",
+                        "tui": "T033",
+                        "codingScheme": "SNOMEDCT_US",
+                        "cui": "C0456984",
+                        "preferredText": "Test finding"
+                    }
+                ],
+                "polarity": "positive"
+            }
+        ],
+        "event": [
+            {
+                "event": "stress test"
+            },
+            {
+                "event": "test"
+            },
+            {
+                "event": "test"
+            }
+        ]
+    },
+    {
+        "token": ".",
+        "len": 1,
+        "speech": ".",
+        "speech_bin": "unknown",
+        "range": [
+            371,
+            372
+        ],
+        "aspect": "problem"
+    },
+    {
+        "token": "2",
+        "len": 1,
+        "speech": "CD",
+        "speech_bin": "Numbers",
+        "range": [
+            375,
+            376
+        ],
+        "aspect": "problem"
+    },
+    {
+        "token": ".",
+        "len": 1,
+        "speech": ".",
+        "speech_bin": "unknown",
+        "range": [
+            376,
+            377
+        ],
+        "aspect": "problem"
+    },
+    {
+        "token": "Nuclear",
+        "len": 7,
+        "speech": "JJ",
+        "speech_bin": "Adjectives",
+        "range": [
+            378,
+            385
+        ],
+        "aspect": "problem"
+    },
+    {
+        "token": "interpretation",
+        "len": 14,
+        "speech": "NN",
+        "speech_bin": "Nouns",
+        "range": [
+            386,
+            400
+        ],
+        "aspect": "problem"
+    },
+    {
+        "token": "as",
+        "len": 2,
+        "speech": "IN",
+        "speech_bin": "com-dep-wd",
+        "range": [
+            401,
+            403
+        ],
+        "aspect": "problem"
+    },
+    {
+        "token": "below",
+        "len": 5,
+        "speech": "NN",
+        "speech_bin": "Nouns",
+        "range": [
+            404,
+            409
+        ],
+        "aspect": "problem"
+    },
+    {
+        "token": ".",
+        "len": 1,
+        "speech": ".",
+        "speech_bin": "unknown",
+        "range": [
+            409,
+            410
+        ],
+        "aspect": "problem"
+    },
+    {
+        "token": "NUCLEAR",
+        "len": 7,
+        "speech": "CC",
+        "speech_bin": "com-dep-wd",
+        "range": [
+            412,
+            419
+        ],
+        "aspect": "procedure"
+    },
+    {
+        "token": "INTERPRETATION",
+        "len": 14,
+        "speech": "NN",
+        "speech_bin": "Nouns",
+        "range": [
+            420,
+            434
+        ],
+        "aspect": "procedure",
+        "header": [
+            {
+                "INTERPRETATION": "Aspect.procedure"
+            }
+        ]
+    },
+    {
+        "token": ":",
+        "len": 1,
+        "speech": ":",
+        "speech_bin": "unknown",
+        "range": [
+            434,
+            435
+        ],
+        "aspect": "procedure",
+        "regex": [
+            {
+                "$COLON": ":"
+            }
+        ]
+    },
+    {
+        "token": "Resting",
+        "len": 7,
+        "speech": "NN",
+        "speech_bin": "Nouns",
+        "range": [
+            436,
+            443
+        ],
+        "aspect": "procedure",
+        "clinical": [
+            {
+                "SignSymptom": [
+                    {
+                        "code": "258157001",
+                        "tui": "T056",
+                        "codingScheme": "SNOMEDCT_US",
+                        "cui": "C0035253",
+                        "preferredText": "Rest"
+                    }
+                ],
+                "polarity": "positive"
+            }
+        ],
+        "event": [
+            {
+                "event": "Resting"
+            }
+        ]
+    },
+    {
+        "token": "and",
+        "len": 3,
+        "speech": "CC",
+        "speech_bin": "com-dep-wd",
+        "range": [
+            444,
+            447
+        ],
+        "aspect": "procedure"
+    },
+    {
+        "token": "stress",
+        "len": 6,
+        "speech": "NN",
+        "speech_bin": "Nouns",
+        "range": [
+            448,
+            454
+        ],
+        "aspect": "procedure",
+        "clinical": [
+            {
+                "SignSymptom": [
+                    {
+                        "code": "73595000",
+                        "tui": "T033",
+                        "codingScheme": "SNOMEDCT_US",
+                        "cui": "C0038435",
+                        "preferredText": "Stress"
+                    },
+                    {
+                        "code": "262188008",
+                        "tui": "T033",
+                        "codingScheme": "SNOMEDCT_US",
+                        "cui": "C0038435",
+                        "preferredText": "Stress"
+                    }
+                ],
+                "polarity": "positive"
+            }
+        ],
+        "event": [
+            {
+                "event": "stress"
+            }
+        ]
+    },
+    {
+        "token": "images",
+        "len": 6,
+        "speech": "NNS",
+        "speech_bin": "Nouns",
+        "range": [
+            455,
+            461
+        ],
+        "aspect": "procedure"
+    },
+    {
+        "token": "were",
+        "len": 4,
+        "speech": "VBD",
+        "speech_bin": "Verbs",
+        "range": [
+            462,
+            466
+        ],
+        "aspect": "procedure"
+    },
+    {
+        "token": "obtained",
+        "len": 8,
+        "speech": "VBN",
+        "speech_bin": "Verbs",
+        "range": [
+            467,
+            475
+        ],
+        "aspect": "procedure"
+    },
+    {
+        "token": "with",
+        "len": 4,
+        "speech": "IN",
+        "speech_bin": "com-dep-wd",
+        "range": [
+            476,
+            480
+        ],
+        "aspect": "procedure"
+    },
+    {
+        "token": "10.4",
+        "len": 4,
+        "speech": "CD",
+        "speech_bin": "Numbers",
+        "range": [
+            481,
+            485
+        ],
+        "aspect": "procedure"
+    },
+    {
+        "token": ",",
+        "len": 1,
+        "speech": ",",
+        "speech_bin": "unknown",
+        "range": [
+            485,
+            486
+        ],
+        "aspect": "procedure",
+        "regex": [
+            {
+                "$COMMA": ","
+            }
+        ]
+    },
+    {
+        "token": "33.1",
+        "len": 4,
+        "speech": "CD",
+        "speech_bin": "Numbers",
+        "range": [
+            487,
+            491
+        ],
+        "aspect": "procedure",
+        "regex": [
+            {
+                "$ADDRESS7": "33.1 mCi of tetrofosmin injected intravenously by st"
+            }
+        ]
+    },
+    {
+        "token": "mCi",
+        "len": 3,
+        "speech": "NN",
+        "speech_bin": "Nouns",
+        "range": [
+            492,
+            495
+        ],
+        "aspect": "procedure",
+        "regex": [
+            {
+                "$ADDRESS7": "33.1 mCi of tetrofosmin injected intravenously by st"
+            }
+        ]
+    },
+    {
+        "token": "of",
+        "len": 2,
+        "speech": "IN",
+        "speech_bin": "com-dep-wd",
+        "range": [
+            496,
+            498
+        ],
+        "aspect": "procedure",
+        "regex": [
+            {
+                "$ADDRESS7": "33.1 mCi of tetrofosmin injected intravenously by st"
+            }
+        ]
+    },
+    {
+        "token": "tetrofosmin",
+        "len": 11,
+        "speech": "NN",
+        "speech_bin": "Nouns",
+        "range": [
+            499,
+            510
+        ],
+        "aspect": "procedure",
+        "regex": [
+            {
+                "$ADDRESS7": "33.1 mCi of tetrofosmin injected intravenously by st"
+            }
+        ],
+        "drug_rxnorm": [
+            {
+                "Medication": [
+                    {
+                        "code": "1311569",
+                        "tui": "T130",
+                        "codingScheme": "RXNORM",
+                        "cui": "C1366036",
+                        "preferredText": "Tetrofosmin"
+                    },
+                    {
+                        "code": "1311569",
+                        "tui": "T109",
+                        "codingScheme": "RXNORM",
+                        "cui": "C1366036",
+                        "preferredText": "Tetrofosmin"
+                    },
+                    {
+                        "code": "1311569",
+                        "tui": "T121",
+                        "codingScheme": "RXNORM",
+                        "cui": "C1366036",
+                        "preferredText": "Tetrofosmin"
+                    }
+                ],
+                "polarity": "positive",
+                "dosage": [],
+                "unit": []
+            }
+        ],
+        "event": [
+            {
+                "event": "tetrofosmin"
+            }
+        ]
+    },
+    {
+        "token": "injected",
+        "len": 8,
+        "speech": "VBN",
+        "speech_bin": "Verbs",
+        "range": [
+            511,
+            519
+        ],
+        "aspect": "procedure",
+        "regex": [
+            {
+                "$ADDRESS7": "33.1 mCi of tetrofosmin injected intravenously by st"
+            }
+        ]
+    },
+    {
+        "token": "intravenously",
+        "len": 13,
+        "speech": "RB",
+        "speech_bin": "Adverbs",
+        "range": [
+            520,
+            533
+        ],
+        "aspect": "procedure",
+        "regex": [
+            {
+                "$ADDRESS7": "33.1 mCi of tetrofosmin injected intravenously by st"
+            }
+        ]
+    },
+    {
+        "token": "by",
+        "len": 2,
+        "speech": "IN",
+        "speech_bin": "com-dep-wd",
+        "range": [
+            534,
+            536
+        ],
+        "aspect": "procedure",
+        "regex": [
+            {
+                "$ADDRESS7": "33.1 mCi of tetrofosmin injected intravenously by st"
+            }
+        ]
+    },
+    {
+        "token": "standard",
+        "len": 8,
+        "speech": "JJ",
+        "speech_bin": "Adjectives",
+        "range": [
+            537,
+            545
+        ],
+        "aspect": "procedure",
+        "regex": [
+            {
+                "$ADDRESS7": "33.1 mCi of tetrofosmin injected intravenously by st"
+            }
+        ]
+    },
+    {
+        "token": "protocol",
+        "len": 8,
+        "speech": "NN",
+        "speech_bin": "Nouns",
+        "range": [
+            546,
+            554
+        ],
+        "aspect": "procedure",
+        "event": [
+            {
+                "event": "protocol"
+            }
+        ]
+    },
+    {
+        "token": ".",
+        "len": 1,
+        "speech": ".",
+        "speech_bin": "unknown",
+        "range": [
+            554,
+            555
+        ],
+        "aspect": "procedure"
+    },
+    {
+        "token": "Nuclear",
+        "len": 7,
+        "speech": "JJ",
+        "speech_bin": "Adjectives",
+        "range": [
+            556,
+            563
+        ],
+        "aspect": "procedure"
+    },
+    {
+        "token": "myocardial",
+        "len": 10,
+        "speech": "JJ",
+        "speech_bin": "Adjectives",
+        "range": [
+            564,
+            574
+        ],
+        "aspect": "procedure",
+        "clinical": [
+            {
+                "Procedure": [
+                    {
+                        "code": "252432008",
+                        "tui": "T060",
+                        "codingScheme": "SNOMEDCT_US",
+                        "cui": "C0430471",
+                        "preferredText": "Radionuclide myocardial perfusion study"
+                    },
+                    {
+                        "code": "702759004",
+                        "tui": "T060",
+                        "codingScheme": "SNOMEDCT_US",
+                        "cui": "C0430471",
+                        "preferredText": "Radionuclide myocardial perfusion study"
+                    }
+                ],
+                "polarity": "positive"
+            }
+        ],
+        "event": [
+            {
+                "event": "myocardial perfusion scan"
+            }
+        ]
+    },
+    {
+        "token": "perfusion",
+        "len": 9,
+        "speech": "NN",
+        "speech_bin": "Nouns",
+        "range": [
+            575,
+            584
+        ],
+        "aspect": "procedure",
+        "clinical": [
+            {
+                "Procedure": [
+                    {
+                        "code": "252432008",
+                        "tui": "T060",
+                        "codingScheme": "SNOMEDCT_US",
+                        "cui": "C0430471",
+                        "preferredText": "Radionuclide myocardial perfusion study"
+                    },
+                    {
+                        "code": "702759004",
+                        "tui": "T060",
+                        "codingScheme": "SNOMEDCT_US",
+                        "cui": "C0430471",
+                        "preferredText": "Radionuclide myocardial perfusion study"
+                    }
+                ],
+                "polarity": "positive"
+            },
+            {
+                "Procedure": [
+                    {
+                        "code": "88058003",
+                        "tui": "T061",
+                        "codingScheme": "SNOMEDCT_US",
+                        "cui": "C0031001",
+                        "preferredText": "Perfusion"
+                    }
+                ],
+                "polarity": "positive"
+            }
+        ],
+        "event": [
+            {
+                "event": "myocardial perfusion scan"
+            },
+            {
+                "event": "perfusion"
+            }
+        ]
+    },
+    {
+        "token": "scan",
+        "len": 4,
+        "speech": "JJ",
+        "speech_bin": "Adjectives",
+        "range": [
+            585,
+            589
+        ],
+        "aspect": "procedure",
+        "clinical": [
+            {
+                "Procedure": [
+                    {
+                        "code": "252432008",
+                        "tui": "T060",
+                        "codingScheme": "SNOMEDCT_US",
+                        "cui": "C0430471",
+                        "preferredText": "Radionuclide myocardial perfusion study"
+                    },
+                    {
+                        "code": "702759004",
+                        "tui": "T060",
+                        "codingScheme": "SNOMEDCT_US",
+                        "cui": "C0430471",
+                        "preferredText": "Radionuclide myocardial perfusion study"
+                    }
+                ],
+                "polarity": "positive"
+            }
+        ],
+        "event": [
+            {
+                "event": "myocardial perfusion scan"
+            },
+            {
+                "event": "scan"
+            }
+        ]
+    },
+    {
+        "token": "demonstrates",
+        "len": 12,
+        "speech": "VBZ",
+        "speech_bin": "Verbs",
+        "range": [
+            590,
+            602
+        ],
+        "aspect": "procedure"
+    },
+    {
+        "token": "homogeneous",
+        "len": 11,
+        "speech": "JJ",
+        "speech_bin": "Adjectives",
+        "range": [
+            603,
+            614
+        ],
+        "aspect": "procedure"
+    },
+    {
+        "token": "and",
+        "len": 3,
+        "speech": "CC",
+        "speech_bin": "com-dep-wd",
+        "range": [
+            615,
+            618
+        ],
+        "aspect": "procedure"
+    },
+    {
+        "token": "uniform",
+        "len": 7,
+        "speech": "JJ",
+        "speech_bin": "Adjectives",
+        "range": [
+            619,
+            626
+        ],
+        "aspect": "procedure"
+    },
+    {
+        "token": "distribution",
+        "len": 12,
+        "speech": "NN",
+        "speech_bin": "Nouns",
+        "range": [
+            627,
+            639
+        ],
+        "aspect": "procedure"
+    },
+    {
+        "token": "of",
+        "len": 2,
+        "speech": "IN",
+        "speech_bin": "com-dep-wd",
+        "range": [
+            640,
+            642
+        ],
+        "aspect": "procedure"
+    },
+    {
+        "token": "the",
+        "len": 3,
+        "speech": "DT",
+        "speech_bin": "com-dep-wd",
+        "range": [
+            643,
+            646
+        ],
+        "aspect": "procedure"
+    },
+    {
+        "token": "tracer",
+        "len": 6,
+        "speech": "NN",
+        "speech_bin": "Nouns",
+        "range": [
+            647,
+            653
+        ],
+        "aspect": "procedure",
+        "event": [
+            {
+                "event": "tracer"
+            }
+        ]
+    },
+    {
+        "token": "uptake",
+        "len": 6,
+        "speech": "NN",
+        "speech_bin": "Nouns",
+        "range": [
+            654,
+            660
+        ],
+        "aspect": "procedure"
+    },
+    {
+        "token": "without",
+        "len": 7,
+        "speech": "IN",
+        "speech_bin": "com-dep-wd",
+        "range": [
+            661,
+            668
+        ],
+        "aspect": "procedure",
+        "WITHOUT": [
+            {
+                "without": null
+            }
+        ]
+    },
+    {
+        "token": "any",
+        "len": 3,
+        "speech": "DT",
+        "speech_bin": "com-dep-wd",
+        "range": [
+            669,
+            672
+        ],
+        "aspect": "procedure",
+        "WITHOUT": [
+            {
+                "without any evidence of": null
+            }
+        ]
+    },
+    {
+        "token": "evidence",
+        "len": 8,
+        "speech": "NN",
+        "speech_bin": "Nouns",
+        "range": [
+            673,
+            681
+        ],
+        "aspect": "procedure",
+        "WITHOUT": [
+            {
+                "without any evidence of": null
+            }
+        ],
+        "EVIDENCE": [
+            {
+                "evidence": null
+            }
+        ]
+    },
+    {
+        "token": "of",
+        "len": 2,
+        "speech": "IN",
+        "speech_bin": "com-dep-wd",
+        "range": [
+            682,
+            684
+        ],
+        "aspect": "procedure",
+        "WITHOUT": [
+            {
+                "without any evidence of": null
+            }
+        ]
+    },
+    {
+        "token": "reversible",
+        "len": 10,
+        "speech": "JJ",
+        "speech_bin": "Adjectives",
+        "range": [
+            685,
+            695
+        ],
+        "aspect": "procedure"
+    },
+    {
+        "token": "or",
+        "len": 2,
+        "speech": "CC",
+        "speech_bin": "com-dep-wd",
+        "range": [
+            696,
+            698
+        ],
+        "aspect": "procedure"
+    },
+    {
+        "token": "fixed",
+        "len": 5,
+        "speech": "VBN",
+        "speech_bin": "Verbs",
+        "range": [
+            699,
+            704
+        ],
+        "aspect": "procedure"
+    },
+    {
+        "token": "defect",
+        "len": 6,
+        "speech": "NN",
+        "speech_bin": "Nouns",
+        "range": [
+            705,
+            711
+        ],
+        "aspect": "procedure"
+    },
+    {
+        "token": ".",
+        "len": 1,
+        "speech": ".",
+        "speech_bin": "unknown",
+        "range": [
+            711,
+            712
+        ],
+        "aspect": "procedure"
+    },
+    {
+        "token": "Gated",
+        "len": 5,
+        "speech": "VBN",
+        "speech_bin": "Verbs",
+        "range": [
+            713,
+            718
+        ],
+        "aspect": "procedure"
+    },
+    {
+        "token": "SPECT",
+        "len": 5,
+        "speech": "NNP",
+        "speech_bin": "Nouns",
+        "range": [
+            719,
+            724
+        ],
+        "aspect": "procedure",
+        "clinical": [
+            {
+                "Procedure": [
+                    {
+                        "code": "105371005",
+                        "tui": "T060",
+                        "codingScheme": "SNOMEDCT_US",
+                        "cui": "C0040399",
+                        "preferredText": null
+                    },
+                    {
+                        "code": "260222006",
+                        "tui": "T060",
+                        "codingScheme": "SNOMEDCT_US",
+                        "cui": "C0040399",
+                        "preferredText": null
+                    }
+                ],
+                "polarity": "positive"
+            }
+        ],
+        "event": [
+            {
+                "event": "SPECT"
+            }
+        ]
+    },
+    {
+        "token": "revealed",
+        "len": 8,
+        "speech": "VBD",
+        "speech_bin": "Verbs",
+        "range": [
+            725,
+            733
+        ],
+        "aspect": "procedure"
+    },
+    {
+        "token": "normal",
+        "len": 6,
+        "speech": "JJ",
+        "speech_bin": "Adjectives",
+        "range": [
+            734,
+            740
+        ],
+        "aspect": "procedure",
+        "event": [
+            {
+                "event": "normal"
+            }
+        ],
+        "SEVERIRTY": [
+            {
+                "normal": null
+            }
+        ]
+    },
+    {
+        "token": "wall",
+        "len": 4,
+        "speech": "NN",
+        "speech_bin": "Nouns",
+        "range": [
+            741,
+            745
+        ],
+        "aspect": "procedure"
+    },
+    {
+        "token": "motion",
+        "len": 6,
+        "speech": "NN",
+        "speech_bin": "Nouns",
+        "range": [
+            746,
+            752
+        ],
+        "aspect": "procedure"
+    },
+    {
+        "token": ",",
+        "len": 1,
+        "speech": ",",
+        "speech_bin": "unknown",
+        "range": [
+            752,
+            753
+        ],
+        "aspect": "procedure",
+        "regex": [
+            {
+                "$COMMA": ","
+            }
+        ]
+    },
+    {
+        "token": "ejection",
+        "len": 8,
+        "speech": "NN",
+        "speech_bin": "Nouns",
+        "range": [
+            754,
+            762
+        ],
+        "aspect": "procedure",
+        "clinical": [
+            {
+                "SignSymptom": [
+                    {
+                        "code": "34205009",
+                        "tui": "T056",
+                        "codingScheme": "SNOMEDCT_US",
+                        "cui": "C0336969",
+                        "preferredText": "Ejection"
+                    }
+                ],
+                "polarity": "positive"
+            }
+        ],
+        "event": [
+            {
+                "event": "ejection fraction"
+            },
+            {
+                "event": "ejection"
+            }
+        ]
+    },
+    {
+        "token": "fraction",
+        "len": 8,
+        "speech": "NN",
+        "speech_bin": "Nouns",
+        "range": [
+            763,
+            771
+        ],
+        "aspect": "procedure",
+        "event": [
+            {
+                "event": "ejection fraction"
+            }
+        ]
+    },
+    {
+        "token": "of",
+        "len": 2,
+        "speech": "IN",
+        "speech_bin": "com-dep-wd",
+        "range": [
+            772,
+            774
+        ],
+        "aspect": "procedure"
+    },
+    {
+        "token": "58",
+        "len": 2,
+        "speech": "CD",
+        "speech_bin": "Numbers",
+        "range": [
+            775,
+            777
+        ],
+        "aspect": "procedure",
+        "regex": [
+            {
+                "$ADDRESS8": "58%. End"
+            }
+        ]
+    },
+    {
+        "token": "%",
+        "len": 1,
+        "speech": "NN",
+        "speech_bin": "Nouns",
+        "range": [
+            777,
+            778
+        ],
+        "aspect": "procedure",
+        "regex": [
+            {
+                "$ADDRESS8": "58%. End"
+            }
+        ]
+    },
+    {
+        "token": ".",
+        "len": 1,
+        "speech": ".",
+        "speech_bin": "unknown",
+        "range": [
+            778,
+            779
+        ],
+        "aspect": "procedure",
+        "regex": [
+            {
+                "$ADDRESS8": "58%. End"
+            }
+        ]
+    },
+    {
+        "token": "End-diastolic",
+        "len": 13,
+        "speech": "JJ",
+        "speech_bin": "Adjectives",
+        "range": [
+            780,
+            793
+        ],
+        "aspect": "procedure",
+        "regex": [
+            {
+                "$ADDRESS8": "58%. End"
+            }
+        ],
+        "event": [
+            {
+                "event": "End"
+            }
+        ]
+    },
+    {
+        "token": "volume",
+        "len": 6,
+        "speech": "NN",
+        "speech_bin": "Nouns",
+        "range": [
+            794,
+            800
+        ],
+        "aspect": "procedure",
+        "lab": [
+            {
+                "Lab": [
+                    {
+                        "code": "C74720",
+                        "tui": null,
+                        "codingScheme": "NCI",
+                        "cui": "C2700258",
+                        "preferredText": "Volume Measurement"
+                    }
+                ],
+                "polarity": "positive"
+            }
+        ],
+        "event": [
+            {
+                "event": "volume"
+            }
+        ]
+    },
+    {
+        "token": "of",
+        "len": 2,
+        "speech": "IN",
+        "speech_bin": "com-dep-wd",
+        "range": [
+            801,
+            803
+        ],
+        "aspect": "procedure"
+    },
+    {
+        "token": "74",
+        "len": 2,
+        "speech": "CD",
+        "speech_bin": "Numbers",
+        "range": [
+            804,
+            806
+        ],
+        "aspect": "procedure",
+        "labValue": [
+            {
+                "labValue": "74"
+            }
+        ]
+    },
+    {
+        "token": ",",
+        "len": 1,
+        "speech": ",",
+        "speech_bin": "unknown",
+        "range": [
+            806,
+            807
+        ],
+        "aspect": "procedure",
+        "regex": [
+            {
+                "$COMMA": ","
+            }
+        ]
+    },
+    {
+        "token": "end-systolic",
+        "len": 12,
+        "speech": "JJ",
+        "speech_bin": "Adjectives",
+        "range": [
+            808,
+            820
+        ],
+        "aspect": "procedure",
+        "event": [
+            {
+                "event": "end"
+            }
+        ]
+    },
+    {
+        "token": "volume",
+        "len": 6,
+        "speech": "NN",
+        "speech_bin": "Nouns",
+        "range": [
+            821,
+            827
+        ],
+        "aspect": "procedure",
+        "lab": [
+            {
+                "Lab": [
+                    {
+                        "code": "C74720",
+                        "tui": null,
+                        "codingScheme": "NCI",
+                        "cui": "C2700258",
+                        "preferredText": "Volume Measurement"
+                    }
+                ],
+                "polarity": "positive"
+            }
+        ],
+        "event": [
+            {
+                "event": "volume"
+            }
+        ]
+    },
+    {
+        "token": "of",
+        "len": 2,
+        "speech": "IN",
+        "speech_bin": "com-dep-wd",
+        "range": [
+            828,
+            830
+        ],
+        "aspect": "procedure"
+    },
+    {
+        "token": "31",
+        "len": 2,
+        "speech": "CD",
+        "speech_bin": "Numbers",
+        "range": [
+            831,
+            833
+        ],
+        "aspect": "procedure",
+        "labValue": [
+            {
+                "labValue": "31"
+            }
+        ]
+    },
+    {
+        "token": ".",
+        "len": 1,
+        "speech": ".",
+        "speech_bin": "unknown",
+        "range": [
+            833,
+            834
+        ],
+        "aspect": "procedure"
+    },
+    {
+        "token": "IMPRESSION",
+        "len": 10,
+        "speech": "NN",
+        "speech_bin": "Nouns",
+        "range": [
+            836,
+            846
+        ],
+        "aspect": "problem",
+        "header": [
+            {
+                "IMPRESSION": "Aspect.problem"
+            }
+        ],
+        "event": [
+            {
+                "event": "IMPRESSION"
+            }
+        ]
+    },
+    {
+        "token": ":",
+        "len": 1,
+        "speech": ":",
+        "speech_bin": "unknown",
+        "range": [
+            846,
+            847
+        ],
+        "aspect": null,
+        "regex": [
+            {
+                "$COLON": ":"
+            }
+        ]
+    },
+    {
+        "token": "1",
+        "len": 1,
+        "speech": "CD",
+        "speech_bin": "Numbers",
+        "range": [
+            850,
+            851
+        ],
+        "aspect": "problem"
+    },
+    {
+        "token": ".",
+        "len": 1,
+        "speech": ".",
+        "speech_bin": "unknown",
+        "range": [
+            851,
+            852
+        ],
+        "aspect": "problem"
+    },
+    {
+        "token": "Normal",
+        "len": 6,
+        "speech": "JJ",
+        "speech_bin": "Adjectives",
+        "range": [
+            853,
+            859
+        ],
+        "aspect": "problem",
+        "event": [
+            {
+                "event": "Normal"
+            }
+        ],
+        "SEVERIRTY": [
+            {
+                "Normal": null
+            }
+        ]
+    },
+    {
+        "token": "nuclear",
+        "len": 7,
+        "speech": "JJ",
+        "speech_bin": "Adjectives",
+        "range": [
+            860,
+            867
+        ],
+        "aspect": "problem"
+    },
+    {
+        "token": "myocardial",
+        "len": 10,
+        "speech": "JJ",
+        "speech_bin": "Adjectives",
+        "range": [
+            868,
+            878
+        ],
+        "aspect": "problem",
+        "clinical": [
+            {
+                "Procedure": [
+                    {
+                        "code": "252432008",
+                        "tui": "T060",
+                        "codingScheme": "SNOMEDCT_US",
+                        "cui": "C0430471",
+                        "preferredText": "Radionuclide myocardial perfusion study"
+                    },
+                    {
+                        "code": "702759004",
+                        "tui": "T060",
+                        "codingScheme": "SNOMEDCT_US",
+                        "cui": "C0430471",
+                        "preferredText": "Radionuclide myocardial perfusion study"
+                    }
+                ],
+                "polarity": "positive"
+            }
+        ],
+        "event": [
+            {
+                "event": "myocardial perfusion scan"
+            }
+        ]
+    },
+    {
+        "token": "perfusion",
+        "len": 9,
+        "speech": "NN",
+        "speech_bin": "Nouns",
+        "range": [
+            879,
+            888
+        ],
+        "aspect": "problem",
+        "clinical": [
+            {
+                "Procedure": [
+                    {
+                        "code": "252432008",
+                        "tui": "T060",
+                        "codingScheme": "SNOMEDCT_US",
+                        "cui": "C0430471",
+                        "preferredText": "Radionuclide myocardial perfusion study"
+                    },
+                    {
+                        "code": "702759004",
+                        "tui": "T060",
+                        "codingScheme": "SNOMEDCT_US",
+                        "cui": "C0430471",
+                        "preferredText": "Radionuclide myocardial perfusion study"
+                    }
+                ],
+                "polarity": "positive"
+            },
+            {
+                "Procedure": [
+                    {
+                        "code": "88058003",
+                        "tui": "T061",
+                        "codingScheme": "SNOMEDCT_US",
+                        "cui": "C0031001",
+                        "preferredText": "Perfusion"
+                    }
+                ],
+                "polarity": "positive"
+            }
+        ],
+        "event": [
+            {
+                "event": "myocardial perfusion scan"
+            },
+            {
+                "event": "perfusion"
+            }
+        ]
+    },
+    {
+        "token": "scan",
+        "len": 4,
+        "speech": "NN",
+        "speech_bin": "Nouns",
+        "range": [
+            889,
+            893
+        ],
+        "aspect": "problem",
+        "clinical": [
+            {
+                "Procedure": [
+                    {
+                        "code": "252432008",
+                        "tui": "T060",
+                        "codingScheme": "SNOMEDCT_US",
+                        "cui": "C0430471",
+                        "preferredText": "Radionuclide myocardial perfusion study"
+                    },
+                    {
+                        "code": "702759004",
+                        "tui": "T060",
+                        "codingScheme": "SNOMEDCT_US",
+                        "cui": "C0430471",
+                        "preferredText": "Radionuclide myocardial perfusion study"
+                    }
+                ],
+                "polarity": "positive"
+            }
+        ],
+        "event": [
+            {
+                "event": "myocardial perfusion scan"
+            },
+            {
+                "event": "scan"
+            }
+        ]
+    },
+    {
+        "token": ".",
+        "len": 1,
+        "speech": ".",
+        "speech_bin": "unknown",
+        "range": [
+            893,
+            894
+        ],
+        "aspect": "problem"
+    },
+    {
+        "token": "2",
+        "len": 1,
+        "speech": "CD",
+        "speech_bin": "Numbers",
+        "range": [
+            897,
+            898
+        ],
+        "aspect": "problem"
+    },
+    {
+        "token": ".",
+        "len": 1,
+        "speech": ".",
+        "speech_bin": "unknown",
+        "range": [
+            898,
+            899
+        ],
+        "aspect": "problem"
+    },
+    {
+        "token": "Ejection",
+        "len": 8,
+        "speech": "NNP",
+        "speech_bin": "Nouns",
+        "range": [
+            900,
+            908
+        ],
+        "aspect": "problem",
+        "clinical": [
+            {
+                "SignSymptom": [
+                    {
+                        "code": "34205009",
+                        "tui": "T056",
+                        "codingScheme": "SNOMEDCT_US",
+                        "cui": "C0336969",
+                        "preferredText": "Ejection"
+                    }
+                ],
+                "polarity": "positive"
+            }
+        ],
+        "event": [
+            {
+                "event": "Ejection fraction"
+            },
+            {
+                "event": "Ejection"
+            }
+        ]
+    },
+    {
+        "token": "fraction",
+        "len": 8,
+        "speech": "NN",
+        "speech_bin": "Nouns",
+        "range": [
+            909,
+            917
+        ],
+        "aspect": "problem",
+        "event": [
+            {
+                "event": "Ejection fraction"
+            }
+        ]
+    },
+    {
+        "token": "58",
+        "len": 2,
+        "speech": "CD",
+        "speech_bin": "Numbers",
+        "range": [
+            918,
+            920
+        ],
+        "aspect": "problem"
+    },
+    {
+        "token": "%",
+        "len": 1,
+        "speech": "NN",
+        "speech_bin": "Nouns",
+        "range": [
+            920,
+            921
+        ],
+        "aspect": "problem"
+    },
+    {
+        "token": "by",
+        "len": 2,
+        "speech": "IN",
+        "speech_bin": "com-dep-wd",
+        "range": [
+            922,
+            924
+        ],
+        "aspect": "problem"
+    },
+    {
+        "token": "gated",
+        "len": 5,
+        "speech": "JJ",
+        "speech_bin": "Adjectives",
+        "range": [
+            925,
+            930
+        ],
+        "aspect": "problem"
+    },
+    {
+        "token": "SPECT",
+        "len": 5,
+        "speech": "NNP",
+        "speech_bin": "Nouns",
+        "range": [
+            931,
+            936
+        ],
+        "aspect": "problem",
+        "clinical": [
+            {
+                "Procedure": [
+                    {
+                        "code": "105371005",
+                        "tui": "T060",
+                        "codingScheme": "SNOMEDCT_US",
+                        "cui": "C0040399",
+                        "preferredText": null
+                    },
+                    {
+                        "code": "260222006",
+                        "tui": "T060",
+                        "codingScheme": "SNOMEDCT_US",
+                        "cui": "C0040399",
+                        "preferredText": null
+                    }
+                ],
+                "polarity": "positive"
+            }
+        ],
+        "event": [
+            {
+                "event": "SPECT"
+            }
+        ]
+    },
+    {
+        "token": ".",
+        "len": 1,
+        "speech": ".",
+        "speech_bin": "unknown",
+        "range": [
+            936,
+            937
+        ],
+        "aspect": "problem"
+    }
+]
