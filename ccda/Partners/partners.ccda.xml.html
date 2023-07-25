@@ -1,0 +1,611 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html xmlns:n1="urn:hl7-org:v3" xmlns:in="urn:lantana-com:inline-variable-data">
+  <head>
+    <!-- Do NOT edit this HTML directly: it was generated via an XSLT transformation from a CDA Release 2 XML document. -->
+    <title>Test Clinic Summarization of Episode Note</title>
+    <style type="text/css">
+body {
+  color: #003366;
+  background-color: #FFFFFF;
+  font-family: Verdana, Tahoma, sans-serif;
+  font-size: 11px;
+}
+
+a {
+  color: #003366;
+  background-color: #FFFFFF;
+}
+
+h1 {
+  font-size: 12pt;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 11pt;
+  font-weight: bold;
+}
+
+h3 {
+  font-size: 10pt;
+  font-weight: bold;
+}
+
+h4 {
+  font-size: 8pt;
+  font-weight: bold;
+}
+
+
+table {
+  line-height: 10pt;
+  width: 100%;
+}
+
+th {
+  background-color: #ffd700;
+}
+
+td {
+  padding: 0.1cm 0.2cm;
+  vertical-align: top;
+  background-color: #ffffcc;
+}
+
+.h1center {
+  font-size: 12pt;
+  font-weight: bold;
+  text-align: center;
+  width: 80%;
+}
+
+.header_table{
+  border: 1pt inset #00008b;
+}
+
+.td_label{
+  font-weight: bold;
+  color: white;
+}
+
+.td_header_role_name{
+  width: 20%;
+  background-color: #3399ff;
+}
+
+.td_header_role_value{
+  width: 80%;
+  background-color: #ccccff;
+}
+
+.Bold{
+  font-weight: bold;
+}
+
+.Italics{
+  font-style: italic;
+}
+
+.Underline{
+  text-decoration:underline;
+}
+
+          </style>
+  </head>
+  <body>
+    <h1 class="h1center">Test Clinic Summarization of Episode Note</h1>
+    <table class="header_table">
+      <tr>
+        <td class="td_header_role_name">
+          <span class="td_label">Patient</span>
+        </td>
+        <td class="td_header_role_value">ONEA BWHLMREOVTEST</td>
+      </tr>
+      <tr>
+        <td class="td_header_role_name">
+          <span class="td_label">Date of birth</span>
+        </td>
+        <td class="td_header_role_value">January 1, 1955 </td>
+      </tr>
+      <tr>
+        <td class="td_header_role_name">
+          <span class="td_label">Sex</span>
+        </td>
+        <td class="td_header_role_value">Female</td>
+      </tr>
+      <tr>
+        <td class="td_header_role_name">
+          <span class="td_label">Race</span>
+        </td>
+        <td class="td_header_role_value"/>
+      </tr>
+      <tr>
+        <td class="td_header_role_name">
+          <span class="td_label">Ethnicity</span>
+        </td>
+        <td class="td_header_role_value">Not Hispanic or Latino</td>
+      </tr>
+      <tr>
+        <td class="td_header_role_name">
+          <span class="td_label">Contact info</span>
+        </td>
+        <td class="td_header_role_value">ABC ST<br/>BOSTON,&#160;MA&#160;02198,&#160;US<br/><br/></td>
+      </tr>
+      <tr>
+        <td class="td_header_role_name">
+          <span class="td_label">Patient IDs</span>
+        </td>
+        <td class="td_header_role_value">900646017 1.3.6.1.4.1.16517<br/>21814165 1.3.6.1.4.1.16517.2.2<br/></td>
+      </tr>
+    </table>
+    <table class="header_table">
+      <tbody>
+        <tr>
+          <td class="td_header_role_name">
+            <span class="td_label">Document Id</span>
+          </td>
+          <td class="td_header_role_value">10C3FBF4-D8EC-11E2-92F7-1708D1228400 1.3.6.1.4.1.16517</td>
+        </tr>
+        <tr>
+          <td class="td_header_role_name">
+            <span class="td_label">Document Created:</span>
+          </td>
+          <td class="td_header_role_value">June 19, 2013, 10:25:17 -0400 </td>
+        </tr>
+      </tbody>
+    </table>
+    <table class="header_table">
+      <tbody>
+        <tr>
+          <td class="td_header_role_name">
+            <span class="td_label">Performer </span>
+          </td>
+          <td class="td_header_role_value">VIEW TEST, M.D.</td>
+        </tr>
+      </tbody>
+    </table>
+    <table class="header_table">
+      <tbody>
+        <tr>
+          <td class="td_header_role_name">
+            <span class="td_label">Author</span>
+          </td>
+          <td class="td_header_role_value">Partners HealthCare CDA Documents Generator</td>
+        </tr>
+        <tr>
+          <td class="td_header_role_name">
+            <span class="td_label">Contact info</span>
+          </td>
+          <td class="td_header_role_value">111 Boylston Street<br/>Boston,&#160;MA&#160;02199-8001<br/>Tel:  (617)111-1000<br/></td>
+        </tr>
+      </tbody>
+    </table>
+    <table class="header_table">
+      <tbody>
+        <tr>
+          <td class="td_header_role_name">
+            <span class="td_label">Encounter Id</span>
+          </td>
+          <td class="td_header_role_value">20130307_100^INTERNAL MEDICINE 1.3.6.1.4.1.16517</td>
+        </tr>
+        <tr>
+          <td class="td_header_role_name">
+            <span class="td_label">Encounter Date</span>
+          </td>
+          <td class="td_header_role_value">&#160;at&#160;March 7, 2013 </td>
+        </tr>
+        <tr>
+          <td class="td_header_role_name">
+            <span class="td_label">Encounter Location</span>
+          </td>
+          <td class="td_header_role_value">TEST AT 111 BOYLSTON - INTERNAL MEDICINE </td>
+        </tr>
+        <tr>
+          <td class="td_header_role_name">
+            <span class="td_label">Responsible party</span>
+          </td>
+          <td class="td_header_role_value">John Doe, M.D.</td>
+        </tr>
+        <tr>
+          <td class="td_header_role_name">
+            <span class="td_label">Contact info</span>
+          </td>
+          <td class="td_header_role_value">111 BOYLSTON STREET<br/> CHESTNUT HILL,&#160;MA&#160;02467<br/>Tel:  (617)111-1000<br/></td>
+        </tr>
+      </tbody>
+    </table>
+    <table class="header_table">
+      <tbody>
+        <tr>
+          <td class="td_header_role_name">
+            <span class="td_label">Document maintained by</span>
+          </td>
+          <td class="td_header_role_value">Partners HealthCare</td>
+        </tr>
+        <tr>
+          <td class="td_header_role_name">
+            <span class="td_label">Contact info</span>
+          </td>
+          <td class="td_header_role_value">111 Boylston Street<br/>Boston,&#160;MA&#160;02199-8001<br/>Tel:  (111)111-1000<br/></td>
+        </tr>
+      </tbody>
+    </table>
+    <h2>
+      <a name="toc">Table of Contents</a>
+    </h2>
+    <ul>
+      <li>
+        <a href="#idp140518112045376">Problems</a>
+      </li>
+      <li>
+        <a href="#idp140518189688128">Medications</a>
+      </li>
+      <li>
+        <a href="#idp140518189749552">Allergies</a>
+      </li>
+      <li>
+        <a href="#idp140518189445968">Results</a>
+      </li>
+      <li>
+        <a href="#idp140518189902896">Vital Signs</a>
+      </li>
+      <li>
+        <a href="#idp140518190044704">Social History</a>
+      </li>
+    </ul>
+    <hr align="left" color="teal" size="2"/>
+    <h3>
+      <a name="idp140518112045376" href="#toc">Problems</a>
+    </h3>
+    <div>
+      <table width="100%" border="1">
+        <thead>
+          <tr>
+            <th>Date</th>
+            <th>Problems</th>
+            <th>Status</th>
+            <th>Comments</th>
+            <th>Source</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>02/22/2013</td>
+            <td ID="Problem-2862900">Community acquired pneumonia</td>
+            <td>Active</td>
+            <td/>
+            <td>TEST,VIEW,M.D.</td>
+          </tr>
+          <tr>
+            <td>02/22/2013</td>
+            <td ID="Problem-2862901">Asthma</td>
+            <td>Active</td>
+            <td/>
+            <td>TEST,VIEW,M.D.</td>
+          </tr>
+          <tr>
+            <td>02/22/2013</td>
+            <td ID="Problem-2862902">Hypoxemia</td>
+            <td>Active</td>
+            <td/>
+            <td>TEST,VIEW,M.D.</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <h3>
+      <a name="idp140518189688128" href="#toc">Medications</a>
+    </h3>
+    <div>
+      <table width="100%" border="1">
+        <thead>
+          <tr>
+            <th>Date</th>
+            <th>Medication</th>
+            <th>Dose</th>
+            <th>Form</th>
+            <th>Route</th>
+            <th>Frequency</th>
+            <th>Directions</th>
+            <th>Comments</th>
+            <th>Status</th>
+            <th>Source</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>03/07/2013</td>
+            <td ID="Medication-4671088">ALBUTEROL INHALER HFA 90 MCG HFA AER AD</td>
+            <td>2 PUFF</td>
+            <td>Not available</td>
+            <td>INH</td>
+            <td>Q6H PRN wheezing</td>
+            <td ID="patient-instruction-4671088">Not available</td>
+            <td ID="MedicationComment-4671088">Not available</td>
+            <td>Active</td>
+            <td>TEST,VIEW,M.D.</td>
+          </tr>
+          <tr>
+            <td>02/22/2013</td>
+            <td ID="Medication-4671089">CLARITHROMYCIN 500 MG TABLET</td>
+            <td>500 MG</td>
+            <td> Take  1 TABLET</td>
+            <td>PO</td>
+            <td>BID</td>
+            <td ID="patient-instruction-4671089">Not available</td>
+            <td ID="MedicationComment-4671089">Not available</td>
+            <td>Active</td>
+            <td>TEST,VIEW,M.D.</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <h3>
+      <a name="idp140518189749552" href="#toc">Allergies</a>
+    </h3>
+    <div>
+      <table width="100%" border="1">
+        <thead>
+          <tr>
+            <th>Date</th>
+            <th>Allergies</th>
+            <th>Reaction</th>
+            <th>Severity</th>
+            <th>Status</th>
+            <th>Comments</th>
+            <th>Source</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>03/12/2013 08:51:42</td>
+            <td ID="Allergy-3355135">Penicillins</td>
+            <td>Hives</td>
+            <td ID="Severity-3355135">mild</td>
+            <td>Active</td>
+            <td ID="allergyComment-3355135">testing comments</td>
+            <td>View Test, M.D.</td>
+          </tr>
+          <tr>
+            <td>02/22/2013 10:51:07</td>
+            <td ID="Allergy-3355136">Codeine</td>
+            <td>Shortness of Breath</td>
+            <td ID="Severity-3355136">free-text</td>
+            <td>Active</td>
+            <td/>
+            <td>View Test, M.D.</td>
+          </tr>
+          <tr>
+            <td>02/22/2013 10:51:07</td>
+            <td ID="Allergy-3355137">Aspirin</td>
+            <td>Hives</td>
+            <td ID="Severity-3355137">free-text</td>
+            <td>Active</td>
+            <td/>
+            <td>View Test, M.D.</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <h3>
+      <a name="idp140518189445968" href="#toc">Results</a>
+    </h3>
+    <div>
+      <table width="100%" border="1">
+        <thead>
+          <tr>
+            <th>Date</th>
+            <th>Test</th>
+            <th>Value</th>
+            <th>Reference Range</th>
+            <th>Abnormal Flag</th>
+            <th>Comments</th>
+            <th>Ordering Provider</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>02/22/2013 10:39</td>
+            <td ID="Result-1013854253-10C5E8A6-D8EC-11E2-BE1E-1708D1228400">WBC</td>
+            <td>7.6 K/uL</td>
+            <td>4-10 K/uL</td>
+            <td>Not available</td>
+            <td>Not available</td>
+            <td>VIEW, TEST A. M.D.</td>
+          </tr>
+          <tr>
+            <td>02/22/2013 10:39</td>
+            <td ID="Result-1013854256-10C6BAF6-D8EC-11E2-BE1E-1708D1228400">HCT</td>
+            <td>45 %</td>
+            <td>40-54 %</td>
+            <td>*#</td>
+            <td>Not available</td>
+            <td>VIEW, TEST A. M.D.</td>
+          </tr>
+          <tr>
+            <td>02/22/2013 10:39</td>
+            <td ID="Result-1013854255-10C724B4-D8EC-11E2-BE1E-1708D1228400">HGB</td>
+            <td>14.2 g/dL</td>
+            <td>13.5-18.0 g/dL</td>
+            <td>*#</td>
+            <td>Not available</td>
+            <td>VIEW, TEST A. M.D.</td>
+          </tr>
+          <tr>
+            <td>02/22/2013 10:39</td>
+            <td ID="Result-1013854254-10C79CAA-D8EC-11E2-BE1E-1708D1228400">RBC</td>
+            <td>3.65 M/uL</td>
+            <td>4.5-6.4 M/uL</td>
+            <td>*</td>
+            <td>Not available</td>
+            <td>VIEW, TEST A. M.D.</td>
+          </tr>
+          <tr>
+            <td>02/22/2013 10:39</td>
+            <td ID="Result-1013854261-10C81A36-D8EC-11E2-BE1E-1708D1228400">PLT</td>
+            <td>220 K/uL</td>
+            <td>150-450 K/uL</td>
+            <td>*</td>
+            <td>Not available</td>
+            <td>VIEW, TEST A. M.D.</td>
+          </tr>
+          <tr>
+            <td>02/22/2013 10:39</td>
+            <td ID="Result-1013854257-10C89060-D8EC-11E2-BE1E-1708D1228400">MCV</td>
+            <td>97.5 um3</td>
+            <td>80-95 um3</td>
+            <td>*</td>
+            <td>Not available</td>
+            <td>VIEW, TEST A. M.D.</td>
+          </tr>
+          <tr>
+            <td>02/22/2013 10:39</td>
+            <td ID="Result-1013854258-10C900E0-D8EC-11E2-BE1E-1708D1228400">MCH</td>
+            <td>33.7 uug</td>
+            <td>27-32 uug</td>
+            <td>*</td>
+            <td>Not available</td>
+            <td>VIEW, TEST A. M.D.</td>
+          </tr>
+          <tr>
+            <td>02/22/2013 10:39</td>
+            <td ID="Result-1013854259-10CDF56E-D8EC-11E2-BE1E-1708D1228400">MCHC</td>
+            <td>34.6 g/dL</td>
+            <td>32-36 g/dL</td>
+            <td>Not available</td>
+            <td>Not available</td>
+            <td>VIEW, TEST A. M.D.</td>
+          </tr>
+          <tr>
+            <td>02/22/2013 10:39</td>
+            <td ID="Result-1013854260-10D2A636-D8EC-11E2-BE1E-1708D1228400">RDW</td>
+            <td>13.2 %</td>
+            <td>11.5-14.5 %</td>
+            <td>Not available</td>
+            <td>Not available</td>
+            <td>VIEW, TEST A. M.D.</td>
+          </tr>
+          <tr>
+            <td>02/22/2013 10:39</td>
+            <td ID="Result-1013854263-10D31922-D8EC-11E2-BE1E-1708D1228400">NRBC #</td>
+            <td>0.00 </td>
+            <td>0.00-0.00</td>
+            <td>Not available</td>
+            <td>Not available</td>
+            <td>VIEW, TEST A. M.D.</td>
+          </tr>
+          <tr>
+            <td>02/22/2013 10:39</td>
+            <td ID="Result-1013854262-10D3906E-D8EC-11E2-BE1E-1708D1228400">NRBC %</td>
+            <td>0.0 </td>
+            <td>0.0-0.0</td>
+            <td>Not available</td>
+            <td>Not available</td>
+            <td>VIEW, TEST A. M.D.</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <h3>
+      <a name="idp140518189902896" href="#toc">Vital Signs</a>
+    </h3>
+    <div>
+      <table width="100%" border="1">
+        <thead>
+          <tr>
+            <th>Date</th>
+            <th>Vital Sign</th>
+            <th>Value</th>
+            <th>Details</th>
+            <th>Source</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>03/07/2013 09:00:00</td>
+            <td ID="VitalSigns-135523570">SBP/DBP</td>
+            <td>135mm[Hg]/93mm[Hg]</td>
+            <td>Not available</td>
+            <td>TEST,VIEW,M.D.</td>
+          </tr>
+          <tr>
+            <td>03/07/2013 09:00:00</td>
+            <td ID="VitalSigns-135523571">HEIGHT</td>
+            <td>177 cm</td>
+            <td>Measured</td>
+            <td>TEST,VIEW,M.D.</td>
+          </tr>
+          <tr>
+            <td>03/07/2013 09:00:00</td>
+            <td ID="VitalSigns-135523572">WEIGHT</td>
+            <td>89 kg</td>
+            <td>Not available</td>
+            <td>TEST,VIEW,M.D.</td>
+          </tr>
+          <tr>
+            <td>03/07/2013 09:00:00</td>
+            <td ID="VitalSigns-135523571-135523572">BMI</td>
+            <td>28.4 kg/m2</td>
+            <td>Not available</td>
+            <td>Calculated</td>
+          </tr>
+          <tr>
+            <td>02/22/2013 10:53:00</td>
+            <td ID="VitalSigns-135523559">SBP/DBP</td>
+            <td>135mm[Hg]/92mm[Hg]</td>
+            <td>Not available</td>
+            <td>TEST,VIEW,M.D.</td>
+          </tr>
+          <tr>
+            <td>02/22/2013 10:53:00</td>
+            <td ID="VitalSigns-135523560">HEIGHT</td>
+            <td>177 cm</td>
+            <td>Measured</td>
+            <td>TEST,VIEW,M.D.</td>
+          </tr>
+          <tr>
+            <td>02/22/2013 10:53:00</td>
+            <td ID="VitalSigns-135523561">WEIGHT</td>
+            <td>88 kg</td>
+            <td>Not available</td>
+            <td>TEST,VIEW,M.D.</td>
+          </tr>
+          <tr>
+            <td>02/22/2013 10:53:00</td>
+            <td ID="VitalSigns-135523560-135523561">BMI</td>
+            <td>28.1 kg/m2</td>
+            <td>Not available</td>
+            <td>Calculated</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <h3>
+      <a name="idp140518190044704" href="#toc">Social History</a>
+    </h3>
+    <div>
+      <table width="100%" border="1">
+        <thead>
+          <tr>
+            <th>Start Date</th>
+            <th>End Date</th>
+            <th>Type</th>
+            <th>Comments</th>
+            <th>Source</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>06/19/2013</td>
+            <td>Not available</td>
+            <td ID="SocialHistory-10D85234-D8EC-11E2-BEC0-1708D1228400">Unknown if ever smoked</td>
+            <td>Not available</td>
+            <td>Not available</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <br/>
+    <br/>
+  </body>
+</html>
