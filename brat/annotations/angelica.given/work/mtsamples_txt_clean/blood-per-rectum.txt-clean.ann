@@ -1,0 +1,136 @@
+T1	diagnosis 791 803	hypertension
+T2	diagnosis 843 863	hypercholesterolemia
+T3	diagnosis 890 902;903 922	transitional cell bladder cancer
+T4	problem 818 837	atrial
+fibrillation
+T5	problem 1065 1074	pneumonia
+A1	reltime T5 past
+T6	problem 1076 1099	urinary tract infection
+A2	reltime T6 past
+T7	problem 1128 1150	Deep venous thrombosis
+T8	problem 1208 1239	lower gastrointestinal bleeding
+A3	reltime T8 past
+T9	problem 3165 3190	gastrointestinal bleeding
+T10	other 3195 3202	hypoxia
+T11	diagnosis 818 824;825 837	atrial fibrillation
+T12	diagnosis 865 885	Renal cell carcinoma
+T13	allergy 1480 1489	Celecoxib
+T14	lab 2105 2108	CBC
+T15	lab 2112 2121;2123 2135	WBC count 6,500 per mL
+T16	lab 2138 2148;2150 2159	Hemoglobin 10.3 g/dL
+T17	lab 2162 2172;2173 2178	Hematocrit 31.8%
+T18	lab 2181 2195;2197 2207	Platelet count 248 per mL
+T19	lab 2210 2233;2235 2242	Mean corpuscular volume 86.5 fL
+T20	lab 2245 2248;2250 2253	RDW 18%
+T21	lab 2256 2262	CHEM 7
+T22	lab 2 2284	CHIEF COMPLAINT: Bright red blood per rectum
+
+HISTORY OF PRESENT ILLNESS: This 73-year-old woman had a recent medical
+history significant for renal and bladder cancer, deep venous thrombosis of
+the right lower extremity, and anticoagulation therapy complicated by lower
+gastrointestinal bleeding. Colonoscopy during that admission showed internal
+hemorrhoids and diverticulosis, but a bleeding site was not identified. Five
+days after discharge to a nursing home, she again experienced bloody bowel
+movements and returned to the emergency department for evaluation.
+
+REVIEW OF SYMPTOMS: No chest pain, palpitations, abdominal pain or
+cramping, nausea, vomiting, or lightheadedness. Positive for generalized
+weakness and diarrhea the day of admission.
+
+PRIOR MEDICAL HISTORY: Long-standing hypertension, intermittent atrial
+fibrillation, and hypercholesterolemia. Renal cell carcinoma and transitional
+cell bladder cancer status post left nephrectomy, radical cystectomy, and
+ileal loop diversion 6 weeks prior to presentation, postoperative course
+complicated by pneumonia, urinary tract infection, and retroperitoneal bleed.
+Deep venous thrombosis 2 weeks prior to presentation, management complicated
+by lower gastrointestinal bleeding, status post inferior vena cava filter
+placement.
+
+MEDICATIONS: Diltiazem 30 mg tid, pantoprazole 40 mg qd, epoetin alfa
+40,000 units weekly, iron 325 mg bid, cholestyramine. Warfarin discontinued
+approximately 10 days earlier.
+
+ALLERGIES: Celecoxib (rash).
+
+SOCIAL HISTORY: Resided at nursing home. Denied alcohol, tobacco, and drug
+use.
+
+FAMILY HISTORY: Non-contributory.
+
+PHYSICAL EXAM:  
+Temp = 38.3C BP =146/52 HR= 113 RR = 18 SaO2 = 98% room air  
+General: Pale, ill-appearing elderly female.  
+HEENT: Pale conjunctivae, oral mucous membranes moist.  
+CVS: Irregularly irregular, tachycardia.  
+Lungs: Decreased breath sounds at the bases.  
+Abdomen: Positive bowel sounds, soft, nontender, nondistended, gross blood on
+rectal exam.  
+Extremities: No cyanosis, clubbing, or edema.  
+Skin: Warm, normal turgor.  
+Neuro: Alert and oriented. Nonfocal.
+
+LABS:  
+ CBC:  
+WBC count: 6,500 per mL  
+Hemoglobin: 10.3 g/dL  
+Hematocrit:31.8%  
+Platelet count: 248 per mL  
+Mean corpuscular volume: 86.5 fL  
+RDW: 18%  
+CHEM 7:  
+Sodium: 131 mmol/L
+T23	medication 1304 1313	Diltiazem
+T24	medication 1325 1337	pantoprazole
+T25	medication 1348 1360	epoetin alfa
+T26	medication 1382 1386	iron
+T27	medication 1399 1413	cholestyramine
+T28	medication 1415 1423	Warfarin
+A4	reltime T28 past
+T29	lab 2266 2272;2274 2284	Sodium 131 mmol/L
+T30	lab 2287 2296;2298 2308	Potassium 3.5 mmol/L
+T31	lab 2311 2319;2321 2330	Chloride 98 mmol/L
+T32	lab 2333 2344;2346 2355	Bicarbonate 23 mmol/L
+T33	lab 2358 2361;2363 2371	BUN 11 mg/dL
+T34	lab 2374 2384;2386 2395	Creatinine 1.1 mg/dL
+T35	lab 2398 2405;2407 2416	Glucose 105 mg/dL
+T36	lab 2419 2438	COAGULATION STUDIES
+T37	lab 2442 2453	PT 15.7 sec
+T38	lab 2456 2463	INR 1.6
+T39	lab 2466 2478	PTT 29.5 sec
+T40	medication 2544 2553	diltiazem
+T41	lab 3522 3536;3537 3555	arterial blood gas (ABG) analysis
+T42	lab 3640 3651	co-oximetry
+T43	lab 3678 3691;3701 3706	methemoglobin 15.2%
+T44	lab 3708 3711	ABG
+T45	lab 3721 3723;3727 3731	pH 7.41
+T46	lab 3733 3745	PCO2 31 mmHg
+T47	lab 3747 3759	PO2 374 mmHg
+T48	medication 3822 3836	methylene blue
+A5	code T43 true
+A6	code T45 true
+T49	problem 30 46	blood per rectum
+A7	header T36 true
+A8	group T36 true
+T50	diagnosis 154 168	bladder cancer
+T51	diagnosis 144 149;162 168	renal cancer
+T52	problem 175 192	venous thrombosis
+T53	problem 272 297	gastrointestinal bleeding
+T54	other 488 500;501 510	bloody bowel movements
+A9	ancillary T26 true
+A10	group T14 true
+A11	code T15 true
+A12	code T16 true
+A13	code T17 true
+A14	code T18 true
+A15	code T19 true
+A16	code T20 true
+A17	header T21 true
+A18	group T21 true
+A19	code T29 true
+A20	code T30 true
+A21	code T31 true
+A22	code T32 true
+A23	code T33 true
+A24	code T34 true
+A25	code T35 true
+A26	group T44 true
