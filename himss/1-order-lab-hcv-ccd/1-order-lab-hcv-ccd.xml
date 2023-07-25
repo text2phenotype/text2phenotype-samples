@@ -1,0 +1,732 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/xsl" href="/resources/css/CDA.xsl"?>
+<ClinicalDocument classCode="DOCCLIN" moodCode="EVN" xmlns="urn:hl7-org:v3" xmlns:sdtc="urn:hl7-org:sdtc"
+                  xmlns:voc="urn:hl7-org:v3/voc" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xsi:schemaLocation="urn:hl7-org:v3 CDASchemas\cda\Schemas\CDA.xsd">
+  <realmCode code="US"></realmCode>
+  <typeId extension="POCD_HD000040" root="2.16.840.1.113883.1.3"></typeId>
+  <!-- US Realm Header -->
+  <templateId root="2.16.840.1.113883.10.20.22.1.1" extension="2015-08-01"/>
+  <templateId root="2.16.840.1.113883.10.20.22.1.1"/>
+  <!-- CCD -->
+  <templateId root="2.16.840.1.113883.10.20.22.1.2" extension="2015-08-01"/>
+  <templateId root="2.16.840.1.113883.10.20.22.1.2"/>
+  <id extension="d1803252-bcc0-4fd9-9b13-8d4d0c36a104" root="2.16.840.1.113883.5.83"></id>
+  <code code="34133-9" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC"
+        displayName="Summarization of Episode Note"></code>
+
+  <title>Lab Results 06/07/2017 -- Campos,Ricardo </title>
+  
+  <effectiveTime value="20170607203415-0400"></effectiveTime>
+  <confidentialityCode code="N" codeSystem="2.16.840.1.113883.5.25" codeSystemName="Confidentiality"
+                       displayName="Normal"></confidentialityCode>
+  <languageCode code="en-US"></languageCode>
+  <recordTarget contextControlCode="OP" typeCode="RCT">
+    <patientRole classCode="PAT">
+      <id extension="UNK" root="2.16.840.1.113883.5.83"></id>
+      <id extension="13169" root="2.16.840.1.113883.5.83.2.2"></id>
+      <addr>
+        <country>US</country>
+        <state>NEW MEXICO</state>
+        <city>Las Cruces</city>
+        <postalCode>88007</postalCode>
+        <streetAddressLine>123 Montgomery Blvd NE</streetAddressLine>
+      </addr>
+      <telecom use="H" value="tel:+1-(575)123-4567"/>
+      <patient classCode="PSN" determinerCode="INSTANCE">
+        <name>
+          <family>CAMPOS</family>
+          <given>RICARDO</given>
+          <given>UNK</given>
+        </name>
+        <administrativeGenderCode code="M" codeSystem="2.16.840.1.113883.5.1"
+                                  codeSystemName="AdministrativeGender"
+                                  displayName="M"></administrativeGenderCode>
+        <birthTime value="19630102"/>
+        <maritalStatusCode code="UNK" displayName="UNK" codeSystem="2.16.840.1.113883.5.2"
+                           codeSystemName="MaritalStatus"/>
+        <religiousAffiliationCode nullFlavor="UNK"/>
+        <raceCode nullFlavor="UNK"/>
+        <ethnicGroupCode nullFlavor="UNK"/>
+        <languageCommunication>
+          <!-- CONF 5407: LanguageCode Code System 2.16.840.1.113883.1.11.11526 -->
+          <languageCode code="en-US"/>
+          <modeCode code="ESP" displayName="Expressed spoken" codeSystem="2.16.840.1.113883.5.60"
+                    codeSystemName="LanguageAbilityMode"/>
+        </languageCommunication>
+      </patient>
+    </patientRole>
+  </recordTarget>
+  <author>
+    <time value='20170607203415-0400'></time>
+    <assignedAuthor classCode="ASSIGNED">
+      <id nullFlavor="NI"/>
+      <addr>
+        <state>NEW MEXICO</state>
+        <city>LAS CRUCES</city>
+        <postalCode>88007</postalCode>
+        <streetAddressLine>7505 Fannin 170</streetAddressLine>
+      </addr>
+      <telecom use="WP" value="tel:832-786-9141"></telecom>
+      <assignedAuthoringDevice>
+        <manufacturerModelName>WorldVistA</manufacturerModelName>
+        <softwareName>Opensource CDA Documents Generator</softwareName>
+      </assignedAuthoringDevice>
+      <representedOrganization>
+        <id extension="3" root="1.3.6.1.4.1.22812.11.99930.3"/>
+        <name>Astronaut Network</name>
+        <telecom use="WP" value="tel:832-786-9141"></telecom>
+        <addr>
+          <state>NEW MEXICO</state>
+          <city>LAS CRUCES</city>
+          <postalCode>88007</postalCode>
+          <streetAddressLine>7505 Fannin 170</streetAddressLine>
+        </addr>
+      </representedOrganization>
+    </assignedAuthor>
+  </author>
+  <custodian>
+    <assignedCustodian classCode="ASSIGNED">
+      <representedCustodianOrganization classCode="ORG" determinerCode="INSTANCE">
+        <id extension="CDA" root="2.16.840.1.113883.5.83"></id>
+        <name>Astronaut Network</name>
+        <telecom use="WP" value="tel:832-786-9141"></telecom>
+        <addr>
+          <state>NEW MEXICO</state>
+          <city>LAS CRUCES</city>
+          <postalCode>88007</postalCode>
+          <streetAddressLine>7505 Fannin 170</streetAddressLine>
+        </addr>
+      </representedCustodianOrganization>
+    </assignedCustodian>
+  </custodian>
+  <documentationOf>
+    <serviceEvent classCode="PCPR" moodCode="EVN">
+      <effectiveTime>
+        <low nullFlavor="UNK"></low>
+        <high value="20170607203415-0400"></high>
+      </effectiveTime>
+      <performer typeCode="PRF">
+        <assignedEntity>
+          <id extension="UNK" root="2.16.840.1.113883.4.6"></id>
+          <addr>
+            <state>NEW MEXICO</state>
+            <city>LAS CRUCES</city>
+            <postalCode>88007</postalCode>
+            <streetAddressLine>7505 Fannin 170</streetAddressLine>
+          </addr>
+          <telecom use="WP" value="tel:832-786-9141"></telecom>
+          <assignedPerson>
+            <name>
+              <family>ADMINISTRATOR</family>
+              <given>SYSTEM</given>
+            </name>
+          </assignedPerson>
+        </assignedEntity>
+      </performer>
+    </serviceEvent>
+  </documentationOf>
+  <componentOf>
+    <encompassingEncounter>
+      <id extension="c5b3ec67-ddfc-42ee-b77a-989b31417cfb" root="2.16.840.1.113883.5.83"></id>
+      <effectiveTime value="20170607203415-0400"></effectiveTime>
+      <responsibleParty>
+        <assignedEntity>
+          <id nullFlavor="UNK"></id>
+          <addr>
+            <state>NEW MEXICO</state>
+            <city>LAS CRUCES</city>
+            <postalCode>88007</postalCode>
+            <streetAddressLine>7505 Fannin 170</streetAddressLine>
+          </addr>
+          <telecom use="WP" value="tel:832-786-9141"></telecom>
+          <assignedPerson>
+            <name>
+              <family>ADMINISTRATOR</family>
+              <given>SYSTEM</given>
+            </name>
+          </assignedPerson>
+        </assignedEntity>
+      </responsibleParty>
+      <location>
+        <healthCareFacility>
+          <id extension="1^VOE EHR" root="2.16.840.1.113883.5.83"></id>
+          <location>
+            <name>Astronaut Network</name>
+            <addr>
+              <state>NEW MEXICO</state>
+              <city>LAS CRUCES</city>
+              <postalCode>LAS CRUCES</postalCode>
+              <streetAddressLine>7505 Fannin 170</streetAddressLine>
+            </addr>
+          </location>
+        </healthCareFacility>
+      </location>
+    </encompassingEncounter>
+  </componentOf>
+
+  <component>
+    <structuredBody>
+      
+      <!-- @@@ Lab -->
+      <component>
+        <section classCode="DOCSECT" moodCode="EVN">
+          <templateId root="2.16.840.1.113883.10.20.22.2.3.1"></templateId>
+          <templateId root="2.16.840.1.113883.10.20.22.2.3.1" extension="2015-08-01"></templateId>
+          <code code="30954-2" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC"
+                displayName="Relevant diagnostic tests and/or laboratory data"></code>
+          <title>Lab Results</title>
+          <text>
+            <table border="1">
+              <thead>
+                <tr>
+                  <th align="middle" width="10%">Panel</th>
+                  <th align="left" width="20%">Test</th>
+                  <th align="left" width="30%">Value</th>
+                  <th align="left" width="40%">Units</th>
+                </tr>
+              </thead>
+              <tbody>
+		<!-- @@@ Panel: Liver Function Test -->
+		
+                <tr>
+		  <td align="middle">Liver Function Test</td>
+                  <td>INR</td>
+                  <td>3.84</td>
+                  <td>mcg/dL</td>
+                </tr>
+                <tr>
+		  <td align="middle">Liver Function Test</td>
+                  <td>Protime</td>
+                  <td>17</td>
+                  <td>Seconds</td>
+                </tr>
+
+		<!-- @@@ Panel: Hepatatis Panel --> 		
+		<tr>
+		  <td align="middle">Hepatitis Panel</td>
+                  <td>TIBC</td>
+                  <td>607</td>
+                  <td>mcg/dL</td>
+                </tr>
+                <tr>
+		  <td align="middle">Hepatitis Panel</td>
+                  <td>FERRITIN</td>
+                  <td>494</td>
+		  <td>ng/ml</td>
+                </tr>
+                <tr>
+		  <td align="middle">Hepatitis Panel</td>
+                  <td>ALPHA-FETOPROTEIN</td>
+                  <td>30</td>
+		  <td>ng/ml</td>
+                </tr>
+                <tr>
+		  <td align="middle">Hepatitis Panel</td>
+                  <td>25 OH VITAMIN D (LOINC: UNK)</td>
+                  <td>18</td>
+		  <td>ng/ml</td>
+                </tr>
+                <tr>
+		  <td align="middle">Hepatitis Panel</td>
+                  <td>TRANSFERRIN</td>
+                  <td>53</td>
+		  <td>ng/ml</td>
+                </tr>
+                <tr>
+		  <td align="middle">Hepatitis Panel</td>
+                  <td>IRON</td>
+                  <td>171</td>
+                  <td>mcg/dL</td>
+                </tr>
+                <tr>
+		  <td align="middle">Hepatitis Panel</td>
+                  <td>HCV Viral Load</td>
+                  <td>&lt;15</td>
+		  <td>I/UL</td>
+                </tr>
+                <tr>
+		  <td align="middle">Hepatitis Panel</td>
+                  <td>HCV Genotype 2</td>
+                  <td>Positive</td>
+		  <td></td>
+                </tr>
+              </tbody>
+            </table>
+          </text>
+
+	  <!-- @@@ INR 3.84 --> 
+          <entry>
+            <organizer classCode="CLUSTER" moodCode="EVN">
+              <templateId root="2.16.840.1.113883.10.20.22.4.1" extension="2015-08-01"></templateId>
+              <id extension="uri_CH-6819883-748" root="2.16.840.1.113883.5.83"></id>
+              <code code="LP20762-8" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC"
+                    displayName="International Normalized Ratio"></code>
+              <statusCode code="completed"></statusCode>
+              <component>
+                <observation classCode="OBS" moodCode="EVN">
+                  <templateId root="2.16.840.1.113883.10.20.22.4.2"></templateId>
+                  <templateId root="2.16.840.1.113883.10.20.22.4.2"
+                              extension="2015-08-01"></templateId>
+                  <id extension="uri_CH-6819883-748" root="2.16.840.1.113883.5.83"></id>
+                  <code code="LP20762-8" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC"
+                        displayName="International Normalized Ratio">
+                    <originalText>International Normalized Ratio</originalText>
+                  </code>
+                  <statusCode code="completed"></statusCode>
+                  <effectiveTime value="20170607"></effectiveTime>
+                  <value unit="[arb&apos;U]" value="3.84"
+                         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="PQ"></value>
+                  <entryRelationship contextConductionInd="true" typeCode="REFR">
+                    <observation classCode="OBS" moodCode="EVN">
+                      <code code="48766-0" codeSystem="2.16.840.1.113883.6.1"
+                            codeSystemName="LOINC" displayName="Information source"></code>
+                      <statusCode code="completed"></statusCode>
+                      <value xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ST">
+                        Astronaut Network
+                      </value>
+                    </observation>
+                  </entryRelationship>
+                  <referenceRange typeCode="REFV">
+                    <observationRange classCode="OBS" moodCode="EVN.CRT">
+                      <text mediaType="text/plain" representation="TXT"></text>
+                      <value xsi:type="IVL_PQ">
+                        <low value="" unit="[arb&apos;U]"/>
+                        <high value="" unit="[arb&apos;U]"/>
+                      </value>
+                    </observationRange>
+                  </referenceRange>
+                </observation>
+              </component>
+            </organizer>
+          </entry>
+
+	  <!-- @@@ Protime 17 seconds --> 
+          <entry>
+            <organizer classCode="CLUSTER" moodCode="EVN">
+              <templateId root="2.16.840.1.113883.10.20.22.4.1" extension="2015-08-01"></templateId>
+              <id extension="uri_CH-6819883-748" root="2.16.840.1.113883.5.83"></id>
+              <code code="5902-2" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC"
+                    displayName="Prothrombin time assay"></code>
+              <statusCode code="completed"></statusCode>
+              <component>
+                <observation classCode="OBS" moodCode="EVN">
+                  <templateId root="2.16.840.1.113883.10.20.22.4.2"></templateId>
+                  <templateId root="2.16.840.1.113883.10.20.22.4.2"
+                              extension="2015-08-01"></templateId>
+                  <id extension="uri_CH-6819883-748" root="2.16.840.1.113883.5.83"></id>
+                  <code code="LP20762-8" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC"
+                        displayName="Prothrombin time assay">
+                    <originalText>Prothrombin time assay</originalText>
+                  </code>
+                  <statusCode code="completed"></statusCode>
+                  <effectiveTime value="20170607"></effectiveTime>
+                  <value unit="[arb&apos;U]" value="17"
+                         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="PQ"></value>
+                  <entryRelationship contextConductionInd="true" typeCode="REFR">
+                    <observation classCode="OBS" moodCode="EVN">
+                      <code code="48766-0" codeSystem="2.16.840.1.113883.6.1"
+                            codeSystemName="LOINC" displayName="Information source"></code>
+                      <statusCode code="completed"></statusCode>
+                      <value xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ST">
+                        Astronaut Network
+                      </value>
+                    </observation>
+                  </entryRelationship>
+                  <referenceRange typeCode="REFV">
+                    <observationRange classCode="OBS" moodCode="EVN.CRT">
+                      <text mediaType="text/plain" representation="TXT"></text>
+                      <value xsi:type="IVL_PQ">
+                        <low value="" unit="[arb&apos;U]"/>
+                        <high value="" unit="[arb&apos;U]"/>
+                      </value>
+                    </observationRange>
+                  </referenceRange>
+                </observation>
+              </component>
+            </organizer>
+          </entry>
+	  
+	  <!-- @@@ TIBC 607 --> 
+          <entry>
+            <organizer classCode="CLUSTER" moodCode="EVN">
+              <templateId root="2.16.840.1.113883.10.20.22.4.1" extension="2015-08-01"></templateId>
+              <id extension="uri_CH-6819883-748" root="2.16.840.1.113883.5.83"></id>
+              <code code="UNK" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC"
+                    displayName="TIBC"></code>
+              <statusCode code="completed"></statusCode>
+              <component>
+                <observation classCode="OBS" moodCode="EVN">
+                  <templateId root="2.16.840.1.113883.10.20.22.4.2"></templateId>
+                  <templateId root="2.16.840.1.113883.10.20.22.4.2"
+                              extension="2015-08-01"></templateId>
+                  <id extension="uri_CH-6819883-748" root="2.16.840.1.113883.5.83"></id>
+                  <code code="UNK" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC"
+                        displayName="TIBC">
+                    <originalText>TIBC</originalText>
+                  </code>
+                  <statusCode code="completed"></statusCode>
+                  <effectiveTime value="20170607"></effectiveTime>
+                  <value unit="[arb&apos;U]" value="607"
+                         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="PQ"></value>
+                  <entryRelationship contextConductionInd="true" typeCode="REFR">
+                    <observation classCode="OBS" moodCode="EVN">
+                      <code code="48766-0" codeSystem="2.16.840.1.113883.6.1"
+                            codeSystemName="LOINC" displayName="Information source"></code>
+                      <statusCode code="completed"></statusCode>
+                      <value xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ST">
+                        Astronaut Network
+                      </value>
+                    </observation>
+                  </entryRelationship>
+                  <referenceRange typeCode="REFV">
+                    <observationRange classCode="OBS" moodCode="EVN.CRT">
+                      <text mediaType="text/plain" representation="TXT"></text>
+                      <value xsi:type="IVL_PQ">
+                        <low value="" unit="[arb&apos;U]"/>
+                        <high value="" unit="[arb&apos;U]"/>
+                      </value>
+                    </observationRange>
+                  </referenceRange>
+                </observation>
+              </component>
+            </organizer>
+          </entry>
+
+	  <!-- @@@ FERRITIN 494 --> 
+          <entry>
+            <organizer classCode="CLUSTER" moodCode="EVN">
+              <templateId root="2.16.840.1.113883.10.20.22.4.1" extension="2015-08-01"></templateId>
+              <id extension="uri_CH-6819883-744" root="2.16.840.1.113883.5.83"></id>
+              <code code="UNK" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC"
+                    displayName="FERRITIN"></code>
+              <statusCode code="completed"></statusCode>
+              <component>
+                <observation classCode="OBS" moodCode="EVN">
+                  <templateId root="2.16.840.1.113883.10.20.22.4.2"></templateId>
+                  <templateId root="2.16.840.1.113883.10.20.22.4.2"
+                              extension="2015-08-01"></templateId>
+                  <id extension="uri_CH-6819883-744" root="2.16.840.1.113883.5.83"></id>
+                  <code code="UNK" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC"
+                        displayName="FERRITIN">
+                    <originalText>FERRITIN</originalText>
+                  </code>
+                  <text mediaType="text/plain">
+                    <reference value="#uri_CH-6819883-744"></reference>
+                  </text>
+                  <statusCode code="completed"></statusCode>
+                  <effectiveTime value="20170607"></effectiveTime>
+                  <value unit="[arb&apos;U]" value="494"
+                         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="PQ"></value>
+                  <entryRelationship contextConductionInd="true" typeCode="REFR">
+                    <observation classCode="OBS" moodCode="EVN">
+                      <code code="48766-0" codeSystem="2.16.840.1.113883.6.1"
+                            codeSystemName="LOINC" displayName="Information source"></code>
+                      <statusCode code="completed"></statusCode>
+                      <value xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ST">
+                        Astronaut Network
+                      </value>
+                    </observation>
+                  </entryRelationship>
+                  <referenceRange typeCode="REFV">
+                    <observationRange classCode="OBS" moodCode="EVN.CRT">
+                      <text mediaType="text/plain" representation="TXT"></text>
+                      <value xsi:type="IVL_PQ">
+                        <low value="" unit="[arb&apos;U]"/>
+                        <high value="" unit="[arb&apos;U]"/>
+                      </value>
+                    </observationRange>
+                  </referenceRange>
+                </observation>
+              </component>
+            </organizer>
+          </entry>
+
+	  <!-- @@@ AFP 30 -->
+          <entry>
+            <organizer classCode="CLUSTER" moodCode="EVN">
+              <templateId root="2.16.840.1.113883.10.20.22.4.1" extension="2015-08-01"></templateId>
+              <id extension="uri_CH-6819883-747" root="2.16.840.1.113883.5.83"></id>
+              <code code="UNK" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC"
+                    displayName="ALPHA-FETOPROTEIN"></code>
+              <statusCode code="completed"></statusCode>
+              <component>
+                <observation classCode="OBS" moodCode="EVN">
+                  <templateId root="2.16.840.1.113883.10.20.22.4.2"></templateId>
+                  <templateId root="2.16.840.1.113883.10.20.22.4.2"
+                              extension="2015-08-01"></templateId>
+                  <id extension="uri_CH-6819883-747" root="2.16.840.1.113883.5.83"></id>
+                  <code code="UNK" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC"
+                        displayName="ALPHA-FETOPROTEIN">
+                    <originalText>ALPHA-FETOPROTEIN</originalText>
+                  </code>
+                  <text mediaType="text/plain">
+                    <reference value="#uri_CH-6819883-747"></reference>
+                  </text>
+                  <statusCode code="completed"></statusCode>
+                  <effectiveTime value="20170607"></effectiveTime>
+                  <value unit="[arb&apos;U]" value="30"
+                         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="PQ"></value>
+                  <entryRelationship contextConductionInd="true" typeCode="REFR">
+                    <observation classCode="OBS" moodCode="EVN">
+                      <code code="48766-0" codeSystem="2.16.840.1.113883.6.1"
+                            codeSystemName="LOINC" displayName="Information source"></code>
+                      <statusCode code="completed"></statusCode>
+                      <value xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ST">
+                        Astronaut Network
+                      </value>
+                    </observation>
+                  </entryRelationship>
+                  <referenceRange typeCode="REFV">
+                    <observationRange classCode="OBS" moodCode="EVN.CRT">
+                      <text mediaType="text/plain" representation="TXT"></text>
+                      <value xsi:type="IVL_PQ">
+                        <low value="" unit="[arb&apos;U]"/>
+                        <high value="" unit="[arb&apos;U]"/>
+                      </value>
+                    </observationRange>
+                  </referenceRange>
+                </observation>
+              </component>
+            </organizer>
+          </entry>
+
+	  <!-- @@@ VitaminD -->
+          <entry>
+            <organizer classCode="CLUSTER" moodCode="EVN">
+              <templateId root="2.16.840.1.113883.10.20.22.4.1" extension="2015-08-01"></templateId>
+              <id extension="uri_CH-6819883-113" root="2.16.840.1.113883.5.83"></id>
+              <code code="UNK" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC"
+                    displayName="25 OH VITAMIN D"></code>
+              <statusCode code="completed"></statusCode>
+              <component>
+                <observation classCode="OBS" moodCode="EVN">
+                  <templateId root="2.16.840.1.113883.10.20.22.4.2"></templateId>
+                  <templateId root="2.16.840.1.113883.10.20.22.4.2"
+                              extension="2015-08-01"></templateId>
+                  <id extension="uri_CH-6819883-113" root="2.16.840.1.113883.5.83"></id>
+                  <code code="UNK" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC"
+                        displayName="25 OH VITAMIN D">
+                    <originalText>25 OH VITAMIN D</originalText>
+                  </code>
+                  <text mediaType="text/plain">
+                    <reference value="#uri_CH-6819883-113"></reference>
+                  </text>
+                  <statusCode code="completed"></statusCode>
+                  <effectiveTime value="20170607"></effectiveTime>
+                  <value unit="[arb&apos;U]" value="18"
+                         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="PQ"></value>
+                  <entryRelationship contextConductionInd="true" typeCode="REFR">
+                    <observation classCode="OBS" moodCode="EVN">
+                      <code code="48766-0" codeSystem="2.16.840.1.113883.6.1"
+                            codeSystemName="LOINC" displayName="Information source"></code>
+                      <statusCode code="completed"></statusCode>
+                      <value xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ST">
+                        Astronaut Network
+                      </value>
+                    </observation>
+                  </entryRelationship>
+                  <referenceRange typeCode="REFV">
+                    <observationRange classCode="OBS" moodCode="EVN.CRT">
+                      <text mediaType="text/plain" representation="TXT"></text>
+                      <value xsi:type="IVL_PQ">
+                        <low value="" unit="[arb&apos;U]"/>
+                        <high value="" unit="[arb&apos;U]"/>
+                      </value>
+                    </observationRange>
+                  </referenceRange>
+                </observation>
+              </component>
+            </organizer>
+          </entry>
+
+	  <!-- @@@ TRANSFERRIN --> 
+          <entry>
+            <organizer classCode="CLUSTER" moodCode="EVN">
+              <templateId root="2.16.840.1.113883.10.20.22.4.1" extension="2015-08-01"></templateId>
+              <id extension="uri_CH-6819883-768" root="2.16.840.1.113883.5.83"></id>
+              <code code="UNK" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC"
+                    displayName="TRANSFERRIN"></code>
+              <statusCode code="completed"></statusCode>
+              <component>
+                <observation classCode="OBS" moodCode="EVN">
+                  <templateId root="2.16.840.1.113883.10.20.22.4.2"></templateId>
+                  <templateId root="2.16.840.1.113883.10.20.22.4.2"
+                              extension="2015-08-01"></templateId>
+                  <id extension="uri_CH-6819883-768" root="2.16.840.1.113883.5.83"></id>
+                  <code code="UNK" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC"
+                        displayName="TRANSFERRIN">
+                    <originalText>TRANSFERRIN</originalText>
+                  </code>
+                  <text mediaType="text/plain">
+                    <reference value="#uri_CH-6819883-768"></reference>
+                  </text>
+                  <statusCode code="completed"></statusCode>
+                  <effectiveTime value="20170607"></effectiveTime>
+                  <value unit="[arb&apos;U]" value="53"
+                         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="PQ"></value>
+                  <entryRelationship contextConductionInd="true" typeCode="REFR">
+                    <observation classCode="OBS" moodCode="EVN">
+                      <code code="48766-0" codeSystem="2.16.840.1.113883.6.1"
+                            codeSystemName="LOINC" displayName="Information source"></code>
+                      <statusCode code="completed"></statusCode>
+                      <value xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ST">
+                        Astronaut Network
+                      </value>
+                    </observation>
+                  </entryRelationship>
+                  <referenceRange typeCode="REFV">
+                    <observationRange classCode="OBS" moodCode="EVN.CRT">
+                      <text mediaType="text/plain" representation="TXT"></text>
+                      <value xsi:type="IVL_PQ">
+                        <low value="" unit="[arb&apos;U]"/>
+                        <high value="" unit="[arb&apos;U]"/>
+                      </value>
+                    </observationRange>
+                  </referenceRange>
+                </observation>
+              </component>
+            </organizer>
+          </entry>
+
+	  <!-- @@@ IRON --> 
+          <entry>
+            <organizer classCode="CLUSTER" moodCode="EVN">
+              <templateId root="2.16.840.1.113883.10.20.22.4.1" extension="2015-08-01"></templateId>
+              <id extension="uri_CH-6819883-750" root="2.16.840.1.113883.5.83"></id>
+              <code code="UNK" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC"
+                    displayName="IRON"></code>
+              <statusCode code="completed"></statusCode>
+              <component>
+                <observation classCode="OBS" moodCode="EVN">
+                  <templateId root="2.16.840.1.113883.10.20.22.4.2"></templateId>
+                  <templateId root="2.16.840.1.113883.10.20.22.4.2"
+                              extension="2015-08-01"></templateId>
+                  <id extension="uri_CH-6819883-750" root="2.16.840.1.113883.5.83"></id>
+                  <code code="UNK" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC"
+                        displayName="IRON">
+                    <originalText>IRON</originalText>
+                  </code>
+                  <text mediaType="text/plain">
+                    <reference value="#uri_CH-6819883-750"></reference>
+                  </text>
+                  <statusCode code="completed"></statusCode>
+                  <effectiveTime value="20170607"></effectiveTime>
+                  <value unit="[arb&apos;U]" value="171"
+                         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="PQ"></value>
+                  <entryRelationship contextConductionInd="true" typeCode="REFR">
+                    <observation classCode="OBS" moodCode="EVN">
+                      <code code="48766-0" codeSystem="2.16.840.1.113883.6.1"
+                            codeSystemName="LOINC" displayName="Information source"></code>
+                      <statusCode code="completed"></statusCode>
+                      <value xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ST">
+                        Astronaut Network
+                      </value>
+                    </observation>
+                  </entryRelationship>
+                  <referenceRange typeCode="REFV">
+                    <observationRange classCode="OBS" moodCode="EVN.CRT">
+                      <text mediaType="text/plain" representation="TXT"></text>
+                      <value xsi:type="IVL_PQ">
+                        <low value="" unit="[arb&apos;U]"/>
+                        <high value="" unit="[arb&apos;U]"/>
+                      </value>
+                    </observationRange>
+                  </referenceRange>
+                </observation>
+              </component>
+            </organizer>
+          </entry>
+
+	  <!-- HCV Viral Load --> 
+          <entry>
+            <organizer classCode="CLUSTER" moodCode="EVN">
+              <templateId root="2.16.840.1.113883.10.20.22.4.1" extension="2015-08-01"></templateId>
+              <id extension="uri_CH-6819883-1002" root="2.16.840.1.113883.5.83"></id>
+              <code code="UNK" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC"
+                    displayName="HEPATITIS C RNA"></code>
+              <statusCode code="completed"></statusCode>
+              <component>
+                <observation classCode="OBS" moodCode="EVN">
+                  <templateId root="2.16.840.1.113883.10.20.22.4.2"></templateId>
+                  <templateId root="2.16.840.1.113883.10.20.22.4.2"
+                              extension="2015-08-01"></templateId>
+                  <id extension="uri_CH-6819883-1002" root="2.16.840.1.113883.5.83"></id>
+                  <code code="UNK" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC"
+                        displayName="HEPATITIS C RNA">
+                    <originalText>HEPATITIS C RNA</originalText>
+                  </code>
+                  <text mediaType="text/plain">
+                    <reference value="#uri_CH-6819883-1002"></reference>
+                  </text>
+                  <statusCode code="completed"></statusCode>
+                  <effectiveTime value="20170607"></effectiveTime>
+                  <value xsi:type="ST">&lt;15</value>
+                  <entryRelationship contextConductionInd="true" typeCode="REFR">
+                    <observation classCode="OBS" moodCode="EVN">
+                      <code code="48766-0" codeSystem="2.16.840.1.113883.6.1"
+                            codeSystemName="LOINC" displayName="Information source"></code>
+                      <statusCode code="completed"></statusCode>
+                      <value xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ST">
+                        Astronaut Network
+                      </value>
+                    </observation>
+                  </entryRelationship>
+                  <referenceRange typeCode="REFV">
+                    <observationRange classCode="OBS" moodCode="EVN.CRT">
+                      <text mediaType="text/plain" representation="TXT"></text>
+                      <value xsi:type="ST">TEXT</value>
+                    </observationRange>
+                  </referenceRange>
+                </observation>
+              </component>
+            </organizer>
+          </entry>
+
+	  <!-- HCV Genotype --> 
+          <entry>
+            <organizer classCode="CLUSTER" moodCode="EVN">
+              <templateId root="2.16.840.1.113883.10.20.22.4.1" extension="2015-08-01"></templateId>
+              <id extension="uri_CH-6819883-1002" root="2.16.840.1.113883.5.83"></id>
+              <code code="LP174046-5" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC"
+                    displayName="Hepatitis C virus genotype"></code>
+	      
+              <statusCode code="completed"></statusCode>
+              <component>
+                <observation classCode="OBS" moodCode="EVN">
+                  <templateId root="2.16.840.1.113883.10.20.22.4.2"></templateId>
+                  <templateId root="2.16.840.1.113883.10.20.22.4.2"
+                              extension="2015-08-01"></templateId>
+                  <id extension="uri_CH-6819883-1002" root="2.16.840.1.113883.5.83"></id>
+                  <code code="LP174046-5" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC"
+                        displayName="HCV Genotype">
+                    <originalText>HCV Genotype</originalText>
+                  </code>
+                  <statusCode code="completed"></statusCode>
+                  <effectiveTime value="20170607"></effectiveTime>
+                  <value xsi:type="ST">2</value>
+                  <entryRelationship contextConductionInd="true" typeCode="REFR">
+                    <observation classCode="OBS" moodCode="EVN">
+                      <code code="48766-0" codeSystem="2.16.840.1.113883.6.1"
+                            codeSystemName="LOINC" displayName="Information source"></code>
+                      <statusCode code="completed"></statusCode>
+                      <value xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ST">
+                        Astronaut Network
+                      </value>
+                    </observation>
+                  </entryRelationship>
+                  <referenceRange typeCode="REFV">
+                    <observationRange classCode="OBS" moodCode="EVN.CRT">
+                      <text mediaType="text/plain" representation="TXT"></text>
+                      <value xsi:type="ST">TEXT</value>
+                    </observationRange>
+                  </referenceRange>
+                </observation>
+              </component>
+            </organizer>
+          </entry>
+        </section>
+      </component>
+    </structuredBody>
+    </component>
+</ClinicalDocument>
